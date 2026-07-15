@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Monsters: Bestiary & Combat Guide",
+  description: "Master combat against the mound omen of cthulhu monsters. Learn weaknesses, behavior patterns, and team survival tactics in this Cthulhu co-op horror.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Monsters+and+Bestiary+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary threat**: Understanding the behaviors of **the mound omen of cthulhu monsters** is key to surviving expeditions.
+- **Sanity mechanics**: High stress and low sanity distort enemy appearances, turning allies into terrifying illusions.
+- **Combat strategy**: Prioritize quiet weapons like bows to avoid waking the jungle and attracting massive undead hordes.
+- **Perception check**: Always verify distant silhouettes with spatial voice chat before opening fire on potential friendlies.
+</Callout>
+
+<Section icon={Swords} title="The Mound Omen of Cthulhu Monsters Overview">
+
+Surviving the cursed jungles of *The Mound: Omen of Cthulhu* requires more than just raw firepower. The island reacts dynamically to your presence, meaning every gunshot, running sprint, or severed vine increases the local threat level. The hostile entities you encounter are divided into physical threats, reanimated guardians, and psychological horrors born from your decaying sanity.
+
+**Video Highlights:**
+- **Jungle Guardians**: How Y'm-bhi Sentries watch and stalk players to build stress.
+- **Undead Hordes**: The cost of making noise and triggering massive group attacks.
+- **Perception Distortions**: How sanity loss makes teammates look like hostile creatures.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+To survive expeditions, crews must learn to identify threats by their visual cues and auditory warning signs. The table below outlines the core hostile classifications you will face during contracts.
+
+| Monster Class | Threat Level | Primary Behavior | Common Weakness |
+|---|---|---|---|
+| **Y'm-bhi Sentries** | High | Stalks players, builds stress, repositions | Crucifix, bright light |
+| **Undead Wanderers** | Medium | Shambles in groups, drawn to noise | Headshots, melee weapons |
+| **Corrupted Explorers** | High | Aggressive hunting of former teammates | Rapid focused fire |
+| **False Teammates** | Special | Mimics player silhouettes to isolate targets | Spatial voice verification |
+| **Spectres** | Medium | Appears near the ox cart as sanity drops | Group cohesion, high sanity |
+
+<Callout type="warning" title="Sound Warning">
+Every physical monster in the jungle reacts to noise. Firing a musket might neutralize a single target, but the resulting sound can alert nearby Undead Wanderers, leading to an immediate squad wipe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stalking Threats: Y'm-bhi Sentries Guide">
+
+Y'm-bhi Sentries are the ancient, reanimated guardians of the jungle. Unlike standard undead, they do not always charge on sight. Instead, they test your distance, track your movements from the dense foliage, and actively build your stress levels.
+
+| Sentry Variant | Warning Signs | Special Rules | Counterplay |
+|---|---|---|---|
+| **Sentry Scout** | Whispers, glowing eyes | Retreats to pull players into ambushes | Use a crucifix to read stress levels |
+| **Lantern Sentry** | Flickering light, heavy steps | Immune to light-blinding tactics | Keep distance, use quiet bow shots |
+| **Fire Sentry** | Crackling wood, smoke | Can ignite itself and charge the squad | Finish quickly before it reaches melee |
+
+To deal with these intelligent predators, teams must coordinate their positioning and utilize specialized tools.
+
+<Steps>
+  <Step num="1" title="Scan with the Crucifix">
+    Equip your crucifix to detect hidden Y'm-bhi Sentries in the brush. The crucifix reveals their stress levels and helps you determine if they are preparing to retreat or strike.
+  </Step>
+  <Step num="2" title="Use Light as a Weapon">
+    Flash your oil lamp at standard Sentries to blind them temporarily. This interrupts their stalking behavior and creates an opening for a silent melee takedown.
+  </Step>
+  <Step num="3" title="Confirm the Kill">
+    Be aware that the living jungle can reanimate fallen Y'm-bhi bodies. Do not linger near defeated sentries, and move your ox cart away from the area immediately.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sentry Tactics">
+If a Y'm-bhi Sentry carries its own lantern, do not attempt to blind it with your oil lamp. The light source negates the blinding effect. Focus on ranged bow attacks instead.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Environmental and Psychological Horrors">
+
+The island itself is a living entity that weaponizes your mind against you. As your expedition group spends more time in the jungle, your collective sanity decays, introducing subjective threats that only specific players can see.
+
+<CardGrid cols={3}>
+  <Card title="The Living Jungle">
+    - **Thickening volumetric fog**
+    - Pulsing red flora and a red moon
+    - **Escalating enemy spawn rates**
+  </Card>
+  <Card title="False Teammates">
+    - **Mimics ally silhouettes**
+    - Lures players away from the cart
+    - **Disappears when closely inspected**
+  </Card>
+  <Card title="Spectres & Apparitions">
+    - **Haunts the ox cart route**
+    - Causes localized audio distortions
+    - **Requires group cohesion to dispel**
+  </Card>
+</CardGrid>
+
+Managing these illusions requires strict adherence to communication protocols.
+
+| Illusion Type | Visual Indicator | Auditory Cue | Correct Response |
+|---|---|---|---|
+| **Friendly Monster** | Ally appears as a monster | Distorted voice chat | Call out name, wait for voice reply |
+| **False Cart Horn** | Ghostly cart silhouette | Distant muffled horn | Check map, verify with cart defender |
+| **Bleeding Terrain** | Red ground, blood rain | Squelching footsteps | Let high-sanity players lead the way |
+
+<Callout type="success" title="Sanity Recovery">
+Staying close to the illuminated path of the oil lamp and keeping your squad in a tight formation are the most effective ways to slow down sanity decay and prevent visual hallucinations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Survival Checklist">
+
+Before leaving the Tempestad galleon, ensure your crew is fully prepared to handle both the physical monsters and the mental strains of the jungle.
+
+<Checklist
+  id="monster-survival-goals"
+  title="Pre-Expedition Checklist:"
+  items={[
+    "Assign one player as the dedicated quiet-combat scout with a bow",
+    "Distribute at least two oil lamps across different players",
+    "Establish a clear call-and-response protocol for visual confirmation",
+    "Agree on an immediate retreat trigger if sanity levels fracture",
+    "Keep the ox cart route clear of heavy foliage to prevent ambushes"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I stop the mound omen of cthulhu monsters from reanimating?",
+    answer: "Some monsters, particularly Y'm-bhi Sentries, can be reanimated by the living jungle. The best way to handle this is to avoid unnecessary combat entirely, complete your contract swiftly, and extract before the jungle's corruption level peaks."
+  },
+  {
+    question: "Can I use firearms like the flintlock musket against all monsters?",
+    answer: "While muskets offer massive stopping power, they are extremely loud and will attract nearby Undead Wanderers. Additionally, gunpowder weapons can fail completely during rainstorms. Keep a bow or a knife as a quiet, weather-proof backup."
+  },
+  {
+    question: "What should I do if a teammate looks like a monster?",
+    answer: "Do not fire immediately. Use spatial voice chat to ask for their position. If they respond and their location matches the silhouette, it is a sanity hallucination. If you fire, you will cause friendly damage and waste precious ammunition."
+  },
+  {
+    question: "How does the ox cart help against monsters?",
+    answer: "The ox cart acts as your mobile base. It stores your extra ammunition, supplies, and collected treasures. Keeping the cart nearby ensures you have quick access to resources when defending against sudden waves of undead."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Demo PS5: Setup-Anleitung & Tipps",
+  description: "Meistere die Demo von The Mound: Omen of Cthulhu auf der PS5 mit unserem Leitfaden zu Expeditionen, Waffen und dem Wahnsinnssystem. Veröffentlichung am 15. Juli 2026 für PS5 und PC.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/33C1A0?text=PS5+Expedition+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **The Mound: Omen of Cthulhu Demo PS5**: Das Spiel wurde offiziell am 15. Juli 2026 veröffentlicht und bietet ein hochriskantes Lovecraft-Extraction-Erlebnis.
+- **Kern-Gameplay-Loop**: Spieler müssen Verträge auswählen, den Ochsenkarren verwalten, Schätze sammeln und entkommen, bevor der Wahnsinn die Truppe verschlingt.
+- **Wahnsinnssystem**: Im Gegensatz zu traditionellen Horrorspielen gibt es keine HUD-Anzeige; der Wahnsinn äußert sich in privaten Halluzinationen und einer verzerrten Realität.
+- **Koop-Fokus**: Unterstützung für 1–4 Spieler mit räumlichem Sprachchat und Crossplay zwischen PC und Konsolen.
+- **Waffenmechanik**: Nutze epochengerechte Steinschlosswaffen und Bögen. Beachte dabei, dass Wetter und Lärm die Kampfeffizienz erheblich beeinflussen.
+</Callout>
+
+<Section icon={Map} title="The Mound: Omen of Cthulhu Demo PS5: Veröffentlichung und Editionen">
+
+Der offizielle Start von **The Mound: Omen of Cthulhu Demo PS5** und der Vollversion erfolgte am 15. Juli 2026. Entwickelt von ACE Team und veröffentlicht von Nacon, bringt dieser Titel eine einzigartige Mischung aus Erkundung des 16. Jahrhunderts und kosmischem Horror auf die PlayStation 5. Die PS5-Version nutzt die Hardware der Konsole, um dichte Dschungelumgebungen und volumetrischen Nebel darzustellen, die für die bedrohliche Atmosphäre des Spiels unerlässlich sind.
+
+Spieler auf der PS5 können zwischen der Standard und der Deluxe Edition wählen. Während das Kernspiel identisch bleibt, bietet die Deluxe Edition zusätzliche Inhalte wie exklusive Charaktere und thematische Ausrüstung. Die Mission „Tempel von Yig“ fügt zudem einen einzigartigen Vertrag hinzu, der die Hintergrundgeschichte des verfluchten Dschungels erweitert.
+
+| Feature | Standard Edition | Deluxe Edition | Details |
+| :--- | :--- | :--- | :--- |
+| **Basispreis** | 29,99 $ | 39,99 $ | Regionale Preise im PS Store können variieren |
+| **Spielbare Charaktere** | Basis-Kader | Glücksritter-Paket | Fügt zwei exklusive Entdecker-Modelle hinzu |
+| **Waffen-Skins** | Standard | Abgrund-Ausrüstungspaket | Cthulhu-thematische Skins für Musketen/Messer |
+| **Zusatzmission** | Nicht enthalten | Tempel von Yig | Exklusiver Expeditionsvertrag |
+| **Soundtrack** | Nicht enthalten | Digital enthalten | Offizielle Original-Musikdateien |
+| **Launch-Bonus** | Beanspruchbar | Beanspruchbar | Schwerter der verlorenen Entdecker (zeitlich begrenzt) |
+
+<Callout type="tip" title="PS5-Performance-Tipp">
+Stelle sicher, dass deine Konsole auf die neueste Firmware aktualisiert ist, um stabile Bildraten in den dichten Dschungelgebieten zu gewährleisten. Das Spiel setzt stark auf visuelle Klarheit, um Silhouetten im Nebel zu erkennen, weshalb konstante 60 FPS dringend empfohlen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Expeditions-Leitfaden für Anfänger">
+
+Jeder erfolgreiche Durchlauf in **The Mound: Omen of Cthulhu Demo PS5** folgt einer strengen prozeduralen Schleife. Du beginnst an Bord der Galeone *Tempestad*, wo du und deine Crew euch auf den bevorstehenden Albtraum vorbereiten. Das Ziel ist nicht nur zu überleben, sondern den Vertrag des Kapitäns zu erfüllen, indem ihr Schätze von bestimmtem Wert zurückbringt.
+
+<Steps>
+  <Step num="1" title="Vertrag auswählen">
+    Sprich mit dem Kapitän auf der Galeone. Überprüfe den geforderten Schatzwert und das Ziel. Anfänger sollten kürzere Routen wählen, um die Mechanik des Ochsenkarrens zu verstehen, bevor sie tiefere Dschungelvorstöße wagen.
+  </Step>
+  <Step num="2" title="Ausrüstungsverteilung">
+    Die Ausrüstung wird unter der Crew aufgeteilt. Lass nicht einen einzelnen Spieler alle Schusswaffen tragen. Weise Rollen zu: ein Späher mit Bogen, ein Navigator mit der Öllampe und ein Verteidiger mit einer Muskete.
+  </Step>
+  <Step num="3" title="Eskortiere den Ochsenkarren">
+    Der Ochsenkarren ist deine Lebensader. Er lagert deine Schätze und Ersatzvorräte. Du musst ihn manuell durch den Dschungel eskortieren. Wenn der Karren blockiert oder zerstört wird, sinken deine Chancen auf eine erfolgreiche Extraktion drastisch.
+  </Step>
+  <Step num="4" title="Lärm- und Stealth-Management">
+    Der Dschungel reagiert auf deine Anwesenheit. Rennen, das Abfeuern von Musketen und das Abholzen von Vegetation erhöhen die „Dschungelaktivität“. Bewege dich langsam und benutze nach Möglichkeit leise Waffen wie Bögen oder Messer.
+  </Step>
+  <Step num="5" title="Die Extraktions-Entscheidung">
+    Sobald du den benötigten Schatz hast, musst du dich entscheiden: Jetzt entkommen oder für optionale Relikte noch tiefer vordringen. Gier ist die Hauptursache für das Scheitern von Trupps in den späteren Phasen einer Expedition.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Kritische Warnung">
+Das Abfeuern einer Steinschlossmuskete ist laut genug, um untote Wanderer in der Nähe anzulocken. Benutze Schusswaffen nur als letzten Ausweg oder gegen hochgradig bedrohliche Ziele wie Y'm-bhi-Wächter.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Waffen und Ausrüstungs-Rangliste">
+
+In **The Mound: Omen of Cthulhu Demo PS5** entscheidet deine Ausrüstung über deine Überlebenschancen gegen physische und psychologische Bedrohungen. Epochengerechte Waffen laden langsam nach und sind anfällig für das Wetter, was jeden Schuss zu einer folgenschweren Entscheidung macht.
+
+| Waffe/Werkzeug | Tier | Hauptnutzen | Stärke | Schwäche |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bogen** | **S** | Stealth-Kampf | Leise, funktioniert im Regen, schnelles Nachladen | Erfordert präzises Zielen und freie Sicht |
+| **Öllampe** | **S** | Navigation | Enthüllt Pfade im Nebel/Dunkeln | Macht den Träger zu einem sichtbaren Ziel |
+| **Steinschloss** | **A** | Notfall-Power | Hoher Sofortschaden | Laut, versagt im Regen, langsames Nachladen |
+| **Messer** | **A** | Nahkampf-Backup | Lautlos, keine Munition erforderlich | Erfordert gefährliche Nähe |
+| **Medaillon** | **A** | Beute-Erkennung | Lokalisiert Tulu-Metall-Schätze | Klimperndes Geräusch lockt Monster an |
+| **Luntenschloss** | **B** | Schwerer Kampf | Starker Fernkampfschaden | Extrem langsam, unbrauchbar im Regen |
+
+<CardGrid cols={2}>
+  <Card title="Das Stealth-Build">
+    - **Primär**: Bogen für lautlose Kills.
+    - **Backup**: Messer für Begegnungen im Regen.
+    - **Hilfsmittel**: Medaillon zur Schatzsuche.
+    - **Strategie**: Fokus auf das Vermeiden von Kämpfen und das Sammeln von Beute.
+  </Card>
+  <Card title="Das Kampf-Build">
+    - **Primär**: Steinschlossmuskete.
+    - **Backup**: Schweres Schwert.
+    - **Hilfsmittel**: Öllampe für bessere Sicht.
+    - **Strategie**: Schütze den Ochsenkarren vor aggressiven Wellen von Untoten.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Wettermechaniken">
+Regen ist ein entscheidender Faktor im Kampf. Steinschloss- und Luntenschlosswaffen verwenden Schwarzpulver, das bei Nässe unbrauchbar wird. Stelle immer sicher, dass mindestens zwei Mitglieder deines Vierer-Trupps Bögen oder Nahkampfwaffen tragen, um plötzliche Stürme auszugleichen.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Sanität und das Wahnsinnssystem">
+
+Das innovativste Feature von **The Mound: Omen of Cthulhu Demo PS5** ist sein Ansatz für psychologischen Horror. Es gibt keine geistige Gesundheitsanzeige auf deinem Bildschirm. Stattdessen ist der Wahnsinn eine private Erfahrung. Was du siehst, sehen deine Teammitglieder vielleicht nicht, was zu Kommunikationsstörungen führt, die der Dschungel gnadenlos ausnutzt.
+
+**Häufige Halluzinationen und Verzerrungen:**
+- **Blutender Dschungel**: Die Umgebung färbt sich tiefrot und der Boden scheint zu pulsieren.
+- **Falsche Hörner**: Du hörst möglicherweise das Extraktionshorn oder den Hilferuf eines Teammitglieds aus der falschen Richtung.
+- **Teammitglied-Mimikry**: Eine freundliche Silhouette erscheint im Nebel, entpuppt sich jedoch als feindliche Entität oder reine Illusion.
+- **Blutregen**: Lokale Stürme, die nur von betroffenen Spielern gesehen werden können, schränken die Sicht ein und erzeugen scheinbare Umweltgefahren.
+
+<Callout type="success" title="Realitätsprüfungs-Protokoll">
+Wenn du etwas Ungewöhnliches siehst, nutze den räumlichen Sprachchat und frage deine Teammitglieder: „Seht ihr den roten Nebel vor uns?“ Wenn sie nein sagen, erlebst du eine Halluzination. Feuere deine Waffe erst ab, wenn ein „geistig gesunder“ Mitspieler das Ziel bestätigt.
+</Callout>
+
+<Checklist
+  id="sanity-management"
+  title="Wie man den Wahnsinn überlebt:"
+  items={[
+    "Bleibe in Reichweite des räumlichen Sprachchats deines Trupps",
+    "Überprüfe alle entfernten Silhouetten vor dem Schießen",
+    "Sammle dich am Ochsenkarren, wenn die Sicht abnimmt",
+    "Folge dem Teammitglied mit der klarsten Wahrnehmung",
+    "Ignoriere entfernte Hörner, es sei denn, der Navigator bestätigt sie"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Users} title="Strategien für Koop und Solospiel">
+
+Egal, ob du **The Mound: Omen of Cthulhu Demo PS5** allein oder mit einer vollen Vierer-Truppe spielst, das Spiel passt seinen Schwierigkeitsgrad und sein Ressourcenmanagement dynamisch an. Die Xbox- und PS5-Versionen unterstützen volles Crossplay, sodass du unabhängig von der Plattform Expeditionen mit Freunden starten kannst.
+
+| Feature | Solospiel | Online-Koop (2–4 Spieler) |
+| :--- | :--- | :--- |
+| **Schwierigkeit** | Hoch (Keine Wiederbelebungen) | Dynamisch (Skaliert mit Truppgröße) |
+| **Ressourcen** | Reichlich für einen | Müssen geteilt und aufgeteilt werden |
+| **Kommunikation** | Nicht erforderlich | Räumlicher Sprachchat ist essenziell |
+| **Realitätsprüfungen** | Unmöglich | Möglich durch verbale Bestätigung |
+| **Karren-Verteidigung** | Extrem schwierig | Einfacher mit aufgeteilten Rollen |
+
+<Callout type="tip" title="Tipp fürs Solo-Überleben">
+Im Solomodus ist der Bogen dein bester Freund. Da niemand deinen Rücken deckt, während du eine Muskete nachlädst, ist Stealth deine einzige verlässliche Verteidigung gegen die eskalierende Aktivität des Dschungels.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Bestiarium der Monster und Kampftaktiken">
+
+Der Dschungel wird von Kreaturen bewohnt, die oft ebenso verwirrt und korrumpiert sind wie die Entdecker selbst. Das Verständnis ihres Verhaltens ist der Schlüssel zur Schonung deiner begrenzten Munition und Gesundheit.
+
+- **Y'm-bhi-Wächter**: Dies sind wiederbelebte Wächter. Sie greifen nicht immer sofort an; manchmal beobachten sie dich nur vom Waldrand aus, um deinen Stresspegel zu erhöhen. Nutze ein Kruzifix, um ihre Absichten zu prüfen.
+- **Untote Wanderer**: Die häufigste Bedrohung. Sie sind langsam, können aber den Ochsenkarren überrennen, wenn sie in Scharen auftreten.
+- **Korrupte Entdecker**: Wenn ein Teammitglied stirbt und nicht wiederbelebt wird, kehrt es möglicherweise als feindlicher NPC zurück, der deine eigenen Taktiken gegen dich anwendet.
+- **Der Lebendige Dschungel**: Kein einzelnes Monster, sondern ein Umweltzustand, in dem die Flora aggressiv wird und die Sicht fast auf Null sinkt.
+
+<Callout type="warning" title="Sonderregeln für Feinde">
+Das Töten eines Y'm-bhi ist nicht immer von Dauer. Wenn die „Dschungelaktivität“ hoch ist, kann der Wald die Leiche Minuten nach deinem Weitergehen wiederbeleben. Bleibe nach einem Gefecht immer in Bewegung.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="FAQ: The Mound: Omen of Cthulhu Demo PS5">
+
+<FAQ items={[
+  {
+    question: "Gibt es eine kostenlose Demo für The Mound: Omen of Cthulhu auf der PS5?",
+    answer: "Das Spiel wurde am 15. Juli 2026 veröffentlicht. Während vor dem Launch Events mit einer Demo stattfanden, sollten Spieler im PlayStation Store nach aktuellen Testversionen ('Trial') oder der Standard Edition suchen."
+  },
+  {
+    question: "Unterstützt das Spiel Crossplay zwischen PS5 und PC?",
+    answer: "Ja, The Mound: Omen of Cthulhu unterstützt Crossplay zwischen PS5, Xbox Series X|S und PC, was nahtlose Koop-Expeditionen für bis zu 4 Spieler ermöglicht."
+  },
+  {
+    question: "Wie funktioniert das Wahnsinnssystem im Koop-Modus?",
+    answer: "Jeder Spieler erlebt Halluzinationen individuell. Ein Spieler sieht vielleicht ein Monster, das gar nicht existiert, während ein anderer einen freien Weg sieht. Absprache ist nötig, um herauszufinden, was real ist."
+  },
+  {
+    question: "Was passiert, wenn der Ochsenkarren zerstört wird?",
+    answer: "Wenn der Ochsenkarren verloren geht, verlierst du deine wichtigste Methode zum Transportieren großer Schatzmengen und zusätzlicher Ausrüstung. Du kannst zwar immer noch entkommen, aber deine Belohnungen fallen deutlich geringer aus."
+  }
+]} />
+
+</Section>

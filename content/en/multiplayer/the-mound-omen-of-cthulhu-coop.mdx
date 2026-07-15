@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Coop: Squad Survival Guide",
+  description: "Master the 4-player cooperative mechanics in The Mound: Omen of Cthulhu. Learn squad roles, communication protocols, and sanity management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Co-op+Survival+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Master **the mound omen of cthulhu coop** systems to survive cursed jungle expeditions.
+- **Squad Size**: Supports **1 to 4 players** with cross-platform cooperative play.
+- **Key Mechanic**: Spatial voice chat changes volume and direction based on your physical distance.
+- **Survival Rule**: Maintain strict communication to verify teammate identities and manage shared sanity.
+- **Best Practice**: Divide essential tools across the team instead of stacking one explorer.
+</Callout>
+
+<Section icon={Shield} title="Co-op Systems and Crossplay Overview">
+
+The core loop of **the mound omen of cthulhu coop** demands absolute coordination among your expedition crew. When entering the cursed jungles of the island, players must work together to protect their shared ox cart, recover valuable Tulu metal, and secure extraction back to the Tempestad galleon. The game features full cross-platform multiplayer, allowing explorers on PC, PlayStation 5, and Xbox Series X|S to form unified squads.
+
+| Feature | Platform Support | Practical Application |
+|:---|:---|:---|
+| **Crossplay** | PC, PS5, Xbox Series X|S | Form squads across all systems using in-game lobby codes. |
+| **Squad Size** | 1 to 4 Players | Scale difficulty from solo challenges to full four-player expeditions. |
+| **Voice Chat** | Spatialized Audio | Communication volume drops and shifts direction based on distance. |
+| **Progression** | Shared Contracts | Completed captain contracts advance the entire party's standing. |
+
+Spatial audio is not just a cosmetic feature; it is a critical survival mechanic. If a teammate moves too far away into the dense jungle fog, their voice will fade, leaving them isolated and highly vulnerable to the psychological horrors of the island.
+
+<Callout type="warning" title="Distance Warning">
+Never let an explorer wander out of spatial voice range. Separated players cannot verify hallucinations, making them a liability to themselves and the remaining squad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Squad Roles and Loadout Distribution">
+
+Success in **the mound omen of cthulhu coop** requires clear division of labor. The captain aboard the galleon does not supply a full personal kit for every explorer. Instead, resources are limited, forcing the crew to specialize their loadouts before rowboats touch the shoreline. 
+
+<CardGrid cols={4}>
+  <Card title="The Navigator">
+    - **Primary Tool**: Compass/Map
+    - Tracks landmarks
+    - Locates fort logbooks
+    - Leads the extraction route
+  </Card>
+  <Card title="The Vanguard">
+    - **Primary Tool**: Bow/Sword
+    - Handles quiet combat
+    - Clears path vegetation
+    - Preserves firearm ammo
+  </Card>
+  <Card title="The Support">
+    - **Primary Tool**: Oil Lamp
+    - Maintains group visibility
+    - Spots hidden traps
+    - Illuminates dark ruins
+  </Card>
+  <Card title="The Cart Defender">
+    - **Primary Tool**: Musket
+    - Guards the ox cart
+    - Controls heavy threats
+    - Manages shared storage
+  </Card>
+</CardGrid>
+
+When organizing your loadout, balance silent utility with emergency firepower. Standard period firearms like the flintlock and matchlock muskets are devastating but incredibly loud, drawing unwanted attention from the living jungle.
+
+| Equipment | Category | Wet Weather | Noise Level | Recommended Role |
+|:---|:---|:---|:---|:---|
+| **Bow** | Ranged | Fully Functional | Silent | Vanguard / Scout |
+| **Flintlock** | Firearm | Misfires in Rain | Extremely Loud | Cart Defender |
+| **Matchlock** | Firearm | Misfires in Rain | Extremely Loud | Heavy Combat |
+| **Knife** | Melee | Fully Functional | Silent | All Explorers (Backup) |
+| **Oil Lamp** | Utility | Flickers in Rain | Silent | Support / Navigator |
+
+<Callout type="tip" title="Rain Protocol">
+Always check the weather before pulling the trigger. If rain begins, immediately swap your flintlock musket for a bow or knife, as wet gunpowder renders firearms completely useless.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Expedition Guide">
+
+Every cooperative expedition follows a strict operational loop. Deviating from this sequence or letting greed dictate your actions will quickly lead to a total squad wipe.
+
+<Steps>
+  <Step num="1" title="Select the Captain's Contract">
+    Board the Tempestad galleon and select a contract. Review the required treasure value and destination parameters. Agree as a squad on the exact conditions that will trigger an early retreat.
+  </Step>
+  <Step num="2" title="Distribute the Shared Gear">
+    Divide weapons, lamps, and utility items. Ensure the Navigator has clear visibility tools, while the Vanguard carries silent weaponry like the bow to handle early-stage patrol encounters.
+  </Step>
+  <Step num="3" title="Escort the Ox Cart">
+    Row ashore and establish a perimeter around the ox cart. The cart serves as your mobile vault and supply cache. Keep the immediate path clear of thick vegetation and never leave the cart completely unattended.
+  </Step>
+  <Step num="4" title="Secure the Minimum Haul First">
+    Focus entirely on reaching the contract's baseline treasure value. Deposit recovered relics directly into the cart. Do not wander into optional high-threat ruins until the primary objective is locked in.
+  </Step>
+  <Step num="5" title="Execute the Extraction Decision">
+    Monitor environmental escalation indicators. If fog thickens, red vegetation pulses, or ammo runs low, immediately begin the retreat back to the shoreline to preserve your progression and rewards.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progression Tip">
+Prioritize recovering logbooks from abandoned jungle forts. These documents permanently unlock new starting locations for subsequent expeditions, reducing travel times on harder contracts.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Co-op Sanity and Verification Protocols">
+
+The true enemy in **the mound omen of cthulhu coop** is not the physical monsters, but the distortion of your own senses. The game features no sanity bars or HUD indicators. Instead, madness manifests privately for each explorer, attacking team trust and communication.
+
+| Hallucination Type | Visual/Auditory Effect | Squad Impact | Verification Protocol |
+|:---|:---|:---|:---|
+| **Blood Rain** | Localized red storm | Distorts terrain visibility | Ask nearby teammates to confirm current weather. |
+| **False Horn** | Distant extraction signal | Lures players into ambushes | Confirm cart coordinates before moving toward sound. |
+| **Monster Silhouette** | Teammate looks like beast | Triggers friendly fire | Call out location and wait for voice response. |
+| **Imposter Figure** | False explorer in fog | Leads players away from crew | Use spatial voice chat to verify speaker position. |
+
+When an explorer's sanity fractures, they can no longer trust what they see or hear. In these moments, the affected player must surrender navigation decisions to a stable teammate.
+
+<Callout type="warning" title="Imposter Threat">
+If you spot a teammate standing silently in the fog who does not respond to spatial voice chat, do not approach them. It is highly likely a perception-based imitation designed to ambush you.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cooperative Survival Checklist">
+
+Use this checklist to prepare your squad before launching your next contract into the cursed jungle.
+
+<Checklist
+  id="coop-readiness"
+  title="Pre-Departure Checklist:"
+  items={[
+    "Confirm all players have joined the lobby and crossplay is enabled.",
+    "Assign at least one dedicated bow user for silent target elimination.",
+    "Distribute light sources so that a single death does not leave the squad in total darkness.",
+    "Agree on a simple call-and-response phrase to verify identities in dense fog.",
+    "Set a strict ammunition threshold that triggers an automatic squad retreat."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does the spatial voice chat work in the mound omen of cthulhu coop?",
+    answer: "The game utilizes proximity-based spatial audio. As you move away from your teammates, their voices grow quieter and shift directionally. If you are separated by thick fog or terrain, communication becomes completely impossible, making it easier for madness to mimic your squadmates."
+  },
+  {
+    question: "Can we play the coop mode with only two or three players?",
+    answer: "Yes, the game scales its challenges for squads of two, three, or four players. You can also play completely solo, though you must carry a highly balanced loadout since there are no teammates to watch your back or protect the ox cart."
+  },
+  {
+    question: "What happens if a teammate dies during an expedition?",
+    answer: "If an explorer is downed, they must be revived promptly. If left unattended, they will succumb to corruption and reanimate as a hostile Corrupted Explorer, which will actively hunt the surviving members of the squad."
+  },
+  {
+    question: "Is there crossplay support for PC and console players?",
+    answer: "Yes, full crossplay is supported between PC, PlayStation 5, and Xbox Series X|S. You can invite players from other platforms using unique session codes generated in the main lobby."
+  }
+]} />
+
+</Section>

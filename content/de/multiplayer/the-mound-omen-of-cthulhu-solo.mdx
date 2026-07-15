@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Eye, Ghost } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Solo: Überlebenshandbuch & Beste Loadouts",
+  description: "Meistere Solo-Expeditionen in The Mound: Omen of Cthulhu. Lerne wichtige Überlebensstrategien, Sanitätsmanagement und historisch korrekte Ausrüstungen für einsame Entdecker.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/090C0B/33C1A0?text=Solo+Survival+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Das Solo-Spiel in **The Mound: Omen of Cthulhu** ist eine hochriskante Herausforderung, die ein ausgewogenes Loadout und extreme Lärmdisziplin erfordert.
+- Das **Sanitätsmanagement (Geistige Gesundheit)** ist von entscheidender Bedeutung, da Solo-Spieler keine Teammitglieder haben, um zu überprüfen, ob Umweltveränderungen oder Geräusche real oder Halluzinationen sind.
+- **Schleichen und Bögen** sind deine besten Freunde; laute Schusswaffen sollten aufgrund ihrer langsamen Nachladezeiten und des Lärms nur für lebensbedrohliche Notfälle aufgespart werden.
+- Die **Extraktionspriorität** sollte sich immer zuerst auf den primären Vertragswert konzentrieren, bevor versucht wird, optionale verfluchte Relikte zu bergen.
+- Die **Berücksichtigung des Wetters** ist zwingend erforderlich, da Regen Luntenschloss- und Steinschlossmusketen unzuverlässig macht und einen Wechsel zu Nahkampf oder Bögen erzwingt.
+</Callout>
+
+<Section icon={Map} title="Die Solo-Erfahrung in The Mound: Omen of Cthulhu meistern">
+
+Als einsamer Entdecker die verfluchten Dschungel von *The Mound: Omen of Cthulhu* zu betreten, unterscheidet sich grundlegend vom standardmäßigen Koop-Erlebnis mit vier Spielern. Ohne eine Truppe, die dir den Rücken freihält oder hilft, den Ochsenkarren zu schieben, wiegt jede Entscheidung – von der Wahl des Vertrags bis hin zum Pfad, den du dir durch das Dickicht bahnst – deutlich schwerer. Das Solo-Spiel erfordert die Beherrschung der Kernsysteme des Spiels: Lärmkontrolle, Erhalt der geistigen Gesundheit und Ressourcenmanagement.
+
+**Video-Highlights:**
+- Übersicht über die Extraktionsschleife und die Vertragsauswahl.
+- Demonstration der visuellen Verzerrungen des Sanitätssystems.
+- Kampfmechaniken mit historisch korrekten Steinschlosswaffen.
+- Die Bedeutung des Ochsenkarrens als mobile Operationsbasis.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Solo-Expeditionen sind nicht nur ein Test der Kampffertigkeiten, sondern auch ein Test der psychologischen Ausdauer. Da dem Spiel ein traditionelles HUD für die geistige Gesundheit fehlt, musst du dich auf deine eigenen Sinne verlassen, um festzustellen, ob die „blutenden Bäume“ oder die fernen Hornrufe echte Bedrohungen oder Produkte deines bröckelnden Verstandes sind.
+
+<Callout type="tip" title="Strategischer Einstieg">
+Wähle im Solo-Spiel für deine ersten Durchgänge immer Verträge mit „Niedriger Intensität“. Dies ermöglicht es dir, die Küstenlinie zu kartografieren und verlassene Forts zu finden, was dauerhaft neue Startpunkte für zukünftige, schwierigere Expeditionen freischaltet.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solo-Überlebensmechaniken und Lärmkontrolle">
+
+In *The Mound: Omen of Cthulhu* reagiert die Umwelt auf deine Anwesenheit. Laute Geräusche, wie das Sprinten durch das Gebüsch oder das Abfeuern einer Muskete, ziehen die Aufmerksamkeit von Y'm-bhi-Wachen und anderen untoten Schrecken auf sich. Für einen Solo-Spieler ist es oft ein Todesurteil, umzingelt zu werden, da dir die Feuerrate fehlt, um mehrere Winkel gleichzeitig zu sichern.
+
+| Mechanik | Solo-Auswirkung | Team-Auswirkung | Strategie |
+| :--- | :--- | :--- | :--- |
+| **Lärmpegel** | **Kritisch** / Lockt Gegner zu deiner einsamen Position | **Moderat** / Geteilte Aggro auf 4 Spieler | Nutze geducktes Gehen in der Nähe von Ruinen |
+| **Ochsenkarren** | **Manuell** / Muss alleine verteidigt und bewegt werden | **Verteilt** / Ein Spieler bewacht, andere plündern | Beute alle 5 Minuten ablegen |
+| **Geistige Gesundheit** | **Tödlich** / Niemand da, um Halluzinationen zu überprüfen | **Handhabbar** / Trupp kann Bedrohungen bestätigen | Rückzug, wenn sich der Bildschirm rot färbt |
+| **Wiederbelebungen** | **Keine** / Tod führt zum sofortigen Scheitern | **Hoch** / Teammitglieder können gefallene Spieler wiederbeleben | Trage zusätzliche Heilsalben bei dir |
+
+Der Ochsenkarren ist deine Lebensader. Er lagert deine Schätze und Ersatzausrüstung. Als Solo-Spieler darfst du ihn jedoch nicht lange unbeaufsichtigt lassen. Wenn du dich zu weit in eine Ruine wagst, kann sich der Dschungel den Karren zurückholen oder Gegner spawnen lassen, die dich bei deiner Rückkehr auflauern.
+
+<Callout type="warning" title="Risiko von Schusswaffen">
+Das Abfeuern einer Steinschlossmuskete ist nicht nur eine Kampfentscheidung, es ist ein Leuchtfeuer. Der Ton ist im Dschungel aus großer Entfernung zu hören. Schieße nur, wenn du einen freien Fluchtweg hast oder wenn das Ziel ein Y'm-bhi mit hoher Bedrohung ist, der dich bereits entdeckt hat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Solo-Loadouts und Ausrüstungsstufen">
+
+Da du Rollen wie „Navigator“ oder „Kampfspezialist“ nicht unter Teammitgliedern aufteilen kannst, muss dein Solo-Loadout vielseitig sein. Du benötigst eine Mischung aus leisen Fernkampfoptionen, Notfall-Stoppkraft und zuverlässiger Beleuchtung. Das Wettersystem fügt eine weitere Ebene der Komplexität hinzu; Schwarzpulverwaffen sind während der im Spiel üblichen tropischen Regengüsse notorisch unzuverlässig.
+
+<CardGrid cols={3}>
+  <Card title="Der stille Jäger">
+    - **Primär:** Bogen (Leise, regenfest)
+    - **Sekundär:** Messer (Nahbereich)
+    - **Hilfsmittel:** Öllampe
+    - **Fokus:** Schleichen und Ressourcensammeln
+  </Card>
+  <Card title="Der schwere Entdecker">
+    - **Primär:** Steinschlossmuskete (Hoher Schaden)
+    - **Sekundär:** Schwert (Defensiv)
+    - **Hilfsmittel:** Schatzmedaillon
+    - **Fokus:** Kampf und Fort-Säuberung
+  </Card>
+  <Card title="Der ausgewogene Späher">
+    - **Primär:** Luntenschlossmuskete
+    - **Sekundär:** Bogen (Ersatz)
+    - **Hilfsmittel:** Kompass/Logbuch
+    - **Fokus:** Erkundung und Kartierung
+  </Card>
+</CardGrid>
+
+Bögen sind wohl das wichtigste Werkzeug für den **The Mound: Omen of Cthulhu Solo**-Spieler. Sie bieten eine lautlose Möglichkeit, untote Wanderer auszudünnen, ohne die gesamte Zone zu alarmieren. Darüber hinaus funktionieren sie im Regen perfekt, im Gegensatz zu den Musketen, die bei Feuchtigkeit versagen können.
+
+| Waffentyp | Lärmpegel | Regen-Zuverlässigkeit | Nachladegeschwindigkeit | Am besten geeignet für |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bogen** | **Sehr niedrig** | **100%** / Unbeeinflusst | **Schnell** | Lautlose Kills / Regen-Kampf |
+| **Messer** | **Lautlos** | **100%** / Unbeeinflusst | **N/A** | Erledigen am Boden liegender Gegner |
+| **Steinschloss** | **Sehr hoch** | **Niedrig** / Fehlzündungsrisiko | **Sehr langsam** | Bosse / Paniksituationen |
+| **Luntenschloss** | **Hoch** | **Sehr niedrig** / Nutzlos im Regen | **Langsam** | Verteidigung auf mittlere Distanz |
+
+<Callout type="success" title="Loadout-Optimierung">
+Wenn du die Deluxe Edition besitzt, ändern die Skins der **Abgrund-Ausrüstung** zwar nicht die Werte, aber die dunklere Farbpalette der Abgrund-Öllampe kann dein visuelles Profil in dunklen Ruinen im Vergleich zur standardmäßigen hellen Messinglampe leicht reduzieren.
+</Callout>
+
+</Section>
+
+<Section icon={Eye} title="Geistige Gesundheit und Halluzinationen alleine bewältigen">
+
+Der furchterregendste Aspekt des Solo-Spiels ist das Sanitätssystem. Im Koop-Modus kannst du einen Freund fragen: „Siehst du das Monster da drüben am Baum?“ Im Solo-Modus musst du, wenn du ein Monster siehst, selbst entscheiden, ob es eine physische Bedrohung oder eine Halluzination ist. Deine begrenzte Munition an ein Phantom zu verschwenden, kann dich schutzlos zurücklassen, wenn ein echter Y'm-bhi angreift.
+
+**Häufige Solo-Halluzinationen:**
+- **Falsche Hörner:** Das Horn des Ochsenkarrens hören, obwohl er sich nicht bewegt hat.
+- **Schattenfiguren:** Teammitglieder sehen, die nicht da sind, was dich in Fallen lockt.
+- **Umweltveränderungen:** Der Boden scheint zu pulsieren oder die Farbe zu ändern.
+- **Blutregen:** Lokalisierte Wettereffekte, die die Sicht einschränken, aber nicht „echt“ sind.
+
+<Checklist
+  id="sanity-check-solo"
+  title="Protokoll zur Solo-Realitätsprüfung:"
+  items={[
+    "Halte inne und achte auf die Konsistenz des räumlichen Audios",
+    "Überprüfe die physische Position des Ochsenkarrens auf deinem Kompass",
+    "Benutze ein Kruzifix, um das wahre Stressniveau von Wesen in der Nähe zu enthüllen",
+    "Ziehe dich in einen beleuchteten Bereich zurück, wenn sich die Farben stark verzerren",
+    "Vermeide es, auf Silhouetten zu schießen, die sich nicht auf dich zubewegen"
+  ]}
+/>
+
+Ohne einen Teamkollegen, der dich anleitet, musst du dein eigener Anker werden. Wenn du das Gefühl hast, dass deine geistige Gesundheit schwindet – erkennbar daran, dass sich die Ränder des Bildschirms verdunkeln oder das Flüstern lauter wird –, höre sofort auf zu plündern und mache dich auf den Weg zu deinem Extraktionspunkt. Das Risiko eines „Trupp-Verlusts“ (selbst als Solo-Spieler) steigt exponentiell an, je mehr deine Wahrnehmung zerbricht.
+
+<Callout type="info" title="Nutzen des Kruzifixes">
+Das Kruzifix ist nicht nur Zierde; es ist ein Diagnosewerkzeug. Wenn du es bei einer Kreatur anwendest, zeigt es deren Stresslevel an. Wenn die Kreatur nicht auf das Kruzifix reagiert, ist die Wahrscheinlichkeit hoch, dass es sich um eine Halluzination handelt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung für die Solo-Extraktionsschleife">
+
+Um im Solo-Modus von **The Mound: Omen of Cthulhu** erfolgreich zu sein, musst du einer disziplinierten Schleife folgen. Gier ist die Hauptursache für gescheiterte Expeditionen. Zu wissen, wann man mit einer unvollständigen Beute abziehen sollte, ist besser, als alles an den Dschungel zu verlieren.
+
+<Steps>
+  <Step num="1" title="Vertrag & Ausrüstung">
+    Wähle einen Vertrag auf der Galeone aus. Priorisiere im Solo-Spiel „Ressourcenrückgewinnung“ gegenüber „Kopfgeldjagd“. Rüste einen Bogen, ein Messer und reichlich Wasser aus.
+  </Step>
+  <Step num="2" title="Infiltration der Küstenlinie">
+    Betrete den Dschungel langsam. Bringe den Ochsenkarren an einen zentralen, versteckten Ort in der Nähe des Strandes. Ziehe ihn nicht in dichte Vegetation, wo er leicht eingekesselt werden kann.
+  </Step>
+  <Step num="3" title="Heimliches Plündern">
+    Erkunde Ruinen und nutze deinen Bogen, um Wachen lautlos auszuschalten. Sammle zuerst den erforderlichen Schatzwert. Wenn du ein Fort-Logbuch findest, priorisiere es, da es neue Spawns freischaltet.
+  </Step>
+  <Step num="4" title="Erhalt der geistigen Gesundheit">
+    Kehre alle 10 Minuten zum Karren zurück und ruhe dich kurz aus. Wenn die Umgebung anfängt „falsch“ auszusehen, beende die Suche und bereite dich auf die Extraktion vor.
+  </Step>
+  <Step num="5" title="Sichere Extraktion">
+    Sobald der Vertrag erfüllt ist, bringe den Karren zurück zur Galeone. Wirf keinen „letzten Blick“ in eine nahegelegene Ruine; die Aggressivität des Dschungels skaliert mit der Zeit.
+  </Step>
+</Steps>
+
+| Ressource | Priorität | Solo-Wert | Extraktions-Tipp |
+| :--- | :--- | :--- | :--- |
+| **Vertragsschatz** | **Hoch** | Erforderlich für den Fortschritt | Sofort in den Karren laden |
+| **Fort-Logbücher** | **Hoch** | Schaltet neue Kartenpunkte frei | Im Inventar behalten (nicht fallen lassen) |
+| **Verfluchte Relikte** | **Mittel** | Viel Gold / Hoher Sanitätsverlust | Nur mitnehmen, wenn geistige Gesundheit > 80% ist |
+| **Fleisch/Wasser** | **Mittel** | Lebensnotwendig zum Überleben | Nach dem Beutezug auf dem Schiff verarbeiten |
+
+<Callout type="tip" title="Fort-Fortschritt">
+Das Finden und Interagieren mit Logbüchern in verlassenen Forts ist der beste Weg, um das Solo-Spiel im Laufe der Zeit einfacher zu machen. Das Freischalten eines Startpunkts näher an den wertvollen Ruinen verkürzt die Zeit, die du ungeschützt im offenen Dschungel verbringst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solo-Spiel FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist das Solo-Spiel in The Mound: Omen of Cthulhu schwerer als der Koop-Modus?",
+    answer: "Ja, erheblich. Es fehlen dir die Möglichkeit zur Wiederbelebung, die Rollenspezialisierung und die Möglichkeit der Realitätsprüfung bei Halluzinationen durch Mitspieler. Es gilt als der Hardcore-Modus des Spiels."
+  },
+  {
+    question: "Kann ich alle Verträge alleine abschließen?",
+    answer: "Die meisten Verträge sind solo machbar, aber hochrangige Kopfgeldmissionen, die mehrere große Monster beinhalten, sind ohne eine Truppe, die die Ziele ablenkt, extrem schwierig."
+  },
+  {
+    question: "Was ist die beste Waffe für einen Solo-Spieler?",
+    answer: "Der Bogen ist die beste Allround-Waffe. Er ist leise, funktioniert bei allen Wetterbedingungen und ermöglicht präzise Kills aus der Distanz, was für die Aufrechterhaltung der Tarnung unerlässlich ist."
+  },
+  {
+    question: "Skaliert das Spiel den Schwierigkeitsgrad für Solo-Spieler?",
+    answer: "Während die Gesundheit der Gegner leicht angepasst sein kann, bleiben die Anzahl der Bedrohungen und die Sanitätsmechaniken identisch mit der Koop-Erfahrung, was das Solo-Spiel sehr unerbittlich macht."
+  }
+]} />
+
+</Section>

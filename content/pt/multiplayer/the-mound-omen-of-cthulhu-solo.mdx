@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Eye, Ghost } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Solo: Guia de Sobrevivência e Melhores Equipamentos",
+  description: "Domine as expedições solo em The Mound: Omen of Cthulhu. Aprenda estratégias essenciais de sobrevivência, gerenciamento de sanidade e equipamentos históricos adequados para exploradores solitários.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/090C0B/33C1A0?text=Solo+Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu solo, sobrevivência solo, guia, equipamentos, sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O jogo **solo em The Mound: Omen of Cthulhu** é um desafio de alto risco que exige um equipamento equilibrado e extrema disciplina de ruído.
+- O **Gerenciamento de Sanidade** é crítico, pois os jogadores solo não têm companheiros de equipe para verificar se as mudanças ambientais ou os sons são reais ou alucinações.
+- **Furtividade e Arcos** são seus melhores amigos; armas de fogo barulhentas devem ser reservadas para emergências de vida ou morte devido à sua recarga lenta e ruído.
+- A **Prioridade de Extração** deve sempre focar primeiro no valor do contrato principal antes de tentar saquear relíquias amaldiçoadas opcionais.
+- A **Atenção ao Clima** é obrigatória, já que a chuva torna os mosquetes de mecha e de pederneira não confiáveis, forçando a mudança para combate corpo a corpo ou arcos.
+</Callout>
+
+<Section icon={Map} title="Dominando a Experiência Solo em The Mound: Omen of Cthulhu">
+
+Entrar nas selvas amaldiçoadas de *The Mound: Omen of Cthulhu* como um explorador solitário é fundamentalmente diferente da experiência cooperativa padrão de quatro jogadores. Sem um esquadrão para proteger suas costas ou ajudar a empurrar o carro de boi, cada decisão — desde o contrato que você seleciona até o caminho que abre pela folhagem — carrega significativamente mais peso. O jogo solo exige o domínio dos sistemas centrais do jogo: controle de ruído, preservação da sanidade e gerenciamento de recursos.
+
+**Destaques do Vídeo:**
+- Visão geral do ciclo de extração e seleção de contratos.
+- Demonstração das distorções visuais do sistema de sanidade.
+- Mecânicas de combate apresentando armas de pederneira historicamente precisas.
+- A importância do carro de boi como uma base móvel de operações.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="Visão Geral da Jogabilidade de The Mound: Omen of Cthulhu" />
+
+As expedições solo não são apenas um teste de habilidade de combate, mas um teste de resistência psicológica. Como o jogo carece de uma interface (HUD) tradicional para a sanidade, você deve confiar em seus próprios sentidos para determinar se as "árvores sangrando" ou os chamados de trombeta distantes são ameaças reais ou produtos de sua mente fragmentada.
+
+<Callout type="tip" title="Entrada Estratégica">
+Ao jogar solo, sempre escolha os contratos de \"Baixa Intensidade\" em suas primeiras rodadas. Isso permite mapear a costa e localizar fortes abandonados, que desbloqueiam permanentemente novos locais de partida para futuras expedições mais difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Sobrevivência Solo e Controle de Ruído">
+
+Em *The Mound: Omen of Cthulhu*, o ambiente reage à sua presença. Ruídos altos, como correr pela vegetação ou disparar um mosquete, atraem a atenção das sentinelas Y'm-bhi e de outros horrores mortos-vivos. Para um jogador solo, ser cercado é frequentemente uma sentença de morte, pois você não tem a cadência de tiro necessária para suprimir múltiplos ângulos simultaneamente.
+
+| Mecânica | Impacto Solo | Impacto em Equipe | Estratégia |
+| :--- | :--- | :--- | :--- |
+| **Nível de Ruído** | **Crítico** / Atrai inimigos para sua posição solitária | **Moderado** / Agressividade compartilhada entre 4 jogadores | Use o caminhar agachado perto de ruínas |
+| **Carro de Boi** | **Manual** / Deve defender e movê-lo sozinho | **Distribuído** / Um jogador protege, outros saqueiam | Deposite o saque a cada 5 minutos |
+| **Sanidade** | **Fatal** / Ninguém para verificar a realidade das alucinações | **Gerenciável** / Esquadrão pode confirmar ameaças | Recue se a tela ficar vermelha |
+| **Ressurreições** | **Nenhuma** / A morte resulta em falha imediata | **Alta** / Companheiros podem reviver jogadores caídos | Carregue cataplasmas de cura extras |
+
+O carro de boi é a sua tábua de salvação. Ele armazena seu tesouro e equipamentos sobressalentes. No entanto, como jogador solo, você não pode deixá-lo desatendido por muito tempo. Se você se afastar demais em uma ruína, a selva pode reivindicar o carro ou gerar inimigos para emboscar você no seu retorno.
+
+<Callout type="warning" title="Riscos das Armas de Fogo">
+Disparar um mosquete de pederneira não é apenas uma escolha de combate; é um sinalizador. O som pode ser ouvido de vastas distâncias na selva. Só atire se tiver um caminho livre para recuar ou se o alvo for um Y'm-bhi de alta ameaça que já o detectou.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Equipamentos Solo e Níveis de Itens">
+
+Como você não pode dividir funções como \"Navegador\" ou \"Especialista em Combate\" entre companheiros de equipe, seu equipamento solo deve ser versátil. Você precisa de uma mistura de opções de longo alcance silenciosas, poder de parada de emergência e iluminação confiável. O sistema climático adiciona outra camada de complexidade; armas de pólvora são notoriamente não confiáveis durante as tempestades tropicais comuns no jogo.
+
+<CardGrid cols={3}>
+  <Card title="O Perseguidor Silencioso">
+    - **Primária:** Arco (Silencioso, à prova de chuva)
+    - **Secundária:** Faca (Curto alcance)
+    - **Utilidade:** Lampião de Óleo
+    - **Foco:** Furtividade e coleta de recursos
+  </Card>
+  <Card title="O Explorador Pesado">
+    - **Primária:** Mosquete de Pederneira (Alto dano instantâneo)
+    - **Secundária:** Espada (Defensiva)
+    - **Utilidade:** Medalhão de Tesouro
+    - **Foco:** Combate e limpeza de fortes
+  </Card>
+  <Card title="O batedor Equilibrado">
+    - **Primária:** Mosquete de Mecha
+    - **Secundária:** Arco (Reserva)
+    - **Utilidade:** Bússola/Diário de Bordo
+    - **Foco:** Exploração e mapeamento
+  </Card>
+</CardGrid>
+
+Os arcos são indiscutivelmente a ferramenta mais importante para o jogador **solo em The Mound: Omen of Cthulhu**. Eles fornecem uma maneira silenciosa de eliminar andarilhos mortos-vivos sem alertar toda a zona. Além disso, funcionam perfeitamente na chuva, ao contrário dos mosquetes que podem falhar quando úmidos.
+
+| Tipo de Arma | Nível de Ruído | Confiabilidade na Chuva | Velocidade de Recarga | Melhor Usado Para |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arco** | **Muito Baixo** | **100%** / Não afetado | **Rápida** | Abates furtivos / Combate na chuva |
+| **Faca** | **Silencioso** | **100%** / Não afetado | **N/A** | Finalizar inimigos caídos |
+| **Pederneira** | **Muito Alto** | **Baixa** / Risco de falha de ignição | **Muito Lenta** | Chefes / Situações de pânico |
+| **Mecha** | **Alto** | **Muito Baixa** / Inútil na chuva | **Lenta** | Defesa de médio alcance |
+
+<Callout type="success" title="Otimização de Equipamento">
+Se você possui a Edição Deluxe, equipar os visuais do **Equipamento Abissal** não altera os atributos, mas a paleta de cores mais escura do Lampião de Óleo Abissal pode reduzir ligeiramente o seu perfil visual em ruínas escuras em comparação com o lampião de latão brilhante padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Eye} title="Gerenciando a Sanidade e Alucinações Sozinho">
+
+O aspecto mais aterrorizante de jogar solo é o Sistema de Sanidade. No modo cooperativo, você pode perguntar a um amigo: \"Você está vendo aquele monstro perto da árvore?\". No solo, se você vir um monstro, terá que decidir se é uma ameaça física ou uma alucinação. Desperdiçar sua munição limitada em um fantasma pode deixar você indefeso quando um Y'm-bhi real atacar.
+
+**Alucinações Solo Comuns:**
+- **Trombetas Falsas:** Ouvir a buzina do carro de boi quando ele não se moveu.
+- **Figuras de Sombra:** Ver companheiros de equipe que não estão lá, levando você a armadilhas.
+- **Mudanças Ambientais:** O chão parecendo pulsar ou mudar de cor.
+- **Chuva de Sangue:** Efeitos climáticos localizados que obscurecem a visão, mas não são \"reais\".
+
+<Checklist
+  id="sanity-check-solo"
+  title="Protocolo de Teste de Realidade Solo:"
+  items={[
+    "Pare de se mover e ouça a consistência do áudio espacial",
+    "Verifique a localização física do carro de boi em sua bússola",
+    "Use um crucifixo para revelar os níveis reais de estresse das entidades próximas",
+    "Recue para uma área iluminada se as cores começarem a se distorcer significativamente",
+    "Evite atirar em silhuetas que não se movem em sua direção"
+  ]}
+/>
+
+Sem um companheiro de equipe para guiá-lo, você deve se tornar sua própria âncora. Se sentir sua sanidade escapar — indicado pelo escurecimento das bordas da tela ou sussurros ficando mais altos — pare imediatamente de saquear e vá em direção ao seu ponto de extração. O risco de uma eliminação total (mesmo jogando solo) aumenta exponencialmente à medida que sua percepção se fragmenta.
+
+<Callout type="info" title="Utilidade do Crucifixo">
+O crucifixo não é apenas decorativo; é uma ferramenta de diagnóstico. Usá-lo em uma criatura revelará seu nível de estresse. Se a criatura não reagir ao crucifixo, há uma alta probabilidade de ser uma alucinação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ciclo de Extração Solo Passo a Passo">
+
+Para ter sucesso no modo **solo de The Mound: Omen of Cthulhu**, você deve seguir um ciclo disciplinado. A ganância é a principal causa de expedições fracassadas. Saber quando partir com uma carga parcial é melhor do que perder tudo para a selva.
+
+<Steps>
+  <Step num="1" title="Contrato e Equipamento">
+    Selecione um contrato no galeão. Para jogar solo, priorize \"Recuperação de Recursos\" em vez de \"Caça a Recompensas\". Equipe um arco, uma faca e bastante água.
+  </Step>
+  <Step num="2" title="Infiltração na Costa">
+    Entre na selva lentamente. Mova o carro de boi para um local central e escondido perto da praia. Não o arraste para a vegetação densa, onde ele pode ser facilmente encurralado.
+  </Step>
+  <Step num="3" title="Saque Furtivo">
+    Explore as ruínas usando seu arco para eliminar as sentinelas. Colete primeiro o valor do tesouro exigido. Se encontrar um diário de bordo do forte, priorize-o, pois ele desbloqueia novos pontos de surgimento.
+  </Step>
+  <Step num="4" title="Manutenção da Sanidade">
+    A cada 10 minutos, retorne ao carro de boi e descanse brevemente. Se o ambiente começar a parecer \"estranho\", pare a busca e prepare-se para a extração.
+  </Step>
+  <Step num="5" title="Extração Segura">
+    Assim que o contrato for cumprido, devolva o carro ao galeão. Não dê \"uma última olhada\" em uma ruína próxima; a agressividade da selva aumenta com o tempo.
+  </Step>
+</Steps>
+
+| Recurso | Prioridade | Valor Solo | Dica de Extração |
+| :--- | :--- | :--- | :--- |
+| **Tesouro do Contrato** | **Alta** | Necessário para a progressão | Carregue no carro de boi imediatamente |
+| **Diários de Bordo do Forte** | **Alta** | Desbloqueia novos pontos no mapa | Mantenha no inventário (não solte) |
+| **Relíquias Amaldiçoadas** | **Média** | Alto ouro / Alto dreno de sanidade | Só pegue se a sanidade estiver > 80% |
+| **Carne/Água** | **Média** | Essencial para a sobrevivência | Processe no navio após a incursão |
+
+<Callout type="tip" title="Progressão de Fortes">
+Encontrar e interagir com diários de bordo em fortes abandonados é a melhor maneira de tornar o jogo solo mais fácil ao longo do tempo. Desbloquear um ponto de partida mais próximo das ruínas de alto valor reduz o tempo que você passa exposto na selva aberta.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes do Jogo Solo">
+
+<FAQ items={[
+  {
+    question: "O jogo solo em The Mound: Omen of Cthulhu é mais difícil do que o cooperativo?",
+    answer: "Sim, significativamente. Você não tem a capacidade de reviver, especialização de funções e a mecânica de 'teste de realidade' para alucinações. É considerado o modo hardcore do jogo."
+  },
+  {
+    question: "Posso concluir todos os contratos sozinho?",
+    answer: "A maioria dos contratos é possível de realizar solo, mas missões de recompensa de alto nível envolvendo múltiplos monstros grandes são extremamente difíceis sem um esquadrão para distrair os alvos."
+  },
+  {
+    question: "Qual é a melhor arma para um jogador solo?",
+    answer: "O Arco é a melhor arma geral. É silencioso, funciona em todas as condições climáticas e permite abates precisos à distância, o que é vital para manter a furtividade."
+  },
+  {
+    question: "O jogo ajusta a dificuldade para jogadores solo?",
+    answer: "Embora a vida dos inimigos possa ser ligeiramente ajustada, a quantidade de ameaças e as mecânicas de sanidade permanecem consistentes com a experiência cooperativa, tornando o jogo solo muito punitivo."
+  }
+]} />
+
+</Section>_

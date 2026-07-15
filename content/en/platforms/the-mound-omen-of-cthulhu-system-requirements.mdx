@@ -1,0 +1,169 @@
+### Reasoning Summary
+
+1. **Keyword & Topic Analysis**: The target keyword is "the mound omen of cthulhu system requirements". The article must focus on the PC specifications (minimum and recommended), performance technologies like DLSS 4.5, and settings optimization for the game *The Mound: Omen of Cthulhu*.
+2. **Component Integration**: Plan 5 distinct sections using the `<Section>` component. Integrate `<Callout>` (different types per section), `<CardGrid>`, `<Steps>`, `<Checklist>`, and `<FAQ>` components. Include 3 highly-focused comparison/data tables with clean formatting.
+3. **Verification**: Confirm all MDX tags are perfectly balanced, self-closed where appropriate, and that no sections are nested. Ensure the author field matches "the mound omen of cthulhu Wiki Team" and the publication date is set to 2026.
+
+***
+
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu System Requirements: PC Setup Guide",
+  description: "Check the official minimum and recommended PC system requirements for The Mound: Omen of Cthulhu, including DLSS 4.5 and graphics optimization tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=PC+System+Requirements",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **DirectX 12 Requirement**: A 64-bit operating system and DirectX 12 are mandatory for all configurations.
+- **Memory Standard**: You must have at least **16 GB RAM** to run the game without severe performance stuttering.
+- **DLSS 4.5 Support**: NVIDIA RTX 50 Series GPUs can utilize Dynamic Multi Frame Generation for smoother jungle exploration.
+- **Target Performance**: The recommended specs target stable 60 FPS at 1080p resolution with high visual settings.
+- **Storage Recommendation**: Installing on a high-speed SSD is strongly advised to prevent texture streaming delays.
+</Callout>
+
+<Section icon={Shield} title="Official PC System Requirements">
+
+To survive the dark, shifting jungles of this cooperative horror expedition, your PC must meet specific hardware baselines. The dense foliage, volumetric fog, and dynamic shadow rendering require modern processing power to maintain stable frame rates. 
+
+Review the official **the mound omen of cthulhu system requirements** below to ensure your rig is ready for the expedition.
+
+| Hardware Component | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
+| **Processor (CPU)** | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| **Memory (RAM)** | 16 GB RAM | 16 GB RAM |
+| **Graphics Card (GPU)** | GTX 1660 SUPER (6GB) / RX 5600 XT / Arc A770 | RTX 3070 (8GB) / RX 6750 XT (12GB) |
+| **DirectX Version** | Version 12 | Version 12 |
+
+<Callout type="warning" title="Hardware Warning">
+Legacy graphics cards that do not support hardware-level DirectX 12 execution will fail to launch the game. Ensure your GPU drivers are fully updated to the July 2026 release or newer before starting your first expedition.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="NVIDIA DLSS 4.5 and Performance Tech">
+
+For players equipped with modern graphics hardware, specialized scaling technologies can dramatically improve performance. The game features full integration for cutting-edge upscaling techniques, particularly beneficial during heavy rain or when multiple enemies attack.
+
+| Technology | Supported Hardware | Performance Impact | Primary Benefit |
+| :--- | :--- | :--- | :--- |
+| **DLSS 4.5 Super Resolution** | RTX 20/30/40/50 Series | High Improvement | Clearer image quality in dense fog |
+| **Dynamic Multi Frame Generation** | RTX 50 Series | Massive FPS Boost | Smoother camera movement in jungle ruins |
+| **AMD FSR Scaling** | Radeon RX 5000+ Series | Moderate Improvement | Balanced performance on older AMD cards |
+| **Intel XeSS** | Intel Arc & Modern GPUs | Moderate Improvement | Stable rendering for integrated/budget builds |
+
+<CardGrid cols={3}>
+  <Card title="Super Resolution">
+    - **Reconstructs lower-resolution inputs**
+    - Uses second-generation transformer models
+    - Preserves fine details on distant foliage
+  </Card>
+  <Card title="Frame Generation">
+    - **Inserts AI-generated frames**
+    - Eliminates CPU bottlenecks in co-op sessions
+    - Requires an RTX 50 Series graphics card
+  </Card>
+  <Card title="Reflex Low Latency">
+    - **Reduces overall system latency**
+    - Helps with precise aiming during combat
+    - Highly recommended for matchlock musket users
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Upscaling Recommendation">
+If you are running the game on a recommended GPU like the RTX 3070 or RX 6750 XT, set DLSS or FSR to "Quality" mode. This keeps the image sharp enough to spot creeping enemies in the fog while giving you a 20% to 30% performance boost.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Graphics Optimization">
+
+If you experience frame drops, stuttering, or poor visibility while exploring the cursed jungle, adjusting specific graphical settings can quickly stabilize your performance. Use this step-by-step optimization sequence to balance visual clarity and frame rate.
+
+<Steps>
+  <Step num="1" title="Lower Volumetric Fog and Shadows">
+    Navigate to the advanced graphics menu. Volumetric fog and dynamic shadow calculations are the heaviest performance drains. Lowering these from Epic to Medium can claw back up to 15% performance with minimal visual loss.
+  </Step>
+  <Step num="2" title="Adjust Foliage Density">
+    The dense jungle vegetation uses significant processing power. Reduce the foliage density setting to Medium. This improves performance and actually makes it easier to spot reanimated guardians moving through the undergrowth.
+  </Step>
+  <Step num="3" title="Enable Upscaling and Set Target FPS">
+    Turn on DLSS, FSR, or XeSS depending on your graphics card. Set your target frame rate to match your monitor's refresh rate, and enable V-Sync or G-Sync to eliminate screen tearing during intense combat encounters.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Visibility Tip">
+Prioritize keeping "View Distance" and "Texture Quality" as high as your graphics memory (VRAM) allows. High textures prevent muddy surfaces, while a longer view distance helps you verify distant silhouettes before they notice your squad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Settings Priority for Survival Gameplay">
+
+In a horror extraction game where madness distorts your vision, setting up your graphics correctly is a mechanical advantage. Use this settings priority table to configure your game for maximum survival efficiency.
+
+| Setting Name | Recommended Option | Performance Cost | Gameplay Benefit |
+| :--- | :--- | :--- | :--- |
+| **Volumetric Effects** | Medium / Low | Very High | Clearer visibility through fog and mist |
+| **Shadow Quality** | Medium | High | Better performance near light sources |
+| **Foliage Quality** | Medium | High | Clearer sightlines to spot hidden enemies |
+| **Texture Quality** | High (if 8GB+ VRAM) | Low | Sharp details on ancient runes and objects |
+| **View Distance** | High | Medium | Spots distant threats before they trigger |
+| **Motion Blur** | Disabled | Minimal | Prevents disorientation during high-stress encounters |
+
+</Section>
+
+<Section icon={Trophy} title="PC Launch Checklist">
+
+Before hosting or joining a four-player cooperative expedition, complete this quick system checklist to prevent crashes, disconnects, or performance hitching during your run.
+
+<Checklist
+  id="pc-launch-checklist"
+  title="Pre-Expedition System Check:"
+  items={[
+    "Verify Windows 10/11 is updated to the latest 64-bit build.",
+    "Install the latest game-ready graphics drivers from NVIDIA, AMD, or Intel.",
+    "Verify that you have at least 16 GB of system RAM available.",
+    "Close heavy background applications like web browsers or recording software.",
+    "Confirm your spatial audio settings are enabled for accurate voice and monster tracking."
+  ]}
+/>
+
+<Callout type="info" title="Co-op Performance Note">
+When playing in 4-player co-op, the host's CPU handles additional synchronization tasks. If your processor is close to the minimum spec (e.g., Ryzen 5 1600X), let a teammate with a stronger recommended CPU (e.g., Ryzen 5 5500 or better) host the session to ensure a smooth connection for the entire squad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the minimum system requirements for The Mound: Omen of Cthulhu?",
+    answer: "The minimum system requirements include a 64-bit Windows 10/11 OS, an Intel Core i7-8700K or AMD Ryzen 5 1600X processor, 16 GB of RAM, and an NVIDIA GeForce GTX 1660 SUPER, AMD Radeon RX 5600 XT, or Intel Arc A770 graphics card. DirectX 12 is also mandatory."
+  },
+  {
+    question: "Can I play the game with 8 GB of RAM?",
+    answer: "No. The official system requirements specify a minimum of 16 GB RAM. Attempting to run the game with only 8 GB of RAM will lead to severe stuttering, out-of-memory crashes, and long loading times."
+  },
+  {
+    question: "Is DirectX 11 supported in the game?",
+    answer: "No. The game is built natively for DirectX 12 to handle its advanced rendering systems, dynamic lighting, and volumetric foliage. Legacy graphics cards that only support DirectX 11 will not be able to launch the game."
+  },
+  {
+    question: "How does DLSS 4.5 help with performance in the jungle?",
+    answer: "DLSS 4.5 uses deep learning to upscale lower-resolution images, providing a substantial frame rate boost. On compatible RTX 50 Series graphics cards, it also supports Dynamic Multi Frame Generation to insert AI-generated frames, keeping gameplay smooth in dense, high-stress areas."
+  }
+]} />
+
+</Section>

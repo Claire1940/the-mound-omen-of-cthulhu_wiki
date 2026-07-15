@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "the mound omen of cthulhu demo multiplayer: Guía de Configuración Cooperativa",
+  description: "Domina el multijugador de la demo de the mound omen of cthulhu con nuestra guía sobre roles cooperativos, ajustes de juego cruzado, gestión de cordura y tácticas de extracción.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a2e2a/ffffff?text=Multiplayer+Tactics+Guide",
+  date: "2026-07-15",
+  author: "Equipo de Wiki de the mound omen of cthulhu",
+  keywords: "the mound omen of cthulhu, multijugador, cooperativo, guía, cordura, extracción"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **el multijugador de la demo de the mound omen of cthulhu** admite hasta **cuatro jugadores** en cooperativo en línea, con juego cruzado completo entre PC y consolas.
+- **Los Roles de Equipo** son esenciales; distribuye el Arco, la Lámpara de Aceite y el Medallón de Tesoro en el escuadrón para garantizar la supervivencia.
+- **Las Mecánicas de Cordura** hacen que los compañeros puedan parecer monstruos; usa siempre el **chat de voz espacial** para verificar identidades antes de disparar.
+- **El Éxito de la Extracción** depende del Carro de Bueyes; mantenlo protegido y cargado de tesoros para cumplir con el Contrato del Capitán.
+- **El Control del Ruido** es la principal mecánica de sigilo; correr o disparar mosquetes atrae a la \"Jungla Viva\" y a amenazas físicas.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Multijugador y Configuración de Conexión">
+
+La experiencia central del **multijugador de la demo de the mound omen of cthulhu** gira en torno a una extracción de alto riesgo donde la comunicación es tu único escudo contra la locura. Lanzado el 15 de julio de 2026, el juego enfatiza que no eres un escuadrón de superhéroes, sino un grupo de exploradores vulnerables. Ya sea que juegues a la demo o al lanzamiento completo, comprender cómo hospedar y unirse a las sesiones es el primer paso para sobrevivir a la jungla maldita.
+
+**Puntos Destacados del Video:**
+- Descripción general del ciclo de expedición cooperativa para 4 jugadores.
+- Demostración del chat de voz espacial y cómo se distorsiona con la distancia.
+- Guía visual de la \"Jungla Viva\" reaccionando al ruido del escuadrón.
+- Primer vistazo a la escolta del Carro de Bueyes y a las mecánicas de carga de tesoros.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Para comenzar una sesión, los jugadores deben reunirse a bordo del galeón *Tempestad*. Este centro sirve como zona de preparación donde seleccionas contratos y divides el equipo limitado proporcionado por el Capitán. A diferencia de los shooters tradicionales, no comienzas con un equipo completo; el equipo debe decidir quién lleva la luz y quién lleva el acero.
+
+| Característica | Estado de Soporte | Aplicación Práctica |
+| :--- | :--- | :--- |
+| **Número de Jugadores** | 1-4 Jugadores | Es mejor jugar con un escuadrón completo de 4 para cubrir todos los roles de utilidad. |
+| **Juego Cruzado** | PC / PS5 / Xbox | Activado por defecto; usa la cuenta de Nacon o las IDs de plataforma para invitar. |
+| **Chat de Voz** | Audio Espacial | Obligatorio para verificar la realidad; el volumen disminuye a medida que te alejas. |
+| **Progresión** | Basada en el Anfitrión | El progreso del contrato se guarda en el anfitrión, pero el botín beneficia a todos. |
+
+<Callout type="tip" title="Recomendación de Tamaño del Escuadrón">
+Aunque es posible jugar en solitario, el juego está equilibrado para 2-4 jugadores. En un escuadrón completo, puedes dedicar a una persona por completo a la navegación y la iluminación, lo que reduce significativamente el estrés de los combatientes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Roles de Equipo y Distribución de Equipamiento">
+
+El éxito en el **multijugador de la demo de the mound omen of cthulhu** requiere una estricta división del trabajo. Debido a que los recursos como la pólvora son limitados y dependen del clima, un equipo de cuatro mosqueteros probablemente fallará durante la primera tormenta tropical. Debes equilibrar el \"Combate Silencioso\" con la \"Potencia de Fuego de Emergencia\".
+
+El Capitán suministra armas compartidas. Antes de partir del galeón, asigna estos roles para evitar la eliminación del escuadrón:
+
+| Rol | Equipo Principal | Responsabilidad |
+| :--- | :--- | :--- |
+| **El Explorador** | Arco / Cuchillo | Eliminaciones silenciosas, despejar vegetación y liderar el camino. |
+| **El Centinela** | Llave de Pedernal / Espada | Proteger el Carro de Bueyes y encargarse de los monstruos de alta amenaza. |
+| **El Navegante** | Lámpara de Aceite / Mapa | Mantener la visibilidad y rastrear la ruta de extracción. |
+| **El Cazador** | Medallón / Arco | Localizar tesoros de metal Tulu y recolectar comida/agua. |
+
+<CardGrid cols={2}>
+  <Card title="El Enfoque Sigiloso">
+    - Usa el **Arco** como tu herramienta principal a distancia.
+    - Funciona bajo lluvia intensa y produce un ruido mínimo.
+    - Ideal para eliminar a los Vagabundos No Muertos sin alertar a la jungla.
+  </Card>
+  <Card title="La Respuesta Pesada">
+    - Guarda el **Mosquete de Mecha** para los \"Centinelas Y'm-bhi\".
+    - Ten en cuenta que un solo disparo puede activar el estado de \"jungla activa\".
+    - Lleva siempre un **Cuchillo** como respaldo para cuando la pólvora se moje.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fallo de Armas">
+Las armas de fuego de la época en este juego son muy realistas. Si empieza a llover (Lluvia de Sangre o normal), tus armas de pedernal y de mecha tienen una alta probabilidad de fallar. Asegúrate siempre de que al menos dos miembros del escuadrón usen arcos o armas cuerpo a cuerpo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pasos de la Expedición: El Ciclo de Extracción">
+
+Cada expedición multijugador sigue una secuencia específica. Desviarse de este ciclo, generalmente debido a la codicia, es la causa más común de fracaso en el **multijugador de la demo de the mound omen of cthulhu**.
+
+<Steps>
+  <Step num="1" title="Seleccionar un Contrato del Capitán">
+    A bordo del barco, elige un contrato basado en la habilidad de tu equipo. Algunos requieren reliquias específicas, mientras que otros solo necesitan un valor total de tesoro. Lee los requisitos cuidadosamente; si regresas sin la cuota, no obtendrás progresión.
+  </Step>
+  <Step num="2" title="El Despliegue en la Costa">
+    Al desembarcar, se despliega el Carro de Bueyes. Este carro es tu inventario móvil. Almacena tu tesoro, munición de repuesto y comida. Un jugador siempre debe permanecer a menos de 10 metros del carro para asegurar que siga moviéndose.
+  </Step>
+  <Step num="3" title="Gestión de Ruido y Luz">
+    A medida que te adentras en la jungla, camina en lugar de correr. Usa la Lámpara de Aceite con moderación en áreas abiertas para evitar ser visto desde la distancia, pero mantenla encendida en las ruinas para detectar trampas en el suelo y Y'm-bhi ocultos.
+  </Step>
+  <Step num="4" title="Carga de Tesoros y Metal Tulu">
+    Cuando encuentres un tesoro, no lo lleves en las manos por mucho tiempo. Te frena y te impide usar armas. Muévelo al Carro de Bueyes de inmediato. Usa el Medallón para escanear metal Tulu de alto valor, pero recuerda que el escaneo es audible para los enemigos.
+  </Step>
+  <Step num="5" title="La Decisión de Extracción">
+    Una vez cumplido el contrato, el entorno probablemente estará \"Rojo\" o \"Corrupto\" debido a tu presencia. Decidan como equipo: ¿presionan para obtener botín de bonificación o regresan? En el multijugador, si una persona muere, puede regresar como un \"Explorador Corrupto\" para cazarte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progresión de Fuertes">
+Busca fuertes abandonados en el mapa. Recuperar los diarios de navegación de estos lugares desbloquea nuevos puntos de partida para futuras expediciones, lo que permite a tu equipo saltarse las zonas costeras más fáciles e ir directamente a por los objetivos de alto valor.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Cordura y Alucinaciones">
+
+La característica más innovadora del **multijugador de la demo de the mound omen of cthulhu** es el sistema de cordura individual. A diferencia de otros juegos de terror, no hay una barra de cordura. En su lugar, el juego utiliza la \"Distorsión de la Percepción\", donde dos jugadores que miran al mismo punto pueden ver cosas diferentes.
+
+Este sistema está diseñado para romper la confianza del equipo. Cuando tu cordura disminuye, pueden ocurrir las siguientes alucinaciones:
+
+<CardGrid cols={3}>
+  <Card title="Distorsión Visual">
+    - **Lluvia de Sangre**: El cielo se vuelve rojo y el suelo sangra.
+    - **Falsas Siluetas**: Ves a un compañero de equipo de pie en la niebla, pero el jugador real está detrás de ti.
+    - **Terreno Cambiante**: Los caminos parecen abiertos pero conducen a trampas.
+  </Card>
+  <Card title="Engaño Auditivo">
+    - **Falsos Cuernos**: Escuchas el cuerno de extracción desde la dirección equivocada.
+    - **Voces Fantasma**: Escuchas a un compañero pedir ayuda a través del chat espacial cuando en realidad está en silencio.
+    - **Susurros Enemigos**: Los sonidos de los no muertos parecen más cercanos de lo que están.
+  </Card>
+  <Card title="Crisis de Identidad">
+    - **Máscaras de Monstruo**: Los modelos de personajes de tus compañeros se transforman en monstruos.
+    - **Disparos de Pánico**: Los jugadores a menudo disparan a sus amigos porque parecen Y'm-bhi.
+    - **Verificación**: Pregunta siempre \"¿Eres tú?\" antes de disparar a la niebla.
+  </Card>
+</CardGrid>
+
+| Alucinación | Protocolo de Respuesta del Escuadrón |
+| :--- | :--- |
+| **Compañero como Monstruo** | Usa un sistema de voz de \"pregunta y respuesta\" previamente acordado para verificar. |
+| **Falso Cuerno de Extracción** | Verifica la ubicación física del Carro de Bueyes antes de moverte. |
+| **Jungla Sangrante** | Deja que el jugador con la mayor visibilidad (el portador de la Lámpara) lidere. |
+| **Siluetas Fantasma** | No persigas figuras en la niebla solo; mantente dentro del rango de voz. |
+
+<Callout type="info" title="Consejo de Verificación de la Realidad">
+Si sospechas que estás alucinando, quédate quieto y mira a un compañero de equipo. Si no reacciona a la \"amenaza\" que ves, probablemente esté en tu cabeza. Usa el chat de voz espacial para describir exactamente lo que ves para confirmarlo con el grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos del Sistema y Rendimiento Multijugador">
+
+Para garantizar una experiencia fluida en el **multijugador de la demo de the mound omen of cthulhu**, especialmente durante el caótico combate de 4 jugadores con niebla volumétrica, tu PC debe cumplir con objetivos específicos. El juego utiliza DLSS 4.5 para los usuarios de la serie RTX 50 para mantener la claridad en la densa jungla.
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de Verificación de Optimización Multijugador:"
+  items={[
+    "Asegúrate de tener 16 GB de RAM disponibles para manejar la sincronización de 4 jugadores.",
+    "Actualiza a DirectX 12 (necesario para los efectos de sombreado de cordura).",
+    "Establece la 'Densidad de Follaje' en Medio si experimentas caídas de fotogramas en la jungla.",
+    "Activa el 'Audio Espacial' en la configuración para rastrear correctamente las voces de los compañeros.",
+    "Verifica que el tipo de NAT sea 'Abierto' o 'Moderado' para la estabilidad del alojamiento P2P."
+  ]}
+/>
+
+| Categoría | Requisito Mínimo | Recomendado (para 4K/60) |
+| :--- | :--- | :--- |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| **GPU** | GTX 1660 SUPER (6GB) | RTX 3070 / RX 6750 XT |
+| **RAM** | 16 GB | 16 GB |
+| **Almacenamiento** | SSD Altamente Recomendado | NVMe SSD |
+
+<Callout type="tip" title="Estabilidad de la Red">
+Si el anfitrión tiene una mala conexión, el Carro de Bueyes puede experimentar tirones (rubberbanding) o las alucinaciones pueden activarse incorrectamente. Recomendamos que el jugador con la velocidad de subida más fuerte y conexión Ethernet por cable actúe como anfitrión de la sala.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay progresión cruzada entre la demo y el juego completo?",
+    answer: "Sí, la mayoría de los desbloqueos cosméticos y el progreso del 'Diario del Fuerte' del multijugador de la demo de the mound omen of cthulhu se transfieren a la versión completa si usas la misma cuenta de Nacon."
+  },
+  {
+    question: "¿Qué pasa si un compañero muere durante una expedición?",
+    answer: "Si no lo reviven rápidamente, puede reaparecer como un 'Explorador Corrupto'. Este es un enemigo controlado por la IA que utiliza el equipo anterior del jugador para cazar al escuadrón restante."
+  },
+  {
+    question: "¿Puedo jugar al multijugador con solo dos personas?",
+    answer: "Absolutamente. El juego escala la cantidad de enemigos y el requisito de tesoro según el tamaño del escuadrón, aunque tener menos personas hace que roles como el 'Portador de la Lámpara' sean mucho más peligrosos."
+  },
+  {
+    question: "¿Cómo funciona el chat de voz espacial con las alucinaciones?",
+    answer: "El juego puede 'lanzar' voces. Podrías escuchar la voz de un compañero proveniente de un arbusto donde no está parado. Utiliza siempre la confirmación visual junto con el audio."
+  }
+]} />
+
+</Section>_

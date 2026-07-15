@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Pantalla Dividida en The Mound Omen of Cthulhu: Guía de Configuración Cooperativa",
+  description: "Consulta la disponibilidad del multijugador local, las opciones de cooperativo en línea y las funciones de juego cruzado para The Mound: Omen of Cthulhu en PC, PS5 y Xbox Series X|S.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Split+Screen+and+Co-op+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, pantalla dividida, cooperativo, multijugador, crossplay"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado de la Pantalla Dividida en The Mound Omen of Cthulhu**: El juego **no admite pantalla dividida local** ni cooperativo de sofá sin conexión.
+- **Soporte de Cooperativo en Línea**: Se admite multijugador en línea completo para **1 a 4 jugadores** para completar contratos juntos.
+- **Funcionalidad de Juego Cruzado (Crossplay)**: El juego multiplataforma es totalmente compatible entre **PC, PlayStation 5 y Xbox Series X|S**.
+- **Mejor Estrategia de Equipo**: Distribuye los roles (Navegante, Defensor de la Carreta, Apoyo de Combate) a bordo del galeón antes de desembarcar.
+- **Impacto de la Locura**: El chat de voz espacial y las siluetas de los jugadores se distorsionan a medida que cae la cordura, lo que hace que la comunicación sea vital.
+</Callout>
+
+<Section icon={Shield} title="Estado de la Pantalla Dividida y Juego Local en The Mound Omen of Cthulhu">
+
+Muchos jugadores que se sumergen en el juego de terror y expedición lovecraftiano de ACE Team quieren saber si pueden jugar con un amigo en el mismo sofá. Lamentablemente, el modo de **pantalla dividida en The Mound Omen of Cthulhu** no es compatible. El juego está diseñado desde cero como una experiencia de extracción cooperativa exclusivamente en línea.
+
+Debido a que el juego renderiza entornos de selva densos, niebla volumétrica, iluminación dinámica y complejas ilusiones que alteran la cordura para cada explorador de forma individual, un modo de pantalla dividida local supondría una carga excesiva para los recursos del hardware. Para jugar juntos, cada explorador debe usar su propio dispositivo y conectarse a través del emparejamiento en línea o salas privadas.
+
+| Plataforma | Pantalla Dividida | Cooperativo en Línea | Máx. Jugadores | Juego Cruzado |
+| :--- | :--- | :--- | :--- | :--- |
+| **PC (Steam/Epic)** | No | **Sí** | 4 Jugadores | **Sí** |
+| **PlayStation 5** | No | **Sí** | 4 Jugadores | **Sí** |
+| **Xbox Series X|S** | No | **Sí** | 4 Jugadores | **Sí** |
+
+<Callout type="warning" title="Nota sobre Requisitos de Hardware">
+Dado que la pantalla dividida local no está disponible, cada jugador de PC en tu grupo debe cumplir con las especificaciones mínimas, que incluyen **16 GB de RAM** y una tarjeta gráfica compatible con **DirectX 12**, para ejecutar el juego sin problemas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Funciones de Cooperativo en Línea y Juego Cruzado">
+
+Aunque el multijugador local está ausente, las funciones cooperativas en línea son muy robustas. El juego admite el juego multiplataforma, lo que permite a los jugadores de PC, PlayStation 5 y Xbox Series X|S formar grupos de expedición unificados. Los jugadores de Xbox también se benefician de **Xbox Play Anywhere**, lo que permite una progresión cruzada y un cooperativo fluido entre PC con Windows y consolas Xbox Series X|S.
+
+Para coordinarse eficazmente, el juego cuenta con **chat de voz espacial**. Esto significa que las voces de tus compañeros de equipo se desvanecen, resuenan o cambian de dirección según su ubicación real en la selva maldita. Si un explorador se aleja demasiado en la niebla, su voz se volverá amortiguada y difícil de rastrear, aumentando la tensión.
+
+| Función Cooperativa | Especificaciones Admitidas | Impacto Práctico en el Juego |
+| :--- | :--- | :--- |
+| **Juego Cruzado** | PC, PS5, Xbox Series X\|S | Agrúpate con amigos independientemente de su plataforma preferida. |
+| **Tamaño del Grupo** | 1 a 4 Jugadores | Escala tu estrategia desde la supervivencia en solitario hasta un escuadrón coordinado. |
+| **Chat de Voz** | Audio 3D Espacial | Las voces cambian según la distancia; la separación dificulta la comunicación. |
+| **Sistema de Anfitrión** | Acceso a DLC solo para el anfitrión | Para misiones exclusivas como el Templo de Yig, solo el anfitrión necesita poseerlo. |
+
+<Callout type="tip" title="La Comunicación es Clave">
+No confíes en aplicaciones de chat de grupo externas si quieres la experiencia de terror prevista. El chat de voz espacial está directamente vinculado al sistema de cordura, y perder el contacto de voz con tu escuadrón es una mecánica central del terror psicológico del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo Configurar Expediciones Cooperativas en Línea">
+
+Comenzar una expedición multijugador requiere preparar a tu grupo a bordo del galeón *Tempestad* antes de iniciar tu incursión en la selva maldita. Sigue estos pasos para preparar a tu equipo.
+
+<Steps>
+  <Step num="1" title="Forma tu Sala">
+    Invita a tus amigos a tu sesión usando la interfaz de tu plataforma o el menú social de juego cruzado dentro del juego. Confirma que todos los jugadores sean visibles en la cubierta antes de proceder.
+  </Step>
+  <Step num="2" title="Selecciona un Contrato del Capitán">
+    Interactúa con la mesa del Capitán para seleccionar tu contrato de expedición. Acuerden el valor del tesoro requerido y las condiciones de salida antes de aceptar el trabajo.
+  </Step>
+  <Step num="3" title="Distribuye el Equipo Compartido">
+    El Capitán proporciona herramientas compartidas en lugar de equipamientos individuales. Asigna armas, la lámpara de aceite y las herramientas de búsqueda de tesoros entre los miembros de tu grupo.
+  </Step>
+  <Step num="4" title="Despliégate en la Selva">
+    Una vez asignados los roles, dirígete al bote de desembarco para comenzar el descenso. Mantente cerca de la carreta de bueyes tan pronto como toques tierra en la costa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Equilibrio de Equipamiento">
+Nunca pongas todas tus herramientas esenciales en un solo jugador. Si el explorador que lleva la única **Lámpara de Aceite** o el **Medallón de Búsqueda de Tesoros** queda incapacitado, el resto del equipo se quedará en completa oscuridad y no podrá rastrear los objetivos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roles de Escuadrón y Composición del Equipo">
+
+Una expedición exitosa de cuatro jugadores requiere una división clara del trabajo. Debido a que los recursos son escasos y el entorno reacciona al ruido, correr sin rumbo llevará rápidamente a la aniquilación del escuadrón. Utiliza las siguientes tarjetas de equipamiento para organizar los roles de tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="El Navegante">
+    - **Herramienta Principal**: Lámpara de Aceite / Mapa
+    - **Arma**: Cuchillo (Silencioso)
+    - **Rol**: Rastrea caminos, encuentra cuadernos de bitácora y guía al equipo a través de la niebla.
+  </Card>
+  <Card title="El Defensor de la Carreta">
+    - **Herramienta Principal**: Mosquete de Chispa
+    - **Arma**: Espada
+    - **Rol**: Custodia la carreta de bueyes, gestiona el tesoro depositado y proporciona potencia de fuego pesada.
+  </Card>
+  <Card title="El Explorador">
+    - **Herramienta Principal**: Arco (A distancia silencioso)
+    - **Arma**: Cuchillo
+    - **Rol**: Elimina centinelas silenciosamente y explora ruinas por delante de la carreta.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="El Rol de la Carreta de Bueyes">
+La carreta de bueyes es tu bóveda móvil. En lugar de cargar con reliquias pesadas y arriesgarte a perderlas al morir, regresa regularmente a la carreta para asegurar tu botín. Protege al buey a toda costa; si la carreta es destruida, la extracción se vuelve significativamente más difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Supervivencia Cooperativa">
+
+Antes de salir a tu próximo contrato, asegúrate de que tu escuadrón esté totalmente alineado con estas reglas de supervivencia. La selva no perdona a los equipos descoordinados.
+
+<Checklist
+  id="coop-survival"
+  title="Lista de Verificación Pre-Expedición:"
+  items={[
+    "Confirma que cada jugador tenga un arma de respaldo silenciosa (Arco o Cuchillo) para el clima lluvioso.",
+    "Designa a un jugador como Navegante principal para evitar perderse en la niebla.",
+    "Acuerden una frase de seguridad para verificar la identidad de los compañeros durante las distorsiones de cordura.",
+    "Establece un umbral estricto de munición que active una retirada inmediata del escuadrón.",
+    "Asegúrate de que al menos dos jugadores estén equipados para encargarse de las tareas de iluminación."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Existe alguna solución alternativa para la pantalla dividida en The Mound: Omen of Cthulhu?",
+    answer: "No. No existe ninguna solución oficial ni extraoficial para la pantalla dividida. El juego requiere una conexión de red activa y renderizado de sistema individual para que sus sistemas multijugador funcionen."
+  },
+  {
+    question: "¿El juego admite el emparejamiento de juego cruzado con jugadores aleatorios?",
+    answer: "Sí. Puedes usar el sistema de emparejamiento público para encontrar a otros exploradores en PC, PS5 y Xbox Series X|S para completar tu escuadrón de cuatro jugadores."
+  },
+  {
+    question: "¿Puedo jugar todo el juego en solitario si no quiero jugar en cooperativo?",
+    answer: "Sí, hay un modo para un solo jugador completo disponible. Sin embargo, debes llevar un equipamiento muy equilibrado porque no tendrás compañeros para cubrirte las espaldas o proteger la carreta de bueyes."
+  },
+  {
+    question: "¿Cómo afecta el sistema de cordura a la comunicación en cooperativo?",
+    answer: "A medida que tu cordura disminuye, puedes escuchar llamadas de auxilio falsas, ver alucinaciones de monstruos que no están allí, o incluso ver que tus compañeros reales parecen criaturas hostiles. Debes usar la comunicación de voz activa para verificar qué es real."
+  }
+]} />
+
+</Section>

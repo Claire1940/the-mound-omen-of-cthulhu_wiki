@@ -1,0 +1,167 @@
+import { Swords, Shield, Map, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armadura em The Mound: Omen of Cthulhu: Melhores Equipamentos",
+  description: "Domine as escolhas de armadura em The Mound: Omen of Cthulhu. Compare equipamentos de época, pacotes padrão vs. deluxe e sobreviva à selva amaldiçoada.",
+  category: "Equipamento",
+  image: "https://placehold.co/800x400/101b15/5fddc0?text=Armor+and+Loadouts+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Armadura em The Mound: Omen of Cthulhu**: A proteção depende de vestimentas de explorador adequadas ao período, posicionamento tático e itens especializados, em vez de placas de armadura de alta tecnologia.
+- **Sinergia de Armas**: Combine seu equipamento defensivo com armas silenciosas, como o **Arco**, para evitar alertar a selva reativa.
+- **Cosméticos Deluxe**: O **Pacote de Equipamento Abissal** e as **Espadas dos Exploradores Perdidos** oferecem temas visuais premium para seu equipamento inicial.
+- **Funções da Equipe**: Distribua o equipamento de proteção, iluminação e ataque uniformemente pelo seu esquadrão de quatro jogadores para evitar a eliminação total do grupo.
+</Callout>
+
+<Section icon={Shield} title="Mecânicas de Armadura e Proteção em The Mound: Omen of Cthulhu">
+
+Em *The Mound: Omen of Cthulhu*, a armadura moderna convencional não existe. A sobrevivência nesta expedição lovecraftiana do século XVI depende de vestimentas históricas de explorador, equipamentos táticos e gerenciamento de sanidade. Sua defesa física é fortemente ditada pelo peso do seu equipamento, sua escolha de armas corpo a corpo secundárias e o quão bem você mitiga perigos ambientais como lama, chuva e neblina densa.
+
+Em vez de buscar peitorais cheios de atributos, os exploradores devem focar na utilidade. Carregar armas de fogo pesadas, como o Mosquete de Mecha, reduz sua velocidade de movimento, tornando você um alvo mais fácil para guardiões reanimados. Por outro lado, correr leve com um Arco e uma Faca aumenta sua evasão e mantém seu perfil de ruído baixo.
+
+| Tipo de Proteção | Benefício Principal | Principal Desvantagem | Melhor Situação |
+| :--- | :--- | :--- | :--- |
+| **Traje de Explorador Leve** | Alta velocidade de movimento, silencioso | Defesa física mínima | Reconhecimento furtivo, clima chuvoso |
+| **Equipamento de Expedição Padrão** | Proteção equilibrada, bons espaços | Geração de ruído moderada | Exploração geral da selva |
+| **Conjunto Abissal Deluxe** | Tema cosmético premium | Apenas visual, sem bônus de atributos | Personalização de grupo |
+
+<Callout type="warning" title="O Peso Importa">
+Equipamentos pesados consomem sua estamina mais rápido. Se você for encurralado por um bando de Mochileiros Mortos-Vivos, a estamina baixa impedirá que você escape ou suba para um local seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Equipamentos">
+
+Cada expedição que parte do galeão *Tempestad* exige uma distribuição cuidadosamente planejada de armas e ferramentas de sobrevivência. Como o capitão fornece equipamentos compartilhados em vez de kits completos individuais, seu esquadrão deve coordenar quem carrega utilitários defensivos, quem cuida das eliminações silenciosas e quem empunha o poder de fogo pesado.
+
+<CardGrid cols={3}>
+  <Card title="O Batedor Furtivo">
+    - **Primária**: Arco
+    - **Secundária**: Faca
+    - **Utilitário**: Lampião a Óleo
+    - **Função**: Elimina sentinelas silenciosamente e guia a equipe por caminhos estreitos na selva.
+  </Card>
+  <Card title="O Guarda Pesado">
+    - **Primária**: Mosquete de Pederneira
+    - **Secundária**: Sabre
+    - **Utilitário**: Bolsa de Munição
+    - **Função**: Oferece defesa de alto impacto contra grandes ameaças sobrenaturais e chefes.
+  </Card>
+  <Card title="O Caçador de Tesouros">
+    - **Primária**: Mosquete de Mecha
+    - **Secundária**: Faca
+    - **Utilitário**: Medalhão
+    - **Função**: Localiza o valioso metal Tulu enquanto permanece perto da linha defensiva.
+  </Card>
+</CardGrid>
+
+O clima na selva amaldiçoada é altamente dinâmico. A chuva umedece as mechas e estraga a pólvora solta, tornando seus mosquetes inúteis. Certifique-se sempre de que pelo menos dois membros da equipe carreguem alternativas à prova de chuva.
+
+| Arma / Ferramenta | Tipo de Dano | Nível de Ruído | Usabilidade na Chuva |
+| :--- | :--- | :--- | :--- |
+| **Arco** | À Distância Silencioso | Muito Baixo | Excelente (Sem necessidade de pólvora) |
+| **Mosquete de Pederneira** | À Distância Pesado | Extremamente Alto | Ruim (Falha em temporais) |
+| **Faca** | Corpo a Corpo Rápido | Silencioso | Perfeito (Sem necessidade de munição) |
+| **Mosquete de Mecha** | À Distância Contínuo | Alto | Inutilizável (A mecha apaga) |
+
+<Callout type="tip" title="Dica de Mestre">
+Nunca dispare um mosquete, a menos que seja uma emergência absoluta. O som reverbera pela selva, acordando as Sentinelas Y'm-bhi próximas e gerando hordas adicionais.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preparação da Expedição Passo a Passo">
+
+Para garantir que seu esquadrão retorne ao galeão com um carrinho cheio de tesouros e a sanidade intacta, siga este protocolo padrão de implantação antes de pisar na costa.
+
+<Steps>
+  <Step num="1" title="Selecione o Contrato do Capitão">
+    Revise os contratos disponíveis a bordo do *Tempestad*. Escolha um valor de tesouro alvo ou uma zona de exploração que corresponda ao nível de equipamento atual da sua equipe.
+  </Step>
+  <Step num="2" title="Distribua Utilitários Essenciais">
+    Não acumule todas as fontes de luz ou ferramentas de detecção em um único jogador. Distribua os Lampiões a Óleo e o Medalhão de Encontrar Tesouros entre diferentes exploradores.
+  </Step>
+  <Step num="3" title="Proteja a Rota do Carrinho de Bois">
+    À medida que avança na selva, limpe os detritos e mantenha o caminho largo o suficiente para o carrinho de bois. O carrinho é seu único armazenamento móvel para relíquias pesadas.
+  </Step>
+  <Step num="4" title="Gerencie o Limiar de Sanidade">
+    Observe seus companheiros de equipe em busca de sinais de loucura. Se um explorador começar a apontar armas para o espaço vazio, reagrupe-se imediatamente e verifique os alvos dele pelo chat de voz.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Coesão Cooperativa">
+O chat de voz espacial imita a acústica do mundo real. Se você se afastar muito da sua equipe, sua voz desaparecerá, deixando você isolado na névoa aterrorizante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos da Expedição">
+
+Tenha em mente estes marcos críticos durante cada partida para maximizar sua progressão e desbloquear novos locais de partida.
+
+<Checklist
+  id="expedition-checklist"
+  title="Objetivos de Alta Prioridade:"
+  items={[
+    "Garanta primeiro o valor mínimo de tesouro exigido pelo contrato",
+    "Localize e garanta os Diários de Bordo do Forte para desbloquear acampamentos iniciais permanentes",
+    "Adquira relíquias de metal Tulu usando o Medalhão de Encontrar Tesouros",
+    "Extraia antes que a lua vermelha ative a agressividade extrema da selva",
+    "Certifique-se de que todos os companheiros caídos sejam revividos antes de deixar a zona"
+  ]}
+/>
+
+<Callout type="success" title="Extração Segura">
+Um recuo precoce com uma carga parcial é sempre melhor do que perder todo o seu inventário em uma eliminação de esquadrão no final do jogo. A ganância é o caminho mais rápido para o fracasso.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparação de Equipamentos da Edição Deluxe e Pré-venda">
+
+Para jogadores que desejam personalizar sua aparência enquanto exploram as selvas escuras, a Edição Deluxe oferece vários pacotes de equipamentos exclusivos. Esses itens fornecem estilos visuais alternativos inspirados em temas Lovecraftianos e conquistadores históricos.
+
+| Pacote Cosmético | Itens Inclusos | Tema Visual | Como Resgatar |
+| :--- | :--- | :--- | :--- |
+| **Pacote de Equipamento Abissal** | Faca, Lampião a Óleo, Mosquetes | Sombrio, temático de Cthulhu | Equipado através do arsenal do navio |
+| **Espadas dos Exploradores Perdidos** | Dois sabres cerimoniais ornamentados | Ouro e prata envelhecidos | Resgate no menu da loja Steam |
+| **Caçadores de Fortuna** | Duas skins de personagens exclusivas | Exploradores experientes da selva | Selecionável na criação de personagem |
+
+<Callout type="info" title="Sem Pay-to-Win">
+Todas as aparências de armadura e skins de armas da Edição Deluxe são puramente cosméticas. Elas não concedem proteção extra, dano ou benefícios de furtividade.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde posso equipar a armadura e as skins cosméticas de The Mound: Omen of Cthulhu?",
+    answer: "Todos os conjuntos de armaduras cosméticas, skins de personagens e aparências de armas da Edição Deluxe ou bônus de pré-venda podem ser personalizados no baú de vaidade dentro de sua cabine pessoal no galeão Tempestad antes de iniciar uma expedição."
+  },
+  {
+    question: "A chuva afeta minha armadura ou movimento físico?",
+    answer: "Sim. A chuva forte deixa o solo lamacento, o que aumenta significativamente o consumo de estamina ao correr. Ela também desativa armas baseadas em pólvora, tornando as armas brancas de curto alcance ou arcos seus principais meios de defesa."
+  },
+  {
+    question: "Posso jogar o jogo sozinho e preciso de equipamentos diferentes?",
+    answer: "Sim, o jogo solo é totalmente suportado. Ao jogar sozinho, você deve carregar um equipamento altamente equilibrado. Traga um Arco para eliminações silenciosas, uma Faca para combate corpo a corpo de emergência e um Lampião a Óleo para navegar pelas ruínas escuras com segurança, já que você não terá companheiros de equipe para proteger suas costas."
+  },
+  {
+    question: "O que acontece com meu equipamento se eu morrer na selva?",
+    answer: "Se você morrer e seu esquadrão não conseguir extrair, você perderá o tesouro físico e os recursos coletados durante aquela partida. No entanto, desbloqueios permanentes, como locais de acampamento descobertos através dos Diários de Bordo do Forte, permanecerão salvos."
+  }
+]} />
+
+</Section>

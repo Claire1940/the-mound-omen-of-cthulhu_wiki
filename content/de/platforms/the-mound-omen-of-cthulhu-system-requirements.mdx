@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Systemanforderungen: PC-Setup-Guide",
+  description: "Prüfen Sie die offiziellen minimalen und empfohlenen PC-Systemanforderungen für The Mound: Omen of Cthulhu, einschließlich DLSS 4.5 und Tipps zur Grafikoptimierung.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=PC+System+Requirements",
+  date: "2026-07-15",
+  author: "The Mound Omen of Cthulhu Wiki-Team",
+  keywords: "the mound omen of cthulhu systemanforderungen, pc spezifikationen, dlss 4.5, grafikoptimierung"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **DirectX 12 Voraussetzung**: Ein 64-Bit-Betriebssystem und DirectX 12 sind für alle Konfigurationen zwingend erforderlich.
+- **Speicherstandard**: Sie benötigen mindestens **16 GB RAM**, um das Spiel ohne schwere Performance-Ruckler auszuführen.
+- **DLSS 4.5 Unterstützung**: Grafikkarten der NVIDIA RTX 50-Serie können Dynamic Multi Frame Generation für eine flüssigere Dschungelerkundung nutzen.
+- **Ziel-Performance**: Die empfohlenen Spezifikationen zielen auf stabile 60 FPS bei 1080p Auflösung mit hohen Grafikeinstellungen ab.
+- **Speicherempfehlung**: Die Installation auf einer schnellen SSD wird dringend empfohlen, um Verzögerungen beim Textur-Streaming zu vermeiden.
+</Callout>
+
+<Section icon={Shield} title="Offizielle PC-Systemanforderungen">
+
+Um in den dunklen, sich wandelnden Dschungeln dieser kooperativen Horror-Expedition zu überleben, muss Ihr PC bestimmte Hardware-Basisanforderungen erfüllen. Das dichte Blattwerk, der volumetrische Nebel und das dynamische Schatten-Rendering erfordern moderne Rechenleistung, um stabile Bildraten aufrechtzuerhalten.
+
+Überprüfen Sie unten die offiziellen **the mound omen of cthulhu systemanforderungen**, um sicherzustellen, dass Ihr System bereit für die Expedition ist.
+
+| Hardware-Komponente | Minimale Spezifikation | Empfohlene Spezifikation |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10/11 (64-Bit) | Windows 10/11 (64-Bit) |
+| **Prozessor (CPU)** | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| **Arbeitsspeicher (RAM)** | 16 GB RAM | 16 GB RAM |
+| **Grafikkarte (GPU)** | GTX 1660 SUPER (6GB) / RX 5600 XT / Arc A770 | RTX 3070 (8GB) / RX 6750 XT (12GB) |
+| **DirectX-Version** | Version 12 | Version 12 |
+
+<Callout type="warning" title="Hardware-Warnung">
+Ältere Grafikkarten, die keine DirectX 12-Ausführung auf Hardware-Ebene unterstützen, können das Spiel nicht starten. Stellen Sie sicher, dass Ihre GPU-Treiber vollständig auf die Version vom Juli 2026 oder neuer aktualisiert sind, bevor Sie Ihre erste Expedition beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="NVIDIA DLSS 4.5 und Performance-Technologie">
+
+Für Spieler mit moderner Grafikhardware können spezialisierte Skalierungstechnologien die Performance drastisch verbessern. Das Spiel bietet eine vollständige Integration modernster Upscaling-Techniken, was besonders bei starkem Regen oder Angriffen mehrerer Gegner von Vorteil ist.
+
+| Technologie | Unterstützte Hardware | Performance-Auswirkung | Hauptvorteil |
+| :--- | :--- | :--- | :--- |
+| **DLSS 4.5 Super Resolution** | RTX 20/30/40/50 Serie | Hohe Verbesserung | Klarere Bildqualität in dichtem Nebel |
+| **Dynamic Multi Frame Generation** | RTX 50 Serie | Massiver FPS-Boost | Flüssigere Kamerabewegungen in Dschungelruinen |
+| **AMD FSR Scaling** | Radeon RX 5000+ Serie | Moderate Verbesserung | Ausgewogene Performance auf älteren AMD-Karten |
+| **Intel XeSS** | Intel Arc & Moderne GPUs | Moderate Verbesserung | Stabiles Rendering für integrierte/Budget-Systeme |
+
+<CardGrid cols={3}>
+  <Card title="Super Resolution">
+    - **Rekonstruiert Eingaben mit niedrigerer Auflösung**
+    - Verwendet Transformer-Modelle der zweiten Generation
+    - Bewahrt feine Details an entferntem Blattwerk
+  </Card>
+  <Card title="Frame Generation">
+    - **Fügt KI-generierte Bilder ein**
+    - Eliminiert CPU-Engpässe in Koop-Sitzungen
+    - Erfordert eine Grafikkarte der RTX 50-Serie
+  </Card>
+  <Card title="Reflex Low Latency">
+    - **Reduziert die gesamte Systemlatenz**
+    - Hilft beim präzisen Zielen im Kampf
+    - Dringend empfohlen für Nutzer von Luntenschlossmusketen
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Upscaling-Empfehlung">
+Wenn Sie das Spiel mit einer empfohlenen GPU wie der RTX 3070 oder RX 6750 XT betreiben, stellen Sie DLSS oder FSR auf den Modus „Qualität“. Dies hält das Bild scharf genug, um schleichende Gegner im Nebel zu erkennen, während Sie einen Performance-Schub von 20 % bis 30 % erhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Grafikoptimierung">
+
+Falls Sie Frame-Einbrüche, Ruckler oder schlechte Sichtbarkeit beim Erkunden des verfluchten Dschungels erleben, kann das Anpassen spezifischer Grafikeinstellungen Ihre Performance schnell stabilisieren. Nutzen Sie diese Optimierungssequenz, um visuelle Klarheit und Bildrate auszubalancieren.
+
+<Steps>
+  <Step num="1" title="Volumetrischen Nebel und Schatten reduzieren">
+    Navigieren Sie zum erweiterten Grafikmenü. Volumetrischer Nebel und dynamische Schattenberechnungen sind die größten Performance-Fresser. Das Senken dieser Einstellungen von „Episch“ auf „Mittel“ kann bis zu 15 % Performance bei minimalem visuellem Verlust zurückgewinnen.
+  </Step>
+  <Step num="2" title="Vegetationsdichte anpassen">
+    Die dichte Dschungelvegetation verbraucht erhebliche Rechenleistung. Reduzieren Sie die Einstellung für die Vegetationsdichte auf „Mittel“. Dies verbessert die Performance und macht es tatsächlich einfacher, wiederbelebte Wächter zu entdecken, die sich durch das Unterholz bewegen.
+  </Step>
+  <Step num="3" title="Upscaling aktivieren und Ziel-FPS festlegen">
+    Schalten Sie DLSS, FSR oder XeSS ein, abhängig von Ihrer Grafikkarte. Stellen Sie Ihre Ziel-Bildrate so ein, dass sie der Bildwiederholfrequenz Ihres Monitors entspricht, und aktivieren Sie V-Sync oder G-Sync, um Screen-Tearing bei intensiven Kämpfen zu eliminieren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sichtbarkeits-Tipp">
+Priorisieren Sie „Sichtweite“ und „Texturqualität“ so hoch, wie es Ihr Grafikspeicher (VRAM) zulässt. Hohe Texturen verhindern matschige Oberflächen, während eine größere Sichtweite hilft, entfernte Silhouetten zu verifizieren, bevor sie Ihren Trupp bemerken.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Einstellungspriorität für Survival-Gameplay">
+
+In einem Horror-Extraction-Game, in dem Wahnsinn die Sicht verzerrt, ist die korrekte Konfiguration der Grafik ein mechanischer Vorteil. Nutzen Sie diese Prioritätstabelle, um Ihr Spiel auf maximale Überlebenseffizienz zu konfigurieren.
+
+| Einstellungsname | Empfohlene Option | Performance-Kosten | Gameplay-Vorteil |
+| :--- | :--- | :--- | :--- |
+| **Volumetrische Effekte** | Mittel / Niedrig | Sehr Hoch | Klarere Sicht durch Nebel und Dunst |
+| **Schattenqualität** | Mittel | Hoch | Bessere Performance in der Nähe von Lichtquellen |
+| **Vegetationsqualität** | Mittel | Hoch | Klarere Sichtlinien zum Aufspüren versteckter Feinde |
+| **Texturqualität** | Hoch (bei 8GB+ VRAM) | Niedrig | Scharfe Details an alten Runen und Objekten |
+| **Sichtweite** | Hoch | Mittel | Erkennt entfernte Bedrohungen frühzeitig |
+| **Bewegungsunschärfe** | Deaktiviert | Minimal | Verhindert Desorientierung in Stresssituationen |
+
+</Section>
+
+<Section icon={Trophy} title="PC-Start-Checkliste">
+
+Bevor Sie eine kooperative Expedition für vier Spieler hosten oder ihr beitreten, führen Sie diese kurze System-Checkliste durch, um Abstürze, Verbindungsabbrüche oder Performance-Hänger während Ihres Laufs zu vermeiden.
+
+<Checklist
+  id="pc-launch-checklist"
+  title="Checkliste vor der Expedition:"
+  items={[
+    "Überprüfen Sie, ob Windows 10/11 auf dem neuesten 64-Bit-Stand ist.",
+    "Installieren Sie die neuesten Game-Ready-Grafiktreiber von NVIDIA, AMD oder Intel.",
+    "Stellen Sie sicher, dass mindestens 16 GB System-RAM verfügbar sind.",
+    "Schließen Sie ressourcenintensive Hintergrundanwendungen wie Browser oder Aufnahmeprogramme.",
+    "Bestätigen Sie, dass Ihre Spatial-Audio-Einstellungen für präzises Voice- und Monster-Tracking aktiviert sind."
+  ]}
+/>
+
+<Callout type="info" title="Hinweis zur Koop-Performance">
+Beim Spielen im 4-Spieler-Koop übernimmt die CPU des Hosts zusätzliche Synchronisationsaufgaben. Wenn Ihr Prozessor nahe an den Mindestanforderungen liegt (z. B. Ryzen 5 1600X), lassen Sie ein Teammitglied mit einer stärkeren empfohlenen CPU (z. B. Ryzen 5 5500 oder besser) die Sitzung hosten, um eine reibungslose Verbindung für den gesamten Trupp zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was sind die minimalen Systemanforderungen für The Mound: Omen of Cthulhu?",
+    answer: "Die minimalen Systemanforderungen umfassen ein 64-Bit Windows 10/11 Betriebssystem, einen Intel Core i7-8700K oder AMD Ryzen 5 1600X Prozessor, 16 GB RAM und eine NVIDIA GeForce GTX 1660 SUPER, AMD Radeon RX 5600 XT oder Intel Arc A770 Grafikkarte. DirectX 12 ist ebenfalls zwingend erforderlich."
+  },
+  {
+    question: "Kann ich das Spiel mit 8 GB RAM spielen?",
+    answer: "Nein. Die offiziellen Systemanforderungen geben ein Minimum von 16 GB RAM an. Der Versuch, das Spiel mit nur 8 GB RAM auszuführen, führt zu schweren Rucklern, Abstürzen aufgrund von Speichermangel und extrem langen Ladezeiten."
+  },
+  {
+    question: "Wird DirectX 11 im Spiel unterstützt?",
+    answer: "Nein. Das Spiel wurde nativ für DirectX 12 entwickelt, um die fortschrittlichen Rendering-Systeme, dynamische Beleuchtung und volumetrische Vegetation zu bewältigen. Ältere Grafikkarten, die nur DirectX 11 unterstützen, können das Spiel nicht starten."
+  },
+  {
+    question: "Wie hilft DLSS 4.5 bei der Performance im Dschungel?",
+    answer: "DLSS 4.5 nutzt Deep Learning, um Bilder mit niedrigerer Auflösung hochzuskalieren, was einen erheblichen FPS-Boost bietet. Auf kompatiblen Grafikkarten der RTX 50-Serie unterstützt es zudem Dynamic Multi Frame Generation, um KI-generierte Bilder einzufügen und das Gameplay in dichten, stressigen Bereichen flüssig zu halten."
+  }
+]} />
+
+</Section>

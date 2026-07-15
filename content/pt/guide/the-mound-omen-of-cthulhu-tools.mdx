@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ferramentas de The Mound: Omen of Cthulhu: Guia de Sobrevivência e Equipamentos Essenciais",
+  description: "Domine as ferramentas de The Mound: Omen of Cthulhu para sobreviver à selva amaldiçoada. Aprenda sobre armas de fogo, controle de sanidade e equipamentos de extração para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Survival+Tools+Guide",
+  date: "2026-07-15",
+  author: "Equipe do Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **ferramentas de The Mound: Omen of Cthulhu** são divididas entre os equipamentos iniciais do Capitão e os itens encontrados na selva.
+- As **armas de fogo** são poderosas, mas extremamente barulhentas, podendo alertar toda a selva sobre a localização do seu esquadrão.
+- O **controle de sanidade** é uma mecânica central onde a percepção muda à medida que você se aventura mais fundo no ambiente amaldiçoado.
+- A **extração** pelo barco a remo é a única maneira de garantir os tesouros e sobreviver à expedição.
+- A **cooperação** é obrigatória, pois os equipamentos devem ser divididos estrategicamente entre os membros da equipe.
+</Callout>
+
+<Section icon={Map} title="Fundamentos da Expedição e Visão Geral dos Equipamentos">
+
+Nas profundezas implacáveis da selva, entender as **ferramentas de The Mound: Omen of Cthulhu** é a diferença entre um roubo bem-sucedido e uma morte esquecida. Toda expedição começa na praia, onde os jogadores fazem a transição da segurança de seu galeão para um mundo que resiste ativamente à sua presença. O objetivo principal é ir fundo, garantir tesouros antigos e retornar ao barco a remo antes que a selva "desperte" e domine o esquadrão.
+
+**Destaques do Vídeo:**
+- Visão geral das mecânicas de terror cooperativo e exploração da selva.
+- Demonstração dos sistemas de furtividade baseados em ruído e armas de fogo.
+- Guia visual dos efeitos de perda de sanidade na percepção do jogador.
+- Demonstração do processo de extração pelo barco a remo.
+
+<YouTubeEmbed videoId="VVN-x11DjL4" title="The Mound Omen of Cthulhu - Official Gameplay Showcase" />
+
+O equipamento fornecido no início de cada partida é limitado. O Capitão do navio concede um conjunto básico de itens que deve ser distribuído entre a equipe. Isso exige decisões táticas imediatas: quem carrega o maior poder de fogo e quem gerencia os itens utilitários? Dividir-se pode cobrir mais terreno, mas deixa os jogadores individuais vulneráveis às criaturas imprevisíveis geradas pela selva.
+
+<Callout type="tip" title="Divisão Estratégica">
+Embora se dividir seja eficaz para encontrar saques rapidamente nos estágios iniciais, sempre garanta que os jogadores com armas de fogo estejam posicionados para apoiar aqueles que carregam tesouros pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ferramentas de The Mound: Omen of Cthulhu: Combate e Utilidade">
+
+O combate neste ambiente é uma faca de dois gumes. Embora você possua os meios para se defender, a selva reage a cada som e ação. As armas de fogo são as **ferramentas de The Mound: Omen of Cthulhu** mais potentes disponíveis, mas apresentam desvantagens significativas que exigem um gerenciamento cuidadoso da pólvora e dos níveis de ruído.
+
+| Tipo de Ferramenta | Função Principal | Nível de Risco | Recurso Necessário |
+| :--- | :--- | :--- | :--- |
+| **Armas de Fogo** | Combate à distância de alto dano | **Alto** (Ruído) | Pólvora / Munição |
+| **Armas de Combate Corpo a Corpo** | Defesa silenciosa em combate próximo | **Médio** | Estamina |
+| **Barco a Remo** | Veículo de extração essencial | **Baixo** | Proximidade da Praia |
+| **Equipamento do Capitão** | Equipamento básico de sobrevivência | **Baixo** | Distribuição da Equipe |
+| **Tesouros** | Objetivo principal / Moeda | **Alto** (Peso) | Espaço no Inventário |
+
+O ruído produzido pelas armas de fogo pode "despertar" a selva. Isso não é apenas um elemento temático, mas um gatilho mecânico que aumenta a frequência e a agressividade do surgimento de criaturas. Os jogadores devem pesar o benefício imediato de eliminar uma ameaça contra o perigo a longo prazo de atrair uma horda.
+
+<Callout type="warning" title="Escassez de Pólvora">
+A pólvora é um recurso finito. Cada tiro disparado é um recurso perdido que não pode ser facilmente substituído nas profundezas da selva. Reserve as armas de fogo apenas para confrontos de risco de vida.
+</Callout>
+
+| Classe da Arma | Dano Causado | Perfil de Ruído | Melhor Uso |
+| :--- | :--- | :--- | :--- |
+| **Mosquetes** | **Extremo** | Muito Barulhento | Grandes Criaturas Chefes |
+| **Pistolas** | **Moderado** | Barulhento | Autodefesa de Emergência |
+| **Lâminas** | **Baixo** | Silencioso | Eliminações Furtivas |
+| **Explosivos** | **Efeito em Área** | Ensurdecedor | Controle de Grupo / Fuga |
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Sanidade e Percepção">
+
+À medida que você se aventura mais longe da praia, a atmosfera muda. A sanidade começa a cair, afetando tanto o ambiente quanto os sentidos do seu personagem. Esse sistema foi projetado para criar momentos de dúvida real entre os companheiros de equipe. A selva usa vários truques para distorcer a realidade, tornando a cooperação mais difícil e mais essencial.
+
+<CardGrid cols={3}>
+  <Card title="Distorções Visuais">
+    - **Alucinações** de criaturas
+    - Caminhos do ambiente que mudam
+    - Figuras sombrias na periferia
+  </Card>
+  <Card title="Truques Auditivos">
+    - Passos falsos de companheiros de equipe
+    - Tiros fantasmas distantes
+    - Sussurros que ocultam ameaças reais
+  </Card>
+  <Card title="Percepção de Equipe">
+    - Dificuldade para identificar aliados
+    - Indicadores de status enganosos
+    - Mecânicas que induzem à paranoia
+  </Card>
+</CardGrid>
+
+A sobrevivência depende da verificação de informações com seu esquadrão. Se um jogador vê um caminho que outro não vê, é um sinal claro de que os níveis de sanidade estão atingindo um limite crítico. As ferramentas encontradas na selva podem ajudar a mitigar esses efeitos, mas a principal defesa é manter a proximidade com aliados confiáveis.
+
+<Callout type="success" title="Recuperação de Sanidade">
+Retornar a áreas de "segurança" ou concluir objetivos específicos às vezes pode estabilizar a sanidade. Sempre priorize a saúde mental do esquadrão em detrimento de uma única peça de saque.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Processo de Extração: Usando o Barco a Remo">
+
+O objetivo final do uso das **ferramentas de The Mound: Omen of Cthulhu** é retornar ao galeão com sua vida e seus tesouros intactos. O barco a remo serve como sua tábua de salvação, mas alcançá-lo durante a fase "desperta" da selva é a parte mais desafiadora de qualquer expedição.
+
+<Steps>
+  <Step num="1" title="Aquisição de Saque">
+    Localize tesouros nas profundezas da selva. Lembre-se de que carregar saques geralmente reduz sua velocidade ou ocupa um espaço de ferramenta.
+  </Step>
+  <Step num="2" title="A Retirada">
+    Assim que a selva começar a despertar, inicie uma retirada em direção à praia. Use armas de fogo com moderação para abrir caminho sem atrair mais atenção.
+  </Step>
+  <Step num="3" title="Defesa do Barco a Remo">
+    A área do barco a remo costuma ser um ponto crítico para encontros com criaturas. Um jogador deve preparar o barco enquanto os outros dão cobertura.
+  </Step>
+  <Step num="4" title="Retorno ao Galeão">
+    Embarque no barco a remo e navegue de volta ao galeão. Somente quando você chegar ao navio seu progresso e saque serão salvos oficialmente.
+  </Step>
+</Steps>
+
+| Fase de Extração | Dificuldade | Ferramentas Chave Necessárias | Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Saque no Interior** | Moderada | Mapas / Equipamento do Capitão | Encontrar Tesouros |
+| **Despertar da Selva** | **Muito Alta** | Armas de Fogo / Mitigação de Sanidade | Sobrevivência / Movimentação |
+| **Chegada à Praia** | Alta | Armas de Combate Corpo a Corpo / Ferramentas Defensivas | Proteger o Barco a Remo |
+| **Embarque Final** | Moderada | Coordenação de Equipe | Escapar para o Galeão |
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos e Preparação da Expedição">
+
+Antes de pisar na selva, cada esquadrão deve ter um plano claro de como utilizará suas **ferramentas de The Mound: Omen of Cthulhu** iniciais. A falta de preparação geralmente leva a uma perda inevitável, especialmente quando a imprevisibilidade da selva testa os limites do seu esquadrão.
+
+<Checklist
+  id="expedition-prep"
+  title="Lista de Verificação Pré-Expedição:"
+  items={[
+    "Distribuir o equipamento do Capitão com base nas funções dos jogadores",
+    "Designar um navegador principal e um combatente principal",
+    "Estabelecer um 'Sinal de Retirada' para quando a sanidade cair demais",
+    "Confirmar se todos os jogadores entendem as mecânicas de ativação por ruído",
+    "Verificar a localização do barco a remo no mapa inicial"
+  ]}
+/>
+
+Perder um amigo na selva é uma possibilidade real. Embora o objetivo seja a sobrevivência coletiva, o jogo enfatiza que você veio pelos tesouros primeiro. Se uma situação se tornar incontrolável, correr para salvar sua vida e garantir o saque já coletado pode ser a única escolha lógica restante.
+
+<Callout type="info" title="Sacrifício e Sobrevivência">
+Em casos extremos, deixar um companheiro caído para trás para salvar o resto do esquadrão e o tesouro é uma estratégia válida, embora dura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são as ferramentas de The Mound: Omen of Cthulhu mais importantes para iniciantes?",
+    answer: "O equipamento básico fornecido pelo Capitão é o mais vital. Especificamente, equilibrar a distribuição de armas de fogo e itens utilitários garante que a equipe possa se defender e navegar pela selva de forma eficaz."
+  },
+  {
+    question: "O uso de armas de fogo sempre alerta os inimigos?",
+    answer: "Sim, as armas de fogo produzem um ruído significativo que contribui para 'despertar' a selva. Embora sejam ferramentas poderosas, seu uso deve ser minimizado para evitar ser sobrecarregado por criaturas imprevisíveis."
+  },
+  {
+    question: "Posso sobreviver à selva jogando sozinho?",
+    answer: "Embora seja possível, o jogo foi projetado para jogabilidade cooperativa. As mecânicas de sanidade e a necessidade de dividir os equipamentos tornam a sobrevivência solo extremamente difícil, pois os truques da selva são mais difíceis de identificar sem a perspectiva de um companheiro de equipe."
+  },
+  {
+    question: "O que acontece se perdermos o barco a remo?",
+    answer: "O barco a remo é o seu principal meio de extração. Se o esquadrão não conseguir alcançar ou usar o barco a remo, escapar com os tesouros para a segurança do galeão torna-se quase impossível, levando a uma expedição fracassada."
+  }
+]} />
+
+</Section>

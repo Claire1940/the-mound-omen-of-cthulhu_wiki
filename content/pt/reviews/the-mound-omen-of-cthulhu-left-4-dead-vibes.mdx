@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HeartPulse, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Vibe de Left 4 Dead em The Mound Omen of Cthulhu: Guia de Sobrevivência Cooperativa",
+  description: "Domine a vibe de Left 4 Dead em The Mound: Omen of Cthulhu. Aprenda táticas de sobrevivência, armas, gerenciamento de sanidade e estratégias de equipe.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Co-op+Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, guia de sobrevivência, co-op, dicas, sanidade, armas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Vibe de Left 4 Dead**: O jogo canaliza a intensa **vibe de left 4 dead de the mound omen of cthulhu** através de seu co-op de 4 jogadores, mecânicas de horda e atmosfera tensa.
+- **Mecânicas de Sanidade**: Diferente dos shooters tradicionais, a loucura distorce sua visão, áudio e silhuetas de companheiros de equipe sem um HUD visível.
+- **Sistema de Armas**: Armas de pederneira e de mecha oferecem dano massivo, mas sofrem com recargas lentas e falham completamente em clima úmido.
+- **Coordenação de Equipe**: O sucesso exige uma divisão estrita de funções, confirmação constante por voz e a escolta de um carro de bois cheio de tesouros.
+- **Escolha de Extração**: Saiba quando recuar; a ganância dizimará seu esquadrão e apagará o progresso arduamente conquistado na expedição.
+</Callout>
+
+<Section icon={Map} title="Uma Visão Geral da Expedição Amaldiçoada">
+
+The Mound: Omen of Cthulhu, desenvolvido pela ACE Team e publicado pela Nacon, foi lançado em **15 de julho de 2026**. Com suporte para jogo solo e co-op online de até quatro jogadores, este título de terror de sobrevivência traz a massiva **vibe de left 4 dead de the mound omen of cthulhu** para PC, PlayStation 5 e Xbox Series X|S. Os jogadores adentram uma selva amaldiçoada e mutável para completar contratos de capitão de alto risco, recuperar relíquias proibidas e escapar antes que a loucura consuma suas mentes.
+
+O ciclo principal de jogabilidade centra-se em sua base a bordo do galeão *Tempestad*, onde você seleciona contratos, compra equipamentos e organiza sua tripulação. Uma vez em terra, você deve escoltar um carro de bois de madeira, vasculhar ruínas em busca do valioso metal Tulu e gerenciar sua sanidade. A selva reage dinamicamente à sua presença; barulho, clima e tempo gasto explorando farão com que o ambiente apodreça, gere monstros mais mortais e desencadeie alucinações privadas.
+
+| Recurso | Edição Padrão | Edição Deluxe | Detalhes |
+|---|---|---|---|
+| **Preço Base** | $29.99 | $39.99 | Preços regionais se aplicam conforme a loja |
+| **Promoção de Lançamento** | $23.99 | $31.99 | 20% de desconto após atingir 800 mil wishlists no Steam |
+| **Heróis Jogáveis** | Personagens base | Pacote Caçadores de Relíquias | Deluxe adiciona dois personagens cosméticos exclusivos |
+| **Skins de Armas** | Skins padrão | Pacote Equipamento Abissal | Skins temáticas de Cthulhu para mosquetes e facas |
+| **Missão Exclusiva** | Pool de mapas padrão | Templo de Yig | Contrato exclusivo Deluxe; apenas o anfitrião precisa ter |
+| **Trilha Sonora** | Não incluída | Trilha Sonora Digital | Inclui a trilha orquestral sombria oficial |
+
+<Callout type="warning" title="Janela de Bônus de Lançamento">
+O *Pacote de Espadas dos Exploradores Perdidos* está disponível como um bônus de lançamento gratuito para ambas as edições. Jogadores do Steam devem resgatar este pacote manualmente nas primeiras duas semanas após o lançamento em 15 de julho de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Estratégia de Equipamento">
+
+Para sobreviver às hordas implacáveis e manter a coordenação baseada em equipe que define o estilo cooperativo do jogo, os jogadores devem equilibrar cuidadosamente seus equipamentos. As armas são precisas para a época, o que significa que recarregam lentamente, fazem um barulho ensurdecedor e são altamente sensíveis a condições climáticas como a chuva.
+
+Um esquadrão equilibrado nunca deve duplicar o mesmo equipamento. Em vez disso, distribua as funções para que sua equipe possa cobrir eliminações furtivas, controle de multidão de emergência, navegação e caça ao tesouro simultaneamente.
+
+| Arma / Ferramenta | Categoria | Tier | Uso Ideal | Principal Força / Fraqueza |
+|---|---|---|---|---|
+| **Arco** | À Distância | **S** | Furtividade e combate na chuva | Recarga rápida, silencioso / Requer mira precisa |
+| **Lampião a Óleo** | Utilitário | **S** | Navegação e neblina | Revela caminhos ocultos / Portador torna-se alvo prioritário |
+| **Mosquete de Pederneira** | Arma de Fogo | **A** | Eliminação de monstros elites | Poder de parada massivo / Pólvora falha na chuva, barulhento |
+| **Faca** | Corpo a Corpo | **A** | Combate próximo silencioso | Funciona na chuva, sem munição / Alto risco em curto alcance |
+| **Medalhão** | Utilitário | **A** | Encontrar metal Tulu | Destaca saques ocultos / Som metálico atrai hordas |
+| **Mosquete de Mecha** | Arma de Fogo | **B** | Defesa preparada | Ótimo dano defensivo / Recarga extremamente lenta, barulhento |
+
+<CardGrid cols={3}>
+  <Card title="O Batedor (Arco e Faca)">
+    - Foca em **eliminações furtivas** para manter a atividade na selva baixa.
+    - Limpa caminhos sem acordar as sentinelas Y'm-bhi próximas.
+    - Altamente eficaz durante tempestades de chuva forte.
+  </Card>
+  <Card title="A Vanguarda (Pederneira e Espada)">
+    - Economiza munição para **ameaças de elite** e monstros gigantes.
+    - Fornece poder de parada imediato quando o esquadrão é emboscado.
+    - Protege a retaguarda do carro de bois durante eventos de horda.
+  </Card>
+  <Card title="O Suporte (Lampião e Medalhão)">
+    - Mantém o caminho iluminado para **evitar pânico e quedas de sanidade**.
+    - Usa o medalhão para localizar relíquias de alto valor.
+    - Coordena o movimento da equipe e o tempo de extração.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Chuva e Pólvora">
+Sempre verifique o clima antes de atirar. A chuva forte umedece sua pólvora, fazendo com que as armas de pederneira e de mecha falhem. Mantenha um arco ou arma corpo a corpo equipada como reserva confiável quando o céu escurecer.
+</Callout>
+
+</Section>
+
+<Section icon={HeartPulse} title="O Sistema de Sanidade e Alucinações">
+
+O recurso mais inovador em The Mound: Omen of Cthulhu é a ausência total de um HUD de sanidade. Não há medidores, sirenes de aviso ou ícones de status para dizer que seu personagem está perdendo a razão. Em vez disso, a loucura se manifesta como alucinações visuais e auditivas privadas. O que você vê e ouve pode ser completamente diferente do que seus companheiros experimentam.
+
+À medida que sua sanidade escapa, a selva começa a se distorcer. Você pode ver o chão pulsar com veias vermelhas, presenciar chuva de sangue localizada ou ouvir a trombeta de extração soando ao longe quando o carro está, na verdade, parado.
+
+| Tipo de Alucinação | Nível de Perigo | Sinal Visual / Auditivo | Contramedida de Esquadrão |
+|---|---|---|---|
+| **Selva Sangrenta** | Baixo | Mudança ambiental vermelha, chuva falsa | Peça aos companheiros para confirmarem se veem a mudança de cor |
+| **Chamados Falsos de Trombeta** | Médio | Áudio de trombeta de extração distante | Verifique a localização física do carro antes de se mover |
+| **Companheiros Falsos** | Alto | Silhuetas amigáveis na neblina | Use o chat de voz espacial para verificar as posições dos jogadores |
+| **Companheiros Monstros** | Extremo | Aliados parecem criaturas mortas-vivas | Use confirmação por voz antes de dar um tiro de pânico |
+| **Terreno Oscilante** | Médio | Caminhos falsos, tesouro ilusório | Deixe o jogador com a maior sanidade liderar o caminho |
+
+<Callout type="success" title="O Protocolo de Checagem de Realidade">
+Estabeleça uma regra de comunicação simples com sua equipe. Quando avistar um item inesperado, caminho ou silhueta de companheiro na neblina, pergunte: *"Vocês estão vendo isso?"* Se sua equipe responder que não, ignore a ilusão e fique perto do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ciclo da Expedição Passo a Passo">
+
+Toda expedição bem-sucedida requer execução disciplinada. Seguir um ciclo estruturado garante que você consiga tesouros suficientes para satisfazer o contrato do capitão sem perder seu esquadrão para os horrores crescentes da selva.
+
+<Steps>
+  <Step num="1" title="Escolha o Contrato">
+    Fale com o capitão a bordo do galeão *Tempestad*. Selecione um contrato que corresponda ao nível de experiência de sua equipe, observando o valor exigido de metal Tulu.
+  </Step>
+  <Step num="2" title="Divida o Equipamento Compartilhado">
+    Distribua suas armas limitadas, lampiões a óleo e munição pelo esquadrão. Garanta que nenhum jogador carregue todas as fontes de luz ou armas de fogo sozinho.
+  </Step>
+  <Step num="3" title="Escorte o Carro de Bois">
+    Mova-se para o interior mantendo o carro de bois centralizado em sua formação. Use o carro para depositar tesouros pesados e armazenar munição extra enquanto explora ruínas.
+  </Step>
+  <Step num="4" title="Execute uma Exploração Silenciosa">
+    Mova-se devagar e evite ruídos desnecessários. Corte a vegetação com moderação, ande em vez de correr e use armas silenciosas como arcos para evitar atrair ondas de horda.
+  </Step>
+  <Step num="5" title="Verifique os Níveis de Ameaça Oscilantes">
+    Fique atento a sinais de degradação ambiental, como neblina densa e comportamento agressivo dos mortos-vivos. Use o protocolo de checagem de realidade para gerenciar lapsos de sanidade.
+  </Step>
+  <Step num="6" title="Extraia com Segurança">
+    Assim que o valor do contrato for atingido, retorne ao galeão. Não deixe a ganância empurrá-lo para ruínas mais profundas e degradadas quando sua munição e sanidade estiverem esgotadas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gatilhos de Horda">
+Usar medalhões de busca de tesouro produz um estalo metálico alto. Só use o medalhão quando seu esquadrão estiver organizado, carregado e pronto para defender a área contra os mortos-vivos que se aproximam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Monstros e Bestiário da Selva">
+
+A selva amaldiçoada é habitada por guardiões físicos, exploradores reanimados e horrores psicológicos. O combate é lento, deliberado e punitivo, exigindo posicionamento tático em vez de tiros desordenados.
+
+| Nome do Inimigo | Classificação de Perigo | Comportamento | Fraqueza / Contra-ataque |
+|---|---|---|---|
+| **Vagante Morto-Vivo** | ★★☆☆☆ | Cambaleia em grupos, atraído por ruído | Tiros na cabeça com arcos, execução silenciosa corpo a corpo |
+| **Sentinela Y'm-bhi** | ★★★★☆ | Espreita nas sombras, aumenta o estresse do jogador | Cegue com luz, verifique níveis de estresse com um crucifixo |
+| **Explorador Corrompido** | ★★★★☆ | Jogadores mortos reanimados como hostis agressivos | Priorize revives rápidos para evitar a transformação |
+| **Companheiro Falso** | ★★★☆☆ | Imita skins de jogadores para atraí-lo para longe | Verifique nomes e localizações usando o chat de voz espacial |
+| **A Selva Viva** | ★★★★★ | Podridão ambiental, lua vermelha, hordas infinitas | Pare de saquear, agrupe-se ao redor do carro e extraia |
+
+<Callout type="info" title="Cargas de Fogo Y'm-bhi">
+Algumas sentinelas Y'm-bhi de elite carregam lanternas, tornando-as imunes à cegueira simples por luz. Essas criaturas podem atear fogo em si mesmas e avançar contra seu esquadrão. Foque o fogo em suas pernas para retardá-las antes que alcancem o carro de bois.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Requisitos de Sistema para PC e Performance">
+
+Para experimentar a neblina atmosférica, folhagem densa e sombras aterrorizantes da selva sem perder frames durante encontros intensos com hordas, certifique-se de que seu PC atenda às especificações oficiais de hardware.
+
+| Componente de Hardware | Requisito Mínimo | Especificação Recomendada |
+|---|---|---|
+| **Sistema Operacional** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Processador** | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| **Memória** | 16 GB RAM | 16 GB RAM |
+| **Placa de Vídeo** | GTX 1660 SUPER / RX 5600 XT / Arc A770 | RTX 3070 / RX 6750 XT |
+| **Versão do DirectX** | DirectX 12 | DirectX 12 |
+| **Suporte a DLSS** | Suportado | DLSS 4.5 (RTX 50 Series Dynamic Multi Frame Gen) |
+
+<Callout type="tip" title="Otimização de Performance">
+Se você tiver quedas de frame em áreas de selva densa, reduza primeiro a qualidade das sombras, a densidade da folhagem e as configurações de neblina volumétrica. Manter sua distância de visão alta é crítico para avistar silhuetas distantes e navegar através da névoa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Objetivos da Expedição">
+
+Use esta checklist para acompanhar sua progressão e garantir que sua tripulação esteja totalmente preparada para as expedições na selva profunda.
+
+<Checklist
+  id="expedition-goals"
+  title="Marcos de Sobrevivência:"
+  items={[
+    "Complete seu primeiro contrato de capitão e retorne com um carro de bois cheio",
+    "Desbloqueie um novo local de partida recuperando um diário de bordo de um forte abandonado",
+    "Sobreviva a uma tempestade de chuva forte usando apenas arcos e armas corpo a corpo",
+    "Identifique e ignore com sucesso uma alucinação de companheiro falso usando o chat de voz espacial",
+    "Melhore seu equipamento inicial a bordo do galeão Tempestad"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Como The Mound captura a vibe de Left 4 Dead?",
+    answer: "Ele entrega uma forte vibe de left 4 dead de the mound omen of cthulhu através de sua estrutura cooperativa para 4 jogadores, gatilhos de horda intensos, funções de personagens distintas e uma forte dependência na comunicação da equipe para sobreviver a probabilidades esmagadoras."
+  },
+  {
+    question: "O que acontece se um companheiro de equipe morrer durante uma expedição?",
+    answer: "Se um jogador morrer e não for revivido prontamente, ele se transformará em um Explorador Corrompido. Este hostil reanimado caçará ativamente o esquadrão sobrevivente, usando o equipamento do seu antigo aliado contra você."
+  },
+  {
+    question: "Posso jogar o jogo inteiramente solo?",
+    answer: "Sim, um modo single-player completo está disponível. No entanto, o jogo solo é significativamente mais difícil, pois você deve gerenciar a navegação, iluminação, combate e checagens de sanidade sem nenhum suporte de companheiros."
+  },
+  {
+    question: "O jogo suporta multiplayer cross-platform?",
+    answer: "Sim, o crossplay é suportado. Jogadores de Xbox desfrutam de co-op multiplataforma no Xbox Series X|S, Windows PC e Xbox Cloud Gaming via Xbox Play Anywhere, enquanto jogadores de PC podem se conectar entre Steam e Epic Games Store."
+  }
+]} />
+
+</Section>

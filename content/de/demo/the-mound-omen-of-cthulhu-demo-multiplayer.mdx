@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Demo Multiplayer: Koop-Einrichtungsleitfaden",
+  description: "Meistern Sie den Multiplayer der The Mound: Omen of Cthulhu Demo mit unserem Leitfaden zu Koop-Rollen, Crossplay-Einstellungen, Wahnsinns-Management und Extraktionstaktiken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2e2a/ffffff?text=Multiplayer+Tactics+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **The Mound: Omen of Cthulhu Demo Multiplayer** unterstützt bis zu **vier Spieler** im Online-Koop, mit vollem Crossplay zwischen PC und Konsolen.
+- **Team-Rollen** sind essenziell; verteilen Sie Bogen, Öllampe und das Schatzmedaillon auf das Team, um das Überleben zu sichern.
+- **Wahnsinns-Mechaniken** führen dazu, dass Teammitglieder wie Monster erscheinen können; nutzen Sie immer den **räumlichen Sprachchat**, um Identitäten zu verifizieren, bevor Sie schießen.
+- **Extraktionserfolg** hängt vom Ochsenkarren ab; halten Sie ihn geschützt und beladen Sie ihn mit Schätzen, um den Vertrag des Kapitäns zu erfüllen.
+- **Geräuschkontrolle** ist die primäre Stealth-Mechanik; Laufen oder das Abfeuern von Musketen lockt den „Lebendigen Dschungel“ und physische Bedrohungen an.
+</Callout>
+
+<Section icon={Map} title="Multiplayer-Übersicht und Verbindungseinstellungen">
+
+Das Kernerlebnis des **The Mound: Omen of Cthulhu Demo Multiplayers** dreht sich um riskante Extraktionen, bei denen Kommunikation Ihr einziger Schutz gegen den Wahnsinn ist. Das am 15. Juli 2026 veröffentlichte Spiel betont, dass Sie kein Superhelden-Trupp sind, sondern eine Gruppe verletzlicher Entdecker. Egal, ob Sie die Demo oder die Vollversion spielen, das Verständnis darüber, wie man Sitzungen hostet und ihnen beitritt, ist der erste Schritt zum Überleben im verfluchten Dschungel.
+
+**Video-Highlights:**
+- Übersicht über den 4-Spieler-Koop-Expeditionszyklus.
+- Demonstration des räumlichen Sprachchats und wie er sich mit der Entfernung verzerrt.
+- Visueller Leitfaden zum „Lebendigen Dschungel“, der auf Truppgeräusche reagiert.
+- Erster Blick auf die Eskorte des Ochsenkarrens und die Schatzlademechanik.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay-Übersicht" />
+
+Um eine Sitzung zu beginnen, müssen sich die Spieler an Bord der Galeone *Tempestad* versammeln. Dieser Hub dient als Sammelplatz, an dem Sie Verträge auswählen und die begrenzte Ausrüstung aufteilen, die der Kapitän zur Verfügung stellt. Im Gegensatz zu herkömmlichen Shootern starten Sie nicht mit voller Ausrüstung; das Team muss entscheiden, wer das Licht und wer den Stahl trägt.
+
+| Merkmal | Support-Status | Praktische Anwendung |
+| :--- | :--- | :--- |
+| **Spieleranzahl** | 1-4 Spieler | Am besten mit einem vollen Trupp von 4 Spielern, um alle Hilfsrollen abzudecken. |
+| **Crossplay** | PC / PS5 / Xbox | Standardmäßig aktiviert; nutzen Sie Nacon-Konten oder Plattform-IDs für Einladungen. |
+| **Sprachchat** | Räumliches Audio | Zwingend erforderlich für Realitätschecks; die Lautstärke sinkt bei Entfernung. |
+| **Fortschritt** | Host-basiert | Vertragsfortschritt wird beim Host gespeichert, aber Beute nützt allen. |
+
+<Callout type="tip" title="Empfehlung zur Truppgröße">
+Obwohl Solospiel möglich ist, ist das Spiel für 2-4 Spieler ausbalanciert. In einem vollen Trupp können Sie eine Person ausschließlich für Navigation und Beleuchtung abstellen, was den Stress für die Kämpfer erheblich reduziert.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Team-Rollen und Verteilung der Ausrüstung">
+
+Erfolg im **The Mound: Omen of Cthulhu Demo Multiplayer** erfordert eine strikte Arbeitsteilung. Da Ressourcen wie Schießpulver begrenzt und wetterabhängig sind, wird ein Team aus vier Musketieren wahrscheinlich beim ersten Tropensturm scheitern. Sie müssen „leisen Kampf“ mit „Notfall-Feuerkraft“ ausbalancieren.
+
+Der Kapitän liefert gemeinsame Waffen. Bevor Sie die Galeone verlassen, weisen Sie diese Rollen zu, um ein Auslöschen des Trupps zu verhindern:
+
+| Rolle | Primäre Ausrüstung | Verantwortung |
+| :--- | :--- | :--- |
+| **Der Späher** | Bogen / Messer | Stille Takedowns, Roden von Vegetation und Pfadfindung. |
+| **Die Wache** | Steinschloss / Schwert | Schutz des Ochsenkarrens und Bekämpfung hochgefährlicher Monster. |
+| **Der Navigator** | Öllampe / Karte | Aufrechterhaltung der Sichtbarkeit und Verfolgung der Extraktionsroute. |
+| **Der Jäger** | Medaillon / Bogen | Lokalisierung von Tulu-Metall-Schätzen und Sammeln von Nahrung/Wasser. |
+
+<CardGrid cols={2}>
+  <Card title="Der Stealth-Ansatz">
+    - Nutzen Sie den **Bogen** als primäres Fernkampfwerkzeug.
+    - Er funktioniert bei starkem Regen und erzeugt minimalen Lärm.
+    - Ideal, um Untote Wanderer auszuschalten, ohne den Dschungel zu alarmieren.
+  </Card>
+  <Card title="Die schwere Antwort">
+    - Sparen Sie sich die **Luntenschlossmuskete** für „Y'm-bhi Wachen“ auf.
+    - Seien Sie sich bewusst, dass ein Schuss einen „aktiven Dschungel“-Zustand auslösen kann.
+    - Haben Sie immer ein **Messer** als Backup, falls das Schießpulver nass wird.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Waffenausfall">
+Historische Schusswaffen in diesem Spiel sind hochrealistisch. Wenn es anfängt zu regnen (Blutregen oder normaler Regen), besteht bei Ihren Steinschloss- und Luntenschlosswaffen eine hohe Wahrscheinlichkeit für Fehlzündungen. Stellen Sie immer sicher, dass mindestens zwei Truppmitglieder Bögen oder Nahkampfwaffen benutzen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Expeditionsschritte: Der Extraktionszyklus">
+
+Jede Multiplayer-Expedition folgt einer spezifischen Abfolge. Das Abweichen von diesem Zyklus – meist aufgrund von Gier – ist die häufigste Ursache für ein Scheitern im **The Mound: Omen of Cthulhu Demo Multiplayer**.
+
+<Steps>
+  <Step num="1" title="Wählen Sie einen Kapitänsvertrag">
+    Wählen Sie an Bord des Schiffes einen Vertrag basierend auf den Fähigkeiten Ihres Teams. Einige erfordern spezifische Relikte, während andere nur einen Gesamtschatzwert benötigen. Lesen Sie die Anforderungen sorgfältig durch; wenn Sie ohne die Quote zurückkehren, erzielen Sie keinen Fortschritt.
+  </Step>
+  <Step num="2" title="Einsatz an der Küste">
+    Nach der Landung wird der Ochsenkarren eingesetzt. Dieser Karren ist Ihr mobiles Inventar. Er lagert Ihre Schätze, Ersatzmunition und Nahrung. Ein Spieler sollte immer im Umkreis von 10 Metern um den Karren bleiben, damit dieser in Bewegung bleibt.
+  </Step>
+  <Step num="3" title="Lärm- und Lichtmanagement">
+    Wenn Sie in den Dschungel vordringen, gehen Sie, anstatt zu rennen. Nutzen Sie die Öllampe in offenen Gebieten sparsam, um nicht aus der Ferne entdeckt zu werden, aber halten Sie sie in Ruinen hell, um Bodenfallen und versteckte Y'm-bhi zu entdecken.
+  </Step>
+  <Step num="4" title="Schatzbeladung und Tulu-Metall">
+    Wenn Sie Schätze finden, tragen Sie diese nicht lange in den Händen. Es verlangsamt Sie und verhindert den Waffengebrauch. Bringen Sie sie sofort zum Ochsenkarren. Nutzen Sie das Medaillon, um nach wertvollem Tulu-Metall zu suchen, aber denken Sie daran, dass das Signal für Feinde hörbar ist.
+  </Step>
+  <Step num="5" title="Die Extraktionsentscheidung">
+    Sobald der Vertrag erfüllt ist, wird die Umgebung aufgrund Ihrer Anwesenheit wahrscheinlich „Rot“ oder „Verdorben“ sein. Entscheiden Sie als Team: Riskieren Sie alles für Bonusbeute oder kehren Sie um? Im Multiplayer kann eine verstorbene Person als „Verdorbener Entdecker“ zurückkehren, um Sie zu jagen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fort-Fortschritt">
+Suchen Sie auf der Karte nach verlassenen Forts. Das Bergen von Logbüchern an diesen Orten schaltet neue Startpunkte für zukünftige Expeditionen frei, sodass Ihr Team die leichteren Küstengebiete überspringen und direkt zu hochwertigen Zielen vordringen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wahnsinns-Management und Halluzinationen">
+
+Das innovativste Feature des **The Mound: Omen of Cthulhu Demo Multiplayers** ist das individuelle Wahnsinnssystem. Im Gegensatz zu anderen Horrorspielen gibt es keinen Wahnsinnsbalken. Stattdessen nutzt das Spiel eine „Wahrnehmungsverzerrung“, bei der zwei Spieler, die auf denselben Punkt schauen, unterschiedliche Dinge sehen können.
+
+Dieses System soll das Vertrauen im Team untergraben. Wenn Ihr Verstand schwindet, können folgende Halluzinationen auftreten:
+
+<CardGrid cols={3}>
+  <Card title="Visuelle Verzerrung">
+    - **Blutregen**: Der Himmel färbt sich rot und der Boden blutet.
+    - **Falsche Silhouetten**: Sie sehen ein Teammitglied im Nebel stehen, aber der echte Spieler befindet sich hinter Ihnen.
+    - **Sich veränderndes Terrain**: Pfade erscheinen offen, führen aber in Fallen.
+  </Card>
+  <Card title="Akustische Täuschung">
+    - **Falsche Hörner**: Sie hören das Extraktionshorn aus der falschen Richtung.
+    - **Phantomstimmen**: Sie hören ein Teammitglied über den räumlichen Chat um Hilfe rufen, obwohl es schweigt.
+    - **Geflüster der Feinde**: Geräusche von Untoten erscheinen näher, als sie tatsächlich sind.
+  </Card>
+  <Card title="Identitätskrise">
+    - **Monstermasken**: Die Charaktermodelle Ihrer Teammitglieder verwandeln sich in Monster.
+    - **Panikschüsse**: Spieler erschießen oft ihre Freunde, weil sie wie Y'm-bhi aussehen.
+    - **Verifizierung**: Fragen Sie immer „Bist du das?“, bevor Sie in den Nebel schießen.
+  </Card>
+</CardGrid>
+
+| Halluzination | Squad-Reaktionsprotokoll |
+| :--- | :--- | :--- |
+| **Teammitglied als Monster** | Nutzen Sie eine vereinbarte „Ruf-Antwort“-Kommunikation zur Verifizierung. |
+| **Falsches Extraktionshorn** | Überprüfen Sie die physische Position des Ochsenkarrens, bevor Sie sich bewegen. |
+| **Blutender Dschungel** | Lassen Sie den Spieler mit der besten Sicht (Lampenträger) führen. |
+| **Geistersilhouetten** | Jagen Sie Gestalten nicht allein in den Nebel nach; bleiben Sie in Reichweite des Sprachchats. |
+
+<Callout type="info" title="Tipp zum Realitätscheck">
+Wenn Sie vermuten, dass Sie halluzinieren, bleiben Sie stehen und schauen Sie ein Teammitglied an. Wenn dieses nicht auf die „Bedrohung“ reagiert, die Sie sehen, spielt sie sich wahrscheinlich nur in Ihrem Kopf ab. Nutzen Sie den räumlichen Sprachchat, um genau zu beschreiben, was Sie sehen, um es mit der Gruppe abzugleichen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Systemanforderungen und Multiplayer-Performance">
+
+Um ein reibungsloses Erlebnis im **The Mound: Omen of Cthulhu Demo Multiplayer** zu gewährleisten, insbesondere bei chaotischen 4-Spieler-Kämpfen mit volumetrischem Nebel, muss Ihr PC bestimmte Anforderungen erfüllen. Das Spiel nutzt DLSS 4.5 für Nutzer der RTX 50-Serie, um die Klarheit im dichten Dschungel zu bewahren.
+
+<Checklist
+  id="pc-readiness"
+  title="Checkliste zur Multiplayer-Optimierung:"
+  items={[
+    "Stellen Sie sicher, dass 16 GB RAM für die 4-Spieler-Synchronisation verfügbar sind.",
+    "Update auf DirectX 12 (erforderlich für die Wahnsinns-Shader-Effekte).",
+    "Stellen Sie die 'Laubdichte' auf Mittel, falls die Framerate im Dschungel einbricht.",
+    "Aktivieren Sie 'Räumliches Audio' in den Einstellungen, um Teamstimmen korrekt zu orten.",
+    "Verifizieren Sie, dass der NAT-Typ 'Offen' oder 'Moderat' für die Stabilität des P2P-Hostings ist."
+  ]}
+/>
+
+| Kategorie | Mindestanforderung | Empfohlen (für 4K/60) |
+| :--- | :--- | :--- |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| **GPU** | GTX 1660 SUPER (6GB) | RTX 3070 / RX 6750 XT |
+| **RAM** | 16 GB | 16 GB |
+| **Speicher** | SSD dringend empfohlen | NVMe SSD |
+
+<Callout type="tip" title="Netzwerkstabilität">
+Wenn der Host eine schlechte Verbindung hat, kann der Ochsenkarren „Gummiband-Effekte“ zeigen oder Halluzinationen können fehlerhaft ausgelöst werden. Wir empfehlen, dass der Spieler mit der stärksten Upload-Geschwindigkeit und einer kabelgebundenen Ethernet-Verbindung als Lobby-Host fungiert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Gibt es Cross-Progression zwischen der Demo und dem Hauptspiel?",
+    answer: "Ja, die meisten kosmetischen Freischaltungen und der Fortschritt im 'Fort-Logbuch' aus dem Multiplayer der Demo werden in die Vollversion übernommen, wenn Sie dasselbe Nacon-Konto verwenden."
+  },
+  {
+    question: "Was passiert, wenn ein Teammitglied während einer Expedition stirbt?",
+    answer: "Wenn sie nicht schnell wiederbelebt werden, können sie als 'Verdorbener Entdecker' respawnen. Dies ist ein KI-gesteuerter Feind, der die ehemalige Ausrüstung des Spielers nutzt, um den verbleibenden Trupp zu jagen."
+  },
+  {
+    question: "Kann ich den Multiplayer mit nur zwei Personen spielen?",
+    answer: "Absolut. Das Spiel skaliert die Anzahl der Gegner und die Schatzanforderungen basierend auf der Truppgröße, obwohl weniger Personen Rollen wie den 'Lampenträger' deutlich gefährlicher machen."
+  },
+  {
+    question: "Wie funktioniert der räumliche Sprachchat mit Halluzinationen?",
+    answer: "Das Spiel kann Stimmen „projizieren“. Sie könnten die Stimme eines Teammitglieds aus einem Gebüsch hören, in dem es gar nicht steht. Nutzen Sie immer die visuelle Bestätigung zusätzlich zum Audio."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Split Screen: Co-op Setup Guide",
+  description: "Check local multiplayer availability, online co-op options, and crossplay features for The Mound: Omen of Cthulhu on PC, PS5, and Xbox Series X|S.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Split+Screen+and+Co-op+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound Omen of Cthulhu Split Screen Status**: The game **does not support local split screen** or offline couch co-op.
+- **Online Co-op Support**: Full online multiplayer is supported for **1 to 4 players** to complete contracts together.
+- **Crossplay Functionality**: Cross-platform play is fully supported across **PC, PlayStation 5, and Xbox Series X|S**.
+- **Best Team Strategy**: Distribute roles (Navigator, Cart Defender, Combat Support) aboard the galleon before landing.
+- **Madness Impact**: Spatial voice chat and player silhouettes distort as sanity drops, making communication vital.
+</Callout>
+
+<Section icon={Shield} title="The Mound Omen of Cthulhu Split Screen and Local Play Status">
+
+Many players diving into ACE Team's Lovecraftian expedition horror game want to know if they can play with a friend on the same couch. Unfortunately, **the mound omen of cthulhu split screen** mode is not supported. The game is designed from the ground up as an online-only cooperative extraction experience. 
+
+Because the game renders dense jungle environments, volumetric fog, dynamic lighting, and complex sanity-warping illusions for each explorer individually, a local split-screen mode would place too much strain on hardware resources. To play together, each explorer must use their own device and connect via online matchmaking or private lobbies.
+
+| Platform | Split Screen | Online Co-op | Max Players | Crossplay |
+| :--- | :--- | :--- | :--- | :--- |
+| **PC (Steam/Epic)** | No | **Yes** | 4 Players | **Yes** |
+| **PlayStation 5** | No | **Yes** | 4 Players | **Yes** |
+| **Xbox Series X|S** | No | **Yes** | 4 Players | **Yes** |
+
+<Callout type="warning" title="Hardware Requirements Note">
+Since local split screen is unavailable, every PC player in your party must meet the minimum specifications, including **16 GB of RAM** and a **DirectX 12** compatible graphics card, to run the game smoothly.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Online Co-op and Crossplay Features">
+
+While local multiplayer is absent, the online cooperative features are highly robust. The game supports cross-platform play, allowing PC, PlayStation 5, and Xbox Series X|S players to form unified expedition parties. Xbox players also benefit from **Xbox Play Anywhere**, enabling seamless cross-progression and co-op between Windows PC and Xbox Series X|S consoles.
+
+To coordinate effectively, the game features **spatialized voice chat**. This means your teammates' voices fade, echo, or change direction based on their actual location in the cursed jungle. If an explorer wanders too far into the fog, their voice will become muffled and difficult to track, heightening the tension.
+
+| Co-op Feature | Supported Specifications | Practical Gameplay Impact |
+| :--- | :--- | :--- |
+| **Crossplay** | PC, PS5, Xbox Series X\|S | Group up with friends regardless of their preferred platform. |
+| **Party Size** | 1 to 4 Players | Scale your strategy from solo survival to a fully coordinated squad. |
+| **Voice Chat** | Spatialized 3D Audio | Voices change based on distance; separation makes communication harder. |
+| **Host System** | Host-only DLC access | For exclusive missions like the Temple of Yig, only the host needs to own it. |
+
+<Callout type="tip" title="Communication is Key">
+Do not rely on external party chat apps if you want the intended horror experience. The spatialized voice chat is directly tied to the sanity system, and losing voice contact with your squad is a core mechanic of the game's psychological terror.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Setup Online Cooperative Expeditions">
+
+Starting a multiplayer expedition requires preparing your party aboard the *Tempestad* galleon before launching your excursion into the cursed jungle. Follow these steps to get your team ready.
+
+<Steps>
+  <Step num="1" title="Form Your Lobby">
+    Invite your friends to your session using your platform's overlay or the in-game crossplay social menu. Confirm all players are visible on deck before proceeding.
+  </Step>
+  <Step num="2" title="Select a Captain's Contract">
+    Interact with the Captain's table to select your expedition contract. Agree on the required treasure value and the exit conditions before accepting the job.
+  </Step>
+  <Step num="3" title="Distribute the Shared Gear">
+    The Captain provides shared tools rather than individual loadouts. Allocate weapons, the oil lamp, and treasure-finding tools among your party members.
+  </Step>
+  <Step num="4" title="Deploy to the Jungle">
+    Once roles are assigned, head to the landing boat to begin the descent. Stick close to the ox cart as soon as you touch down on the shoreline.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Loadout Balance Tip">
+Never put all your essential tools on a single player. If the explorer carrying the only **Oil Lamp** or the **Treasure-Finding Medallion** is incapacitated, the remaining team will be left in complete darkness and unable to track objectives.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Squad Roles and Team Composition">
+
+A successful four-player expedition requires clear division of labor. Because resources are scarce and the environment reacts to noise, running around aimlessly will quickly lead to a squad wipe. Use the following loadout cards to organize your team roles.
+
+<CardGrid cols={3}>
+  <Card title="The Navigator">
+    - **Primary Tool**: Oil Lamp / Map
+    - **Weapon**: Knife (Quiet)
+    - **Role**: Tracks paths, finds logbooks, and guides the team through the fog.
+  </Card>
+  <Card title="The Cart Defender">
+    - **Primary Tool**: Flintlock Musket
+    - **Weapon**: Sword
+    - **Role**: Guards the ox cart, manages deposited treasure, and provides heavy firepower.
+  </Card>
+  <Card title="The Scout">
+    - **Primary Tool**: Bow (Quiet Ranged)
+    - **Weapon**: Knife
+    - **Role**: Eliminates sentries silently and searches ruins ahead of the cart.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="The Role of the Ox Cart">
+The ox cart is your mobile vault. Instead of carrying heavy relics and risk losing them upon death, regularly return to the cart to secure your loot. Protect the ox at all costs; if the cart is destroyed, extraction becomes significantly harder.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Co-op Survival Checklist">
+
+Before you head out on your next contract, make sure your squad is fully aligned on these survival rules. The jungle does not forgive uncoordinated teams.
+
+<Checklist
+  id="coop-survival"
+  title="Pre-Expedition Checklist:"
+  items={[
+    "Confirm every player has a quiet backup weapon (Bow or Knife) for rainy weather.",
+    "Designate one player as the primary Navigator to prevent getting lost in the fog.",
+    "Agree on a safety phrase to verify teammate identities during sanity distortions.",
+    "Set a strict ammunition threshold that triggers an immediate squad retreat.",
+    "Ensure at least two players are equipped to handle lighting duties."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there any workaround for local split screen in The Mound: Omen of Cthulhu?",
+    answer: "No. There is no official or unofficial workaround for split screen. The game requires an active network connection and individual system rendering for its multiplayer systems to function."
+  },
+  {
+    question: "Does the game support crossplay matchmaking with random players?",
+    answer: "Yes. You can use the public matchmaking system to find other explorers across PC, PS5, and Xbox Series X|S to fill out your four-player squad."
+  },
+  {
+    question: "Can I play the entire game solo if I don't want to play co-op?",
+    answer: "Yes, a complete single-player mode is available. However, you must carry a highly balanced loadout because you won't have teammates to watch your back or protect the ox cart."
+  },
+  {
+    question: "How does the sanity system affect co-op communication?",
+    answer: "As your sanity drops, you may hear fake distress calls, see hallucinations of monsters that aren't there, or even see your real teammates look like hostile creatures. You must use active voice communication to verify what is real."
+  }
+]} />
+
+</Section>

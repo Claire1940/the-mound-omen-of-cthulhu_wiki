@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Volume2, Mic, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Sprachchat: Pro-Kommunikationsleitfaden",
+  description: "Meistern Sie das Sprachchatsystem von The Mound: Omen of Cthulhu. Erfahren Sie, wie sich Raumklang, geistige Verzerrungen und Trupp-Protokolle im Jahr 2026 auf Ihr Überleben auswirken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Voice+Chat+Pro+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Anleitung">
+- **The Mound: Omen of Cthulhu Sprachchat**: Nutzt ein nähebasiertes **Raumklang-System** (Spatial Audio), bei dem Lautstärke und Richtung von der Entfernung der Spieler abhängen.
+- **Geistige Verzerrung**: Ein hoher Grad an Wahnsinn kann **akustische Halluzinationen** hervorrufen, darunter gefälschte Stimmen von Teammitgliedern und Phantomsignale des Evakuierungshorns.
+- **Verifizierungsprotokoll**: Nutzen Sie immer ein bestimmtes **Wechselsprech-Muster** (Call-and-Response), um echte Teammitglieder von wahrnehmungsbasierten Imitationen im Nebel zu unterscheiden.
+- **Hardware-Anforderung**: Ein hochwertiges **Stereo-Headset** ist unerlässlich, um die Richtung eingehender räumlicher Kommunikation präzise zu orten.
+- **Trupp-Rollen**: Bestimmen Sie einen **Navigator**, der die Kommunikation leitet, während sich andere auf den Schutz des Karrens und das Aufspüren von Ressourcen konzentrieren.
+</Callout>
+
+<Section icon={Volume2} title="Raumklang-Mechaniken in The Mound">
+
+Das Herzstück des **The Mound: Omen of Cthulhu Sprachchats** basiert auf einer immersiven Verräumlichung. Im Gegensatz zu traditionellen, lobbybasierten Sprachsystemen behandelt dieses Spiel die Stimmen der Spieler wie physische Geräusche in der Umgebung. Wenn ein Teammitglied links von Ihnen steht, ertönt seine Stimme aus dem linken Kanal Ihres Headsets. Wenn es sich weiter entfernt, nimmt die Lautstärke natürlich ab und verschwindet schließlich ganz, wenn es sich außer Reichweite begibt.
+
+**Video-Highlights:**
+- Übersicht über die 4-Spieler-Koop-Expeditionsschleife.
+- Visuelle Demonstration der verfluchten Dschungelumgebung.
+- Kampfmechaniken mit historischen Schusswaffen und Bögen.
+- Ein erster Blick auf die den Verstand verzerrenden Monster.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Dieses nähebasierte System zwingt Trupps dazu, jederzeit Sicht- oder Hörkontakt zu halten. In den dichten, nebelverhangenen Dschungeln von *The Mound: Omen of Cthulhu* ist das Verlieren der Stimmen Ihrer Teammitglieder der erste Schritt zu einer totalen Trupp-Auslöschung. Die Umgebung reagiert zudem auf Ihren Geräuschpegel. Das bedeutet, dass lautes Sprechen in Ihr Mikrofon nicht nur ein Kommunikationsmittel ist, sondern auch ein potenzielles Leuchtfeuer für die Untoten.
+
+| Feature | Audio-Verhalten | Taktische Auswirkung |
+| :--- | :--- | :--- |
+| **Näherungsabfall** | Lautstärke sinkt mit zunehmender Entfernung | Erzwingt enge Truppformationen |
+| **Richtungsursprung** | Audio schwenkt basierend auf der Spielerposition | Hilft beim Auffinden getrennter Teammitglieder |
+| **Umgebungsdämpfung** | Wände und Vegetation dämpfen den Schall | Kommunikation ist in Ruinen schwieriger |
+| **Geräuschanziehung** | Hohe Sprachaktivität alarmiert Feinde | Stealth erfordert leise Kommunikation |
+
+<Callout type="tip" title="Profi-Tipp">
+Verwenden Sie ein Headset mit einem hohen Dynamikumfang. Das subtile „Zischen“ der Stimme eines Teammitglieds durch dichte Vegetation hören zu können, kann Sie davor bewahren, in einen Hinterhalt der Y'm-bhi zu geraten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Geistige Gesundheit und akustische Halluzinationen">
+
+Der einzigartigste Aspekt des **The Mound: Omen of Cthulhu Sprachchats** ist die Interaktion des Wahnsinnssystems mit Ihrem Gehör. Wenn die geistige Gesundheit Ihres Entdeckers schwindet, beginnt das Spiel, Ihnen falsche Informationen zuzuspielen. Sie hören möglicherweise ein Teammitglied aus einer Richtung um Hilfe rufen, in der niemand steht, oder das deutliche Signal des Evakuierungshorns vernehmen, obwohl der Ochsenkarren weit von der Galeone entfernt ist.
+
+<CardGrid cols={2}>
+  <Card title="Falsche Hornsignale">
+    Das Spiel täuscht das Geräusch des Evakuierungssignals vor, um Spieler von der Gruppe wegzulocken. Diesen Geräuschen allein zu folgen, führt oft in einen tödlichen Hinterhalt oder zum Absturz im Gelände.
+  </Card>
+  <Card title="Stimmen-Mimikry">
+    Unter starkem psychischem Druck ahmt der Dschungel Fragmente menschlicher Sprache nach. Sie hören möglicherweise verzerrte Versionen der Stimmen Ihrer Teammitglieder, die in Wirklichkeit gar nicht gesprochen werden.
+  </Card>
+  <Card title="Phantom-Schritte">
+    Ein hoher Wahnsinnsgrad führt das Geräusch von Schritten in der Nähe ein. Dies bringt Spieler in Panik und verleitet sie dazu, ihre Musketen abzufeuern, wodurch wertvolle Munition für nicht existierende Bedrohungen verschwendet wird.
+  </Card>
+  <Card title="Räumliche Verschiebung">
+    Die echte Stimme eines Teammitglieds kann so klingen, als käme sie aus der falschen Richtung, was dazu führt, dass Sie einem echten Monster den Rücken zudrehen, während Sie nach einem Freund suchen.
+  </Card>
+</CardGrid>
+
+Da es auf dem HUD keine sichtbare Anzeige für die geistige Gesundheit gibt, müssen Sie sich auf Ihren Trupp verlassen, um das Gehörte zu verifizieren. Wenn Sie ein Horn hören, Ihre Teammitglieder jedoch nicht, erleben Sie höchstwahrscheinlich eine Halluzination. Dieses „Realitätsprüfungs-Protokoll“ ist der einzige Weg, um durch die tieferen, korrumpierten Bereiche des Dschungels zu navigieren, in denen die Grenze zwischen Realität und Illusion verschwimmt.
+
+| Halluzinationstyp | Audio-Hinweis | Verifizierungsmethode |
+| :--- | :--- | :--- |
+| **Phantom-Horn** | Fernes Evakuierungssignal | Karte prüfen / Bestätigung durch Teammitglieder |
+| **Falscher Hilferuf** | Teammitglied schreit um Hilfe | Räumliche Position querverweisen |
+| **Monster-Flüstern** | Fragmente menschlicher Sprache | Kruzifix verwenden, um Stresslevel zu prüfen |
+| **Fehlplatzierte Stimmen** | Teammitglied klingt „dezentriert“ | Neu gruppieren zur visuellen Bestätigung |
+
+<Callout type="warning" title="Kritische Warnung">
+Schießen Sie niemals auf eine Silhouette, nur weil Sie eine Stimme aus dieser Richtung gehört haben. Eigenbeschuss ist ein großes Risiko, wenn der Wahnsinn Ihre Wahrnehmung der Identität Ihrer Teammitglieder verzerrt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Trupp-Kommunikationsprotokolle">
+
+Effektive Kommunikation in *The Mound: Omen of Cthulhu* erfordert Disziplin. Da der Dschungel auf Geräusche reagiert, kann zu viel Kommunikation genauso gefährlich sein wie gar keine. Trupps sollten bei Ansagen einen „kurzen und klaren“ Ansatz wählen, insbesondere beim Umgang mit den historisch getreuen Schusswaffen des Spiels, die lange Nachladezeiten haben und wetterabhängig sind.
+
+<Steps>
+  <Step num="1" title="Ein Wechselsprech-Muster etablieren">
+    Vereinbaren Sie vor dem Verlassen der Galeone eine einfache Phrase oder ein Codewort. Wenn Sie eine Silhouette im Nebel sehen, nutzen Sie den Sprachchat für den „Ruf“. Antwortet die Gestalt nicht korrekt, handelt es sich wahrscheinlich um ein Monster oder eine Halluzination.
+  </Step>
+  <Step num="2" title="Einen Navigator bestimmen">
+    Ein Spieler sollte dafür verantwortlich sein, den Weg zum Ochsenkarren und zum Evakuierungspunkt im Auge zu behalten. Dieser Spieler leitet die Kommunikation und gibt Richtungs-Updates durch, damit sich der Rest des Trupps auf das Scannen nach Bedrohungen konzentrieren kann.
+  </Step>
+  <Step num="3" title="Phasen der Geräuschkontrolle">
+    Teilen Sie Ihre Expedition in „leise“ und „laute“ Phasen ein. Halten Sie den Sprachchat während der Erkundung auf ein Minimum. Wechseln Sie während des Kampfes oder wenn der Ochsenkarren schwer angegriffen wird zur aktiven Koordination, um Nachladevorgänge und Positionierung zu steuern.
+  </Step>
+  <Step num="4" title="Die Realitätsprüfung">
+    Wann immer ein Entdecker etwas Ungewöhnliches hört – wie ein fernes Horn oder eine seltsame Stimme –, muss er sofort fragen: „Habt ihr das gehört?“ Lautet die Antwort Nein, weiß der Trupp, dass die geistige Gesundheit dieses Spielers schwindet.
+  </Step>
+</Steps>
+
+| Rolle | Kommunikationsschwerpunkt | Wichtige Ansagen |
+| :--- | :--- | :--- |
+| **Navigator** | Route, Karrenposition, Evakuierung | „Karren ist 50m nördlich“, „Biegen nach Westen ab“ |
+| **Späher** | Feindsichtungen, Ressourcen, Nebel | „Wache auf 2 Uhr“, „Beute in den Ruinen“ |
+| **Verteidiger** | Rückendeckung, Karren-LP, Nachladen | „Lade Muskete nach“, „Rückseite ist frei“ |
+| **Unterstützer** | Geistige Prüfung, Beleuchtung, Wiederbelebungen | „Realitätsprüfung: Horn?“, „Lampe ist aus“ |
+
+<Callout type="success" title="Strategie-Tipp">
+Wenn ein Teammitglied durch den Wahnsinn „Vollständig Zerrüttet“ ist, sollte es keine Navigationsentscheidungen mehr treffen. Der Rest des Trupps sollte ihm über den Sprachchat direkte, einfache Anweisungen geben, um es sicher zurückzuführen.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimierung der Audio-Einstellungen für 2026">
+
+Um das Beste aus dem **The Mound: Omen of Cthulhu Sprachchat** herauszuholen, muss Ihr technisches Setup optimiert werden. Da das Spiel so stark auf räumliche Signale setzt, werden Standard-Lautsprecher nicht empfohlen. Sie benötigen ein Setup, das eine präzise Richtungsortung und eine klare Sprachübertragung ohne übermäßige Hintergrundgeräusche ermöglicht, welche die Geräuscherkennungsmechaniken des Spiels auslösen könnten.
+
+**Prioritäten bei der Audiokonfiguration:**
+- **Dynamikbereich**: Auf „Hoch“ oder „Heimkino“ einstellen, um sicherzustellen, dass leises Flüstern und ferne Monster hörbar sind.
+- **Sprachchat-Lautstärke**: Halten Sie diese etwas höher als die Soundeffekte des Spiels, aber nicht so laut, dass sie die räumliche Positionierung übertönt.
+- **Mikrofonempfindlichkeit**: Passen Sie Ihren Noise-Gate-Schwellenwert so an, dass Ihr Atem oder Tastaturklicks von der KI des Dschungels nicht als „Geräusch“ registriert werden.
+- **Räumlicher Sound**: Aktivieren Sie Windows Sonic, Dolby Atmos oder die herstellereigene Raumklang-Software Ihres Headsets für maximale Immersion.
+
+| Einstellung | Empfohlener Wert | Grund |
+| :--- | :--- | :--- |
+| **Gesamtlautstärke** | 80% - 90% | Verhindert Verzerrungen bei lauten Kämpfen |
+| **Sprachchat-Modus** | Push-to-Talk | Verhindert versehentliche Geräuschanziehung |
+| **Audioqualität** | Ultra / 48kHz | Essenziell für klare Halluzinationssignale |
+| **Räumlicher Sound** | Aktiviert | Erforderlich für richtungsabhängigen Sprachchat |
+
+<Callout type="info" title="Technische Anforderung">
+Die PC-Version von *The Mound: Omen of Cthulhu* erfordert ein 64-Bit-Betriebssystem und DirectX 12. Stellen Sie sicher, dass Ihre Audiotreiber vollständig aktualisiert sind, um Knistern oder Verzögerungen bei der räumlichen Sprachverarbeitung zu vermeiden.
+</Callout>
+
+<Checklist
+  id="comms-readiness"
+  title="Checkliste für die Expeditionsbereitschaft:"
+  items={[
+    "Stereo-Headset ist angeschlossen und getestet",
+    "Push-to-Talk-Tastenbelegung ist leicht erreichbar",
+    "Wechselsprech-Phrase ist abgesprochen",
+    "Navigator-Rolle ist an einen klaren Kommunikator vergeben",
+    "Raumklang ist in den Systemeinstellungen aktiviert"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+Das Meistern der Feinheiten der Kommunikation ist genauso wichtig wie das Beherrschen Ihrer Steinschlosspistole. Nachfolgend finden Sie die am häufigsten gestellten Fragen zum **The Mound: Omen of Cthulhu Sprachchatsystem** und wie Sie mit der psychologischen Kriegsführung des Dschungels umgehen.
+
+<FAQ items={[
+  {
+    question: "Unterstützt das Spiel plattformübergreifenden Sprachchat?",
+    answer: "Ja. The Mound: Omen of Cthulhu unterstützt Crossplay zwischen PC, PS5 und Xbox Series X|S, einschließlich eines einheitlichen räumlichen Sprachchatsystems, das über alle unterstützten Plattformen hinweg funktioniert."
+  },
+  {
+    question: "Kann ich Discord anstelle des In-Game-Sprachchats verwenden?",
+    answer: "Sie können zwar Discord verwenden, verlieren dann aber die räumlichen Audiosignale und die auf dem Wahnsinn basierenden Stimmenverzerrungen, die Kern des Spielerlebnisses sind. Die Nutzung externer Chats wird von einigen als „Cheat“ angesehen, da sie die Wahnsinnsmechaniken umgeht."
+  },
+  {
+    question: "Woher weiß ich, ob eine Stimme, die ich höre, eine Halluzination ist?",
+    answer: "Der beste Weg ist das Realitätsprüfungs-Protokoll. Fragen Sie Ihre Teammitglieder, ob sie etwas gesagt haben. Wenn sie geschwiegen haben oder die Stimme aus einer Richtung kam, in der sich kein Teammitglied befindet, war es eine Halluzination."
+  },
+  {
+    question: "Beeinflusst Regen die Lautstärke des Sprachchats?",
+    answer: "Ja, Umwelteinflüsse wie starker Regen oder dichtes Dschungellaub können die Distanz, auf die Sie Ihre Teammitglieder hören können, dämpfen, was es einfacher macht, während eines Sturms getrennt zu werden."
+  }
+]} />
+
+</Section>

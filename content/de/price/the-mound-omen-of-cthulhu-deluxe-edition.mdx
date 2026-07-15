@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Deluxe Edition: Vollständiger Guide",
+  description: "Vergleichen Sie die Standard- und Deluxe-Editionen von The Mound: Omen of Cthulhu. Erfahren Sie mehr über exklusive Missionen, Waffen, Wahnsinnsmechaniken und Koop-Strategien.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/5fddc0?text=Deluxe+Edition+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "The Mound, Omen of Cthulhu, Deluxe Edition, Guide, Waffen, Wahnsinn, Koop, Systemanforderungen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **The Mound Omen of Cthulhu Deluxe Edition** enthält das Hauptspiel, exklusive Charaktere, kosmetische Ausrüstung und die Mission „Tempel von Yig“.
+- **Wahnsinnsmechaniken** funktionieren ohne sichtbares HUD, was Spieler dazu zwingt, Halluzinationen über den räumlichen Voice-Chat zu verifizieren.
+- **Trockenes Schießpulver** ist für historische Schusswaffen erforderlich; Regen setzt Musketen außer Kraft, was Bögen und Messer unverzichtbar macht.
+- **Der Ochsenkarren** dient als mobiler Tresor Ihres Teams und muss während der Extraktionsschleifen im Dschungel verteidigt werden.
+- **Crossplay** wird zwischen PC- und Konsolenversionen vollständig unterstützt, um kooperative Expeditionen für vier Spieler zu ermöglichen.
+</Callout>
+
+<Section icon={Shield} title="Vergleich der The Mound Omen of Cthulhu Editionen">
+
+Die Veröffentlichung des Spiels am **15. Juli 2026** bietet eine düstere, kooperative Survival-Erfahrung, die von ACE Team entwickelt und von Nacon veröffentlicht wurde. Spieler müssen sich zwischen der Standard Edition und der Premium Deluxe Edition entscheiden. Das Deluxe-Paket richtet sich an Spieler, die tiefer in die Lore des Dschungels eintauchen möchten und exklusive Charakteroptionen sowie einzigartige kosmetische Stile im Cthulhu-Mythos-Design suchen.
+
+| Feature | Standard Edition | Deluxe Edition | Details |
+| :--- | :--- | :--- | :--- |
+| **Basispreis** | 29,99 $ | 39,99 $ | Regionale Preise gelten in den jeweiligen Stores |
+| **Hauptspiel** | Enthalten | Enthalten | Zugriff auf Kernverträge, Karten und Gegner |
+| **Fortune Hunters** | Nicht enthalten | Enthalten | Fügt 2 exklusive spielbare Entdecker-Charaktere hinzu |
+| **Abyssal Gear Pack** | Nicht enthalten | Enthalten | Cthulhu-Themen-Skins für 4 Basiswaffen |
+| **Tempel von Yig** | Nicht enthalten | Enthalten | Exklusive Mission in einem einzigartigen Dschungelgebiet |
+| **Digitaler Soundtrack** | Nicht enthalten | Enthalten | Offizielle atmosphärische Audiodateien |
+| **Lost Explorers Pack** | Launch-Bonus | Launch-Bonus | 2 verzierte Schwerter (muss innerhalb von 2 Wochen eingelöst werden) |
+
+Die Deluxe Edition bietet sofortigen Zugriff auf die Mission „Tempel von Yig“. Auf Steam ist diese Mission als separates kostenloses Extra verfügbar, und nur der Host muss sie besitzen, damit die gesamte Lobby aus vier Spielern teilnehmen kann. Das Fortune Hunters Pack und das Abyssal Gear Pack bieten optische Unterschiede, ändern jedoch nicht die funktionalen Startattribute oder Waffenwerte.
+
+<Callout type="warning" title="Hinweis zum Launch-Rabatt">
+Steam-Spieler haben durch das Überschreiten von 800.000 Wunschlisten-Einträgen einen Launch-Rabatt von 20 % freigeschaltet. Dies reduziert die Standard Edition auf 23,99 $ und die Deluxe Edition auf 31,99 $ während des ersten Aktionszeitraums.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Waffen und Verteilung der Ausrüstung">
+
+Das Überleben im verfluchten Dschungel hängt von einer ausgewogenen Teamausrüstung ab. Historische Schusswaffen verursachen hohen Schaden, bergen aber extreme Risiken, darunter ohrenbetäubender Lärm, der Monster in der Nähe alarmiert, und ein Totalausfall, wenn Regen das Schießpulver befeuchtet. Lautlose Waffen und Hilfswerkzeuge müssen gleichmäßig auf die Gruppe verteilt werden.
+
+| Waffe / Werkzeug | Kategorie | Größte Stärke | Größte Schwäche | Empfohlene Rolle |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bogen** | Leise Fernwaffe | Regenfest, schnelles Nachladen | Geringerer sofortiger Schaden | Aufklärer / Stealth-Spezialist |
+| **Messer** | Nahkampf | Regenfest, lautlos | Erfordert gefährliche Nähe | Jeder Entdecker als Backup |
+| **Steinschlossmuskete** | Schwere Schusswaffe | Hoher Einzelschuss-Schaden | Lange Ladezeit, hoher Lärm | Dedizierter Scharfschütze |
+| **Luntenschlossmuskete** | Schwere Schusswaffe | Starke Mannstoppwirkung | Unbrauchbar bei Regen, starker Rauch | Verteidigungsspezialist |
+| **Öllampe** | Lichtquelle | Beleuchtet dunkle Ruinen | Flackergefahr bei starkem Regen | Navigator / Vorhut |
+| **Medaillon** | Schatzsuche | Ortet verstecktes Tulu-Metall | Lautes metallisches Klirren bei Treffern | Support / Karren-Eskorte |
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Der Bogen">
+    Die ultimative Utility-Waffe für lautloses Vorankommen. Er benötigt kein Schießpulver, bleibt bei tropischen Regenstürmen voll funktionsfähig und ermöglicht es Teams, isolierte untote Wächter auszuschalten, ohne den gesamten Wald zu wecken.
+  </Card>
+  <Card title="A-Tier: Steinschlossmuskete">
+    Ein lebenswichtiges Notfallwerkzeug. Behalten Sie diese Waffe im Holster, bis der Trupp auf widerstandsfähige übernatürliche Bedrohungen trifft. Ein einziger lauter Schuss kann Horden anlocken, koordinieren Sie sich also mit Ihrem Team, bevor Sie abdrücken.
+  </Card>
+  <Card title="A-Tier: Schatz-Medaillon">
+    Unerlässlich für den Abschluss hochwertiger Verträge. Es führt die Gruppe zu vergrabenem Reichtum, aber das metallische Geräusch wirkt wie ein Leuchtfeuer für Monster. Nutzen Sie es nur, wenn der unmittelbare Umkreis gesichert ist.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Ausrüstungsstrategie">
+Konzentrieren Sie niemals alle Schusswaffen oder Lichtquellen auf einen einzigen Entdecker. Wenn dieser Spieler getrennt oder kampfunfähig wird, bleibt der Rest des Trupps schutzlos in völliger Dunkelheit zurück.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Schritt-für-Schritt Expeditionsablauf">
+
+Jeder erfolgreiche Auftrag folgt einer strengen operativen Schleife. Das Abweichen von diesen Schritten erhöht den Stress im Team, verbraucht Munition und riskierteinen Totalverlust des Trupps im tiefen Dschungel.
+
+<Steps>
+  <Step num="1" title="Auftragsauswahl">
+    Beginnen Sie an Bord der Galeone Tempestad. Überprüfen Sie die verfügbaren Verträge des Kapitäns und notieren Sie den erforderlichen Mindestschatzwert sowie spezifische regionale Gefahren, bevor Sie das Landungsboot besteigen.
+  </Step>
+  <Step num="2" title="Ausrüstungsverteilung">
+    Verteilen Sie das vom Kapitän bereitgestellte gemeinsame Arsenal. Stellen Sie sicher, dass mindestens ein Spieler einen Bogen für lautlose Kills trägt, einer eine Öllampe hält und alle Mitglieder ein Messer für Nahkampfnotfälle haben.
+  </Step>
+  <Step num="3" title="Ochsenkarren-Eskorte">
+    Rücken Sie gemeinsam mit dem Ochsenkarren vor. Der Karren dient als Ihre mobile Lagereinheit. Räumen Sie physische Hindernisse aus dem Weg und deponieren Sie schwere Schätze sofort, um Inventarplätze frei zu halten.
+  </Step>
+  <Step num="4" title="Lärm- und Wettermanagement">
+    Achten Sie auf Umgebungsgeräusche und Wetterumschwünge. Wenn es anfängt zu regnen, wechseln Sie sofort von Schusswaffen zu Bögen und Messern. Vermeiden Sie es zu rennen oder dichte Lianen zu durchtrennen, es sei denn, Sie sind auf der Flucht.
+  </Step>
+  <Step num="5" title="Fort-Erkundung & Extraktion">
+    Suchen Sie verlassene Dschungelforts auf, um Logbücher zu bergen, die permanent neue Startpunkte freischalten. Sobald die finanzielle Quote des Vertrags erfüllt ist, ziehen Sie sich sofort zur Küste zurück, bevor der Wahnsinn Überhand nimmt.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Verteidigung des Ochsenkarrens">
+Der Ochsenkarren ist Ihre Lebensader. Wenn Sie sein Warnhorn hören, kehren Sie sofort zu ihm zurück. Seien Sie vorsichtig, da fortgeschrittener Wahnsinn den Spielern falsche Hornsignale vorgaukeln kann, wenn gar keine Gefahr besteht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wahnsinns- und Halluzinationsmechaniken">
+
+Das Spiel verfügt über kein traditionelles HUD, keine Gesundheitsbalken oder Wahnsinnsanzeigen. Psychischer Verfall manifestiert sich direkt durch veränderte Umgebungsdarstellung und auditive Illusionen, die Spieler individuell treffen.
+
+| Halluzinationstyp | Visueller / Auditiver Effekt | Gefahr für das Team | Richtige Gegenmaßnahme |
+| :--- | :--- | :--- | :--- |
+| **Blutender Dschungel** | Roter Regen, pulsierende Flora | Verzerrte Navigationspfade | Wetter mit Teamkollegen abgleichen |
+| **Falsche Hornsignale** | Ferne Extraktionssignale | Lockt Spieler in Hinterhalte | Karrenposition auf der Karte bestätigen |
+| **Monster-Illusionen** | Teamkollegen wirken wie Bestien | Hohes Risiko für Eigenbeschuss | Voice-Chat vor dem Schießen nutzen |
+| **Falsche Silhouetten** | Menschengestalten im dichten Nebel | Trennt die Formation | Namen rufen, um Positionen zu prüfen |
+| **Sich veränderndes Terrain** | Scheinfahrwege über echten Fallen | Führt den Trupp in Gefahren | Den geistig stabilsten Spieler führen lassen |
+
+Um diese Illusionen zu überleben, müssen Trupps ein striktes Reality-Check-Protokoll einführen. Wenn Sie etwas Ungewöhnliches sehen oder hören, nutzen Sie den räumlichen Voice-Chat, um einfache Bestätigungsfragen zu stellen wie: „Siehst du da vorne ein rotes Licht?“ oder „Hat gerade jemand das Horn geblasen?“. Wenn Ihre Teamkollegen dies verneinen, ignorieren Sie den Reiz und bleiben Sie nah bei der Gruppe.
+
+<Callout type="warning" title="Protokoll bei schwerem Wahnsinn">
+Wenn der Verstand eines Entdeckers vollständig bricht, muss er die Navigation einstellen. Der betroffene Spieler sollte den physischen Fußstapfen eines nachweislich geistig gesunden Teamkollegen folgen und sich vollständig auf verbale Anweisungen verlassen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dschungel-Bestiarium und Bedrohungsprofile">
+
+Die Wesen, die den verfluchten Dschungel bewohnen, reichen von physischen reanimierten Leichen bis hin zu spektralen Manifestationen der alten Götter. Das Verständnis ihres Verhaltens entscheidet über eine erfolgreiche Extraktion oder den Tod.
+
+| Monstername | Bedrohungstyp | Verhaltensmuster | Warnsignale | Empfohlene Gegenmaßnahmen |
+| :--- | :--- | :--- | :--- | :--- |
+| **Y'm-bhi-Wächter** | Reanimierter Wächter | Beobachtet aus der Ferne, baut Stress auf | Leuchtende Augen, gebrochene Sprache | Mit Licht blenden, Kruzifix nutzen |
+| **Untoter Wanderer** | Gewöhnlicher Feind | Schlurft in Gruppen, reagiert auf Lärm | Raschelndes Laub, leises Stöhnen | Lautloser Nahkampf, Schusswaffen meiden |
+| **Verderbter Entdecker** | Gefallener Teamkollege | Jagt überlebende Gruppenmitglieder | Verbliebene Spielerausrüstung am Körper | Wiederbelebung vor der Verwandlung priorisieren |
+| **Spektren** | Übernatürlich | Schwebt in Karrennähe, entzieht Verstand | Kalter Nebel, flüsternde Stimmen | Gruppiert bleiben, Munition sparen |
+
+Die Y'm-bhi-Wächter sind besonders trügerisch. Sie testen die Distanz Ihres Teams und bauen psychologischen Druck auf, bevor sie zuschlagen. Wenn ein Y'm-bhi seine eigene Laterne trägt, kann er sich selbst entzünden, um einen verheerenden Sturmangriff auszuführen. Benutzen Sie immer ein Kruzifix, um deren Stresslevel vor einem Kampf einzuschätzen.
+
+<Callout type="success" title="Loot-Tipp">
+Besiegte Untote Wanderer lassen gelegentlich Munition und kaputte Waffenteile fallen. Durchsuchen Sie ihre Überreste schnell, aber lassen Sie einen Aufklärer die umliegende Waldgrenze nach herannahenden Patrouillen beobachten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="PC-Systemanforderungen und Optimierung">
+
+Die dichten Dschungelumgebungen, Echtzeit-Wetteränderungen und der volumetrische Nebel erfordern eine moderne PC-Konfiguration. Das Spiel läuft exklusiv auf DirectX 12, um die fortschrittlichen Licht- und Schattensysteme zu verarbeiten.
+
+| Komponente | Mindestanforderungen | Empfohlene Spezifikation | Optimierungspriorität |
+| :--- | :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) | OS und GPU-Treiber aktuell halten |
+| **Prozessor** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Verhindert Ruckler bei Horden-Events |
+| **Arbeitsspeicher** | 16 GB RAM | 16 GB RAM | Hintergrund-Apps schließen |
+| **Grafikkarte** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | Volumetrischen Nebel für mehr FPS senken |
+| **DirectX** | Version 12 | Version 12 | Erforderlich für den Spielstart |
+| **NVIDIA DLSS** | Unterstützt | DLSS 4.5 (RTX 50 Serie) | Super Resolution für klare Bilder aktivieren |
+
+Um die Sichtbarkeit in dunklen, nebelverhangenen Gebieten zu maximieren, sollten Sie Ihre Grafikeinstellungen ausbalancieren. Hohe Texturqualität und Sichtweite sollten Vorrang vor Ultra-Schatten und Pflanzendichte haben. So stellen Sie sicher, dass Sie sich bewegende Gegnersilhouetten und Umweltgefahren erkennen, bevor diese in Ihren unmittelbaren Radius gelangen.
+
+<Callout type="info" title="DLSS 4.5 Unterstützung">
+Nutzer der NVIDIA RTX 50 Serie können DLSS 4.5 mit Dynamic Multi Frame Generation und Super Resolution aktivieren. Dies nutzt Transformer-Modelle der zweiten Generation, um die Bildraten in dichten Dschungelszenen zu verdoppeln, ohne die visuelle Klarheit zu beeinträchtigen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was ist in der Deluxe Edition des Spiels enthalten?",
+    answer: "Die Deluxe Edition enthält das Hauptspiel, das Fortune Hunters Character Pack (2 exklusive Charaktere), das Abyssal Gear Pack (4 Waffen-Skins), die exklusive Mission „Tempel von Yig“ und den offiziellen digitalen Soundtrack."
+  },
+  {
+    question: "Wie funktioniert das Wahnsinnssystem ohne HUD?",
+    answer: "Der Verfall der geistigen Gesundheit wird durch individuelle visuelle und auditive Halluzinationen wie Blutregen, falsche Hornsignale des Karrens und Teamkollegen, die als Monster erscheinen, erlebt. Die Spieler müssen per Voice-Chat kommunizieren, um zu prüfen, was real ist."
+  },
+  {
+    question: "Kann ich Schusswaffen bei Regen benutzen?",
+    answer: "Nein. Steinschloss- und Luntenschlossmusketen sind auf trockenes Schießpulver angewiesen. Wenn es regnet, werden diese Waffen unbrauchbar, was die Spieler dazu zwingt, auf lautlose, regenfeste Alternativen wie Bögen und Messer zurückzugreifen."
+  },
+  {
+    question: "Gibt es für die Deluxe Edition einen Steam-Launch-Rabatt?",
+    answer: "Ja. Da die Community mehr als 800.000 Steam-Wunschlisten-Einträge erreicht hat, wurde ein Launch-Rabatt von 20 % freigeschaltet. Dies reduziert die Standard Edition auf 23,99 $ und die Deluxe Edition auf 31,99 $ für begrenzte Zeit."
+  }
+]} />
+
+</Section>

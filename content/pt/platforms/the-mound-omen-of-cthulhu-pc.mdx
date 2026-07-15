@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu PC: Guia de Lançamento Completo e Configuração",
+  description: "Domine a versão para PC de The Mound: Omen of Cthulhu. Aprenda os requisitos de sistema, otimização com DLSS 4.5, estratégias cooperativas e gerenciamento de sanidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/090c0b/5fddc0?text=PC+Launch+Guide",
+  date: "2026-07-15",
+  author: "Equipe do Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O lançamento de The Mound Omen of Cthulhu para PC** ocorreu em 15 de julho de 2026, juntamente com as plataformas de console da geração atual.
+- **O desempenho otimizado** requer DirectX 12 e 16 GB de RAM, com suporte exclusivo a DLSS 4.5 para GPUs da série RTX 50.
+- **A sobrevivência cooperativa** suporta até quatro jogadores, utilizando chat de voz espacial que se deteriora à medida que a sanidade cai.
+- **As mecânicas de sanidade** alteram o ambiente individualmente, forçando os jogadores a verificar verbalmente as ameaças para evitar fogo amigo.
+</Callout>
+
+<Section icon={Map} title="Lançamento e Edições de The Mound Omen of Cthulhu para PC">
+
+O aguardado jogo de expedição de terror tático, a edição para PC de **the mound omen of cthulhu**, foi lançado oficialmente em 15 de julho de 2026. Desenvolvido pela ACE Team e publicado pela Nacon, o jogo desafia os jogadores a sobreviverem a uma selva amaldiçoada, completarem contratos e extraírem tesouros valiosos enquanto lutam contra a decadência psicológica. A versão para PC está disponível no Steam, Epic Games Store e Xbox PC Store, com suporte total a jogo cooperativo multiplataforma.
+
+Antes de seguir para as profundezas escuras e esverdeadas da selva, os jogadores devem escolher entre as Edições Standard e Deluxe.
+
+| Recurso | Edição Standard | Edição Deluxe | Detalhes |
+|:---|:---|:---|:---|
+| **Preço Base** | $29.99 | $39.99 | Preços regionais se aplicam nas lojas |
+| **Promoção de Lançamento** | $23.99 | $31.99 | Desconto de 20% desbloqueado via 800K de adições à lista de desejos no Steam |
+| **Jogo Base** | Incluso | Incluso | Acesso aos contratos principais, mapas e sistemas de sanidade |
+| **Caçadores de Fortunas** | Não | Incluso | Adiciona 2 personagens exploradores jogáveis exclusivos |
+| **Equipamento Abissal** | Não | Incluso | Skins temáticas de Cthulhu para facas, lâmpadas e mosquetes |
+| **Templo de Yig** | Apenas Host | Incluso | Missão exclusiva; apenas o host precisa possuir |
+| **Trilha Sonora** | Não | Incluso | Download digital de alta qualidade da trilha sonora oficial |
+| **Exploradores Perdidos** | Bônus de Lançamento | Bônus de Lançamento | Espadas ornamentadas; resgatáveis nas primeiras 2 semanas |
+
+<Callout type="tip" title="Dica de Edição">
+Se você estiver jogando no PC com um grupo dedicado, apenas um jogador precisa possuir a Edição Deluxe para hospedar a missão exclusiva do Templo de Yig para todo o esquadrão.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Sistema para PC e Otimização de Desempenho">
+
+Para garantir taxas de quadros estáveis e visibilidade clara através da névoa volumétrica densa da selva amaldiçoada, os jogadores devem otimizar suas configurações de hardware. O jogo depende fortemente de sombras dinâmicas, densidade de folhagem e iluminação atmosférica para construir sua atmosfera lovecraftiana misteriosa.
+
+| Especificação | Requisito Mínimo | Requisito Recomendado | Prioridade de Desempenho |
+|:---|:---|:---|:---|
+| **SO** | Windows 10 (64 bits) | Windows 11 (64 bits) | Mantenha o SO e os drivers de vídeo totalmente atualizados |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Alta folga de CPU evita travamentos de física no coop |
+| **RAM** | 16 GB RAM | 16 GB RAM | Feche aplicativos em segundo plano para liberar memória do sistema |
+| **GPU** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | VRAM é crucial para renderizar folhagem em alta resolução |
+| **DirectX** | Versão 12 | Versão 12 | APIs gráficas legadas não são suportadas |
+| **DLSS 4.5** | Não suportado | Suportado (Série RTX 50) | Ativa a Geração Dinâmica de Múltiplos Quadros |
+
+<Callout type="warning" title="Aviso de Desempenho">
+Se você notar quedas repentinas de quadros durante chuvas fortes ou confrontos de combate intensos, reduza imediatamente a névoa volumétrica, a qualidade das sombras e a densidade da folhagem. Manter uma alta clareza visual é mais importante para identificar ameaças distantes do que a fidelidade estética máxima.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Conjunto de Equipamentos">
+
+As expedições não fornecem um arsenal pessoal completo para cada explorador. Em vez disso, o capitão do navio fornece armas e ferramentas compartilhadas que devem ser cuidadosamente distribuídas entre a tripulação. Esquadrões de sucesso designam funções com base na força das armas, tempos de recarga e condições ambientais.
+
+<CardGrid cols={3}>
+  <Card title="O Arco (Tier S)">
+    - **Combate Silencioso**: Tiros silenciosos não alertam a selva ao redor.
+    - **À Prova de Clima**: Funciona perfeitamente em tempestades de chuva forte.
+    - **Recarga Rápida**: Altamente eficiente para controle consistente de multidões.
+  </Card>
+  <Card title="Mosquete de Pederneira (Tier A)">
+    - **Alto Impacto**: Oferece um enorme poder de parada de emergência.
+    - **Dependente de Pólvora**: Torna-se completamente inútil em clima úmido.
+    - **Extremamente Barulhento**: Atirar alerta hordas de mortos-vivos próximas.
+  </Card>
+  <Card title="Lampião a Óleo (Tier S)">
+    - **Localizador de Caminhos**: Corta a névoa densa e as ruínas na escuridão total.
+    - **Âncora de Equipe**: Ajuda o esquadrão a manter a formação em baixa visibilidade.
+    - **Vulnerável**: A chama pode oscilar ou falhar durante chuvas torrenciais.
+  </Card>
+</CardGrid>
+
+| Equipamento | Categoria | Força Principal | Grande Fraqueza | Função Recomendada |
+|:---|:---|:---|:---|:---|
+| **Arco** | Arma de Longo Alcance | Silencioso, recarga rápida, à prova de chuva | Menor dano de explosão imediato | batedor / Combate Silencioso |
+| **Mosquete** | Arma de Fogo de Emergência | Dano de explosão extremo | Barulhento, recarga lenta, falha na chuva | Infantaria Pesada / Guarda |
+| **Faca** | Combate Corpo a Corpo de Reserva | Munição infinita, completamente silenciosa | Requer proximidade perigosa | Reserva de todo explorador |
+| **Lampião a Óleo** | Ferramenta de Visibilidade | Revela caminhos, mantém o esquadrão unido | Torna o portador um alvo fácil | Navegador / Suporte |
+| **Medalhão** | Utilitário de Tesouro | Localiza o valioso metal Tulu | Golpeá-lo emite um som metálico alto | Caçador de Tesouros |
+
+<Callout type="success" title="Estratégia de Equipamento">
+Certifique-se sempre de que seu esquadrão tenha pelo menos duas armas à prova de chuva ativas (como Arcos ou Facas). Se uma tempestade repentina começar enquanto sua equipe depende inteiramente de mosquetes de pólvora, vocês ficarão indefesos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Iniciante para Sua Primeira Expedição">
+
+Cada partida bem-sucedida segue um ciclo rigoroso: selecionar um contrato, organizar seus equipamentos, proteger seu transporte, coletar riquezas e extrair antes que a selva consuma sua sanidade.
+
+<Steps>
+  <Step num="1" title="Selecione um Contrato do Capitão">
+    Embarque no galeão Tempestad e analise os contratos disponíveis. Escolha um objetivo que corresponda ao nível de experiência do seu esquadrão, prestando muita atenção ao valor do tesouro exigido.
+  </Step>
+  <Step num="2" title="Distribua o Equipamento Compartilhado">
+    Não acumule todas as armas de fogo ou fontes de luz em um único jogador. Distribua ferramentas utilitárias como o Lampião a Óleo e o Medalhão de Localização de Tesouros entre diferentes membros da equipe.
+  </Step>
+  <Step num="3" title="Escorte a Carroça de Bois">
+    A carroça de bois é o seu cofre móvel. Deposite relíquias valiosas regularmente. Mantenha o caminho ao redor da carroça livre de detritos e nunca a deixe completamente desacompanhada.
+  </Step>
+  <Step num="4" title="Controle os Níveis de Ruído">
+    Correr, cortar vinhas e disparar mosquetes acordam a selva. Mova-se lentamente e use ataques corpo a corpo silenciosos ou arcos para eliminar sentinelas isoladas sem soar o alarme.
+  </Step>
+  <Step num="5" title="Extraia com Segurança">
+    Assim que a cota do seu contrato for atingida, consulte sua equipe. É sempre melhor extrair cedo com uma carga garantida do que avançar mais fundo, perder a sanidade e sofrer uma eliminação total do esquadrão.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Progressão do Diário de Bordo">
+Vasculhe fortes abandonados durante suas incursões. Recuperar os diários de bordo dos fortes desbloqueia novos locais de partida permanentes no mapa, reduzindo os tempos de viagem em expedições subsequentes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sanidade, Alucinações e Verificação de Realidade">
+
+Não há barra de sanidade visível ou indicador de interface no jogo. Em vez disso, a decadência psicológica se manifesta como alucinações privadas e localizadas. O que você vê e ouve pode ser completamente diferente do que seus companheiros de equipe experimentam.
+
+<Checklist
+  id="sanity-verification"
+  title="Lista de Verificação de Realidade do Esquadrão:"
+  items={[
+    "Verifique chamados de trombeta distantes verbalmente antes de se mover em direção a eles.",
+    "Confirme silhuetas de olhos brilhantes com os companheiros de equipe antes de disparar uma arma.",
+    "Peça aos parceiros para cruzarem referências de mudanças suspeitas no terreno ou chuva de sangue repentina.",
+    "Fique dentro do alcance do chat de voz espacial para manter a estabilidade da comunicação.",
+    "Designe o jogador com a visão mais clara para liderar o grupo."
+  ]}
+/>
+
+<Callout type="warning" title="Perigo de Fogo Amigo">
+A loucura severa pode fazer com que companheiros de equipe pareçam monstros mortos-vivos horripilantes. Nunca atire em uma silhueta humanoide na névoa sem receber primeiro a confirmação verbal de sua posição via chat de voz espacial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Existe crossplay para a versão de PC de the mound omen of cthulhu?",
+    answer: "Sim, a versão para PC suporta jogo cooperativo multiplataforma completo com jogadores de PlayStation 5 e Xbox Series X|S. O Xbox Play Anywhere também permite salvamento cruzado contínuo entre o PC e os consoles Xbox."
+  },
+  {
+    question: "Posso jogar o jogo completamente sozinho?",
+    answer: "Sim, um modo de jogador único dedicado está disponível. No entanto, os jogadores solo devem carregar um conjunto de equipamentos altamente equilibrado, pois não há companheiros de equipe para proteger a carroça de bois ou verificar alucinações visuais."
+  },
+  {
+    question: "O que acontece se um explorador morrer durante uma expedição?",
+    answer: "Exploradores mortos devem ser revividos prontamente. Se forem deixados desacompanhados, seus corpos caídos eventualmente reanimarão como Exploradores Corrompidos, tornando-se inimigos hostis que caçam o esquadrão sobrevivente."
+  },
+  {
+    question: "Como você impede que uma Sentinela Y'm-bhi se reanime?",
+    answer: "Ataques físicos padrão podem apenas derrubá-los temporariamente. Use um crucifixo para ler seu nível de estresse, utilize fontes de luz brilhante para cegá-los e evite desencadear seu ataque de autoimolação."
+  }
+]} />
+
+</Section>

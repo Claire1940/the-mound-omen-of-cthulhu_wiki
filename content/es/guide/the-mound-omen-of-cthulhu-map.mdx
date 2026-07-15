@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de The Mound Omen of Cthulhu: Navegación y Ubicación de Fuertes",
+  description: "Domina el diseño de la selva maldita en The Mound: Omen of Cthulhu. Descubre ubicaciones de fuertes, cuadernos de bitácora, rutas de extracción y puntos de referencia que alteran la cordura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b1d12/fff?text=Map+and+Navigation+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "mapa, navegación, fuertes, cthulhu, guía, supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánicas del Mapa**: El diseño de la selva maldita cambia visualmente según los niveles de cordura colectiva de tu escuadrón.
+- **Ubicaciones de Fuertes**: Encontrar y asegurar fuertes abandonados desbloquea puntos de inicio permanentes para futuras expediciones.
+- **Ruta de Extracción**: Siempre traza tu camino de regreso al galeón Tempestad antes de que tu cordura se fracture por completo.
+- **Camino del Carro de Bueyes**: El carro requiere caminos anchos y despejados; quedar atrapado en la vegetación densa invita a emboscadas.
+</Callout>
+
+<Section icon={Map} title="Estructura del Mapa de The Mound Omen of Cthulhu">
+
+La supervivencia en la expedición de terror cooperativo de ACE Team depende totalmente de comprender el diseño de la selva maldita. El **mapa de The Mound: Omen of Cthulhu** no es un entorno estático; es un ecosistema reactivo y extenso donde el follaje denso, la niebla cambiante y las ruinas antiguas dictan tu movimiento. Tu viaje comienza en la costa donde tu galeón, el Tempestad, está anclado, y se extiende hasta el corazón oscuro de la isla donde se esconden tesoros prohibidos.
+
+Navegar por este terreno requiere una coordinación constante. La selva cuenta con zonas distintas, cada una con peligros ambientales únicos, densidades de enemigos y distribución de recursos.
+
+| Nombre de la Zona | Nivel de Peligro | Recursos Principales | Puntos de Referencia Clave |
+|---|---|---|---|
+| **La Costa** | Bajo | Madera flotante, suministros básicos, comida inicial | Sitio de desembarco, contacto con el barco |
+| **Senderos de la Selva** | Medio | Carne, agua dulce, reliquias comunes | Puntos de estrangulamiento estrechos, maleza densa |
+| **Fuertes Abandonados** | Alto | Cuadernos de bitácora, reliquias valiosas, munición | Estructuras de fuertes, muros defensivos |
+| **Ruinas Antiguas** | Muy Alto | Tesoro de metal Tulu, artefactos malditos | Altares ocultos, cavernas profundas |
+
+<Callout type="warning" title="Cambio Ambiental">
+La lluvia intensa vuelve los senderos resbaladizos y hace que los mosquetes de mecha y pedernal sean completamente inútiles. Siempre planifica tu retirada hacia ruinas cubiertas o hacia la costa cuando se acerquen tormentas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Localizar y Desbloquear Fuertes Abandonados">
+
+Los fuertes abandonados sirven como los principales puntos de referencia de progresión en el mapa. Asegurar estas estructuras fortificadas es esencial para la supervivencia a largo plazo, ya que contienen cuadernos de bitácora históricos críticos. Recuperar estos cuadernos permite a tu tripulación desbloquear nuevas ubicaciones de inicio más profundas para expediciones posteriores, evitando la peligrosa costa exterior.
+
+| Ubicación del Fuerte | Dificultad | Botín Clave | Requisito de Desbloqueo |
+|---|---|---|---|
+| **Puesto Costero** | Fácil | Munición básica, mapas antiguos | Eliminar a los errantes no muertos cercanos |
+| **Bastión del Pantano** | Medio | Cuaderno de bitácora vol. 1, agua dulce | Asegurar el patio central |
+| **Ciudadela de la Selva** | Difícil | Cuaderno de bitácora vol. 2, metal Tulu | Derrotar al Y'm-bhi que porta la lámpara |
+
+<CardGrid cols={3}>
+  <Card title="Localiza las Puertas">
+    Busca a lo largo de las crestas elevadas de la selva. Los fuertes suelen estar rodeados por empalizadas de madera deterioradas o muros de piedra en ruinas.
+  </Card>
+  <Card title="Asegura el Cuaderno">
+    El cuaderno de bitácora siempre se encuentra en los aposentos del comandante o en la torre central. Protege al jugador que lo lleva, ya que no puede sostener armas de dos manos.
+  </Card>
+  <Card title="Establece una Posición">
+    Desbloquear el fuerte actualiza tus opciones de mapa a bordo del galeón, permitiéndote saltarte la costa en tu próximo contrato.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Defensivo">
+Usa las puertas estrechas de los fuertes abandonados para crear embudos contra las hordas de no muertos. Un solo jugador con una espada puede contener a múltiples enemigos mientras las armas de fuego se recargan.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de Navegación Paso a Paso y Escolta del Carro">
+
+El ciclo principal de cada expedición gira en torno a proteger tu carro de bueyes mientras viaja por el mapa. El carro actúa como tu base móvil, almacenando el tesoro recolectado, comida de repuesto y armas. Si el carro es destruido o se pierde, la expedición termina en fracaso.
+
+<Steps>
+  <Step num="1" title="Traza la Ruta en el Galeón">
+    Antes de abandonar el barco, revisa el contrato del capitán. Traza un camino desde la costa hasta el fuerte o ruina más cercano, asegurándote de que el camino sea lo suficientemente ancho para el carro de bueyes.
+  </Step>
+  <Step num="2" title="Despeja Obstáculos Adelante">
+    Envía a un explorador por delante con un arma silenciosa como un arco. Despeja árboles caídos, maleza espesa y no muertos errantes antes de avanzar el carro.
+  </Step>
+  <Step num="3" title="Establece Perímetros Defensivos">
+    Al registrar ruinas, estaciona el carro en un claro defendible. Asigna al menos a un jugador para vigilar el carro mientras los demás recolectan recursos.
+  </Step>
+  <Step num="4" title="Deposita Objetos Valiosos Inmediatamente">
+    No acumules tesoros en tu inventario personal. Transfiere regularmente reliquias y metal Tulu al carro para mantener tu peso bajo y preservar la energía.
+  </Step>
+  <Step num="5" title="Señala la Retirada">
+    Una vez cumplido el objetivo del contrato, toca la bocina del carro para comenzar la extracción de regreso a la costa. Asegúrate de que todos los jugadores estén agrupados antes de moverte.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Seguridad del Carro">
+El carro de bueyes está equipado con una linterna que ayuda a ahuyentar apariciones espectrales menores. Mantén activa la luz del carro cuando navegues por niebla densa y antinatural.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Distorsiones del Mapa y Efectos de la Cordura">
+
+El mapa en The Mound: Omen of Cthulhu está fuertemente influenciado por el estado mental de tu escuadrón. No hay una barra de cordura en tu pantalla; en su lugar, el entorno físico cambia a medida que la locura se apodera de ti. Los puntos de referencia cambiarán, los caminos parecerán bloquearse y los colores de la selva se transformarán en matices aterradores.
+
+| Nivel de Cordura | Cambios Visuales en el Mapa | Alucinaciones Auditivas | Impacto en la Navegación |
+|---|---|---|---|
+| **Estable** | Visibilidad clara, follaje verde natural | Sonidos normales de la selva, vida silvestre | Brújula fiable, puntos de referencia claros |
+| **Inestable** | Lluvia de sangre localizada, plantas rojas palpitantes | Susurros distantes, bocinas de carro falsas | Los caminos parecen cambiar, bloqueos de terreno falsos |
+| **Fracturada** | Niebla roja espesa, muros de piedra que sangran | Gritos, llamadas falsas de compañeros | La brújula gira locamente, los puntos de referencia desaparecen |
+
+<Callout type="warning" title="Caminos Ilusorios">
+Cuando la cordura está fracturada, los jugadores pueden ver versiones completamente diferentes del mapa. Un jugador podría ver un camino despejado, mientras que otro ve un muro de piedra sólido. Verifica siempre las rutas usando el chat de voz espacial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos de la Expedición">
+
+Para asegurar una incursión exitosa y una extracción segura de la selva maldita, tu escuadrón debe completar estos hitos esenciales del mapa durante cada partida.
+
+<Checklist
+  id="map-expedition-goals"
+  title="Objetivos de Exploración del Mapa:"
+  items={[
+    "Identificar el fuerte abandonado más cercano inmediatamente después de desembarcar.",
+    "Despejar el camino principal de vegetación densa para permitir el movimiento del carro.",
+    "Localizar y recuperar al menos un cuaderno de bitácora histórico para la progresión permanente.",
+    "Marcar puntos de extracción activos en tu mapa mental antes de entrar en ruinas profundas.",
+    "Establecer un punto de retirada designado en caso de cambios climáticos repentinos."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo encuentro la ubicación exacta de los fuertes en el mapa?",
+    answer: "Los fuertes están marcados por torres de piedra en ruinas visibles por encima del dosel de la selva. Busca terrenos elevados y sigue los senderos de piedra desgastados que se alejan de la costa."
+  },
+  {
+    question: "¿Cambia el diseño del mapa de The Mound: Omen of Cthulhu entre partidas?",
+    answer: "La geografía general de la isla se mantiene constante, pero los nodos de recursos, las apariciones de enemigos, las ubicaciones de los cuadernos de bitácora de los fuertes y los patrones climáticos cambian dinámicamente con cada expedición."
+  },
+  {
+    question: "¿Qué debo hacer si la brújula empieza a girar locamente?",
+    answer: "Una brújula que gira indica que tu personaje sufre de locura severa. Reagrúpate inmediatamente con un compañero que tenga mayor cordura y deja que él guíe el camino."
+  },
+  {
+    question: "¿Puedo extraer sin el carro de bueyes?",
+    answer: "No. El carro de bueyes contiene la mayor parte de tu tesoro asegurado necesario para cumplir el contrato del capitán. Debes escoltar el carro de regreso a la costa para completar la misión con éxito."
+  }
+]} />
+
+</Section>

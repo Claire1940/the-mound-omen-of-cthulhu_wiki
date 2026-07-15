@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Volume2, Mic, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Chat de voz de The Mound: Omen of Cthulhu: Guía de comunicación profesional",
+  description: "Domina el sistema de chat de voz de The Mound: Omen of Cthulhu. Descubre cómo el audio espacial, las distorsiones de cordura y los protocolos de escuadrón afectan tu supervivencia en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Voice+Chat+Pro+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Chat de voz de The Mound: Omen of Cthulhu**: Utiliza un sistema de **audio espacial** por proximidad donde el volumen y la dirección dependen de la distancia del jugador.
+- **Distorsión de cordura**: Los niveles altos de locura pueden causar **alucinaciones auditivas**, incluyendo voces falsas de compañeros de equipo y bocinas de extracción fantasma.
+- **Protocolo de verificación**: Utiliza siempre un sistema específico de **llamada y respuesta** para distinguir a los compañeros reales de las imitaciones basadas en la percepción en la niebla.
+- **Requisito de hardware**: Un **auricular estéreo** de alta calidad es esencial para rastrear con precisión la dirección de la comunicación espacial entrante.
+- **Roles de escuadrón**: Designa a un **Navegante** para liderar las comunicaciones mientras los demás se concentran en proteger el carro y localizar recursos.
+</Callout>
+
+<Section icon={Volume2} title="Mecánicas de audio espacial en The Mound">
+
+El núcleo del sistema de **chat de voz de The Mound: Omen of Cthulhu** se basa en una espacialización inmersiva. A diferencia de los sistemas de voz tradicionales basados en salas de espera, este juego trata las voces de los jugadores como sonidos físicos dentro del entorno. Si un compañero de equipo está a tu izquierda, su voz emanará del canal izquierdo de tus auriculares. A medida que se aleje, su volumen disminuirá de forma natural, desapareciendo por completo si se sale del rango de alcance.
+
+**Puntos destacados del video:**
+- Descripción general del bucle de la expedición cooperativa para 4 jugadores.
+- Demostración visual del entorno de la jungla maldita.
+- Mecánicas de combate con armas de fuego de época y arcos.
+- Un vistazo a los monstruos que distorsionan la cordura.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Este sistema basado en la proximidad obliga a los escuadrones a mantener contacto visual o auditivo en todo momento. En las densas y neblinosas junglas de *The Mound: Omen of Cthulhu*, perder el sonido de las voces de tus compañeros es el primer paso hacia la eliminación total del escuadrón. El entorno también reacciona a tus niveles de ruido, lo que significa que gritar por el micrófono no es solo una herramienta de comunicación, sino también un faro potencial para los no muertos.
+
+| Característica | Comportamiento del audio | Impacto táctico |
+| :--- | :--- | :--- |
+| **Atenuación por proximidad** | El volumen disminuye a medida que aumenta la distancia | Fuerza formaciones de escuadrón cerradas |
+| **Origen direccional** | El audio se desplaza según la posición del jugador | Ayuda a localizar a compañeros separados |
+| **Amortiguación ambiental** | Las paredes y la vegetación atenúan el sonido | La comunicación es más difícil en las ruinas |
+| **Atracción de ruido** | La alta actividad de voz alerta a los enemigos | El sigilo requiere comunicaciones silenciosas |
+
+<Callout type="tip" title="Consejo profesional">
+Utiliza auriculares con un alto rango dinámico. Ser capaz de escuchar el sutil "susurro" de la voz de un compañero a través de la densa vegetación puede evitar que caigas en una emboscada de Y'm-bhi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cordura y alucinaciones auditivas">
+
+El aspecto más singular del **chat de voz de The Mound: Omen of Cthulhu** es cómo interactúa el sistema de locura con tus oídos. A medida que disminuye la cordura de tu explorador, el juego comienza a darte información falsa. Es posible que escuches a un compañero pedir ayuda desde una dirección en la que no hay nadie, o que oigas el sonido distintivo de la bocina de extracción cuando el carro de bueyes no está cerca del galeón.
+
+<CardGrid cols={2}>
+  <Card title="Falsas llamadas de bocina">
+    El juego simula el sonido de la señal de extracción para alejar a los jugadores del grupo. Seguir estos sonidos en solitario suele llevar a una emboscada mortal o a caer por el terreno.
+  </Card>
+  <Card title="Imitación de voz">
+    Bajo una fuerte presión psicológica, la jungla imita fragmentos del habla humana. Podrías escuchar versiones distorsionadas de las voces de tus compañeros que en realidad no se están emitiendo.
+  </Card>
+  <Card title="Pasos fantasma">
+    Los niveles altos de locura introducen el sonido de pasos corriendo cerca. Esto hace que los jugadores entren en pánico y disparen sus mosquetes, desperdiciando munición valiosa en amenazas inexistentes.
+  </Card>
+  <Card title="Desplazamiento espacial">
+    La voz real de un compañero de equipo puede sonar como si viniera de la dirección equivocada, lo que te llevará a dar la espalda a un monstruo real mientras buscas a un amigo.
+  </Card>
+</CardGrid>
+
+Dado que no hay un medidor de cordura visible en la interfaz, debes confiar en tu escuadrón para verificar lo que estás escuchando. Si escuchas una bocina pero tus compañeros no, es probable que estés experimentando una alucinación. Este "Protocolo de verificación de la realidad" es la única forma de navegar por las zonas más profundas y corruptas de la jungla, donde el límite entre la realidad y la ilusión se desvanece.
+
+| Tipo de alucinación | Señal de audio | Método de verificación |
+| :--- | :--- | :--- |
+| **Bocina fantasma** | Señal de extracción lejana | Comprobar el mapa/confirmación de compañeros |
+| **Falsa alarma de auxilio** | Compañero gritando por ayuda | Validar con la posición espacial real |
+| **Susurros de monstruos** | Fragmentos de habla humana | Usar el crucifijo para comprobar los niveles de estrés |
+| **Voces desubicadas** | La voz del compañero suena "descentrada" | Agruparse para confirmación visual |
+
+<Callout type="warning" title="Advertencia crítica">
+Nunca dispares tu arma a una silueta solo porque escuchaste una voz en esa dirección. El fuego aliado es un riesgo importante cuando la locura distorsiona la percepción de la identidad de tus compañeros.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Protocolos de comunicación del escuadrón">
+
+La comunicación efectiva en *The Mound: Omen of Cthulhu* requiere disciplina. Dado que la jungla reacciona al ruido, comunicarse en exceso puede ser tan peligroso como no hablar en absoluto. Los escuadrones deben adoptar un enfoque de indicaciones "Cortas y claras", especialmente al manejar las armas de fuego de la época, que tienen tiempos de recarga lentos y dependen de las condiciones climáticas.
+
+<Steps>
+  <Step num="1" title="Establecer una llamada y respuesta">
+    Antes de salir del galeón, acuerden una frase o palabra clave sencilla. Si ves una silueta en la niebla, usa el chat de voz para realizar la "llamada". Si la figura no "responde" correctamente, probablemente sea un monstruo o una alucinación.
+  </Step>
+  <Step num="2" title="Designar un Navegante">
+    Un jugador debe encargarse de rastrear la ruta hacia el carro de bueyes y el punto de extracción. Este jugador lidera la comunicación, proporcionando actualizaciones de dirección para que el resto del escuadrón pueda concentrarse en buscar amenazas.
+  </Step>
+  <Step num="3" title="Fases de control de ruido">
+    Divide tu expedición en fases de "Silencio" y "Ruido". Durante la exploración, mantén el chat de voz al mínimo. Durante el combate o cuando el carro de bueyes esté bajo un ataque intenso, cambia a una coordinación activa para gestionar las recargas y el posicionamiento.
+  </Step>
+  <Step num="4" title="La verificación de la realidad">
+    Cada vez que un explorador escuche algo inusual, como una bocina lejana o una voz extraña, debe preguntar de inmediato: "¿Escucharon eso?". Si la respuesta es no, el escuadrón sabrá que la cordura de ese jugador está fallando.
+  </Step>
+</Steps>
+
+| Rol | Enfoque de comunicación | Indicaciones clave |
+| :--- | :--- | :--- |
+| **Navegante** | Ruta, posición del carro, extracción | "El carro está a 50m al norte", "Girando al oeste" |
+| **Explorador** | Avistamientos de enemigos, recursos, niebla | "Centinela a las 2 en punto", "Botín en las ruinas" |
+| **Defensor** | Seguridad trasera, salud del carro, recargas | "Recargando mosquete", "Parte trasera despejada" |
+| **Soporte** | Controles de cordura, iluminación, reanimaciones | "¿Verificación de realidad: Bocina?", "La lámpara se apagó" |
+
+<Callout type="success" title="Consejo de estrategia">
+Si un compañero de equipo queda "Totalmente fracturado" por la locura, debe dejar de tomar decisiones de navegación. El resto del escuadrón debe darle instrucciones directas y sencillas a través del chat de voz para guiarlo de regreso a un lugar seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimización de la configuración de audio para 2026">
+
+Para aprovechar al máximo el **chat de voz de The Mound: Omen of Cthulhu**, tu configuración técnica debe estar optimizada. Dado que el juego depende en gran medida de las señales espaciales, no se recomiendan los altavoces estándar. Necesitas una configuración que permita un seguimiento direccional preciso y una transmisión de voz clara sin un ruido de fondo excesivo que pueda activar las mecánicas de detección de sonido del juego.
+
+**Prioridades de configuración de audio:**
+- **Rango dinámico**: Establécelo en "Alto" o "Cine en casa" para asegurarte de que los susurros silenciosos y los monstruos distantes sean audibles.
+- **Volumen del chat de voz**: Mantenlo ligeramente más alto que los efectos de sonido del juego, pero no tanto como para que sature el posicionamiento espacial.
+- **Sensibilidad del micrófono**: Ajusta tu puerta de ruido para que tu respiración o los clics del teclado no se registren como "ruido" para la IA de la jungla.
+- **Sonido espacial**: Activa Windows Sonic, Dolby Atmos o el software espacial propietario de tus auriculares para una máxima inmersión.
+
+| Configuración | Valor recomendado | Razón |
+| :--- | :--- | :--- |
+| **Volumen maestro** | 80% - 90% | Evita la distorsión durante combates ruidosos |
+| **Modo de chat de voz** | Pulsar para hablar | Evita la atracción accidental de ruido |
+| **Calidad de audio** | Ultra / 48kHz | Esencial para detectar señales claras de alucinaciones |
+| **Espacialización** | Activado | Requerido para el chat de voz direccional |
+
+<Callout type="info" title="Requisito técnico">
+La versión para PC de *The Mound: Omen of Cthulhu* requiere un sistema operativo de 64 bits y DirectX 12. Asegúrate de tener los controladores de audio completamente actualizados para evitar chasquidos o retrasos en el procesamiento de voz espacializado.
+</Callout>
+
+<Checklist
+  id="comms-readiness"
+  title="Lista de verificación de preparación para la expedición:"
+  items={[
+    "Los auriculares estéreo están conectados y probados",
+    "La tecla para Pulsar para hablar es de fácil acceso",
+    "Se ha acordado la frase de llamada y respuesta",
+    "El rol de Navegante está asignado a un comunicador claro",
+    "El audio espacial está activado en la configuración del sistema"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Dominar los matices de la comunicación es tan importante como dominar tu arma de chispa. A continuación se presentan las preguntas más comunes sobre el sistema de **chat de voz de The Mound: Omen of Cthulhu** y cómo manejar la guerra psicológica de la jungla.
+
+<FAQ items={[
+  {
+    question: "¿El juego es compatible con el chat de voz multiplataforma?",
+    answer: "Sí. The Mound: Omen of Cthulhu es compatible con el juego multiplataforma entre PC, PS5 y Xbox Series X|S, incluyendo un sistema de chat de voz espacial unificado que funciona en todas las tiendas compatibles."
+  },
+  {
+    question: "¿Puedo usar Discord en lugar del chat de voz del juego?",
+    answer: "Aunque puedes usar Discord, perderás las señales de audio espacial y las distorsiones de voz basadas en la cordura que son fundamentales para la experiencia de juego. El uso de chats externos es considerado por algunos como una 'trampa', ya que elude las mecánicas de locura."
+  },
+  {
+    question: "¿Cómo sé si una voz que escucho es una alucinación?",
+    answer: "La mejor manera es utilizar el Protocolo de verificación de la realidad. Pregunta a tus compañeros si dijeron algo. Si guardaron silencio, o si la voz provino de una dirección donde no se encuentra ningún compañero, se trató de una alucinación."
+  },
+  {
+    question: "¿Afecta la lluvia al volumen del chat de voz?",
+    answer: "Sí, los factores ambientales como la lluvia intensa o el follaje denso de la jungla pueden amortiguar la distancia a la que puedes escuchar a tus compañeros, lo que facilita que se separen durante una tormenta."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Map: Navigation & Fort Locations",
+  description: "Master the cursed jungle layout in The Mound: Omen of Cthulhu. Discover fort locations, logbooks, extraction routes, and sanity-altering landmarks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1d12/fff?text=Map+and+Navigation+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Map Mechanics**: The cursed jungle layout changes visually based on your squad's collective sanity levels.
+- **Fort Locations**: Finding and securing abandoned forts unlocks permanent starting points for future expeditions.
+- **Extraction Route**: Always map your path back to the Tempestad galleon before your sanity completely fractures.
+- **Ox Cart Path**: The cart requires wide, clear pathways; getting it stuck in dense vegetation invites ambush.
+</Callout>
+
+<Section icon={Map} title="The Mound Omen of Cthulhu Map Structure">
+
+Survival in ACE Team's cooperative horror expedition depends entirely on understanding the layout of the cursed jungle. The **the mound omen of cthulhu map** is not a static environment; it is a reactive, sprawling ecosystem where dense foliage, shifting fog, and ancient ruins dictate your movement. Your journey begins at the shoreline where your galleon, the Tempestad, is anchored, and extends deep into the dark heart of the island where forbidden treasures lie hidden.
+
+Navigating this terrain requires constant coordination. The jungle features distinct zones, each presenting unique environmental hazards, enemy densities, and resource distribution. 
+
+| Zone Name | Hazard Level | Primary Resources | Key Landmarks |
+|---|---|---|---|
+| **The Shoreline** | Low | Driftwood, basic supplies, initial food | Landing site, ship contact |
+| **Jungle Paths** | Medium | Meat, fresh water, common relics | Narrow choke points, dense brush |
+| **Abandoned Forts** | High | Logbooks, high-value relics, ammunition | Fort structures, defensive walls |
+| **Ancient Ruins** | Very High | Tulu-metal treasure, cursed artifacts | Occult altars, deep caverns |
+
+<Callout type="warning" title="Environmental Shift">
+Heavy rain slickens pathways and makes matchlock and flintlock muskets completely useless. Always plan your retreat toward covered ruins or the shoreline when storms approach.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Locate and Unlock Abandoned Forts">
+
+Abandoned forts serve as the primary progression landmarks on the map. Securing these fortified structures is essential for long-term survival, as they contain critical historical logbooks. Recovering these logbooks allows your crew to unlock new, deeper starting locations for subsequent expeditions, bypassing the dangerous outer shoreline.
+
+| Fort Location | Difficulty | Key Loot | Unlock Requirement |
+|---|---|---|---|
+| **Coastal Outpost** | Easy | Basic ammo, old maps | Clear immediate undead wanderers |
+| **Swamp Bastion** | Medium | Logbook volume 1, fresh water | Secure the central courtyard |
+| **Jungle Citadel** | Hard | Logbook volume 2, Tulu metal | Defeat the lamp-carrying Y'm-bhi |
+
+<CardGrid cols={3}>
+  <Card title="Locate the Gates">
+    Search along the elevated ridges of the jungle. Forts are typically surrounded by decayed wooden palisades or crumbling stone walls.
+  </Card>
+  <Card title="Secure the Logbook">
+    The logbook is always located in the commander's quarters or central keep. Guard the player carrying it, as they cannot hold a two-handed weapon.
+  </Card>
+  <Card title="Establish a Foothold">
+    Unlocking the fort updates your map options aboard the galleon, allowing you to bypass the shoreline in your next contract.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Defensive Tip">
+Use the narrow doorways of abandoned forts to bottleneck undead hordes. A single player with a sword can hold off multiple enemies while firearms reload.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Step-by-Step Navigation and Cart Escort Strategy">
+
+The core loop of every expedition revolves around protecting your ox cart as it travels across the map. The cart acts as your mobile base, storing your collected treasure, spare food, and weapons. If the cart is destroyed or lost, the expedition ends in failure.
+
+<Steps>
+  <Step num="1" title="Plot the Route on the Galleon">
+    Before leaving the ship, review the captain's contract. Trace a path from the shoreline to the nearest fort or ruin, ensuring the path is wide enough for the ox cart.
+  </Step>
+  <Step num="2" title="Clear Obstacles Ahead">
+    Send a scout ahead with a quiet weapon like a bow. Clear fallen trees, thick brush, and roaming undead before moving the cart forward.
+  </Step>
+  <Step num="3" title="Establish Defensive Perimeters">
+    When searching ruins, park the cart in a defensible clearing. Assign at least one player to guard the cart while the others gather resources.
+  </Step>
+  <Step num="4" title="Deposit Valuables Immediately">
+    Do not hoard treasure in your personal inventory. Regularly transfer relics and Tulu metal to the cart to keep your weight low and preserve stamina.
+  </Step>
+  <Step num="5" title="Signal the Retreat">
+    Once the contract goal is met, sound the cart's horn to begin the extraction back to the shore. Make sure all players are grouped together before moving.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Cart Security">
+The ox cart is equipped with a lantern that helps ward off minor spectral apparitions. Keep the cart's light active when navigating through deep, unnatural fog.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Map Distortions and Sanity Effects">
+
+The map in The Mound: Omen of Cthulhu is heavily influenced by your squad's mental state. There is no sanity bar on your screen; instead, the physical environment changes as madness takes hold. Landmarks will shift, paths will appear to block off, and the colors of the jungle will warp into terrifying hues.
+
+| Sanity Level | Visual Map Changes | Auditory Hallucinations | Navigation Impact |
+|---|---|---|---|
+| **Stable** | Clear visibility, natural green foliage | Normal jungle sounds, wildlife | Reliable compass, clear landmarks |
+| **Unstable** | Localized blood rain, pulsing red plants | Distant whispering, false cart horns | Paths seem to shift, fake terrain blocks |
+| **Fractured** | Thick red fog, bleeding stone walls | Screams, fake teammate callouts | Compass spins wildly, landmarks disappear |
+
+<Callout type="warning" title="Illusionary Paths">
+When sanity is fractured, players may see completely different versions of the map. One player might see a clear path, while another sees a solid stone wall. Always verify routes using spatial voice chat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Checklist & Goals">
+
+To ensure a successful run and safe extraction from the cursed jungle, your squad should complete these essential map milestones during every run.
+
+<Checklist
+  id="map-expedition-goals"
+  title="Map Exploration Goals:"
+  items={[
+    "Identify the nearest abandoned fort immediately after landing.",
+    "Clear the main path of dense vegetation to allow cart movement.",
+    "Locate and recover at least one historical logbook for permanent progression.",
+    "Mark active extraction points on your mental map before entering deep ruins.",
+    "Establish a designated fallback point in case of sudden weather shifts."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I find the exact location of the forts on the map?",
+    answer: "Forts are marked by ruined stone towers visible above the jungle canopy. Look for elevated terrain and follow the worn stone pathways leading away from the shoreline."
+  },
+  {
+    question: "Does the the mound omen of cthulhu map change layout between runs?",
+    answer: "The general geography of the island remains consistent, but resource nodes, enemy spawns, fort logbook locations, and weather patterns change dynamically with each expedition."
+  },
+  {
+    question: "What should I do if the compass starts spinning wildly?",
+    answer: "A spinning compass indicates that your character is suffering from severe madness. Regroup immediately with a teammate who has higher sanity and let them lead the way."
+  },
+  {
+    question: "Can I extract without the ox cart?",
+    answer: "No. The ox cart contains the bulk of your secured treasure required to fulfill the captain's contract. You must escort the cart back to the shoreline to successfully complete the mission."
+  }
+]} />
+
+</Section>

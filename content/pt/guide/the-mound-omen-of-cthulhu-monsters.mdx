@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Monstros de The Mound Omen of Cthulhu: Bestiário e Guia de Combate",
+  description: "Domine o combate contra os monstros de The Mound Omen of Cthulhu. Aprenda fraquezas, padrões de comportamento e táticas de sobrevivência em equipe neste horror cooperativo de Cthulhu.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Monsters+and+Bestiary+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "monstros, bestiário, combate, sobrevivência, cthulhu, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ameaça principal**: Compreender os comportamentos dos **monstros de The Mound: Omen of Cthulhu** é a chave para sobreviver às expedições.
+- **Mecânicas de sanidade**: Estresse alto e baixa sanidade distorcem a aparência dos inimigos, transformando aliados em ilusões aterrorizantes.
+- **Estratégia de combate**: Priorize armas silenciosas como arcos para evitar acordar a selva e atrair hordas massivas de mortos-vivos.
+- **Teste de percepção**: Sempre verifique silhuetas distantes com o chat de voz espacial antes de abrir fogo contra possíveis aliados.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral dos Monstros de The Mound: Omen of Cthulhu">
+
+Sobreviver às selvas amaldiçoadas de *The Mound: Omen of Cthulhu* requer mais do que apenas poder de fogo bruto. A ilha reage dinamicamente à sua presença, o que significa que cada tiro, corrida ou videira cortada aumenta o nível de ameaça local. As entidades hostis que você encontra são divididas em ameaças físicas, guardiões reanimados e horrores psicológicos nascidos de sua sanidade decadente.
+
+**Destaques do Vídeo:**
+- **Guardiões da Selva**: Como os Sentinelas Y'm-bhi observam e espreitam os jogadores para gerar estresse.
+- **Hordas de Mortos-vivos**: O custo de fazer barulho e desencadear ataques em grupo massivos.
+- **Distorções de Percepção**: Como a perda de sanidade faz com que os companheiros de equipe pareçam criaturas hostis.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="Visão Geral da Jogabilidade de The Mound: Omen of Cthulhu" />
+
+Para sobreviver às expedições, as equipes devem aprender a identificar as ameaças por suas pistas visuais e sinais de alerta auditivos. A tabela abaixo resume as principais classificações hostis que você enfrentará durante os contratos.
+
+| Classe do Monstro | Nível de Ameaça | Comportamento Principal | Fraqueza Comum |
+|---|---|---|---|
+| **Sentinelas Y'm-bhi** | Alto | Espreita jogadores, gera estresse, reposiciona-se | Crucifixo, luz brilhante |
+| **Caminhantes Mortos-vivos** | Médio | Cambaleiam em grupos, atraídos pelo ruído | Tiros na cabeça, armas corpo a corpo |
+| **Exploradores Corrompidos** | Alto | Caça agressiva de ex-companheiros de equipe | Fogo focado rápido |
+| **Falsos Companheiros** | Especial | Imita silhuetas de jogadores para isolar alvos | Verificação por voz espacial |
+| **Espectros** | Médio | Aparecem perto da carroça conforme a sanidade cai | Coesão do grupo, sanidade alta |
+
+<Callout type="warning" title="Aviso de Som">
+Cada monstro físico na selva reage ao ruído. Disparar um mosquete pode neutralizar um único alvo, mas o som resultante pode alertar Caminhantes Mortos-vivos próximos, levando a uma aniquilação imediata do esquadrão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ameaças à Espreita: Guia dos Sentinelas Y'm-bhi">
+
+Os Sentinelas Y'm-bhi são os antigos guardiões reanimados da selva. Ao contrário dos mortos-vivos comuns, eles nem sempre atacam à primeira vista. Em vez disso, eles testam sua distância, rastreiam seus movimentos a partir da folhagem densa e aumentam ativamente seus níveis de estresse.
+
+| Variante de Sentinela | Sinais de Alerta | Regras Especiais | Contra-ataque |
+|---|---|---|---|
+| **Sentinela Batedor** | Sussurros, olhos brilhantes | Recua para atrair jogadores para emboscadas | Use um crucifixo para ler níveis de estresse |
+| **Sentinela da Lanterna** | Luz oscilante, passos pesados | Imune a táticas de cegueira por luz | Mantenha distância, use tiros silenciosos de arco |
+| **Sentinela de Fogo** | Madeira estalando, fumaça | Pode se incendiar e avançar contra o grupo | Elimine rapidamente antes que chegue ao corpo a corpo |
+
+Para lidar com esses predadores inteligentes, as equipes devem coordenar seu posicionamento e utilizar ferramentas especializadas.
+
+<Steps>
+  <Step num="1" title="Escaneie com o Crucifixo">
+    Equipe seu crucifixo para detectar Sentinelas Y'm-bhi escondidos na vegetação. O crucifixo revela seus níveis de estresse e ajuda você a determinar se eles estão se preparando para recuar ou atacar.
+  </Step>
+  <Step num="2" title="Use a Luz como Arma">
+    Aponte sua lâmpada de óleo para Sentinelas padrão para cegá-los temporariamente. Isso interrompe seu comportamento de espreita e cria uma abertura para uma eliminação silenciosa corpo a corpo.
+  </Step>
+  <Step num="3" title="Confirme a Morte">
+    Esteja ciente de que a selva viva pode reanimar corpos caídos de Y'm-bhi. Não permaneça perto de sentinelas derrotados e afaste sua carroça de boi da área imediatamente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Táticas de Sentinela">
+Se um Sentinela Y'm-bhi estiver carregando sua própria lanterna, não tente cegá-lo com sua lâmpada de óleo. A fonte de luz anula o efeito de cegueira. Concentre-se em ataques de arco à distância.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Horrores Ambientais e Psicológicos">
+
+A ilha em si é uma entidade viva que usa sua mente como arma contra você. À medida que seu grupo de expedição passa mais tempo na selva, sua sanidade coletiva decai, introduzindo ameaças subjetivas que apenas jogadores específicos podem ver.
+
+<CardGrid cols={3}>
+  <Card title="A Selva Viva">
+    - **Névoa volumétrica espessa**
+    - Flora vermelha pulsante e lua vermelha
+    - **Taxas crescentes de surgimento de inimigos**
+  </Card>
+  <Card title="Falsos Companheiros">
+    - **Imita silhuetas de aliados**
+    - Atrai jogadores para longe da carroça
+    - **Desaparece quando inspecionado de perto**
+  </Card>
+  <Card title="Espectros e Aparições">
+    - **Assombra a rota da carroça de boi**
+    - Causa distorções de áudio localizadas
+    - **Requer coesão do grupo para dissipar**
+  </Card>
+</CardGrid>
+
+Gerenciar essas ilusões requer adesão estrita aos protocolos de comunicação.
+
+| Tipo de Ilusão | Indicador Visual | Dica Auditiva | Resposta Correta |
+|---|---|---|---|
+| **Monstro Amigável** | Aliado aparece como um monstro | Chat de voz distorcido | Chame pelo nome, espere resposta de voz |
+| **Falsa Buzina da Carroça** | Silhueta fantasmagórica da carroça | Buzina abafada distante | Verifique o mapa, confirme com o defensor |
+| **Terreno Sangrento** | Solo vermelho, chuva de sangue | Passos chapinhantes | Deixe jogadores com alta sanidade liderarem |
+
+<Callout type="success" title="Recuperação de Sanidade">
+Ficar perto do caminho iluminado pela lâmpada de óleo e manter seu esquadrão em uma formação apertada são as formas mais eficazes de retardar a decadência da sanidade e evitar alucinações visuais.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Sobrevivência da Expedição">
+
+Antes de deixar o galeão Tempestad, certifique-se de que sua tripulação esteja totalmente preparada para lidar tanto com os monstros físicos quanto com as tensões mentais da selva.
+
+<Checklist
+  id="monster-survival-goals"
+  title="Checklist Pré-Expedição:"
+  items={[
+    "Atribua um jogador como batedor dedicado de combate silencioso com um arco",
+    "Distribua pelo menos duas lâmpadas de óleo entre diferentes jogadores",
+    "Estabeleça um protocolo claro de chamada e resposta para confirmação visual",
+    "Concorde com um gatilho de retirada imediata se os níveis de sanidade fraturarem",
+    "Mantenha a rota da carroça de boi livre de folhagem densa para evitar emboscadas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para impedir que os monstros de The Mound Omen of Cthulhu reanimem?",
+    answer: "Alguns monstros, particularmente os Sentinelas Y'm-bhi, podem ser reanimados pela selva viva. A melhor maneira de lidar com isso é evitar o combate desnecessário, completar seu contrato rapidamente e extrair antes que o nível de corrupção da selva atinja o pico."
+  },
+  {
+    question: "Posso usar armas de fogo como o mosquete de pederneira contra todos os monstros?",
+    answer: "Embora os mosquetes ofereçam um enorme poder de parada, eles são extremamente barulhentos e atrairão Caminhantes Mortos-vivos próximos. Além disso, armas de pólvora podem falhar completamente durante tempestades. Mantenha um arco ou uma faca como reserva silenciosa e à prova de clima."
+  },
+  {
+    question: "O que devo fazer se um colega de equipe parecer um monstro?",
+    answer: "Não atire imediatamente. Use o chat de voz espacial para perguntar a posição dele. Se ele responder e a localização coincidir com a silhueta, é uma alucinação de sanidade. Se você atirar, causará dano amigo e desperdiçará munição preciosa."
+  },
+  {
+    question: "Como a carroça de boi ajuda contra os monstros?",
+    answer: "A carroça de boi atua como sua base móvel. Ela armazena sua munição extra, suprimentos e tesouros coletados. Manter a carroça por perto garante que você tenha acesso rápido a recursos ao se defender de ondas repentinas de mortos-vivos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Deluxe Edition: Guia Completo",
+  description: "Compare as Edições Standard e Deluxe de The Mound: Omen of Cthulhu. Saiba mais sobre missões exclusivas, armas, mecânicas de sanidade e estratégias cooperativas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/5fddc0?text=Deluxe+Edition+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, Edição Deluxe, guia, armas, sanidade, cooperativo"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **The Mound Omen of Cthulhu Deluxe Edition** inclui o jogo base, personagens exclusivos, itens cosméticos e a missão do Templo de Yig.
+- **As mecânicas de sanidade** funcionam sem uma interface (HUD) visível, forçando os jogadores a verificar as alucinações por meio do chat de voz espacial.
+- **Pólvora seca** é necessária para as armas de fogo da época; a chuva inutiliza os mosquetes, tornando arcos e facas essenciais.
+- **O Carro de Boi** serve como o cofre móvel da sua equipe e deve ser defendido durante os ciclos de extração na selva.
+- **O crossplay** é totalmente suportado entre as versões de PC e consoles para facilitar expedições cooperativas de até quatro jogadores.
+</Callout>
+
+<Section icon={Shield} title="Comparação da Edição Deluxe de The Mound Omen of Cthulhu">
+
+O lançamento do jogo em **15 de julho de 2026** traz uma experiência sombria de sobrevivência cooperativa desenvolvida pela ACE Team e publicada pela Nacon. Os jogadores devem escolher entre a Edição Standard e a Edição Deluxe premium. O pacote Deluxe é voltado para jogadores que buscam uma imersão mais profunda na história da selva, opções exclusivas de personagens e estilos cosméticos únicos baseados nos mitos de Cthulhu.
+
+| Recurso | Edição Standard | Edição Deluxe | Detalhes |
+| :--- | :--- | :--- | :--- |
+| **Preço Base** | $29.99 | $39.99 | Preços regionais se aplicam conforme a plataforma |
+| **Jogo Base** | Incluso | Incluso | Acesso aos contratos principais, mapas e inimigos |
+| **Fortune Hunters** | Excluído | Incluso | Adiciona 2 personagens exploradores jogáveis exclusivos |
+| **Pacote Abyssal Gear** | Excluído | Incluso | Visuais temáticos de Cthulhu para 4 armas principais |
+| **Templo de Yig** | Excluído | Incluso | Missão exclusiva em uma área de selva única |
+| **Trilha Sonora Digital** | Excluído | Incluso | Arquivos de áudio oficiais e atmosféricos |
+| **Pacote Lost Explorers** | Bônus de Lançamento | Bônus de Lançamento | 2 espadas ornamentadas (deve ser resgatado em até 2 semanas) |
+
+A Edição Deluxe oferece acesso imediato à missão do Templo de Yig. No Steam, esta missão está disponível como um resgate gratuito separado, e apenas o host precisa possuí-la para que todo o lobby de quatro jogadores possa participar. O Pacote Fortune Hunters e o Pacote Abyssal Gear oferecem distinção visual, mas não alteram os atributos iniciais funcionais ou as estatísticas das armas.
+
+<Callout type="warning" title="Nota sobre o Desconto de Lançamento">
+Os jogadores do Steam desbloquearam um desconto de lançamento de 20% ao ultrapassarem 800.000 listas de desejos. Isso reduz a Edição Standard para $23.99 e a Edição Deluxe para $31.99 durante a janela promocional inicial.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Distribuição de Equipamentos">
+
+A sobrevivência na selva amaldiçoada depende de equipamentos de equipe equilibrados. As armas de fogo de época causam alto dano, mas trazem riscos extremos, incluindo ruídos ensurdecedores que alertam monstros próximos e falha completa quando a chuva molha sua pólvora. Armas silenciosas e ferramentas utilitárias devem ser distribuídas uniformemente pelo grupo.
+
+| Arma / Ferramenta | Categoria | Principal Força | Maior Fraqueza | Função Recomendada |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arco** | À Distância Silencioso | À prova de chuva, recarga rápida | Menor dano de explosão instantâneo | batedor / Especialista em Furtividade |
+| **Faca** | Combate Corpo a Corpo | À prova de chuva, silencioso | Exige proximidade perigosa | Todos os exploradores como reserva |
+| **Mosquete de Pederneira** | Arma de Fogo Pesada | Alto dano de tiro único | Recarga longa, ruído alto | Atirador Dedicado |
+| **Mosquete de Mecha** | Arma de Fogo Pesada | Forte poder de parada | Desativado pela chuva, fumaça densa | Especialista em Defesa |
+| **Lampião de Óleo** | Utilitário de Luz | Ilumina ruínas escuras | Risco de oscilação em chuva forte | Navegador / Explorador de Vanguarda |
+| **Medalhão** | Utilitário de Tesouro | Localiza metal Tulu oculto | Ruído metálico alto ao ser atingido | Suporte / Escolta do Carrinho |
+
+<CardGrid cols={3}>
+  <Card title="Tier-S: O Arco">
+    A arma utilitária definitiva para progressão furtiva. Não requer pólvora, permanece totalmente funcional durante tempestades tropicais e permite que as equipes eliminem sentinelas mortas-vivas isoladas sem acordar a floresta inteira.
+  </Card>
+  <Card title="Tier-A: Mosquete de Pederneira">
+    Uma ferramenta de emergência vital. Mantenha esta arma no coldre até que o esquadrão encontre ameaças sobrenaturais resistentes. Um único tiro alto pode atrair hordas, então coordene com sua equipe antes de puxar o gatilho.
+  </Card>
+  <Card title="Tier-A: Medalhão de Tesouro">
+    Essencial para completar contratos de alto valor. Ele direciona o grupo para riquezas enterradas, mas o som do impacto age como um farol para monstros próximos. Use-o apenas quando o perímetro imediato estiver seguro.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estratégia de Equipamento">
+Nunca concentre todas as armas de fogo ou fontes de luz em um único explorador. Se esse jogador for separado ou incapacitado, o esquadrão restante ficará indefeso na escuridão total.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ciclo de Expedição Passo a Passo">
+
+Cada contrato bem-sucedido segue um ciclo operacional estrito. Desviar-se dessas etapas aumenta o estresse da equipe, esgota a munição e arrisca a eliminação total do esquadrão na selva profunda.
+
+<Steps>
+  <Step num="1" title="Seleção de Contrato">
+    Comece a bordo do galeão Tempestad. Revise os contratos disponíveis do capitão, observando o valor mínimo de tesouro exigido e os perigos regionais específicos antes de lançar o barco de desembarque.
+  </Step>
+  <Step num="2" title="Alocação de Equipamento">
+    Distribua o arsenal compartilhado fornecido pelo capitão. Garanta que pelo menos um jogador carregue um arco para eliminações silenciosas, um carregue um lampião de óleo e todos os membros tenham uma faca para emergências corpo a corpo.
+  </Step>
+  <Step num="3" title="Escolta do Carro de Boi">
+    Avance ao lado do carro de boi. O carro age como sua unidade de armazenamento móvel. Limpe obstáculos físicos do caminho dele e deposite tesouros pesados imediatamente para manter os espaços de inventário individuais livres.
+  </Step>
+  <Step num="4" title="Gerenciamento de Ruído e Clima">
+    Monitore os sons ambientais e as mudanças climáticas. Se a chuva começar, mude imediatamente das armas de fogo para arcos e facas. Evite correr ou cortar cipós densos, a menos que esteja fugindo ativamente.
+  </Step>
+  <Step num="5" title="Exploração de Fortes e Extração">
+    Localize fortes abandonados na selva para recuperar diários de bordo, que desbloqueiam permanentemente novos pontos de partida. Assim que a cota financeira do contrato for atingida, recue imediatamente para a costa antes que a loucura se instale.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Defesa do Carro de Boi">
+O carro de boi é a sua tábua de salvação. Se você ouvir a buzina de alerta dele, retorne imediatamente. Tenha cuidado, pois a loucura avançada pode enganar os jogadores, fazendo-os ouvir sinais falsos de buzina quando não há perigo presente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecânicas de Sanidade e Alucinação">
+
+O jogo não apresenta uma interface tradicional (HUD), barras de vida ou medidores de sanidade. O declínio psicológico se manifesta diretamente por meio de renderização ambiental alterada e ilusões auditivas que visam os jogadores individualmente.
+
+| Tipo de Alucinação | Efeito Visual / Auditivo | Perigo para a Equipe | Contra-medida Correta |
+| :--- | :--- | :--- | :--- |
+| **Selva Sangrenta** | Chuva vermelha, flora pulsante | Rotas de navegação distorcidas | Verificar o clima com os companheiros |
+| **Buzinas Falsas** | Sinais de extração distantes | Atrai jogadores para emboscadas | Confirmar a localização do carro no mapa |
+| **Ilusões de Monstros** | Companheiros parecem feras | Alto risco de fogo amigo | Usar o chat de voz antes de atirar |
+| **Silhuetas Falsas** | Figuras humanas em névoa densa | Separa a formação do grupo | Chamar pelos nomes para verificar posições |
+| **Terreno Mutável** | Caminhos falsos sobre armadilhas reais | Leva o esquadrão para perigos | Deixar o jogador mais são liderar |
+
+Para sobreviver a essas ilusões, os esquadrões devem implementar um protocolo estrito de verificação de realidade. Ao encontrar uma visão ou som incomum, use o chat de voz espacial para fazer perguntas simples de confirmação, como "Você está vendo uma luz vermelha à frente?" ou "Alguém acabou de tocar a buzina?". Se seus companheiros responderem negativamente, ignore o estímulo e permaneça perto do grupo.
+
+<Callout type="warning" title="Protocolo de Loucura Severa">
+Quando a sanidade de um explorador se rompe completamente, ele deve parar de navegar. O jogador afetado deve seguir os passos físicos de um companheiro de equipe confirmado como são e confiar inteiramente em instruções verbais.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bestiário da Selva e Perfis de Ameaça">
+
+As entidades que habitam a selva amaldiçoada variam de cadáveres reanimados físicos a manifestações espectrais dos deuses antigos. Compreender o comportamento deles é a diferença entre uma extração bem-sucedida e a morte.
+
+| Nome do Monstro | Tipo de Ameaça | Padrão de Comportamento | Sinais de Alerta | Combate Recomendado |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sentinela Y'm-bhi** | Guardião Reanimado | Observa de longe, gera estresse | Olhos brilhantes, fala desconexa | Cegar com luz, usar crucifixo |
+| **Caminhante Morto-Vivo** | Inimigo Comum | Cambaleia em grupos, alerta com ruído | Folhas farfalhando, gemidos baixos | Combate corpo a corpo silencioso, evitar armas |
+| **Explorador Corrompido** | Companheiro Caído | Caça os membros sobreviventes do grupo | Equipamento restante do jogador no cadáver | Priorizar reanimações antes que ele mude |
+| **Espectro** | Sobrenatural | Paira perto do carro, drena a sanidade | Névoa fria, vozes sussurrantes | Permanecer agrupado, evitar gastar munição |
+
+As Sentinelas Y'm-bhi são particularmente enganosas. Elas testam a distância da sua equipe e acumulam pressão psicológica antes de atacar. Se um Y'm-bhi carregar sua própria lanterna, ele pode se incendiar para executar um ataque de investida devastador. Sempre use um crucifixo para avaliar os níveis de estresse deles antes de iniciar o combate.
+
+<Callout type="success" title="Dica de Saque">
+Caminhantes Mortos-Vivos derrotados ocasionalmente deixam cair munição e peças de armas quebradas. Vasculhe seus restos rapidamente, mas mantenha um batedor vigiando a linha das árvores ao redor para detectar patrulhas que se aproximam.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos do Sistema para PC e Otimização">
+
+Os ambientes densos da selva, as mudanças climáticas em tempo real e a névoa volumétrica exigem uma configuração de PC moderna. O jogo roda exclusivamente no DirectX 12 para lidar com seus sistemas avançados de iluminação e sombras.
+
+| Componente | Requisito Mínimo | Especificação Recomendada | Prioridade de Otimização |
+| :--- | :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 10 / 11 (64 bits) | Manter o SO e os drivers da GPU atualizados |
+| **Processador** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Evita travamentos durante eventos de horda |
+| **Memória** | 16 GB de RAM | 16 GB de RAM | Fechar apps em segundo plano para liberar memória |
+| **Placa de Vídeo** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | Reduzir a névoa volumétrica primeiro para mais FPS |
+| **DirectX** | Versão 12 | Versão 12 | Necessário para o lançamento do jogo |
+| **NVIDIA DLSS** | Suportado | DLSS 4.5 (Série RTX 50) | Ativar a Super Resolução para imagens nítidas |
+
+Para maximizar a visibilidade em áreas escuras e com muita névoa, equilibre suas configurações gráficas. A alta qualidade das texturas e a distância de visualização devem ser priorizadas em relação às sombras de qualidade ultra e à densidade da folhagem. Isso garante que você consiga avistar silhuetas de inimigos em movimento e perigos ambientais antes que eles entrem no seu raio de ameaça imediato.
+
+<Callout type="info" title="Suporte ao DLSS 4.5">
+Os usuários da série NVIDIA RTX 50 podem ativar o DLSS 4.5 com Dynamic Multi Frame Generation e Super Resolution. Isso utiliza modelos de transformadores de segunda geração para dobrar as taxas de quadros em cenas de selva densa sem sacrificar a clareza visual.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O que está incluso na Edição Deluxe do jogo?",
+    answer: "A Edição Deluxe inclui o jogo base, o Pacote de Personagens Fortune Hunters (2 personagens exclusivos), o Pacote Abyssal Gear (4 visuais de armas), a missão exclusiva Templo de Yig e a trilha sonora digital oficial."
+  },
+  {
+    question: "Como funciona o sistema de sanidade sem uma interface (HUD)?",
+    answer: "O declínio da sanidade é vivenciado por meio de alucinações visuais e auditivas individuais, como chuva de sangue, sons falsos de buzina do carro e companheiros de equipe aparecendo como monstros. Os jogadores devem se comunicar via chat de voz para verificar o que é real."
+  },
+  {
+    question: "Posso usar armas de fogo durante o tempo chuvoso?",
+    answer: "Não. Os mosquetes de pederneira e de mecha dependem de pólvora seca. Quando chove, essas armas tornam-se inutilizáveis, forçando os jogadores a confiar em alternativas silenciosas e à prova de chuva, como arcos e facas."
+  },
+  {
+    question: "A Edição Deluxe inclui um desconto de lançamento no Steam?",
+    answer: "Sim. Como a comunidade ultrapassou 800.000 listas de desejos no Steam, um desconto de lançamento de 20% foi desbloqueado. Isso reduz a Edição Standard para $23.99 e a Edição Deluxe para $31.99 por tempo limitado."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Zap, Search, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu no Steam: Guia Passo a Passo e Equipamentos",
+  description: "Domine o ciclo de extração em The Mound: Omen of Cthulhu no Steam. Aprenda sobre as mecânicas de sanidade, melhores armas, estratégias cooperativas e requisitos de sistema para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Mound+Steam+Guide",
+  date: "2026-07-15",
+  author: "Equipe do Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, steam, guia, equipamentos, cooperativo, sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Iniciar com sucesso a versão de **the mound omen of cthulhu steam** e concluir os contratos do capitão para garantir relíquias temáticas de Cthulhu.
+- **Mecânica Chave**: Gerenciar o invisível **Sistema de Sanidade**, onde alucinações substituem os avisos tradicionais da interface (HUD).
+- **Melhor Estratégia**: Priorizar o **combate silencioso** usando arcos para evitar atrair a \"Selva Viva\" durante a extração.
+- **Dica Crítica**: Armas de fogo da época, como mosquetes, **falham na chuva**; sempre carregue uma faca ou arco como reserva confiável.
+- **Melhor Escolha**: A **Edição Deluxe** é recomendada pela missão exclusiva Templo de Yig e pelo pacote de Equipamentos Abissais.
+</Callout>
+
+<Section icon={Map} title="Detalhes de Lançamento e Comparação de Edições">
+
+O lançamento oficial da versão de **the mound omen of cthulhu steam** em 15 de julho de 2026 marca uma nova era para o terror de extração cooperativo. Desenvolvido pela ACE Team e publicado pela Nacon, este título desafia até quatro jogadores a sobreviverem em uma selva amaldiçoada onde a própria realidade é uma arma. Com mais de 800.000 listas de desejos antes do lançamento, o jogo apresenta um sistema de progressão denso atrelado ao galeão Tempestad, que serve como seu hub principal para melhorias e seleção de contratos.
+
+**Destaques do Vídeo:**
+- Visão geral do ciclo de extração cooperativa para 4 jogadores.
+- Demonstração visual das mudanças ambientais da \"Selva Viva\".
+- Comparação de armas de fogo de época contra armas baseadas em furtividade.
+- Prévia das distorções visuais do Sistema de Sanidade.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Navegar pelas diferentes versões disponíveis na loja do Steam é o primeiro passo para qualquer novo explorador. O jogo oferece duas edições distintas, cada uma proporcionando diferentes níveis de acesso aos tesouros proibidos da selva.
+
+| Recurso | Edição Padrão | Edição Deluxe |
+| :--- | :--- | :--- |
+| **Preço Base** | $29.99 | $39.99 |
+| **Jogo Base** | Incluso | Incluso |
+| **Missão Templo de Yig** | Não Inclusa | **Inclusa** |
+| **Pacote de Equipamentos Abissais** | Não Inclusa | **Incluso** |
+| **Pacote Caçadores de Fortuna** | Não Inclusa | **Incluso** |
+| **Trilha Sonora Digital** | Não Inclusa | **Inclusa** |
+| **Bônus de Lançamento** | Espadas dos Exploradores Perdidos | Espadas dos Exploradores Perdidos |
+
+<Callout type="tip" title="Vantagem do Host">
+Apenas o host precisa possuir a missão exclusiva **Templo de Yig** para que todo o esquadrão de 4 jogadores possa jogá-la junto no Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia para Iniciantes: Sua Primeira Expedição">
+
+Sobreviver à sua primeira hora em **the mound omen of cthulhu steam** exige uma mudança de mentalidade em relação aos jogos de tiro tradicionais. Você não é um supersoldado; você é um explorador em um ambiente hostil e reativo onde o barulho é seu maior inimigo. Cada ação, desde correr até disparar um mosquete de pederneira, aumenta a percepção da selva sobre a sua presença.
+
+<Steps>
+  <Step num="1" title="Selecione um Contrato do Capitão">
+    Antes de deixar o galeão, fale com o Capitão para escolher seu objetivo. Os contratos variam de simples coletas de tesouros a resgates de sobreviventes perdidos. Verifique o **valor de saque exigido** com cuidado, pois você não pode extrair até que esse mínimo seja atingido.
+  </Step>
+  <Step num="2" title="Distribua os Equipamentos do Esquadrão">
+    Os equipamentos são limitados. Um jogador deve focar em **navegação e iluminação** (Lampião a Óleo), outro em **eliminações silenciosas** (Arco), e pelo menos um deve carregar uma **arma de fogo** para poder de parada de emergência.
+  </Step>
+  <Step num="3" title="Escorte o Carro de Boi">
+    O carro de boi é o seu inventário móvel. Ele armazena seu tesouro e suprimentos extras. Você deve protegê-lo a todo custo, pois perder o carro geralmente significa a perda total do progresso daquela expedição.
+  </Step>
+  <Step num="4" title="Gerencie o Barulho e o Clima">
+    Fique de olho no céu. Quando chove, suas armas de mecha e pederneira tornam-se inúteis. Use facas e arcos durante as tempestades para manter suas capacidades defensivas sem alertar as sentinelas Y'm-bhi próximas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="A Ganância Mata">
+Garantir o tesouro mínimo do contrato é sua prioridade. Avançar mais fundo por \"só mais uma relíquia\" frequentemente leva à eliminação total do esquadrão quando a selva entra em seu estado de alta agressividade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Conjuntos de Equipamentos">
+
+Em **the mound omen of cthulhu steam**, sua escolha de equipamento determina a taxa de sobrevivência do esquadrão durante extrações de alto estresse. Ao contrário dos jogos de tiro modernos, essas armas de época têm desvantagens significativas, incluindo tempos de recarga lentos e sensibilidades ambientais.
+
+<CardGrid cols={3}>
+  <Card title="O Arco (Tier S)">
+    - **Silencioso**: Não alerta a selva.
+    - **À Prova de Clima**: Funciona perfeitamente sob chuva pesada.
+    - **Recarga Rápida**: Cadência de tiro maior que a dos mosquetes.
+  </Card>
+  <Card title="Mosquete de Pederneira (Tier A)">
+    - **Dano Alto**: Para grandes ameaças instantaneamente.
+    - **Longo Alcance**: Melhor para combates em praias abertas.
+    - **Risco**: Extremamente barulhento e falha quando molhado.
+  </Card>
+  <Card title="Lampião a Óleo (Essencial)">
+    - **Visibilidade**: Essencial para ruínas e neblina.
+    - **Formações**: Ajuda o esquadrão a permanecer unido.
+    - **Frágil**: Pisca durante tempestades violentas.
+  </Card>
+</CardGrid>
+
+A tabela a seguir detalha a utilidade das ferramentas secundárias que podem ser encontradas ou compradas para a sua expedição.
+
+| Equipamento | Categoria | Uso Principal | Fator de Risco |
+| :--- | :--- | :--- | :--- |
+| **Faca** | Corpo a Corpo | Ataques finalizadores silenciosos | Requer proximidade extrema |
+| **Medalhão** | Utilitário | Localizar tesouros de metal Tulu | **Estrondo metálico alto** |
+| **Crucifixo** | Suporte | Ler os níveis de estresse dos inimigos | Sem capacidade ofensiva |
+| **Arma de Mecha** | Arma de Fogo | Fogo pesado sustentado | Velocidade de recarga mais lenta |
+| **Cantil de Água** | Recurso | Restaura energia/foco | Usos limitados por viagem |
+
+<Callout type="success" title="Equipamento Pro">
+Uma equipe equilibrada de 4 pessoas deve ter: 1 Especialista em Arco, 1 Vanguarda de Mosquete, 1 Portador do Lampião/Navegador e 1 Caçador de Tesouros com o Medalhão.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Sanidade e o Sistema de Alucinação">
+
+Um dos recursos mais inovadores de **the mound omen of cthulhu steam** é a ausência de uma barra de Sanidade tradicional na interface. Em vez de uma barra que se esgota, o jogo utiliza a **distorção sensorial** para comunicar seu estado mental. À medida que a loucura se instala, o mundo ao seu redor muda de maneiras que seus companheiros de equipe podem não ver.
+
+**Tipos Comuns de Alucinação:**
+- **Mudanças Visuais**: A selva pode parecer sangrar, ou a lua pode se tornar de um vermelho profundo e pulsante.
+- **Iscas Auditivas**: Você pode ouvir a buzina de extração ou um companheiro de equipe pedindo ajuda quando, na verdade, eles estão em silêncio.
+- **Corrupção de Identidade**: Companheiros de equipe podem aparecer brevemente como monstros, levando a incidentes trágicos de fogo amigo.
+- **Armadilhas Ambientais**: Caminhos falsos ou tesouros \"fantasmas\" que desaparecem ao toque.
+
+<Checklist
+  id="sanity-check"
+  title="Protocolo de Verificação de Realidade:"
+  items={[
+    "Confirme todas as mudanças visuais via chat de voz espacial.",
+    "Nunca siga o som de uma buzina distante sozinho.",
+    "Use chamadas e respostas para verificar as identidades dos companheiros na névoa.",
+    "Agrupe-se imediatamente se as cores da selva ficarem vermelhas.",
+    "Deixe o jogador com a mente 'mais limpa' liderar pelas ruínas densas."
+  ]}
+/>
+
+<Callout type="warning" title="Comunicação é Tudo">
+A loucura é uma experiência individual. Se você vir algo que seus companheiros não veem, **não atire** até que outra pessoa confirme o alvo.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Requisitos de Sistema para PC e Desempenho">
+
+Para rodar a versão de **the mound omen of cthulhu steam** de forma eficaz, os jogadores precisam de uma arquitetura moderna de 64 bits. O jogo utiliza renderização avançada de neblina volumétrica e folhagem, tornando a otimização de hardware crucial para manter uma taxa de quadros estável durante encontros caóticos com monstros.
+
+| Componente | Requisitos Mínimos | Requisitos Recomendados |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processador** | Intel Core i7-8700K | Intel Core i7-11700K |
+| **Memória** | 16 GB RAM | 16 GB RAM |
+| **Placa de Vídeo** | NVIDIA GTX 1660 SUPER | NVIDIA RTX 3070 |
+| **DirectX** | Versão 12 | Versão 12 |
+| **Armazenamento** | 50 GB de espaço disponível | Recomendável SSD |
+
+<Callout type="info" title="NVIDIA DLSS 4.5">
+Jogadores com GPUs da série RTX 50 podem ativar o **DLSS 4.5** com Multi Frame Generation para aumentar significativamente o desempenho em áreas de selva densa.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Perguntas Frequentes: The Mound Omen of Cthulhu no Steam">
+
+<FAQ items={[
+  {
+    question: "A versão de the mound omen of cthulhu steam suporta cross-play?",
+    answer: "Sim, o jogo suporta cross-play entre as plataformas Steam, Epic Games Store e jogadores do Xbox Series X|S."
+  },
+  {
+    question: "Posso jogar o jogo sozinho?",
+    answer: "Sim, há um modo solo completo disponível. No entanto, a dificuldade não diminui significativamente, tornando o gerenciamento de recursos e os testes de sanidade muito mais difíceis sem um esquadrão."
+  },
+  {
+    question: "O que acontece se meu mosquete molhar na chuva?",
+    answer: "A pólvora ficará úmida, fazendo com que a arma falhe. Você deve esperar o tempo limpar ou mudar para uma arma à prova de chuva, como um arco ou faca."
+  },
+  {
+    question: "Como faço para desbloquear novos locais de partida?",
+    answer: "Você deve encontrar e recuperar Diários de Bordo em fortes abandonados localizados nas profundezas da selva. Assim que forem devolvidos ao galeão, eles desbloquearão novos pontos de expedição."
+  }
+]} />
+
+</Section>

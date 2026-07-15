@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de The Mound Omen of Cthulhu: Guía de configuración para PC",
+  description: "Consulta los requisitos oficiales mínimos y recomendados para PC de The Mound: Omen of Cthulhu, incluyendo DLSS 4.5 y consejos de optimización gráfica.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=PC+System+Requirements",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu requisitos del sistema, pc, optimización, dlss 4.5"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Requisito de DirectX 12**: Es obligatorio contar con un sistema operativo de 64 bits y DirectX 12 para todas las configuraciones.
+- **Estándar de Memoria**: Debes tener al menos **16 GB de RAM** para ejecutar el juego sin tirones graves de rendimiento.
+- **Soporte para DLSS 4.5**: Las GPUs NVIDIA RTX Serie 50 pueden utilizar la Generación Dinámica de Multi-Fotogramas para una exploración de la selva más fluida.
+- **Rendimiento Objetivo**: Las especificaciones recomendadas apuntan a 60 FPS estables a una resolución de 1080p con ajustes visuales altos.
+- **Recomendación de Almacenamiento**: Se recomienda encarecidamente instalar el juego en un SSD de alta velocidad para evitar retrasos en la carga de texturas.
+</Callout>
+
+<Section icon={Shield} title="Requisitos Oficiales del Sistema para PC">
+
+Para sobrevivir a las selvas oscuras y cambiantes de esta expedición de horror cooperativo, tu PC debe cumplir con ciertos niveles básicos de hardware. El follaje denso, la niebla volumétrica y el renderizado de sombras dinámicas requieren una potencia de procesamiento moderna para mantener tasas de fotogramas estables.
+
+Revisa los **requisitos del sistema de The Mound: Omen of Cthulhu** oficiales a continuación para asegurarte de que tu equipo esté listo para la expedición.
+
+| Componente de Hardware | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
+| **Procesador (CPU)** | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| **Memoria (RAM)** | 16 GB RAM | 16 GB RAM |
+| **Tarjeta Gráfica (GPU)** | GTX 1660 SUPER (6GB) / RX 5600 XT / Arc A770 | RTX 3070 (8GB) / RX 6750 XT (12GB) |
+| **Versión de DirectX** | Versión 12 | Versión 12 |
+
+<Callout type="warning" title="Advertencia de Hardware">
+Las tarjetas gráficas antiguas que no admitan la ejecución de DirectX 12 a nivel de hardware no podrán iniciar el juego. Asegúrate de que los controladores de tu GPU estén totalmente actualizados a la versión de julio de 2026 o posterior antes de comenzar tu primera expedición.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="NVIDIA DLSS 4.5 y Tecnología de Rendimiento">
+
+Para los jugadores equipados con hardware gráfico moderno, las tecnologías de escalado especializado pueden mejorar drásticamente el rendimiento. El juego cuenta con integración total para técnicas de escalado de vanguardia, especialmente beneficiosas durante lluvias intensas o cuando atacan múltiples enemigos.
+
+| Tecnología | Hardware Compatible | Impacto en el Rendimiento | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **DLSS 4.5 Super Resolution** | RTX Series 20/30/40/50 | Mejora Alta | Calidad de imagen más clara en niebla densa |
+| **Dynamic Multi Frame Generation** | RTX Serie 50 | Aumento Masivo de FPS | Movimiento de cámara más fluido en ruinas de la selva |
+| **Escalado AMD FSR** | Radeon RX Serie 5000+ | Mejora Moderada | Rendimiento equilibrado en tarjetas AMD antiguas |
+| **Intel XeSS** | Intel Arc y GPUs Modernas | Mejora Moderada | Renderizado estable para equipos integrados o económicos |
+
+<CardGrid cols={3}>
+  <Card title="Superresolución">
+    - **Reconstruye entradas de menor resolución**
+    - Utiliza modelos de transformadores de segunda generación
+    - Preserva detalles finos en el follaje distante
+  </Card>
+  <Card title="Generación de Fotogramas">
+    - **Inserta fotogramas generados por IA**
+    - Elimina cuellos de botella de la CPU en sesiones cooperativas
+    - Requiere una tarjeta gráfica RTX Serie 50
+  </Card>
+  <Card title="Reflex Low Latency">
+    - **Reduce la latencia general del sistema**
+    - Ayuda con el apuntado preciso durante el combate
+    - Muy recomendado para usuarios de mosquetes de mecha
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Recomendación de Escalado">
+Si ejecutas el juego con una GPU recomendada como la RTX 3070 o RX 6750 XT, configura DLSS o FSR en modo "Calidad". Esto mantiene la imagen lo suficientemente nítida para detectar enemigos acechando en la niebla mientras obtienes un aumento de rendimiento del 20% al 30%.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimización Gráfica Paso a Paso">
+
+Si experimentas caídas de fotogramas, tirones o mala visibilidad mientras exploras la selva maldita, ajustar configuraciones gráficas específicas puede estabilizar rápidamente tu rendimiento. Utiliza esta secuencia de optimización paso a paso para equilibrar la claridad visual y la tasa de fotogramas.
+
+<Steps>
+  <Step num="1" title="Reducir Niebla Volumétrica y Sombras">
+    Navega al menú de gráficos avanzados. La niebla volumétrica y los cálculos de sombras dinámicas son los mayores drenajes de rendimiento. Reducirlos de Épico a Medio puede recuperar hasta un 15% de rendimiento con una pérdida visual mínima.
+  </Step>
+  <Step num="2" title="Ajustar la Densidad del Follaje">
+    La densa vegetación de la selva consume una potencia de procesamiento significativa. Reduce el ajuste de densidad del follaje a Medio. Esto mejora el rendimiento y, de hecho, facilita la detección de guardianes reanimados moviéndose entre la maleza.
+  </Step>
+  <Step num="3" title="Activar Escalado y Establecer FPS Objetivo">
+    Activa DLSS, FSR o XeSS según tu tarjeta gráfica. Establece tu tasa de fotogramas objetivo para que coincida con la frecuencia de actualización de tu monitor y activa V-Sync o G-Sync para eliminar el desgarro de pantalla (tearing) durante los combates intensos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Visibilidad">
+Prioriza mantener la "Distancia de Visión" y la "Calidad de Texturas" tan altas como lo permita la memoria de tu tarjeta gráfica (VRAM). Las texturas altas evitan superficies borrosas, mientras que una mayor distancia de visión te ayuda a verificar siluetas distantes antes de que noten a tu escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Prioridad de Ajustes para el Juego de Supervivencia">
+
+In un juego de extracción de horror donde la locura distorsiona tu visión, configurar los gráficos correctamente es una ventaja mecánica. Utiliza esta tabla de prioridad de ajustes para configurar tu juego para la máxima eficiencia de supervivencia.
+
+| Nombre del Ajuste | Opción Recomendada | Coste de Rendimiento | Beneficio en el Juego |
+| :--- | :--- | :--- | :--- |
+| **Efectos Volumétricos** | Medio / Bajo | Muy Alto | Visibilidad más clara a través de la niebla y bruma |
+| **Calidad de Sombras** | Medio | Alto | Mejor rendimiento cerca de fuentes de luz |
+| **Calidad del Follaje** | Medio | Alto | Líneas de visión más claras para detectar enemigos ocultos |
+| **Calidad de Texturas** | Alta (si tienes 8GB+ VRAM) | Bajo | Detalles nítidos en runas y objetos antiguos |
+| **Distancia de Visión** | Alta | Medio | Detecta amenazas distantes antes de que se activen |
+| **Desenfoque de Movimiento** | Desactivado | Mínimo | Previene la desorientación durante encuentros de alto estrés |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para el Lanzamiento en PC">
+
+Antes de organizar o unirte a una expedición cooperativa de cuatro jugadores, completa esta rápida lista de verificación del sistema para evitar bloqueos, desconexiones o tirones de rendimiento durante tu partida.
+
+<Checklist
+  id="pc-launch-checklist"
+  title="Verificación del Sistema Pre-Expedición:"
+  items={[
+    "Verifica que Windows 10/11 esté actualizado a la última versión de 64 bits.",
+    "Instala los controladores gráficos más recientes de NVIDIA, AMD o Intel.",
+    "Confirma que tienes al menos 16 GB de RAM de sistema disponibles.",
+    "Cierra aplicaciones pesadas en segundo plano como navegadores web o software de grabación.",
+    "Confirma que tus ajustes de audio espacial estén activados para un seguimiento preciso de voces y monstruos."
+  ]}
+/>
+
+<Callout type="info" title="Nota sobre el Rendimiento Cooperativo">
+Al jugar en cooperativo de 4 jugadores, la CPU del anfitrión maneja tareas de sincronización adicionales. Si tu procesador está cerca de la especificación mínima (ej. Ryzen 5 1600X), deja que un compañero con una CPU recomendada más potente (ej. Ryzen 5 5500 o mejor) sea el anfitrión de la sesión para asegurar una conexión fluida para todo el escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos mínimos del sistema para The Mound: Omen of Cthulhu?",
+    answer: "Los requisitos mínimos incluyen un SO Windows 10/11 de 64 bits, un procesador Intel Core i7-8700K o AMD Ryzen 5 1600X, 16 GB de RAM y una tarjeta gráfica NVIDIA GeForce GTX 1660 SUPER, AMD Radeon RX 5600 XT o Intel Arc A770. DirectX 12 también es obligatorio."
+  },
+  {
+    question: "¿Puedo jugar al juego con 8 GB de RAM?",
+    answer: "No. Los requisitos oficiales del sistema especifican un mínimo de 16 GB de RAM. Intentar ejecutar el juego con solo 8 GB de RAM provocará tirones graves, bloqueos por falta de memoria y tiempos de carga prolongados."
+  },
+  {
+    question: "¿Es compatible DirectX 11 con el juego?",
+    answer: "No. El juego está diseñado de forma nativa para DirectX 12 para manejar sus sistemas de renderizado avanzado, iluminación dinámica y follaje volumétrico. Las tarjetas gráficas antiguas que solo admiten DirectX 11 no podrán iniciar el juego."
+  },
+  {
+    question: "¿Cómo ayuda DLSS 4.5 con el rendimiento en la selva?",
+    answer: "DLSS 4.5 utiliza el aprendizaje profundo para escalar imágenes de menor resolución, proporcionando un aumento sustancial de la tasa de fotogramas. En tarjetas gráficas RTX Serie 50 compatibles, también admite la Generación Dinámica de Multi-Fotogramas para insertar fotogramas generados por IA, manteniendo el juego fluido en áreas densas y de alto estrés."
+  }
+]} />
+
+</Section>

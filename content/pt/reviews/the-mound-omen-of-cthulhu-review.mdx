@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Análise de The Mound Omen of Cthulhu: Veredito do Terror Cooperativo",
+  description: "Leia nossa análise abrangente de The Mound Omen of Cthulhu. Avalie o loop de extração cooperativo, as mecânicas de sanidade, as armas de época e o desempenho no PC.",
+  category: "Análise",
+  image: "https://placehold.co/800x400/111827/fff?text=The+Mound+Omen+of+Cthulhu+Review",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de the mound omen of cthulhu",
+  keywords: "the mound omen of cthulhu, análise, terror cooperativo, extração, sanidade, Lovecraft"
+}
+
+<Callout type="info" title="Veredito Rápido">
+- **Análise de The Mound Omen of Cthulhu**: Um jogo de terror de extração cooperativo para 4 jogadores altamente atmosférico que troca brilhantemente os elementos típicos de HUD por terror psicológico.
+- **Loop Principal**: Escolha o contrato de um capitão, escolte um carro de boi para uma selva amaldiçoada, garanta tesouros de Eldritch e escape de volta para o seu galeão.
+- **Sistema de Sanidade**: Não possui medidor de sanidade; a loucura se manifesta como alucinações visuais e auditivas privadas que fragmentam a confiança da equipe.
+- **Mecânicas de Combate**: Combate lento e deliberado utilizando armas de fogo de época que falham em clima úmido, tornando arcos silenciosos e facas essenciais.
+- **Otimização de PC**: Exigente, mas visualmente deslumbrante, utilizando tecnologias avançadas como DLSS 4.5 para configurações NVIDIA RTX Série 50 de ponta.
+</Callout>
+
+<Section icon={Map} title="Uma Visão Geral da Expedição na Selva Amaldiçoada">
+
+Desenvolvido pela ACE Team e publicado pela Nacon, *The Mound: Omen of Cthulhu* foi lançado em **15 de julho de 2026**. Este jogo de terror de extração cooperativo coloca até quatro jogadores em uma selva Lovecraftiana em decomposição. Esta **análise de the mound omen of cthulhu** avalia como o jogo mistura sobrevivência tática com terror psicológico.
+
+Ao contrário dos jogos de tiro de extração militares modernos, este título transporta os jogadores de volta à era das explorações. Você está armado com mosquetes de mecha e pederneira primitivos, arcos e espadas. Seu objetivo principal é completar contratos de capitão de alto risco, carregar o metal amaldiçoado Tulu em um carro de boi e retornar ao seu galeão, o *Tempestad*.
+
+| Recurso do Jogo | Detalhes da Especificação |
+|---|---|
+| **Desenvolvedor / Editora** | ACE Team / Nacon |
+| **Data de Lançamento** | 15 de julho de 2026 |
+| **Plataformas Suportadas** | PC (Steam, Epic, Xbox Store), PS5, Xbox Series X/S |
+| **Número de Jogadores** | 1-4 Jogadores (Solo e Cooperativo Online) |
+| **Recursos do Motor** | DirectX 12, Suporte a NVIDIA DLSS 4.5 |
+
+<Callout type="tip" title="Estrutura Cooperativa">
+Embora o jogo suporte totalmente o jogo solo, ele é equilibrado em torno da coordenação multijogador. Ter um grupo completo de quatro jogadores permite que sua tripulação divida funções essenciais como navegação, iluminação e defesa do carro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="O Loop Principal: Contratos, Tesouros e Extração">
+
+Cada expedição começa a bordo do seu navio, onde você seleciona um contrato. Esses acordos ditam o valor do tesouro exigido, relíquias específicas para localizar ou sobreviventes para resgatar. Uma vez em terra, sua equipe deve escoltar um carro de boi de movimento lento. Este carro serve como seu cofre móvel, caixa de suprimentos e rede de segurança.
+
+| Fase da Expedição | Objetivo Principal | Fator de Risco Chave |
+|---|---|---|
+| **1. Preparação** | Escolha um contrato e distribua ferramentas limitadas no galeão. | Uma má distribuição deixa os jogadores sem armas de reserva. |
+| **2. Infiltração** | Escorte o carro de boi por margens e folhagens densas. | Movimentos barulhentos acordam a selva e atraem sentinelas mortos-vivos. |
+| **3. Coleta** | Vasculhe ruínas em busca de metal Tulu, relíquias e comida de sobrevivência. | Medalhões de detecção de tesouros fazem barulhos altos quando atingidos. |
+| **4. Extração** | Retorne o carro de boi carregado ao galeão com segurança. | A ganância incentiva a exploração profunda enquanto os recursos diminuem. |
+
+O loop de extração é uma batalha constante de risco contra recompensa. Avançar mais fundo na selva rende relíquias de maior valor, mas expõe sua tripulação a climas mais rigorosos, munição esgotada e decadência mental crescente.
+
+<Callout type="warning" title="A Ganância Mata">
+Se o seu esquadrão for eliminado, você perde todo o saque coletado. É sempre mais seguro extrair cedo com um contrato concluído do que perseguir relíquias opcionais com um esquadrão fragmentado e com pouca munição.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Sanidade e Alucinações: Uma Aula de Paranoia">
+
+O recurso de destaque realçado em nossa **análise de the mound omen of cthulhu** é o brilhante sistema de sanidade. O jogo não apresenta medidor de sanidade visível, avisos de HUD ou ícones de status. Em vez disso, a deterioração psicológica se mistura perfeitamente ao ambiente, afetando cada jogador individualmente.
+
+<CardGrid cols={3}>
+  <Card title="Distorções Visuais">
+    - **Selva Sangrenta**: O ambiente torna-se carmesim profundo.
+    - **Chuva de Sangue**: Tempestades localizadas visíveis apenas para os jogadores afetados.
+    - **Silhuetas Falsas**: Figuras sombrias imitam colegas de equipe na névoa.
+  </Card>
+  <Card title="Ilusões Auditivas">
+    - **Trombetas Fantasmas**: Sinais de extração falsos atraem os jogadores para longe.
+    - **Vozes Fantasmas**: Sussurros no chat espacial imitam os colegas de esquadrão.
+    - **Gritos Ambientais**: Gritos distantes mascaram ameaças que se aproximam.
+  </Card>
+  <Card title="Fraturas de Identidade">
+    - **Monstros Amigáveis**: Colegas de equipe parecem monstros mortos-vivos.
+    - **Munição Desperdiçada**: Atirar em pânico contra ilusões drena recursos escassos.
+    - **Falha na Comunicação**: Os jogadores devem verificar verbalmente o que veem.
+  </Card>
+</CardGrid>
+
+Este design transforma o chat de voz espacial em uma ferramenta vital de sobrevivência. Quando um jogador vê um monstro ou ouve uma trombeta de extração, ele deve pedir confirmação aos seus colegas de equipe. Se o resto do esquadrão não vir nada, o jogador afetado está tendo uma alucinação.
+
+<Callout type="info" title="Protocolo de Verificação de Realidade">
+Estabeleça verificações verbais claras e concisas com sua equipe. Use frases como *"Confirme o alvo a Nordeste"* ou *"Você ouve a trombeta do carro?"* para evitar fogo amigo e desperdício de pólvora.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate e Equipamentos: Armas de Época e Dinâmicas Climáticas">
+
+O combate em *The Mound* é lento, pesado e altamente tático. Mosquetes de pederneira e de mecha possuem um imenso poder de parada, mas sofrem com tempos de recarga agonizantemente lentos. Além disso, a pólvora é altamente suscetível ao clima úmido, tornando as armas de fogo completamente inúteis durante chuvas fortes.
+
+| Tipo de Arma | Papel no Combate | Maior Força | Fraqueza Crítica |
+|---|---|---|---|
+| **Arco** | Furtividade / DPS Consistente | Silencioso; não afetado pela chuva; recarga rápida | Dano imediato menor que armas de fogo |
+| **Mosquete de Pederneira** | Defesa de Alto Impacto | Dano extremo a alvos físicos | Barulhento; recarga lenta; falha em clima úmido |
+| **Faca** | Reserva Silenciosa de Curto Alcance | Silenciosa; não requer munição; à prova de chuva | Requer entrar em alcance perigoso de combate corpo a corpo |
+| **Mosquete de Mecha** | Poder de Fogo Pesado | Alto dano contra monstros físicos | Recarga extremamente lenta; inútil na chuva |
+
+Devido a essas limitações, uma configuração de equipe equilibrada é obrigatória. Se cada jogador carregar um mosquete, uma tempestade repentina deixará todo o esquadrão indefeso.
+
+<Steps>
+  <Step num="1" title="Equipe o Batedor">
+    Atribua uma arma de longo alcance silenciosa, como um arco, ao seu batedor principal para eliminar sentinelas solitárias silenciosamente.
+  </Step>
+  <Step num="2" title="Distribua a Iluminação">
+    Certifique-se de que pelo menos um jogador carregue a Lâmpada de Óleo para manter a visibilidade através da névoa densa e ruínas escuras.
+  </Step>
+  <Step num="3" title="Designe um Atirador">
+    Mantenha um atirador disciplinado armado com um mosquete de pederneira para lidar com monstros físicos repentinos de alta ameaça.
+  </Step>
+  <Step num="4" title="Garanta Reservas de Combate Próximo">
+    Equipe todos os jogadores com facas ou espadas para garantir que tenham opções confiáveis e à prova de chuva quando a pólvora falhar.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Opções Cosméticas">
+Jogadores que adquirirem a Edição Deluxe ganham acesso ao *Pacote Abyssal Gear*, que adiciona belas skins temáticas de Cthulhu para a faca, lâmpada de óleo e mosquetes. Essas skins são puramente cosméticas e não alteram as estatísticas básicas das armas.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Requisitos de Sistema para PC e Análise de Desempenho">
+
+A densa copa da selva, a névoa volumétrica, a iluminação dinâmica e os ambientes mutáveis tornam *The Mound* um título visualmente impressionante, mas exigente. Para rodar o jogo sem problemas, os jogadores de PC devem atender às seguintes especificações de hardware:
+
+| Categoria de Hardware | Requisitos Mínimos | Especificações Recomendadas |
+|---|---|---|
+| **Sistema Operacional** | Windows 10 / 11 (64 bits) | Windows 10 / 11 (64 bits) |
+| **Processador (CPU)** | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| **Memória (RAM)** | 16 GB | 16 GB |
+| **Placa de Vídeo (GPU)** | GTX 1660 SUPER / RX 5600 XT / Arc A770 | RTX 3070 / RX 6750 XT |
+| **Versão do DirectX** | DirectX 12 | DirectX 12 |
+
+O jogo apresenta integração avançada para GPUs NVIDIA RTX Série 50, suportando **DLSS 4.5**. Esta tecnologia utiliza Geração Dinâmica de Múltiplos Quadros e Super Resolução via modelos transformer de segunda geração para aumentar drasticamente as taxas de quadros em áreas de selva densa.
+
+<Callout type="tip" title="Dica de Otimização">
+Se você tiver quedas na taxa de quadros, reduza primeiro a qualidade das sombras, a densidade da folhagem e os efeitos volumétricos. Manter a qualidade das texturas e a distância de visão altas é fundamental para avistar formas distantes na névoa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comparação de Edições: Standard vs. Deluxe">
+
+Antes de embarcar em sua primeira expedição, vale a pena comparar as edições disponíveis. O jogo foi lançado com um preço atraente, adoçado por um desconto de lançamento de 20% no Steam desbloqueado após a comunidade ultrapassar 800.000 listas de desejos.
+
+| Conteúdo Incluído | Edição Standard ($29.99) | Edição Deluxe ($39.99) |
+|---|---|---|
+| **Jogo Base** | Incluído | Incluído |
+| **Pacote Fortune Hunters** | Não Incluído | Incluído (2 Personagens Jogáveis) |
+| **Pacote Abyssal Gear** | Não Incluído | Incluído (4 Skins de Armas) |
+| **Missão Templo de Yig** | Não Incluído (Console) / Resgate Grátis (Steam) | Incluído (Contrato Exclusivo) |
+| **Trilha Sonora Digital** | Não Incluído | Incluído |
+| **Espadas Lost Explorers'** | Bônus de Lançamento Resgatável | Bônus de Lançamento Resgatável |
+
+A Edição Standard oferece um valor incrível para jogadores que buscam a experiência cooperativa principal. No entanto, fãs de cosméticos Lovecraftianos e aqueles que desejam acesso imediato ao contrato do *Templo de Yig* acharão que a Edição Deluxe vale bem os dez dólares extras.
+
+<Checklist
+  id="purchase-checklist"
+  title="Antes de Comprar:"
+  items={[
+    "Verifique se o seu PC atende aos requisitos mínimos de 16 GB de RAM e DirectX 12",
+    "Reúna uma equipe de 2 a 4 jogadores para a melhor experiência cooperativa",
+    "Resgate o pacote gratuito Lost Explorers' Swords no Steam nas primeiras duas semanas",
+    "Determine se sua GPU suporta DLSS 4.5 para o máximo desempenho visual"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Existe um medidor físico de sanidade no jogo?",
+    answer: "Não. Nossa análise de the mound omen of cthulhu confirma que o jogo remove completamente os medidores tradicionais de HUD. A perda de sanidade é vivenciada através de alucinações privadas em tempo real, como chuva de sangue, trombetas fantasmas e colegas de equipe aparecendo como monstros."
+  },
+  {
+    question: "Como o clima úmido afeta o combate?",
+    answer: "A chuva umedece a pólvora, tornando os mosquetes de mecha e de pederneira completamente inutilizáveis. Durante tempestades, os jogadores devem confiar em arcos silenciosos, facas e espadas para se defenderem."
+  },
+  {
+    question: "O jogo suporta multijogador multiplataforma?",
+    answer: "Sim. A Epic Games Store lista o jogo com cross-play, e a versão para Xbox suporta cooperativo multiplataforma entre Xbox Series X|S, Windows PC e Cloud Gaming via Xbox Play Anywhere."
+  },
+  {
+    question: "O que acontece se um colega de equipe morrer durante uma expedição?",
+    answer: "Se um jogador morrer e não for revivido prontamente, ele pode reanimar como um Explorador Corrompido. Este hostil morto-vivo caçará ativamente os membros sobreviventes do esquadrão."
+  }
+]} />
+
+</Section>

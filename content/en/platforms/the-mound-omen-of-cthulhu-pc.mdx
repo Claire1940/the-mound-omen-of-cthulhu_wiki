@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu PC: Complete Launch Guide & Setup",
+  description: "Master the PC version of The Mound: Omen of Cthulhu. Learn system requirements, DLSS 4.5 optimization, co-op strategies, and sanity management.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/090c0b/5fddc0?text=PC+Launch+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound Omen of Cthulhu PC launch** occurred on July 15, 2026, alongside current-gen console platforms.
+- **Optimized performance** requires DirectX 12 and 16 GB of RAM, with exclusive DLSS 4.5 support for RTX 50 Series GPUs.
+- **Cooperative survival** supports up to four players, utilizing spatial voice chat that degrades as sanity falls.
+- **Sanity mechanics** alter the environment individually, forcing players to verbally verify threats to avoid friendly fire.
+</Callout>
+
+<Section icon={Map} title="The Mound Omen of Cthulhu PC Release and Editions">
+
+The highly anticipated tactical horror expedition game, **the mound omen of cthulhu pc** edition, officially launched on July 15, 2026. Developed by ACE Team and published by Nacon, the game challenges players to survive a cursed jungle, complete contracts, and extract valuable treasures while battling psychological decay. The PC version is available across Steam, Epic Games Store, and the Xbox PC Store, supporting full cross-platform cooperative play.
+
+Before heading into the dark, verdigris-tinted depths of the jungle, players must choose between the Standard and Deluxe Editions. 
+
+| Feature | Standard Edition | Deluxe Edition | Details |
+|:---|:---|:---|:---|
+| **Base Price** | $29.99 | $39.99 | Regional pricing applies across storefronts |
+| **Launch Promo** | $23.99 | $31.99 | 20% discount unlocked via 800K Steam wishlists |
+| **Base Game** | Included | Included | Access to core contracts, maps, and sanity systems |
+| **Fortune Hunters** | No | Included | Adds 2 exclusive playable explorer characters |
+| **Abyssal Gear** | No | Included | Cthulhu-themed skins for knives, lamps, and muskets |
+| **Temple of Yig** | Host Only | Included | Exclusive mission; only host needs ownership |
+| **Soundtrack** | No | Included | High-quality digital download of the official score |
+| **Lost Explorers** | Launch Bonus | Launch Bonus | Ornate swords; claimable within first 2 weeks |
+
+<Callout type="tip" title="Edition Tip">
+If you are playing on PC with a dedicated group, only one player needs to own the Deluxe Edition to host the Temple of Yig exclusive mission for the entire squad.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PC System Requirements and Performance Optimization">
+
+To ensure stable frame rates and clear visibility through the dense, volumetric fog of the cursed jungle, players must optimize their hardware settings. The game relies heavily on dynamic shadows, foliage density, and atmospheric lighting to build its eerie Lovecraftian atmosphere.
+
+| Specification | Minimum Requirement | Recommended Requirement | Performance Priority |
+|:---|:---|:---|:---|
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) | Keep OS and graphics drivers fully updated |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | High CPU headroom prevents co-op physics stutter |
+| **RAM** | 16 GB RAM | 16 GB RAM | Close background apps to free up system memory |
+| **GPU** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | VRAM is crucial for rendering high-res foliage |
+| **DirectX** | Version 12 | Version 12 | Legacy graphics APIs are not supported |
+| **DLSS 4.5** | Not supported | Supported (RTX 50 Series) | Enables Dynamic Multi Frame Generation |
+
+<Callout type="warning" title="Performance Warning">
+If you experience sudden frame drops during heavy rain or dense combat encounters, immediately lower volumetric fog, shadow quality, and foliage density. Maintaining high visual clarity is more important for identifying distant threats than maximum aesthetic fidelity.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Weapons and Equipment Loadout">
+
+Expeditions do not provide a full personal arsenal for every explorer. Instead, the ship's captain supplies shared weapons and tools that must be carefully distributed among the crew. Successful squads designate roles based on weapon strengths, reload times, and environmental conditions.
+
+<CardGrid cols={3}>
+  <Card title="The Bow (S-Tier)">
+    - **Quiet Combat**: Silent shots do not alert the surrounding jungle.
+    - **Weather Proof**: Works flawlessly in heavy rainstorms.
+    - **Fast Reload**: Highly efficient for consistent crowd control.
+  </Card>
+  <Card title="Flintlock Musket (A-Tier)">
+    - **High Impact**: Delivers massive emergency stopping power.
+    - **Gunpowder Dependent**: Becomes completely useless in wet weather.
+    - **Extremely Loud**: Firing alerts nearby undead hordes.
+  </Card>
+  <Card title="Oil Lamp (S-Tier)">
+    - **Path Finder**: Cuts through dense fog and pitch-black ruins.
+    - **Team Anchor**: Helps the squad maintain formation in low visibility.
+    - **Vulnerable**: Flame can flicker or fail during heavy downpours.
+  </Card>
+</CardGrid>
+
+| Equipment | Category | Primary Strength | Major Weakness | Recommended Role |
+|:---|:---|:---|:---|:---|
+| **Bow** | Ranged Weapon | Silent, fast reload, rain-proof | Lower immediate burst damage | Scout / Quiet Combat |
+| **Flintlock** | Emergency Firearm | Extreme burst damage | Loud, slow reload, fails in rain | Heavy Infantry / Guard |
+| **Knife** | Melee Backup | Infinite ammo, completely silent | Requires dangerous close proximity | Every explorer fallback |
+| **Oil Lamp** | Visibility Tool | Reveals paths, keeps squad unified | Makes the carrier a target | Navigator / Support |
+| **Medallion** | Treasure Utility | Locates valuable Tulu metal | Striking it emits a loud metallic clang | Treasure Hunter |
+
+<Callout type="success" title="Loadout Strategy">
+Always ensure your squad has at least two rain-proof weapons (such as Bows or Knives) active. If a sudden storm hits while your team relies entirely on gunpowder muskets, you will be left defenseless.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beginner Guide to Your First Expedition">
+
+Every successful run follows a strict loop: select a contract, organize your gear, protect your transport, gather riches, and extract before the jungle consumes your sanity.
+
+<Steps>
+  <Step num="1" title="Select a Captain Contract">
+    Board the Tempestad galleon and review available contracts. Choose an objective that matches your squad's experience level, paying close attention to the required treasure value.
+  </Step>
+  <Step num="2" title="Distribute Shared Equipment">
+    Do not stack all firearms or light sources on a single player. Spread utility tools like the Oil Lamp and the Treasure-Finding Medallion across different team members.
+  </Step>
+  <Step num="3" title="Escort the Ox Cart">
+    The ox cart is your mobile vault. Deposit valuable relics regularly. Keep the path around the cart clear of debris, and never leave it completely unattended.
+  </Step>
+  <Step num="4" title="Control Noise Levels">
+    Running, cutting vines, and firing muskets wake the jungle. Move slowly and use quiet melee attacks or bows to eliminate isolated sentries without raising the alarm.
+  </Step>
+  <Step num="5" title="Extract Safely">
+    Once your contract quota is met, consult your team. It is always better to extract early with a secured haul than to push deeper, lose your sanity, and suffer a total squad wipe.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Logbook Progression">
+Search abandoned forts during your runs. Recovering fort logbooks unlocks permanent new starting locations on the map, shortening your travel times in subsequent expeditions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sanity, Hallucinations, and Reality Verification">
+
+There is no visible sanity bar or HUD indicator in the game. Instead, psychological decay manifests as private, localized hallucinations. What you see and hear may be completely different from what your teammates experience.
+
+<Checklist
+  id="sanity-verification"
+  title="Squad Reality-Check Checklist:"
+  items={[
+    "Verify distant horn calls verbally before moving toward them.",
+    "Confirm glowing eye silhouettes with teammates before firing a weapon.",
+    "Ask partners to cross-reference suspicious terrain changes or sudden blood rain.",
+    "Stay within spatial voice chat range to maintain communication stability.",
+    "Designate the player with the clearest vision to lead the group."
+  ]}
+/>
+
+<Callout type="warning" title="Friendly Fire Hazard">
+Severe madness can make friendly teammates look like horrifying undead monsters. Never fire at a humanoid silhouette in the fog without receiving verbal confirmation of their position via spatial voice chat first.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is there crossplay for the mound omen of cthulhu pc version?",
+    answer: "Yes, the PC version supports full cross-platform cooperative play with PlayStation 5 and Xbox Series X|S players. Xbox Play Anywhere also allows seamless cross-save between PC and Xbox consoles."
+  },
+  {
+    question: "Can I play the game completely solo?",
+    answer: "Yes, a dedicated single-player mode is available. However, solo players must carry a highly balanced loadout, as there are no teammates to protect the ox cart or verify visual hallucinations."
+  },
+  {
+    question: "What happens if an explorer dies during an expedition?",
+    answer: "Dead explorers must be revived promptly. If left unattended, their fallen bodies will eventually reanimate as Corrupted Explorers, turning into hostile enemies that hunt down the surviving squad."
+  },
+  {
+    question: "How do you stop a Y'm-bhi Sentry from reanimating?",
+    answer: "Standard physical attacks may only temporarily down them. Use a crucifix to read their stress level, employ bright light sources to blind them, and avoid triggering their self-immolation attack."
+  }
+]} />
+
+</Section>

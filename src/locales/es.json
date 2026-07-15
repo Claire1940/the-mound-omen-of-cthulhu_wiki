@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guía",
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "demo": "Demo",
+    "price": "Precio",
+    "multiplayer": "Multijugador",
+    "reviews": "Análisis"
+  }
+}

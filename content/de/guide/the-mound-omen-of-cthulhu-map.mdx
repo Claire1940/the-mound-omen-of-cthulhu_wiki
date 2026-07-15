@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Karte: Navigation & Fort-Standorte",
+  description: "Meistern Sie das Layout des verfluchten Dschungels in The Mound: Omen of Cthulhu. Entdecken Sie Fort-Standorte, Logbücher, Extraktionsrouten und den Verstand verändernde Orientierungspunkte.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/0b1d12/fff?text=Map+and+Navigation+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team",
+  keywords: "The Mound Omen of Cthulhu, Karte, Navigation, Forts, Logbücher, Ochsenkarren, Geisteszustand"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kartenmechaniken**: Das Layout des verfluchten Dschungels verändert sich visuell basierend auf dem kollektiven Geisteszustand (Sanity) Ihres Trupps.
+- **Fort-Standorte**: Das Finden und Sichern verlassener Forts schaltet permanente Startpunkte für zukünftige Expeditionen frei.
+- **Extraktionsroute**: Planen Sie Ihren Weg zurück zur Galeone Tempestad immer ein, bevor Ihr Verstand vollständig zerbricht.
+- **Ochsenkarren-Pfad**: Der Karren benötigt breite, freie Wege; wenn er in dichter Vegetation stecken bleibt, lädt dies zu Hinterhalten ein.
+</Callout>
+
+<Section icon={Map} title="Die Struktur der The Mound: Omen of Cthulhu Karte">
+
+Das Überleben in ACE Teams kooperativer Horror-Expedition hängt vollständig davon ab, das Layout des verfluchten Dschungels zu verstehen. Die **The Mound: Omen of Cthulhu Karte** ist keine statische Umgebung; sie ist ein reaktives, weitläufiges Ökosystem, in dem dichtes Laub, wandernder Nebel und antike Ruinen Ihre Bewegungen diktieren. Ihre Reise beginnt an der Küste, wo Ihre Galeone, die Tempestad, vor Anker liegt, und führt tief in das dunkle Herz der Insel, wo verbotene Schätze verborgen liegen.
+
+Das Navigieren in diesem Gelände erfordert ständige Koordination. Der Dschungel verfügt über verschiedene Zonen, von denen jede einzigartige Umweltgefahren, Gegnerdichten und Ressourcenverteilungen aufweist.
+
+| Zonenname | Gefahrenstufe | Primäre Ressourcen | Wichtige Orientierungspunkte |
+|---|---|---|---|
+| **Die Küstenlinie** | Niedrig | Treibholz, Grundvorräte, erste Nahrung | Landeplatz, Schiffskontakt |
+| **Dschungelpfade** | Mittel | Fleisch, Frischwasser, gewöhnliche Relikte | Engpässe, dichtes Gestrüpp |
+| **Verlassene Forts** | Hoch | Logbücher, wertvolle Relikte, Munition | Fort-Strukturen, Verteidigungswälle |
+| **Antike Ruinen** | Sehr Hoch | Tulu-Metall-Schätze, verfluchte Artefakte | Okkulte Altäre, tiefe Höhlen |
+
+<Callout type="warning" title="Umweltveränderung">
+Starker Regen macht die Wege rutschig und Luntenschloss- sowie Steinschlossmusketen völlig unbrauchbar. Planen Sie Ihren Rückzug immer in Richtung überdachter Ruinen oder der Küste, wenn Stürme aufziehen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie man verlassene Forts findet und freischaltet">
+
+Verlassene Forts dienen als primäre Meilensteine für den Fortschritt auf der Karte. Das Sichern dieser befestigten Strukturen ist für das langfristige Überleben unerlässlich, da sie kritische historische Logbücher enthalten. Das Bergen dieser Logbücher ermöglicht es Ihrer Crew, neue, tiefer gelegene Startpunkte für nachfolgende Expeditionen freizuschalten und so die gefährliche äußere Küstenlinie zu umgehen.
+
+| Fort-Standort | Schwierigkeit | Wichtige Beute | Freischaltbedingung |
+|---|---|---|---|
+| **Küstenaußenposten** | Leicht | Basis-Munition, alte Karten | Unmittelbare untote Wanderer eliminieren |
+| **Sumpfbastion** | Mittel | Logbuch Band 1, Frischwasser | Den zentralen Innenhof sichern |
+| **Dschungelzitadelle** | Schwer | Logbuch Band 2, Tulu-Metall | Den laternentragenden Y'm-bhi besiegen |
+
+<CardGrid cols={3}>
+  <Card title="Die Tore finden">
+    Suchen Sie entlang der erhöhten Kämme des Dschungels. Forts sind typischerweise von verfallenen Holzpalisaden oder bröckelnden Steinmauern umgeben.
+  </Card>
+  <Card title="Das Logbuch sichern">
+    Das Logbuch befindet sich immer im Quartier des Kommandanten oder im zentralen Bergfried. Schützen Sie den Spieler, der es trägt, da dieser keine zweihändige Waffe halten kann.
+  </Card>
+  <Card title="Einen Stützpunkt errichten">
+    Das Freischalten des Forts aktualisiert Ihre Kartenoptionen an Bord der Galeone, sodass Sie bei Ihrem nächsten Auftrag die Küste überspringen können.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Verteidigungstipp">
+Nutzen Sie die schmalen Durchgänge verlassener Forts, um untote Horden in einen Engpass zu treiben. Ein einzelner Spieler mit einem Schwert kann mehrere Gegner aufhalten, während die Schusswaffen nachgeladen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Schritt-für-Schritt-Navigation und Strategie zur Karren-Eskorte">
+
+Der Kern jeder Expedition dreht sich um den Schutz Ihres Ochsenkarrens, während er die Karte überquert. Der Karren fungiert als Ihre mobile Basis, in der gesammelte Schätze, Vorräte und Waffen gelagert werden. Wenn der Karren zerstört wird oder verloren geht, endet die Expedition als Fehlschlag.
+
+<Steps>
+  <Step num="1" title="Die Route auf der Galeone planen">
+    Bevor Sie das Schiff verlassen, prüfen Sie den Vertrag des Kapitäns. Zeichnen Sie einen Pfad von der Küste zum nächsten Fort oder zur nächsten Ruine ein und stellen Sie sicher, dass der Weg breit genug für den Ochsenkarren ist.
+  </Step>
+  <Step num="2" title="Hindernisse im Voraus beseitigen">
+    Schicken Sie einen Späher mit einer leisen Waffe wie einem Bogen voraus. Entfernen Sie umgestürzte Bäume, dickes Gestrüpp und umherstreifende Untote, bevor Sie den Karren vorwärts bewegen.
+  </Step>
+  <Step num="3" title="Verteidigungsperimeter errichten">
+    Wenn Sie Ruinen durchsuchen, parken Sie den Karren auf einer gut verteidigbaren Lichtung. Weisen Sie mindestens einem Spieler die Bewachung des Karrens zu, während die anderen Ressourcen sammeln.
+  </Step>
+  <Step num="4" title="Wertsachen sofort deponieren">
+    Horten Sie keine Schätze in Ihrem persönlichen Inventar. Übertragen Sie Relikte und Tulu-Metall regelmäßig auf den Karren, um Ihr Gewicht niedrig zu halten und Ausdauer zu sparen.
+  </Step>
+  <Step num="5" title="Den Rückzug signalisieren">
+    Sobald das Vertragsziel erreicht ist, betätigen Sie das Horn des Karrens, um die Extraktion zurück zur Küste zu beginnen. Stellen Sie sicher, dass alle Spieler gruppiert sind, bevor Sie sich in Bewegung setzen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Karrensicherheit">
+Der Ochsenkarren ist mit einer Laterne ausgestattet, die hilft, kleinere spektrale Erscheinungen abzuwehren. Halten Sie das Licht des Karrens aktiv, wenn Sie durch dichten, unnatürlichen Nebel navigieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kartenverzerrungen und Auswirkungen auf den Geisteszustand">
+
+Die Karte in The Mound: Omen of Cthulhu wird stark vom mentalen Zustand Ihres Trupps beeinflusst. Es gibt keinen Sanity-Balken auf Ihrem Bildschirm; stattdessen verändert sich die physische Umgebung, wenn der Wahnsinn Einzug hält. Orientierungspunkte verschieben sich, Pfade scheinen blockiert zu sein und die Farben des Dschungels verzerren sich in erschreckende Farbtöne.
+
+| Geisteszustand | Visuelle Kartenänderungen | Akustische Halluzinationen | Auswirkungen auf die Navigation |
+|---|---|---|---|
+| **Stabil** | Klare Sicht, natürliche grüne Vegetation | Normale Dschungelgeräusche, Tierwelt | Zuverlässiger Kompass, klare Orientierungspunkte |
+| **Instabil** | Lokaler Blutregen, pulsierende rote Pflanzen | Distantes Flüstern, falsche Karrenhörner | Pfade scheinen sich zu verschieben, falsche Geländeblockaden |
+| **Zerbrochen** | Dicker roter Nebel, blutende Steinwände | Schreie, falsche Rufe von Teammitgliedern | Kompass dreht wild durch, Orientierungspunkte verschwinden |
+
+<Callout type="warning" title="Illusionäre Pfade">
+Wenn der Verstand zerbrochen ist, sehen Spieler möglicherweise völlig unterschiedliche Versionen der Karte. Ein Spieler sieht vielleicht einen freien Weg, während ein anderer eine massive Steinwand sieht. Überprüfen Sie Routen immer mittels Voice-Chat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditions-Checkliste & Ziele">
+
+Um einen erfolgreichen Durchlauf und eine sichere Extraktion aus dem verfluchten Dschungel zu gewährleisten, sollte Ihr Trupp bei jedem Lauf diese wesentlichen Meilensteine erreichen.
+
+<Checklist
+  id="map-expedition-goals"
+  title="Ziele der Kartenerkundung:"
+  items={[
+    "Identifizieren Sie sofort nach der Landung das nächstgelegene verlassene Fort.",
+    "Befreien Sie den Hauptpfad von dichter Vegetation, um die Bewegung des Karrens zu ermöglichen.",
+    "Finden und bergen Sie mindestens ein historisches Logbuch für permanenten Fortschritt.",
+    "Markieren Sie aktive Extraktionspunkte auf Ihrer mentalen Karte, bevor Sie tiefe Ruinen betreten.",
+    "Legen Sie einen Sammelpunkt für den Rückzug im Falle plötzlicher Wetterumschwünge fest."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie finde ich den genauen Standort der Forts auf der Karte?",
+    answer: "Forts sind durch verfallene Steintürme gekennzeichnet, die über das Blätterdach des Dschungels hinausragen. Suchen Sie nach erhöhtem Gelände und folgen Sie den abgetretenen Steinpfaden, die von der Küste wegführen."
+  },
+  {
+    question: "Ändert sich das Layout der The Mound: Omen of Cthulhu Karte zwischen den Durchläufen?",
+    answer: "Die allgemeine Geographie der Insel bleibt konsistent, aber Ressourcenknoten, Gegner-Spawns, Standorte der Logbücher und Wetterlagen ändern sich dynamisch bei jeder Expedition."
+  },
+  {
+    question: "Was soll ich tun, wenn der Kompass anfängt, wild durchzudrehen?",
+    answer: "Ein durchdrehender Kompass zeigt an, dass Ihr Charakter unter schwerem Wahnsinn leidet. Gruppieren Sie sich sofort mit einem Teammitglied neu, das einen höheren Geisteszustand hat, und lassen Sie sich von ihm führen."
+  },
+  {
+    question: "Kann ich ohne den Ochsenkarren extrahieren?",
+    answer: "Nein. Der Ochsenkarren enthält den Großteil Ihrer gesicherten Schätze, die zur Erfüllung des Kapitänsvertrags erforderlich sind. Sie müssen den Karren zurück zur Küste eskortieren, um die Mission erfolgreich abzuschließen."
+  }
+]} />
+
+</Section>

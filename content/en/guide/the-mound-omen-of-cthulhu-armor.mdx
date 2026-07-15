@@ -1,0 +1,167 @@
+import { Swords, Shield, Map, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Armor: Best Loadouts & Gear",
+  description: "Master the mound omen of cthulhu armor choices. Compare period equipment, standard vs deluxe gear packs, and survive the cursed jungle.",
+  category: "Gear",
+  image: "https://placehold.co/800x400/101b15/5fddc0?text=Armor+and+Loadouts+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound Omen of Cthulhu Armor**: Protection relies on period-appropriate explorer clothing, tactical positioning, and specialized items rather than high-tech armor plates.
+- **Weapon Synergy**: Pair your defensive gear with silent weapons like the **Bow** to avoid alerting the reactive jungle.
+- **Deluxe Cosmetics**: The **Abyssal Gear Pack** and **Lost Explorers' Swords** provide premium visual themes for your starting equipment.
+- **Team Roles**: Distribute protective, lighting, and offensive gear evenly across your four-player squad to prevent total party wipes.
+</Callout>
+
+<Section icon={Shield} title="The Mound Omen of Cthulhu Armor and Protection Mechanics">
+
+In *The Mound: Omen of Cthulhu*, conventional modern armor does not exist. Survival in this 16th-century Lovecraftian expedition depends on historical explorer garments, tactical loadouts, and sanity management. Your physical defense is heavily dictated by the weight of your gear, your choice of melee backup weapons, and how well you mitigate environmental hazards like mud, rain, and thick fog.
+
+Rather than chasing stat-heavy chestplates, explorers must focus on utility. Carrying heavy firearms like the Matchlock Musket slows down your movement, making you a easier target for reanimated guardians. Conversely, running light with a Bow and a Knife increases your evasion and keeps your noise profile low.
+
+| Protection Type | Primary Benefit | Main Drawback | Best Situation |
+| :--- | :--- | :--- | :--- |
+| **Light Explorer Garb** | High movement speed, quiet | Minimal physical defense | Stealth scouting, rainy weather |
+| **Standard Expedition Gear** | Balanced protection, decent slots | Moderate noise generation | General jungle exploration |
+| **Deluxe Abyssal Set** | Premium cosmetic theme | Visual only, no stat boost | Group customization |
+
+<Callout type="warning" title="Weight Matters">
+Heavy loadouts drain your stamina faster. If you are cornered by a pack of Undead Wanderers, low stamina will prevent you from escaping or climbing to safety.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Weapons and Equipment Loadouts">
+
+Every expedition departing from the *Tempestad* galleon requires a carefully planned distribution of weapons and survival tools. Because the captain supplies shared equipment rather than individual full kits, your squad must coordinate who carries defensive utilities, who handles quiet eliminations, and who wields heavy firepower.
+
+<CardGrid cols={3}>
+  <Card title="The Stealth Scout">
+    - **Primary**: Bow
+    - **Backup**: Knife
+    - **Utility**: Oil Lamp
+    - **Role**: Quietly dispatches sentries and guides the team through narrow jungle paths.
+  </Card>
+  <Card title="The Heavy Guard">
+    - **Primary**: Flintlock Musket
+    - **Backup**: Sabre
+    - **Utility**: Ammo Pouch
+    - **Role**: Provides high-impact defense against major supernatural threats and bosses.
+  </Card>
+  <Card title="The Treasure Hunter">
+    - **Primary**: Matchlock Musket
+    - **Backup**: Knife
+    - **Utility**: Medallion
+    - **Role**: Locates valuable Tulu metal while staying close to the defensive line.
+  </Card>
+</CardGrid>
+
+The weather in the cursed jungle is highly dynamic. Rain dampens match cords and ruins loose gunpowder, rendering your muskets useless. Always ensure at least two team members carry rain-proof alternatives.
+
+| Weapon / Tool | Damage Type | Noise Level | Rain Usability |
+| :--- | :--- | :--- | :--- |
+| **Bow** | Silent Ranged | Very Low | Excellent (No powder needed) |
+| **Flintlock Musket** | Heavy Ranged | Extremely High | Poor (Misfires in downpours) |
+| **Knife** | Fast Melee | Silent | Perfect (No ammo required) |
+| **Matchlock Musket** | Sustained Ranged | High | Unusable (Match goes out) |
+
+<Callout type="tip" title="Pro Tip">
+Never fire a musket unless it is a absolute emergency. The sound ripples through the jungle, waking up nearby Y'm-bhi Sentries and spawning additional hordes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Expedition Preparation">
+
+To guarantee your squad returns to the galleon with a full cart of treasure and intact sanity, follow this standard deployment protocol before stepping onto the shoreline.
+
+<Steps>
+  <Step num="1" title="Select the Captain's Contract">
+    Review the available contracts aboard the *Tempestad*. Choose a target treasure value or exploration zone that matches your team's current gear level.
+  </Step>
+  <Step num="2" title="Distribute Key Utilities">
+    Do not stack all light sources or detection tools on a single player. Spread the Oil Lamps and the Treasure-Finding Medallion across different explorers.
+  </Step>
+  <Step num="3" title="Secure the Ox Cart Route">
+    As you push into the jungle, clear debris and keep the path wide enough for the ox cart. The cart is your only mobile storage for heavy relics.
+  </Step>
+  <Step num="4" title="Manage the Sanity Threshold">
+    Watch your teammates for signs of madness. If an explorer starts pointing weapons at empty space, regroup immediately and verify their targets via voice chat.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Co-op Cohesion">
+Spatial voice chat mimics real-world acoustics. If you wander too far from your team, your voice will fade, leaving you isolated in the terrifying fog.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Goals Checklist">
+
+Keep these critical milestones in mind during every run to maximize your progression and unlock new starting locations.
+
+<Checklist
+  id="expedition-checklist"
+  title="High-Priority Objectives:"
+  items={[
+    "Secure the contract's minimum required treasure value first",
+    "Locate and secure Fort Logbooks to unlock permanent starting camps",
+    "Acquire Tulu metal relics using the Treasure-Finding Medallion",
+    "Extract before the red moon triggers extreme jungle aggression",
+    "Ensure all downed teammates are revived before leaving the zone"
+  ]}
+/>
+
+<Callout type="success" title="Safe Extraction">
+An early retreat with a partial haul is always better than losing your entire inventory to a late-game squad wipe. Greed is the quickest way to fail.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Deluxe Edition and Pre-Order Gear Comparison">
+
+For players looking to customize their appearance while exploring the dark jungles, the Deluxe Edition offers several unique gear packs. These items provide alternative visual styles inspired by Lovecraftian themes and historical conquistadors.
+
+| Cosmetic Pack | Included Items | Visual Theme | How to Claim |
+| :--- | :--- | :--- | :--- |
+| **Abyssal Gear Pack** | Knife, Oil Lamp, Muskets | Dark, Cthulhu-themed | Equipped via the ship's armory |
+| **Lost Explorers' Swords** | Two ornate ceremonial sabres | Aged gold and silver | Claim from the Steam store menu |
+| **Fortune Hunters** | Two exclusive character skins | Weathered wilderness explorers | Selectable at character creation |
+
+<Callout type="info" title="No Pay-to-Win">
+All Deluxe Edition armor appearances and weapon skins are purely cosmetic. They do not grant extra protection, damage, or stealth benefits.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where do I equip the mound omen of cthulhu armor and cosmetic skins?",
+    answer: "All cosmetic armor sets, character skins, and weapon appearances from the Deluxe Edition or pre-order bonuses can be customized at the vanity chest inside your personal cabin on the Tempestad galleon before launching an expedition."
+  },
+  {
+    question: "Does rain affect my armor or physical movement?",
+    answer: "Yes. Heavy rain muddy the ground, which significantly increases stamina drain while sprinting. It also disables gunpowder-based weapons, making close-range melee weapons or bows your primary means of defense."
+  },
+  {
+    question: "Can I play the game solo, and do I need different gear?",
+    answer: "Yes, solo play is fully supported. When playing alone, you must carry a highly balanced loadout. Bring a Bow for quiet kills, a Knife for emergency melee, and an Oil Lamp to navigate dark ruins safely, as you have no teammates to watch your back."
+  },
+  {
+    question: "What happens to my gear if I die in the jungle?",
+    answer: "If you die and your squad fails to extract, you will lose the physical treasure and resources collected during that run. However, permanent unlocks like camp locations discovered via Fort Logbooks will remain saved."
+  }
+]} />
+
+</Section>

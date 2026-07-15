@@ -1,0 +1,171 @@
+import { Users, Shield, Brain, Sword, FileText, Target, Map, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu – Wie viele Spieler: Multiplayer- & Solo-Setup-Guide",
+  description: "Erfahren Sie, wie viele Spieler an einer Expedition in The Mound: Omen of Cthulhu teilnehmen können. Entdecken Sie Solo-Spiel, 4-Spieler-Koop, Crossplay und Teamrollen für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2a2a/fff?text=Multiplayer+Setup+Guide",
+  date: "2026-07-15",
+  author: "Wiki-Team von The Mound: Omen of Cthulhu",
+  keywords: "The Mound Omen of Cthulhu, Spieleranzahl, Multiplayer, Koop, Solo, Crossplay, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Spieleranzahl**: Unterstützt **1 bis 4 Spieler** im Online-Koop oder Offline-Solo-Modus.
+- **Plattform-Unterstützung**: Verfügbar für **PC (Steam/Epic), PlayStation 5 und Xbox Series X|S**.
+- **Kern-Gameplay**: Teams wählen Verträge aus, schützen einen **Ochsenkarren** und extrahieren Schätze aus einem verfluchten Dschungel.
+- **Wahnsinnssystem**: Hoher Wahnsinn verursacht **Halluzinationen**, wodurch Teammitglieder füreinander wie Monster erscheinen können.
+- **Crossplay**: Bestätigte Unterstützung zwischen **Xbox und PC** via Xbox Play Anywhere und Epic Games Store.
+</Callout>
+
+<Section icon={Users} title="The Mound: Omen of Cthulhu – Wie viele Spieler: Modi und Limits">
+
+Zu verstehen, mit **wie vielen Spielern** man an **The Mound: Omen of Cthulhu** teilnehmen kann, ist entscheidend für die Planung Ihrer ersten Expedition in den verfluchten Dschungel. Entwickelt von ACE Team und veröffentlicht von Nacon, basiert dieses Lovecraft-inspirierte Extraction-Horrorspiel auf einem flexiblen Squad-System. Egal, ob Sie die Isolation einer Solo-Survival-Erfahrung oder die chaotische Koordination eines vollen Vier-Personen-Teams bevorzugen, das Spiel passt seine Herausforderungen entsprechend an.
+
+Das Spiel unterstützt offiziell **1 bis 4 Spieler**. Im Gegensatz zu vielen traditionellen Extraction-Shootern, die Spieler in spezifische Warteschlangengrößen zwingen, erlaubt dieser Titel das Betreten des Dschungels mit einer beliebigen Anzahl von Teammitgliedern bis hin zur Obergrenze. Diese Flexibilität ist wichtig, da der Schwierigkeitsgrad des Spiels stark auf Ressourcenmanagement, Lärmkontrolle und psychologische Stabilität setzt, statt nur auf reine Kampfkraft.
+
+| Feature | Solo-Spiel | 2-4 Spieler Koop |
+| :--- | :--- | :--- |
+| **Wiederbelebungsmechanik** | Keine Teammitglieder zur Hilfe | Möglich, wenn nicht korrumpiert |
+| **Ressourcenteilung** | Sie behalten alles | Wird im Squad geteilt |
+| **Wahnsinnstests** | Hohes Risiko eines totalen Zusammenbruchs | Teammitglieder können Realität prüfen |
+| **Karrenschutz** | Extrem schwierig | Dedizierter Verteidiger möglich |
+| **Schwierigkeitsskalierung** | Reduzierte Gegnerdichte | Dynamische Skalierung nach Spielerzahl |
+
+<Callout type="success" title="Tipp zur Squad-Synergie">
+Obwohl Solo-Spiel möglich ist, wird Anfängern ein **3- oder 4-Spieler-Team** dringend empfohlen. Zusätzliche Hände ermöglichen es einer Person, sich ganz auf den Ochsenkarren zu konzentrieren, während andere nach Schätzen suchen und die Gefahren des Dschungels managen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Koop-Rollen und Teamverantwortlichkeiten">
+
+In einer Vier-Spieler-Expedition hängt der Erfolg von der Arbeitsteilung ab. Der Dschungel reagiert auf jedes Geräusch und jede Bewegung, was bedeutet, dass eine unorganisierte Gruppe schnell den „Lebendigen Dschungel“ oder „Untote Wanderer“ anlockt. Die Zuweisung von Rollen vor dem Verlassen der Galeone *Tempestad* stellt sicher, dass kritische Werkzeuge wie die Öllampe und das schatzsuchende Medaillon effektiv verteilt sind.
+
+<CardGrid cols={2}>
+  <Card title="Der Navigator">
+    - **Primäres Werkzeug**: Festungslogbücher und Karten.
+    - **Aufgabe**: Führt die Gruppe zu Extraktionspunkten und verlassenen Forts.
+    - **Fokus**: Verfolgung der Route zurück zum Schiff und Vermeidung von Sackgassen.
+  </Card>
+  <Card title="Der Karren-Verteidiger">
+    - **Primäres Werkzeug**: Schwere Schusswaffen (Luntenschloss/Steinschloss).
+    - **Aufgabe**: Bleibt jederzeit in Reichweite des Ochsenkarrens.
+    - **Fokus**: Schutz der Vertragsschätze vor physischen Bedrohungen.
+  </Card>
+  <Card title="Der Späher">
+    - **Primäres Werkzeug**: Bogen und lautlose Messer.
+    - **Aufgabe**: Rodet Vegetation und schaltet Wachen lautlos aus.
+    - **Fokus**: Aufrechterhaltung der Tarnung, um eine Eskalation des Dschungels zu verhindern.
+  </Card>
+  <Card title="Der Versorgungsspezialist">
+    - **Primäres Werkzeug**: Öllampe und Schatzmedaillon.
+    - **Aufgabe**: Verwaltet die Sichtbarkeit und identifiziert wertvolles Tulu-Metall.
+    - **Fokus**: Maximierung des Beutewerts bei gleichzeitiger Wahrung des Teamzusammenhalts.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Kommunikation ist der Schlüssel">
+Das Spiel nutzt einen **räumlichen Sprachchat**. Wenn Sie sich zu weit von Ihren Teammitgliedern entfernen, verblassen deren Stimmen oder ändern die Richtung. Dies ist eine bewusste Mechanik, um die Spannung zu erhöhen, wenn der Nebel dichter wird.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="Die Auswirkungen von Wahnsinn auf den Multiplayer">
+
+Der einzigartigste Aspekt des Multiplayer-Erlebnisses ist das Wahnsinnssystem. Je mehr Zeit die Spieler im Dschungel verbringen, desto mehr beginnt ihre Wahrnehmung der Realität zu bröckeln. Entscheidend ist, dass diese Halluzinationen **privat** sind. Ein Spieler sieht ein Teammitglied vielleicht als Monster, während ein anderer sieht, wie der Dschungel blutet. Dies schafft einen „Vertrauens-Albtraum“, in dem Spieler den Sprachchat nutzen müssen, um zu verifizieren, was real ist.
+
+| Halluzinationstyp | Auswirkung auf Multiplayer | Gegenmaßnahme |
+| :--- | :--- | :--- |
+| **Falsche Teammitglieder** | Einen 5. Spieler im Nebel sehen | „Ruf-und-Antwort“-Sprachchecks nutzen |
+| **Monster-Verzerrung** | Teammitglieder sehen wie Untote aus | Position prüfen, bevor man feuert |
+| **Falsche Hornsignale** | Karren an falscher Stelle hören | Karrenposition mit Navigator abgleichen |
+| **Blutregen** | Visuelle Verzerrung und Rotstich | Sammeln und warten, bis das „Event“ endet |
+
+<Callout type="warning" title="Warnung vor Eigenbeschuss">
+Schwerer Wahnsinn kann das Charaktermodell eines Teammitglieds in eine feindselige Kreatur verwandeln. Bevor Sie mit Ihrer Steinschlosswaffe auf ein „Monster“ feuern, bestätigen Sie immer dessen Identität über den räumlichen Sprachchat. Ein einziger Panikschuss kann zur Auslöschung des gesamten Squads führen.
+</Callout>
+
+</Section>
+
+<Section icon={Sword} title="Waffenverteilung und Loadouts">
+
+Die Waffen in *The Mound: Omen of Cthulhu* sind von der Technologie des 17. Jahrhunderts inspiriert. Diese Werkzeuge lassen sich langsam nachladen und reagieren empfindlich auf die Umgebung. In einer Koop-Umgebung sollten niemals alle Spieler den gleichen Waffentyp tragen. Regen kann Schießpulver unbrauchbar machen, weshalb es essenziell ist, dass mindestens ein Spieler auf Nahkampf oder Bogenschießen spezialisiert ist.
+
+| Waffe | Kategorie | Vorteile | Nachteile |
+| :--- | :--- | :--- | :--- |
+| **Bogen** | Lautlose Distanz | Funktioniert bei Regen, schnell | Geringere Mannstoppwirkung |
+| **Steinschlossmuskete** | Notfall-Schusswaffe | Hoher Schaden, stoppt Stürmer | Laut, langsames Laden, versagt bei Regen |
+| **Messer** | Stealth-Nahkampf | Keine Munition nötig, lautlos | Hohes Risiko, kurze Reichweite |
+| **Luntenschlossmuskete** | Schwere Schusswaffe | Extremer Schaden gegen Bosse | Sehr laut, benötigt trockenes Wetter |
+
+<Callout type="info" title="Ressourcenmanagement">
+Der Kapitän liefert für jeden Vertrag eine begrenzte Menge an Ausrüstung. Sie müssen als Team entscheiden, wer die Musketen bekommt und wer die Bögen trägt. Die korrekte Verteilung der Munition entscheidet über eine erfolgreiche Extraktion oder einen verzweifelten Rückzug.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Start Ihrer ersten Expedition">
+
+Wenn Sie bereit sind zu beginnen, folgen Sie diesen Schritten, um Ihre Lobby einzurichten und sich auf Ihren ersten Vertrag vorzubereiten. Denken Sie daran, dass der Fortschritt des Hosts bestimmt, welche Verträge verfügbar sind, aber alle Spieler an den Belohnungen und dem während der Mission freigeschalteten Fortschritt teilhaben.
+
+<Steps>
+  <Step num="1" title="Lobby bilden">
+    Laden Sie bis zu drei Freunde über das Steam-, Epic- oder Xbox-Overlay ein. Stellen Sie sicher, dass alle in der Lobby sind, bevor der Host einen Vertrag am Tisch des Kapitäns auswählt.
+  </Step>
+  <Step num="2" title="Kapitänsvertrag wählen">
+    Überprüfen Sie die Schatzanforderungen und das Ziel. Anfänger sollten kürzere Routen mit niedrigeren Schatzquoten wählen, um die Mechanik des Ochsenkarrens zu erlernen.
+  </Step>
+  <Step num="3" title="Squad ausrüsten">
+    Teilen Sie an Bord der Galeone *Tempestad* die bereitgestellten Waffen und Werkzeuge auf. Stellen Sie sicher, dass mindestens eine Person eine **Öllampe** und eine andere einen **Bogen** für lautlose Kills hat.
+  </Step>
+  <Step num="4" title="Einsatz im Dschungel">
+    Reisen Sie ans Ufer. Sobald Sie landen, folgt der Ochsenkarren der Gruppe. Ihr primäres Ziel ist es, den Karren mit genügend Schätzen zu füllen, um den Vertrag zu erfüllen.
+  </Step>
+  <Step num="5" title="Sichere Extraktion">
+    Sobald die Quote erfüllt ist, kehren Sie zum Extraktionspunkt zurück. Entscheiden Sie als Team, ob Sie für optionale Relikte tiefer vordringen oder die aktuelle Beute sichern wollen.
+  </Step>
+</Steps>
+
+<Checklist
+  id="expedition-prep"
+  title="Checkliste vor dem Aufbruch:"
+  items={[
+    "Ein dedizierter Karren-Verteidiger wurde zugewiesen",
+    "Mindestens zwei Spieler haben regenresistente Waffen (Bogen/Messer)",
+    "Ein 'Rückzugssignal' für Situationen mit hohem Wahnsinn wurde vereinbart",
+    "Der räumliche Sprachchat aller Spieler wurde überprüft",
+    "Das primäre Vertragsziel wurde bestätigt"
+  ]}
+/>
+
+</Section>
+
+<Section icon={FileText} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie viele Spieler können The Mound: Omen of Cthulhu zusammen spielen?",
+    answer: "Das Spiel unterstützt 1 bis 4 Spieler im Online-Koop. Sie können komplett solo oder mit einem Squad aus zwei, drei oder vier Entdeckern spielen."
+  },
+  {
+    question: "Unterstützt das Spiel Crossplay?",
+    answer: "Ja. Crossplay wird zwischen PC (Steam und Epic Games Store) und Xbox Series X|S unterstützt. Die Xbox-Version unterstützt zudem Xbox Play Anywhere für Cross-Progression zwischen PC und Konsole."
+  },
+  {
+    question: "Kann ich das Spiel offline alleine spielen?",
+    answer: "Ja, ein vollständiger Einzelspielermodus ist für diejenigen verfügbar, die den Lovecraft-Horror alleine erleben möchten. Der Schwierigkeitsgrad ändert jedoch nichts an der Notwendigkeit, den Ochsenkarren und den Wahnsinn zu managen."
+  },
+  {
+    question: "Was passiert, wenn ein Teammitglied während einer Expedition stirbt?",
+    answer: "Wenn ein Teammitglied stirbt und nicht wiederbelebt wird, kann es als 'korrumpierter Entdecker' zurückkehren – eine feindselige untote Entität, die die verbleibenden Überlebenden jagt. Es ist immer besser, Wiederbelebungen zu priorisieren."
+  }
+]} />
+
+</Section>

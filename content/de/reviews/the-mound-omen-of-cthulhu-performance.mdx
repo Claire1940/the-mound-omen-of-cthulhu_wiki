@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Performance: 4K 60FPS Optimierungs-Guide",
+  description: "Maximieren Sie Ihre Bildrate und visuelle Wiedergabetreue in The Mound Omen of Cthulhu mit unserem Performance-Guide 2026 für PC-Einstellungen, HDR und Hardware.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Performance+Optimization+Guide",
+  date: "2026-07-15",
+  author: "The Mound Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Die Performance von The Mound Omen of Cthulhu** hängt stark vom GPU-VRAM und der Single-Core-Geschwindigkeit der CPU ab, um stabile 4K 60FPS zu erreichen.
+- **HDR-Optimierung** wird dringend empfohlen, um die tiefen Schwarztöne und unheimlichen Lichteffekte einzufangen, die für die Atmosphäre entscheidend sind.
+- **Upscaling-Technologien** wie DLSS oder FSR sind zwingend erforderlich, um auf Mittelklasse-Hardware hohe Bildraten bei 4K-Auflösung beizubehalten.
+- **Schattenqualität** ist die anspruchsvollste Einstellung; eine Reduzierung kann einen FPS-Boost von 15-20 % bewirken.
+- **SSD-Installation** ist erforderlich, um Ruckler beim Asset-Streaming in großen Umgebungen zu vermeiden.
+</Callout>
+
+<Section icon={Monitor} title="Visuelle Wiedergabetreue und technischer Überblick">
+
+The Mound Omen of Cthulhu stellt einen bedeutenden Sprung im Rendering von atmosphärischem Horror dar. Eine stabile **Performance in The Mound Omen of Cthulhu** zu erreichen, erfordert ein Gleichgewicht zwischen der intensiven Nutzung von volumetrischem Nebel und hochauflösenden Texturen. Im Jahr 2026 erwarten Spieler ein nahtloses 4K 60FPS-Erlebnis, das zwar erreichbar ist, aber spezifische Hardware-Konfigurationen und Einstellungsanpassungen erfordert.
+
+**Video-Highlights:**
+- Demonstriert das 4K 60FPS-Ziel mit aktiviertem HDR.
+- Zeigt die kontrastreichen Umgebungen und detaillierten Charaktermodelle.
+- Hebt die Bedeutung der Beleuchtung in der Omen of Cthulhu-Engine hervor.
+- Zeigt die flüssige Performance während actionreicher Kampfsequenzen.
+
+<YouTubeEmbed videoId="GvQ3F81aDP4" title="The Mound Omen of Cthulhu – Kein Spieler-Dialog – 4K 60FPS Trailer | HDR Enhanced Experience" />
+
+<Callout type="tip" title="HDR-Kalibrierung">
+Kalibrieren Sie Ihre HDR-Einstellungen immer im Spielmenü, bevor Sie einzelne Grafikoptionen anpassen. Der Regler „Eldritch-Kontrast“ ist besonders empfindlich und kann Schwarztöne „verschlucken“, wenn er nicht korrekt für Ihren spezifischen Monitor eingestellt ist.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Systemanforderungen und Hardware-Benchmarks">
+
+Um das Spiel effektiv auszuführen, muss Ihre Hardware den modernen Standards von 2026 entsprechen. Obwohl das Spiel skalierbar ist, nutzen die „Mound“-Umgebungen eine komplexe Geometrie, die ältere GPUs stark belasten kann. Unten finden Sie einen Vergleich der Hardware-Stufen, die für verschiedene Performance-Ziele erforderlich sind.
+
+| Anforderungsstufe | Zielauflösung | Empfohlene GPU | Empfohlene CPU | RAM |
+| :--- | :--- | :--- | :--- | :--- |
+| **Minimum** | 1080p / 30 FPS | RTX 2060 / RX 5600 | Ryzen 5 3600 | 16GB |
+| **Empfohlen** | 1440p / 60 FPS | RTX 3080 / RX 6800 XT | Ryzen 7 5800X | 16GB |
+| **Ultra/4K** | 4K / 60 FPS | RTX 4080 / RX 7900 XTX | Core i7-13700K | 32GB |
+| **Extreme** | 4K / 120 FPS | RTX 5080 / RX 8900 | Core i9-14900K | 32GB |
+
+<Callout type="warning" title="VRAM-Einschränkungen">
+Nutzer mit 8GB-VRAM-Karten können bei 4K Textur-Popping erleben. Es wird empfohlen, die Texturqualität auf „Mittel“ zu belassen, wenn Ihre GPU weniger als 10GB dedizierten Speicher hat.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Optimierte Einstellungen für hohe FPS">
+
+Um die beste **Performance in The Mound Omen of Cthulhu** zu erzielen, müssen die Einstellungen identifiziert werden, die das beste Verhältnis zwischen Optik und Leistung bieten. Viele Einstellungen haben einen abnehmenden Nutzen für die visuelle Qualität, beeinflussen aber die Bildrate massiv.
+
+| Einstellungsname | Auswirkung auf FPS | Empfohlener Wert | Visueller Unterschied |
+| :--- | :--- | :--- | :--- |
+| **Volumetrische Wolken** | Hoch | Mittel | Subtil |
+| **Schattenqualität** | Sehr hoch | Hoch (Nicht Ultra) | Spürbar |
+| **Umgebungsverdeckung** | Mittel | HBAO+ / RTAO | Hoch |
+| **Texturqualität** | Niedrig (VRAM-abhängig) | Ultra (wenn >12GB) | Hoch |
+| **Anisotrope Filterung** | Vernachlässigbar | 16x | Hoch |
+| **Reflexionen** | Hoch | Screen Space (SSR) | Mittel |
+
+<CardGrid cols={2}>
+  <Card title="Leistungsmodus">
+    - Priorisiert Stabilität bei 60FPS+.
+    - Nutzt DLSS/FSR „Leistung“-Voreinstellung.
+    - Deaktiviert Raytracing.
+    - Ideal für kompetitives oder actionreiches Gameplay.
+  </Card>
+  <Card title="Qualitätsmodus">
+    - Konzentriert sich auf natives 4K oder hochauflösendes Upscaling.
+    - Aktiviert Raytracing-Schatten.
+    - Maximiert Textur- und Vegetationsdichte.
+    - Am besten für immersives, langsames Erkunden.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Upscaling-Empfehlung">
+Die Verwendung von DLSS 3.5 oder FSR 3.0 mit Frame Generation ist der effektivste Weg, um 60FPS auf 4K-Displays zu erreichen, ohne signifikante Bildklarheit zu opfern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Optimierungsanleitung">
+
+Befolgen Sie diese Schritte, um sicherzustellen, dass Ihr PC vollständig für die unheimlichen Schrecken optimiert ist, die Sie in The Mound erwarten.
+
+<Steps>
+  <Step num="1" title="Grafiktreiber aktualisieren">
+    Laden Sie die neuesten Game Ready-Treiber von NVIDIA oder AMD herunter. Diese Treiber enthalten oft spezifische Optimierungen für die Omen of Cthulhu-Engine, die Flackern am ersten Tag beheben können.
+  </Step>
+  <Step num="2" title="Windows-Energiesparplan konfigurieren">
+    Stellen Sie Ihren Windows-Energiesparplan auf „Höchstleistung“ und stellen Sie sicher, dass der „Spielmodus“ in den Systemeinstellungen aktiviert ist, um CPU-Zyklen für das Spiel zu priorisieren.
+  </Step>
+  <Step num="3" title="In-Game-Skalierung einrichten">
+    Navigieren Sie zu den Videoeinstellungen und aktivieren Sie DLSS/FSR. Für 4K-Displays bietet die Voreinstellung „Qualität“ oder „Ausbalanciert“ die besten Ergebnisse. Aktivieren Sie „Reflex Low Latency“, falls verfügbar.
+  </Step>
+  <Step num="4" title="Schatten und Nebel feinabstimmen">
+    Stellen Sie „Volumetrischen Nebel“ auf Mittel. Diese Einstellung simuliert den dichten Nebel des Mounds, ist aber extrem belastend für die Recheneinheiten der GPU.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Shader-Kompilierung">
+Beim ersten Start wird das Spiel Shader kompilieren. Überspringen Sie diesen Vorgang nicht, da dies in den ersten 30 Minuten des Gameplays zu erheblichen Rucklern führen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Erweiterte Fehlerbehebung und Stabilität">
+
+Selbst mit der besten Hardware können Performance-Probleme aufgrund von Softwarekonflikten oder spezifischen Engine-Eigenheiten auftreten.
+
+| Problem | Mögliche Ursache | Lösung |
+| :--- | :--- | :--- |
+| **Mikroruckler** | Hintergrund-Apps | Overlays deaktivieren (Steam, Discord). |
+| **CTD (Absturz)** | Übertaktung | GPU/CPU auf Standardtakt zurücksetzen. |
+| **Niedrige GPU-Last** | CPU-Bottleneck | Auflösung erhöhen oder DLDSR aktivieren. |
+| **Flackernde Texturen** | Treiberkonflikt | Saubere Treiberinstallation mit DDU durchführen. |
+
+<CardGrid cols={3}>
+  <Card title="SSD vs. HDD">
+    Die Installation auf einer NVMe SSD reduziert Ladezeiten von 45 Sekunden auf unter 5 Sekunden und eliminiert Ruckler beim Gebietswechsel.
+  </Card>
+  <Card title="DirectX 12">
+    Stellen Sie sicher, dass DX12 aktiviert ist, um eine bessere Multi-Core-CPU-Auslastung zu erzielen, was für die KI-Verarbeitung des Spiels entscheidend ist.
+  </Card>
+  <Card title="V-Sync">
+    Deaktivieren Sie das spielinterne V-Sync, wenn Sie einen G-Sync- oder FreeSync-Monitor verwenden, um den Input-Lag zu reduzieren.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Speicherlecks">
+Einige Spieler berichten von Speicherlecks nach mehr als 4 Stunden ununterbrochener Spielzeit. Wenn Sie bemerken, dass die FPS mit der Zeit sinken, leert ein einfacher Neustart des Spiels den VRAM-Cache.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Performance-Checkliste">
+
+Nutzen Sie diese Checkliste, um sicherzustellen, dass Sie alle Grundlagen für das optimale Erlebnis abgedeckt haben.
+
+<Checklist
+  id="performance-check"
+  title="Finale Setup-Checkliste:"
+  items={[
+    "Neueste Grafiktreiber installiert (Versionen von 2026)",
+    "Spiel auf einer NVMe M.2 SSD installiert",
+    "HDR auf Spitzenhelligkeit (Nits) kalibriert",
+    "DLSS/FSR/XeSS für 4K-Ziele aktiviert",
+    "Hintergrund-Aufnahmesoftware deaktiviert",
+    "Windows-Spielmodus aktiviert"
+  ]}
+/>
+
+<Callout type="tip" title="Community-Mods">
+Suchen Sie in den Community-Foren nach „Performance INI“-Tweaks, wenn Sie auf Handheld-Geräten wie dem Steam Deck oder ROG Ally spielen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Was ist die wichtigste Einstellung für die Performance von The Mound Omen of Cthulhu?",
+    answer: "Schattenqualität und volumetrischer Nebel sind die beiden einflussreichsten Einstellungen. Eine Reduzierung von Ultra auf Mittel kann Ihre Bildrate um bis zu 30 % steigern, ohne die Ästhetik des Spiels zu ruinieren."
+  },
+  {
+    question: "Unterstützt das Spiel Raytracing?",
+    answer: "Ja, es unterstützt Raytracing-Schatten und Umgebungsverdeckung. Diese sind jedoch extrem anspruchsvoll und sollten nur auf High-End-Hardware von 2026 wie der RTX 40/50-Serie verwendet werden."
+  },
+  {
+    question: "Warum sehe ich verschwommene Texturen trotz hoher Einstellungen?",
+    answer: "Dies wird meist durch eine zu aggressive Upscaling-Voreinstellung verursacht. Wenn Sie DLSS „Ultra Performance“ bei 1080p verwenden, wirkt das Bild unscharf. Wechseln Sie für mehr Klarheit zu „Qualität“ oder „Nativ“."
+  },
+  {
+    question: "Sind 32GB RAM notwendig?",
+    answer: "Während 16GB für 1080p und 1440p ausreichen, werden 32GB für 4K-Gaming dringend empfohlen, um das hochauflösende Asset-Streaming ohne Ruckler zu bewältigen."
+  }
+]} />
+
+</Section>

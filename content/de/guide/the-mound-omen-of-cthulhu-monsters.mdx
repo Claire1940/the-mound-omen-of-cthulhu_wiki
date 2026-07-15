@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Monster: Bestiarium & Kampf-Guide",
+  description: "Meistere den Kampf gegen die Monster von The Mound: Omen of Cthulhu. Erfahre mehr über Schwächen, Verhaltensmuster und Team-Überlebensstrategien in diesem Cthulhu-Koop-Horrorspiel.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Monsters+and+Bestiary+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "The Mound, Omen of Cthulhu, Monster, Bestiarium, Kampf-Guide, Cthulhu-Horror, Y'm-bhi"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primäre Bedrohung**: Das Verständnis des Verhaltens der **Monster von The Mound: Omen of Cthulhu** ist der Schlüssel zum Überleben von Expeditionen.
+- **Wahnsinns-Mechaniken**: Hoher Stress und niedrige geistige Gesundheit verzerren das Erscheinungsbild von Feinden und verwandeln Verbündete in furchterregende Illusionen.
+- **Kampfstrategie**: Priorisieren Sie leise Waffen wie Bögen, um den Dschungel nicht zu wecken und massive Horden von Untoten anzulocken.
+- **Wahrnehmungsprüfung**: Überprüfen Sie ferne Silhouetten immer über den räumlichen Sprachchat, bevor Sie das Feuer auf potenzielle Freunde eröffnen.
+</Callout>
+
+<Section icon={Swords} title="Überblick über die Monster von The Mound: Omen of Cthulhu">
+
+Das Überleben in den verfluchten Dschungeln von *The Mound: Omen of Cthulhu* erfordert mehr als nur rohe Feuerkraft. Die Insel reagiert dynamisch auf Ihre Anwesenheit, was bedeutet, dass jeder Schuss, jeder Sprint oder jede durchtrennte Ranke die lokale Bedrohungsstufe erhöht. Die feindlichen Entitäten, denen Sie begegnen, unterteilen sich in physische Bedrohungen, wiederbelebte Wächter und psychologische Schrecken, die aus Ihrem schwindenden Verstand geboren werden.
+
+**Video-Highlights:**
+- **Dschungel-Wächter**: Wie Y'm-bhi-Wächter Spieler beobachten und belauern, um Stress aufzubauen.
+- **Untoten-Horden**: Die Kosten von Lärm und das Auslösen massiver Gruppenangriffe.
+- **Wahrnehmungsverzerrungen**: Wie der Verlust der geistigen Gesundheit Teammitglieder wie feindliche Kreaturen aussehen lässt.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay-Übersicht" />
+
+Um Expeditionen zu überleben, müssen Crews lernen, Bedrohungen anhand ihrer visuellen Hinweise und akustischen Warnsignale zu identifizieren. Die folgende Tabelle skizziert die wichtigsten feindlichen Klassifizierungen, denen Sie während der Verträge gegenüberstehen werden.
+
+| Monsterklasse | Bedrohungsstufe | Primäres Verhalten | Häufige Schwäche |
+|---|---|---|---|
+| **Y'm-bhi-Wächter** | Hoch | Belauert Spieler, baut Stress auf, positioniert sich neu | Kruzifix, helles Licht |
+| **Untote Wanderer** | Mittel | Schlurfen in Gruppen, werden von Lärm angelockt | Kopfschüsse, Nahkampfwaffen |
+| **Korrumpierte Entdecker** | Hoch | Aggressive Jagd auf ehemalige Teammitglieder | Schnelles, konzentriertes Feuer |
+| **Falsche Teammitglieder** | Spezial | Mimt Silhouetten von Spielern, um Ziele zu isolieren | Räumliche Sprachverifizierung |
+| **Spektren** | Mittel | Erscheint nahe dem Ochsenkarren, wenn die geistige Gesundheit sinkt | Gruppenzusammenhalt, hohe geistige Gesundheit |
+
+<Callout type="warning" title="Lärm-Warnung">
+Jedes physische Monster im Dschungel reagiert auf Geräusche. Das Abfeuern einer Muskete mag ein einzelnes Ziel ausschalten, aber der resultierende Lärm kann nahegelegene Untote Wanderer alarmieren, was zu einer sofortigen Auslöschung des Trupps führen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pirschende Bedrohungen: Y'm-bhi-Wächter Guide">
+
+Y'm-bhi-Wächter sind die uralten, wiederbelebten Wächter des Dschungels. Im Gegensatz zu Standard-Untoten stürmen sie nicht immer sofort los. Stattdessen testen sie Ihre Distanz, verfolgen Ihre Bewegungen aus dem dichten Laub und bauen aktiv Ihren Stresslevel auf.
+
+| Wächter-Variante | Warnzeichen | Spezialregeln | Gegenmaßnahmen |
+|---|---|---|---|
+| **Wächter-Späher** | Flüstern, leuchtende Augen | Zieht sich zurück, um Spieler in Hinterhalte zu locken | Kruzifix verwenden, um Stresslevel zu lesen |
+| **Laternen-Wächter** | Flackerndes Licht, schwere Schritte | Immun gegen Taktiken zum Blenden mit Licht | Abstand halten, leise Bogenschüsse verwenden |
+| **Feuer-Wächter** | Knisterndes Holz, Rauch | Kann sich selbst entzünden und auf den Trupp zustürmen | Schnell erledigen, bevor er den Nahkampf erreicht |
+
+Um mit diesen intelligenten Raubtieren fertig zu werden, müssen Teams ihre Positionierung koordinieren und spezialisierte Werkzeuge einsetzen.
+
+<Steps>
+  <Step num="1" title="Mit dem Kruzifix scannen">
+    Rüsten Sie Ihr Kruzifix aus, um versteckte Y'm-bhi-Wächter im Gebüsch aufzuspüren. Das Kruzifix offenbart deren Stresslevel und hilft Ihnen zu entscheiden, ob sie sich zum Rückzug oder zum Angriff bereitmachen.
+  </Step>
+  <Step num="2" title="Licht als Waffe nutzen">
+    Blenden Sie Standard-Wächter kurzzeitig mit Ihrer Öllampe. Dies unterbricht ihr Pirschverhalten und schafft eine Gelegenheit für einen lautlosen Nahkampf-Takedown.
+  </Step>
+  <Step num="3" title="Den Kill bestätigen">
+    Seien Sie sich bewusst, dass der lebende Dschungel gefallene Y'm-bhi-Körper wiederbeleben kann. Verweilen Sie nicht in der Nähe besiegter Wächter und bewegen Sie Ihren Ochsenkarren sofort aus dem Bereich.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Wächter-Taktiken">
+Wenn ein Y'm-bhi-Wächter seine eigene Laterne trägt, versuchen Sie nicht, ihn mit Ihrer Öllampe zu blenden. Die Lichtquelle hebt den Blendeffekt auf. Konzentrieren Sie sich stattdessen auf Fernangriffe mit dem Bogen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Umweltbedingte und psychologische Schrecken">
+
+Die Insel selbst ist eine lebendige Entität, die Ihren Verstand gegen Sie einsetzt. Je mehr Zeit Ihre Expeditionsgruppe im Dschungel verbringt, desto mehr verfällt Ihre kollektive geistige Gesundheit, was subjektive Bedrohungen einführt, die nur bestimmte Spieler sehen können.
+
+<CardGrid cols={3}>
+  <Card title="Der lebende Dschungel">
+    - **Dichter werdender volumetrischer Nebel**
+    - Pulsierende rote Flora und ein roter Mond
+    - **Eskalierende Gegner-Spawn-Raten**
+  </Card>
+  <Card title="Falsche Teammitglieder">
+    - **Mimt Silhouetten von Verbündeten**
+    - Lockt Spieler vom Karren weg
+    - **Verschwindet bei genauerer Untersuchung**
+  </Card>
+  <Card title="Spektren & Erscheinungen">
+    - **Sucht die Route des Ochsenkarrens heim**
+    - Verursacht lokale Audio-Verzerrungen
+    - **Erfordert Gruppenzusammenhalt zum Vertreiben**
+  </Card>
+</CardGrid>
+
+Der Umgang mit diesen Illusionen erfordert die strikte Einhaltung von Kommunikationsprotokollen.
+
+| Illusionstyp | Visueller Indikator | Akustisches Signal | Korrekte Reaktion |
+|---|---|---|---|
+| **Freundliches Monster** | Verbündeter erscheint als Monster | Verzerrter Sprachchat | Namen rufen, auf Antwort warten |
+| **Falsches Karren-Horn** | Geisterhafte Silhouette des Karrens | Entferntes, gedämpftes Horn | Karte prüfen, mit Karren-Verteidiger verifizieren |
+| **Blutendes Terrain** | Roter Boden, Blutregen | Matschige Schritte | Spieler mit hoher geistiger Gesundheit vorgehen lassen |
+
+<Callout type="success" title="Wiederherstellung der geistigen Gesundheit">
+In der Nähe des beleuchteten Pfades der Öllampe zu bleiben und Ihren Trupp in einer engen Formation zu halten, sind die effektivsten Wege, um den Verfall der geistigen Gesundheit zu verlangsamen und visuelle Halluzinationen zu verhindern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditions-Überlebens-Checkliste">
+
+Bevor Sie die Galeone Tempestad verlassen, stellen Sie sicher, dass Ihre Crew vollständig darauf vorbereitet ist, sowohl mit den physischen Monstern als auch mit den mentalen Belastungen des Dschungels umzugehen.
+
+<Checklist
+  id="monster-survival-goals"
+  title="Checkliste vor der Expedition:"
+  items={[
+    "Einen Spieler als dedizierten Späher für den lautlosen Kampf mit einem Bogen zuweisen",
+    "Mindestens zwei Öllampen auf verschiedene Spieler verteilen",
+    "Ein klares Call-and-Response-Protokoll für die visuelle Bestätigung etablieren",
+    "Sich auf einen sofortigen Rückzugsauslöser einigen, falls die geistige Gesundheit schwindet",
+    "Die Route des Ochsenkarrens frei von dichtem Blattwerk halten, um Hinterhalte zu verhindern"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie verhindere ich, dass die Monster von The Mound: Omen of Cthulhu wiederauferstehen?",
+    answer: "Bestimmte Monster, insbesondere Y'm-bhi-Wächter, können durch den lebenden Dschungel wiederbelebt werden. Der beste Weg, damit umzugehen, ist, unnötigen Kampf gänzlich zu vermeiden, den Vertrag zügig abzuschließen und zu evakuieren, bevor die Verderbnis des Dschungels ihren Höhepunkt erreicht."
+  },
+  {
+    question: "Kann ich Schusswaffen wie die Steinschloss-Muskete gegen alle Monster einsetzen?",
+    answer: "Musketen bieten zwar enorme Feuerkraft, sind aber extrem laut und locken nahegelegene Untote Wanderer an. Zudem können Schwarzpulverwaffen bei Regenstürmen komplett versagen. Behalten Sie einen Bogen oder ein Messer als leise, wetterfeste Reserve."
+  },
+  {
+    question: "Was soll ich tun, wenn ein Teammitglied wie ein Monster aussieht?",
+    answer: "Schießen Sie nicht sofort. Nutzen Sie den räumlichen Sprachchat, um nach ihrer Position zu fragen. Wenn sie antworten und ihr Standort mit der Silhouette übereinstimmt, handelt es sich um eine Halluzination der geistigen Gesundheit. Wenn Sie schießen, verursachen Sie Teamschaden und verschwenden wertvolle Munition."
+  },
+  {
+    question: "Wie hilft der Ochsenkarren gegen Monster?",
+    answer: "Der Ochsenkarren dient als Ihre mobile Basis. Er lagert Ihre zusätzliche Munition, Vorräte und gesammelten Schätze. Den Karren in der Nähe zu halten, stellt sicher, dass Sie schnellen Zugriff auf Ressourcen haben, wenn Sie sich gegen plötzliche Wellen von Untoten verteidigen müssen."
+  }
+]} />
+
+</Section>

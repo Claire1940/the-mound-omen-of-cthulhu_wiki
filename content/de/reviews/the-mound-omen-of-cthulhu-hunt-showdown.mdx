@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu & Hunt Showdown: Vergleich & Leitfaden",
+  description: "Vergleiche den taktischen Extraction-Horror von The Mound: Omen of Cthulhu mit Hunt: Showdown. Erfahre mehr über die Unterschiede bei geistiger Gesundheit, Koop und Loadouts.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2f2b/fff?text=The+Mound+vs+Hunt+Showdown",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **The Mound Omen of Cthulhu & Hunt Showdown**: Ein direkter Vergleich zeigt, dass sich Hunt auf die PvPvE-Kopfgeldjagd konzentriert, während bei The Mound das reine kooperative Lovecraft-Survival im Vordergrund steht.
+- **Mechanik der geistigen Gesundheit**: The Mound bietet ein HUD-loses System für geistige Gesundheit (Sanity), bei dem Wahnsinn deine physische Umgebung und das Aussehen deiner Teammitglieder verändert.
+- **Waffensysteme**: Epochengerechte Schwarzpulver-Feuerwaffen erfordern in beiden Spielen Disziplin, aber nasses Wetter in The Mound kann dein Schießpulver unbrauchbar machen.
+- **Kooperatives Spiel**: The Mound unterstützt bis zu 4 Spieler, die zusammenarbeiten, um einen Ochsenkarren zu eskortieren, während Hunt die Teamgröße auf 3 begrenzt.
+- **Fortschrittsschleife**: Beide Spiele nutzen Extraction-Mechaniken, bei denen der Tod zum Verlust der aktuellen Ausrüstung und Ressourcen führt.
+</Callout>
+
+<Section icon={Map} title="The Mound Omen of Cthulhu & Hunt Showdown: Kernunterschiede">
+
+Das Genre der Extraction-Shooter entwickelt sich weiter, und Spieler vergleichen oft den taktischen Schrecken der Mechaniken von **the mound omen of cthulhu hunt showdown**. Während Hunt: Showdown seit langem den Standard für die kompetitive PvPvE-Kopfgeldjagd setzt, verschiebt *The Mound: Omen of Cthulhu* von ACE Team den Fokus auf einen reinen, kooperativen Lovecraft-Albtraum. 
+
+Zu verstehen, wie diese beiden Extraction-Spiele an Spannung, Teamarbeit und Überleben herangehen, ist entscheidend für die Vorbereitung deiner nächsten Expedition. Die folgende Tabelle zeigt die grundlegenden Unterschiede zwischen den beiden Titeln.
+
+| Merkmal | Hunt: Showdown | The Mound: Omen of Cthulhu |
+| :--- | :--- | :--- |
+| **Hauptfokus** | Kompetitive PvPvE-Kopfgeldjagd | Kooperativer Lovecraft-Horror für 1–4 Spieler |
+| **Teamgröße** | Solo, Duos oder Trios | Solo oder Koop für bis zu 4 Spieler |
+| **Geistige Gesundheit & Wahrnehmung** | Standardmäßige visuelle/auditive Hinweise | HUD-loses Sanity-System, Halluzinationen |
+| **Umweltbedrohung** | Statische KI-Monster und Lärmfallen | Dynamischer Dschungel, Blutregen, sich verändernde Pfade |
+| **Extraktionsfahrzeug** | Sichere Extraktionszonen an den Kartenrändern | Eskortieren eines verwundbaren Ochsenkarrens zu einer Galeone |
+| **Wetterauswirkung** | Visuelle und auditive Beeinträchtigung | Regen macht Steinschloss- und Luntenschloss-Feuerwaffen unbrauchbar |
+
+<Callout type="tip" title="Überlebenstipp">
+Im Gegensatz zu Hunt: Showdown, wo andere Spieler deine Hauptbedrohung darstellen, sind in The Mound die Umgebung und deine eigene schwindende geistige Gesundheit die ultimativen Killer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Geistige Gesundheit und Umweltgefahren im Vergleich">
+
+In Hunt: Showdown verwalten Spieler Gesundheit, Ausdauer und Statuseffekte wie Bluten oder Brennen. *The Mound: Omen of Cthulhu* führt jedoch eine psychologische Ebene ein, die direkt die Kommunikation der Spieler angreift. Es gibt keine sichtbare Anzeige für die geistige Gesundheit auf dem Bildschirm; stattdessen äußert sich der Wahnsinn in privaten visuellen und auditiven Halluzinationen.
+
+Wenn deine geistige Gesundheit Schaden nimmt, siehst du möglicherweise Blutregen, hörst falsche Extraktionshörner oder nimmst deine echten Teammitglieder als schreckliche Monster wahr.
+
+| Gefahrenart | Effekt in Hunt: Showdown | Effekt in The Mound |
+| :--- | :--- | :--- |
+| **Niedrige geistige Gesundheit** | N. v. (Keine Sanity-Mechanik) | Lokaler Blutregen, sich veränderndes Terrain |
+| **Auditive Illusionen** | Schritte, Krähen, Zwinger | Falsche Extraktionshörner, gefälschte Rufe von Teammitgliedern |
+| **Visuelle Verzerrung** | Gift-Bildschirmunschärfe, Schattensicht | Teammitglieder erscheinen als untote Monster |
+| **Umweltreaktion** | Aggressive KI, Lärmfallen | Sich rötender Dschungel, dichter werdender Nebel, mehr Spawns |
+
+<CardGrid cols={3}>
+  <Card title="Kein Sanity-HUD">
+    Du musst dich auf die verbale Bestätigung mit deiner Truppe verlassen, um festzustellen, ob das, was du siehst, tatsächlich real ist.
+  </Card>
+  <Card title="Der blutende Dschungel">
+    Wenn der Wahnsinn Besitz ergreift, färbt sich die Umgebung tiefrot, was signalisiert, dass feindliche Spawns zunehmen.
+  </Card>
+  <Card title="Falsche Hornsignale">
+    Das Spiel ahmt das Geräusch des Horns deines Extraktionskarrens nach, um dich von der Sicherheit deiner Gruppe wegzulocken.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Kritische Warnung">
+Wenn deine geistige Gesundheit in The Mound niedrig ist, schieße niemals auf eine Silhouette, ohne vorher eine Sprachbestätigung von deinem Teammitglied erhalten zu haben. Friendly Fire kann deine Truppe sofort auslöschen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Waffensysteme und Loadout-Strategien">
+
+Beide Spiele bieten epochengerechte Waffen, die Präzision erfordern, aber sie gehen sehr unterschiedlich mit Munition und Wetterbedingungen um. In Hunt: Showdown macht eine verregnete Karte das Hören vielleicht schwieriger, aber deine Waffen schießen immer. In *The Mound* ist nasses Wetter eine mechanische Bedrohung, die dich völlig wehrlos machen kann, wenn du dich ausschließlich auf Schwarzpulver verlässt.
+
+| Waffenkategorie | Rolle in Hunt: Showdown | Rolle in The Mound |
+| :--- | :--- | :--- |
+| **Bögen & Armbrüste** | Stealth, lautlose PvE-Eliminierung | S-Tier für leisen Schaden, unbeeinflusst von Regen |
+| **Steinschlossmusketen** | N. v. (Modernere Feuerwaffen) | Hoher Schaden, langsames Nachladen, nutzlos bei Regen |
+| **Luntenschlossmusketen** | N. v. (Modernere Feuerwaffen) | Schwere Feuerkraft, lauter Knall, nutzlos bei Regen |
+| **Nahkampfwaffen** | Leise KI-Eliminierung, Boss-Schaden | Essenzielle Ausweichmöglichkeit, wenn das Schießpulver nass ist |
+| **Werkzeuge & Hilfsmittel** | Erstickungsbomben, Medkits, Täuschungskörper | Öllampen für Nebel, Medaillons zur Schatzsuche |
+
+<Callout type="info" title="Loadout-Empfehlung">
+Achte immer auf eine ausgewogene Verteilung der Waffen in deinem Team. Mindestens zwei Spieler sollten Bögen oder Nahkampfwaffen tragen, um die Angriffsfähigkeit bei plötzlichen Regenschauern im Dschungel zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt: Deine erste Expedition in The Mound">
+
+Um einen Vertrag in *The Mound* erfolgreich abzuschließen und die Extraktionsschleife zu überleben, muss dein Trupp mit strenger Disziplin vorgehen. Nutze diese Abfolge, um dein Team von der Galeone in den Dschungel und wieder zurückzuführen.
+
+<Steps>
+  <Step num="1" title="Wähle deinen Auftrag">
+    Gehe an Bord der Galeone Tempestad und wähle einen Expeditionsvertrag vom Kapitän. Einigt euch auf eure primären Beuteziele und legt eine klare Grenze fest, wann euer Team den Rückzug antritt.
+  </Step>
+  <Step num="2" title="Verteile die gemeinsame Ausrüstung">
+    Der Kapitän stellt eine gemeinsame Ausrüstung zur Verfügung, anstatt persönlicher Loadouts. Weise einem Spieler die Rolle des Navigators mit der Öllampe zu, einem den leisen Späher mit einem Bogen und den anderen die schweren Feuerwaffen.
+  </Step>
+  <Step num="3" title="Eskortiere und verteidige den Ochsenkarren">
+    Der Ochsenkarren ist dein mobiler Tresor. Deponiere alle geborgenen Relikte, Tulu-Metall und Wertsachen sofort im Karren. Halte den Pfad um den Karren frei von Vegetation, damit er nicht stecken bleibt.
+  </Step>
+  <Step num="4" title="Lärm und Wetterumschwünge managen">
+    Vermeide unnötiges Laufen oder Schießen. Wenn es anfängt zu regnen, weise deine Schusswaffennutzer an, sich zurückzuziehen, und lass deine Bogen- und Nahkampfnutzer alle herannahenden untoten Wanderer erledigen.
+  </Step>
+  <Step num="5" title="Extrahiere, bevor die Gier siegt">
+    Sobald der Mindestwert deines Vertrags erreicht ist, mache dich auf den Weg zurück zur Küste. Bleibe nicht für optionale Beute zurück, wenn deine Munition knapp ist, die Sicht schlecht ist oder Spieler Halluzinationen haben.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fortschrittstipp">
+Das Bergen von Logbüchern aus verlassenen Festungen während deines Laufs schaltet dauerhaft neue Startpunkte für nachfolgende Expeditionen frei, was zukünftige Runs erheblich erleichtert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditions-Meilensteine und Bestiarium-Checkliste">
+
+Das Überleben im verfluchten Dschungel erfordert die korrekte Identifizierung deiner Ziele. Nutze diese Checkliste, um deine Beherrschung der Bedrohungen auf der Insel zu verfolgen und deinen Fortschritt zu sichern.
+
+<Checklist
+  id="mound-survival-goals"
+  title="Wesentliche Expeditionsziele:"
+  items={[
+    "Identifiziere einen Y'm-bhi-Wächter mit einem Kruzifix, bevor er einen Hinterhalt auslöst",
+    "Besiege einen untoten Wanderer mit einer Lampe, bevor er sich selbst entzündet",
+    "Extrahiere erfolgreich mit einer vollen Ladung Tulu-Metall während eines schweren Regensturms",
+    "Schließe einen Vertrag ab, ohne dass ein Truppmitglied eine laute Schwarzpulvermuskete abfeuert",
+    "Berge ein Festungslogbuch, um einen neuen Startpunkt auf der Karte freizuschalten"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie unterscheidet sich der Koop-Modus in The Mound Omen of Cthulhu von Hunt Showdown?",
+    answer: "The Mound unterstützt Koop für bis zu 4 Spieler, der sich ganz auf PvE-Überleben und das Eskortieren eines Ochsenkarrens konzentriert. Hunt: Showdown unterstützt Trupps von bis zu 3 Spielern in einer hart umkämpften PvPvE-Umgebung, in der andere Spieler die Hauptbedrohung darstellen."
+  },
+  {
+    question: "Kann ich The Mound: Omen of Cthulhu solo spielen?",
+    answer: "Ja, es gibt einen vollständigen Einzelspielermodus. Das Solospiel ist jedoch erheblich schwieriger, da du keine Teammitglieder hast, die dir den Rücken freihalten, den Karren schützen oder dir helfen, Sanity-Halluzinationen zu überprüfen."
+  },
+  {
+    question: "Was passiert mit meinen Waffen und meiner Ausrüstung, wenn ich während einer Expedition sterbe?",
+    answer: "Wie bei anderen Extraction-Spielen führt der Tod in The Mound zum Verlust deiner mitgeführten Ausrüstung und Ressourcen. Die erfolgreiche Rückkehr zur Galeone sichert jedoch deine Beute und schaltet dauerhafte Fortschrittsoptionen frei."
+  },
+  {
+    question: "Wie wirkt sich das Wetter auf den Kampf in The Mound aus?",
+    answer: "Regen befeuchtet dein Schießpulver, wodurch Steinschloss- und Luntenschlossmusketen völlig unbrauchbar werden. Wenn es regnet, müssen sich Spieler auf Bögen, Armbrüste und Nahkampfwaffen wie Messer verlassen, um sich zu verteidigen."
+  }
+]} />
+
+</Section>

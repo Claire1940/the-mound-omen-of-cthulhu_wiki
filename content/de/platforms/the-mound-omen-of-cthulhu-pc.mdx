@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu PC: Vollständiger Launch-Guide & Setup",
+  description: "Meistere die PC-Version von The Mound: Omen of Cthulhu. Erfahre alles über Systemanforderungen, DLSS 4.5-Optimierung, Koop-Strategien und das Management der geistigen Gesundheit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/090c0b/5fddc0?text=PC+Launch+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Der PC-Launch von The Mound Omen of Cthulhu** erfolgte am 15. Juli 2026, zeitgleich mit den Konsolenplattformen der aktuellen Generation.
+- **Eine optimierte Leistung** erfordert DirectX 12 und 16 GB RAM, mit exklusiver DLSS 4.5-Unterstützung für GPUs der RTX 50-Serie.
+- **Das kooperative Überleben** unterstützt bis zu vier Spieler und nutzt einen räumlichen Sprachchat, der sich verschlechtert, je mehr die geistige Gesundheit sinkt.
+- **Die Mechanismen der geistigen Gesundheit** verändern die Umgebung für jeden Spieler individuell, was verbale Absprachen bei Bedrohungen zwingend erforderlich macht, um Eigenbeschuss zu vermeiden.
+</Callout>
+
+<Section icon={Map} title="The Mound Omen of Cthulhu: PC-Veröffentlichung und Editionen">
+
+Das heiß ersehnte taktische Horror-Expeditionsspiel **the mound omen of cthulhu pc** Edition wurde am 15. Juli 2026 offiziell veröffentlicht. Entwickelt von ACE Team und vertrieben von Nacon, fordert das Spiel die Spieler heraus, in einem verfluchten Dschungel zu überleben, Verträge zu erfüllen und wertvolle Schätze zu bergen, während sie gegen den geistigen Verfall ankämpfen. Die PC-Version ist auf Steam, im Epic Games Store und im Xbox PC Store erhältlich und unterstützt volles plattformübergreifendes Koop-Spiel.
+
+Bevor sich die Spieler in die dunklen, grünspanfarbenen Tiefen des Dschungels wagen, müssen sie sich zwischen der Standard und der Deluxe Edition entscheiden.
+
+| Feature | Standard Edition | Deluxe Edition | Details |
+|:---|:---|:---|:---|
+| **Basispreis** | 29,99 $ | 39,99 $ | Regionale Preisgestaltung gilt in den jeweiligen Stores |
+| **Launch-Rabatt** | 23,99 $ | 31,99 $ | 20 % Rabatt freigeschaltet durch 800k Steam-Wunschlisteneinträge |
+| **Basisspiel** | Enthalten | Enthalten | Zugriff auf Kernverträge, Karten und das Sanity-System |
+| **Glücksjäger** | Nein | Enthalten | Fügt 2 exklusive spielbare Entdecker-Charaktere hinzu |
+| **Abgrund-Ausrüstung** | Nein | Enthalten | Cthulhu-thematisierte Skins für Messer, Lampen und Musketen |
+| **Tempel von Yig** | Nur Host | Enthalten | Exklusive Mission; nur der Host muss sie besitzen |
+| **Soundtrack** | Nein | Enthalten | Hochwertiger digitaler Download des offiziellen Soundtracks |
+| **Verlorene Entdecker** | Launch-Bonus | Launch-Bonus | Verzierte Schwerter; einlösbar in den ersten 2 Wochen |
+
+<Callout type="tip" title="Tipp zur Edition">
+Wenn du auf dem PC mit einer festen Gruppe spielst, muss nur ein einziger Spieler die Deluxe Edition besitzen, um die exklusive Mission „Tempel von Yig“ für das gesamte Team zu hosten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PC-Systemanforderungen und Leistungsoptimierung">
+
+Um stabile Bildraten und eine klare Sicht durch den dichten, volumetrischen Nebel des verfluchten Dschungels zu gewährleisten, müssen Spieler ihre Hardware-Einstellungen optimieren. Das Spiel setzt stark auf dynamische Schatten, Vegetationsdichte und atmosphärische Beleuchtung, um seine unheimliche Lovecraft-Atmosphäre zu erzeugen.
+
+| Spezifikation | Mindestanforderung | Empfohlene Anforderung | Priorität für die Leistung |
+|:---|:---|:---|:---|
+| **Betriebssystem** | Windows 10 (64-Bit) | Windows 11 (64-Bit) | Betriebssystem und Grafiktreiber immer auf dem neuesten Stand halten |
+| **Prozessor** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Hohe CPU-Leistungsreserven verhindern Ruckler bei der Koop-Physik |
+| **Arbeitsspeicher** | 16 GB RAM | 16 GB RAM | Hintergrundanwendungen schließen, um Systemspeicher freizugeben |
+| **Grafikkarte** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | VRAM ist entscheidend für das Rendern hochauflösender Vegetation |
+| **DirectX** | Version 12 | Version 12 | Ältere Grafik-APIs werden nicht unterstützt |
+| **DLSS 4.5** | Nicht unterstützt | Unterstützt (RTX 50-Serie) | Ermöglicht Dynamic Multi Frame Generation |
+
+<Callout type="warning" title="Leistungswarnung">
+Wenn bei starkem Regen oder dichten Kampfsituationen plötzliche Bildeinbrüche auftreten, solltest du sofort den volumetrischen Nebel, die Schattenqualität und die Vegetationsdichte reduzieren. Eine hohe visuelle Klarheit zur Erkennung entfernter Bedrohungen ist wichtiger als maximale ästhetische Detailtreue.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Waffen und Ausrüstungs-Loadouts">
+
+Expeditionen bieten kein vollwertiges persönliches Arsenal für jeden Entdecker. Stattdessen stellt der Schiffskapitän gemeinsame Waffen und Werkzeuge zur Verfügung, die sorgfältig unter der Crew aufgeteilt werden müssen. Erfolgreiche Teams weisen Rollen basierend auf Waffenstärken, Nachladezeiten und Umweltbedingungen zu.
+
+<CardGrid cols={3}>
+  <Card title="Der Bogen (S-Tier)">
+    - **Leiser Kampf**: Lautlose Schüsse alarmieren den umliegenden Dschungel nicht.
+    - **Wetterbeständig**: Funktioniert auch bei schweren Regenstürmen einwandfrei.
+    - **Schnelles Nachladen**: Äußerst effizient für eine kontinuierliche Gegnerkontrolle.
+  </Card>
+  <Card title="Steinschloss-Muskete (A-Tier)">
+    - **Hohe Durchschlagskraft**: Bietet enorme Mannstoppwirkung im Notfall.
+    - **Schwarzpulver-abhängig**: Wird bei nassem Wetter völlig unbrauchbar.
+    - **Extrem laut**: Das Abfeuern alarmiert nahegelegene Untoten-Horden.
+  </Card>
+  <Card title="Öllampe (S-Tier)">
+    - **Wegweiser**: Durchdringt dichten Nebel und pechschwarze Ruinen.
+    - **Team-Anker**: Hilft der Gruppe, bei schlechter Sicht die Formation zu halten.
+    - **Anfällig**: Die Flamme kann bei starkem Platzregen flackern oder erlöschen.
+  </Card>
+</CardGrid>
+
+| Ausrüstung | Kategorie | Hauptstärke | Größte Schwäche | Empfohlene Rolle |
+|:---|:---|:---|:---|:---|
+| **Bogen** | Fernkampfwaffe | Lautlos, schnelles Nachladen, regenfest | Geringerer sofortiger Explosionsschaden | Späher / Leiser Kampf |
+| **Muskete** | Notfall-Feuerwaffe | Extremer Explosionsschaden | Laut, langsames Nachladen, versagt bei Regen | Schwere Infanterie / Wache |
+| **Messer** | Nahkampf-Backup | Unendlich Munition, völlig lautlos | Erfordert gefährliche Nähe zum Ziel | Rückfallebene für jeden Entdecker |
+| **Öllampe** | Sichtwerkzeug | Enthüllt Pfade, hält das Team zusammen | Macht den Träger zum Ziel | Navigator / Unterstützung |
+| **Medaillon** | Schatzwerkzeug | Lokalisiert wertvolles Tulu-Metall | Das Anschlagen erzeugt einen lauten metallischen Klang | Schatzsucher |
+
+<Callout type="success" title="Loadout-Strategie">
+Stellt immer sicher, dass euer Team mindestens zwei regenfeste Waffen (wie Bögen oder Messer) aktiv hat. Wenn ein plötzlicher Sturm aufzieht und sich euer Team ausschließlich auf Schwarzpulver-Musketen verlässt, seid ihr schutzlos ausgeliefert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Einsteiger-Guide für deine erste Expedition">
+
+Jeder erfolgreiche Durchlauf folgt einer strengen Schleife: Wähle einen Vertrag, organisiere deine Ausrüstung, beschütze deinen Transport, sammle Reichtümer und entkomme, bevor der Dschungel deine geistige Gesundheit verschlingt.
+
+<Steps>
+  <Step num="1" title="Wähle einen Kapitänsvertrag">
+    Gehe an Bord der Galeone Tempestad und überprüfe die verfügbaren Verträge. Wähle ein Ziel, das dem Erfahrungsgrad deines Teams entspricht, und achte dabei besonders auf den geforderten Schatzwert.
+  </Step>
+  <Step num="2" title="Verteile die gemeinsame Ausrüstung">
+    Verteile nicht alle Schusswaffen oder Lichtquellen auf einen einzigen Spieler. Teile Hilfsmittel wie die Öllampe und das schatzsuchende Medaillon auf verschiedene Teammitglieder auf.
+  </Step>
+  <Step num="3" title="Eskortiere den Ochsenkarren">
+    Der Ochsenkarren ist dein mobiler Tresor. Lade wertvolle Relikte regelmäßig dort ab. Halte den Weg um den Karren frei von Trümmern und lass ihn niemals völlig unbeaufsichtigt.
+  </Step>
+  <Step num="4" title="Kontrolliere den Lärmpegel">
+    Rennen, das Durchtrennen von Lianen und das Abfeuern von Musketen wecken den Dschungel auf. Bewege dich langsam und nutze leise Nahkampfangriffe oder Bögen, um isolierte Wachen lautlos auszuschalten.
+  </Step>
+  <Step num="5" title="Sichere Extraktion">
+    Sobald eure Vertragsquote erfüllt ist, sprecht euch im Team ab. Es ist immer besser, frühzeitig mit einer gesicherten Beute zu entkommen, als tiefer vorzudringen, den Verstand zu verlieren und ein komplettes Scheitern des Teams zu riskieren.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Logbuch-Fortschritt">
+Durchsuche verlassene Forts während deiner Durchläufe. Das Bergen von Fort-Logbüchern schaltet dauerhaft neue Startpunkte auf der Karte frei, was deine Reisezeiten bei zukünftigen Expeditionen verkürzt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Geistige Gesundheit, Halluzinationen und Realitätsprüfung">
+
+Es gibt keine sichtbare Anzeige für die geistige Gesundheit oder ein HUD-Element im Spiel. Stattdessen äußert sich der psychologische Verfall in privaten, lokalen Halluzinationen. Was du siehst und hörst, kann sich völlig von dem unterscheiden, was deine Teammitglieder erleben.
+
+<Checklist
+  id="sanity-verification"
+  title="Checkliste zur Realitätsprüfung im Team:"
+  items={[
+    "Verifiziere entfernte Hornsignale verbal, bevor du dich auf sie zubewegst.",
+    "Bestätige leuchtende Augensilhouetten mit Teammitgliedern, bevor du eine Waffe abfeuerst.",
+    "Bitte Partner, verdächtige Geländeänderungen oder plötzlichen Blutregen abzugleichen.",
+    "Bleibe in Reichweite des räumlichen Sprachchats, um eine stabile Kommunikation zu gewährleisten.",
+    "Bestimme den Spieler mit der klarsten Sicht, um die Gruppe anzuführen."
+  ]}
+/>
+
+<Callout type="warning" title="Gefahr von Eigenbeschuss">
+Schwerer Wahnsinn kann dazu führen, dass freundliche Teammitglieder wie schreckliche, untote Monster aussehen. Schieße niemals auf eine humanoide Silhouette im Nebel, ohne vorher eine verbale Bestätigung ihrer Position über den räumlichen Sprachchat erhalten zu haben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Gibt es Crossplay für die PC-Version von The Mound Omen of Cthulhu?",
+    answer: "Ja, die PC-Version unterstützt volles plattformübergreifendes Koop-Spiel mit Spielern auf PlayStation 5 und Xbox Series X|S. Xbox Play Anywhere ermöglicht zudem nahtloses Cross-Save zwischen PC und Xbox-Konsolen."
+  },
+  {
+    question: "Kann ich das Spiel komplett alleine spielen?",
+    answer: "Ja, es gibt einen eigenen Einzelspielermodus. Allerdings müssen Solospieler ein sehr ausgewogenes Loadout mitführen, da es keine Teammitglieder gibt, die den Ochsenkarren beschützen oder visuelle Halluzinationen überprüfen können."
+  },
+  {
+    question: "Was passiert, wenn ein Entdecker während einer Expedition stirbt?",
+    answer: "Gefallene Entdecker müssen schnellstmöglich wiederbelebt werden. Werden sie unbeaufsichtigt gelassen, reanimieren ihre Körper irgendwann als Verderbte Entdecker und jagen als feindliche Kreaturen das überlebende Team."
+  },
+  {
+    question: "Wie verhindert man, dass eine Y'm-bhi-Wache wiederaufersteht?",
+    answer: "Standardmäßige physische Angriffe können sie oft nur vorübergehend zu Boden werfen. Nutze ein Kruzifix, um ihren Stresspegel abzulesen, setze helle Lichtquellen ein, um sie zu blenden, und vermeide es, ihren Selbstentzündungsangriff auszulösen."
+  }
+]} />
+
+</Section>

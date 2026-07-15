@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de The Mound: Omen of Cthulhu - Lista de Melhores Equipamentos",
+  description: "Domine as melhores armas e equipamentos de The Mound: Omen of Cthulhu. Saiba quais armas de fogo, arcos e ferramentas sobrevivem à loucura da selva e à chuva neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/33C1A0?text=Weapons+and+Loadouts",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, armas, melhores equipamentos, tier list, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As armas de The Mound: Omen of Cthulhu** operam com mecânicas do século XVII, onde a chuva e o barulho são seus principais inimigos.
+- **Escolhas de Nível S** como o Arco e a Lâmpada de Óleo são essenciais para furtividade e navegação durante expedições de alta loucura.
+- **Armas de fogo** fornecem um poder de parada massivo, mas são barulhentas e falham completamente durante tempestades tropicais devido à pólvora molhada.
+- **A distribuição na equipe** é obrigatória; nunca concentre todas as armas de fogo ou todas as fontes de luz em um único explorador para evitar a eliminação de todo o esquadrão.
+- **A sanidade afeta** a escolha das armas, pois alucinações podem fazer você desperdiçar munição limitada em ameaças inexistentes.
+</Callout>
+
+<Section icon={Swords} title="Lista de Níveis de Armas e Rankings do Meta">
+
+Nas selvas amaldiçoadas da expedição, sua escolha de **armas de The Mound: Omen of Cthulhu** determina se você retornará com tesouros ou se tornará parte do bestiário de mortos-vivos. Ao contrário dos jogos de tiro modernos, este jogo utiliza armamentos realistas da época, onde as velocidades de recarga são medidas em segundos e fatores ambientais como o clima podem inutilizar sua defesa principal.
+
+O meta atual prioriza o silêncio e a confiabilidade em detrimento do dano bruto. Como a selva reage ao barulho, disparar um mosquete pode atrair um bando de sentinelas Y'm-bhi, transformando uma simples recuperação de tesouro em uma última defesa desesperada. Abaixo está a classificação definitiva de todos os armamentos atualmente disponíveis para o lançamento em 15 de julho de 2026.
+
+| Nível | Nome da Arma | Categoria | Força Principal |
+| :--- | :--- | :--- | :--- |
+| **S** | **Arco** | À Distância Silencioso | Funciona na chuva, recarga rápida, silencioso |
+| **S** | **Lâmpada de Óleo** | Utilitário | Essencial para navegação/visibilidade |
+| **A** | **Mosquete de Pederneira** | Arma de Fogo | Dano alto, confiável em clima seco |
+| **A** | **Faca** | Corpo a Corpo | Munição infinita, golpe de misericórdia silencioso |
+| **A** | **Medalhão** | Utilitário | Localiza metal Tulu, alto risco de barulho |
+| **B** | **Mosquete de Mecha** | Arma de Fogo | Impacto muito alto, velocidade de recarga muito lenta |
+| **B** | **Espada de Explorador Perdido** | Corpo a Corpo | Bom alcance, requer tempo preciso |
+
+<Callout type="tip" title="Dica de Profissional: O Fator Chuva">
+Sempre verifique o céu antes de entrar em combate. Se uma tempestade tropical começar, seus Mosquetes (de Mecha e Pederneira) têm uma alta chance de falhar. O Arco é sua única opção confiável de longo alcance durante chuvas fortes.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="O Arco (Nível S)">
+    A arma mais versátil para batedores. Ignora penalidades climáticas e permite eliminações furtivas de andarilhos mortos-vivos sem alertar todo o setor.
+  </Card>
+  <Card title="Mosquete de Pederneira (Nível A)">
+    O padrão de ouro para defesa de emergência. Embora barulhento, seu poder de parada pode atordoar monstros maiores, dando tempo para o esquadrão se reagrupar ou recuar.
+  </Card>
+  <Card title="Lâmpada de Óleo (Nível S)">
+    Tecnicamente uma ferramenta, mas funciona como uma arma contra a escuridão. Sem ela, seu esquadrão sucumbirá à loucura e às armadilhas ambientais em poucos minutos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Análise das Armas de Fogo: Mosquetes e Pólvora">
+
+As armas de fogo na expedição são ferramentas de alto risco e alta recompensa. O sistema de **armas de The Mound: Omen of Cthulhu** enfatiza a natureza de \"tiro único\" do combate do século XVII. Uma vez que você dispara, fica vulnerável por vários segundos enquanto realiza uma complexa animação de recarga.
+
+A distinção entre o Mosquete de Mecha e o de Pederneira é crítica para a sobrevivência. Os de Mecha exigem uma corda acesa, tornando-os difíceis de usar em ambientes úmidos, enquanto os de Pederneira usam uma pedra de sílex para inflamar a pólvora de escorva, oferecendo uma confiabilidade um pouco melhor, mas ainda falhando em temporais.
+
+| Característica | Mosquete de Pederneira | Mosquete de Mecha |
+| :--- | :--- | :--- |
+| **Dano** | Muito Alto | Extremo |
+| **Velocidade de Recarga** | Moderada (8-10s) | Lenta (12-15s) |
+| **Nível de Ruído** | Extremo | Extremo |
+| **Resistência à Chuva** | Baixa | Nenhuma |
+| **Melhor Uso** | Inimigos elites | Encontros com chefes |
+
+<Callout type="warning" title="Conservação de Munição">
+A munição e a pólvora são recursos compartilhados fornecidos pelo Capitão. Não desperdice tiros em silhuetas no nevoeiro; verifique o alvo com seu esquadrão primeiro para garantir que você não está atirando em uma alucinação.
+</Callout>
+
+As armas de fogo também desempenham um papel psicológico. O estrondo alto de um mosquete pode ser usado como um sinal para companheiros de equipe distantes, mas simultaneamente \"desperta\" a selva. À medida que os níveis de ruído aumentam, o ambiente muda para o estado de \"Lua Vermelha\", aumentando a agressividade e a taxa de surgimento de ameaças próximas.
+
+</Section>
+
+<Section icon={Shield} title="Armas Silenciosas e Sobrevivência Corpo a Corpo">
+
+Quando a pólvora está molhada ou o esquadrão precisa se mover sem ser detectado, as **armas silenciosas de The Mound: Omen of Cthulhu** tornam-se a prioridade. O Arco é a única arma que fornece dano consistente à distância sem elevar o nível de ameaça da selva. Ele requer habilidade para calcular a trajetória dos projéteis e compensar a queda, mas um tiro na cabeça em uma sentinela Y'm-bhi é uma morte instantânea e silenciosa.
+
+Armas corpo a corpo como a Faca e as diversas Espadas (incluindo as Espadas dos Exploradores Perdidos do bônus de lançamento) são sua última linha de defesa. Elas não exigem munição e funcionam perfeitamente em qualquer condição climática.
+
+| Arma | Alcance | Velocidade | Propriedade Especial |
+| :--- | :--- | :--- | :--- |
+| **Faca** | Curto | Muito Rápida | Pode ser usada enquanto segura uma Lâmpada |
+| **Espada Curta** | Médio | Rápida | Balanceada para bloqueios defensivos |
+| **Espada Adornada** | Médio | Moderada | Maior chance de atordoar ao atingir |
+| **Facão** | Médio | Moderada | Usado para cortar vegetação densa |
+
+<Callout type="success" title="Bônus da Edição Deluxe">
+Se você possui a Edição Deluxe, tem acesso ao Pacote de Equipamento Abissal. Isso fornece skins temáticas de Cthulhu para sua Faca e Mosquetes. Embora sejam puramente cosméticos, esses itens ajudam a distinguir exploradores veteranos no modo cooperativo de 4 jogadores.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Equipamentos Utilitários e Ferramentas de Expedição">
+
+Sobrevivência é mais do que apenas matar monstros. Equipamentos utilitários especializados permitem que o esquadrão localize tesouros e mantenha a sanidade. O Medalhão de Encontrar Tesouros é talvez o item mais controverso. Ele emite um estalo metálico alto que ressoa em direção ao metal Tulu (saques de alto valor).
+
+**Principais Itens Utilitários:**
+- **Lâmpada de Óleo:** Fornece um raio de segurança contra as sombras.
+- **Medalhão de Tesouro:** Essencial para completar contratos de alto valor rapidamente.
+- **Crucifixo:** Usado para ler os níveis de estresse das sentinelas Y'm-bhi.
+- **Carroça de Bois:** Não é uma arma, mas funciona como seu arsenal móvel e armazenamento de saques.
+
+<Steps>
+  <Step num="1" title="Equipar o Navegador">
+    O navegador deve carregar a Lâmpada de Óleo e uma Espada Curta. O trabalho dele é ficar na frente e identificar caminhos seguros através do nevoeiro.
+  </Step>
+  <Step num="2" title="Designar o Atirador de Elite">
+    Um jogador deve carregar o Mosquete de Mecha. Ele deve ficar perto da Carroça de Bois e disparar apenas quando uma grande ameaça for confirmada pelo Batedor.
+  </Step>
+  <Step num="3" title="Posicionar o Batedor">
+    O batedor usa o Arco e o Medalhão. Ele se move um pouco à frente do grupo para sinalizar locais de tesouro e eliminar inimigos isolados silenciosamente.
+  </Step>
+  <Step num="4" title="O Guarda de Suporte">
+    O último jogador carrega um Mosquete de Pederneira e suprimentos extras. Ele é responsável por proteger a Carroça de Bois enquanto os outros vasculham as ruínas.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gerenciamento do Medalhão">
+Use o Medalhão de Encontrar Tesouros apenas quando seu esquadrão estiver reunido e pronto para o combate. O barulho que ele faz funciona como um sino de jantar para todos os andarilhos mortos-vivos num raio de 50 metros.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação para Preparação da Expedição">
+
+Antes de deixar o galeão Tempestad, toda a tripulação deve verificar seus equipamentos. No gerenciamento de **armas de The Mound: Omen of Cthulhu**, esquecer uma única fonte de luz ou confiar demais na pólvora pode levar à eliminação total do grupo durante a fase de extração.
+
+<Checklist
+  id="expedition-prep"
+  title="Verificação de Equipamentos Pré-Partida:"
+  items={[
+    "Pelo menos dois jogadores têm armas à prova de chuva (Arcos/Facas)",
+    "A Lâmpada de Óleo está atribuída a um jogador com alta sobrevivência",
+    "A munição está dividida entre todos os usuários de armas de fogo",
+    "O Navegador identificou a localização do primeiro diário de bordo do Forte",
+    "Todos os jogadores confirmaram que o chat de voz está funcionando para testes de realidade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Armas e Mecânicas de Combate">
+
+<FAQ items={[
+  {
+    question: "As armas quebram ou se desgastam com o tempo?",
+    answer: "Não, as armas não possuem um sistema de durabilidade. No entanto, sua eficácia é limitada pela munição, pólvora e condições ambientais como a chuva."
+  },
+  {
+    question: "Posso carregar um Mosquete e um Arco ao mesmo tempo?",
+    answer: "O Capitão fornece espaços limitados de equipamento por explorador. Embora você possa carregar várias armas, isso muitas vezes o deixará sem itens utilitários essenciais, como a Lâmpada ou o Medalhão."
+  },
+  {
+    question: "Como faço para evitar que minha arma falhe na chuva?",
+    answer: "Você não pode evitar uma falha de disparo quando já está chovendo. A melhor estratégia é mudar para sua arma corpo a corpo ou Arco até que a tempestade passe ou você encontre abrigo em uma ruína de pedra."
+  },
+  {
+    question: "O Pacote de Equipamento Abissal altera os atributos das armas?",
+    answer: "Não, os itens do Pacote de Equipamento Abissal são apenas skins cosméticas para a faca, lâmpada e mosquetes. Eles não oferecem nenhuma vantagem de combate em relação às versões padrão."
+  }
+]} />
+
+<Callout type="info" title="Resumo Final">
+O sucesso na selva exige uma abordagem equilibrada para as **armas de The Mound: Omen of Cthulhu**. Use o Arco em 90% dos seus encontros para manter a selva silenciosa e guarde seus Mosquetes para os momentos em que a loucura transformar seus companheiros de equipe em silhuetas e os monstros ficarem grandes demais para serem ignorados.
+</Callout>
+
+</Section>

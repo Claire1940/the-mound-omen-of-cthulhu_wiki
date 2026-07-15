@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "the mound omen of cthulhu demo multiplayer: Co-op Setup Guide",
+  description: "Master the mound omen of cthulhu demo multiplayer with our guide on co-op roles, crossplay settings, sanity management, and extraction tactics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2e2a/ffffff?text=Multiplayer+Tactics+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **the mound omen of cthulhu demo multiplayer** supports up to **four players** in online co-op, with full crossplay between PC and consoles.
+- **Team Roles** are essential; distribute the Bow, Oil Lamp, and Treasure Medallion across the squad to ensure survival.
+- **Sanity Mechanics** mean teammates may appear as monsters; always use **spatial voice chat** to verify identities before firing.
+- **Extraction Success** depends on the Ox Cart; keep it protected and loaded with treasure to satisfy the Captain's Contract.
+- **Noise Control** is the primary stealth mechanic; running or firing muskets attracts the "Living Jungle" and physical threats.
+</Callout>
+
+<Section icon={Map} title="Multiplayer Overview and Connection Setup">
+
+The core experience of **the mound omen of cthulhu demo multiplayer** revolves around high-stakes extraction where communication is your only shield against madness. Released on July 15, 2026, the game emphasizes that you are not a superhero squad but a group of vulnerable explorers. Whether you are playing the demo or the full release, understanding how to host and join sessions is the first step toward surviving the cursed jungle.
+
+**Video Highlights:**
+- Overview of the 4-player co-op expedition loop.
+- Demonstration of the spatial voice chat and how it distorts with distance.
+- Visual guide to the "Living Jungle" reacting to squad noise.
+- First look at the Ox Cart escort and treasure loading mechanics.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+To begin a session, players must gather aboard the *Tempestad* galleon. This hub serves as the staging area where you select contracts and divide the limited equipment provided by the Captain. Unlike traditional shooters, you do not start with a full kit; the team must decide who carries the light and who carries the steel.
+
+| Feature | Support Status | Practical Application |
+| :--- | :--- | :--- |
+| **Player Count** | 1-4 Players | Best played with a full squad of 4 to cover all utility roles. |
+| **Crossplay** | PC / PS5 / Xbox | Enabled by default; use Nacon account or platform IDs to invite. |
+| **Voice Chat** | Spatial Audio | Mandatory for reality-checks; volume drops as you move away. |
+| **Progression** | Host-Based | Contract progress saves to the host, but loot benefits all. |
+
+<Callout type="tip" title="Squad Size Recommendation">
+While solo play is possible, the game is balanced for 2-4 players. In a full squad, you can dedicate one person entirely to navigation and lighting, which significantly reduces the stress on the combatants.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Team Roles and Loadout Distribution">
+
+Success in **the mound omen of cthulhu demo multiplayer** requires a strict division of labor. Because resources like gunpowder are limited and weather-dependent, a team of four musketeers will likely fail during the first tropical storm. You must balance "Quiet Combat" with "Emergency Firepower."
+
+The Captain supplies shared weapons. Before departing the galleon, assign these roles to prevent a squad wipe:
+
+| Role | Primary Gear | Responsibility |
+| :--- | :--- | :--- |
+| **The Scout** | Bow / Knife | Silent takedowns, clearing vegetation, and leading the path. |
+| **The Sentry** | Flintlock / Sword | Protecting the Ox Cart and handling high-threat monsters. |
+| **The Navigator** | Oil Lamp / Map | Maintaining visibility and tracking the extraction route. |
+| **The Hunter** | Medallion / Bow | Locating Tulu-metal treasures and gathering food/water. |
+
+<CardGrid cols={2}>
+  <Card title="The Stealth Approach">
+    - Use the **Bow** as your primary ranged tool.
+    - It functions in heavy rain and produces minimal noise.
+    - Ideal for picking off Undead Wanderers without alerting the jungle.
+  </Card>
+  <Card title="The Heavy Response">
+    - Save the **Matchlock Musket** for "Y'm-bhi Sentries."
+    - Be aware that one shot can trigger an "active jungle" state.
+    - Always have a **Knife** as a backup for when gunpowder gets wet.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Weapon Failure">
+Period firearms in this game are highly realistic. If it starts raining (Blood Rain or normal), your flintlock and matchlock weapons have a high chance of misfiring. Always ensure at least two squad members are using bows or melee weapons.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Expedition Steps: The Extraction Loop">
+
+Every multiplayer expedition follows a specific sequence. Deviating from this loop—usually due to greed—is the most common cause of failure in **the mound omen of cthulhu demo multiplayer**.
+
+<Steps>
+  <Step num="1" title="Select a Captain's Contract">
+    Aboard the ship, choose a contract based on your team's skill. Some require specific relics, while others just need a total treasure value. Read the requirements carefully; if you return without the quota, you gain no progression.
+  </Step>
+  <Step num="2" title="The Shoreline Deployment">
+    Upon landing, the Ox Cart is deployed. This cart is your mobile inventory. It stores your treasure, spare ammunition, and food. One player should always stay within 10 meters of the cart to ensure it keeps moving.
+  </Step>
+  <Step num="3" title="Noise and Light Management">
+    As you move into the jungle, walk instead of running. Use the Oil Lamp sparingly in open areas to avoid being spotted from a distance, but keep it bright in ruins to spot floor traps and hidden Y'm-bhi.
+  </Step>
+  <Step num="4" title="Treasure Loading and Tulu-Metal">
+    When you find treasure, don't carry it in your hands for long. It slows you down and prevents weapon use. Move it to the Ox Cart immediately. Use the Medallion to ping for high-value Tulu-metal, but remember the ping is audible to enemies.
+  </Step>
+  <Step num="5" title="The Extraction Decision">
+    Once the contract is met, the environment will likely be "Red" or "Corrupted" due to your presence. Decide as a team: do you push for bonus loot or head back? In multiplayer, if one person dies, they can return as a "Corrupted Explorer" to hunt you.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fort Progression">
+Look for abandoned forts on the map. Recovering logbooks from these locations unlocks new starting points for future expeditions, allowing your team to skip the easier shoreline areas and go straight for high-value targets.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sanity Management and Hallucinations">
+
+The most innovative feature of **the mound omen of cthulhu demo multiplayer** is the individual sanity system. Unlike other horror games, there is no sanity bar. Instead, the game uses "Perception Distortion" where two players looking at the same spot may see different things.
+
+This system is designed to break down team trust. When your sanity drops, the following hallucinations may occur:
+
+<CardGrid cols={3}>
+  <Card title="Visual Distortion">
+    - **Blood Rain**: The sky turns red and the ground bleeds.
+    - **False Silhouettes**: You see a teammate standing in the fog, but the real player is behind you.
+    - **Shifting Terrain**: Paths appear open but lead into traps.
+  </Card>
+  <Card title="Auditory Deception">
+    - **False Horns**: You hear the extraction horn from the wrong direction.
+    - **Phantom Voices**: You hear a teammate calling for help through spatial chat when they are silent.
+    - **Enemy Whispers**: Undead sounds appear closer than they are.
+  </Card>
+  <Card title="Identity Crisis">
+    - **Monster Masks**: Your teammates' character models transform into monsters.
+    - **Panic Firing**: Players often shoot their friends because they look like Y'm-bhi.
+    - **Verification**: Always ask "Is that you?" before shooting into fog.
+  </Card>
+</CardGrid>
+
+| Hallucination | Squad Response Protocol |
+| :--- | :--- | :--- |
+| **Teammate as Monster** | Use a pre-agreed voice "call-and-response" to verify. |
+| **False Extraction Horn** | Check the physical location of the Ox Cart before moving. |
+| **Bleeding Jungle** | Let the player with the highest visibility (Lamp carrier) lead. |
+| **Ghost Silhouettes** | Do not chase figures into the fog alone; stay in voice range. |
+
+<Callout type="info" title="Reality Check Tip">
+If you suspect you are hallucinating, stand still and look at a teammate. If they aren't reacting to the "threat" you see, it’s likely in your head. Use the spatial voice chat to describe exactly what you see to confirm with the group.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="System Requirements and Multiplayer Performance">
+
+To ensure a smooth experience in **the mound omen of cthulhu demo multiplayer**, especially during chaotic 4-player combat with volumetric fog, your PC needs to meet specific targets. The game utilizes DLSS 4.5 for RTX 50 series users to maintain clarity in the dense jungle.
+
+<Checklist
+  id="pc-readiness"
+  title="Multiplayer Optimization Checklist:"
+  items={[
+    "Ensure 16 GB of RAM is available to handle 4-player sync.",
+    "Update to DirectX 12 (required for the sanity shader effects).",
+    "Set 'Foliage Density' to Medium if experiencing frame drops in the jungle.",
+    "Enable 'Spatial Audio' in settings to properly track teammate voices.",
+    "Verify NAT type is 'Open' or 'Moderate' for P2P hosting stability."
+  ]}
+/>
+
+| Category | Minimum Requirement | Recommended (for 4K/60) |
+| :--- | :--- | :--- |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| **GPU** | GTX 1660 SUPER (6GB) | RTX 3070 / RX 6750 XT |
+| **RAM** | 16 GB | 16 GB |
+| **Storage** | SSD Highly Recommended | NVMe SSD |
+
+<Callout type="tip" title="Network Stability">
+If the host has a poor connection, the Ox Cart may "rubberband" or hallucinations may trigger incorrectly. We recommend the player with the strongest upload speed and wired Ethernet connection acts as the lobby host.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there cross-progression between the demo and full game?",
+    answer: "Yes, most cosmetic unlocks and 'Fort Logbook' progress from the mound omen of cthulhu demo multiplayer carry over to the full version if you use the same Nacon account."
+  },
+  {
+    question: "What happens if a teammate dies during an expedition?",
+    answer: "If they aren't revived quickly, they may respawn as a 'Corrupted Explorer.' This is an AI-controlled hostile that uses the player's former gear to hunt the remaining squad."
+  },
+  {
+    question: "Can I play multiplayer with only two people?",
+    answer: "Absolutely. The game scales the number of enemies and the treasure requirement based on the squad size, though having fewer people makes roles like the 'Lamp Carrier' much more dangerous."
+  },
+  {
+    question: "How does the spatial voice chat work with hallucinations?",
+    answer: "The game can 'throw' voices. You might hear a teammate's voice coming from a bush where they aren't standing. Always use visual confirmation alongside audio."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Coop em The Mound Omen of Cthulhu: Guia de Sobrevivência de Esquadrão",
+  description: "Domine as mecânicas cooperativas para 4 jogadores em The Mound: Omen of Cthulhu. Aprenda funções de esquadrão, protocolos de comunicação e gerenciamento de sanidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Co-op+Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de the mound omen of cthulhu",
+  keywords: "coop, guia de sobrevivência, multijogador, crossplay, sanidade, tulu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Primário**: Dominar os sistemas de **coop de the mound omen of cthulhu** para sobreviver a expedições em selvas amaldiçoadas.
+- **Tamanho do Esquadrão**: Suporta de **1 a 4 jogadores** com jogo cooperativo multiplataforma.
+- **Mecânica Chave**: O chat de voz espacial altera o volume e a direção com base na sua distância física.
+- **Regra de Sobrevivência**: Mantenha comunicação rigorosa para verificar identidades de companheiros e gerenciar a sanidade compartilhada.
+- **Melhor Prática**: Divida ferramentas essenciais entre a equipe em vez de sobrecarregar um único explorador.
+</Callout>
+
+<Section icon={Shield} title="Sistemas Coop e Visão Geral de Crossplay">
+
+O ciclo central do **coop de the mound omen of cthulhu** exige coordenação absoluta entre a tripulação da sua expedição. Ao entrar nas selvas amaldiçoadas da ilha, os jogadores devem trabalhar juntos para proteger seu carro de bois compartilhado, recuperar o valioso metal Tulu e garantir a extração de volta ao galeão Tempestad. O jogo apresenta multijogador multiplataforma completo, permitindo que exploradores no PC, PlayStation 5 e Xbox Series X|S formem esquadrões unificados.
+
+| Recurso | Suporte de Plataforma | Aplicação Prática |
+|:---|:---|:---|
+| **Crossplay** | PC, PS5, Xbox Series X|S | Forme esquadrões em todos os sistemas usando códigos de lobby no jogo. |
+| **Tamanho do Esquadrão** | 1 a 4 Jogadores | Dimensione a dificuldade de desafios solo para expedições completas de quatro jogadores. |
+| **Chat de Voz** | Áudio Espacializado | O volume da comunicação diminui e muda de direção com base na distância. |
+| **Progressão** | Contratos Compartilhados | Contratos de capitão concluídos avançam a reputação de todo o grupo. |
+
+O áudio espacial não é apenas um recurso cosmético; é uma mecânica de sobrevivência crítica. Se um companheiro de equipe se afastar demais na névoa densa da selva, sua voz desaparecerá, deixando-o isolado e altamente vulnerável aos horrores psicológicos da ilha.
+
+<Callout type="warning" title="Aviso de Distância">
+Nunca deixe um explorador vagar fora do alcance da voz espacial. Jogadores separados não podem verificar alucinações, tornando-se um fardo para si mesmos e para o restante do esquadrão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Funções de Esquadrão e Distribuição de Equipamentos">
+
+O sucesso no **coop de the mound omen of cthulhu** requer uma divisão clara de trabalho. O capitão a bordo do galeão não fornece um kit pessoal completo para cada explorador. Em vez disso, os recursos são limitados, forçando a tripulação a especializar seus equipamentos antes que os botes toquem a costa. 
+
+<CardGrid cols={4}>
+  <Card title="O Navegador">
+    - **Ferramenta Principal**: Bússola/Mapa
+    - Rastreia pontos de referência
+    - Localiza diários de bordo de fortes
+    - Lidera a rota de extração
+  </Card>
+  <Card title="A Vanguarda">
+    - **Ferramenta Principal**: Arco/Espada
+    - Lida com combate silencioso
+    - Limpa a vegetação do caminho
+    - Preserva munição de armas de fogo
+  </Card>
+  <Card title="O Suporte">
+    - **Ferramenta Principal**: Lâmpada a Óleo
+    - Mantém a visibilidade do grupo
+    - Identifica armadilhas ocultas
+    - Ilumina ruínas escuras
+  </Card>
+  <Card title="O Defensor do Carro">
+    - **Ferramenta Principal**: Mosquete
+    - Guarda o carro de bois
+    - Controla ameaças pesadas
+    - Gerencia o armazenamento compartilhado
+  </Card>
+</CardGrid>
+
+Ao organizar seu equipamento, equilibre utilidade silenciosa com poder de fogo de emergência. Armas de fogo padrão da época, como os mosquetes de pederneira e de mecha, são devastadoras, mas incrivelmente barulhentas, atraindo atenção indesejada da selva viva.
+
+| Equipamento | Categoria | Tempo Chuvoso | Nível de Ruído | Função Recomendada |
+|:---|:---|:---|:---|:---|
+| **Arco** | À Distância | Totalmente Funcional | Silencioso | Vanguarda / Batedor |
+| **Pederneira** | Arma de Fogo | Falha na Chuva | Extremamente Alto | Defensor do Carro |
+| **Mecha** | Arma de Fogo | Falha na Chuva | Extremamente Alto | Combate Pesado |
+| **Faca** | Corpo a Corpo | Totalmente Funcional | Silencioso | Todos (Reserva) |
+| **Lâmpada a Óleo** | Utilitário | Oscila na Chuva | Silencioso | Suporte / Navegador |
+
+<Callout type="tip" title="Protocolo de Chuva">
+Sempre verifique o clima antes de puxar o gatilho. Se a chuva começar, troque imediatamente seu mosquete de pederneira por um arco ou faca, pois a pólvora molhada torna as armas de fogo completamente inúteis.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Expedição Passo a Passo">
+
+Cada expedição cooperativa segue um ciclo operacional rigoroso. Desviar desta sequência ou deixar a ganância ditar suas ações levará rapidamente ao extermínio total do esquadrão.
+
+<Steps>
+  <Step num="1" title="Selecionar o Contrato do Capitão">
+    Embarque no galeão Tempestad e selecione um contrato. Revise o valor do tesouro exigido e os parâmetros do destino. Concordem como esquadrão sobre as condições exatas que desencadearão um recuo precoce.
+  </Step>
+  <Step num="2" title="Distribuir o Equipamento Compartilhado">
+    Divida armas, lâmpadas e itens utilitários. Certifique-se de que o Navegador tenha ferramentas de visibilidade clara, enquanto a Vanguarda carrega armas silenciosas como o arco para lidar com encontros de patrulha iniciais.
+  </Step>
+  <Step num="3" title="Escortar o Carro de Bois">
+    Remem até a costa e estabeleçam um perímetro ao redor do carro de bois. O carro serve como seu cofre móvel e depósito de suprimentos. Mantenha o caminho imediato livre de vegetação espessa e nunca deixe o carro completamente desacompanhado.
+  </Step>
+  <Step num="4" title="Garantir a Carga Mínima Primeiro">
+    Concentre-se inteiramente em atingir o valor base de tesouro do contrato. Deposite as relíquias recuperadas diretamente no carro. Não vagueie por ruínas opcionais de alta ameaça até que o objetivo principal esteja garantido.
+  </Step>
+  <Step num="5" title="Executar a Decisão de Extração">
+    Monitore os indicadores de escalada ambiental. Se a névoa engrossar, a vegetação vermelha pulsar ou a munição acabar, comece imediatamente o recuo para a costa para preservar sua progressão e recompensas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Progressão">
+Priorize a recuperação de diários de bordo de fortes abandonados na selva. Esses documentos desbloqueiam permanentemente novos locais de partida para expedições subsequentes, reduzindo o tempo de viagem em contratos mais difíceis.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sanidade Coop e Protocolos de Verificação">
+
+O verdadeiro inimigo no **coop de the mound omen of cthulhu** não são os monstros físicos, mas a distorção dos seus próprios sentidos. O jogo não possui barras de sanidade ou indicadores de HUD. Em vez disso, a loucura se manifesta de forma privada para cada explorador, atacando a confiança e a comunicação da equipe.
+
+| Tipo de Alucinação | Efeito Visual/Auditivo | Impacto no Esquadrão | Protocolo de Verificação |
+|:---|:---|:---|:---|
+| **Chuva de Sangue** | Tempestade vermelha localizada | Distorce visibilidade do terreno | Peça a companheiros próximos para confirmar o clima atual. |
+| **Berrante Falso** | Sinal de extração distante | Atrai jogadores para emboscadas | Confirme as coordenadas do carro antes de seguir o som. |
+| **Silhueta de Monstro** | Companheiro parece uma fera | Provoca fogo amigo | Grite a localização e espere por uma resposta de voz. |
+| **Figura Impostora** | Falso explorador na névoa | Afasta jogadores da equipe | Use o chat de voz espacial para verificar a posição do falante. |
+
+Quando a sanidade de um explorador se fragmenta, ele não pode mais confiar no que vê ou ouve. Nesses momentos, o jogador afetado deve entregar as decisões de navegação a um companheiro estável.
+
+<Callout type="warning" title="Ameaça Impostora">
+Se você avistar um companheiro de equipe parado silenciosamente na névoa que não responde ao chat de voz espacial, não se aproxime. É altamente provável que seja uma imitação baseada em percepção projetada para emboscá-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Sobrevivência Cooperativa">
+
+Use este checklist para preparar seu esquadrão antes de lançar seu próximo contrato na selva amaldiçoada.
+
+<Checklist
+  id="coop-readiness"
+  title="Checklist de Pré-Partida:"
+  items={[
+    "Confirmar que todos os jogadores entraram no lobby e o crossplay está ativado.",
+    "Designar pelo menos um usuário dedicado de arco para eliminação silenciosa de alvos.",
+    "Distribuir fontes de luz para que uma única morte não deixe o esquadrão na escuridão total.",
+    "Acordar uma frase simples de chamada e resposta para verificar identidades em névoa densa.",
+    "Estabelecer um limite rigoroso de munição que acione um recuo automático do esquadrão."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como funciona o chat de voz espacial no coop de the mound omen of cthulhu?",
+    answer: "O jogo utiliza áudio espacial baseado em proximidade. Conforme você se afasta de seus companheiros, as vozes deles ficam mais baixas e mudam de direção. Se vocês forem separados por névoa densa ou terreno, a comunicação torna-se completamente impossível, facilitando para que a loucura mimetize seus colegas."
+  },
+  {
+    question: "Podemos jogar o modo coop com apenas dois ou três jogadores?",
+    answer: "Sim, o jogo dimensiona seus desafios para esquadrões de dois, três ou quatro jogadores. Você também pode jogar completamente solo, embora deva carregar um equipamento altamente equilibrado, já que não haverá companheiros para cobrir suas costas ou proteger o carro de bois."
+  },
+  {
+    question: "O que acontece se um companheiro de equipe morrer durante uma expedição?",
+    answer: "Se um explorador for derrubado, ele deve ser revivido prontamente. Se deixado sem assistência, ele sucumbirá à corrupção e reanimará como um Explorador Corrompido hostil, que caçará ativamente os membros sobreviventes do esquadrão."
+  },
+  {
+    question: "Existe suporte a crossplay para jogadores de PC e console?",
+    answer: "Sim, o crossplay total é suportado entre PC, PlayStation 5 e Xbox Series X|S. Você pode convidar jogadores de outras plataformas usando códigos de sessão únicos gerados no lobby principal."
+  }
+]} />
+
+</Section>

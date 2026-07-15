@@ -1,0 +1,167 @@
+import { Swords, Shield, Map, Target, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armadura en The Mound Omen of Cthulhu: Mejores Equipamientos y Equipo",
+  description: "Domina las opciones de armadura en The Mound Omen of Cthulhu. Compara el equipamiento de época, los paquetes de equipo estándar vs. deluxe y sobrevive a la jungla maldita.",
+  category: "Equipo",
+  image: "https://placehold.co/800x400/101b15/5fddc0?text=Armor+and+Loadouts+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Armadura en The Mound Omen of Cthulhu**: La protección se basa en ropa de explorador adecuada para la época, posicionamiento táctico y objetos especializados, en lugar de placas de armadura de alta tecnología.
+- **Sinergia de Armas**: Combina tu equipo defensivo con armas silenciosas como el **Arco** para evitar alertar a la jungla reactiva.
+- **Cosméticos Deluxe**: El **Paquete de Equipo Abisal** y las **Espadas de Exploradores Perdidos** proporcionan temas visuales premium para tu equipo inicial.
+- **Roles de Equipo**: Distribuye el equipo defensivo, de iluminación y ofensivo de manera equitativa en tu escuadrón de cuatro jugadores para evitar la eliminación total del grupo.
+</Callout>
+
+<Section icon={Shield} title="Mecánicas de Protección y Armadura en The Mound Omen of Cthulhu">
+
+En *The Mound: Omen of Cthulhu*, la armadura moderna convencional no existe. La supervivencia en esta expedición lovecraftiana del siglo XVI depende de las vestimentas históricas de explorador, los equipamientos tácticos y la gestión de la cordura. Tu defensa física está fuertemente dictada por el peso de tu equipo, tu elección de armas cuerpo a cuerpo de repuesto y qué tan bien mitigues los peligros ambientales como el barro, la lluvia y la densa niebla.
+
+En lugar de buscar petos con altas estadísticas, los exploradores deben centrarse en la utilidad. Llevar armas de fuego pesadas como el mosquete de mecha (Matchlock Musket) ralentiza tu movimiento, convirtiéndote en un objetivo más fácil para los guardianes reanimados. Por el contrario, ir ligero con un arco y un cuchillo aumenta tu evasión y mantiene bajo tu perfil de ruido.
+
+| Tipo de Protección | Beneficio Principal | Desventaja Principal | Mejor Situación |
+| :--- | :--- | :--- | :--- |
+| **Vestimenta Ligera de Explorador** | Alta velocidad de movimiento, silencioso | Defensa física mínima | Exploración sigilosa, clima lluvioso |
+| **Equipo de Expedición Estándar** | Protección equilibrada, ranuras decentes | Generación moderada de ruido | Exploración general de la jungla |
+| **Conjunto Abisal Deluxe** | Tema cosmético premium | Solo visual, sin mejora de estadísticas | Personalización del grupo |
+
+<Callout type="warning" title="El Peso Importa">
+Los equipamientos pesados consumen tu energía (stamina) más rápido. Si te arrincona una horda de Caminantes No Muertos (Undead Wanderers), la falta de energía te impedirá escapar o trepar a un lugar seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Armas y Equipamientos de Equipo">
+
+Cada expedición que parte del galeón *Tempestad* requiere una distribución cuidadosamente planificada de armas y herramientas de supervivencia. Dado que el capitán suministra equipo compartido en lugar de kits individuales completos, tu escuadrón debe coordinar quién lleva las herramientas defensivas, quién se encarga de las eliminaciones silenciosas y quién empuña la potencia de fuego pesada.
+
+<CardGrid cols={3}>
+  <Card title="El Explorador Sigiloso">
+    - **Principal**: Arco
+    - **Secundaria**: Cuchillo
+    - **Utilidad**: Lámpara de aceite
+    - **Rol**: Elimina silenciosamente a los centinelas y guía al equipo a través de estrechos senderos en la jungla.
+  </Card>
+  <Card title="La Guardia Pesada">
+    - **Principal**: Mosquete de chispa (Flintlock Musket)
+    - **Secundaria**: Sable
+    - **Utilidad**: Bolsa de munición
+    - **Rol**: Proporciona una defensa de alto impacto contra las principales amenazas sobrenaturales y jefes.
+  </Card>
+  <Card title="El Cazador de Tesoros">
+    - **Principal**: Mosquete de mecha (Matchlock Musket)
+    - **Secundaria**: Cuchillo
+    - **Utilidad**: Medallón
+    - **Rol**: Localiza el valioso metal Tulu mientras se mantiene cerca de la línea defensiva.
+  </Card>
+</CardGrid>
+
+El clima en la jungla maldita es altamente dinámico. La lluvia humedece las mechas y arruina la pólvora suelta, inutilizando tus mosquetes. Asegúrate siempre de que al menos dos miembros del equipo lleven alternativas a prueba de lluvia.
+
+| Arma / Herramienta | Tipo de Daño | Nivel de Ruido | Uso bajo la lluvia |
+| :--- | :--- | :--- | :--- |
+| **Arco** | A distancia silencioso | Muy bajo | Excelente (No necesita pólvora) |
+| **Mosquete de chispa** | A distancia pesado | Extremadamente alto | Malo (Falla en aguaceros) |
+| **Cuchillo** | Cuerpo a cuerpo rápido | Silencioso | Perfecto (No requiere munición) |
+| **Mosquete de mecha** | A distancia sostenido | Alto | Inutilizable (La mecha se apaga) |
+
+<Callout type="tip" title="Consejo Pro">
+Nunca dispares un mosquete a menos que sea una emergencia absoluta. El sonido resuena por toda la jungla, despertando a los Centinelas Y'm-bhi cercanos y generando hordas adicionales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preparación de la Expedición Paso a Paso">
+
+Para garantizar que tu escuadrón regrese al galeón con un carro lleno de tesoros y la cordura intacta, sigue este protocolo de despliegue estándar antes de pisar la orilla.
+
+<Steps>
+  <Step num="1" title="Seleccionar el contrato del capitán">
+    Revisa los contratos disponibles a bordo del *Tempestad*. Elige un valor de tesoro objetivo o una zona de exploración que se adapte al nivel de equipo actual de tu equipo.
+  </Step>
+  <Step num="2" title="Distribuir herramientas clave">
+    No acumules todas las fuentes de luz o herramientas de detección en un solo jugador. Distribuye las lámparas de aceite y el medallón para encontrar tesoros entre diferentes exploradores.
+  </Step>
+  <Step num="3" title="Asegurar la ruta del carro de bueyes">
+    A medida que te adentres en la jungla, despeja los escombros y mantén el camino lo suficientemente ancho para el carro de bueyes. El carro es tu único almacenamiento móvil para reliquias pesadas.
+  </Step>
+  <Step num="4" title="Gestionar el umbral de cordura">
+    Observa a tus compañeros de equipo en busca de signos de locura. Si un explorador comienza a apuntar con sus armas al espacio vacío, agrúpense de inmediato y verifiquen sus objetivos a través del chat de voz.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Cohesión en Cooperativo">
+El chat de voz espacial imita la acústica del mundo real. Si te alejas demasiado de tu equipo, tu voz se desvanecerá, dejándote aislado en la aterradora niebla.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Objetivos de la Expedición">
+
+Ten en cuenta estos hitos críticos durante cada incursión para maximizar tu progresión y desbloquear nuevos puntos de partida.
+
+<Checklist
+  id="expedition-checklist"
+  title="Objetivos de Alta Prioridad:"
+  items={[
+    "Asegurar primero el valor mínimo de tesoro requerido por el contrato",
+    "Localizar y asegurar los Diarios del Fuerte para desbloquear campamentos de inicio permanentes",
+    "Adquirir reliquias de metal Tulu usando el Medallón para encontrar tesoros",
+    "Extraer antes de que la luna roja active una agresividad extrema en la jungla",
+    "Asegurarse de que todos los compañeros caídos sean revividos antes de abandonar la zona"
+  ]}
+/>
+
+<Callout type="success" title="Extracción Segura">
+Una retirada temprana con un botín parcial siempre es mejor que perder todo tu inventario por una eliminación del escuadrón al final de la partida. La codicia es la forma más rápida de fracasar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación de Equipo de la Edición Deluxe y Reserva">
+
+Para los jugadores que buscan personalizar su apariencia mientras exploran las oscuras junglas, la Edición Deluxe ofrece varios paquetes de equipo únicos. Estos artículos proporcionan estilos visuales alternativos inspirados en temas lovecraftianos y conquistadores históricos.
+
+| Paquete Cosmético | Artículos Incluidos | Tema Visual | Cómo Reclamar |
+| :--- | :--- | :--- | :--- |
+| **Paquete de Equipo Abisal** | Cuchillo, Lámpara de aceite, Mosquetes | Oscuro, con temática de Cthulhu | Equipado a través del arsenal del barco |
+| **Espadas de Exploradores Perdidos** | Dos sables ceremoniales ornamentados | Oro y plata envejecidos | Reclamar desde el menú de la tienda de Steam |
+| **Cazadores de Fortunas** | Dos aspectos de personaje exclusivos | Exploradores curtidos de la naturaleza | Seleccionable en la creación de personajes |
+
+<Callout type="info" title="Sin Pay-to-Win">
+Todas las apariencias de armadura y aspectos de armas de la Edición Deluxe son puramente cosméticos. No otorgan protección adicional, daño ni beneficios de sigilo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde me equipó la armadura y los aspectos cosméticos de The Mound: Omen of Cthulhu?",
+    answer: "Todos los conjuntos de armadura cosmética, aspectos de personaje y apariencias de armas de la Edición Deluxe o las bonificaciones de reserva se pueden personalizar en el cofre de tocador dentro de tu camarote personal en el galeón Tempestad antes de iniciar una expedición."
+  },
+  {
+    question: "¿Afecta la lluvia a mi armadura o movimiento físico?",
+    answer: "Sí. La lluvia intensa embarra el suelo, lo que aumenta significativamente el consumo de energía (stamina) al esprintar. También desactiva las armas basadas en pólvora, haciendo que las armas cuerpo a cuerpo de corto alcance o los arcos sean tu principal medio de defensa."
+  },
+  {
+    question: "¿Puedo jugar solo y necesito un equipo diferente?",
+    answer: "Sí, el juego en solitario está totalmente soportado. Al jugar solo, debes llevar un equipamiento muy equilibrado. Trae un arco para bajas silenciosas, un cuchillo para combate cuerpo a cuerpo de emergencia y una lámpara de aceite para navegar por las ruinas oscuras de forma segura, ya que no tienes compañeros de equipo que te cuiden la espalda."
+  },
+  {
+    question: "¿Qué pasa con mi equipo si muero en la jungla?",
+    answer: "Si muero y mi escuadrón no logra extraer, perderé el tesoro físico y los recursos recolectados durante esa incursión. Sin embargo, los desbloqueos permanentes, como las ubicaciones de campamentos descubiertas a través de los Diarios del Fuerte, permanecerán guardados."
+  }
+]} />
+
+</Section>

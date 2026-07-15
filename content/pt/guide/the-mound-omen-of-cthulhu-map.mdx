@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de The Mound: Omen of Cthulhu: Navegação e Localização de Fortes",
+  description: "Domine o layout da selva amaldiçoada em The Mound: Omen of Cthulhu. Descubra localizações de fortes, diários de bordo, rotas de extração e marcos que alteram a sanidade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b1d12/fff?text=Map+and+Navigation+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânicas do Mapa**: O layout da selva amaldiçoada muda visualmente com base nos níveis de sanidade coletiva do seu esquadrão.
+- **Localizações de Fortes**: Encontrar e proteger fortes abandonados desbloqueia pontos de partida permanentes para expedições futuras.
+- **Rota de Extração**: Sempre trace seu caminho de volta ao galeão Tempestad antes que sua sanidade se fragmente completamente.
+- **Caminho da Carroça de Bois**: A carroça requer caminhos largos e desimpedidos; deixá-la presa na vegetação densa atrai emboscadas.
+</Callout>
+
+<Section icon={Map} title="Estrutura do Mapa de The Mound: Omen of Cthulhu">
+
+A sobrevivência na expedição de terror cooperativo da ACE Team depende inteiramente da compreensão do layout da selva amaldiçoada. O **mapa de the mound omen of cthulhu** não é um ambiente estático; é um ecossistema reativo e em expansão onde a folhagem densa, a névoa mutável e as ruínas antigas ditam seus movimentos. Sua jornada começa na costa onde seu galeão, o Tempestad, está ancorado, e se estende até o coração sombrio da ilha onde tesouros proibidos estão escondidos.
+
+Navegar por este terreno exige coordenação constante. A selva apresenta zonas distintas, cada uma com perigos ambientais únicos, densidades de inimigos e distribuição de recursos.
+
+| Nome da Zona | Nível de Perigo | Recursos Principais | Marcos Principais |
+|---|---|---|---|
+| **A Costa** | Baixo | Madeira flutuante, suprimentos básicos, comida inicial | Local de desembarque, contato com o navio |
+| **Caminhos da Selva** | Médio | Carne, água doce, relíquias comuns | Pontos de estrangulamento estreitos, arbustos densos |
+| **Fortes Abandonados** | Alto | Diários de bordo, relíquias de alto valor, munição | Estruturas de fortes, muralhas defensivas |
+| **Ruínas Antigas** | Muito Alto | Tesouro de metal Tulu, artefatos amaldiçoados | Altares ocultos, cavernas profundas |
+
+<Callout type="warning" title="Mudança Ambiental">
+A chuva forte torna os caminhos escorregadios e torna os mosquetes de mecha e pederneira completamente inúteis. Sempre planeje sua retirada em direção a ruínas cobertas ou à costa quando tempestades se aproximarem.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Localizar e Desbloquear Fortes Abandonados">
+
+Os fortes abandonados servem como os principais marcos de progressão no mapa. Proteger essas estruturas fortificadas é essencial para a sobrevivência a longo prazo, pois elas contêm diários de bordo históricos cruciais. Recuperar esses diários permite que sua tripulação desbloqueie novos pontos de partida mais profundos para expedições subsequentes, ignorando a perigosa costa externa.
+
+| Localização do Forte | Dificuldade | Saque Principal | Requisito de Desbloqueio |
+|---|---|---|---|
+| **Posto Avançado Costeiro** | Fácil | Munição básica, mapas antigos | Eliminar mortos-vivos errantes imediatos |
+| **Bastião do Pântano** | Médio | Diário de bordo volume 1, água doce | Proteger o pátio central |
+| **Cidadela da Selva** | Difícil | Diário de bordo volume 2, metal Tulu | Derrotar o Y'm-bhi carregador de lâmpada |
+
+<CardGrid cols={3}>
+  <Card title="Localizar os Portões">
+    Procure ao longo das cristas elevadas da selva. Os fortes geralmente são cercados por paliçadas de madeira deterioradas ou muralhas de pedra desmoronando.
+  </Card>
+  <Card title="Proteger o Diário de Bordo">
+    O diário de bordo está sempre localizado nos aposentos do comandante ou na torre de menagem central. Proteja o jogador que o carrega, pois ele não pode segurar uma arma de duas mãos.
+  </Card>
+  <Card title="Estabelecer uma Posição">
+    Desbloquear o forte atualiza suas opções de mapa a bordo do galeão, permitindo que você ignore a costa em seu próximo contrato.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Defensiva">
+Use as portas estreitas dos fortes abandonados para encurralar hordas de mortos-vivos. Um único jogador com uma espada pode conter vários inimigos enquanto as armas de fogo recarregam.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégia de Navegação Passo a Passo e Escolta de Carroça">
+
+O ciclo principal de cada expedição gira em torno de proteger sua carroça de bois enquanto ela viaja pelo mapa. A carroça atua como sua base móvel, armazenando seus tesouros coletados, comida extra e armas. Se a carroça for destruída ou perdida, a expedição termina em fracasso.
+
+<Steps>
+  <Step num="1" title="Planejar a Rota no Galeão">
+    Antes de sair do navio, revise o contrato do capitão. Trace um caminho da costa até o forte ou ruína mais próximo, garantindo que o caminho seja largo o suficiente para a carroça de bois.
+  </Step>
+  <Step num="2" title="Limpar Obstáculos à Frente">
+    Envie um batedor à frente com uma arma silenciosa, como um arco. Limpe árvores caídas, arbustos densos e mortos-vivos errantes antes de mover a carroça.
+  </Step>
+  <Step num="3" title="Estabelecer Perímetros Defensivos">
+    Ao vasculhar ruínas, estacione a carroça em uma clareira defensável. Designe pelo menos um jogador para guardar a carroça enquanto os outros coletam recursos.
+  </Step>
+  <Step num="4" title="Depositar Itens Valiosos Imediatamente">
+    Não acumule tesouros em seu inventário pessoal. Transfira relíquias e metal Tulu regularmente para a carroça para manter seu peso baixo e preservar a stamina.
+  </Step>
+  <Step num="5" title="Sinalizar a Retirada">
+    Assim que o objetivo do contrato for atingido, toque a buzina da carroça para iniciar a extração de volta à costa. Certifique-se de que todos os jogadores estejam agrupados antes de se moverem.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Segurança da Carroça">
+A carroça de bois está equipada com uma lanterna que ajuda a afastar pequenas aparições espectrais. Mantenha a luz da carroça ativa ao navegar por névoas profundas e não naturais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Distorções do Mapa e Efeitos de Sanidade">
+
+O mapa em The Mound: Omen of Cthulhu é fortemente influenciado pelo estado mental do seu esquadrão. Não há barra de sanidade na tela; em vez disso, o ambiente físico muda à medida que a loucura se instala. Marcos mudarão de lugar, caminhos parecerão bloqueados e as cores da selva se transformarão em tons aterrorizantes.
+
+| Nível de Sanidade | Mudanças Visuais no Mapa | Alucinações Auditivas | Impacto na Navegação |
+|---|---|---|---|
+| **Estável** | Visibilidade clara, folhagem verde natural | Sons normais da selva, vida selvagem | Bússola confiável, marcos claros |
+| **Instável** | Chuva de sangue localizada, plantas vermelhas pulsantes | Sussurros distantes, buzinas falsas da carroça | Caminhos parecem mudar, bloqueios de terreno falsos |
+| **Fragmentado** | Névoa vermelha espessa, paredes de pedra sangrando | Gritos, chamados falsos de companheiros de equipe | Bússola gira descontroladamente, marcos desaparecem |
+
+<Callout type="warning" title="Caminhos Ilusórios">
+Quando a sanidade está fragmentada, os jogadores podem ver versões completamente diferentes do mapa. Um jogador pode ver um caminho livre, enquanto outro vê uma parede de pedra sólida. Sempre verifique as rotas usando o chat de voz espacial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e Objetivos da Expedição">
+
+Para garantir uma partida bem-sucedida e uma extração segura da selva amaldiçoada, seu esquadrão deve concluir estes marcos essenciais do mapa durante cada rodada.
+
+<Checklist
+  id="map-expedition-goals"
+  title="Objetivos de Exploração do Mapa:"
+  items={[
+    "Identificar o forte abandonado mais próximo imediatamente após o desembarque.",
+    "Limpar o caminho principal da vegetação densa para permitir o movimento da carroça.",
+    "Localizar e recuperar pelo menos um diário de bordo histórico para progressão permanente.",
+    "Marcar pontos de extração ativos no seu mapa mental antes de entrar em ruínas profundas.",
+    "Estabelecer um ponto de recuo designado em caso de mudanças repentinas no clima."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como encontro a localização exata dos fortes no mapa?",
+    answer: "Os fortes são marcados por torres de pedra em ruínas visíveis acima da copa da selva. Procure por terrenos elevados e siga os caminhos de pedra desgastados que se afastam da costa."
+  },
+  {
+    question: "O mapa de The Mound: Omen of Cthulhu muda de layout entre as partidas?",
+    answer: "A geografia geral da ilha permanece consistente, mas os nós de recursos, surgimento de inimigos, localizações dos diários de bordo dos fortes e padrões climáticos mudam dinamicamente a cada expedição."
+  },
+  {
+    question: "O que devo fazer se a bússola começar a girar descontroladamente?",
+    answer: "Uma bússola girando indica que seu personagem está sofrendo de loucura severa. Agrupe-se imediatamente com um companheiro de equipe que tenha maior sanidade e deixe-o liderar o caminho."
+  },
+  {
+    question: "Posso realizar a extração sem a carroça de bois?",
+    answer: "Não. A carroça de bois contém a maior parte do tesouro protegido necessário para cumprir o contrato do capitão. Você deve escoltar a carroça de volta à costa para concluir a missão com sucesso."
+  }
+]} />
+
+</Section>

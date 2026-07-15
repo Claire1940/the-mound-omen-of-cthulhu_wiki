@@ -1,0 +1,170 @@
+import { Users, Shield, Brain, Sword, FileText, Target, Map, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "the mound omen of cthulhu quantos jogadores: Guia de Configuração Multiplayer e Solo",
+  description: "Saiba quantos jogadores podem participar de uma expedição em the mound omen of cthulhu. Explore o jogo solo, cooperativo para 4 jogadores, crossplay e funções de equipe para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a2a2a/fff?text=Multiplayer+Setup+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de the mound omen of cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Número de Jogadores**: Suporta de **1 a 4 jogadores** em co-op online ou modo solo offline.
+- **Suporte de Plataforma**: Disponível para **PC (Steam/Epic), PlayStation 5 e Xbox Series X|S**.
+- **Ciclo Principal**: As equipes selecionam contratos, protegem um **carro de boi** e extraem tesouros de uma selva amaldiçoada.
+- **Sistema de Sanidade**: A loucura alta causa **alucinações**, fazendo com que os companheiros de equipe pareçam monstros uns para os outros.
+- **Crossplay**: Suporte confirmado entre **Xbox e PC** via Xbox Play Anywhere e Epic Games Store.
+</Callout>
+
+<Section icon={Users} title="the mound omen of cthulhu quantos jogadores: Modos e Limites">
+
+Entender **quantos jogadores podem participar** em the mound omen of cthulhu é essencial para planejar sua primeira expedição na selva amaldiçoada. Desenvolvido pela ACE Team e publicado pela Nacon, este jogo de terror de extração Lovecraftiano foi projetado em torno de um sistema de esquadrão flexível. Quer você prefira o isolamento de uma experiência de sobrevivência solo ou a coordenação caótica de uma equipe completa de quatro pessoas, o jogo escala seus desafios de acordo.
+
+O jogo suporta oficialmente de **1 a 4 jogadores**. Ao contrário de muitos shooters de extração tradicionais que forçam os jogadores a tamanhos de fila específicos, este título permite que você entre na selva com qualquer número de companheiros de equipe até o limite. Essa flexibilidade é vital porque a dificuldade do jogo depende fortemente do gerenciamento de recursos, controle de ruído e estabilidade psicológica, em vez de apenas poder de combate bruto.
+
+| Recurso | Jogo Solo | Co-op de 2-4 Jogadores |
+| :--- | :--- | :--- |
+| **Mecânica de Reanimação** | Sem colegas para ajudar | Possível se não estiver corrompido |
+| **Divisão de Recursos** | Você guarda tudo | Compartilhado entre o esquadrão |
+| **Testes de Sanidade** | Alto risco de fratura total | Colegas podem verificar a realidade |
+| **Proteção do Carro** | Extremamente difícil | Defensor dedicado é possível |
+| **Escalonamento de Dificuldade** | Densidade de inimigos reduzida | Escalonamento dinâmico baseado na contagem |
+
+<Callout type="success" title="Dica de Sinergia de Esquadrão">
+Embora o jogo solo seja possível, uma **equipe de 3 ou 4 jogadores** é altamente recomendada para iniciantes. Ter mãos extras permite que uma pessoa se concentre inteiramente no carro de boi enquanto os outros buscam tesouros e gerenciam as ameaças da selva.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Funções Co-op e Responsabilidades da Equipe">
+
+Em uma expedição de quatro jogadores, o sucesso depende da divisão do trabalho. A selva reage a cada som e movimento, o que significa que um grupo desorganizado atrairá rapidamente a "Selva Viva" ou os "Errantes Mortos-Vivos". Atribuir funções antes de deixar o galeão *Tempestad* garante que ferramentas críticas, como a lanterna a óleo e o medalhão detector de tesouros, sejam distribuídas de forma eficaz.
+
+<CardGrid cols={2}>
+  <Card title="O Navegador">
+    - **Ferramenta Principal**: Diários de bordo do forte e mapas.
+    - **Dever**: Lidera o grupo aos pontos de extração e fortes abandonados.
+    - **Foco**: Rastrear a rota de volta ao navio e evitar becos sem saída.
+  </Card>
+  <Card title="O Defensor do Carro">
+    - **Ferramenta Principal**: Armas de fogo pesadas (Mecha/Pederneira).
+    - **Dever**: Permanece ao alcance do carro de boi em todos os momentos.
+    - **Foco**: Proteger o tesouro do contrato contra ameaças físicas.
+  </Card>
+  <Card title="O Batedor">
+    - **Ferramenta Principal**: Arco e facas silenciosas.
+    - **Dever**: Limpa a vegetação e elimina sentinelas silenciosamente.
+    - **Foco**: Manter a furtividade para evitar que a selva escale a ameaça.
+  </Card>
+  <Card title="O Especialista em Utilitários">
+    - **Ferramenta Principal**: Lanterna a óleo e medalhão de tesouro.
+    - **Dever**: Gerencia a visibilidade e identifica o metal Tulu de alto valor.
+    - **Foco**: Maximizar o valor do saque enquanto mantém a coesão da equipe.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="A Comunicação é a Chave">
+O jogo utiliza **chat de voz espacial**. Se você se afastar demais de seus companheiros de equipe, as vozes deles desaparecerão ou mudarão de direção. Esta é uma mecânica deliberada projetada para aumentar a tensão quando a névoa se intensifica.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="O Impacto da Sanidade no Multiplayer">
+
+O aspecto mais único da experiência multiplayer é o Sistema de Sanidade. À medida que os jogadores passam tempo na selva, sua percepção da realidade começa a se fragmentar. Crucialmente, essas alucinações são **privadas**. Um jogador pode ver um companheiro de equipe como um monstro, enquanto outro vê a selva sangrando. Isso cria um "pesadelo de confiança" onde os jogadores devem usar o chat de voz para verificar o que é real.
+
+| Tipo de Alucinação | Efeito no Multiplayer | Contramedida |
+| :--- | :--- | :--- |
+| **Falsos Companheiros** | Ver um 5º jogador na névoa | Use verificações de voz "Chamada e Resposta" |
+| **Deslocamento de Monstro** | Colegas parecem mortos-vivos | Verifique a posição antes de atirar |
+| **Falsos Chamados de Trompa** | Ouvir o carro no lugar errado | Verifique a localização do carro com o Navegador |
+| **Chuva de Sangue** | Distorção visual e tom avermelhado | Agrupar e esperar o "evento" passar |
+
+<Callout type="warning" title="Aviso de Fogo Amigo">
+A loucura severa pode fazer com que o modelo do personagem de um companheiro de equipe se transforme em uma criatura hostil. Antes de disparar sua pederneira contra um "monstro", sempre confirme a identidade dele através do chat de voz espacial. Um único tiro de pânico pode levar à aniquilação do esquadrão.
+</Callout>
+
+</Section>
+
+<Section icon={Sword} title="Distribuição de Armas e Loadouts">
+
+As armas em *The Mound: Omen of Cthulhu* são inspiradas na tecnologia do século XVII. Essas ferramentas são lentas para recarregar e altamente sensíveis ao ambiente. Em uma configuração cooperativa, você nunca deve ter todos os jogadores carregando o mesmo tipo de arma. A chuva pode tornar a pólvora inútil, tornando essencial que pelo menos um jogador se concentre em combate corpo a corpo ou arquearia.
+
+| Arma | Categoria | Prós | Contras |
+| :--- | :--- | :--- | :--- |
+| **Arco** | Longo Alcance Silencioso | Funciona na chuva, recarga rápida | Menor poder de parada |
+| **Mosquete de Pederneira** | Arma de Emergência | Dano alto, para investidas | Barulhento, recarga lenta, falha na chuva |
+| **Faca** | Furtivo Corpo a Corpo | Sem munição necessária, silencioso | Alto risco, curto alcance |
+| **Mosquete de Mecha** | Arma Pesada | Dano extremo para chefes | Muito barulhento, requer tempo seco |
+
+<Callout type="info" title="Gerenciamento de Recursos">
+O Capitão fornece uma quantidade limitada de equipamentos para cada contrato. Vocês devem decidir em equipe quem fica com os mosquetes e quem carrega os arcos. Distribuir a munição corretamente é a diferença entre uma extração bem-sucedida e uma retirada desesperada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Iniciando Sua Primeira Expedição">
+
+Se você estiver pronto para começar, siga estas etapas para configurar seu lobby e se preparar para seu primeiro contrato. Lembre-se de que o progresso do anfitrião determina quais contratos estão disponíveis, mas todos os jogadores compartilham as recompensas e a progressão desbloqueada durante a missão.
+
+<Steps>
+  <Step num="1" title="Forme seu Lobby">
+    Convide até três amigos através da sobreposição do Steam, Epic ou Xbox. Certifique-se de que todos estejam no lobby antes que o anfitrião selecione um contrato na mesa do Capitão.
+  </Step>
+  <Step num="2" title="Selecione um Contrato do Capitão">
+    Revise os requisitos de tesouro e o destino. Iniciantes devem escolher rotas mais curtas com cotas de tesouro menores para aprender as mecânicas do carro de boi.
+  </Step>
+  <Step num="3" title="Equipe o Esquadrão">
+    A bordo do galeão *Tempestad*, divida as armas e ferramentas fornecidas. Garanta que pelo menos uma pessoa tenha uma **Lanterna a Óleo** e outra tenha um **Arco** para abates silenciosos.
+  </Step>
+  <Step num="4" title="Implante-se na Selva">
+    Viaje até a costa. Assim que desembarcarem, o carro de boi seguirá o grupo. Seu objetivo principal é encher o carro com tesouro suficiente para satisfazer o contrato.
+  </Step>
+  <Step num="5" title="Extraia com Segurança">
+    Assim que a cota for atingida, retorne ao ponto de extração. Decidam em equipe se devem avançar mais fundo em busca de relíquias opcionais ou garantir a carga atual.
+  </Step>
+</Steps>
+
+<Checklist
+  id="expedition-prep"
+  title="Checklist Pré-Partida:"
+  items={[
+    "Defensor do Carro dedicado atribuído",
+    "Pelo menos dois jogadores têm armas à prova de chuva (Arco/Faca)",
+    "Acordado um 'Sinal de Recuo' para situações de alta loucura",
+    "Verificado se o chat de voz espacial de todos está funcionando",
+    "Confirmado o objetivo principal do contrato"
+  ]}
+/>
+
+</Section>
+
+<Section icon={FileText} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quantos jogadores podem jogar the mound omen of cthulhu juntos?",
+    answer: "O jogo suporta de 1 a 4 jogadores em co-op online. Você pode jogar inteiramente solo ou com um esquadrão de dois, três ou quatro exploradores."
+  },
+  {
+    question: "O jogo suporta cross-platform?",
+    answer: "Sim. O crossplay é suportado entre PC (Steam e Epic Games Store) e Xbox Series X|S. A versão Xbox também suporta Xbox Play Anywhere para progressão cruzada entre PC e console."
+  },
+  {
+    question: "Posso jogar o jogo offline sozinho?",
+    answer: "Sim, um modo single-player completo está disponível para aqueles que desejam experimentar o horror Lovecraftiano sozinhos. No entanto, a dificuldade não remove a necessidade de gerenciar o carro de boi e a sanidade."
+  },
+  {
+    question: "O que acontece se um companheiro de equipe morrer durante uma expedição?",
+    answer: "Se um companheiro de equipe morrer e não for reanimado, ele pode retornar como um 'Explorador Corrompido' — uma entidade morta-viva hostil que caça os sobreviventes restantes. É sempre melhor priorizar as reanimações."
+  }
+]} />
+
+</Section>

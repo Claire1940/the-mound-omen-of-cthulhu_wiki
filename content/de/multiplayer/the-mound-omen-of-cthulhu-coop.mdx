@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Coop: Trupp-Überlebenshandbuch",
+  description: "Meistern Sie die 4-Spieler-Kooperationsmechaniken in The Mound: Omen of Cthulhu. Erfahren Sie mehr über Trupprollen, Kommunikationsprotokolle und das Management der geistigen Gesundheit.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Co-op+Survival+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primärziel**: Meistern Sie die **the mound omen of cthulhu coop**-Systeme, um verfluchte Dschungelexpeditionen zu überleben.
+- **Truppgröße**: Unterstützt **1 bis 4 Spieler** mit plattformübergreifendem Kooperationsspiel.
+- **Schlüsselmechanik**: Der räumliche Sprachchat ändert Lautstärke und Richtung basierend auf Ihrer physischen Distanz.
+- **Überlebensregel**: Halten Sie eine strikte Kommunikation aufrecht, um die Identität von Teammitgliedern zu verifizieren und den gemeinsamen Verstand zu verwalten.
+- **Best Practice**: Verteilen Sie wichtige Werkzeuge auf das Team, anstatt einen einzelnen Entdecker zu überladen.
+</Callout>
+
+<Section icon={Shield} title="Koop-Systeme und Crossplay-Übersicht">
+
+Der Kernzyklus von **the mound omen of cthulhu coop** erfordert absolute Koordination innerhalb Ihrer Expeditionscrew. Beim Betreten des verfluchten Dschungels der Insel müssen die Spieler zusammenarbeiten, um ihren gemeinsamen Ochsenkarren zu schützen, wertvolles Tulu-Metall zu bergen und die Extraktion zurück zur Galeone Tempestad zu sichern. Das Spiel bietet vollen plattformübergreifenden Multiplayer, der es Entdeckern auf PC, PlayStation 5 und Xbox Series X|S ermöglicht, vereinte Trupps zu bilden.
+
+| Feature | Plattform-Unterstützung | Praktische Anwendung |
+|:---|:---|:---|
+| **Crossplay** | PC, PS5, Xbox Series X|S | Bilden Sie Trupps über alle Systeme hinweg mithilfe von Lobby-Codes im Spiel. |
+| **Truppgröße** | 1 bis 4 Spieler | Skalieren Sie den Schwierigkeitsgrad von Solo-Herausforderungen bis hin zu vollen Vier-Spieler-Expeditionen. |
+| **Sprachchat** | Räumliches Audio | Die Kommunikationslautstärke sinkt und die Richtung verschiebt sich basierend auf der Entfernung. |
+| **Fortschritt** | Gemeinsame Verträge | Abgeschlossene Kapitänsverträge verbessern den Ruf der gesamten Gruppe. |
+
+Räumliches Audio ist nicht nur ein kosmetisches Feature; es ist eine kritische Überlebensmechanik. Wenn sich ein Teammitglied zu weit in den dichten Dschungelnebel entfernt, verblasst seine Stimme, wodurch es isoliert und höchst anfällig für die psychologischen Schrecken der Insel wird.
+
+<Callout type="warning" title="Entfernungswarnung">
+Lassen Sie niemals einen Entdecker aus der Reichweite des räumlichen Sprachchats wandern. Getrennte Spieler können Halluzinationen nicht verifizieren, was sie zu einer Gefahr für sich selbst und den restlichen Trupp macht.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Trupprollen und Verteilung der Ausrüstung">
+
+Erfolg in **the mound omen of cthulhu coop** erfordert eine klare Arbeitsteilung. Der Kapitän an Bord der Galeone stellt nicht für jeden Entdecker eine komplette persönliche Ausrüstung zur Verfügung. Stattdessen sind die Ressourcen begrenzt, was die Crew dazu zwingt, ihre Loadouts zu spezialisieren, bevor die Ruderboote das Ufer berühren.
+
+<CardGrid cols={4}>
+  <Card title="Der Navigator">
+    - **Hauptwerkzeug**: Kompass/Karte
+    - Verfolgt Orientierungspunkte
+    - Lokalisiert Logbücher in Forts
+    - Leitet die Extraktionsroute
+  </Card>
+  <Card title="Die Vorhut">
+    - **Hauptwerkzeug**: Bogen/Schwert
+    - Erledigt lautlose Kämpfe
+    - Räumt Vegetation auf dem Pfad
+    - Spart Munition für Schusswaffen
+  </Card>
+  <Card title="Die Unterstützung">
+    - **Hauptwerkzeug**: Öllampe
+    - Hält die Sichtbarkeit der Gruppe aufrecht
+    - Erkennt versteckte Fallen
+    - Beleuchtet dunkle Ruinen
+  </Card>
+  <Card title="Der Karren-Verteidiger">
+    - **Hauptwerkzeug**: Muskete
+    - Bewacht den Ochsenkarren
+    - Kontrolliert schwere Bedrohungen
+    - Verwaltet das gemeinsame Lager
+  </Card>
+</CardGrid>
+
+Achten Sie bei der Organisation Ihres Loadouts auf ein Gleichgewicht zwischen lautlosem Nutzen und Notfall-Feuerkraft. Standardmäßige Schusswaffen der Epoche wie die Steinschloss- und Luntenschlossmusketen sind verheerend, aber unglaublich laut und ziehen unerwünschte Aufmerksamkeit des lebendigen Dschungels auf sich.
+
+| Ausrüstung | Kategorie | Nasses Wetter | Geräuschpegel | Empfohlene Rolle |
+|:---|:---|:---|:---|:---|
+| **Bogen** | Fernkampf | Voll funktionsfähig | Lautlos | Vorhut / Späher |
+| **Steinschloss** | Schusswaffe | Fehlzündungen bei Regen | Extrem Laut | Karren-Verteidiger |
+| **Luntenschloss** | Schusswaffe | Fehlzündungen bei Regen | Extrem Laut | Schwerer Kampf |
+| **Messer** | Nahkampf | Voll funktionsfähig | Lautlos | Alle Entdecker (Reserve) |
+| **Öllampe** | Nutzen | Flackert bei Regen | Lautlos | Unterstützung / Navigator |
+
+<Callout type="tip" title="Regen-Protokoll">
+Prüfen Sie immer das Wetter, bevor Sie den Abzug betätigen. Wenn es zu regnen beginnt, tauschen Sie Ihre Steinschlossmuskete sofort gegen einen Bogen oder ein Messer aus, da nasses Schießpulver Schusswaffen völlig unbrauchbar macht.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Expeditionsleitfaden">
+
+Jede kooperative Expedition folgt einem strengen operativen Zyklus. Ein Abweichen von dieser Sequenz oder Gier führt schnell zur Auslöschung des gesamten Trupps.
+
+<Steps>
+  <Step num="1" title="Wählen Sie den Vertrag des Kapitäns">
+    Gehen Sie an Bord der Galeone Tempestad und wählen Sie einen Vertrag aus. Überprüfen Sie den erforderlichen Schatzwert und die Zielparameter. Einigen Sie sich als Trupp auf die exakten Bedingungen, die einen vorzeitigen Rückzug auslösen.
+  </Step>
+  <Step num="2" title="Verteilen Sie die gemeinsame Ausrüstung">
+    Teilen Sie Waffen, Lampen und Hilfsgegenstände auf. Stellen Sie sicher, dass der Navigator über klare Sichtwerkzeuge verfügt, während die Vorhut lautlose Waffen wie den Bogen trägt, um erste Patrouillenbegegnungen zu bewältigen.
+  </Step>
+  <Step num="3" title="Eskortieren Sie den Ochsenkarren">
+    Rudern Sie an Land und errichten Sie einen Perimeter um den Ochsenkarren. Der Karren dient als Ihr mobiler Tresor und Vorratsspeicher. Halten Sie den unmittelbaren Pfad frei von dichter Vegetation und lassen Sie den Karren niemals völlig unbeaufsichtigt.
+  </Step>
+  <Step num="4" title="Sichern Sie zuerst die Mindestbeute">
+    Konzentrieren Sie sich ganz darauf, den im Vertrag festgelegten Mindestschatzwert zu erreichen. Deponieren Sie geborgene Relikte direkt im Karren. Wandern Sie nicht in optionale Ruinen mit hoher Bedrohung, bevor das Hauptziel gesichert ist.
+  </Step>
+  <Step num="5" title="Führen Sie die Extraktionsentscheidung aus">
+    Beobachten Sie Indikatoren für eine Eskalation der Umgebung. Wenn der Nebel dichter wird, rote Vegetation pulsiert oder die Munition knapp wird, beginnen Sie sofort mit dem Rückzug zur Küste, um Ihren Fortschritt und Ihre Belohnungen zu sichern.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fortschritts-Tipp">
+Priorisieren Sie die Bergung von Logbüchern aus verlassenen Dschungelforts. Diese Dokumente schalten dauerhaft neue Startpunkte für nachfolgende Expeditionen frei und verkürzen die Reisezeiten bei schwierigeren Verträgen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Koop-Geisteszustand und Verifizierungsprotokolle">
+
+Der wahre Feind in **the mound omen of cthulhu coop** sind nicht die physischen Monster, sondern die Verzerrung Ihrer eigenen Sinne. Das Spiel verfügt über keine Balken für die geistige Gesundheit oder HUD-Anzeigen. Stattdessen manifestiert sich der Wahnsinn privat für jeden Entdecker und greift das Vertrauen und die Kommunikation im Team an.
+
+| Halluzinationstyp | Visueller/Akustischer Effekt | Auswirkung auf den Trupp | Verifizierungsprotokoll |
+|:---|:---|:---|:---|
+| **Blutregen** | Lokalisierter roter Sturm | Verzerrt die Sicht auf das Gelände | Bitten Sie Teammitglieder, das aktuelle Wetter zu bestätigen. |
+| **Falsches Horn** | Fernes Extraktionssignal | Lockt Spieler in Hinterhalte | Bestätigen Sie die Karren-Koordinaten, bevor Sie sich zum Geräusch bewegen. |
+| **Monster-Silhouette** | Teammitglied sieht aus wie Bestie | Löst Eigenbeschuss aus | Rufen Sie die Position aus und warten Sie auf eine Sprachantwort. |
+| **Imposter-Figur** | Falscher Entdecker im Nebel | Führt Spieler von der Crew weg | Nutzen Sie den räumlichen Sprachchat, um die Position des Sprechers zu prüfen. |
+
+Wenn der Verstand eines Entdeckers bricht, kann er dem, was er sieht oder hört, nicht mehr trauen. In diesen Momenten muss der betroffene Spieler die Navigationsentscheidungen einem stabilen Teammitglied überlassen.
+
+<Callout type="warning" title="Imposter-Bedrohung">
+Wenn Sie ein Teammitglied lautlos im Nebel stehen sehen, das nicht auf den räumlichen Sprachchat reagiert, nähern Sie sich ihm nicht. Es ist höchstwahrscheinlich eine wahrnehmungsbasierte Nachahmung, die darauf ausgelegt ist, Sie zu überfallen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für das kooperative Überleben">
+
+Nutzen Sie diese Checkliste, um Ihren Trupp vor dem Start Ihres nächsten Vertrags im verfluchten Dschungel vorzubereiten.
+
+<Checklist
+  id="coop-readiness"
+  title="Checkliste vor dem Aufbruch:"
+  items={[
+    "Bestätigen Sie, dass alle Spieler der Lobby beigetreten sind und Crossplay aktiviert ist.",
+    "Teilen Sie mindestens einen dedizierten Bogenschützen für die lautlose Zielausschaltung ein.",
+    "Verteilen Sie Lichtquellen so, dass ein einzelner Tod den Trupp nicht in völliger Dunkelheit zurücklässt.",
+    "Einigen Sie sich auf eine einfache Call-and-Response-Phrase, um Identitäten im dichten Nebel zu verifizieren.",
+    "Legen Sie einen strikten Munitionsschwellenwert fest, der einen automatischen Rückzug des Trupps auslöst."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie funktioniert der räumliche Sprachchat in the mound omen of cthulhu coop?",
+    answer: "Das Spiel nutzt nähebasiertes räumliches Audio. Wenn Sie sich von Ihren Teammitgliedern entfernen, werden deren Stimmen leiser und verschieben sich in der Richtung. Wenn Sie durch dichten Nebel oder Gelände getrennt werden, wird die Kommunikation völlig unmöglich, was es dem Wahnsinn erleichtert, Ihre Truppkameraden nachzuahmen."
+  },
+  {
+    question: "Können wir den Koop-Modus mit nur zwei oder drei Spielern spielen?",
+    answer: "Ja, das Spiel skaliert seine Herausforderungen für Trupps von zwei, drei oder vier Spielern. Sie können auch komplett solo spielen, müssen dann aber ein sehr ausgewogenes Loadout tragen, da es keine Teammitglieder gibt, die Ihnen den Rücken freihalten oder den Ochsenkarren schützen."
+  },
+  {
+    question: "Was passiert, wenn ein Teammitglied während einer Expedition stirbt?",
+    answer: "Wenn ein Entdecker am Boden liegt, muss er umgehend wiederbelebt werden. Bleibt er unbeaufsichtigt, erliegt er der Verderbnis und wird als feindseliger Verderbter Entdecker wiederbelebt, der aktiv Jagd auf die überlebenden Mitglieder des Trupps macht."
+  },
+  {
+    question: "Gibt es Crossplay-Unterstützung für PC- und Konsolenspieler?",
+    answer: "Ja, volles Crossplay wird zwischen PC, PlayStation 5 und Xbox Series X|S unterstützt. Sie können Spieler von anderen Plattformen mithilfe einzigartiger Sitzungscodes einladen, die in der Hauptlobby generiert werden."
+  }
+]} />
+
+</Section>

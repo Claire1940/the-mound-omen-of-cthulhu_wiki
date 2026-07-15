@@ -1,1 +1,658 @@
-{}
+{
+  "de": {
+    "demo": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
+        "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-progress-carry-over",
+        "file": "the-mound-omen-of-cthulhu-demo-progress-carry-over"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-ps5",
+        "file": "the-mound-omen-of-cthulhu-demo-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-xbox",
+        "file": "the-mound-omen-of-cthulhu-demo-xbox"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo",
+        "file": "the-mound-omen-of-cthulhu-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-armor",
+        "file": "the-mound-omen-of-cthulhu-armor"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-items",
+        "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-map",
+        "file": "the-mound-omen-of-cthulhu-map"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-monsters",
+        "file": "the-mound-omen-of-cthulhu-monsters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-story-mode",
+        "file": "the-mound-omen-of-cthulhu-story-mode"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-tools",
+        "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-weapons",
+        "file": "the-mound-omen-of-cthulhu-weapons"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-coop",
+        "file": "the-mound-omen-of-cthulhu-coop"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crossplay",
+        "file": "the-mound-omen-of-cthulhu-crossplay"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-many-players",
+        "file": "the-mound-omen-of-cthulhu-how-many-players"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-solo",
+        "file": "the-mound-omen-of-cthulhu-solo"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-split-screen",
+        "file": "the-mound-omen-of-cthulhu-split-screen"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-voice-chat",
+        "file": "the-mound-omen-of-cthulhu-voice-chat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-game-pass",
+        "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-pc",
+        "file": "the-mound-omen-of-cthulhu-pc"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ps5",
+        "file": "the-mound-omen-of-cthulhu-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-size",
+        "file": "the-mound-omen-of-cthulhu-size"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-steam",
+        "file": "the-mound-omen-of-cthulhu-steam"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-system-requirements",
+        "file": "the-mound-omen-of-cthulhu-system-requirements"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-xbox",
+        "file": "the-mound-omen-of-cthulhu-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
+        "file": "the-mound-omen-of-cthulhu-deluxe-edition"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack",
+        "file": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-physical-copy",
+        "file": "the-mound-omen-of-cthulhu-physical-copy"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-price",
+        "file": "the-mound-omen-of-cthulhu-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-early-access",
+        "file": "the-mound-omen-of-cthulhu-early-access"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-is-it-out",
+        "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-preorders",
+        "file": "the-mound-omen-of-cthulhu-preorders"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-release-date",
+        "file": "the-mound-omen-of-cthulhu-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-hunt-showdown",
+        "file": "the-mound-omen-of-cthulhu-hunt-showdown"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
+        "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-performance",
+        "file": "the-mound-omen-of-cthulhu-performance"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-review",
+        "file": "the-mound-omen-of-cthulhu-review"
+      }
+    ]
+  },
+  "en": {
+    "demo": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
+        "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-progress-carry-over",
+        "file": "the-mound-omen-of-cthulhu-demo-progress-carry-over"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-ps5",
+        "file": "the-mound-omen-of-cthulhu-demo-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-xbox",
+        "file": "the-mound-omen-of-cthulhu-demo-xbox"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo",
+        "file": "the-mound-omen-of-cthulhu-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-armor",
+        "file": "the-mound-omen-of-cthulhu-armor"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-items",
+        "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-map",
+        "file": "the-mound-omen-of-cthulhu-map"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-monsters",
+        "file": "the-mound-omen-of-cthulhu-monsters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-story-mode",
+        "file": "the-mound-omen-of-cthulhu-story-mode"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-tools",
+        "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-weapons",
+        "file": "the-mound-omen-of-cthulhu-weapons"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-coop",
+        "file": "the-mound-omen-of-cthulhu-coop"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crossplay",
+        "file": "the-mound-omen-of-cthulhu-crossplay"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-many-players",
+        "file": "the-mound-omen-of-cthulhu-how-many-players"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-solo",
+        "file": "the-mound-omen-of-cthulhu-solo"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-split-screen",
+        "file": "the-mound-omen-of-cthulhu-split-screen"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-voice-chat",
+        "file": "the-mound-omen-of-cthulhu-voice-chat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-game-pass",
+        "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-pc",
+        "file": "the-mound-omen-of-cthulhu-pc"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ps5",
+        "file": "the-mound-omen-of-cthulhu-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-size",
+        "file": "the-mound-omen-of-cthulhu-size"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-steam",
+        "file": "the-mound-omen-of-cthulhu-steam"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-system-requirements",
+        "file": "the-mound-omen-of-cthulhu-system-requirements"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-xbox",
+        "file": "the-mound-omen-of-cthulhu-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
+        "file": "the-mound-omen-of-cthulhu-deluxe-edition"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack",
+        "file": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-physical-copy",
+        "file": "the-mound-omen-of-cthulhu-physical-copy"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-price",
+        "file": "the-mound-omen-of-cthulhu-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-early-access",
+        "file": "the-mound-omen-of-cthulhu-early-access"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-is-it-out",
+        "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-preorders",
+        "file": "the-mound-omen-of-cthulhu-preorders"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-release-date",
+        "file": "the-mound-omen-of-cthulhu-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-hunt-showdown",
+        "file": "the-mound-omen-of-cthulhu-hunt-showdown"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
+        "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-performance",
+        "file": "the-mound-omen-of-cthulhu-performance"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-review",
+        "file": "the-mound-omen-of-cthulhu-review"
+      }
+    ]
+  },
+  "es": {
+    "demo": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
+        "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-progress-carry-over",
+        "file": "the-mound-omen-of-cthulhu-demo-progress-carry-over"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-ps5",
+        "file": "the-mound-omen-of-cthulhu-demo-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-xbox",
+        "file": "the-mound-omen-of-cthulhu-demo-xbox"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo",
+        "file": "the-mound-omen-of-cthulhu-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-armor",
+        "file": "the-mound-omen-of-cthulhu-armor"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-items",
+        "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-map",
+        "file": "the-mound-omen-of-cthulhu-map"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-monsters",
+        "file": "the-mound-omen-of-cthulhu-monsters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-story-mode",
+        "file": "the-mound-omen-of-cthulhu-story-mode"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-tools",
+        "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-weapons",
+        "file": "the-mound-omen-of-cthulhu-weapons"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-coop",
+        "file": "the-mound-omen-of-cthulhu-coop"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crossplay",
+        "file": "the-mound-omen-of-cthulhu-crossplay"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-many-players",
+        "file": "the-mound-omen-of-cthulhu-how-many-players"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-solo",
+        "file": "the-mound-omen-of-cthulhu-solo"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-split-screen",
+        "file": "the-mound-omen-of-cthulhu-split-screen"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-voice-chat",
+        "file": "the-mound-omen-of-cthulhu-voice-chat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-game-pass",
+        "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-pc",
+        "file": "the-mound-omen-of-cthulhu-pc"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ps5",
+        "file": "the-mound-omen-of-cthulhu-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-size",
+        "file": "the-mound-omen-of-cthulhu-size"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-steam",
+        "file": "the-mound-omen-of-cthulhu-steam"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-system-requirements",
+        "file": "the-mound-omen-of-cthulhu-system-requirements"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-xbox",
+        "file": "the-mound-omen-of-cthulhu-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
+        "file": "the-mound-omen-of-cthulhu-deluxe-edition"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack",
+        "file": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-physical-copy",
+        "file": "the-mound-omen-of-cthulhu-physical-copy"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-price",
+        "file": "the-mound-omen-of-cthulhu-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-early-access",
+        "file": "the-mound-omen-of-cthulhu-early-access"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-is-it-out",
+        "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-preorders",
+        "file": "the-mound-omen-of-cthulhu-preorders"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-release-date",
+        "file": "the-mound-omen-of-cthulhu-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-hunt-showdown",
+        "file": "the-mound-omen-of-cthulhu-hunt-showdown"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
+        "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-performance",
+        "file": "the-mound-omen-of-cthulhu-performance"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-review",
+        "file": "the-mound-omen-of-cthulhu-review"
+      }
+    ]
+  },
+  "pt": {
+    "demo": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
+        "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-progress-carry-over",
+        "file": "the-mound-omen-of-cthulhu-demo-progress-carry-over"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-ps5",
+        "file": "the-mound-omen-of-cthulhu-demo-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-xbox",
+        "file": "the-mound-omen-of-cthulhu-demo-xbox"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo",
+        "file": "the-mound-omen-of-cthulhu-demo"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-armor",
+        "file": "the-mound-omen-of-cthulhu-armor"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-items",
+        "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-map",
+        "file": "the-mound-omen-of-cthulhu-map"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-monsters",
+        "file": "the-mound-omen-of-cthulhu-monsters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-story-mode",
+        "file": "the-mound-omen-of-cthulhu-story-mode"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-tools",
+        "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-weapons",
+        "file": "the-mound-omen-of-cthulhu-weapons"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-coop",
+        "file": "the-mound-omen-of-cthulhu-coop"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crossplay",
+        "file": "the-mound-omen-of-cthulhu-crossplay"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-many-players",
+        "file": "the-mound-omen-of-cthulhu-how-many-players"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-solo",
+        "file": "the-mound-omen-of-cthulhu-solo"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-split-screen",
+        "file": "the-mound-omen-of-cthulhu-split-screen"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-voice-chat",
+        "file": "the-mound-omen-of-cthulhu-voice-chat"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-game-pass",
+        "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-pc",
+        "file": "the-mound-omen-of-cthulhu-pc"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ps5",
+        "file": "the-mound-omen-of-cthulhu-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-size",
+        "file": "the-mound-omen-of-cthulhu-size"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-steam",
+        "file": "the-mound-omen-of-cthulhu-steam"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-system-requirements",
+        "file": "the-mound-omen-of-cthulhu-system-requirements"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-xbox",
+        "file": "the-mound-omen-of-cthulhu-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
+        "file": "the-mound-omen-of-cthulhu-deluxe-edition"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack",
+        "file": "the-mound-omen-of-cthulhu-lost-explorers-swords-pack"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-physical-copy",
+        "file": "the-mound-omen-of-cthulhu-physical-copy"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-price",
+        "file": "the-mound-omen-of-cthulhu-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-early-access",
+        "file": "the-mound-omen-of-cthulhu-early-access"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-is-it-out",
+        "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-preorders",
+        "file": "the-mound-omen-of-cthulhu-preorders"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-release-date",
+        "file": "the-mound-omen-of-cthulhu-release-date"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "the-mound-omen-of-cthulhu-hunt-showdown",
+        "file": "the-mound-omen-of-cthulhu-hunt-showdown"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
+        "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-performance",
+        "file": "the-mound-omen-of-cthulhu-performance"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-review",
+        "file": "the-mound-omen-of-cthulhu-review"
+      }
+    ]
+  }
+}

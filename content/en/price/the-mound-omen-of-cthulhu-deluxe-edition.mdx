@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Deluxe Edition: Complete Guide",
+  description: "Compare the Standard and Deluxe Editions of The Mound: Omen of Cthulhu. Learn about exclusive missions, weapons, sanity mechanics, and co-op strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/111827/5fddc0?text=Deluxe+Edition+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound Omen of Cthulhu Deluxe Edition** includes the base game, exclusive characters, cosmetic gear, and the Temple of Yig mission.
+- **Sanity mechanics** operate without a visible HUD, forcing players to verify hallucinations through spatialized voice chat.
+- **Dry gunpowder** is required for period firearms; rain disables muskets, making bows and knives essential.
+- **The Ox Cart** serves as your team's mobile vault and must be defended during jungle extraction loops.
+- **Cross-platform play** is fully supported across PC and console versions to facilitate four-player cooperative expeditions.
+</Callout>
+
+<Section icon={Shield} title="The Mound Omen of Cthulhu Deluxe Edition Comparison">
+
+The launch of the game on **July 15, 2026**, brings a dark, cooperative survival experience developed by ACE Team and published by Nacon. Players must choose between the Standard Edition and the premium Deluxe Edition. The Deluxe package targets players seeking deeper jungle lore, exclusive character choices, and unique cosmetic styles themed around the Cthulhu mythos.
+
+| Feature | Standard Edition | Deluxe Edition | Details |
+| :--- | :--- | :--- | :--- |
+| **Base Price** | $29.99 | $39.99 | Regional pricing applies across storefronts |
+| **Base Game** | Included | Included | Access to core contracts, maps, and enemies |
+| **Fortune Hunters** | Excluded | Included | Adds 2 exclusive playable explorer characters |
+| **Abyssal Gear Pack** | Excluded | Included | Cthulhu-themed skins for 4 core weapons |
+| **Temple of Yig** | Excluded | Included | Exclusive mission set in a unique jungle area |
+| **Digital Soundtrack** | Excluded | Included | Official atmospheric audio files |
+| **Lost Explorers Pack** | Launch Bonus | Launch Bonus | 2 ornate swords (must claim within 2 weeks) |
+
+The Deluxe Edition provides immediate access to the Temple of Yig mission. On Steam, this mission is available as a separate free claim, and only the host needs to own it for the entire four-player lobby to participate. The Fortune Hunters Pack and Abyssal Gear Pack offer visual distinction but do not alter functional starting attributes or weapon statistics.
+
+<Callout type="warning" title="Launch Discount Note">
+Steam players unlocked a 20% launch discount by surpassing 800,000 wishlists. This reduces the Standard Edition to $23.99 and the Deluxe Edition to $31.99 during the initial promotional window.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Weapons and Loadout Distribution">
+
+Survival in the cursed jungle depends on balanced team gear. Period firearms deliver high damage but carry extreme risks, including deafening noise that alerts nearby monsters and complete failure when rain dampens your gunpowder. Silent weapons and utility tools must be distributed evenly across the party.
+
+| Weapon / Tool | Category | Key Strength | Major Weakness | Recommended Role |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bow** | Quiet Ranged | Rainproof, fast reload | Lower instant burst damage | Scout / Stealth Specialist |
+| **Knife** | Close Melee | Rainproof, silent | Requires dangerous proximity | Every explorer as backup |
+| **Flintlock Musket** | Heavy Firearm | High single-shot damage | Long reload, high noise | Dedicated Marksman |
+| **Matchlock Musket** | Heavy Firearm | Strong stopping power | Disabled by rain, heavy smoke | Defense Specialist |
+| **Oil Lamp** | Light Utility | Illuminates dark ruins | Flicker risk in heavy rain | Navigator / Front Explorer |
+| **Medallion** | Treasure Utility | Locates hidden Tulu metal | Loud metallic clang when struck | Support / Cart Escort |
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: The Bow">
+    The ultimate utility weapon for stealth progression. It does not require gunpowder, remains fully functional during tropical rainstorms, and allows teams to clear isolated undead sentries without waking the entire forest.
+  </Card>
+  <Card title="A-Tier: Flintlock Musket">
+    A vital emergency tool. Keep this weapon holstered until the squad encounters resilient supernatural threats. A single loud shot can draw hordes, so coordinate with your team before pulling the trigger.
+  </Card>
+  <Card title="A-Tier: Treasure Medallion">
+    Essential for completing high-value contracts. It directs the party toward buried wealth, but the striking sound acts as a beacon for nearby monsters. Use it only when the immediate perimeter is secure.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Loadout Strategy">
+Never concentrate all firearms or light sources on a single explorer. If that player is separated or incapacitated, the remaining squad will be left defenseless in pitch darkness.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Expedition Loop">
+
+Every successful contract follows a strict operational loop. Deviating from these steps increases team stress, drains ammunition, and risks a total squad wipe in the deep jungle.
+
+<Steps>
+  <Step num="1" title="Contract Selection">
+    Begin aboard the Tempestad galleon. Review the captain's available contracts, noting the minimum required treasure value and specific regional hazards before launching the landing boat.
+  </Step>
+  <Step num="2" title="Equipment Allocation">
+    Distribute the shared arsenal supplied by the captain. Ensure at least one player carries a bow for silent takedowns, one carries an oil lamp, and all members have a knife for melee emergencies.
+  </Step>
+  <Step num="3" title="Ox Cart Escort">
+    Advance alongside the ox cart. The cart acts as your mobile storage unit. Clear physical obstacles from its path and deposit heavy treasures immediately to keep individual inventory slots free.
+  </Step>
+  <Step num="4" title="Noise and Weather Management">
+    Monitor environmental sounds and weather shifts. If rain begins, immediately transition from firearms to bows and knives. Avoid running or cutting dense vines unless actively fleeing.
+  </Step>
+  <Step num="5" title="Fort Exploration & Extraction">
+    Locate abandoned jungle forts to recover logbooks, which permanently unlock new starting points. Once the contract's financial quota is met, immediately retreat to the shoreline before madness takes hold.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Ox Cart Defense">
+The ox cart is your lifeline. If you hear its warning horn, return to it immediately. Be cautious, as advanced madness can trick players into hearing false horn signals when no danger is present.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sanity and Hallucination Mechanics">
+
+The game features no traditional HUD, health bars, or sanity meters. Psychological decay manifests directly through altered environmental rendering and auditory illusions that target players individually.
+
+| Hallucination Type | Visual / Auditory Effect | Team Danger | Correct Countermeasure |
+| :--- | :--- | :--- | :--- |
+| **Bleeding Jungle** | Red rain, pulsing flora | Distorted navigation paths | Verify weather with teammates |
+| **False Horn Calls** | Distant extraction signals | Lures players into ambushes | Confirm cart location on map |
+| **Monster Illusions** | Teammates look like beasts | High risk of friendly fire | Use voice chat before shooting |
+| **False Silhouettes** | Human figures in dense fog | Separates the formation | Call out names to verify positions |
+| **Shifting Terrain** | False paths over real traps | Leading the squad into hazards | Let the most sane player lead |
+
+To survive these illusions, squads must implement a strict reality-check protocol. When encountering an unusual sight or sound, use spatial voice chat to ask simple confirmation questions like "Do you see a red light ahead?" or "Did anyone just blow the horn?" If your teammates answer negatively, ignore the stimulus and stay close to the group.
+
+<Callout type="warning" title="Severe Madness Protocol">
+When an explorer's sanity completely fractures, they must cease navigating. The affected player should follow the physical footsteps of a confirmed sane teammate and rely entirely on verbal directions.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jungle Bestiary and Threat Profiles">
+
+The entities inhabiting the cursed jungle range from physical reanimated corpses to spectral manifestations of the old gods. Understanding their behavior is the difference between a successful extraction and death.
+
+| Monster Name | Threat Type | Behavior Pattern | Warning Signs | Recommended Counterplay |
+| :--- | :--- | :--- | :--- | :--- |
+| **Y'm-bhi Sentry** | Reanimated Guardian | Observes from afar, builds stress | Glowing eyes, broken speech | Blind with light, use crucifix |
+| **Undead Wanderer** | Common Hostile | Shambles in groups, alerts on noise | Rustling leaves, low groans | Silent melee, avoid firearms |
+| **Corrupted Explorer** | Fallen Teammate | Hunts surviving party members | Leftover player gear on corpse | Prioritize revives before turn |
+| **Spectre** | Supernatural | Hovers near the cart, drains sanity | Cold mist, whispering voices | Stay grouped, avoid wasting ammo |
+
+The Y'm-bhi Sentries are particularly deceptive. They test your team's distance and build up psychological pressure before striking. If a Y'm-bhi carries its own lantern, it can ignite itself to execute a devastating charge attack. Always use a crucifix to gauge their stress levels before engaging.
+
+<Callout type="success" title="Looting Tip">
+Defeated Undead Wanderers occasionally drop ammunition and broken weapon parts. Search their remains quickly, but keep a scout watching the surrounding treeline for incoming patrols.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="PC System Requirements and Optimization">
+
+The dense jungle environments, real-time weather changes, and volumetric fog require a modern PC configuration. The game runs exclusively on DirectX 12 to handle its advanced lighting and shadow systems.
+
+| Component | Minimum Requirement | Recommended Specification | Optimization Priority |
+| :--- | :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 10 / 11 (64-bit) | Keep OS and GPU drivers updated |
+| **Processor** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Prevents stuttering during horde events |
+| **Memory** | 16 GB RAM | 16 GB RAM | Close background apps to free up memory |
+| **Graphics** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | Lower volumetric fog first for extra FPS |
+| **DirectX** | Version 12 | Version 12 | Required for game launch |
+| **NVIDIA DLSS** | Supported | DLSS 4.5 (RTX 50 Series) | Enable Super Resolution for clear images |
+
+To maximize visibility in dark, fog-heavy areas, balance your graphic settings. High texture quality and view distance should be prioritized over ultra-quality shadows and foliage density. This ensures you can spot shifting enemy silhouettes and environmental hazards before they enter your immediate threat radius.
+
+<Callout type="info" title="DLSS 4.5 Support">
+NVIDIA RTX 50 Series users can enable DLSS 4.5 with Dynamic Multi Frame Generation and Super Resolution. This utilizes second-generation transformer models to double frame rates in dense jungle scenes without sacrificing visual clarity.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What is included in the Deluxe Edition of the game?",
+    answer: "The Deluxe Edition includes the base game, the Fortune Hunters Character Pack (2 exclusive characters), the Abyssal Gear Pack (4 weapon skins), the Temple of Yig exclusive mission, and the official digital soundtrack."
+  },
+  {
+    question: "How does the sanity system work without a HUD?",
+    answer: "Sanity decay is experienced through individual visual and auditory hallucinations, such as blood rain, false cart horn sounds, and teammates appearing as monsters. Players must communicate via voice chat to verify what is real."
+  },
+  {
+    question: "Can I use firearms during rainy weather?",
+    answer: "No. Flintlock and matchlock muskets rely on dry gunpowder. When it rains, these weapons become unusable, forcing players to rely on silent, rainproof alternatives like bows and knives."
+  },
+  {
+    question: "Does the Deluxe Edition include a Steam launch discount?",
+    answer: "Yes. Because the community surpassed 800,000 Steam wishlists, a 20% launch discount was unlocked. This reduces the Standard Edition to $23.99 and the Deluxe Edition to $31.99 for a limited time."
+  }
+]} />
+
+</Section>

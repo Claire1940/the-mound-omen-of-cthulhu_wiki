@@ -10,7 +10,15 @@
       "twitterDescription": "Explore The Mound: Omen of Cthulhu guides for co-op expeditions, weapons, sanity, contracts, treasures, enemies, maps, and survival tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "release": "Release",
+    "platforms": "Platforms",
+    "demo": "Demo",
+    "price": "Price",
+    "multiplayer": "Multiplayer",
+    "reviews": "Reviews"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -740,125 +748,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "The Mound: Omen of Cthulhu Guides",
-      "description": "Complete expedition guides from beginner basics to advanced survival, sanity and extraction strategies.",
-      "metaTitle": "The Mound: Omen of Cthulhu Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete The Mound: Omen of Cthulhu guides covering beginner tips, expeditions, sanity, weapons, contracts, enemies, and survival strategies.",
+    "guide": {
+      "title": "The Mound Omen of Cthulhu Guides",
+      "description": "Complete guides covering monsters, weapons, armor, maps, tools, items and story mode for surviving the cursed jungle.",
+      "metaTitle": "The Mound Omen of Cthulhu Guides - Monsters, Weapons & Maps",
+      "metaDescription": "Master The Mound Omen of Cthulhu with guides on monsters, weapons, armor, maps, tools, items and story mode. Survive every expedition.",
       "categoryLabel": "EXPEDITION GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering expedition mechanics, survival strategies, sanity management, and the contract system. Learn everything from your first landing to deep extractions.",
+      "whatIsDescription": "In-depth guides covering the monsters, weapons, armor, maps, tools and items you encounter across expeditions, plus a full story mode walkthrough.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand contracts, sanity, noise control and avoid common beginner mistakes",
-        "step2Title": "Survive Longer",
-        "step2Description": "Follow proven routes to protect the ox cart and return alive",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for extraction, treasure and co-op coordination"
+        "step1Title": "Learn Monsters & Weaknesses",
+        "step1Description": "Study every enemy's behavior, attack patterns and exploitable weaknesses",
+        "step2Title": "Build the Right Loadout",
+        "step2Description": "Match weapons, armor and tools to each contract and expedition",
+        "step3Title": "Navigate the Map Safely",
+        "step3Description": "Follow proven routes through forts, landmarks and extraction points"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "gear": {
-      "title": "The Mound: Omen of Cthulhu Weapons & Gear",
-      "description": "Compare bows, muskets, knives, lamps and treasure-finding tools with loadout strategies for every expedition.",
-      "metaTitle": "The Mound: Omen of Cthulhu Weapons & Gear - Loadouts Guide",
-      "metaDescription": "Master The Mound: Omen of Cthulhu weapons and gear. Compare bows, muskets, knives, lamps and loadouts for solo and co-op expeditions.",
-      "categoryLabel": "WEAPONS & GEAR",
-      "whatIs": "What is Gear?",
-      "whatIsDescription": "Detailed guides for period weapons, survival tools, lighting equipment and treasure-finding gear, including reload speed, noise risk and weather weakness.",
-      "why": "Why check gear guides?",
+    "release": {
+      "title": "The Mound Omen of Cthulhu Release Date & Launch",
+      "description": "Release date, early access, preorders and launch status for The Mound Omen of Cthulhu across all platforms.",
+      "metaTitle": "The Mound Omen of Cthulhu Release Date - Early Access & Preorders",
+      "metaDescription": "The Mound Omen of Cthulhu release date, early access, preorder bonuses and launch details. Know exactly when you can play.",
+      "categoryLabel": "RELEASE & LAUNCH",
+      "whatIs": "What is the Release Info?",
+      "whatIsDescription": "Everything about the release date, early access windows, preorder bonuses and whether the game is out yet across PC, PS5 and Xbox.",
+      "why": "Why check release info?",
       "whySteps": {
-        "step1Title": "Choose the Right Weapon",
-        "step1Description": "Match bows, muskets and knives to each expedition objective",
-        "step2Title": "Plan Team Loadouts",
-        "step2Description": "Distribute roles across navigation, combat, light and treasure",
-        "step3Title": "Adapt to Weather",
-        "step3Description": "Keep rain-proof options ready when gunpowder fails"
+        "step1Title": "Know the Exact Date",
+        "step1Description": "Track the confirmed launch date and any regional rollouts",
+        "step2Title": "Lock In Preorders",
+        "step2Description": "Claim preorder bonuses and early-access rewards before launch",
+        "step3Title": "Plan Early Access",
+        "step3Description": "Find out which editions unlock early access and for how many days"
       },
       "featured": "Featured & Essential",
-      "all": "All Gear Guides"
+      "all": "All Release Articles"
     },
-    "items": {
-      "title": "The Mound: Omen of Cthulhu Items & Resources",
-      "description": "Detailed item guides covering treasure, relics, food, water and survival resources with usage tips.",
-      "metaTitle": "The Mound: Omen of Cthulhu Items & Resources Guide",
-      "metaDescription": "Complete item database for The Mound: Omen of Cthulhu including treasure, relics, food, water and survival resources.",
-      "categoryLabel": "ITEMS & RESOURCES",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for treasure types, relics, consumables and survival resources. Learn values, uses and the best items to collect during each expedition.",
-      "why": "Why check item guides?",
+    "platforms": {
+      "title": "The Mound Omen of Cthulhu Platforms & System Requirements",
+      "description": "Available platforms (PC, PS5, Xbox, Steam), system requirements, download size and Game Pass availability.",
+      "metaTitle": "The Mound Omen of Cthulhu Platforms - PC, PS5, Xbox & Game Pass",
+      "metaDescription": "Find The Mound Omen of Cthulhu on PC, PS5, Xbox and Steam. Check system requirements, download size and Game Pass availability.",
+      "categoryLabel": "PLATFORMS & SPECS",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "Details on every platform The Mound Omen of Cthulhu runs on, including PC, PS5, Xbox Series, Steam, Game Pass, plus system requirements and download size.",
+      "why": "Why check platforms?",
       "whySteps": {
-        "step1Title": "Know Treasure Values",
-        "step1Description": "Prioritize loot that satisfies the captain's contract fastest",
-        "step2Title": "Manage Resources",
-        "step2Description": "Balance food, water and equipment for longer runs",
-        "step3Title": "Improve Survival",
-        "step3Description": "Use relics and supplies to escape dangerous situations"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare availability across PC, PS5, Xbox and Game Pass",
+        "step2Title": "Meet System Requirements",
+        "step2Description": "Confirm your PC hardware hits minimum or recommended specs",
+        "step3Title": "Check Download Size",
+        "step3Description": "Plan storage ahead with the exact install footprint"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Platform Articles"
     },
-    "maps": {
-      "title": "The Mound: Omen of Cthulhu Maps & Regions",
-      "description": "Explore jungle regions, abandoned forts, logbooks, routes and danger zones across the cursed island.",
-      "metaTitle": "The Mound: Omen of Cthulhu Maps - Regions, Forts & Routes",
-      "metaDescription": "Explore The Mound: Omen of Cthulhu maps including jungle regions, abandoned forts, logbooks, starting points and danger zones.",
-      "categoryLabel": "MAPS & REGIONS",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Guides to jungle regions, abandoned forts, logbooks, starting points and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore maps?",
+    "demo": {
+      "title": "The Mound Omen of Cthulhu Demo",
+      "description": "Demo availability, platforms, multiplayer support and whether progress carries over to the full game.",
+      "metaTitle": "The Mound Omen of Cthulhu Demo - Availability & Progress Carry-Over",
+      "metaDescription": "Try The Mound Omen of Cthulhu demo on PC, PS5 and Xbox. Learn multiplayer support, release windows and if progress carries over.",
+      "categoryLabel": "DEMO & BETA",
+      "whatIs": "What is the Demo?",
+      "whatIsDescription": "How to access The Mound Omen of Cthulhu demo, which platforms it supports, multiplayer options and whether your progress transfers to the full release.",
+      "why": "Why try the demo?",
       "whySteps": {
-        "step1Title": "Find Forts & Logbooks",
-        "step1Description": "Unlock new expedition starting points across the island",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Routes",
-        "step3Description": "Choose safe paths for the ox cart and extraction"
+        "step1Title": "Test Before You Buy",
+        "step1Description": "Experience combat and exploration before committing to a purchase",
+        "step2Title": "Try Co-op Early",
+        "step2Description": "Jump into multiplayer with friends during the demo window",
+        "step3Title": "Keep Your Progress",
+        "step3Description": "Find out whether demo progress carries into the full game"
       },
       "featured": "Featured & Essential",
-      "all": "All Maps"
+      "all": "All Demo Articles"
     },
-    "expeditions": {
-      "title": "The Mound: Omen of Cthulhu Expeditions & Contracts",
-      "description": "Master captain's contracts, treasure values, the ox cart and extraction timing for every expedition.",
-      "metaTitle": "The Mound: Omen of Cthulhu Expeditions & Contracts Guide",
-      "metaDescription": "Master The Mound: Omen of Cthulhu expeditions and contracts. Learn treasure values, ox cart management and extraction timing.",
-      "categoryLabel": "EXPEDITIONS & CONTRACTS",
-      "whatIs": "What are Expeditions?",
-      "whatIsDescription": "Guides to the contract loop, treasure requirements, ox cart escort, resource collection and the critical decision of when to extract versus push deeper.",
-      "why": "Why study expeditions?",
+    "price": {
+      "title": "The Mound Omen of Cthulhu Price & Editions",
+      "description": "Standard and Deluxe edition prices, the Lost Explorers Swords Pack and where to buy physical copies.",
+      "metaTitle": "The Mound Omen of Cthulhu Price - Editions & Physical Copies",
+      "metaDescription": "Compare The Mound Omen of Cthulhu prices across Standard, Deluxe and Lost Explorers Swords Pack editions, plus physical copy options.",
+      "categoryLabel": "PRICE & EDITIONS",
+      "whatIs": "What is the Pricing?",
+      "whatIsDescription": "A breakdown of Standard and Deluxe edition prices, the Lost Explorers Swords Pack bonus and where to find physical copies of the game.",
+      "why": "Why compare prices?",
       "whySteps": {
-        "step1Title": "Read Contracts",
-        "step1Description": "Understand treasure values and objectives before landing",
-        "step2Title": "Protect the Haul",
-        "step2Description": "Secure required treasure and move it to the ox cart",
-        "step3Title": "Time the Extraction",
-        "step3Description": "Decide when to retreat before the jungle overwhelms you"
+        "step1Title": "Pick the Right Edition",
+        "step1Description": "Compare Standard and Deluxe editions to match your budget",
+        "step2Title": "Get Bonus Content",
+        "step2Description": "Claim the Lost Explorers Swords Pack and preorder extras",
+        "step3Title": "Find Physical Copies",
+        "step3Description": "Locate retail and physical editions for collectors"
       },
       "featured": "Featured & Essential",
-      "all": "All Expedition Guides"
+      "all": "All Price Articles"
     },
-    "support": {
-      "title": "The Mound: Omen of Cthulhu Support & Performance",
-      "description": "Technical support, PC system requirements, performance optimization and platform compatibility.",
-      "metaTitle": "The Mound: Omen of Cthulhu Support - PC Specs & Performance",
-      "metaDescription": "Get technical support for The Mound: Omen of Cthulhu including PC system requirements, DLSS 4.5, performance optimization and platform guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering PC system requirements, DLSS 4.5, performance optimization, platform compatibility and common issues.",
-      "why": "Why check support?",
+    "multiplayer": {
+      "title": "The Mound Omen of Cthulhu Multiplayer & Co-op",
+      "description": "Crossplay, co-op, solo play, player count, split screen and voice chat for up to four explorers.",
+      "metaTitle": "The Mound Omen of Cthulhu Multiplayer - Crossplay, Co-op & Solo",
+      "metaDescription": "The Mound Omen of Cthulhu multiplayer explained: crossplay between PC, PS5 and Xbox, co-op for four, solo play, split screen and voice chat.",
+      "categoryLabel": "MULTIPLAYER & CO-OP",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "How co-op works for up to four explorers, crossplay between PC, PS5 and Xbox, solo viability, split screen support and voice chat options.",
+      "why": "Why check multiplayer?",
       "whySteps": {
-        "step1Title": "Check PC Specs",
-        "step1Description": "Confirm your hardware meets minimum and recommended requirements",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings and DLSS for smooth jungle visibility",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about PC, PS5 and Xbox Series X|S features"
+        "step1Title": "Set Up Crossplay",
+        "step1Description": "Connect PC, PS5 and Xbox players in the same expedition",
+        "step2Title": "Build a Co-op Team",
+        "step2Description": "Coordinate roles across navigation, combat and treasure",
+        "step3Title": "Play Solo If Needed",
+        "step3Description": "Learn how the game scales difficulty for single explorers"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Multiplayer Articles"
+    },
+    "reviews": {
+      "title": "The Mound Omen of Cthulhu Reviews & Performance",
+      "description": "Critical reviews, Left 4 Dead and Hunt Showdown comparisons, and technical performance across platforms.",
+      "metaTitle": "The Mound Omen of Cthulhu Reviews - Performance & Comparisons",
+      "metaDescription": "Read The Mound Omen of Cthulhu reviews and performance analysis, plus how it compares to Left 4 Dead and Hunt Showdown.",
+      "categoryLabel": "REVIEWS & PERFORMANCE",
+      "whatIs": "What are Reviews?",
+      "whatIsDescription": "Critical reception, technical performance across PC, PS5 and Xbox, and how The Mound Omen of Cthulhu compares to Left 4 Dead and Hunt Showdown.",
+      "why": "Why read reviews?",
+      "whySteps": {
+        "step1Title": "See Critical Reception",
+        "step1Description": "Read what critics and players say about the launch",
+        "step2Title": "Check Performance",
+        "step2Description": "Review frame rates, stability and optimization per platform",
+        "step3Title": "Compare Similar Games",
+        "step3Description": "Measure it against Left 4 Dead and Hunt Showdown"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Reviews"
     }
   }
 }

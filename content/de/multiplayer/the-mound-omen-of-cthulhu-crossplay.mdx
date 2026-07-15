@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Crossplay: Setup-Guide & Multiplayer-Features",
+  description: "Erfahre, wie du The Mound: Omen of Cthulhu Crossplay für PC, PS5 und Xbox einrichtest. Entdecke Koop-Rollen, räumlichen Voice-Chat und geteilte Missionsmechaniken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Crossplay+and+Co-op+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team",
+  keywords: "The Mound Omen of Cthulhu, Crossplay, Multiplayer, Koop, Setup-Guide, PS5, Xbox, PC"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **The Mound: Omen of Cthulhu Crossplay** unterstützt Online-Koop für **1–4 Spieler** auf PC, PlayStation 5 und Xbox Series X|S.
+- **Xbox Play Anywhere** ermöglicht nahtloses plattformübergreifendes Spielen zwischen Windows PC, Xbox-Konsolen und Cloud Gaming.
+- **Räumlicher Voice-Chat** ist das primäre Kommunikationsmittel, wird jedoch verzerrt, wenn deine geistige Gesundheit (Sanity) während der Expeditionen sinkt.
+- **Rollenverteilung** ist entscheidend; Trupps müssen einen Navigator, einen Karren-Verteidiger und Kampfspezialisten zuweisen, bevor sie die Galeone verlassen.
+- **Gemeinsamer Fortschritt** stellt sicher, dass nur der Host Zugriff auf DLC-Missionen wie den Tempel von Yig benötigt, damit die gesamte Gruppe spielen kann.
+</Callout>
+
+<Section icon={Target} title="The Mound: Omen of Cthulhu Crossplay und Multiplayer-Übersicht">
+
+Der Launch von **The Mound: Omen of Cthulhu Crossplay** am 15. Juli 2026 hat das Extraction-Horror-Genre neu definiert, indem er Entdecker auf PC, PS5 und Xbox Series X|S vereint, um gegen Lovecraft’sche Schrecken anzutreten. Im Gegensatz zu traditionellen Shootern betont dieses Erlebnis psychologische Koordination gegenüber reiner Feuerkraft. Egal, ob du allein oder mit einem vollen Vierer-Trupp durch den verfluchten Dschungel navigierst, das Spiel skaliert seine Bedrohungen basierend auf deiner Teamgröße und dem Lärmpegel.
+
+**Video-Highlights:**
+- Übersicht über den kooperativen Expeditionszyklus für 4 Spieler.
+- Demonstration der Ochsenkarren-Eskortmechanik und der Schatzsuche.
+- Visuelle Beispiele für umgebungsbedingte Wahnsinnsverzerrungen in einer Gruppe.
+- Kampf-Showcase mit epochengerechten Waffen wie der Luntenschlossmuskete.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay-Übersicht" />
+
+Multiplayer-Sitzungen beginnen an Bord der Galeone *Tempestad*, die als sozialer Hub dient, in dem Spieler Verträge auswählen und begrenzte Ressourcen aufteilen. Da der Dschungel auf jedes Geräusch reagiert, ist plattformübergreifende Kommunikation der entscheidende Unterschied zwischen einer erfolgreichen Extraktion und einer totalen Auslöschung des Trupps. Das Spiel nutzt eine hochentwickelte Netzwerkschicht, die Steam, den Epic Games Store und Konsolen-Ökosysteme überbrückt, um sicherzustellen, dass die Spielersuche unabhängig von deiner bevorzugten Hardware schnell erfolgt.
+
+<Callout type="success" title="Plattform-Synergie">
+Spieler im Xbox-Ökosystem profitieren von Xbox Play Anywhere, was bedeutet, dass ein einziger Kauf Zugriff auf Konsole und PC gewährt, inklusive geteilter Speicherstände und plattformübergreifender Einladungen.
+</Callout>
+
+| Feature | Unterstützungsstatus | Details |
+| :--- | :--- | :--- |
+| **Max. Spieler** | 4 Spieler | Unterstützt Sitzungen mit 1, 2, 3 oder 4 Spielern |
+| **Crossplay** | Volle Unterstützung | PC (Steam/Epic), PS5 und Xbox Series X\|S |
+| **Cross-Progression** | Teilweise | Bestätigt für Xbox/Windows PC via Play Anywhere |
+| **Voice-Chat** | Räumlich | Lautstärke und Richtung hängen von der Position des Spielers ab |
+| **Matchmaking** | Öffentlich/Privat | Tritt zufälligen Entdeckern bei oder hoste eine private Lobby |
+
+</Section>
+
+<Section icon={Map} title="So richtest du Crossplay-Expeditionen ein">
+
+Die Einrichtung von **The Mound: Omen of Cthulhu Crossplay** erfordert einige anfängliche Schritte, um sicherzustellen, dass deine Freundesliste über verschiedene Storefronts hinweg synchronisiert ist. Da das Spiel von Nacon veröffentlicht und vom ACE Team entwickelt wurde, nutzt es ein internes Kontoverknüpfungssystem, um Einladungen zwischen PlayStation-, Xbox- und PC-Nutzern zu verwalten.
+
+<Steps>
+  <Step num="1" title="Verknüpfe deine Konten">
+    Starte das Spiel und navigiere zum Menü "Soziales". Du wirst aufgefordert, dein Plattform-Konto (Steam, PSN oder Xbox) mit einer Nacon-ID zu verknüpfen. Dies dient als Brücke für plattformübergreifende Freundschaftsanfragen.
+  </Step>
+  <Step num="2" title="Sende Freundschaftseinladungen">
+    Verwende die Funktion "Nach ID suchen", um deine Freunde zu finden. Du benötigst deren eindeutige Nacon-ID, die aus einem Namen und einem vierstelligen Suffix besteht. Sobald sie die Anfrage annehmen, erscheinen sie in deiner In-Game-Freundesliste, unabhängig von ihrer Plattform.
+  </Step>
+  <Step num="3" title="Bilde eine Gruppe auf der Galeone">
+    Lade deine Freunde zu deiner Sitzung ein, während ihr euch noch an Bord der *Tempestad* befindet. Es wird dringend empfohlen, die Gruppe zu bilden, bevor ein Vertrag ausgewählt wird, da das Spiel den Schwierigkeitsgrad und die Ressourcenverfügbarkeit basierend auf der anfänglichen Gruppengröße skaliert.
+  </Step>
+  <Step num="4" title="Überprüfe die Audio-Einstellungen">
+    Stelle sicher, dass der "Räumliche Voice-Chat" aktiviert ist. In einer Crossplay-Umgebung ist dies für die "Realitätscheck"-Mechanik unerlässlich, bei der du Sichtungen verbal mit Teamkollegen bestätigen musst, um zwischen echten Monstern und Halluzinationen zu unterscheiden.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Einladungs-Tipp">
+Wenn du auf Steam spielst und deine Freunde im Epic Games Store sind, kannst du auch dein Epic-Konto im Einstellungsmenü verknüpfen, um deine EGS-Freundesliste direkt im Spiel zu sehen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trupprollen und Ausrüstungsverteilung">
+
+In **The Mound: Omen of Cthulhu Crossplay** wird Erfolg nicht an individuellen Kills gemessen, sondern an der Fähigkeit des Teams, den "Extraktionszyklus" aufrechtzuerhalten. Die Ausrüstung ist begrenzt, und der Kapitän der *Tempestad* stellt nicht für jeden Entdecker ein komplettes Set zur Verfügung. Dies zwingt die Spieler dazu, sich auf bestimmte Rollen zu spezialisieren.
+
+<CardGrid cols={3}>
+  <Card title="Der Navigator">
+    - **Hauptwerkzeug**: Kompass und Fort-Logbücher
+    - **Fokus**: Verfolgung der Route zurück zur Galeone
+    - **Kampf**: Trägt meist einen Bogen für leise Verteidigung
+  </Card>
+  <Card title="Der Karren-Verteidiger">
+    - **Hauptwerkzeug**: Öllampe und Nahkampf-Backup
+    - **Fokus**: Schutz des Ochsenkarrens vor Hinterhalten
+    - **Kampf**: Durchschlagskräftige Luntenschlossmuskete für Notfälle
+  </Card>
+  <Card title="Der Späher/Sammler">
+    - **Hauptwerkzeug**: Schatzsucher-Medaillon
+    - **Fokus**: Lokalisierung von Tulu-Metall und Ressourcen
+    - **Kampf**: Steinschlosspistole und Messer für schnelle Angriffe
+  </Card>
+</CardGrid>
+
+Effektive Teams verteilen ihre Waffen basierend auf den Wetterbedingungen. Da Musketen und Pistolen auf trockenes Schießpulver angewiesen sind, versagen sie oft während der häufigen tropischen Regenschauer des verfluchten Dschungels. Ein ausgewogener Crossplay-Trupp stellt sicher, dass mindestens zwei Mitglieder jederzeit regenbeständige Waffen wie Bögen oder Messer tragen.
+
+| Rolle | Kernausrüstung | Beste Waffe | Verantwortung |
+| :--- | :--- | :--- | :--- |
+| **Navigator** | Karte/Kruzifix | Bogen (Lautlos) | Pfadfindung und Stresserkennung |
+| **Verteidiger** | Laterne/Schild | Luntenschloss (Schwer) | Karrenschutz und Gebietsverteidigung |
+| **Späher** | Medaillon | Steinschloss (Burst) | Ressourcensammlung und Plündern |
+| **Unterstützer** | Wasser/Fleisch | Messer (Zuverlässig) | Heilung und Ausdauermanagement |
+
+<Callout type="tip" title="Waffendisziplin">
+Lass nicht alle Spieler gleichzeitig ihre Musketen abfeuern. Das Geräusch eines einzelnen Schusses kann den "Dschungel wecken", aber vier Schüsse gleichzeitig werden fast sicher eine massive Belagerung durch Untote auslösen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wahnsinnsmechaniken im Koop-Modus">
+
+Der einzigartigste Aspekt von **The Mound: Omen of Cthulhu Crossplay** ist die Interaktion des Wahnsinnssystems mit dem Multiplayer. Im Gegensatz zu anderen Horrorspielen, in denen jeder dieselben Jump-Scares sieht, nutzt The Mound "Wahrnehmungsverzerrung". Das bedeutet, dass zwei Spieler, die an derselben Stelle stehen, völlig unterschiedliche Umgebungen sehen können.
+
+Wenn die geistige Gesundheit sinkt, könnte ein Spieler einen Teamkollegen als schlurfendes Monster wahrnehmen. Ohne klare Kommunikation führt dies oft zu "Friendly Fire"-Zwischenfällen. Der räumliche Voice-Chat spiegelt dies wider: Wenn die Sanity eines Teamkollegen niedrig ist, könnte seine Stimme fern, verzerrt oder durch Flüstern ersetzt klingen, was die Koordination erschwert.
+
+**Häufige Wahnsinnsverzerrungen im Multiplayer:**
+- **Falsche Hörner**: Ein Spieler hört das Extraktionshorn, während der Rest des Trupps Stille hört.
+- **Phantom-Teamkameraden**: Die Sichtung eines fünften "Entdeckers", der der Gruppe folgt, aber nicht wirklich da ist.
+- **Blutregen**: Ein lokaler Wettereffekt, der nur die Sicht eines Spielers trübt.
+- **Geländeveränderung**: Ein Pfad, der für den Navigator sicher aussieht, könnte für einen traumatisierten Späher wie eine Grube voller Tentakel erscheinen.
+
+<Callout type="warning" title="Realitätscheck-Protokoll">
+Wenn du eine Bedrohung siehst, verwende immer den Callout "Ziel bestätigen". Wenn deine Teamkollegen dieselbe Kreatur nicht sehen, ist es wahrscheinlich eine Halluzination. Verschwende keine kostbare Munition an Schatten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Editionen und geteilte Inhalte">
+
+Beim Spielen von **The Mound: Omen of Cthulhu Crossplay** fragen sich Spieler oft, wie sich verschiedene Spiel-Editionen auf das Multiplayer-Erlebnis auswirken. Das ACE Team hat eine "Host-Side Content"-Richtlinie implementiert, die sehr freundlich für Gruppen ist, in denen nur eine Person in die Deluxe Edition investieren möchte.
+
+| Feature | Standard Edition | Deluxe Edition | Auswirkung auf Multiplayer |
+| :--- | :--- | :--- | :--- |
+| **Basispreis** | 29,99 $ | 39,99 $ | Keine Auswirkung auf Matchmaking |
+| **Glücksjäger** | Nicht enthalten | 2 zusätzliche Charaktere | Nur kosmetisch; kein Statusvorteil |
+| **Abyssale Ausrüstung** | Nicht enthalten | Cthulhu-Skins | Rein visuell für Waffen/Lampen |
+| **Tempel von Yig** | Nicht enthalten | Exklusive Mission | **Geteilt**: Nur der Host benötigt dies |
+| **Soundtrack** | Nicht enthalten | Digitaler Download | Keine Auswirkung auf das Gameplay |
+
+Dieses System stellt sicher, dass die Community nicht durch DLCs gespalten wird. Wenn der Host der Expedition die Deluxe Edition besitzt, kann der gesamte 4-Spieler-Trupp am Vertrag "Tempel von Yig" teilnehmen, selbst wenn die anderen drei Spieler nur die Standard Edition besitzen.
+
+<Callout type="info" title="Launch-Bonus">
+Steam-Spieler, die das "Lost Explorers' Swords Pack" in den ersten zwei Wochen nach dem Launch beansprucht haben, können diese verzierten Nahkampf-Skins in Crossplay-Sitzungen mit Konsolenspielern verwenden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für die Expeditionsbereitschaft">
+
+Bevor du und dein Crossplay-Trupp die *Tempestad* verlassen und den Dschungel betreten, nutze diese Checkliste, um sicherzustellen, dass ihr auf die kommenden Schrecken vorbereitet seid. Ein einziger vergessener Gegenstand kann zum Scheitern des Vertrags führen.
+
+<Checklist
+  id="expedition-prep"
+  title="Checkliste vor dem Aufbruch:"
+  items={[
+    "Überprüfen, ob alle 4 Spieler ihre Nacon-IDs für plattformübergreifende Stabilität verknüpft haben",
+    "Mindestens einen Spieler zuweisen, der die Öllampe für dunkle Ruinen trägt",
+    "Bestätigen, dass der Navigator einen Bogen für lautlose Kills dabei hat",
+    "Wettervorhersage prüfen; bei Regen Nahkampf und Bögen priorisieren",
+    "Ein 'Rückzugssignal' vereinbaren, falls die Sanity-Werte kritisch werden",
+    "Sicherstellen, dass der Karren-Verteidiger genug Luntenschloss-Munition für eine Belagerung hat"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer FAQ">
+
+<FAQ items={[
+  {
+    question: "Unterstützt The Mound: Omen of Cthulhu Crossplay lokalen Splitscreen?",
+    answer: "Nein, das Spiel ist ausschließlich für Online-Koop konzipiert. Jeder Spieler benötigt sein eigenes Gerät und eine Kopie des Spiels, um an Expeditionen teilzunehmen."
+  },
+  {
+    question: "Kann ich solo spielen, wenn meine Freunde nicht online sind?",
+    answer: "Ja, es gibt einen vollständigen Einzelspielermodus. Der Schwierigkeitsgrad ist jedoch hoch, da du den Karren, die Navigation und den Kampf ganz allein bewältigen musst, ohne einen 'Realitätscheck' durch Teamkollegen."
+  },
+  {
+    question: "Wie handhabt der räumliche Voice-Chat Crossplay?",
+    answer: "Das Spiel nutzt eine integrierte Voice-Lösung auf Engine-Ebene, die über PC, PS5 und Xbox hinweg funktioniert. Du benötigst keine externen Apps wie Discord, obwohl diese unterstützt werden, falls du privaten Chat dem immersiven räumlichen System vorziehst."
+  },
+  {
+    question: "Was passiert, wenn ein Teamkollege während einer Crossplay-Sitzung stirbt?",
+    answer: "Wenn ein Entdecker stirbt und nicht wiederbelebt wird, kann er als 'Verderbter Entdecker' zurückkehren – eine feindselige untote Einheit, die den verbleibenden Trupp jagt. Es ist immer besser, Wiederbelebungen zu priorisieren, als eine Leiche zurückzulassen."
+  }
+]} />
+
+</Section>

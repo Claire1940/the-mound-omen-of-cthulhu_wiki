@@ -1,0 +1,170 @@
+import { Users, Shield, Brain, Sword, FileText, Target, Map, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "the mound omen of cthulhu how many players: Guía de Configuración Multijugador y Solitario",
+  description: "Descubre cuántos jugadores pueden unirse a una expedición en The Mound: Omen of Cthulhu. Explora el juego en solitario, cooperativo de 4 jugadores, juego cruzado y roles de equipo para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a2a2a/fff?text=Multiplayer+Setup+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de the mound omen of cthulhu"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Número de jugadores**: Soporta de **1 a 4 jugadores** en cooperativo en línea o modo solitario sin conexión.
+- **Plataformas**: Disponible en **PC (Steam/Epic), PlayStation 5 y Xbox Series X|S**.
+- **Bucle de juego**: Los equipos seleccionan contratos, protegen un **carro de bueyes** y extraen tesoros de una jungla maldita.
+- **Sistema de cordura**: La locura extrema provoca **alucinaciones**, haciendo que los compañeros de equipo se vean como monstruos entre sí.
+- **Juego cruzado**: Soporte confirmado entre **Xbox y PC** a través de Xbox Play Anywhere y Epic Games Store.
+</Callout>
+
+<Section icon={Users} title="the mound omen of cthulhu how many players: Modos y Límites">
+
+Entender cuántos jugadores (**how many players**) pueden participar en **The Mound: Omen of Cthulhu** es esencial para planificar tu primera expedición en la jungla maldita. Desarrollado por ACE Team y publicado por Nacon, este juego de terror de extracción lovecraftiano está diseñado en torno a un sistema de escuadrón flexible. Tanto si prefieres el aislamiento de una experiencia de supervivencia en solitario como la caótica coordinación de un equipo completo de cuatro personas, el juego adapta sus desafíos en consecuencia.
+
+El juego soporta oficialmente de **1 a 4 jugadores**. A diferencia de muchos shooters de extracción tradicionales que obligan a los jugadores a emparejarse en tamaños de grupo específicos, este título te permite adentrarte en la jungla con cualquier número de compañeros hasta el límite máximo. Esta flexibilidad es vital porque la dificultad del juego depende en gran medida de la gestión de recursos, el control del ruido y la estabilidad psicológica, más que de la simple fuerza de combate.
+
+| Característica | Juego en Solitario | Cooperativo de 2-4 Jugadores |
+| :--- | :--- | :--- |
+| **Mecánica de Reanimación** | Sin compañeros para ayudarte | Posible si no estás corrompido |
+| **División de Recursos** | Te quedas con todo | Compartido entre el escuadrón |
+| **Pruebas de Cordura** | Alto riesgo de colapso total | Los compañeros pueden verificar la realidad |
+| **Protección del Carro** | Extremadamente difícil | Posibilidad de un defensor dedicado |
+| **Escalado de Dificultad** | Densidad de enemigos reducida | Escalado dinámico según el número |
+
+<Callout type="success" title="Consejo de Sinergia de Escuadrón">
+Aunque el juego en solitario es posible, se recomienda encarecidamente un **equipo de 3 o 4 jugadores** para los principiantes. Tener manos adicionales permite que una persona se concentre por completo en el carro de bueyes mientras los demás exploran en busca de tesoros y gestionan las amenazas de la jungla.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Roles Cooperativos y Responsabilidades del Equipo">
+
+In una expedición de cuatro jugadores, el éxito depende de la división del trabajo. La jungla reacciona a cada sonido y movimiento, lo que significa que un grupo desorganizado atraerá rápidamente a la "Jungla Viviente" o a los "Vagabundos No Muertos". Asignar roles antes de zarpar del galeón *Tempestad* garantiza que las herramientas críticas, como la lámpara de aceite y el medallón detector de tesoros, se distribuyan de manera efectiva.
+
+<CardGrid cols={2}>
+  <Card title="El Navegante">
+    - **Herramienta Principal**: Mapas y cuadernos de bitácora de fuertes.
+    - **Deber**: Guía al grupo hacia los puntos de extracción y fuertes abandonados.
+    - **Enfoque**: Trazar la ruta de regreso al barco y evitar callejones sin salida.
+  </Card>
+  <Card title="El Defensor del Carro">
+    - **Herramienta Principal**: Armas de fuego pesadas (Llave de mecha/Pedernal).
+    - **Deber**: Permanece al alcance de la mano del carro de bueyes en todo momento.
+    - **Enfoque**: Proteger el tesoro del contrato frente a amenazas físicas.
+  </Card>
+  <Card title="El Explorador">
+    - **Herramienta Principal**: Arco y cuchillos silenciosos.
+    - **Deber**: Despeja la vegetación y elimina centinelas en silencio.
+    - **Enfoque**: Mantener el sigilo para evitar que la jungla se altere.
+  </Card>
+  <Card title="El Especialista de Utilidad">
+    - **Herramienta Principal**: Lámpara de aceite y medallón de tesoros.
+    - **Deber**: Gestiona la visibilidad e identifica el valioso metal Tulu.
+    - **Enfoque**: Maximizar el valor del botín manteniendo la cohesión del equipo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="La Comunicación es Clave">
+El juego utiliza **chat de voz espacial**. Si te alejas demasiado de tus compañeros, sus voces se desvanecerán o cambiarán de dirección. Esta es una mecánica deliberada diseñada para aumentar la tensión cuando la niebla se espesa.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="El Impacto de la Cordura en el Multijugador">
+
+El aspecto más singular de la experiencia multijugador es el Sistema de Cordura. A medida que los jugadores pasan tiempo en la jungla, su percepción de la realidad comienza a fracturarse. Crucialmente, estas alucinaciones son **privadas**. Un jugador puede ver a un compañero como un monstruo, mientras que otro ve que la jungla sangra. Esto crea una "pesadilla de desconfianza" donde los jugadores deben usar el chat de voz para verificar qué es real.
+
+| Tipo de Alucinación | Efecto en el Multijugador | Contramedida |
+| :--- | :--- | :--- |
+| **Falsos Compañeros** | Ver a un 5.º jugador en la niebla | Usar comprobaciones de voz de "Llamada y Respuesta" |
+| **Desplazamiento de Monstruos** | Los compañeros parecen no muertos | Verificar la posición antes de disparar |
+| **Falsas Llamadas de Cuerno** | Escuchar el carro en el lugar equivocado | Verificar la ubicación del carro con el Navegante |
+| **Lluvia de Sangre** | Distorsión visual y tinte rojo | Agruparse y esperar a que pase el "evento" |
+
+<Callout type="warning" title="Advertencia de Fuego Amigo">
+La locura severa puede hacer que el modelo de personaje de un compañero se transforme en una criatura hostil. Antes de disparar tu arma de pedernal a un "monstruo", confirma siempre su identidad a través del chat de voz espacial. Un solo disparo de pánico puede provocar la eliminación de todo el escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Sword} title="Distribución de Armas y Equipamiento">
+
+Las armas en *The Mound: Omen of Cthulhu* están inspiradas en la tecnología del siglo XVII. Estas herramientas son lentas de recargar y muy sensibles al entorno. En un entorno cooperativo, nunca deberías tener a todos los jugadores llevando el mismo tipo de arma. La lluvia puede inutilizar la pólvora, por lo que es esencial que al menos un jugador se concentre en el combate cuerpo a cuerpo o la arquería.
+
+| Arma | Categoría | Pros | Contras |
+| :--- | :--- | :--- | :--- |
+| **Arco** | Distancia Silencioso | Funciona bajo la lluvia, recarga rápida | Menor poder de parada |
+| **Mosquete de Pedernal** | Arma de Emergencia | Gran daño, detiene embestidas | Ruidoso, recarga lenta, falla con lluvia |
+| **Cuchillo** | Cuerpo a Cuerpo Sigiloso | No requiere munición, silencioso | Alto riesgo, corto alcance |
+| **Mosquete de Mecha** | Arma Pesada | Daño extremo para jefes | Muy ruidoso, requiere clima seco |
+
+<Callout type="info" title="Gestión de Recursos">
+El Capitán suministra una cantidad limitada de equipo para cada contrato. Deben decidir en equipo quién se queda con los mosquetes y quién lleva los arcos. Distribuir la munición correctamente marca la diferencia entre una extracción exitosa y una retirada desesperada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comenzando tu Primera Expedición">
+
+Si estás listo para comenzar, sigue estos pasos para configurar tu sala y prepararte para tu primer contrato. Recuerda que el progreso del anfitrión determina qué contratos están disponibles, pero todos los jugadores comparten las recompensas y el progreso desbloqueado durante la misión.
+
+<Steps>
+  <Step num="1" title="Forma tu Sala">
+    Invita hasta a tres amigos a través de la interfaz de Steam, Epic o Xbox. Asegúrate de que todos estén en la sala antes de que el anfitrión seleccione un contrato de la mesa del Capitán.
+  </Step>
+  <Step num="2" title="Selecciona un Contrato del Capitán">
+    Revisa los requisitos del tesoro y el destino. Los principiantes deben elegir rutas más cortas con cuotas de tesoro más bajas para aprender las mecánicas del carro de bueyes.
+  </Step>
+  <Step num="3" title="Equipa al Escuadrón">
+    A bordo del galeón *Tempestad*, dividan las armas y herramientas proporcionadas. Asegúrate de que al menos una persona tenga una **Lámpara de Aceite** y otra tenga un **Arco** para eliminaciones silenciosas.
+  </Step>
+  <Step num="4" title="Despliéguense en la Jungla">
+    Viajen a la orilla. Una vez que desembarquen, el carro de bueyes seguirá al grupo. Tu objetivo principal es llenar el carro con suficiente tesoro para cumplir el contrato.
+  </Step>
+  <Step num="5" title="Extraigan con Seguridad">
+    Una vez alcanzada la cuota, regresen al punto de extracción. Decidan en equipo si se adentran más para obtener reliquias opcionales o si aseguran el botín actual.
+  </Step>
+</Steps>
+
+<Checklist
+  id="expedition-prep"
+  title="Lista de Verificación antes de Partir:"
+  items={[
+    "Asignado un Defensor del Carro dedicado",
+    "Al menos dos jugadores tienen armas a prueba de lluvia (Arco/Cuchillo)",
+    "Acordada una 'Señal de Retirada' para situaciones de alta locura",
+    "Verificado que el chat de voz espacial de todos funcione correctamente",
+    "Confirmado el objetivo principal del contrato"
+  ]}
+/>
+
+</Section>
+
+<Section icon={FileText} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores pueden jugar juntos a The Mound: Omen of Cthulhu?",
+    answer: "El juego soporta de 1 a 4 jugadores en cooperativo en línea. Puedes jugar completamente solo o con un escuadrón de dos, tres o cuatro exploradores."
+  },
+  {
+    question: "¿El juego es compatible con el juego cruzado (crossplay)?",
+    answer: "Sí. El juego cruzado está soportado entre PC (Steam y Epic Games Store) y Xbox Series X|S. La versión de Xbox también es compatible con Xbox Play Anywhere para el progreso cruzado entre PC y consola."
+  },
+  {
+    question: "¿Puedo jugar al juego sin conexión y en solitario?",
+    answer: "Sí, hay un modo completo para un jugador disponible para quienes quieran experimentar el horror lovecraftiano en solitario. Sin embargo, la dificultad no elimina la necesidad de gestionar el carro de bueyes y la cordura."
+  },
+  {
+    question: "¿Qué pasa si un compañero de equipo muere durante una expedición?",
+    answer: "Si un compañero muere y no es reanimado, puede regresar como un 'Explorador Corrompido', una entidad no muerta hostil que caza a los supervivientes restantes. Siempre es mejor priorizar las reanimaciones."
+  }
+]} />
+
+</Section>

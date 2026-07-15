@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Monstruos de The Mound Omen of Cthulhu: Bestiario y Guía de Combate",
+  description: "Domina el combate contra los monstruos de The Mound: Omen of Cthulhu. Aprende sus debilidades, patrones de comportamiento y tácticas de supervivencia en equipo en este horror cooperativo de Cthulhu.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/111827/33C1A0?text=Monsters+and+Bestiary+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, monstruos, bestiario, guía de combate, horror cooperativo, supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Amenaza principal**: Comprender el comportamiento de los **monstruos de The Mound: Omen of Cthulhu** es clave para sobrevivir a las expediciones.
+- **Mecánicas de cordura**: El estrés alto y la baja cordura distorsionan la apariencia de los enemigos, convirtiendo a los aliados en ilusiones aterradoras.
+- **Estrategia de combate**: Prioriza armas silenciosas como los arcos para evitar despertar a la jungla y atraer hordas masivas de no muertos.
+- **Verificación de percepción**: Verifica siempre las siluetas distantes con el chat de voz espacial antes de abrir fuego contra posibles aliados.
+</Callout>
+
+<Section icon={Swords} title="Descripción General de los Monstruos de The Mound Omen of Cthulhu">
+
+Sobrevivir a las junglas malditas de *The Mound: Omen of Cthulhu* requiere más que simple potencia de fuego. La isla reacciona dinámicamente a tu presencia, lo que significa que cada disparo, carrera o liana cortada aumenta el nivel de amenaza local. Las entidades hostiles que encontrarás se dividen en amenazas físicas, guardianes reanimados y horrores psicológicos nacidos de tu cordura decadente.
+
+**Puntos Destacados del Video:**
+- **Guardianes de la Jungla**: Cómo los Centinelas Y'm-bhi vigilan y acechan a los jugadores para generar estrés.
+- **Hordas de No Muertos**: El costo de hacer ruido y activar ataques grupales masivos.
+- **Distorsiones de Percepción**: Cómo la pérdida de cordura hace que los compañeros de equipo parezcan criaturas hostiles.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Para sobrevivir a las expediciones, las tripulaciones deben aprender a identificar las amenazas mediante sus señales visuales y advertencias auditivas. La siguiente tabla resume las clasificaciones hostiles principales que enfrentarás durante los contratos.
+
+| Clase de Monstruo | Nivel de Amenaza | Comportamiento Principal | Debilidad Común |
+|---|---|---|---|
+| **Centinelas Y'm-bhi** | Alto | Acecha a los jugadores, genera estrés, se reposiciona | Crucifijo, luz brillante |
+| **Vagabundos No Muertos** | Medio | Deambulan en grupos, atraídos por el ruido | Tiros a la cabeza, armas cuerpo a cuerpo |
+| **Exploradores Corrompidos** | Alto | Caza agresiva de antiguos compañeros de equipo | Fuego concentrado rápido |
+| **Falsos Compañeros** | Especial | Imita siluetas de jugadores para aislar objetivos | Verificación por voz espacial |
+| **Espectros** | Medio | Aparecen cerca del carro de bueyes al bajar la cordura | Cohesión grupal, cordura alta |
+
+<Callout type="warning" title="Advertencia de Sonido">
+Cada monstruo físico en la jungla reacciona al ruido. Disparar un mosquete puede neutralizar a un solo objetivo, pero el sonido resultante puede alertar a los Vagabundos No Muertos cercanos, provocando la eliminación inmediata del escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Amenazas de Acecho: Guía de Centinelas Y'm-bhi">
+
+Los Centinelas Y'm-bhi son los antiguos guardianes reanimados de la jungla. A diferencia de los no muertos estándar, no siempre cargan al verte. En su lugar, ponen a prueba tu distancia, rastrean tus movimientos desde el denso follaje y aumentan activamente tus niveles de estrés.
+
+| Variante de Centinela | Señales de Advertencia | Reglas Especiales | Contramedida |
+|---|---|---|---|
+| **Centinela Explorador** | Susurros, ojos brillantes | Se retira para atraer jugadores a emboscadas | Usa un crucifijo para leer niveles de estrés |
+| **Centinela de Linterna** | Luz parpadeante, pasos pesados | Inmune a tácticas de cegado por luz | Mantén la distancia, usa disparos silenciosos de arco |
+| **Centinela de Fuego** | Madera crujiendo, humo | Puede prenderse fuego y cargar contra el escuadrón | Elimínalo rápido antes de que llegue al cuerpo a cuerpo |
+
+Para lidiar con estos depredadores inteligentes, los equipos deben coordinar su posicionamiento y utilizar herramientas especializadas.
+
+<Steps>
+  <Step num="1" title="Escanear con el Crucifijo">
+    Equipa tu crucifijo para detectar Centinelas Y'm-bhi ocultos en la maleza. El crucifijo revela sus niveles de estrés y te ayuda a determinar si se están preparando para retirarse o atacar.
+  </Step>
+  <Step num="2" title="Usar la Luz como Arma">
+    Apunta tu lámpara de aceite a los Centinelas estándar para cegarlos temporalmente. Esto interrumpe su comportamiento de acecho y crea una oportunidad para una eliminación silenciosa cuerpo a cuerpo.
+  </Step>
+  <Step num="3" title="Confirmar la Eliminación">
+    Ten en cuenta que la jungla viviente puede reanimar los cuerpos caídos de los Y'm-bhi. No te demores cerca de centinelas derrotados y aleja tu carro de bueyes del área inmediatamente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Tácticas contra Centinelas">
+Si un Centinela Y'm-bhi lleva su propia linterna, no intentes cegarlo con tu lámpara de aceite. La fuente de luz anula el efecto de cegado. Concéntrate en ataques a distancia con el arco en su lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Horrores Ambientales y Psicológicos">
+
+La isla misma es una entidad viva que utiliza tu mente como arma contra ti. A medida que tu grupo de expedición pasa más tiempo en la jungla, la cordura colectiva decae, introduciendo amenazas subjetivas que solo ciertos jugadores pueden ver.
+
+<CardGrid cols={3}>
+  <Card title="La Jungla Viviente">
+    - **Niebla volumétrica densa**
+    - Flora roja pulsante y luna roja
+    - **Aumento de la tasa de aparición de enemigos**
+  </Card>
+  <Card title="Falsos Compañeros">
+    - **Imita siluetas de aliados**
+    - Atrae a los jugadores lejos del carro
+    - **Desaparece al ser inspeccionado de cerca**
+  </Card>
+  <Card title="Espectros y Apariciones">
+    - **Acecha la ruta del carro de bueyes**
+    - Causa distorsiones de audio localizadas
+    - **Requiere cohesión grupal para disiparse**
+  </Card>
+</CardGrid>
+
+Gestionar estas ilusiones requiere un cumplimiento estricto de los protocolos de comunicación.
+
+| Tipo de Ilusión | Indicador Visual | Señal Auditiva | Respuesta Correcta |
+|---|---|---|---|
+| **Monstruo Amigo** | El aliado aparece como un monstruo | Chat de voz distorsionado | Di su nombre, espera respuesta de voz |
+| **Falsa Bocina del Carro** | Silueta fantasmal del carro | Bocina distante y amortiguada | Revisa el mapa, verifica con el defensor del carro |
+| **Terreno Sangrante** | Suelo rojo, lluvia de sangre | Pasos chapoteantes | Deja que los jugadores con cordura alta guíen |
+
+<Callout type="success" title="Recuperación de Cordura">
+Permanecer cerca del camino iluminado por la lámpara de aceite y mantener al escuadrón en una formación cerrada son las formas más efectivas de ralentizar la pérdida de cordura y prevenir alucinaciones visuales.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Supervivencia en Expedición">
+
+Antes de abandonar el galeón Tempestad, asegúrate de que tu tripulación esté completamente preparada para manejar tanto los monstruos físicos como las tensiones mentales de la jungla.
+
+<Checklist
+  id="monster-survival-goals"
+  title="Lista de Verificación Pre-Expedición:"
+  items={[
+    "Asigna a un jugador como explorador dedicado al combate silencioso con arco",
+    "Distribuye al menos dos lámparas de aceite entre diferentes jugadores",
+    "Establece un protocolo claro de llamada y respuesta para confirmación visual",
+    "Acuerda un activador de retirada inmediata si los niveles de cordura se fracturan",
+    "Mantén la ruta del carro de bueyes despejada de follaje denso para evitar emboscadas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito que los monstruos de The Mound: Omen of Cthulhu se reanimen?",
+    answer: "Algunos monstruos, particularmente los Centinelas Y'm-bhi, pueden ser reanimados por la jungla viviente. La mejor manera de manejar esto es evitar el combate innecesario por completo, completar tu contrato rápidamente y extraer antes de que el nivel de corrupción de la jungla alcance su punto máximo."
+  },
+  {
+    question: "¿Puedo usar armas de fuego como el mosquete de chispa contra todos los monstruos?",
+    answer: "Aunque los mosquetes ofrecen un gran poder de detención, son extremadamente ruidosos y atraerán a los Vagabundos No Muertos cercanos. Además, las armas de pólvora pueden fallar completamente durante las tormentas de lluvia. Mantén un arco o un cuchillo como respaldo silencioso y resistente al clima."
+  },
+  {
+    question: "¿Qué debo hacer si un compañero de equipo parece un monstruo?",
+    answer: "No dispares de inmediato. Usa el chat de voz espacial para preguntar su posición. Si responden y su ubicación coincide con la silueta, es una alucinación por cordura. Si disparas, causarás fuego amigo y desperdiciarás munición preciosa."
+  },
+  {
+    question: "¿Cómo ayuda el carro de bueyes contra los monstruos?",
+    answer: "El carro de bueyes actúa como tu base móvil. Almacena tu munición extra, suministros y tesoros recolectados. Mantener el carro cerca garantiza que tengas acceso rápido a los recursos al defenderte contra oleadas repentinas de no muertos."
+  }
+]} />
+
+</Section>

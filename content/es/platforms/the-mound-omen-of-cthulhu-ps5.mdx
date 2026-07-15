@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu PS5: Guía de Supervivencia y Equipamiento",
+  description: "Domina The Mound: Omen of Cthulhu en PS5 con nuestra guía sobre mecánicas de cordura, mejores armas, estrategias cooperativas y consejos de extracción para la jungla maldita.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/33C1A0?text=PS5+Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, ps5, guía de supervivencia, equipamiento, cordura, cooperativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **The Mound: Omen of Cthulhu PS5** es un juego de extracción de terror Lovecraftiano cooperativo para 4 jugadores ambientado en una jungla maldita.
+- **Mecánica Central**: Gestiona la cordura sin HUD; las alucinaciones son personales y requieren verificación por chat de voz.
+- **Estrategia de Armas**: Usa arcos para el sigilo y combate a prueba de lluvia; reserva los mosquetes para potencia de parada en emergencias.
+- **Objetivo de Extracción**: Protege el carro de bueyes mientras reúnes tesoros para cumplir el contrato del capitán.
+- **Características de PS5**: Aprovecha la retroalimentación háptica del DualSense para las recargas de armas y la tensión ambiental.
+</Callout>
+
+<Section icon={Map} title="The Mound: Omen of Cthulhu PS5: Ediciones y Resumen de Lanzamiento">
+
+El lanzamiento oficial de **The Mound: Omen of Cthulhu PS5** el 15 de julio de 2026, trae a la consola una mezcla única de supervivencia de extracción y horror psicológico. Desarrollado por ACE Team, el juego enfatiza la coordinación táctica y la gestión de recursos en un entorno que ataca literalmente tus sentidos. En PlayStation 5, la experiencia se ve potenciada por el hardware de la consola, ofreciendo un renderizado de follaje denso y audio espacial que hace que cada crujido en la jungla sea aterrador.
+
+**Puntos Destacados del Video:**
+- Resumen del ciclo principal de expedición y selección de contratos.
+- Demostración del sistema de cordura y distorsiones visuales.
+- Comparación del rendimiento entre armas de mecha y de chispa.
+- Estrategias de equipo para defender el carro de bueyes durante la extracción.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="Resumen del Gameplay de The Mound: Omen of Cthulhu" />
+
+Antes de adentrarse en la jungla, los jugadores deben elegir entre las ediciones Estándar y Deluxe. La Edición Deluxe es particularmente valiosa para aquellos que buscan expandir sus opciones tácticas desde el principio, ya que incluye la misión exclusiva "Templo de Yig".
+
+| Característica | Edición Estándar | Edición Deluxe | Detalles |
+| :--- | :--- | :--- | :--- |
+| **Precio Base** | $29.99 | $39.99 | El precio regional puede variar |
+| **Juego Base** | Incluido | Incluido | Modos cooperativo completo y solitario |
+| **Cazadores de Fortunas** | No Incluido | Incluido | 2 personajes exploradores exclusivos |
+| **Equipo Abisal** | No Incluido | Incluido | Skins de armas con temática de Cthulhu |
+| **Templo de Yig** | No Incluido | Incluido | Contrato de expedición exclusivo |
+| **Banda Sonora** | No Incluida | Incluida | Música original digital |
+
+<Callout type="tip" title="Optimización en PS5">
+Asegúrate de que el Audio 3D esté activado en los ajustes del sistema de PS5. En un juego donde la locura imita las voces de tus compañeros, el audio espacial es tu herramienta más fiable para distinguir la realidad de la alucinación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Ciclo Principal de Expedición: Pasos para la Supervivencia">
+
+Cada misión en **The Mound: Omen of Cthulhu PS5** sigue un ciclo estructurado que comienza a bordo del galeón *Tempestad*. El éxito no se mide por cuántos monstruos mates, sino por cuánto tesoro logres extraer con éxito. La codicia es la causa principal de la eliminación de escuadrones, ya que la jungla se vuelve exponencialmente más peligrosa cuanto más tiempo permanezcas en ella.
+
+<Steps>
+  <Step num="1" title="Selección de Contrato">
+    Habla con el Capitán para seleccionar un contrato. Cada contrato especifica un valor mínimo de tesoro o una reliquia específica que debe recuperarse. Revisa la dificultad del destino y el pronóstico del tiempo antes de comprometerte.
+  </Step>
+  <Step num="2" title="Distribución de Roles">
+    El Capitán proporciona equipo compartido. No permitas que un solo jugador lleve toda la munición o ambas lámparas. Asigna un Navegante, un Defensor del Carro y dos Exploradores de Combate para cubrir todas las bases.
+  </Step>
+  <Step num="3" title="Infiltración en la Jungla">
+    Muévete hacia el área objetivo mientras escoltas el carro de bueyes. El carro es tu único almacenamiento móvil para tesoros pesados. Mantén el camino libre de escombros y evita correr para minimizar los niveles de ruido.
+  </Step>
+  <Step num="4" title="Recuperación de Tesoros">
+    Usa el Medallón Buscador de Tesoros para localizar metal Tulu. Advertencia: golpear el medallón crea un fuerte estruendo metálico que atrae a los centinelas Y'm-bhi cercanos.
+  </Step>
+  <Step num="5" title="Extracción Segura">
+    Una vez cumplido el objetivo del contrato, regresa a la costa. Si el entorno comienza a pulsar en rojo o la niebla se espesa rápidamente, abandona el saqueo opcional y extrae de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión del Carro de Bueyes">
+El carro de bueyes puede quedarse atascado en la vegetación densa o ser bloqueado por enemigos. Mantén siempre al menos a un jugador con un machete o cuchillo cerca de la parte delantera del carro para mantener el impulso.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Armas y Conjuntos de Equipamiento">
+
+El combate en **The Mound: Omen of Cthulhu PS5** es lento, deliberado y se ve muy afectado por el entorno. Las armas de fuego de época, como el mosquete de chispa, son potentes pero sufren tiempos de recarga agónicamente largos y fallan por completo en clima lluvioso. Un equipo equilibrado debe llevar una mezcla de armas de pólvora, cuerda y acero.
+
+| Tipo de Arma | Ideal para | Pros | Contras |
+| :--- | :--- | :--- | :--- |
+| **Arco** | Sigilo / Lluvia | Silencioso, recarga rápida, funciona en mojado | Menor potencia de parada contra amenazas grandes |
+| **Chispa** | Daño Alto | Impacto masivo, buen alcance | Ruidoso, recarga lenta, falla bajo la lluvia |
+| **Mecha** | Fuego Sostenido | Daño fiable en condiciones secas | Recarga muy lenta, mucho ruido |
+| **Cuchillo** | Cuerpo a Cuerpo | No necesita munición, silencioso, resistente a la lluvia | Requiere rango de combate peligroso |
+| **Lámpara de Aceite** | Navegación | Esencial para ruinas y niebla nocturna | Ocupa una mano, atrae la atención |
+
+<CardGrid cols={3}>
+  <Card title="Equipamiento de Explorador">
+    Se centra en el **Arco** y el **Cuchillo**. Este jugador se adelanta al carro para eliminar centinelas en silencio antes de que puedan alertar a la horda.
+  </Card>
+  <Card title="Equipamiento Pesado">
+    Equipado con el **Mosquete de Chispa**. Este jugador se queda cerca del carro y solo dispara cuando aparece una amenaza de alto nivel, como un guardián reanimado.
+  </Card>
+  <Card title="Equipamiento de Apoyo">
+    Lleva la **Lámpara de Aceite** y el **Medallón de Tesoro**. Responsable de la visibilidad y de localizar el botín mientras los demás cubren.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estrategia para la Lluvia">
+Cuando comience la "Lluvia de Sangre" o las tormentas tropicales estándar, cambia inmediatamente tu arma activa al Arco o al Cuchillo. Tus armas de fuego fallarán, dejándote indefenso durante la animación de recarga.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando el Sistema de Cordura">
+
+La característica más innovadora de **The Mound: Omen of Cthulhu PS5** es la ausencia de un medidor de cordura tradicional. En lugar de una barra en el HUD, el estado mental de tu personaje se refleja a través de alucinaciones privadas. Debido a que estos efectos son del lado del cliente, tus compañeros no verán lo que tú ves.
+
+**Tipos Comunes de Alucinaciones:**
+- **Cuernos Falsos**: Escuchas la señal de extracción, pero el carro no se ha movido.
+- **Mímicos de Compañeros**: Ves a un compañero caminando hacia el bosque, pero en realidad está justo detrás de ti.
+- **Lluvia de Sangre**: La pantalla se tiñe de rojo y la visibilidad cae, aunque los jugadores sanos vean cielos despejados.
+- **Enemigos Fantasma**: Formas en la niebla que desaparecen al dispararles, desperdiciando tu preciada munición.
+
+| Alucinación | Método de Detección | Respuesta del Escuadrón |
+| :--- | :--- | :--- |
+| **Silueta Mímica** | Verificación de Voz | Pide al jugador que salte o se agache |
+| **Sonido Falso** | Audio Direccional | Compara la ubicación con el mapa del Navegante |
+| **Cambio de Terreno** | Colisión Física | Deja que un jugador "sano" guíe el camino |
+| **Tinte Rojo** | Confirmación Visual | Confirma el estado del tiempo por chat de voz |
+
+<Callout type="warning" title="Fuego Amigo">
+La locura severa puede hacer que los compañeros parezcan monstruos no muertos. Nunca dispares a una silueta en la niebla sin recibir primero una confirmación verbal a través del chat de voz espacial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Amenazas de la Jungla y Bestiario">
+
+La isla está poblada por entidades que reaccionan a tu presencia. Cuanto más ruidoso seas, más "activa" se vuelve la jungla. Comprender el comportamiento del enemigo es la diferencia entre un botín exitoso y la muerte total del equipo.
+
+<Checklist
+  id="threat-list"
+  title="Reglas de Enfrentamiento con Enemigos:"
+  items={[
+    "Evita a los centinelas Y'm-bhi a menos que bloqueen el camino del carro de bueyes.",
+    "Usa la luz para aturdir a los vagabundos no muertos en ruinas oscuras.",
+    "Revisa a los compañeros caídos de inmediato; si se dejan demasiado tiempo, pueden regresar como hostiles.",
+    "No desperdicies balas en espectros; suelen ser alucinaciones.",
+    "Prioriza matar primero a los enemigos que llevan lámparas para evitar que te flanqueen en la oscuridad."
+  ]}
+/>
+
+**Enemigos Notables:**
+- **Centinelas Y'm-bhi**: Estos guardianes te vigilan desde la línea de árboles. Generan estrés y pérdida de cordura solo con mirar. Usa un crucifijo para comprobar su "nivel de estrés" antes de que carguen.
+- **Vagabundos No Muertos**: Amenazas comunes que deambulan por las playas. Son lentos pero pueden abrumar a un escuadrón si los niveles de ruido atraen a un enjambre.
+- **Exploradores Corruptos**: Si un jugador muere y no es reanimado, la jungla lo reanima. Conservan algunos movimientos de jugador, lo que los hace impredecibles.
+
+<Callout type="tip" title="Utilidad del Crucifijo">
+El crucifijo no es solo para defensa; actúa como un medidor de la hostilidad de la jungla. Si el crucifijo comienza a brillar o vibrar, significa que hay una amenaza invisible cerca o que tu cordura está en niveles críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay juego multiplataforma para The Mound: Omen of Cthulhu PS5?",
+    answer: "Sí, el juego soporta cooperativo multiplataforma entre PS5, Xbox Series X|S y PC. Puedes invitar a amigos a través de sus IDs de cuenta de Nacon sin importar su plataforma."
+  },
+  {
+    question: "¿Puedo jugar a The Mound: Omen of Cthulhu PS5 en solitario?",
+    answer: "Sí, hay un modo solitario disponible. Sin embargo, es significativamente más difícil ya que debes gestionar el carro de bueyes, la navegación y las comprobaciones de cordura sin la verificación de ningún compañero."
+  },
+  {
+    question: "¿Cómo restauro la cordura en la jungla?",
+    answer: "No hay 'pociones de cordura'. Restauras la estabilidad mental regresando al carro de bueyes, permaneciendo cerca de fuentes de luz y extrayendo tesoros con éxito. Algunas reliquias raras encontradas en fuertes también pueden proporcionar alivio temporal."
+  },
+  {
+    question: "¿Qué pasa si el carro de bueyes es destruido?",
+    answer: "Si el carro queda inmóvil o es destruido, pierdes todo el tesoro almacenado y debes llevar lo que puedas a mano hasta el punto de extracción. Esto suele resultar en un contrato fallido debido a los límites de peso."
+  }
+]} />
+
+</Section>

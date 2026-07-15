@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu para PC: Guía completa de lanzamiento y configuración",
+  description: "Domina la versión para PC de The Mound: Omen of Cthulhu. Conoce los requisitos del sistema, la optimización con DLSS 4.5, estrategias cooperativas y gestión de la cordura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/090c0b/5fddc0?text=PC+Launch+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, PC, guía de lanzamiento, requisitos del sistema, DLSS 4.5, multijugador cooperativo, cordura"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El lanzamiento para PC de The Mound Omen of Cthulhu** se produjo el 15 de julio de 2026, junto con las plataformas de consola de actual generación.
+- **El rendimiento optimizado** requiere DirectX 12 y 16 GB de RAM, con soporte exclusivo de DLSS 4.5 para GPUs RTX Serie 50.
+- **La supervivencia cooperativa** admite hasta cuatro jugadores, utilizando un chat de voz espacial que se degrada a medida que disminuye la cordura.
+- **Las mecánicas de cordura** alteran el entorno de forma individual, obligando a los jugadores a verificar verbalmente las amenazas para evitar el fuego aliado.
+</Callout>
+
+<Section icon={Map} title="Lanzamiento y ediciones de The Mound Omen of Cthulhu para PC">
+
+El muy esperado juego de expedición y terror táctico, **the mound omen of cthulhu pc** edition, se lanzó oficialmente el 15 de julio de 2026. Desarrollado por ACE Team y publicado por Nacon, el juego desafía a los jugadores a sobrevivir en una jungla maldita, completar contratos y extraer valiosos tesoros mientras luchan contra el deterioro psicológico. La versión para PC está disponible en Steam, Epic Games Store y Xbox PC Store, y es totalmente compatible con el juego cooperativo multiplataforma.
+
+Antes de adentrarse en las oscuras profundidades de la jungla con tintes de cardenillo, los jugadores deben elegir entre la Edición Estándar y la Edición Deluxe.
+
+| Característica | Edición Estándar | Edición Deluxe | Detalles |
+|:---|:---|:---|:---|
+| **Precio base** | $29.99 | $39.99 | Se aplica precios regionales en las distintas tiendas |
+| **Promo de lanzamiento** | $23.99 | $31.99 | 20% de descuento desbloqueado tras alcanzar 800K deseos en Steam |
+| **Juego base** | Incluido | Incluido | Acceso a los contratos principales, mapas y sistemas de cordura |
+| **Cazadores de fortunas** | No | Incluido | Añade 2 personajes exploradores jugables exclusivos |
+| **Equipo abisal** | No | Incluido | Aspectos temáticos de Cthulhu para cuchillos, lámparas y mosquetes |
+| **Templo de Yig** | Solo anfitrión | Incluido | Misión exclusiva; solo el anfitrión necesita poseerla |
+| **Banda sonora** | No | Incluido | Descarga digital de alta calidad de la partitura oficial |
+| **Exploradores perdidos** | Bonus de lanzamiento | Bonus de lanzamiento | Espadas ornamentadas; canjeable dentro de las primeras 2 semanas |
+
+<Callout type="tip" title="Consejo sobre ediciones">
+Si juegas en PC con un grupo dedicado, solo un jugador necesita poseer la Edición Deluxe para albergar la misión exclusiva del Templo de Yig para todo el escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del sistema para PC y optimización del rendimiento">
+
+Para garantizar velocidades de fotogramas estables y una visibilidad clara a través de la densa niebla volumétrica de la jungla maldita, los jugadores deben optimizar la configuración de su hardware. El juego depende en gran medida de las sombras dinámicas, la densidad del follaje y la iluminación atmosférica para construir su inquietante atmósfera lovecraftiana.
+
+| Especificación | Requisito mínimo | Requisito recomendado | Prioridad de rendimiento |
+|:---|:---|:---|:---|
+| **SO** | Windows 10 (64-bit) | Windows 11 (64-bit) | Mantén el SO y los controladores gráficos totalmente actualizados |
+| **CPU** | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 | Un alto margen de CPU evita tirones físicos en el cooperativo |
+| **RAM** | 16 GB RAM | 16 GB RAM | Cierra las aplicaciones en segundo plano para liberar memoria del sistema |
+| **GPU** | GTX 1660 Super / RX 5600 XT | RTX 3070 / RX 6750 XT | La VRAM es crucial para renderizar follaje de alta resolución |
+| **DirectX** | Versión 12 | Versión 12 | Las API gráficas heredadas no son compatibles |
+| **DLSS 4.5** | No compatible | Compatible (RTX Serie 50) | Permite la generación dinámica de fotogramas múltiples |
+
+<Callout type="warning" title="Advertencia de rendimiento">
+Si experimentas caídas repentinas de fotogramas durante lluvias intensas o encuentros de combate densos, reduce inmediatamente la niebla volumétrica, la calidad de las sombras y la densidad del follaje. Mantener una alta claridad visual es más importante para identificar amenazas distantes que la máxima fidelidad estética.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores armas y equipamiento">
+
+Las expediciones no proporcionan un arsenal personal completo para cada explorador. En su lugar, el capitán del barco suministra armas y herramientas compartidas que deben distribuirse cuidadosamente entre la tripulación. Los escuadrones exitosos asignan roles en función de la fuerza de las armas, los tiempos de recarga y las condiciones ambientales.
+
+<CardGrid cols={3}>
+  <Card title="El Arco (Tier S)">
+    - **Combate silencioso**: Los disparos silenciosos no alertan a la jungla circundante.
+    - **A prueba de clima**: Funciona perfectamente en tormentas de lluvia intensa.
+    - **Recarga rápida**: Altamente eficiente para un control de masas constante.
+  </Card>
+  <Card title="Mosquete de chispa (Tier A)">
+    - **Alto impacto**: Ofrece un enorme poder de parada de emergencia.
+    - **Dependiente de la pólvora**: Se vuelve completamente inútil en clima húmedo.
+    - **Extremadamente ruidoso**: Disparar alerta a las hordas de no muertos cercanas.
+  </Card>
+  <Card title="Lámpara de aceite (Tier S)">
+    - **Buscador de caminos**: Atraviesa la niebla densa y las ruinas oscuras.
+    - **Ancla del equipo**: Ayuda al escuadrón a mantener la formación con poca visibilidad.
+    - **Vulnerable**: La llama puede parpadear o apagarse durante aguaceros intensos.
+  </Card>
+</CardGrid>
+
+| Equipamiento | Categoría | Fuerza principal | Debilidad mayor | Rol recomendado |
+|:---|:---|:---|:---|:---|
+| **Arco** | Arma a distancia | Silencioso, recarga rápida, a prueba de lluvia | Menor daño de ráfaga inmediato | Explorador / Combate silencioso |
+| **Mosquete** | Arma de fuego de emergencia | Daño de ráfaga extremo | Ruidoso, recarga lenta, falla bajo la lluvia | Infantería pesada / Guardia |
+| **Cuchillo** | Cuerpo a cuerpo de reserva | Munición infinita, completamente silencioso | Requiere una proximidad cercana peligrosa | Recurso de emergencia para todo explorador |
+| **Lámpara de aceite** | Herramienta de visibilidad | Revela caminos, mantiene al escuadrón unido | Convierte al portador en un objetivo | Navegante / Soporte |
+| **Medallón** | Utilidad de tesoro | Localiza el valioso metal Tulu | Golpearlo emite un fuerte tintineo metálico | Cazador de tesoros |
+
+<Callout type="success" title="Estrategia de equipamiento">
+Asegúrate siempre de que tu escuadrón tenga activas al menos dos armas a prueba de lluvia (como arcos o cuchillos). Si estalla una tormenta repentina mientras tu equipo depende por completo de los mosquetes de pólvora, quedarás indefenso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía para principiantes en tu primera expedición">
+
+Cada incursión exitosa sigue un ciclo estricto: seleccionar un contrato, organizar tu equipo, proteger tu transporte, reunir riquezas y extraer antes de que la jungla consuma tu cordura.
+
+<Steps>
+  <Step num="1" title="Seleccionar un contrato del capitán">
+    Sube a bordo del galeón Tempestad y revisa los contratos disponibles. Elige un objetivo que coincida con el nivel de experiencia de tu escuadrón, prestando mucha atención al valor del tesoro requerido.
+  </Step>
+  <Step num="2" title="Distribuir el equipo compartido">
+    No acumules todas las armas de fuego o fuentes de luz en un solo jugador. Distribuye las herramientas de utilidad como la lámpara de aceite y el medallón para encontrar tesoros entre los diferentes miembros del equipo.
+  </Step>
+  <Step num="3" title="Escortar el carro de bueyes">
+    El carro de bueyes es tu bóveda móvil. Deposita reliquias valiosas con regularidad. Mantén el camino alrededor del carro libre de obstáculos y nunca lo dejes completamente desatendido.
+  </Step>
+  <Step num="4" title="Controlar los niveles de ruido">
+    Correr, cortar enredaderas y disparar mosquetes despiertan a la jungla. Muévete despacio y usa ataques cuerpo a cuerpo silenciosos o arcos para eliminar centinelas aislados sin dar la alarma.
+  </Step>
+  <Step num="5" title="Extraer de forma segura">
+    Una vez que se cumpla la cuota de tu contrato, consulta con tu equipo. Siempre es mejor extraer temprano con un botín asegurado que adentrarse más, perder la cordura y sufrir la eliminación total del escuadrón.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Progresión del cuaderno de bitácora">
+Registra los fuertes abandonados durante tus incursiones. Recuperar los cuadernos de bitácora de los fuertes desbloquea de forma permanente nuevas ubicaciones de inicio en el mapa, acortando tus tiempos de viaje en expediciones posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cordura, alucinaciones y verificación de la realidad">
+
+No hay una barra de cordura visible ni un indicador de HUD en el juego. En su lugar, el deterioro psicológico se manifiesta como alucinaciones privadas y localizadas. Lo que ves y oyes puede ser completamente diferente de lo que experimentan tus compañeros de equipo.
+
+<Checklist
+  id="sanity-verification"
+  title="Lista de verificación para el control de la realidad del escuadrón:"
+  items={[
+    "Verifica verbalmente las llamadas de cuernos lejanos antes de avanzar hacia ellas.",
+    "Confirma las siluetas de ojos brillantes con tus compañeros de equipo antes de disparar un arma.",
+    "Pide a tus compañeros que contrasten cambios sospechosos en el terreno o lluvias repentinas de sangre.",
+    "Permanece dentro del rango del chat de voz espacial para mantener la estabilidad de la comunicación.",
+    "Designa al jugador con la visión más clara para liderar el grupo."
+  ]}
+/>
+
+<Callout type="warning" title="Peligro de fuego aliado">
+La locura severa puede hacer que tus propios compañeros de equipo parezcan horribles monstruos no muertos. Nunca dispares a una silueta humanoide en la niebla sin recibir primero la confirmación verbal de su posición a través del chat de voz espacial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay juego cruzado para la versión de PC de The Mound Omen of Cthulhu?",
+    answer: "Sí, la versión para PC es totalmente compatible con el juego cooperativo multiplataforma con jugadores de PlayStation 5 y Xbox Series X|S. Xbox Play Anywhere también permite el guardado cruzado sin interrupciones entre PC y consolas Xbox."
+  },
+  {
+    question: "¿Puedo jugar el juego completamente solo?",
+    answer: "Sí, hay un modo para un jugador dedicado disponible. Sin embargo, los jugadores en solitario deben llevar un equipamiento muy equilibrado, ya que no hay compañeros de equipo para proteger el carro de bueyes o verificar las alucinaciones visuales."
+  },
+  {
+    question: "¿Qué pasa si un explorador muere durante una expedición?",
+    answer: "Los exploradores muertos deben ser revividos de inmediato. Si se les deja desatendidos, sus cuerpos caídos eventualmente se reanimarán como Exploradores Corruptos, convirtiéndose en enemigos hostiles que darán caza al escuadrón superviviente."
+  },
+  {
+    question: "¿Cómo se evita que un Centinela Y'm-bhi se reanime?",
+    answer: "Los ataques físicos estándar solo los derribarán temporalmente. Usa un crucifijo para leer su nivel de estrés, emplea fuentes de luz brillante para cegarlos y evita activar su ataque de autoinmolación."
+  }
+]} />
+
+</Section>
