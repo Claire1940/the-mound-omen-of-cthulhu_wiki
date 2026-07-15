@@ -1,0 +1,4 @@
+# Placeholder to keep content/ directory tracked by git.
+# MDX content is populated by later pipeline stages.
+# generate-content-manifest.mjs ignores non-directory files at the locale level,
+# so an empty content/ produces an empty manifest {} and keeps CI green.
