@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Guia de The Mound: Omen of Cthulhu - Guias e Armas",
+      "description": "Explore os guias de The Mound: Omen of Cthulhu para expedições cooperativas, armas, sanidade, contratos, tesouros, inimigos, mapas, edições e dicas de sobrevivência.",
+      "keywords": "The Mound Omen of Cthulhu, guia, armas, sanidade, contratos, inimigos, cooperativo, mapa",
+      "ogTitle": "Guia de The Mound: Omen of Cthulhu - Guias e Armas",
+      "ogDescription": "Explore os guias de The Mound: Omen of Cthulhu para expedições cooperativas, armas, sanidade, contratos, tesouros, inimigos, mapas, edições e dicas de sobrevivência.",
+      "twitterTitle": "Guia de The Mound: Omen of Cthulhu - Guias e Armas",
+      "twitterDescription": "Explore os guias de The Mound: Omen of Cthulhu para expedições cooperativas, armas, sanidade, contratos, tesouros, inimigos, mapas e dicas de sobrevivência."
+    }
+  },
   "nav": {
     "guide": "Guia",
     "release": "Lançamento",
@@ -7,5 +18,875 @@
     "price": "Preço",
     "multiplayer": "Multijogador",
     "reviews": "Análises"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Horror Cooperativo Lovecraftiano para 4 Jogadores",
+    "title": "Guia de The Mound: Omen of Cthulhu",
+    "description": "Entre em uma selva amaldiçoada com até quatro exploradores, complete contratos, recupere tesouros proibidos e sobreviva a monstros que distorcem a realidade e voltam seus próprios sentidos contra você.",
+    "getFreeCodesCTA": "Explorar Guias",
+    "playOnSteamCTA": "Jogue no Steam",
+    "stats": {
+      "stat1": {
+        "value": "15 de jul. de 2026",
+        "label": "Data de Lançamento"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Jogadores"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Plataformas"
+      },
+      "stat4": {
+        "value": "800K+",
+        "label": "Listas de Desejos do Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de The Mound: Omen of Cthulhu",
+    "description": "Lidere até quatro exploradores em uma selva amaldiçoada, conclua os contratos do capitão, recupere tesouros proibidos e sobreviva a uma loucura crescente que distorce tudo o que você vê e ouve."
+  },
+  "tools": {
+    "title": "The Mound Omen of Cthulhu",
+    "titleHighlight": "Guias e Ferramentas",
+    "subtitle": "Tudo o que você precisa para sobreviver à selva amaldiçoada, desde sua primeira expedição até a extração mais profunda.",
+    "cards": [
+      {
+        "id": "release-date-platforms",
+        "title": "Lançamento e Edições de The Mound Omen of Cthulhu",
+        "description": "Data de lançamento, preço, plataformas e conteúdo da Deluxe Edition"
+      },
+      {
+        "id": "beginner-guide",
+        "title": "Guia de The Mound Omen of Cthulhu para Iniciantes",
+        "description": "Loop da primeira expedição, contratos, carro de boi e retirada"
+      },
+      {
+        "id": "best-weapons",
+        "title": "Melhores Armas de The Mound Omen of Cthulhu",
+        "description": "Arcos, mosquetes, facas, lampiões e loadouts de equipe"
+      },
+      {
+        "id": "sanity-guide",
+        "title": "Guia de Sanidade de The Mound Omen of Cthulhu",
+        "description": "Alucinações, falsos companheiros de equipe e testes de realidade"
+      },
+      {
+        "id": "coop-crossplay",
+        "title": "Co-op e Crossplay de The Mound Omen of Cthulhu",
+        "description": "Solo, esquadrões, crossplay e funções de chat de voz"
+      },
+      {
+        "id": "contracts-extraction",
+        "title": "Contratos e Extração de The Mound Omen of Cthulhu",
+        "description": "Valor dos tesouros, carro de boi e quando extrair"
+      },
+      {
+        "id": "monsters-bestiary",
+        "title": "Monstros de The Mound Omen of Cthulhu",
+        "description": "Y'm-bhi, mortos-vivos, espectros e a selva viva"
+      },
+      {
+        "id": "system-requirements",
+        "title": "Requisitos de Sistema de The Mound Omen of Cthulhu",
+        "description": "Especificações de PC, DLSS 4.5 e configurações de desempenho"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDatePlatforms": {
+      "title": "Data de Lançamento, Plataformas e Edições de The Mound Omen of Cthulhu",
+      "eyebrow": "Informações de Lançamento",
+      "intro": "The Mound: Omen of Cthulhu foi lançado em 15 de julho de 2026 para PC, PlayStation 5 e Xbox Series X|S. Compare a Edição Standard, a Edição Deluxe e os bônus de lançamento antes de comprar.",
+      "items": [
+        {
+          "feature": "Data de lançamento",
+          "standard": "15 de julho de 2026",
+          "deluxe": "15 de julho de 2026",
+          "details": "Ambas as edições foram lançadas na mesma data."
+        },
+        {
+          "feature": "Preço base nos EUA",
+          "standard": "$29,99",
+          "deluxe": "$39,99",
+          "details": "Os preços regionais variam de acordo com o país e a loja."
+        },
+        {
+          "feature": "Desconto de lançamento no Steam",
+          "standard": "$23,99 com o desconto de lançamento de 20% desbloqueado",
+          "deluxe": "$31,99 com o desconto de lançamento de 20% desbloqueado",
+          "details": "O desconto foi desbloqueado após o jogo ultrapassar 800.000 listas de desejos no Steam."
+        },
+        {
+          "feature": "Jogo base",
+          "standard": "Incluso",
+          "deluxe": "Incluso",
+          "details": "Inclui os sistemas completos de expedição, contrato, tesouro, combate e loucura."
+        },
+        {
+          "feature": "Pacote de Personagens Fortune Hunters",
+          "standard": "Não incluso",
+          "deluxe": "Incluído",
+          "details": "Adiciona dois personagens exploradores jogáveis exclusivos para uma maior variedade estética."
+        },
+        {
+          "feature": "Pacote de Equipamento Abissal",
+          "standard": "Não incluído",
+          "deluxe": "Incluído",
+          "details": "Adiciona aparências temáticas de Cthulhu para a faca, lâmpada a óleo, mosquete de pederneira e mosquete de mecha."
+        },
+        {
+          "feature": "Missão Exclusiva: Templo de Yig",
+          "standard": "Não incluído no pacote principal da Edição Standard para consoles",
+          "deluxe": "Incluído",
+          "details": "Adiciona um novo contrato ambientado em uma área única da selva amaldiçoada. No Steam, ele também foi oferecido como um resgate gratuito separado, e apenas o anfitrião precisa ter acesso para que todo o grupo possa jogar."
+        },
+        {
+          "feature": "Trilha sonora digital",
+          "standard": "Não incluído",
+          "deluxe": "Incluído",
+          "details": "Contém a trilha sonora original oficial do jogo."
+        },
+        {
+          "feature": "Pacote de Espadas dos Exploradores Perdidos",
+          "standard": "Disponível como bônus de lançamento",
+          "deluxe": "Disponível como bônus de lançamento",
+          "details": "Adiciona duas aparências de espadas ornamentadas. Jogadores do Steam devem resgatar o pacote durante as duas primeiras semanas após o lançamento."
+        },
+        {
+          "feature": "Lojas de PC",
+          "standard": "Steam, Epic Games Store e Xbox PC Store",
+          "deluxe": "Steam, Epic Games Store e Xbox PC Store",
+          "details": "A versão para Windows requer um sistema operacional de 64 bits."
+        },
+        {
+          "feature": "Plataformas de console",
+          "standard": "PlayStation 5 e Xbox Series X|S",
+          "deluxe": "PlayStation 5 e Xbox Series X|S",
+          "details": "Nenhuma versão para PlayStation 4, Xbox One ou Nintendo Switch está listada."
+        },
+        {
+          "feature": "Recursos do Xbox",
+          "standard": "Xbox Play Anywhere, cooperativo multiplataforma e suporte em nuvem",
+          "deluxe": "Xbox Play Anywhere, cooperativo multiplataforma e suporte em nuvem",
+          "details": "A listagem do Xbox suporta um jogador e cooperativo online para dois a quatro jogadores."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guia de The Mound: Omen of Cthulhu para Iniciantes",
+      "eyebrow": "Primeiros Passos",
+      "intro": "Aprenda como se preparar a bordo do galeão, dividir equipamentos limitados, escoltar o carro de bois e completar o contrato do capitão. Movimentação cuidadosa e um recuo antecipado costumam ser mais seguros do que enfrentar tudo o que encontrar.",
+      "steps": [
+        {
+          "title": "Escolha um Contrato no Galeão",
+          "description": "Fale com o capitão e selecione um contrato de expedição. Os contratos podem exigir descobertas específicas, sobreviventes resgatados ou um valor mínimo total de tesouro.",
+          "priorities": [
+            "Leia o valor de saque exigido antes de partir.",
+            "Escolha um destino que se adeque à experiência da tripulação.",
+            "Concordem com as condições que desencadearão um recuo antecipado."
+          ]
+        },
+        {
+          "title": "Divida Armas e Ferramentas",
+          "description": "O capitão fornece armas, equipamentos e recursos compartilhados, em vez de um conjunto pessoal completo para cada explorador. Atribua funções de combate silencioso, arma de fogo, iluminação e busca de tesouros antes da partida.",
+          "priorities": [
+            "Entregue o arco ou outra opção silenciosa a um jogador de ataque à distância confiante.",
+            "Mantenha facas disponíveis como armas de emergência à prova de chuva.",
+            "Não coloque todas as armas de fogo ou lâmpadas com o mesmo explorador."
+          ]
+        },
+        {
+          "title": "Proteja e Use o Carro de Bois",
+          "description": "O carro de bois acompanha a expedição e armazena tesouros coletados, suprimentos e equipamentos sobressalentes. Deposite itens valiosos regularmente em vez de carregar tudo enquanto explora ruínas perigosas.",
+          "priorities": [
+            "Mantenha a rota ao redor do carro desobstruída.",
+            "Retorne itens valiosos ao carro antes de entrar em outra área perigosa.",
+            "Ouça com atenção antes de responder à buzina do carro, pois a loucura pode imitar sons familiares."
+          ]
+        },
+        {
+          "title": "Controle o Ruído na Selva",
+          "description": "Correr, abrir caminho pela vegetação, disparar armas, atravessar a água e outros sons altos podem acordar a selva e atrair ameaças adicionais. Movimentar-se devagar costuma ser mais seguro do que eliminar todos os inimigos à força.",
+          "priorities": [
+            "Caminhe quando não houver nenhuma ameaça imediata perseguindo a equipe.",
+            "Use arcos ou facas quando uma eliminação silenciosa for possível.",
+            "Reserve armas de fogo barulhentas para emergências ou alvos perigosos."
+          ]
+        },
+        {
+          "title": "Colete Tesouros e Recursos de Sobrevivência",
+          "description": "Vasculhe a costa, estruturas na selva e fortes abandonados em busca de itens valiosos, carne, água e outros recursos. Diários de bordo dos fortes podem desbloquear novos locais de partida para expedições futuras.",
+          "priorities": [
+            "Complete primeiro o valor de tesouro exigido pelo contrato.",
+            "Colete suprimentos opcionais apenas enquanto a rota permanecer controlável.",
+            "Use o equipamento de detecção de tesouros com cuidado, pois seu sinal sonoro alto pode revelar a posição da tripulação."
+          ]
+        },
+        {
+          "title": "Adapte o Combate ao Clima",
+          "description": "Armas de pederneira e de mecha dependem de pólvora seca e podem falhar durante a chuva. Arcos recarregam mais rápido do que armas de fogo da época, enquanto facas permanecem disponíveis quando a munição ou o clima eliminam as opções à distância.",
+          "priorities": [
+            "Verifique o clima antes de se comprometer com um ataque com arma de fogo.",
+            "Mantenha um arco ou arma corpo a corpo pronta quando a chuva começar.",
+            "Evite gastar munição escassa em vultos distantes ou não confirmados."
+          ]
+        },
+        {
+          "title": "Reconheça o Perigo Crescente",
+          "description": "Névoa densa, terreno distorcido, cores não naturais e um ambiente avermelhado sinalizam que a expedição está se tornando mais perigosa. Essas mudanças também podem ser percebidas de forma diferente por cada companheiro de equipe.",
+          "priorities": [
+            "Agrupe-se antes que a visibilidade fique muito ruim.",
+            "Confirme avistamentos e sons incomuns pelo chat de voz.",
+            "Pare de buscar tesouros opcionais quando a rota de retorno estiver se deteriorando."
+          ]
+        },
+        {
+          "title": "Retorne Antes que a Ganância Dizime a Equipe",
+          "description": "Assim que o contrato for cumprido, decida se o tesouro restante vale o risco de perder a incursão concluída. Retornar em segurança preserva os espólios, avança o progresso e prepara a tripulação para uma expedição mais profunda.",
+          "priorities": [
+            "Garanta os objetivos concluídos antes de explorar mais longe.",
+            "Recue quando a munição, a visibilidade ou a coesão da equipe ficarem ruins.",
+            "Avalie os espólios recuperados a bordo do galeão e ajuste o próximo equipamento."
+          ]
+        }
+      ]
+    },
+    "bestWeapons": {
+      "title": "Melhores Armas e Equipamentos de The Mound Omen of Cthulhu",
+      "eyebrow": "Guia de Equipamentos",
+      "intro": "Nenhuma arma sozinha funciona em todas as situações. Arcos e facas silenciosos reduzem a atividade na selva, enquanto armas de fogo fornecem poder de parada de emergência ao custo de ruído, recargas lentas e grave fraqueza contra a chuva.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Arco",
+          "category": "Arma à distância silenciosa",
+          "bestFor": "Exploração, furtividade e combate em clima úmido",
+          "strengths": [
+            "Não depende de pólvora seca.",
+            "Recarrega mais rápido do que as armas de fogo da época.",
+            "Pode matar com eficácia quando os disparos são mirados com cuidado.",
+            "Cria menos ruído perigoso do que um mosquete."
+          ],
+          "weaknesses": [
+            "Mais lento para disparar do que um tiro imediato de arma de fogo.",
+            "Requer mira precisa e linhas de visão desimpedidas."
+          ],
+          "role": "Arma primária para o batedor ou especialista em combate silencioso."
+        },
+        {
+          "tier": "S",
+          "name": "Lampião a óleo",
+          "category": "Equipamento de visibilidade",
+          "bestFor": "Ruínas escuras, névoa densa e rotas de baixa visibilidade",
+          "strengths": [
+            "Revela estruturas e caminhos difíceis de ver na escuridão.",
+            "Ajuda o grupo a manter a formação em áreas fechadas."
+          ],
+          "weaknesses": [
+            "A umidade e a chuva forte podem fazer a chama tremeluzir.",
+            "O portador do lampião se torna um ponto crítico de falha se for separado."
+          ],
+          "role": "Carregue pelo menos um lampião e mantenha uma segunda fonte de luz com outro explorador sempre que possível."
+        },
+        {
+          "tier": "A",
+          "name": "Mosquete de Pederneira",
+          "category": "Arma de fogo de emergência",
+          "bestFor": "Ataques iniciais e alvos perigosos",
+          "strengths": [
+            "Oferece um forte poder de fogo à distância.",
+            "Útil quando a equipe precisa de um disparo imediato de alto impacto."
+          ],
+          "weaknesses": [
+            "A pólvora pode se tornar inutilizável na chuva.",
+            "A recarga é lenta.",
+            "O disparo é barulhento o suficiente para atrair ameaças adicionais da selva.",
+            "Munição e pólvora são limitadas."
+          ],
+          "role": "Atribua a um atirador disciplinado e reserve-a para ameaças confirmadas."
+        },
+        {
+          "tier": "A",
+          "name": "Faca",
+          "category": "Reserva de curto alcance",
+          "bestFor": "Ataques de finalização silenciosos e falhas de armas de fogo",
+          "strengths": [
+            "Funciona na chuva.",
+            "Não requer munição.",
+            "Produz menos perturbação do que disparar um mosquete.",
+            "Permanece utilizável após os suprimentos de ataque à distância se esgotarem."
+          ],
+          "weaknesses": [
+            "Exige que o explorador entre no perigoso alcance de combate corpo a corpo.",
+            "Menos adequado quando vários inimigos atacam juntos."
+          ],
+          "role": "Todo usuário de arma de fogo deve ter acesso a uma alternativa de combate corpo a corpo."
+        },
+        {
+          "tier": "A",
+          "name": "Medalhão de Busca de Tesouros",
+          "category": "Utilitário de tesouro",
+          "bestFor": "Localização de tesouros de metal Tulu de alto valor",
+          "strengths": [
+            "Guia os exploradores até tesouros escondidos valiosos.",
+            "Melhora a eficiência de contratos focados em saques."
+          ],
+          "weaknesses": [
+            "Deve ser golpeado para produzir seu sinal de orientação.",
+            "O som metálico resultante é alto e pode atrair perigo."
+          ],
+          "role": "Use apenas após o grupo estar pronto para defender a área ou recuar com o saque descoberto."
+        },
+        {
+          "tier": "B",
+          "name": "Mosquete de Mecha",
+          "category": "Arma de fogo situacional",
+          "bestFor": "Confrontos preparados em clima seco",
+          "strengths": [
+            "Fornece poder de arma de fogo à distância contra inimigos físicos.",
+            "Pode ser atribuído como a arma pesada dedicada da tripulação."
+          ],
+          "weaknesses": [
+            "Depende de pólvora seca.",
+            "Cria ruído substancial.",
+            "Exige um tempo preciso, pois armas de fogo de época recarregam lentamente."
+          ],
+          "role": "Traga quando a tripulação esperar combate e tiver armas separadas à prova de chuva disponíveis."
+        },
+        {
+          "tier": "Equipe",
+          "name": "Distribuição Equilibrada de Quatro Exploradores",
+          "category": "Plano de equipamento recomendado",
+          "bestFor": "Contratos gerais e primeiras expedições",
+          "strengths": [
+            "O Explorador 1 cuida do combate à distância silencioso com um arco.",
+            "O Explorador 2 carrega uma arma de fogo para poder de parada de emergência.",
+            "O Explorador 3 gerencia o lampião a óleo e a navegação.",
+            "O Explorador 4 opera equipamentos de busca de tesouros e apoia no combate corpo a corpo."
+          ],
+          "weaknesses": [
+            "As funções devem ser redistribuídas imediatamente se um explorador se separar ou ficar incapacitado.",
+            "A equipe ainda precisa de várias armas reserva à prova de chuva."
+          ],
+          "role": "Mantenha as ferramentas essenciais distribuídas pelo esquadrão, em vez de concentrar todo o equipamento em um único jogador."
+        },
+        {
+          "tier": "Cosmético",
+          "name": "Pacote de Equipamento Abissal",
+          "category": "Aparências da Deluxe Edition",
+          "bestFor": "Personalização de equipamento temática de Cthulhu",
+          "strengths": [
+            "Inclui aparências abissais para a faca e o lampião a óleo.",
+            "Inclui aparências abissais para os mosquetes de pederneira e mecha."
+          ],
+          "weaknesses": [
+            "O pacote altera a aparência do equipamento em vez de seus atributos de combate."
+          ],
+          "role": "Use para personalização visual sem alterar a configuração de equipamento funcional da tripulação."
+        }
+      ]
+    },
+    "sanityGuide": {
+      "title": "Guia de Sanidade e Alucinações de The Mound: Omen of Cthulhu",
+      "eyebrow": "Sistema de Insanidade",
+      "intro": "O jogo não exibe um medidor de sanidade convencional ou ícone de aviso. Em vez disso, cada explorador pode ter alucinações visuais e auditivas particulares que outros companheiros de equipe não vivenciam, atacando a comunicação e a confiança em vez de uma estatística visível.",
+      "cards": [
+        {
+          "title": "Sem HUD de Sanidade",
+          "danger": "Não há barra de sanidade visível, sirene de alerta ou notificação de interface mostrando quando um explorador está perdendo o controle.",
+          "effects": [
+            "As ilusões aparecem como partes normais do ambiente.",
+            "Os jogadores podem não perceber que sua percepção mudou."
+          ],
+          "response": "Trate mudanças ambientais repentinas como informações que devem ser confirmadas por outro companheiro de equipe."
+        },
+        {
+          "title": "Selva Sangrenta e Chuva de Sangue",
+          "danger": "Um explorador com sanidade baixa pode ver a selva sangrando ou vivenciar uma chuva de sangue localizada que companheiros de equipe saudáveis não conseguem ver.",
+          "effects": [
+            "As cores do terreno e os detalhes do ambiente ficam distorcidos.",
+            "O jogador afetado pode acreditar que todo o esquadrão está enfrentando o mesmo evento."
+          ],
+          "response": "Pergunte ao companheiro de equipe mais próximo se a mudança visual é compartilhada antes de mudar de direção ou usar recursos."
+        },
+        {
+          "title": "Toques de Corneta Falsos",
+          "danger": "A insanidade pode fabricar o som familiar da corneta associado à extração ou a um companheiro de equipe precisando de ajuda.",
+          "effects": [
+            "Os jogadores podem ser atraídos para longe do grupo.",
+            "Seguir o som pode levar diretamente a uma emboscada."
+          ],
+          "response": "Nunca siga uma corneta distante sozinho. Confirme a localização do carrinho e receba uma resposta de voz do esquadrão primeiro."
+        },
+        {
+          "title": "Companheiros de Equipe Aparecem como Monstros",
+          "danger": "Sob forte pressão psicológica, os modelos de personagens aliados podem se transformar em mortos-vivos ou criaturas de aparência hostil.",
+          "effects": [
+            "O explorador afetado pode atacar um companheiro de equipe real.",
+            "Um único tiro de pânico pode transformar uma luta instável em um desastre para o esquadrão."
+          ],
+          "response": "Informe a posição do alvo e aguarde confirmação de voz antes de atirar em uma silhueta de tamanho familiar."
+        },
+        {
+          "title": "Silhuetas Falsas de Companheiros de Equipe",
+          "danger": "Formas na névoa podem se parecer com exploradores conhecidos, mesmo quando o esquadrão real está em outro lugar.",
+          "effects": [
+            "Os jogadores podem se aproximar de um inimigo acreditando que se reagruparam.",
+            "O reconhecimento visual torna-se não confiável em baixa visibilidade."
+          ],
+          "response": "Use o chat de voz espacial para comparar a direção da voz com a posição da figura visível."
+        },
+        {
+          "title": "Terreno Mutável e Armadilhas",
+          "danger": "O ambiente pode parecer alterado, escondendo perigos ou apresentando rotas falsas e objetos tentadores.",
+          "effects": [
+            "Um jogador pode ver um terreno seguro onde outro vê uma armadilha.",
+            "Objetos parecidos com saques podem atrair os exploradores para longe do caminho seguro."
+          ],
+          "response": "Deixe o companheiro de equipe com a mente mais lúcida liderar pelo terreno suspeito e mova um explorador de cada vez."
+        },
+        {
+          "title": "Protocolo de Verificação de Realidade do Esquadrão",
+          "danger": "Diferentes exploradores podem vivenciar versões diferentes do mesmo local.",
+          "effects": [
+            "Desentendimentos simples podem evoluir para confusão ou fogo amigo.",
+            "Explicações longas desperdiçam tempo durante um ataque."
+          ],
+          "response": "Use verificações curtas como 'Você está vendo?', 'Você ouviu isso?' e 'Confirme o alvo à frente' antes de agir."
+        },
+        {
+          "title": "Permaneça dentro do Alcance de Comunicação",
+          "danger": "O chat de voz espacial fica mais baixo e muda de direção à medida que os companheiros de equipe se afastam.",
+          "effects": [
+            "Exploradores separados perdem sua maneira mais confiável de testar a realidade.",
+            "Vozes alucinadas tornam-se mais difíceis de distinguir de chamados reais."
+          ],
+          "response": "Mantenha contato visual ou de voz e reagrupe-se imediatamente quando a névoa, o combate ou o pânico separarem a formação."
+        },
+        {
+          "title": "Lidando com um Explorador Totalmente Fraturado",
+          "danger": "Um explorador que esteja vivenciando uma loucura intensa pode não ser mais capaz de confiar em qualquer visão ou som.",
+          "effects": [
+            "O movimento independente torna-se perigoso.",
+            "O jogador pode desperdiçar munição ou guiar o esquadrão para longe da extração."
+          ],
+          "response": "O explorador afetado deve parar de tomar decisões de navegação e alvos, seguir instruções diretas do esquadrão e permanecer perto de um companheiro de equipe confirmado."
+        }
+      ]
+    },
+    "coopCrossplay": {
+      "title": "Guia de Co-op, Solo e Crossplay de The Mound: Omen of Cthulhu",
+      "eyebrow": "Guia Multijogador",
+      "intro": "The Mound: Omen of Cthulhu suporta expedições solo e esquadrões online de dois a quatro exploradores. A comunicação e a divisão clara de responsabilidades tornam-se cada vez mais importantes à medida que a loucura distorce vozes, silhuetas e a percepção da equipe.",
+      "items": [
+        {
+          "feature": "Jogo Solo",
+          "support": "Um modo completo para um jogador está disponível.",
+          "use": "Leve um equipamento equilibrado que cubra navegação, luz, combate à distância e defesa de curto alcance, pois não há companheiros de equipe para proteger o carrinho ou confirmar alucinações."
+        },
+        {
+          "feature": "Cooperativo online",
+          "support": "O cooperativo online suporta de dois a quatro jogadores.",
+          "use": "Use esquadrões menores para um gerenciamento cuidadoso de recursos ou um grupo completo de quatro jogadores para dividir a navegação, o combate, a coleta e a proteção da carroça."
+        },
+        {
+          "feature": "Recursos multiplataforma",
+          "support": "A Epic Games Store lista o jogo multiplataforma. O Xbox suporta cooperativo multiplataforma entre Xbox Series X|S, Windows PC e Xbox Cloud Gaming através do Xbox Play Anywhere.",
+          "use": "Monte o grupo antes de iniciar uma expedição e confirme se todos os jogadores entraram na mesma sessão antes de selecionar um contrato."
+        },
+        {
+          "feature": "Chat de voz espacializado",
+          "support": "As vozes são posicionadas de acordo com a localização de cada explorador no ambiente.",
+          "use": "Mantenha os avisos curtos e repita direções importantes. Uma voz distante ou posicionada de forma estranha pode indicar que quem fala está separado ou que a percepção está sendo distorcida."
+        },
+        {
+          "feature": "Navegador",
+          "support": "Um jogador rastreia a rota, fortes abandonados, diários de bordo e o caminho de volta para a extração.",
+          "use": "Fique perto da frente sem se afastar do alcance da voz. Os diários de bordo recuperados dos fortes podem desbloquear novos pontos de partida para expedições posteriores."
+        },
+        {
+          "feature": "Defensor da carroça",
+          "support": "A carroça de bois carrega o tesouro exigido pelo contrato do capitão.",
+          "use": "Permaneça perto da carroça durante os ataques, vigie a retaguarda do grupo e avise a equipe antes que a rota fique bloqueada."
+        },
+        {
+          "feature": "Equipe de combate e recursos",
+          "support": "Os jogadores restantes podem dividir o combate à distância, a defesa a curta distância e a coleta de tesouros, relíquias, carne, água e outros recursos.",
+          "use": "Evite que todos os jogadores vasculhem a mesma ruína. Mantenha pelo menos um explorador armado cobrindo o grupo enquanto o saque é levado para a carroça."
+        },
+        {
+          "feature": "Verificação de companheiros de equipe",
+          "support": "A loucura pode criar silhuetas familiares e companheiros de equipe aparentes que não fazem parte do esquadrão real.",
+          "use": "Confirme a identidade através do chat de voz espacial e de uma senha simples de chamada e resposta antes de seguir ou atirar em um vulto no nevoeiro denso."
+        }
+      ]
+    },
+    "contractsExtraction": {
+      "title": "Guia de Contratos, Tesouros e Extração de The Mound: Omen of Cthulhu",
+      "eyebrow": "Estratégia de expedição",
+      "intro": "Toda expedição começa com um contrato do capitão e termina com uma decisão: proteger o tesouro exigido ou arriscar toda a carga avançando mais fundo na selva de The Mound: Omen of Cthulhu.",
+      "steps": [
+        {
+          "title": "Escolha o contrato do capitão",
+          "objective": "Selecione uma expedição e analise a exigência de tesouro a bordo do galeão.",
+          "action": "Trate o valor do tesouro solicitado como o objetivo principal. O capitão fornece equipamentos em troca dos itens valiosos trazidos de volta pela tripulação.",
+          "risk": "Escolha uma rota e um equipamento que correspondam ao tamanho do esquadrão, em vez de selecionar equipamentos apenas para obter o máximo de poder de fogo."
+        },
+        {
+          "title": "Divida armas e ferramentas",
+          "objective": "Dê a cada explorador uma responsabilidade clara antes da partida.",
+          "action": "Divida armas de longo alcance, equipamentos de combate corpo a corpo, lanternas e ferramentas de navegação entre o grupo. Mantenha um jogador pronto para defender a carroça enquanto os outros vasculham estruturas próximas.",
+          "risk": "Não coloque todas as armas de longo alcance ou ferramentas essenciais no inventário de um único jogador."
+        },
+        {
+          "title": "Escorte a Carroça de Bois",
+          "objective": "Mova o transportador de tesouros da expedição pela selva.",
+          "action": "A carroça segue o grupo e armazena os itens valiosos coletados durante a expedição. Mantenha a rota larga o suficiente para a carroça e reagrupe-se antes de entrar em ruínas ou vegetação densa.",
+          "risk": "Evite deixar a carroça isolada enquanto todo o esquadrão vasculha em direções diferentes."
+        },
+        {
+          "title": "Garanta o Tesouro Necessário Primeiro",
+          "objective": "Alcance o valor solicitado pelo capitão antes de buscar recompensas opcionais.",
+          "action": "Coloque os itens valiosos recuperados diretamente na carroça e acompanhe se o requisito do contrato foi cumprido.",
+          "risk": "Assim que a carga necessária estiver garantida, trate cada desvio adicional como um risco opcional, e não como parte do objetivo principal."
+        },
+        {
+          "title": "Colete Recursos de Sobrevivência",
+          "objective": "Traga de volta materiais úteis além do tesouro.",
+          "action": "Procure por relíquias, tesouros amaldiçoados, carne, água e outros recursos. A carne caçada pode ser processada a bordo do navio, enquanto itens especiais como o medalhão podem ajudar a localizar o valioso tesouro de metal Tulu.",
+          "risk": "Ferramentas de busca de tesouros podem criar sons altos, atraindo ameaças e aumentando a pressão sobre o esquadrão."
+        },
+        {
+          "title": "Controle o Ruído e a Escalada",
+          "objective": "Evite que a selva fique totalmente ativa antes da extração.",
+          "action": "Limite correr, gritar, atirar e cortar vegetação desnecessariamente. Fique atento a névoa mais espessa, crescimento vermelho, mudanças de luz e aumento da atividade de mortos-vivos.",
+          "risk": "A chuva pode tornar as armas de pólvora inutilizáveis, então mantenha arcos ou armas de curto alcance disponíveis em vez de depender inteiramente de mosquetes."
+        },
+        {
+          "title": "Extrair ou Avançar Mais Fundo",
+          "objective": "Decida se a próxima recompensa vale arriscar o contrato concluído.",
+          "action": "Extraia quando o tesouro necessário estiver garantido, os recursos estiverem baixos, o esquadrão estiver separado ou a selva tiver entrado em um estado perigoso. Continue apenas quando o grupo estiver equipado, organizado e capaz de proteger a carroça.",
+          "risk": "Fortes abandonados e seus diários de bordo fornecem progressão duradoura ao desbloquear novos pontos de partida de expedição, tornando-os alvos valiosos quando a rota permanece administrável."
+        }
+      ]
+    },
+    "monstersBestiary": {
+      "title": "Monstros e Bestiário de The Mound Omen of Cthulhu",
+      "eyebrow": "Bestiário de Inimigos",
+      "intro": "O combate em The Mound: Omen of Cthulhu é deliberadamente lento e incerto. Os jogadores devem ler o comportamento dos inimigos, poupar munição e distinguir ameaças reais de alucinações antes de reagir.",
+      "cards": [
+        {
+          "name": "Sentinelas Y'm-bhi",
+          "type": "Guardião da selva reanimado",
+          "behavior": "Os Y'm-bhi observam os jogadores, testam sua distância e geram estresse em vez de sempre atacar imediatamente. Eles podem recuar para a floresta e se reposicionar para uma emboscada.",
+          "warning": "Um cadáver observando, fragmentos de fala humana e olhos brilhantes revelados através de um crucifixo indicam o aumento do estresse.",
+          "counter": "Use um crucifixo para ler o estresse deles, mantenha a distância e use a luz para cegá-los brevemente na escuridão. A luz é menos eficaz quando o Y'm-bhi carrega sua própria lanterna.",
+          "rule": "Alguns Y'm-bhi carregadores de lanternas podem se incendiar e investir contra você. Matar um pode não ser permanente, pois a floresta pode reanimar seu corpo."
+        },
+        {
+          "name": "Andarilhos Mortos-vivos",
+          "type": "Mortos-vivos hostis comuns",
+          "behavior": "Inimigos mortos-vivos vagam por praias, ruínas, névoa e rotas na selva, frequentemente aparecendo em números maiores conforme a expedição faz barulho.",
+          "warning": "Movimentação dentro da névoa, silhuetas perto de ruínas e aumento do número de inimigos após correr, atirar ou cortar a vegetação.",
+          "counter": "Use armas à distância antes que eles se aproximem, depois mude para uma faca ou crie espaço enquanto armas de fogo lentas recarregam. Corpos de mortos-vivos podem fornecer armas ou munição.",
+          "rule": ""
+        },
+        {
+          "name": "Exploradores Corrompidos",
+          "type": "Jogador caído transformado em inimigo",
+          "behavior": "Um explorador que morre e não é revivido prontamente pode retornar como um morto-vivo hostil corrompido que caça o esquadrão sobrevivente.",
+          "warning": "Um companheiro de equipe caído deixado sem assistência enquanto o restante do grupo continua avançando.",
+          "counter": "Priorize reanimações seguras, proteja quem está resgatando e confirme se o explorador recuperado se juntou ao grupo antes de continuar.",
+          "rule": ""
+        },
+        {
+          "name": "Falsos Companheiros",
+          "type": "Imitação baseada em percepção",
+          "behavior": "A loucura pode produzir silhuetas humanas familiares que parecem ser membros do esquadrão, mesmo quando os jogadores reais estão em outro lugar.",
+          "warning": "Um companheiro de equipe aparece inesperadamente através da névoa densa, não responde corretamente ou entra em conflito com a posição indicada pelo chat de voz espacial.",
+          "counter": "Use uma resposta de voz combinada, reagrupe em um ponto de referência visível e evite atirar ou seguir até que a identidade seja confirmada.",
+          "rule": ""
+        },
+        {
+          "name": "Espectros e Aparições",
+          "type": "Manifestação sobrenatural",
+          "behavior": "Figuras espectrais e fenômenos inexplicáveis acompanham a carroça e a expedição conforme a fronteira entre a realidade e a ilusão se rompe.",
+          "warning": "Figuras repentinas, sons distorcidos, arredores em mudança e ameaças que aparecem sem uma aproximação física clara.",
+          "counter": "Fique com a carroça, confie na comunicação do esquadrão e evite gastar munição em uma imagem que não demonstrou comportamento físico consistente.",
+          "rule": ""
+        },
+        {
+          "name": "A Selva Viva",
+          "type": "Ameaça ambiental e de sanidade",
+          "behavior": "A ilha reage ao barulho e à exploração prolongada. A névoa se intensifica, a visibilidade diminui, raízes e o solo mudam de cor, e a atividade hostil aumenta.",
+          "warning": "Uma lua vermelha, vegetação vermelha pulsante, névoa adensando-se rapidamente e inimigos mais frequentes ao redor do esquadrão.",
+          "counter": "Reduza o ruído, pare o saque opcional, consolide o grupo ao redor da carroça e comece a extração antes que a percepção se torne pouco confiável.",
+          "rule": ""
+        }
+      ]
+    },
+    "systemRequirements": {
+      "title": "Requisitos de Sistema e Desempenho de The Mound Omen of Cthulhu",
+      "eyebrow": "Desempenho no PC",
+      "intro": "A versão para PC de The Mound: Omen of Cthulhu requer 16 GB de RAM e DirectX 12 em ambos os níveis de especificação. Sistemas NVIDIA RTX Série 50 podem usar DLSS 4.5 para taxas de quadros mais altas e imagens da selva mais nítidas.",
+      "items": [
+        {
+          "category": "Sistema Operacional",
+          "minimum": "Windows 10 ou Windows 11, 64 bits",
+          "recommended": "Windows 10 ou Windows 11, 64 bits",
+          "priority": "Use uma instalação de 64 bits totalmente atualizada com drivers de vídeo atuais."
+        },
+        {
+          "category": "Processador",
+          "minimum": "Intel Core i7-8700K ou AMD Ryzen 5 1600X",
+          "recommended": "Intel Core i7-11700K ou AMD Ryzen 5 5500",
+          "priority": "O processador recomendado oferece mais margem de manobra durante o combate, sessões cooperativas e cenas ambientais densas."
+        },
+        {
+          "category": "Memória",
+          "minimum": "16 GB de RAM",
+          "recommended": "16 GB de RAM",
+          "priority": "Feche aplicativos pesados em segundo plano antes de iniciar o jogo para preservar a memória disponível."
+        },
+        {
+          "category": "Placa de Vídeo",
+          "minimum": "NVIDIA GeForce GTX 1660 SUPER 6 GB, AMD Radeon RX 5600 XT 6 GB ou Intel Arc A770 16 GB",
+          "recommended": "NVIDIA GeForce RTX 3070 8 GB ou AMD Radeon RX 6750 XT 12 GB",
+          "priority": "As GPUs recomendadas são mais adequadas para manter a clareza visual ao renderizar névoa, folhagem, iluminação e vários inimigos."
+        },
+        {
+          "category": "DirectX",
+          "minimum": "DirectX 12",
+          "recommended": "DirectX 12",
+          "priority": "O suporte ao DirectX 12 é necessário."
+        },
+        {
+          "category": "NVIDIA DLSS 4.5",
+          "minimum": "Não é necessário para a especificação base",
+          "recommended": "Suportado no lançamento para GPUs GeForce RTX Série 50 com Geração Dinâmica de Multi Quadros e Super Resolução usando o modo transformer de segunda geração",
+          "priority": "Ative a Super Resolução primeiro e, em seguida, use a geração de quadros quando for necessária fluidez adicional."
+        },
+        {
+          "category": "Prioridade de Configurações",
+          "minimum": "Reduza primeiro as sombras, a densidade da folhagem e os efeitos volumétricos quando a taxa de quadros cair",
+          "recommended": "Mantenha a qualidade das texturas e a distância de visualização tão altas quanto a memória gráfica disponível permitir",
+          "priority": "Movimentação estável e silhuetas nítidas são mais úteis do que o detalhamento máximo de neblina, sombras e folhagem durante as expedições."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre The Mound: Omen of Cthulhu",
+    "questions": [
+      {
+        "question": "The Mound: Omen of Cthulhu é single-player ou cooperativo?",
+        "answer": "The Mound: Omen of Cthulhu suporta ambos. Você pode jogar solo ou formar um esquadrão cooperativo online de dois a quatro exploradores, com recursos multiplataforma disponíveis através das plataformas suportadas."
+      },
+      {
+        "question": "Em quais plataformas The Mound: Omen of Cthulhu está disponível?",
+        "answer": "The Mound: Omen of Cthulhu está disponível para PC (Steam, Epic Games Store e Xbox PC Store), PlayStation 5 e Xbox Series X|S. Não há versões para PlayStation 4, Xbox One ou Nintendo Switch."
+      },
+      {
+        "question": "Quando The Mound: Omen of Cthulhu será lançado e quanto custa?",
+        "answer": "The Mound: Omen of Cthulhu foi lançado em 15 de julho de 2026. A Standard Edition custa US$ 29,99 e a Deluxe Edition custa US$ 39,99, com um desconto de lançamento de 20% no Steam que foi desbloqueado após o jogo ultrapassar 800.000 listas de desejos."
+      },
+      {
+        "question": "The Mound: Omen of Cthulhu suporta crossplay?",
+        "answer": "Sim. The Mound: Omen of Cthulhu oferece jogo multiplataforma, e a versão de Xbox suporta cooperação multiplataforma entre Xbox Series X|S, Windows PC e Xbox Cloud Gaming através do Xbox Play Anywhere."
+      },
+      {
+        "question": "Como funciona a sanidade em The Mound: Omen of Cthulhu?",
+        "answer": "The Mound: Omen of Cthulhu não possui um medidor de sanidade visível. Em vez disso, os exploradores recebem alucinações privadas que distorcem o terreno, os sons e até a aparência dos companheiros de equipe, então os esquadrões devem verificar as ameaças via chat de voz espacial antes de agir."
+      },
+      {
+        "question": "Quais são os requisitos de sistema para PC de The Mound: Omen of Cthulhu?",
+        "answer": "The Mound: Omen of Cthulhu requer 16 GB de RAM e DirectX 12 em um sistema Windows 10 ou 11 de 64 bits. GPUs NVIDIA RTX Série 50 também podem usar DLSS 4.5 para um desempenho mais fluido em ambientes de selva densa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para explorar The Mound?",
+    "description": "Junte-se à comunidade para guias de expedição, notas de atualização e discussões sobre o modo cooperativo!",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Jogue no Steam"
+  },
+  "footer": {
+    "title": "Guia de The Mound: Omen of Cthulhu",
+    "description": "Seu hub completo de recursos para guias, armas, expedições, sanidade, inimigos e dicas de sobrevivência de The Mound: Omen of Cthulhu.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Informações Legais",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade Steam",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Wiki de The Mound: Omen of Cthulhu. Não afiliado à ACE Team ou Nacon.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de The Mound: Omen of Cthulhu",
+      "description": "Guias completos cobrindo monstros, armas, armaduras, mapas, ferramentas, itens e o modo história para sobreviver à selva amaldiçoada.",
+      "metaTitle": "Guias de The Mound: Omen of Cthulhu - Monstros, Armas e Mapas",
+      "metaDescription": "Domine The Mound: Omen of Cthulhu com guias de monstros, armas, armaduras, mapas, ferramentas, itens e o modo história. Sobreviva a cada expedição.",
+      "categoryLabel": "GUIAS DE EXPEDIÇÃO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias detalhados cobrindo os monstros, armas, armaduras, mapas, ferramentas e itens que você encontrará nas expedições, além de um detonado completo do modo história.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Conheça Monstros e Fraquezas",
+        "step1Description": "Estude o comportamento, padrões de ataque e fraquezas exploráveis de cada inimigo",
+        "step2Title": "Monte o Equipamento Certo",
+        "step2Description": "Combine armas, armaduras e ferramentas para cada contrato e expedição",
+        "step3Title": "Navegue pelo Mapa com Segurança",
+        "step3Description": "Siga rotas comprovadas por fortes, pontos de referência e pontos de extração"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "release": {
+      "title": "Data de Lançamento e Estreia de The Mound: Omen of Cthulhu",
+      "description": "Data de lançamento, acesso antecipado, pré-vendas e status de lançamento de The Mound: Omen of Cthulhu em todas as plataformas.",
+      "metaTitle": "Data de Lançamento de The Mound: Omen of Cthulhu - Acesso Antecipado e Pré-vendas",
+      "metaDescription": "Data de lançamento, acesso antecipado, bônus de pré-venda e detalhes de lançamento de The Mound: Omen of Cthulhu. Saiba exatamente quando poderá jogar.",
+      "categoryLabel": "LANÇAMENTO E ESTREIA",
+      "whatIs": "O que são as Informações de Lançamento?",
+      "whatIsDescription": "Tudo sobre a data de lançamento, janelas de acesso antecipado, bônus de pré-venda e se o jogo já está disponível para PC, PS5 e Xbox.",
+      "why": "Por que conferir as informações de lançamento?",
+      "whySteps": {
+        "step1Title": "Saiba a data exata",
+        "step1Description": "Acompanhe a data de lançamento confirmada e os lançamentos regionais",
+        "step2Title": "Garanta a pré-venda",
+        "step2Description": "Resgate bônus de pré-venda e recompensas de acesso antecipado antes do lançamento",
+        "step3Title": "Planeje o acesso antecipado",
+        "step3Description": "Descubra quais edições desbloqueiam o acesso antecipado e por quantos dias"
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os artigos de lançamento"
+    },
+    "platforms": {
+      "title": "Plataformas e requisitos de sistema de The Mound Omen of Cthulhu",
+      "description": "Plataformas disponíveis (PC, PS5, Xbox, Steam), requisitos de sistema, tamanho do download e disponibilidade no Game Pass.",
+      "metaTitle": "Plataformas de The Mound Omen of Cthulhu - PC, PS5, Xbox e Game Pass",
+      "metaDescription": "Encontre The Mound Omen of Cthulhu no PC, PS5, Xbox e Steam. Confira os requisitos de sistema, tamanho do download e disponibilidade no Game Pass.",
+      "categoryLabel": "PLATAFORMAS E ESPECIFICAÇÕES",
+      "whatIs": "O que são plataformas?",
+      "whatIsDescription": "Detalhes sobre cada plataforma em que The Mound Omen of Cthulhu roda, incluindo PC, PS5, Xbox Series, Steam, Game Pass, além de requisitos de sistema e tamanho do download.",
+      "why": "Por que verificar as plataformas?",
+      "whySteps": {
+        "step1Title": "Escolha sua plataforma",
+        "step1Description": "Compare a disponibilidade no PC, PS5, Xbox e Game Pass",
+        "step2Title": "Atenda aos requisitos de sistema",
+        "step2Description": "Confirme se o hardware do seu PC atende às especificações mínimas ou recomendadas",
+        "step3Title": "Verifique o tamanho do download",
+        "step3Description": "Planeje o armazenamento com antecedência com o espaço exato de instalação"
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os artigos sobre plataformas"
+    },
+    "demo": {
+      "title": "Demo de The Mound Omen of Cthulhu",
+      "description": "Disponibilidade da demo, plataformas, suporte a multijogador e se o progresso é transferido para o jogo completo.",
+      "metaTitle": "Demo de The Mound Omen of Cthulhu - Disponibilidade e transferência de progresso",
+      "metaDescription": "Experimente a demo de The Mound Omen of Cthulhu no PC, PS5 e Xbox. Saiba mais sobre o suporte a multijogador, janelas de lançamento e se o progresso é transferido.",
+      "categoryLabel": "DEMO E BETA",
+      "whatIs": "O que é a demo?",
+      "whatIsDescription": "Como acessar a demo de The Mound Omen of Cthulhu, quais plataformas ela suporta, opções de multijogador e se o seu progresso é transferido para a versão final.",
+      "why": "Por que testar a demo?",
+      "whySteps": {
+        "step1Title": "Teste antes de comprar",
+        "step1Description": "Experimente o combate e a exploração antes de se comprometer com a compra",
+        "step2Title": "Experimente o cooperativo antecipadamente",
+        "step2Description": "Entre no multijogador com amigos durante o período da demo",
+        "step3Title": "Mantenha seu progresso",
+        "step3Description": "Saiba se o progresso da demo é transferido para o jogo completo"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os artigos da demo"
+    },
+    "price": {
+      "title": "Preços e edições de The Mound Omen of Cthulhu",
+      "description": "Preços das edições Standard e Deluxe, o Lost Explorers Swords Pack e onde comprar cópias físicas.",
+      "metaTitle": "Preço de The Mound Omen of Cthulhu - Edições e cópias físicas",
+      "metaDescription": "Compare os preços de The Mound Omen of Cthulhu entre as edições Standard, Deluxe e Lost Explorers Swords Pack, além de opções de cópias físicas.",
+      "categoryLabel": "PREÇOS E EDIÇÕES",
+      "whatIs": "Quais são os preços?",
+      "whatIsDescription": "Um detalhamento dos preços das edições Standard e Deluxe, o bônus Lost Explorers Swords Pack e onde encontrar cópias físicas do jogo.",
+      "why": "Por que comparar preços?",
+      "whySteps": {
+        "step1Title": "Escolha a edição certa",
+        "step1Description": "Compare as edições Standard e Deluxe para se adequar ao seu orçamento",
+        "step2Title": "Obtenha conteúdo bônus",
+        "step2Description": "Resgate o Lost Explorers Swords Pack e extras de pré-venda",
+        "step3Title": "Encontre cópias físicas",
+        "step3Description": "Localize edições de varejo e físicas para colecionadores"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os artigos sobre preços"
+    },
+    "multiplayer": {
+      "title": "Multijogador e cooperativo de The Mound Omen of Cthulhu",
+      "description": "Crossplay, cooperativo, jogo solo, contagem de jogadores, tela dividida e chat de voz para até quatro exploradores.",
+      "metaTitle": "Multijogador de The Mound Omen of Cthulhu - Crossplay, Cooperativo e Solo",
+      "metaDescription": "O multijogador de The Mound Omen of Cthulhu explicado: crossplay entre PC, PS5 e Xbox, cooperativo para quatro pessoas, jogo solo, tela dividida e chat de voz.",
+      "categoryLabel": "MULTIPLAYER E COOPERATIVO",
+      "whatIs": "O que é o Multiplayer?",
+      "whatIsDescription": "Como funciona o cooperativo para até quatro exploradores, crossplay entre PC, PS5 e Xbox, viabilidade solo, suporte a tela dividida e opções de chat de voz.",
+      "why": "Por que conferir o multiplayer?",
+      "whySteps": {
+        "step1Title": "Configurar o Crossplay",
+        "step1Description": "Conecte jogadores de PC, PS5 e Xbox na mesma expedição",
+        "step2Title": "Monte uma Equipe Cooperativa",
+        "step2Description": "Coordene funções entre navegação, combate e tesouros",
+        "step3Title": "Jogue Solo se Necessário",
+        "step3Description": "Saiba como o jogo ajusta a dificuldade para exploradores solitários"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Multiplayer"
+    },
+    "reviews": {
+      "title": "Análises e Desempenho de The Mound: Omen of Cthulhu",
+      "description": "Análises da crítica, comparações com Left 4 Dead e Hunt Showdown e desempenho técnico em várias plataformas.",
+      "metaTitle": "Análises de The Mound: Omen of Cthulhu — Desempenho e Comparações",
+      "metaDescription": "Leia as análises e a avaliação de desempenho de The Mound: Omen of Cthulhu, além de como ele se compara a Left 4 Dead e Hunt Showdown.",
+      "categoryLabel": "ANÁLISES E DESEMPENHO",
+      "whatIs": "O que são as Análises?",
+      "whatIsDescription": "Recepção da crítica, desempenho técnico no PC, PS5 e Xbox, e como The Mound: Omen of Cthulhu se compara a Left 4 Dead e Hunt Showdown.",
+      "why": "Por que ler as análises?",
+      "whySteps": {
+        "step1Title": "Veja a Recepção da Crítica",
+        "step1Description": "Leia o que críticos e jogadores dizem sobre o lançamento",
+        "step2Title": "Verifique o Desempenho",
+        "step2Description": "Analise taxas de quadros, estabilidade e otimização por plataforma",
+        "step3Title": "Compare Jogos Semelhantes",
+        "step3Description": "Compare-o com Left 4 Dead e Hunt Showdown"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Análises"
+    }
   }
 }
