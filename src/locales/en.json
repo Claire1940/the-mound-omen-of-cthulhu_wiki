@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "The Mound: Omen of Cthulhu Wiki - Guides & Weapons",
+      "description": "Explore The Mound: Omen of Cthulhu guides for co-op expeditions, weapons, sanity, contracts, treasures, enemies, maps, editions, and survival tips.",
+      "keywords": "The Mound Omen of Cthulhu, guide, weapons, sanity, contracts, enemies, co-op, map",
+      "ogTitle": "The Mound: Omen of Cthulhu Wiki - Guides & Weapons",
+      "ogDescription": "Explore The Mound: Omen of Cthulhu guides for co-op expeditions, weapons, sanity, contracts, treasures, enemies, maps, editions, and survival tips.",
+      "twitterTitle": "The Mound: Omen of Cthulhu Wiki - Guides & Weapons",
+      "twitterDescription": "Explore The Mound: Omen of Cthulhu guides for co-op expeditions, weapons, sanity, contracts, treasures, enemies, maps, and survival tips."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "4-Player Lovecraftian Co-op Horror",
+    "title": "The Mound: Omen of Cthulhu Wiki",
+    "description": "Enter a cursed jungle with up to four explorers, complete contracts, recover forbidden treasures and survive monsters that distort reality and turn your own senses against you.",
+    "getFreeCodesCTA": "Browse Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 15, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "1-4",
+        "label": "Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "800K+",
+        "label": "Steam Wishlists"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Explore The Mound?",
+    "description": "Join the community for expedition guides, patch notes, and co-op discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "The Mound: Omen of Cthulhu Wiki",
+    "description": "Your complete resource hub for The Mound: Omen of Cthulhu guides, weapons, expeditions, sanity, enemies, and survival tips.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 The Mound: Omen of Cthulhu Wiki. Not affiliated with ACE Team or Nacon.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
