@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu: Guia para Iniciantes e Dicas de Sobrevivência",
+  description: "Domine a selva amaldiçoada em The Mound: Omen of Cthulhu com nosso guia de sobrevivência especializado, cobrindo combate, mecânicas de sanidade e estratégias cooperativas para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipe do Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **The Mound: Omen of Cthulhu** foca no terror cooperativo, exigindo gerenciamento cuidadoso de recursos e coordenação de equipe.
+- **Controle de Ruído** é essencial; evite tiroteios desnecessários ou cortar a vegetação para manter a selva calma.
+- **Mecânicas de Sanidade** não possuem HUD; comunique-se com os companheiros de equipe para verificar ameaças reais versus alucinações.
+- **Proteção do Carro de Boi** é sua missão principal; garanta o valor de tesouro solicitado antes de explorar riscos mais profundos.
+- **Atenção ao Clima** dita sua eficácia em combate; mantenha armas corpo a corpo prontas quando a chuva inutilizar os mosquetes.
+</Callout>
+
+<Section icon={Map} title="Primeiros Passos: Sua Primeira Expedição">
+
+Sua jornada começa a bordo do galeão *Tempestad*. O sucesso em **The Mound: Omen of Cthulhu** depende de preparação, comunicação e saber a hora de recuar.
+
+**Destaques do Vídeo:**
+- Entendendo o processo de seleção de contratos.
+- Distribuição tática de equipamentos entre os membros do esquadrão.
+- Identificando ameaças da selva e o básico de navegação.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="Visão Geral do Gameplay de The Mound: Omen of Cthulhu" />
+
+Antes de sair do navio, certifique-se de que cada explorador tenha uma função definida. Um esquadrão equilibrado é mais eficaz do que um grupo de quatro especialistas em poder de fogo pesado. Consulte a tabela abaixo para as funções essenciais da expedição.
+
+| Função | Responsabilidade Principal | Equipamento Sugerido |
+| :--- | :--- | :--- |
+| Navegador | Orientação e descoberta de fortes | Bússola, Mapa, Fonte de luz |
+| Defensor do Carro | Proteger o carro de boi e o saque | Arma corpo a corpo, Escudo |
+| Especialista à Distância | Eliminação silenciosa de ameaças | Arco, Faca |
+| Suporte | Coleta de recursos e Cura | Medalhão de Tesouro, Suprimentos |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre combine um "Limite de Recuo" antes de entrar na selva. Se sua equipe atingir o valor de tesouro exigido, priorize retornar em segurança em vez de caçar saques extras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas e Estratégia de Equipamento">
+
+O combate na selva é lento e de alto risco. Confiar apenas em armas de fogo frequentemente atrairá mais inimigos do que você consegue lidar.
+
+| Arma | Tipo | Melhor Uso | Confiabilidade |
+| :--- | :--- | :--- | :--- |
+| Arco | Ataque à Distância Silencioso | Furtividade e Clima Úmido | Alta |
+| Faca | Corpo a Corpo | Reserva de Emergência | Excelente |
+| Flintlock | Arma de Fogo | Ataque inicial de alto impacto | Moderada |
+| Matchlock | Arma de Fogo | Confrontos planejados | Baixa |
+
+<CardGrid cols={3}>
+  <Card title="Estratégia Furtiva">
+    - Priorize arcos para eliminações silenciosas.
+    - Evite eliminar todos os inimigos.
+    - Use as sombras para desviar de patrulhas.
+  </Card>
+  <Card title="Disciplina com Armas de Fogo">
+    - Reserve munição para ameaças de nível chefe.
+    - Recarregue durante janelas seguras.
+    - Sempre tenha uma arma corpo a corpo de reserva.
+  </Card>
+  <Card title="Equipamento da Equipe">
+    - Distribua as fontes de luz.
+    - Compartilhe a munição igualmente.
+    - Atribua funções de combate específicas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Clima">
+A chuva é sua maior inimiga ao usar armas de pólvora. Sempre verifique o céu antes de se comprometer com um ataque baseado em armas de fogo; se o tempo mudar, mude para o arco imediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Protocolos de Sanidade e Alucinação">
+
+O sistema de sanidade em **The Mound: Omen of Cthulhu** é psicológico. Como não há elemento de interface (UI) para rastrear sua corrupção, você deve confiar em sua equipe para verificar a realidade.
+
+<Steps>
+  <Step num="1" title="Verifique as Observações">
+    Se você vir um monstro ou um companheiro de equipe agindo de forma estranha, pergunte ao grupo: "Você está vendo isso?" antes de atirar.
+  </Step>
+  <Step num="2" title="Confirme o Áudio">
+    A loucura pode imitar o som da buzina do carro de boi. Nunca persiga um som distante sozinho sem confirmação verbal.
+  </Step>
+  <Step num="3" title="Mantenha a Formação">
+    As alucinações prosperam no isolamento. Mantenha seu esquadrão dentro do alcance visual e de voz o tempo todo.
+  </Step>
+</Steps>
+
+| Tipo de Alucinação | Efeito Potencial | Contra-medida |
+| :--- | :--- | :--- |
+| Falsos Companheiros | Modelos aliados parecem hostis | Use verificação de voz espacial |
+| Chuva de Sangue | O terreno parece distorcido | Confie no caminho do navegador |
+| Buzinas Fantasmagóricas | Atrai o esquadrão para uma emboscada | Confirme a localização do carro |
+
+<Callout type="success" title="A Comunicação é a Chave">
+Use frases curtas e claras como "Alvo confirmado", "Indo saquear" ou "Preciso de luz" para minimizar a confusão durante encontros de alto estresse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos da Expedição">
+
+A progressão é alcançada ao completar contratos e desbloquear novos locais de partida por meio dos diários de bordo dos fortes.
+
+<Checklist
+  id="expedition-goals"
+  title="Lista de Verificação da Expedição:"
+  items={[
+    "Garantir o requisito mínimo de tesouro do capitão",
+    "Localizar e ler pelo menos um diário de bordo de forte",
+    "Identificar um ponto de extração seguro",
+    "Retornar com sucesso com o carro de boi"
+  ]}
+/>
+
+| Objetivo | Prioridade | Recompensa |
+| :--- | :--- | :--- |
+| Conclusão de Contrato | Alta | Moeda e Reputação |
+| Diários de Bordo do Forte | Média | Novos Pontos de Renascimento |
+| Relíquias Raras | Baixa | Saque de Alto Valor |
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "The Mound: Omen of Cthulhu pode ser jogado solo?",
+    answer: "Sim, você pode jogar solo, mas é significativamente mais desafiador. Você deve gerenciar a navegação, a proteção do carro e o combate simultaneamente."
+  },
+  {
+    question: "O jogo suporta crossplay?",
+    answer: "Sim, o jogo apresenta funcionalidade cooperativa multiplataforma entre PC, PlayStation 5 e Xbox Series X|S."
+  },
+  {
+    question: "O que acontece se eu morrer na selva?",
+    answer: "Se você morrer, poderá ser revivido por seus companheiros de equipe. Se for deixado sozinho, seu personagem pode ser corrompido e retornar como um inimigo hostil."
+  },
+  {
+    question: "Existem códigos de trapaça para o jogo?",
+    answer: "Não, atualmente não há nenhum código de resgate oficial ou sistema de trapaça em The Mound: Omen of Cthulhu."
+  }
+]} />
+
+</Section>

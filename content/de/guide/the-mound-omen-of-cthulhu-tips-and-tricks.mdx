@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Tipps und Tricks: Überlebenshandbuch",
+  description: "Meistere den Lovecraft-Dschungel mit unserem unentbehrlichen Guide über Wahnsinns-Management, Waffenwahl und Koop-Strategien in The Mound: Omen of Cthulhu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Survival+Guide",
+  date: "2026-07-19",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Hauptfokus des Guides**: Nutze diese unentbehrlichen Tipps und Tricks für The Mound: Omen of Cthulhu, um im erbarmungslosen Lovecraft-Dschungel zu überleben.
+- **Zusammenbleiben**: Isolation beschleunigt den Wahnsinn rasant und verursacht schwere Halluzinationen sowie akustische Verzerrungen.
+- **Lärm kontrollieren**: Schüsse, Sprinten in schwerer Rüstung und das Blasen des Horns wecken den feindseligen Wald auf.
+- **Nutzen der Fackel**: Trage immer eine Fackel bei dir, um zu verhindern, dass Ranken gefallene Gegner wiederbeleben.
+- **Dominanz der Axt**: Die Wurfaxt ist dank ihrer Mechanik zur unendlichen Wiederbeschaffung äußerst effizient.
+</Callout>
+
+<Section icon={Map} title="Das Erwachen des Dschungels und Lärmmechaniken">
+
+Das Überleben in den tiefen, bedrückenden Dschungeln Chiles erfordert ein solides Verständnis dafür, wie die Umgebung auf deine Anwesenheit reagiert. In diesem Guide behandeln wir die wichtigsten **Tipps und Tricks für The Mound: Omen of Cthulhu**, um deiner Gruppe zu helfen, die bevorstehenden Schrecken zu meistern. Der Dschungel selbst fungiert als dynamische Bedrohung, die erwacht und Wellen von Gegnern aussendet, wenn dein Team zu viel Lärm macht. 
+
+Jede deiner Aktionen trägt zur Alarmbereitschaft des Waldes bei. Das Sprinten in schwerer Rüstung, das Durchqueren von Flüssen, der Einsatz von Schusswaffen oder das Blasen des Horns, um deinen Ochsenkarren zu rufen, erzeugen Lärm. Wenn der Wald vollständig erwacht ist, wird eine Horde feindseliger Kreaturen deine Position ansteuern, was das Überleben unglaublich schwierig macht.
+
+**Video-Highlights:**
+- Erfahre, wie sich die Umgebung wie ein feindseliger Charakter verhält.
+- Verstehe die Mechaniken von Sound und dem Proximity-Sprachchat.
+- Entdecke, wie Wetterbedingungen Steinschloss- und Luntenschloss-Schusswaffen beeinflussen.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Dinge, die du vor dem Kauf wissen musst" />
+
+| Aktion | Lärmpegel | Gegner-Aggro-Risiko | Taktische Empfehlung |
+| :--- | :--- | :--- | :--- |
+| Schleichen | Niedrig | Minimal | Als Standard-Bewegungsmodus nutzen |
+| Sprinten in Rüstung | Mittel | Moderat | In der Nähe von schlafenden Nestern vermeiden |
+| Horn blasen | Hoch | Schwerwiegend | Nur verwenden, wenn man sich verirrt hat, um den Karren zu finden |
+| Luntenschlösser abfeuern | Extrem | Maximal | Für verzweifelte Extraktions-Runs aufsparen |
+
+<Callout type="warning" title="Wetterwarnung">
+Verlasse dich bei Expeditionen niemals ausschließlich auf Schusswaffen. Regen führt dazu, dass Luntenschloss- und Steinschloss-Waffen versagen, was dich völlig schutzlos zurücklässt, wenn du dir keine zuverlässige Nahkampfwaffe gesichert hast.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wahnsinn und Sanitätsmanagement">
+
+Je tiefer du in den Dschungel vordringst, desto mehr schwindet die geistige Gesundheit deines Charakters. Wahnsinn ist nicht nur ein visueller Effekt; er verzerrt aktiv deine Wahrnehmung der Realität und erschafft Illusionen, die zu deinem Untergang führen können. Du wirst sensorische Verzerrungen, dumpfen Sound und schreckliche Halluzinationen erleben.
+
+Halluzinationen können sich als gefälschte Beutefallen, spektrale Gegner im Gewand von Verbündeten oder als deine tatsächlichen Teammitglieder, die wie Monster aussehen, manifestieren. Um diese Effekte abzumildern, musst du gezielte Strategien zur Bewahrung deiner geistigen Gesundheit anwenden. In der Nähe deines Teams und des Ochsenkarrens zu bleiben, sind die effektivsten Wege, um den Wahnsinn in Schach zu halten.
+
+| Quelle | Auswirkung auf geistige Gesundheit | Visuelle Hinweise | Minderungsstrategie |
+| :--- | :--- | :--- | :--- |
+| In der Nähe des Karrens bleiben | Allmähliche Erholung | Klares Bild, normaler Ton | In der Nähe des Ochsenkarrens aufhalten |
+| Pilze essen | Sofortige Erholung | Aufgehellte Sicht | Leuchtende Pilze vorsichtig ernten |
+| Isolation | Rascher Verfall | Grauer Bildschirm, dumpfes Gehör | Sofort wieder mit Teammitgliedern gruppieren |
+| Schwarze Raben | Schwerer Verfall | Rauchwolke, Paranoia | Raben sofort erschießen, bevor sie alarmieren |
+
+<Callout type="tip" title="Profi-Tipp">
+Lass deine Teammitglieder immer überprüfen, was du siehst. Ein glänzendes neues Gewehr auf dem Boden könnte unter dem Einfluss des Wahnsinns nur ein wertloser Ast sein, und ein freundliches Gesicht in der Ferne könnte eine gesichtslose Kopie sein, die nur darauf wartet, zuzuschlagen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die besten Waffen und Kampftaktiken">
+
+Der Kampf in diesem Spiel erfordert Präzision und Ressourcenschonung. Da Munition knapp ist und Schusswaffen bei feuchtem Wetter unzuverlässig sind, ist das Meistern des Nahkampfs von entscheidender Bedeutung. Verschiedene Waffen bieten einzigartige Vorteile, und das Verständnis ihres Nutzens kann über Leben und Tod entscheiden.
+
+Die Wurfaxt sticht als eine der besten Waffen im Spiel hervor, da sie unendlich oft wiederverwendet werden kann. Wirf sie einfach auf einen Gegner und hole sie aus dessen Leiche zurück. Für ein defensives Gameplay kann das Kruzifix die Aggression der Gegner verlangsamen und Aufmerksamkeit erregen, sodass deine Teammitglieder sich hinter die Monster schleichen können, um leichte Backstabs (Angriffe in den Rücken) auszuführen.
+
+<CardGrid cols={3}>
+  <Card title="Wurfaxt">
+    - **Unendliche Haltbarkeit**
+    - Hervorragender Fernkampf-Poke im Nahkampf
+    - Einfache Rückholung aus Zielen
+  </Card>
+  <Card title="Fackel & Laterne">
+    - **Verhindert die Wiederbelebung von Zombies**
+    - Laterne fungiert als Feuergranate
+    - Unentbehrlich zum Klären des Blätterdachs
+  </Card>
+  <Card title="Kruzifix & Speer">
+    - **Verlangsamt gegnerische Aggression**
+    - Perfekt für die Vorbereitung von Backstabs
+    - Hält Ziele auf sicherer Distanz
+  </Card>
+</CardGrid>
+
+| Waffentyp | Hauptsächliche Verwendung | Haltbarkeitskosten | Kampfbewertung |
+| :--- | :--- | :--- | :--- |
+| Wurfaxt | Fernkampf-Poke & Rückholung | Keine (wiederverwendbar) | Hervorragend (5/5) |
+| Speer | Nahkampf mit hoher Reichweite | Mittel | Großartig (4/5) |
+| Stabhammer | Zerstörung schwerer Rüstung | Hoch | Gut (3/5) |
+| Fackel | Verhinderung von Ranken-Wiederbelebungen | Niedrig | Unentbehrlich (5/5) |
+
+<Callout type="success" title="Kampfsynergie">
+Wenn du vor einem am Boden liegenden Zombie stehst, schlage sofort mit einer Fackel auf ihn ein. Dies zwingt die parasitären Ranken zum Rückzug, verhindert die Wiederbelebung des Zombies und schont die Haltbarkeit deiner Waffe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Extraktions-Loop">
+
+Um deine Expeditionen beständig zu überleben und mit wertvoller Beute zurückzukehren, muss deine Gruppe einem strukturierten Gameplay-Loop folgen. Jeder Run besteht aus Vorbereitung, vorsichtiger Erkundung und einer koordinierten Flucht.
+
+<Steps>
+  <Step num="1" title="Vorbereitung vor dem Run">
+    Beginne an Bord der Tempest Dot. Sprich mit dem Schiffskoch, um Hirschfleisch für bessere Rationen abzugeben, streichle den Hund für Glück und nimm den Vertrag des Kapitäns an. Sprecht euch im Team ab, wer die Schusswaffen trägt und wer die Hilfswerkzeuge übernimmt.
+  </Step>
+  <Step num="2" title="Plündern im Dschungel">
+    Setze zum Festland über und beginne mit der Suche nach Reichtümern, Nahrung und Metall-Ephemeron. Halte deinen Ochsenkarren in der Nähe, um überschüssige Beute zu lagern und deine geistige Gesundheit zu managen. Vermeide unnötige Kämpfe und halte den Lärmpegel auf einem absoluten Minimum.
+  </Step>
+  <Step num="3" title="Koordinierte Extraktion">
+    Sobald dein Inventar voll ist oder deine geistige Gesundheit bedrohlich sinkt, mache dich auf den Weg zum Ruderboot. Du musst nicht auf den Karren warten, um zu entkommen, aber alle lebenden Teammitglieder müssen am Ruderboot anwesend sein, um die Extraktion auszulösen.
+  </Step>
+</Steps>
+
+| Phase | Hauptziel | Hauptbedrohung | Erfolgsbedingung |
+| :--- | :--- | :--- | :--- |
+| Vorbereitung | Vertrag unterzeichnen, Ausrüstung wählen | Schlechte Waffenverteilung | Ausgewogenes Gruppeninventar |
+| Erkundung | Den Hügel finden, Beute lokalisieren | Anhäufung von Wahnsinn | Als Gruppe in der Nähe des Karrens bleiben |
+| Extraktion | Das Ruderboot erreichen | Gesichtslose Kopien & Prowler | Alle lebenden Spieler anwesend |
+
+<Callout type="info" title="Sicherheit bei der Extraktion">
+Wenn ein Teammitglied in der Nähe der Extraktionszone von einem Prowler geschnappt wird, ist es oft sicherer, am Ruderboot zu warten. Ein Rettungsversuch tief im Dschungel während der Extraktion führt häufig zum Tod der gesamten Gruppe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Schiffs-Upgrades">
+
+Das Verfehlen der Vertragsquote des Kapitäns bedeutet nicht das Spielende. Du verlierst zwar Bonus-Erfahrungspunkte und Token, behältst aber alle Logbücher, Spezialartefakte oder geretteten Überlebenden, die du extrahieren konntest. Die Priorisierung dieser langfristigen Fortschrittsgegenstände ist oft besser, als dein Leben für einen einfachen Vertrag aufs Spiel zu setzen.
+
+Das Retten von Überlebenden während deiner Runs schaltet dauerhafte Vorteile auf der Tempest Dot frei. Wenn du beispielsweise den Holzschnitzer (Woodworker) rettest, kannst du Heilige an deinem Ochsenkarren anbringen, was aktive und passive Buffs gewährt, die zukünftige Expeditionen erheblich erleichtern.
+
+<Checklist
+  id="progression-milestones"
+  title="Wichtige Fortschrittsziele:"
+  items={[
+    "Jage Hirsche, um deine Schiffsrationen dauerhaft zu verbessern",
+    "Rette den Holzschnitzer, um die Heiligen-Buffs für den Ochsenkarren freizuschalten",
+    "Erwirb den Ring der Isolationsresistenz für das Solospiel",
+    "Sammle Logbücher, um den gemeinsamen Story-Fortschritt voranzutreiben"
+  ]}
+/>
+
+<Callout type="success" title="Rations-Upgrades">
+Ignoriere Hirsche während deiner Runs nicht. Wenn du dem Schiffskoch Hirschfleisch bringst, verbessert das dauerhaft die Qualität deiner Startrationen, was dir einen massiven Vorteil verschafft, der sich auf alle Missionen überträgt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Was ist die beste Startwaffe in The Mound: Omen of Cthulhu?",
+    answer: "Die Wurfaxt gilt weithin als die beste Waffe, da man sie auf Gegner werfen und wieder einsammeln kann, ohne Haltbarkeit zu verlieren oder wertvolle Munition zu verbrauchen."
+  },
+  {
+    question: "Wie verhindere ich, dass besiegte Zombies wiederauferstehen?",
+    answer: "Rüste eine Fackel aus und greife den gefallenen Zombie an. Dies zwingt die parasitären Ranken, die versuchen, die Leiche wiederzubeleben, zum Rückzug, sodass der Gegner dauerhaft am Boden bleibt."
+  },
+  {
+    question: "Was sind die wichtigsten Tipps und Tricks für The Mound: Omen of Cthulhu, um die geistige Gesundheit zu bewahren?",
+    answer: "Um deine geistige Gesundheit hoch zu halten, bleibe immer in der Nähe deiner Teammitglieder, halte dich im Umkreis deines Ochsenkarrens auf, erschieße schwarze Raben sofort und iss leuchtende Pilze."
+  },
+  {
+    question: "Funktionieren Schusswaffen, wenn es regnet?",
+    answer: "Nein. Regen und starke Feuchtigkeit führen dazu, dass Steinschloss- und Luntenschloss-Schusswaffen versagen. Bei regnerischen Missionen solltest du dich auf Nahkampfwaffen wie den Speer oder die Axt verlassen."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Ratschlag">
+Kommuniziere immer über den Proximity-Sprachchat mit deinem Team, um Halluzinationen zu überprüfen. Nur durch Zusammenarbeit lässt sich der Wahnsinn des Hügels bezwingen.
+</Callout>
+
+</Section>

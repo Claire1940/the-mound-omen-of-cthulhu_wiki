@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu: Beginner Guide & Survival Tips",
+  description: "Master the cursed jungle in The Mound: Omen of Cthulhu with our expert survival guide, covering combat, sanity mechanics, and co-op strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Survival+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound: Omen of Cthulhu** focuses on cooperative horror, requiring careful resource management and team coordination.
+- **Noise Control** is essential; avoid unnecessary gunfire or vegetation cutting to keep the jungle calm.
+- **Sanity Mechanics** lack a HUD; communicate with teammates to verify real threats versus hallucinations.
+- **Ox Cart Protection** is your primary mission; secure the requested treasure value before exploring deeper risks.
+- **Weather Awareness** dictates your combat efficacy; keep melee weapons ready when rain renders muskets useless.
+</Callout>
+
+<Section icon={Map} title="Getting Started: Your First Expedition">
+
+Your journey begins aboard the *Tempestad* galleon. Success in **The Mound: Omen of Cthulhu** depends on preparation, communication, and knowing when to retreat.
+
+**Video Highlights:**
+- Understanding the contract selection process.
+- Tactical equipment distribution among squad members.
+- Identifying jungle threats and navigation basics.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay Overview" />
+
+Before leaving the ship, ensure every explorer has a defined role. A balanced squad is more effective than a group of four heavy-firepower specialists. Refer to the table below for essential expedition roles.
+
+| Role | Primary Responsibility | Suggested Gear |
+| :--- | :--- | :--- |
+| Navigator | Pathfinding & Fort discovery | Compass, Map, Light source |
+| Cart Defender | Protect the ox cart & loot | Melee weapon, Shield |
+| Ranged Specialist | Quiet threat elimination | Bow, Knife |
+| Support | Resource gathering & Healing | Treasure Medallion, Supplies |
+
+<Callout type="tip" title="Pro Tip">
+Always agree on a "Retreat Threshold" before entering the jungle. If your team reaches the required treasure value, prioritize returning safely over hunting for extra loot.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Weapons and Loadout Strategy">
+
+Combat in the jungle is slow and high-stakes. Relying solely on firearms will often attract more enemies than you can handle.
+
+| Weapon | Type | Best Usage | Reliability |
+| :--- | :--- | :--- | :--- |
+| Bow | Quiet Ranged | Stealth & Wet Weather | High |
+| Knife | Melee | Emergency Backup | Excellent |
+| Flintlock | Firearm | High-impact initial strike | Moderate |
+| Matchlock | Firearm | Planned engagements | Low |
+
+<CardGrid cols={3}>
+  <Card title="Stealth Strategy">
+    - Prioritize bows for silent kills.
+    - Avoid clearing every enemy.
+    - Use shadows to bypass patrols.
+  </Card>
+  <Card title="Firearm Discipline">
+    - Reserve ammo for boss-level threats.
+    - Reload during safe windows.
+    - Always have a melee backup.
+  </Card>
+  <Card title="Team Loadout">
+    - Distribute light sources.
+    - Share ammunition evenly.
+    - Assign specific combat roles.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Weather Warning">
+Rain is your greatest enemy when using gunpowder weapons. Always check the sky before committing to a firearm-based assault; if the weather turns, switch to your bow immediately.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sanity and Hallucination Protocols">
+
+The sanity system in **The Mound: Omen of Cthulhu** is psychological. Because there is no UI element to track your corruption, you must rely on your team to verify reality.
+
+<Steps>
+  <Step num="1" title="Verify Observations">
+    If you see a monster or a teammate acting strangely, ask the group, "Do you see this?" before firing.
+  </Step>
+  <Step num="2" title="Confirm Audio">
+    Madness can mimic the sound of the ox cart horn. Never chase a distant sound alone without verbal confirmation.
+  </Step>
+  <Step num="3" title="Maintain Formation">
+    Hallucinations thrive in isolation. Keep your squad within visual and voice range at all times.
+  </Step>
+</Steps>
+
+| Hallucination Type | Potential Effect | Counter-Measure |
+| :--- | :--- | :--- |
+| False Teammates | Friendly models appear hostile | Use spatial voice check |
+| Blood Rain | Terrain looks distorted | Rely on navigator's path |
+| Ghostly Horns | Lures squad into ambush | Confirm cart location |
+
+<Callout type="success" title="Communication is Key">
+Use short, clear phrases like "Target confirmed," "Moving to loot," or "Need light" to minimize confusion during high-stress encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Milestones">
+
+Progression is achieved by completing contracts and unlocking new starting locations via fort logbooks.
+
+<Checklist
+  id="expedition-goals"
+  title="Expedition Checklist:"
+  items={[
+    "Secure the captain's minimum treasure requirement",
+    "Locate and read at least one fort logbook",
+    "Identify a safe extraction point",
+    "Successfully return with the ox cart"
+  ]}
+/>
+
+| Objective | Priority | Reward |
+| :--- | :--- | :--- |
+| Contract Completion | High | Currency & Reputation |
+| Fort Logbooks | Medium | New Spawn Points |
+| Rare Relics | Low | High-Value Loot |
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is The Mound: Omen of Cthulhu playable solo?",
+    answer: "Yes, you can play solo, but it is significantly more challenging. You must manage navigation, cart protection, and combat simultaneously."
+  },
+  {
+    question: "Does the game support crossplay?",
+    answer: "Yes, the game features cross-platform co-op functionality across PC, PlayStation 5, and Xbox Series X|S."
+  },
+  {
+    question: "What happens if I die in the jungle?",
+    answer: "If you die, you can be revived by teammates. If left unattended, your character may be corrupted and return as a hostile enemy."
+  },
+  {
+    question: "Are there any cheat codes for the game?",
+    answer: "No, there is currently no official redeem code or cheat system in The Mound: Omen of Cthulhu."
+  }
+]} />
+
+</Section>

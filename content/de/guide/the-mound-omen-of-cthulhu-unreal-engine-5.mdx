@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Brain, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Unreal Engine 5: Gameplay- & Koop-Leitfaden",
+  description: "Meistere The Mound: Omen of Cthulhu auf der Unreal Engine 5. Lerne Koop-Strategien, Geisteszustand-Management und Dschungelerkundung in diesem Überlebenshandbuch für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Mound+Survival+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "The Mound Omen of Cthulhu, Unreal Engine 5, Koop-Leitfaden, Überlebenshandbuch, Geisteszustand, Cthulhu"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **The Mound Omen of Cthulhu Unreal Engine 5** ist ein Koop-Horrorspiel für 4 Spieler, das im südamerikanischen Dschungel des 16. Jahrhunderts spielt.
+- **Geisteszustand-Management** (Sanity) ist die Kernmechanik; die Spieler müssen zwischen der Realität und Lovecraft'schen Halluzinationen unterscheiden.
+- **Die Galeone (Hub)** dient als sichere Zone für die Ausrüstungsvorbereitung, das Unterzeichnen von Verträgen und die Gruppenorganisation.
+- **Crossplay-Unterstützung** ist seit Juli 2026 für PC-, PlayStation 5- und Xbox Series-Spieler vollständig aktiv.
+- **Heimlichkeit und Koordination** haben Vorrang vor dem Kampf, da Lärm unaussprechliche Schrecken anzieht.
+</Callout>
+
+<Section icon={Sparkles} title="Unreal Engine 5 Horror-Erlebnis">
+
+The Mound: Omen of Cthulhu nutzt die Leistung der **Unreal Engine 5**, um ein visuell beklemmendes und atmosphärisch dichtes Horror-Erlebnis zu bieten. In den verfluchten Dschungeln Südamerikas des 16. Jahrhunderts schlüpfen die Spieler in die Rolle von Entdeckern, die in dem legendären Grabhügel (The Mound) nach Schätzen suchen. Die fortschrittliche Beleuchtung der Engine und das spezialisierte räumliche Audio schaffen eine Umgebung, in der jeder knackende Ast oder jedes ferne Flüstern das bevorstehende Verderben ankündigen könnte.
+
+**Video-Highlights:**
+- **Koop-Dynamik**: Übersicht über das für das Überleben erforderliche Teamwork von vier Spielern.
+- **Das Geisteszustand-System**: Ein Blick darauf, wie der Wahnsinn die Spielwelt in Echtzeit verändert.
+- **Erkundungsschleife**: Von der Sicherheit der Galeone bis in die Tiefen des Dschungels.
+- **Kampf & Heimlichkeit**: Demonstration von Muskete, Armbrust und den Gefahren von Lärm.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Offizieller Gameplay-Übersichtstrailer" />
+
+| Feature | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Lumen-Beleuchtung** | Dynamische globale Beleuchtung | Realistische Schatten und Flackern des Lampenlichts |
+| **Räumliches Audio** | Spezialisierte Tonpositionierung | Essenziell für den Proximity-Sprachchat |
+| **Wahnsinnssystem** | Echtzeit-Weltverzerrung | Halluzinationen und visuelle Täuschung |
+| **Crossplay** | Multi-Plattform-Konnektivität | Nahtloser PC-, PS5- und Xbox-Koop |
+
+<Callout type="success" title="Visuelle Treue">
+Die Verwendung der **Unreal Engine 5** ermöglicht Details auf „Nanite“-Niveau im Dschungellaub, wodurch sich die Umgebung selbst lebendig und bedrückend anfühlt.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Die Galeone: Vorbereitung und Ausrüstung">
+
+Bevor Sie sich auf das Festland wagen, muss sich Ihre Gruppe auf der Galeone organisieren. Dieser Hub fungiert als einziger sicherer Ort in **The Mound Omen of Cthulhu Unreal Engine 5**. Hier unterzeichnen Sie Verträge mit dem Kapitän, der die notwendige Ausrüstung für Ihre Expedition bereitstellt. Die richtige Verteilung der Ausrüstung entscheidet über eine erfolgreiche Schatzsuche oder den Abstieg in den Wahnsinn.
+
+<CardGrid cols={3}>
+  <Card title="Hauptwaffen">
+    - **Muskete**: Hoher Schaden, aber laut.
+    - **Armbrust**: Leise, aber langsameres Nachladen.
+    - **Schwert**: Essenziell für Nahbegegnungen.
+  </Card>
+  <Card title="Nützliche Werkzeuge">
+    - **Öllampe**: Primäre Lichtquelle.
+    - **Wiederbelebungs-Salze**: Um gefallene Verbündete zurückzuholen.
+    - **Logbücher**: Schalten zukünftige Startpunkte frei.
+  </Card>
+  <Card title="Expeditionsziele">
+    - **Nahrung sammeln**: Für das Überleben der Crew.
+    - **Entdecker retten**: Verlorene Expeditionsmitglieder finden.
+    - **Schatz finden**: Das ultimative Ziel.
+  </Card>
+</CardGrid>
+
+| Ausrüstungsgegenstand | Primäre Nutzung | Lärmpegel |
+| :--- | :--- | :--- |
+| **Muskete** | Fernverteidigung | **Extrem** (Zieht Monster an) |
+| **Armbrust** | Heimliche Takedowns | **Niedrig** (Sicher für Erkundung) |
+| **Öllampe** | Beleuchtung | **Mittel** (Sichtbar für Feinde) |
+| **Schwert** | Letzter Ausweg im Nahkampf | **Niedrig** (Leise, aber riskant) |
+
+<Callout type="tip" title="Ressourcenmanagement">
+Stellen Sie immer sicher, dass mindestens ein Spieler Wiederbelebungs-Salze bei sich trägt. Ohne sie kann ein einziger Fehler den Lauf eines Teammitglieds im tiefen Dschungel dauerhaft beenden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigieren im verfluchten Dschungel">
+
+Der Dschungel ist kein linearer Pfad; er besteht aus einer Reihe großer, offener Gebiete, die durch verlassene Forts verbunden sind. Diese Forts sind entscheidend für den langfristigen Fortschritt. Durch das Bergen von Logbüchern früherer Expeditionen können Sie diese Orte als Startpunkte für zukünftige Läufe freischalten, sodass sich Ihr Team tiefer in das Unbekannte wagen kann, ohne jeden Schritt zurückverfolgen zu müssen.
+
+<Steps>
+  <Step num="1" title="Landung auf dem Festland">
+    Nehmen Sie das Ruderboot von der Galeone zum Ufer. Stellen Sie sicher, dass alle Spieler ihre zugewiesene Ausrüstung bereit haben, bevor sie das Boot verlassen.
+  </Step>
+  <Step num="2" title="Koordinierte Erkundung">
+    Nutzen Sie den **Proximity-Sprachchat**, um in Kontakt zu bleiben. Wenn Sie sich zu weit entfernen, verlieren Sie die Kommunikation, was die größte Gefahr im Dschungel darstellt.
+  </Step>
+  <Step num="3" title="Sichern des Forts">
+    Lokalisieren Sie verlassene Forts und suchen Sie nach Logbüchern. Das Sichern dieser Aufzeichnungen stellt sicher, dass Ihr Fortschritt für die nächste Expedition gespeichert wird.
+  </Step>
+  <Step num="4" title="Der Rückweg">
+    Sobald die Erwartungen des Kapitäns erfüllt sind (Schatz oder Nahrung), navigieren Sie zurück zum Ufer. Der Dschungel wird feindseliger, sobald die Nacht hereinbricht.
+  </Step>
+</Steps>
+
+| Erkundungsphase | Ziel | Risikostufe |
+| :--- | :--- | :--- |
+| **Uferlinie** | Erste Plünderung und Erkundung | **Niedrig** |
+| **Tiefer Dschungel** | Finden von Schätzen und Logbüchern | **Hoch** |
+| **Der Grabhügel (The Mound)** | Betreten der von Cthulhu verfluchten Ruinen | **Kritisch** |
+| **Exfiltration** | Rückkehr zum Ruderboot | **Variabel** |
+
+<Callout type="warning" title="Schallfallen">
+Der Dschungel bringt Schrecken hervor, die auf Geräusche reagieren. Vermeiden Sie es, Äste zu zerbrechen oder Musketen abzufeuern, es sei denn, es ist absolut notwendig. Heimlichkeit ist Ihre beste Waffe.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="Wahnsinn und das Geisteszustand-System">
+
+In **The Mound Omen of Cthulhu Unreal Engine 5** ist Ihr größter Feind nicht immer ein physisches Monster – es ist Ihr eigener Verstand. Das Wahnsinnssystem ist eine komplexe Mechanik, die basierend auf Ihrer Nähe zu Lovecraft'schen Artefakten und der Dauer Ihres Aufenthalts im Dschungel ausgelöst wird. Wenn Ihr Geisteszustand sinkt, beginnt die Welt, Sie zu täuschen.
+
+| Geisteszustand | Visuelle/Audio-Effekte | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Stabil** | Klare Sicht, normaler Ton | Standard-Gameplay |
+| **Erschüttert** | Leichtes Flüstern, verschwommene Ränder | Leichte Desorientierung |
+| **Wahnhaft** | Blutgetränkte Welt, Luftspiegelungen | Fallen können wie Schätze aussehen |
+| **Wahnsinnig** | Schwere Halluzinationen, Kontrollverlust | Freunde können als Monster erscheinen |
+
+<CardGrid cols={2}>
+  <Card title="Visuelle Täuschung">
+    Die Umgebung kann sich dynamisch verändern. Ein klarer Pfad kann plötzlich als Blutgrube erscheinen, oder eine tödliche Falle kann als Schatztruhe getarnt sein.
+  </Card>
+  <Card title="Zusammenbruch der Kommunikation">
+    Wahnsinn kann verändern, wie Sie Ihre Teammitglieder hören. Der Proximity-Chat kann verzerrt werden, was zu Verwirrung und Isolation führt.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Der Einfluss des Dschungels">
+Ein Teammitglied, das sich verirrt und den Verstand verliert, kann unter der Kontrolle des Dschungelfluchs zurückkehren und aktiv Jagd auf den Rest der Gruppe machen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditions-Checkliste & Ziele">
+
+Um die Schrecken des südamerikanischen Dschungels des 16. Jahrhunderts zu überleben, müssen die Spieler bei jedem Lauf diszipliniert vorgehen. Erfolg wird nicht nur an den gefundenen Schätzen gemessen, sondern an der Anzahl der Entdecker, die mit unversehrtem Verstand zur Galeone zurückkehren.
+
+<Checklist
+  id="expedition-goals"
+  title="Missionskritische Ziele:"
+  items={[
+    "Unterzeichne den Vertrag des Kapitäns und verteile die Ausrüstung",
+    "Lokalisiere und sichere mindestens ein Logbuch pro Lauf",
+    "Halte den Geisteszustand über der Schwelle 'Wahnhaft'",
+    "Kehre zum Ruderboot zurück, bevor der Dschungel erwacht",
+    "Halte ständige Proximity-Sprachchat-Kommunikation aufrecht"
+  ]}
+/>
+
+| Zieltyp | Belohnung | Priorität |
+| :--- | :--- | :--- |
+| **Hauptquest** | Fortschritt zum Grabhügel | **Hoch** |
+| **Nahrungssuche** | Überleben der Crew und Buffs | **Mittel** |
+| **Schatzsuche** | Währung für bessere Ausrüstung | **Hoch** |
+| **NPCs retten** | Schaltet neue Shop-Gegenstände frei | **Niedrig** |
+
+<Callout type="success" title="Update vom Juli 2026">
+Besuche die [Steam-Shopseite](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) für den aktuellen Launch-Rabatt von 20 % und von der Community getriebene Balance-Patches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist The Mound Omen of Cthulhu Unreal Engine 5 solo spielbar?",
+    answer: "Obwohl das Spiel von Grund auf für einen Koop-Modus mit 4 Spielern konzipiert ist, können Sie Solo-Läufe versuchen. Das Wahnsinnssystem und die Monster sind jedoch auf das Gruppenspiel abgestimmt, was Solo-Expeditionen extrem schwierig macht."
+  },
+  {
+    question: "Welche Plattformen unterstützen Crossplay?",
+    answer: "Seit dem Release am 15. Juli 2026 wird vollständiges Crossplay zwischen PC (Steam), PlayStation 5 und Xbox Series X/S unterstützt."
+  },
+  {
+    question: "Wie stelle ich meinen Geisteszustand während einer Mission wieder her?",
+    answer: "Der Geisteszustand kann teilweise wiederhergestellt werden, indem man in gut beleuchtete Bereiche wie gesicherte Forts zurückkehrt oder bestimmte Gegenstände wie Wiederbelebungs-Salze verwendet. Der beste Weg, bei Verstand zu bleiben, besteht jedoch darin, eine längere Exposition im tiefen Dschungel zu vermeiden."
+  },
+  {
+    question: "Was passiert, wenn alle Spieler einer Gruppe sterben?",
+    answer: "Ein vollständiger Gruppen-Wipe führt zum Verlust aller Schätze und Ausrüstungsgegenstände, die während dieses Laufs gesammelt wurden. Alle Logbücher, die erfolgreich in ein Fort zurückgebracht wurden, bleiben jedoch für zukünftige Versuche freigeschaltet."
+  }
+]} />
+
+<Callout type="tip" title="Letzter Ratschlag">
+Vertraue deinen Teammitgliedern immer mehr als deinen eigenen Augen. Wenn ein Teammitglied sagt, dass ein Weg frei ist, du aber Blut siehst, vertraue seiner Sichtweise – dein Verstand könnte bereits schwinden.
+</Callout>
+
+</Section>

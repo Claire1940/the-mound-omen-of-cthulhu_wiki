@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Enemigos de The Mound: Omen of Cthulhu - Guía de combate y supervivencia",
+  description: "Domina la supervivencia contra los enemigos de The Mound: Omen of Cthulhu. Aprende a contrarrestar los ataques de agarre, gestionar las mecánicas de aislamiento y derrotar monstruos de élite.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Enemy+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque de supervivencia**: Enfrentarse a los enemigos de the mound omen of cthulhu requiere una gran cohesión de equipo para contrarrestar las agresivas mecánicas de agarre.
+- **Mecánica clave**: La penalización por aislamiento activa ataques subterráneos inmediatos y de gran daño cuando los jugadores se alejan demasiado de su equipo.
+- **Mejor estrategia**: Presta atención a las señales de audio de respiración profunda para predecir y contrarrestar las embestidas físicas de los no muertos rápidos.
+- **Consejo crítico**: Usa armas silenciosas como la ballesta para evitar despertar a la jungla y convocar hordas de criaturas hostiles.
+- **Mejor opción**: Prioriza siempre guardar las sales de reanimación y mantener al equipo unido antes que perseguir cofres de tesoro lejanos.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo a los enemigos de the mound omen of cthulhu">
+
+Adéntrate en la maldita selva sudamericana del siglo XVI, donde el horror y la locura te esperan a la vuelta de cada esquina. Sobrevivir a este entorno hostil requiere una comprensión profunda de **los enemigos de the mound omen of cthulhu**, ya que estos horrores lovecraftianos están diseñados para explotar las vulnerabilidades del grupo, castigar a los jugadores aislados y llevar a los exploradores al borde de la demencia. Cada sonido que hagas, desde romper una rama seca hasta disparar un ruidoso mosquete, alerta a la jungla y atrae a criaturas aterradoras directamente a tu posición.
+
+Para preparar a tu equipo para los peligros que se avecinan, estudia el resumen oficial del juego, que describe el ciclo principal de exploración, recolección de tesoros y escape de regreso a tu galeón antes de que la jungla reclame tu alma.
+
+**Puntos destacados del video:**
+- **Ciclo de expedición**: Firma contratos en el galeón seguro, elige tu equipo de supervivencia y rema hacia la selva maldita del continente.
+- **Sistema de locura**: El deterioro de la cordura desencadena graves ilusiones visuales, lluvia de sangre y trampas de espejismos camufladas.
+- **Audio especializado**: El chat de voz por proximidad está altamente localizado, lo que significa que perder el contacto con tu equipo te deja vulnerable.
+- **Corrupción de la jungla**: Los compañeros de equipo que se alejan y mueren pueden regresar controlados por la jungla hostil para cazar a los supervivientes.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Tráiler oficial de descripción del juego" />
+
+El ecosistema de enemigos en este territorio maldito consta de varias amenazas físicas y psicológicas. A diferencia de los juegos de supervivencia tradicionales donde puedes huir fácilmente o esquivar las amenazas, estas criaturas son más rápidas que los jugadores y poseen habilidades de control de masas altamente agresivas.
+
+| Tipo de enemigo | Ataque principal | Nivel de amenaza | Señal de audio |
+| --- | --- | --- | --- |
+| No muerto | Golpes cuerpo a cuerpo rápidos, agarres con embestida | Medio | Respiración pesada, gruñidos |
+| Masa de tentáculos | Agarre de tentáculo a larga distancia, drenaje de vida | Alto | Deslizamiento, chapoteo húmedo |
+| Ciempiés | Escupitajo de ácido, mordedura tóxica | Alto | Siseo, patas correteando |
+| Hombre árbol | Agarre de teletransportación, desplazamiento ambiental | Crítico | Crujido de madera, susurro de hojas |
+
+<Callout type="warning" title="Advertencia de sonido">
+Disparar armas o correr imprudentemente despertará instantáneamente a la jungla circundante, lo que provocará la aparición rápida de enemigos. Usa el sigilo siempre que sea posible para evitar ser abrumado por hordas de no muertos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas clave de los enemigos y ataques de agarre">
+
+El aspecto más frustrante del combate que encuentran los jugadores son los implacables ataques de agarre. Las criaturas hostiles están diseñadas para evitar activamente que los jugadores las evadan infinitamente. Los monstruos no muertos corren más rápido que los exploradores humanos, lo que hace que escapar a pie sea prácticamente imposible una vez que te han detectado. Si escuchas una respiración pesada mientras corres, significa que una criatura está justo detrás de ti y está a punto de iniciar un agarre.
+
+Estos ataques de agarre no son solo golpes físicos básicos; pueden obligarte a soltar tu arma activa, dejándote completamente indefenso en medio de una escaramuza caótica.
+
+| Variante de agarre | Origen del enemigo | Efecto inmediato | Mejor contramedida |
+| --- | --- | --- | --- |
+| Agarre con embestida | No muerto veloz | Inmoviliza temporalmente al jugador, inflige daño físico | Date la vuelta y golpea cuerpo a cuerpo, no corras |
+| Desarme de tentáculo | Masa de tentáculos | Obliga al jugador a soltar el arma activa | Usa ataques por la espalda mientras un compañero distrae |
+| Agarre subterráneo | No muerto bajo tierra | Arrastra al jugador hacia abajo, inflige gran daño físico | Quédate cerca de los bots o compañeros humanos |
+| Agarre de teletransportación | Hombre árbol | Teletransporta al jugador a ríos o peligros cercanos | Evita luchar cerca de puentes de troncos o acantilados |
+
+El juego cuenta con una agresiva mecánica de aislamiento. Si exploras por tu cuenta, te separas de tus aliados humanos o dejas que tu bot compañero se aleje, el juego te castigará severamente. Tanto los ataques de agarre subterráneos como los devastadores ataques de tentáculos que drenan la salud se activan principalmente cuando un jugador está aislado.
+
+<Callout type="tip" title="Manténganse unidos">
+Nunca te alejes solo para buscar tesoros. Mantenerse a una distancia física cercana de tu equipo o compañero bot desactiva los activadores automáticos de agarre subterráneo, manteniendo a salvo a tu escuadrón.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Análisis detallado de monstruos de élite y especiales">
+
+A medida que te adentres en la jungla y desbloquees fuertes abandonados para progresar, te enfrentarás a monstruos de élite que requieren estrategias de combate específicas. Estas criaturas no se pueden derrotar simplemente machacando botones, especialmente porque el sistema de combate actual carece de una mecánica dedicada para bloquear, desviar o esquivar. Los jugadores deben confiar en el posicionamiento, la coordinación del equipo y el aprovechamiento de los fotogramas de recuperación del enemigo.
+
+Para ayudarte a identificar y contrarrestar estas amenazas de élite, estudia los comportamientos específicos de los tres monstruos más peligrosos de la jungla.
+
+<CardGrid cols={3}>
+  <Card title="El Ciempiés">
+    - **Mecánica de vómito**: Inflige un alto daño por veneno que obliga a tu personaje a arrodillarse y vomitar.
+    - **Velocidad**: Se mueve rápidamente a través del follaje denso, lo que dificulta apuntarle con mosquetes lentos.
+    - **Contramedida**: Usa disparos silenciosos de ballesta desde la distancia antes de que pueda cerrar la brecha.
+  </Card>
+  <Card title="El Hombre Árbol">
+    - **Desplazamiento**: Agarra a los jugadores y los teletransporta por el mapa, a menudo a aguas profundas.
+    - **Peligro ambiental**: Puede causar la muerte instantánea si te teletransporta desde puentes de troncos altos.
+    - **Contramedida**: Lucha en áreas abiertas y vigila de cerca los troncos de árboles que crujen.
+  </Card>
+  <Card title="La Masa de Tentáculos">
+    - **El Verdugo**: Dispara tentáculos a larga distancia que reducen tu salud exactamente a 1 PS.
+    - **Activador de aislamiento**: Muy activo contra exploradores solitarios o jugadores que pierden el chat de proximidad.
+    - **Contramedida**: Debe ser atacado en grupo por varios miembros del escuadrón para interrumpir su ataque canalizado.
+  </Card>
+</CardGrid>
+
+El combate contra estas amenazas de élite es significativamente más fácil en el juego cooperativo. Mientras un jugador es agarrado o atacado por una masa de tentáculos, los compañeros de equipo pueden flanquear rápidamente a la criatura para realizar ataques por la espalda de alto daño o usar la santa cruz para aturdir al monstruo. En el juego en solo, sin embargo, estas mecánicas se vuelven increíblemente castigadoras, ya que una sola secuencia de agarre puede llevar a una derrota rápida sin forma de liberarse.
+
+<Callout type="success" title="Ventaja del ataque por la espalda">
+Cuando un enemigo sea derribado o se esté recuperando de una animación de ataque, muévete rápidamente detrás de él. Atacar por la espalda inflige un daño adicional masivo y puede cambiar rápidamente el rumbo de una pelea difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas de combate y supervivencia paso a paso">
+
+Para navegar con éxito por la maldita selva sudamericana y regresar a tu galeón con valiosos tesoros, tu escuadrón debe ejecutar maniobras tácticas disciplinadas. Sigue estos pasos para preparar a tu equipo, gestionar tus niveles de ruido y sobrevivir a los encuentros con monstruos de élite.
+
+<Steps>
+  <Step num="1" title="Equipamiento en el galeón">
+    Antes de subir al bote de remos, coordínate con tu escuadrón para repartir el equipo inicial. Asegúrate de que al menos un jugador lleve un mosquete para fuerza bruta, uno lleve una ballesta para eliminaciones silenciosas y todos estén equipados con una espada. No olvides traer lámparas de aceite para las zonas oscuras y sales de reanimación para rescatar a los compañeros caídos.
+  </Step>
+  <Step num="2" title="Gestión del ruido y el sigilo">
+    A medida que explores la jungla, camina con cuidado para evitar romper ramas secas. Usa tu ballesta para eliminar silenciosamente a los exploradores no muertos aislados. Si debes disparar un mosquete, asegúrate de que tu equipo esté listo para retroceder inmediatamente a una posición defensiva, ya que el fuerte disparo despertará a la jungla circundante.
+  </Step>
+  <Step num="3" title="Contrarrestar los ataques de agarre">
+    Nunca le des la espalda a un enemigo no muerto para huir, ya que te alcanzará y te agarrará fácilmente. En su lugar, mantente firme, escucha la señal de audio de respiración pesada y calcula tus golpes cuerpo a cuerpo para tambalearlo. Si un compañero de equipo es agarrado, ataca de inmediato al monstruo atacante para obligarlo a soltarlo.
+  </Step>
+  <Step num="4" title="Combatir la pérdida de cordura">
+    A medida que tu cordura decae, ten cuidado con las ilusiones visuales, la lluvia de sangre y las trampas de espejismos disfrazadas de terreno normal. Mantén a tu escuadrón unido para conservar los niveles de cordura. Si un compañero de equipo se aleja, muere y pasa a estar controlado por la jungla, trátalo como una amenaza hostil y neutralízalo de inmediato.
+  </Step>
+</Steps>
+
+Gestionar tu cordura es tan importante como mantener tu salud física. El complejo sistema de locura intentará engañar activamente a tu escuadrón, lo que dificultará la distinción entre monstruos reales y alucinaciones aterradoras. Si comienzas a ver el mundo bañado en sangre o encuentras extraños espejismos, agrúpate de inmediato con tus aliados para estabilizar tu mente.
+
+<Callout type="info" title="Advertencia de chat de proximidad">
+Perder la comunicación de voz con tu equipo es un peligro importante en el juego. Si la voz de un compañero se desvanece, búscalo de inmediato antes de que la mecánica de aislamiento active un ataque subterráneo mortal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de la expedición y optimización del equipo">
+
+Antes de emprender tu próxima incursión en la selva profunda, revisa esta lista de verificación de preparación esencial. Asegurarte de que tu escuadrón esté completamente preparado y equipado adecuadamente es la diferencia entre un botín de tesoros exitoso y una muerte trágica en las ruinas malditas.
+
+<Checklist
+  id="expedition-prep"
+  title="Objetivos previos a la expedición:"
+  items={[
+    "Recupera antiguos cuadernos de bitácora en fuertes abandonados para desbloquear puntos de inicio más cercanos en futuras incursiones",
+    "Asigna roles específicos a cada miembro del escuadrón, equilibrando las armas de fuego ruidosas con armas de sigilo silenciosas",
+    "Verifica que cada explorador tenga al menos una dosis de sales de reanimación en su inventario",
+    "Establece una señal visual clara o un punto de encuentro en caso de que se pierda el chat de voz por proximidad"
+  ]}
+/>
+
+Optimizar el equipamiento de tu equipo en función de las amenazas específicas que esperas enfrentar mejorará drásticamente tu tasa de supervivencia. Consulta esta tabla de equipo recomendado para planificar el inventario de tu escuadrón antes de abandonar la seguridad del galeón.
+
+| Objeto de equipo | Mejor uso contra | Ventaja principal | Inconveniente |
+| --- | --- | --- | --- |
+| Mosquete | Monstruos de élite, grandes hordas | Daño extremadamente alto a un solo objetivo | Muy ruidoso, tiempo de recarga largo |
+| Ballesta | Exploradores aislados, ciempiés | Disparo de proyectiles silencioso, distancia segura | Menor producción de daño que las armas de fuego |
+| Espada | No muertos comunes, combate cercano | Ataques cuerpo a cuerpo rápidos, permite ataques por la espalda | Requiere entrar en el peligroso rango de agarre |
+| Lámpara de aceite | Cuevas oscuras, navegación nocturna | Ilumina trampas y enemigos ocultos | Ocupa una mano, alerta a los monstruos cercanos |
+| Sales de reanimación | Aliados controlados o caídos | Resucita a los compañeros de equipo, restaura la cordura | Capacidad de transporte limitada por incursión |
+
+Para discusiones más detalladas sobre la durabilidad de las armas, las mecánicas de combate y los comentarios de la comunidad, echa un vistazo a los hilos de discusión de los jugadores activos en el [Steam Community Hub](https://steamcommunity.com/app/2569760/discussions/). Interactuar con otros jugadores es una excelente manera de descubrir nuevas estrategias tácticas y mantenerse al día con los próximos parches de equilibrio.
+
+<Callout type="tip" title="Progresión de fuertes">
+Prioriza siempre la recuperación de cuadernos de bitácora durante tus expediciones. Desbloquear fuertes abandonados como puntos de partida te permite evitar las peligrosas zonas exteriores de la jungla, ahorrando valiosos recursos para las zonas más profundas y de alto rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué los enemigos de the mound omen of cthulhu me siguen agarrando cuando huyo?",
+    answer: "Los enemigos no muertos corren más rápido que los jugadores. Huir activa su comportamiento de persecución y resulta en un agarre con embestida. Para evitar esto, mantente firme, escucha la respiración pesada y usa ataques cuerpo a cuerpo para tambalearlos."
+  },
+  {
+    question: "¿Cómo afecta la mecánica de aislamiento a la aparición de enemigos?",
+    answer: "Cuando te alejas demasiado de tu equipo o de tu bot compañero, el juego te castiga activando agresivos agarres de no muertos subterráneos y haciendo aparecer la masa de tentáculos, que puede drenar instantáneamente tu salud a 1 PS."
+  },
+  {
+    question: "¿Puedo bloquear o esquivar los ataques de agarre de los enemigos?",
+    answer: "Actualmente, el juego no cuenta con una mecánica dedicada para bloquear, desviar o esquivar lateralmente. Para evitar los agarres, debes confiar en el distanciamiento, la coordinación del equipo y en tambalear a los enemigos antes de que puedan iniciar la animación de agarre."
+  },
+  {
+    question: "¿Qué debo hacer si un compañero de equipo está controlado por la jungla?",
+    answer: "Si un compañero de equipo se aleja, muere y regresa controlado por la jungla, te cazará activamente e intentará agarrarte automáticamente. Debes tratarlo como una amenaza hostil y neutralizarlo de inmediato."
+  }
+]} />
+
+<Callout type="warning" title="Nota final de supervivencia">
+La jungla es una entidad viva y hostil que se adapta a tus acciones. Mantén el ruido bajo, quédate cerca de tu escuadrón y nunca dejes que tu cordura llegue a cero. Buena suerte en tu expedición, explorador.
+</Callout>
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mundo Aberto de The Mound Omen of Cthulhu: Guia de Sobrevivência Co-op",
+  description: "Domine o sombrio mundo aberto de The Mound: Omen of Cthulhu com o nosso guia cobrindo sobrevivência cooperativa, combate, mecânicas de sanidade e progressão de fortes.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Co-op+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco na sobrevivência**: Navegar pelo **mundo aberto de the mound omen of cthulhu** exige cooperação estreita, gerenciamento de sanidade e planejamento cuidadoso de recursos.
+- **Base segura**: Sempre utilize o **galeão** para preparar equipamentos, aceitar contratos e coordenar a distribuição de itens antes de iniciar expedições.
+- **Progressão de checkpoint**: Desbloqueie **fortes abandonados** recuperando diários de bordo para estabelecer pontos de partida permanentes para incursões mais profundas na selva.
+- **Mecânicas de sanidade**: Monitore o **sistema de loucura** de perto para evitar ilusões visuais, distorções auditivas e incidentes de fogo amigo.
+</Callout>
+
+<Section icon={Map} title="Básicos da Expedição na Selva">
+
+Entrar nas selvas amaldiçoadas da América do Sul do século XVI exige preparação e coordenação completas. Como um grupo de exploradores desesperados, seu objetivo principal é aventurar-se terra adentro, garantir tesouros valiosos e retornar em segurança ao seu galeão antes que o ambiente consuma sua sanidade. A selva é implacável, e cada passo traz o risco de alertar horrores antigos.
+
+**Destaques do Vídeo:**
+- **Base de Preparação**: O galeão serve como sua zona segura para assinar contratos e pegar equipamentos.
+- **Foco Cooperativo**: Um esquadrão de quatro jogadores deve dividir os equipamentos essenciais para garantir uma utilidade equilibrada.
+- **Perigos Ambientais**: O som ativa o surgimento de monstros, exigindo uma abordagem silenciosa.
+- **Disponibilidade de Plataforma**: Suporte total a cross-play no PC, PlayStation 5 e Xbox Series.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Visão Geral de Jogabilidade" />
+
+Antes de embarcar no bote, sua tripulação deve selecionar os equipamentos iniciais no galeão. Como o espaço no inventário e os recursos são limitados, os jogadores devem dividir as ferramentas estrategicamente. Os conjuntos de equipamentos padrão incluem mosquetes, bestas, espadas, lamparinas de óleo e sais de ressurreição. Uma distribuição de equipe equilibrada garante que você possa lidar tanto com confrontos de combate quanto com a navegação ambiental.
+
+| Tipo de Equipamento | Utilidade de Combate | Valor de Utilidade | Nível de Ruído |
+| :--- | :--- | :--- | :--- |
+| **Mosquete** | Dano alto, recarga lenta | Baixa utilidade | Extremamente barulhento |
+| **Besta** | Dano moderado, silenciosa | Média utilidade | Silenciosa |
+| **Espada** | Dano baixo, corpo a corpo | Alta utilidade | Silenciosa |
+| **Lamparina de Óleo** | Nenhuma | Alta visibilidade | Silenciosa |
+| **Sais de Ressurreição** | Nenhuma | Cura alta | Silenciosa |
+
+<Callout type="info" title="Preparação no Galeão">
+Sempre coordene com sua equipe para dividir os equipamentos iniciais igualmente. Não saia do galeão sem pelo menos uma lamparina de óleo e um conjunto de sais de ressurreição por dupla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="O Mapa do Mundo Aberto Amaldiçoado">
+
+O layout do **mundo aberto de the mound omen of cthulhu** consiste em zonas massivas e interconectadas. Essas áreas abertas são ligadas entre si por fortes antigos abandonados por expedições anteriores que falharam. Explorar essas zonas é necessário para coletar comida para a tripulação do navio, resgatar exploradores perdidos e localizar a entrada para o próprio Mound.
+
+Para tornar o progresso permanente, os jogadores devem localizar e recuperar diários de bordo escondidos nesses fortes abandonados. Garantir um diário de bordo desbloqueia o forte correspondente como ponto de partida para futuras incursões. Isso permite que sua equipe ignore as áreas externas e comece as expedições mais profundamente na selva, economizando tempo e preservando a sanidade.
+
+| Nome da Zona | Nível de Dificuldade | Ameaça Principal | Recompensa Principal |
+| :--- | :--- | :--- | :--- |
+| **Forte da Costa** | Baixo (1/5) | Feras selvagens | Diário de bordo básico |
+| **Ruínas Externas** | Médio (3/5) | Entidades amaldiçoadas | Equipamento avançado |
+| **Templo Interno** | Alto (5/5) | Horrores Lovecraftianos | Chave de entrada do Mound |
+
+<CardGrid cols={3}>
+  <Card title="Caça ao Tesouro">
+    - **Localizar baús de ouro**
+    - Transportar o saque para o bote
+    - Evitar mochilas pesadas durante o combate
+  </Card>
+  <Card title="Coleta de Alimentos">
+    - **Caçar a vida selvagem local**
+    - Coletar plantas comestíveis
+    - Manter a estamina da tripulação
+  </Card>
+  <Card title="Missões de Resgate">
+    - **Rastrear exploradores desaparecidos**
+    - Usar sais de ressurreição nos sobreviventes
+    - Escortar os alvos de volta à segurança
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Progressão de Fortes">
+Os fortes abandonados não são desbloqueados automaticamente. Se o seu esquadrão for eliminado antes de recuperar e garantir o diário de bordo, você perderá todo o progresso naquela zona e deverá reiniciar a partir da costa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Táticas de Combate e Furtividade">
+
+O combate direto na selva é altamente perigoso e deve ser tratado como último recurso. O ambiente reage ao barulho que você faz. Disparar um mosquete ou até mesmo pisar em galhos secos pode despertar o território ao redor, atraindo criaturas Lovecraftianas agressivas para a sua localização. Furtividade e coordenação são suas melhores ferramentas de sobrevivência.
+
+Quando combate for inevitável, use armas silenciosas como a besta ou a espada para eliminar ameaças isoladas. Se um jogador precisar disparar um mosquete, o resto da equipe deve se preparar imediatamente para um contra-ataque ou planejar uma rota de fuga rápida.
+
+| Fonte de Ruído | Alcance de Detecção | Nível de Ameaça | Reação Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Galho Quebrando** | Curto alcance | Baixo | Parar e agachar |
+| **Disparo de Besta** | Médio alcance | Baixo | Reposicionar-se imediatamente |
+| **Tiro de Mosquete** | Tela inteira | Extremo | Recuar para terreno elevado |
+| **Corrida** | Médio alcance | Médio | Caminhar para quebrar a linha de visão |
+
+<Steps>
+  <Step num="1" title="Aceitar Contrato">
+    Selecione sua missão no galeão, organize seu inventário e embarque no bote para o continente.
+  </Step>
+  <Step num="2" title="Navegar em Silêncio">
+    Mova-se pela selva caminhando agachado, evitando galhos secos e mantendo o ruído no mínimo.
+  </Step>
+  <Step num="3" title="Garantir o Forte">
+    Localize o forte abandonado em sua zona atual, recupere o diário de bordo e desbloqueie o novo ponto de partida.
+  </Step>
+  <Step num="4" title="Extrair Saque">
+    Leve os tesouros coletados de volta ao bote e retorne ao galeão para concluir a incursão.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bônus de Furtividade">
+O uso de armas corpo a corpo ou da besta permite que você elimine ameaças menores sem alertar a selva ao redor. Reserve o mosquete para encontros com chefes ou defesa de emergência.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="O Sistema de Loucura e Chat de Proximidade">
+
+Quanto mais fundo você se aventura no território amaldiçoado, maior é o preço cobrado da sua sanidade. O jogo apresenta um sistema de loucura dinâmico que ativa alucinações visuais e auditivas. À medida que sua sanidade cai, o ambiente se distorce, armadilhas se disfarçam como caminhos seguros e o mundo pode parecer encharcado de sangue.
+
+A comunicação também é afetada pelos seus níveis de sanidade. O jogo utiliza um chat de voz de proximidade especializado, que se torna distorcido ou completamente desativado à medida que a loucura se instala. Se um companheiro de equipe se afastar muito e perder a comunicação, ele corre o risco de ser controlado pela selva, tornando-se uma ameaça hostil para o resto do grupo.
+
+| Nível de Sanidade | Efeitos Visuais | Efeitos Auditivos | Impacto na Jogabilidade |
+| :--- | :--- | :--- | :--- |
+| **Alto (80-100%)** | Visão normal | Áudio claro | Sem penalidades |
+| **Médio (40-79%)** | Pequenas mudanças de cor | Sussurros distantes | Armadilhas parecem itens |
+| **Baixo (1-39%)** | Tela vermelha de sangue | Estática severa | Chat de proximidade desativado |
+| **Zero (0%)** | Alucinação total | Gritos constantes | A selva assume o controle |
+
+<Checklist
+  id="sanity-maintenance"
+  title="Lista de Verificação de Manutenção da Sanidade:"
+  items={[
+    "Mantenha linha de visão direta com seus companheiros de equipe",
+    "Use sais de ressurreição imediatamente quando surgirem sintomas de paranoia",
+    "Evite permanecer em áreas escuras sem uma lamparina de óleo ativa",
+    "Confirme a identidade dos companheiros de equipe via chat de proximidade regularmente"
+  ]}
+/>
+
+<Callout type="tip" title="A Comunicação é a Chave">
+Se um companheiro de equipe parar de responder ao chat de proximidade ou se comportar de maneira errática, mantenha distância. Ele pode ter perdido a sanidade e estar caçando você.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como funciona o co-op no mundo aberto de the mound omen of cthulhu?",
+    answer: "O jogo suporta até quatro jogadores no modo cooperativo com cross-play total entre PC, PlayStation 5 e Xbox Series. Os jogadores devem trabalhar juntos para gerenciar recursos, manter a sanidade e garantir o saque."
+  },
+  {
+    question: "O que acontece quando a sanidade de um jogador chega a zero?",
+    answer: "Quando a sanidade chega a zero, o jogador passa por alucinações severas, perde a comunicação e pode ser temporariamente controlado pela selva para caçar os companheiros restantes."
+  },
+  {
+    question: "Como você salva o progresso no mundo aberto?",
+    answer: "O progresso é salvo ao encontrar e garantir diários de bordo em fortes abandonados. Desbloquear esses fortes permite usá-los como checkpoints iniciais para expedições futuras."
+  },
+  {
+    question: "Onde posso comprar o jogo?",
+    answer: "O jogo está disponível no Steam, PlayStation 5 e Xbox Series. Você pode verificar a Página da Loja no Steam para descontos ativos e atualizações."
+  }
+]} />
+
+<Callout type="info" title="Detalhes do Lançamento">
+The Mound: Omen of Cthulhu foi lançado em 15 de julho de 2026. Não se esqueça de verificar a [Página da Loja no Steam](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) para descontos ativos e atualizações da comunidade.
+</Callout>
+
+</Section>

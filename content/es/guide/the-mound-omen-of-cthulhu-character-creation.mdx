@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Personalización y Creación de Personajes en The Mound: Omen of Cthulhu",
+  description: "Explora el elenco de personajes y los sistemas de personalización en The Mound: Omen of Cthulhu. Aprende sobre arquetipos, visuales de equipo y mecánicas de rescate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "creación de personajes, personalización, arquetipos, The Mound Omen of Cthulhu, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La creación de personajes en The Mound Omen of Cthulhu** utiliza un elenco fijo de individuos únicos en lugar de un creador de personajes tradicional.
+- **La personalización visual** está ligada al equipo y las armas equipadas, que se reflejan en el modelo de tu personaje en tiempo real.
+- **Los arquetipos** son actualmente cosméticos, lo que significa que tu elección de personaje no restringe tus habilidades ni tus estadísticas iniciales.
+- **La precisión histórica** es una prioridad; el desarrollador ACE Team ha utilizado ropa de conquistadores españoles del siglo XVI escaneada mediante fotos.
+- **Nuevos personajes** pueden añadirse a tu elenco rescatando supervivientes encontrados en las profundidades de las expediciones en la selva.
+</Callout>
+
+<Section icon={Map} title="Resumen del Sistema de Personajes y Arquetipos">
+
+The Mound: Omen of Cthulhu se aleja de las mecánicas tradicionales de los RPG al ofrecer un elenco fijo de personajes establecidos. En lugar de un avatar en blanco, los jugadores se ponen en la piel de exploradores españoles, cada uno con su propia historia y motivaciones. Esta elección de diseño permite a los desarrolladores de ACE Team crear una narrativa más atmosférica, donde el horror psicológico y el pavor lovecraftiano se sienten personales para los supervivientes.
+
+**Puntos Destacados del Video:**
+- Vistazo detallado al atmosférico entorno de la selva y su impacto en la cordura del personaje.
+- Resumen del ciclo de extracción que implica la búsqueda de artefactos y efímero metálico.
+- Explicación de cómo la lluvia afecta a las armas de pólvora y a la visibilidad del personaje.
+- Información sobre la mecánica de "locura" que provoca alucinaciones únicas para cada jugador.
+- Vista previa de la nave central Tempest Dot donde los jugadores interactúan con la tripulación.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 cosas que debes saber antes de comprar" />
+
+Aunque no puedes cambiar los rasgos faciales o los tipos de cuerpo del elenco inicial, el juego enfatiza la "estética funcional". Cada pieza de equipo que encuentres en tierra firme —desde pistolas de chispa hasta equipo de protección especializado— se representa en tu personaje. Esto asegura que, mientras interpretas un papel predefinido, la apariencia de tu personaje evolucione según tu progreso de supervivencia y el botín obtenido.
+
+| Característica | Detalle del Sistema | Nivel de Personalización |
+| :--- | :--- | :--- |
+| **Creación de Personajes** | Elenco fijo de individuos únicos | Ninguno (Preestablecido) |
+| **Equipo Visual** | Visualización en tiempo real de armadura/armas | Alto (Funcional) |
+| **Habilidades de Arquetipo** | Progresión compartida entre personajes | Universal |
+| **Detalle Histórico** | Réplicas del siglo XVI escaneadas por fotos | Auténtico |
+| **Expansión del Elenco** | Rescate de supervivientes en la selva | Desbloqueable |
+
+<Callout type="tip" title="Consejo de Estrategia">
+Dado que los arquetipos son cosméticos, elige al personaje cuya historia o líneas de voz te gusten más. Tu efectividad en combate está determinada por el equipo que elijas en el Tempest Dot antes de comenzar la incursión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos Iniciales e Historias de Trasfondo">
+
+En el lanzamiento del juego en 2026, los jugadores tienen acceso a cuatro arquetipos principales. Estos personajes representan diferentes estratos sociales de la expedición española, proporcionando una perspectiva diversa sobre los horrores cósmicos que se desarrollan en la selva. Los desarrolladores han enfatizado que estos personajes son "individuos únicos" en lugar de clases genéricas.
+
+<CardGrid cols={3}>
+  <Card title="Alonso de la Torre">
+    - **Trasfondo**: Un antiguo soldado nihilista.
+    - **Motivación**: Indiferente ante la guerra o las riquezas tradicionales; ve la riqueza como un camino hacia la verdadera libertad.
+    - **Personalidad**: Estoico y resistente contra el desgaste psicológico de la selva.
+  </Card>
+  <Card title="Leonor">
+    - **Trasfondo**: Una fugitiva de la corona española.
+    - **Motivación**: Huyó de España tras un asesinato sin remordimientos; busca una nueva vida en tierras desconocidas.
+    - **Personalidad**: Ingeniosa e impulsada por el instinto de supervivencia.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    - **Trasfondo**: Un noble hastiado por los ciclos interminables de guerra.
+    - **Motivación**: A diferencia de sus pares, busca el honor y la verdad oculta tras el Montículo.
+    - **Personalidad**: Altamente disciplinado con un enfoque en el liderazgo y el descubrimiento.
+  </Card>
+</CardGrid>
+
+El sistema de interacción entre personajes es una parte fundamental de la experiencia. Aunque los arquetipos comparten habilidades, sus reacciones a la mecánica de "locura" difieren. A medida que tu cordura disminuye, diferentes personajes pueden experimentar alucinaciones auditivas o visuales únicas, lo que hace que la comunicación a través del chat de voz de proximidad especializado sea esencial para la supervivencia del equipo.
+
+| Nombre del Arquetipo | Origen Social | Filosofía Central |
+| :--- | :--- | :--- |
+| **Alonso de la Torre** | Militar | Nihilismo y Libertad |
+| **Leonor** | Proscrita | Supervivencia y Fugitiva |
+| **Don Rodrigo** | Nobleza | Verdad y Honor |
+| **Arquetipos de Supervivientes** | Rezagados de la expedición | Variado / Por descubrir |
+
+<Callout type="warning" title="Aviso de Cordura">
+La mecánica de "locura" puede hacer que veas baratijas o trampas imaginarias. Siempre verifica lo que ves con tus compañeros, ya que ellos pueden percibir una realidad completamente diferente basada en el estado mental actual de su personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización Visual y Autenticidad Histórica">
+
+The Mound: Omen of Cthulhu adopta un enfoque único para los visuales de los personajes. En lugar de un sistema de creación basado en deslizadores, los desarrolladores trabajaron con diseñadores de vestuario reales para crear réplicas físicas de la vestimenta española del siglo XVI. Estas prendas fueron luego escaneadas fotográficamente para crear modelos 3D altamente detallados. Esto asegura que cada jugador parezca un auténtico conquistador, manteniendo la estética cruda y realista del juego.
+
+**Elementos de Personalización Visual:**
+- **Conjuntos de Armadura**: Diferentes tipos de petos de cuero y metal encontrados en fuertes abandonados.
+- **Prendas de Cabeza**: Cascos y sombreros que proporcionan tanto protección como una silueta distintiva.
+- **Visualización de Armas**: Machetes, pistolas de chispa y rifles se ven enfundados de forma visible en el modelo del personaje.
+- **Desgaste Ambiental**: El barro, la sangre y la humedad se acumulan en la ropa durante la expedición.
+
+| Categoría de Personalización | Cómo Cambiar | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Ropa/Uniforme** | Encontrado en tierra firme / Personajes rescatados | Puramente Visual / Histórico |
+| **Arma Principal** | Seleccionada en el Contrato del Capitán | Alcance y Poder de Combate |
+| **Equipo de Utilidad** | Espacios de inventario (Lámparas de aceite, Pólvora) | Visibilidad y Utilidad |
+| **Efectos de Cordura** | Exposición a la influencia arcana | Distorsión visual / Alucinaciones |
+
+<Callout type="success" title="Nota del Desarrollador">
+ACE Team ha confirmado que están explorando nuevas formas de personalizar los peinados de los personajes y prendas de vestir específicas en futuras actualizaciones de 2026, lo que permitiría potencialmente una mayor expresión individual dentro del elenco fijo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear Nuevos Personajes">
+
+Aunque comienzas con una selección limitada, el mundo de *The Mound* está lleno de almas perdidas de expediciones fallidas anteriores. Rescatar a estos supervivientes es la forma principal de expandir tu elenco y acceder a nuevas perspectivas de personajes. Esta mecánica de "rescate" añade una capa de progresión al sistema de personajes de la que carecen las pantallas de creación tradicionales.
+
+<Steps>
+  <Step num="1" title="Aceptar el Contrato de Rescate">
+    Visita al Capitán en el Tempest Dot y busca contratos relacionados con "Supervivientes Abandonados" o "Miembros de Expediciones Perdidas".
+  </Step>
+  <Step num="2" title="Localizar al Superviviente">
+    Navega hacia fuertes abandonados o campamentos indígenas en tierra firme. Escucha las señales de audio, ya que los supervivientes pueden pedir ayuda a gritos.
+  </Step>
+  <Step num="3" title="Asegurar el Área">
+    Los supervivientes suelen estar custodiados por rezagados indígenas o acechadores arcanos. Debes eliminar estas amenazas antes de que el rescate pueda proceder.
+  </Step>
+  <Step num="4" title="Escolta a la Extracción">
+    Guía al superviviente de regreso a tu punto de extracción. Pueden estar débiles o heridos, lo que requerirá que tu equipo les proporcione cobertura.
+  </Step>
+  <Step num="5" title="Finalizar el Desbloqueo">
+    Una vez extraído con éxito, el nuevo personaje estará disponible en tu elenco para futuras incursiones, aportando su propio lore y visuales únicos.
+  </Step>
+</Steps>
+
+| Tipo de Rescate | Dificultad | Recompensa |
+| :--- | :--- | :--- |
+| **Rezagado de Expedición** | Baja | Nuevo Arquetipo Básico |
+| **Oficial Abandonado** | Media | Equipo Raro + Nuevo Personaje |
+| **Explorador Fallido** | Alta | Lore Especializado + Visuales Únicos |
+
+<Callout type="info" title="Expansión del Elenco">
+Los personajes rescatados no son solo "skins". Están integrados en la progresión de la historia, y su presencia en el Tempest Dot puede desbloquear nuevas opciones de diálogo con el cocinero del barco o el Capitán.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de PC para el Renderizado de Personajes">
+
+Para experimentar los modelos de personajes escaneados por fotos de alta fidelidad y los efectos atmosféricos, tu PC debe cumplir con estándares de hardware específicos. El denso follaje de la selva y la iluminación dinámica requieren recursos significativos de la GPU, especialmente cuando las distorsiones de la "locura" comienzan a deformar el entorno.
+
+| Componente | Requisito Mínimo | Requisito Recomendado |
+| :--- | :--- | :--- |
+| **CPU** | Intel i7 8700K / Ryzen 5 1600X | Intel i7 11700K / Ryzen 5 5500 |
+| **GPU** | GTX 1660 Super / RX 5600XT | RTX 3070 / RX 6750XT |
+| **VRAM** | 6 GB | 8 GB - 12 GB |
+| **RAM** | 16 GB | 16 GB |
+| **Almacenamiento** | SSD Recomendado | SSD Requerido |
+
+<Callout type="warning" title="Consejo de Rendimiento">
+Si experimentas tirones durante escenas con muchos personajes o en la selva densa, intenta bajar los ajustes de "Detalle de Textura" o "Calidad de Sombras", ya que estos son los más exigentes para la VRAM al renderizar los activos escaneados por fotos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Progresión y Lista de Verificación">
+
+Dado que la **creación de personajes en The Mound Omen of Cthulhu** está ligada a la progresión general de tu cuenta, tus objetivos deben centrarse en ampliar tus opciones a través del juego en lugar de una pantalla de menú. Utiliza la siguiente lista de verificación para asegurarte de maximizar el potencial de tu elenco de personajes.
+
+<Checklist
+  id="character-progression"
+  title="Hitos de la Expedición:"
+  items={[
+    "Completa los tres primeros contratos del Capitán para desbloquear el elenco inicial completo",
+    "Rescata con éxito al menos a un superviviente de la región de la Selva del Norte",
+    "Equipa un conjunto completo de equipo de Conquistador escaneado por fotos de tierra firme",
+    "Alcanza el nivel 10 para desbloquear la progresión avanzada de la historia compartida entre personajes",
+    "Visita al cocinero del barco en el Tempest Dot para conocer las mejoras de comida específicas de cada personaje"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay un creador de personajes tradicional en The Mound: Omen of Cthulhu?",
+    answer: "No, el juego cuenta con un elenco fijo de individuos únicos con historias y visuales predefinidos. La creación de personajes se sustituye por una selección de arquetipos."
+  },
+  {
+    question: "¿Tienen los personajes estadísticas o habilidades únicas?",
+    answer: "En el lanzamiento, los arquetipos son puramente cosméticos y comparten la misma progresión, XP y potencial de habilidades. Tu configuración se determina por el equipo y las armas que equipes."
+  },
+  {
+    question: "¿Puedo personalizar la ropa de mi personaje?",
+    answer: "Sí, pero es una personalización funcional. La apariencia de tu personaje cambia según la armadura, los cascos y las armas que encuentres y equipes durante las expediciones."
+  },
+  {
+    question: "¿Cómo consigo más personajes para jugar?",
+    answer: "Puedes encontrar y rescatar supervivientes durante tus expediciones en tierra firme. Una vez rescatados y extraídos, se añaden a tu elenco de personajes jugables."
+  }
+]} />
+
+</Section>

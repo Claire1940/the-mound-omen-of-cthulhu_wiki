@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Discord de The Mound: Omen of Cthulhu: Guía de comunidad y cooperativo",
+  description: "Únete al Discord oficial de The Mound: Omen of Cthulhu. Encuentra compañeros de cooperativo, coordina estrategias de supervivencia y domina el sistema de cordura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Discord+and+Co-op+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Comunidad principal**: Únete al Discord oficial de ACE Team para encontrar jugadores y recibir actualizaciones de desarrollo en tiempo real.
+- **Coordinación cooperativa**: Usa canales de voz dedicados para contrarrestar las limitaciones del chat de voz espacial del juego durante las partidas de alta tensión.
+- **Requisitos de escuadrón**: Forma equipos equilibrados de hasta cuatro jugadores para dividir las tareas esenciales de navegación, defensa y recursos.
+- **Verificación de la realidad**: Usa protocolos de comunicación activa para verificar si las siluetas de jugadores cercanos son compañeros reales o ilusiones inducidas por la locura.
+</Callout>
+
+<Section icon={Map} title="Por qué unirse al Discord de The Mound: Omen of Cthulhu">
+
+Sobrevivir a las selvas malditas de *The Mound: Omen of Cthulhu* requiere una coordinación estrecha, una distribución precisa de roles y una confianza absoluta. Dado que el juego cuenta con un sistema de cordura dinámico que distorsiona tus sentidos, depender del emparejamiento público puede llevar a la eliminación rápida del escuadrón. Unirse al **discord oficial de the mound omen of cthulhu** alojado por el desarrollador ACE Team es la forma más efectiva de formar un equipo de expedición confiable.
+
+El centro de la comunidad sirve como punto de encuentro principal para los exploradores que buscan completar contratos del capitán, compartir hallazgos del mapa y debatir sobre equipamientos de armas. Tanto si eres un jugador solitario que busca un guía veterano como si eres un grupo de tres que necesita un especialista en apoyo dedicado, el servidor de Discord ofrece acceso inmediato a jugadores activos.
+
+| Canal de Discord | Propósito principal | Público objetivo |
+|---|---|---|
+| #announcements | Notas oficiales del parche, actualizaciones de lanzamiento y eventos del servidor | Todos los jugadores |
+| #lfg-coop | Buscar jugadores activos para expediciones de 2 a 4 jugadores | Jugadores en solitario y escuadrones parciales |
+| #guides-and-tips | Estrategias seleccionadas por la comunidad, niveles de armas y rutas de mapas | Principiantes y veteranos |
+| #bug-reports | Enviar problemas de rendimiento directamente a ACE Team | Jugadores activos |
+
+<Callout type="tip" title="Consejo profesional">
+Revisa siempre los mensajes fijados en los canales de emparejamiento. Los capitanes experimentados suelen publicar la dificultad de su contrato actual y los equipamientos requeridos antes de invitar a los jugadores a sus salas de voz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Protocolos de emparejamiento cooperativo y en solitario">
+
+El juego admite el juego en solitario junto con el cooperativo en línea para hasta cuatro jugadores. Sin embargo, jugar solo aumenta significativamente la dificultad porque no hay compañeros de equipo para proteger el carro de bueyes que transporta el tesoro o para ayudarte a verificar las alucinaciones que alteran la cordura. Al formar un escuadrón a través de la comunidad de Discord, es esencial establecer roles claros antes de zarpar desde el galeón *Tempestad*.
+
+| Rol del escuadrón | Equipamiento principal | Responsabilidad principal |
+|---|---|---|
+| **Navegador** | Lámpara de aceite, Arco | Rastrea rutas, asegura cuadernos de bitácora y guía al equipo a través de la niebla. |
+| **Defensor del carro** | Mosquete de chispa, Cuchillo | Permanece cerca del carro de bueyes, cubre la retaguardia y se encarga de las amenazas cercanas. |
+| **Explorador / Recolector** | Arco, Medallón de tesoro | Localiza metal Tulu oculto, recolecta carne/agua y activa objetos. |
+| **Apoyo pesado** | Mosquete de mecha, Cuchillo | Elimina objetivos de alta amenaza y asegura perímetros defensivos. |
+
+<Callout type="warning" title="Advertencia">
+No concentres todos los objetos de utilidad críticos en un solo jugador. Si tu único portador de la lámpara o navegador queda incapacitado o se separa, el resto del escuadrón sucumbirá rápidamente a la oscuridad y al pánico.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía paso a paso para expediciones cooperativas">
+
+Para garantizar una partida exitosa con tus nuevos reclutas de Discord, sigue este ciclo de expedición estructurado. Este proceso minimiza el ruido, maximiza la recolección de recursos y garantiza una extracción segura.
+
+<Steps>
+  <Step num="1" title="Selecciona un contrato compatible">
+    Habla con el capitán a bordo del galeón para elegir un contrato de expedición. Acuerden un valor de tesoro objetivo y definan el umbral de retirada de su escuadrón antes de partir.
+  </Step>
+  <Step num="2" title="Distribuye el arsenal compartido">
+    Divide las armas y herramientas según los roles asignados. Asegúrate de que al menos dos jugadores lleven armas silenciosas como arcos o cuchillos para controlar los niveles de ruido en la selva.
+  </Step>
+  <Step num="3" title="Escolta el carro de bueyes de forma segura">
+    Muévanse juntos mientras mantienen el camino despejado para el carro de bueyes. Depositen las reliquias y recursos valiosos en el carro de inmediato en lugar de llevarlos individualmente.
+  </Step>
+  <Step num="4" title="Ejecuta un protocolo de verificación de la realidad">
+    Cuando la niebla se espese o el terreno cambie, usen el chat de voz espacial o los canales de voz de Discord para verificar su entorno. Confirmen los avistamientos sospechosos con los compañeros de equipo antes de disparar.
+  </Step>
+  <Step num="5" title="Extraigan antes de que la codicia se apodere de ustedes">
+    Una vez asegurado el valor del contrato principal, evalúen la munición, la visibilidad y los niveles de cordura de su equipo. Inicien la extracción de inmediato si las condiciones empeoran.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo para el éxito">
+Desbloquear fuertes abandonados y recuperar cuadernos de bitácora durante la partida proporciona una progresión permanente al asegurar nuevas ubicaciones de inicio para futuras expediciones.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de la cordura y la comunicación en cooperativo">
+
+El desafío más singular en *The Mound: Omen of Cthulhu* es la ausencia total de una interfaz de cordura tradicional. No verás un medidor que indique tu deterioro mental. En su lugar, la locura se manifiesta como alucinaciones visuales y auditivas privadas que difieren para cada jugador del escuadrón.
+
+Para contrarrestar estas trampas psicológicas, debes utilizar una comunicación estructurada. Los canales de voz de Discord proporcionan una alternativa estable cuando el audio espacial del juego se distorsiona debido a la propagación de la corrupción.
+
+<CardGrid cols={3}>
+  <Card title="Distorciones visuales">
+    - **Lluvia de sangre localizada**
+    - Flora de la selva sangrante
+    - Estructuras de caminos cambiantes
+    - *Acción*: Confirma los cambios ambientales con un compañero de equipo sano.
+  </Card>
+  <Card title="Engaños auditivos">
+    - **Cuernos de extracción falsos**
+    - Gritos fantasmas de compañeros de equipo
+    - Susurros de la selva imitados
+    - *Acción*: Nunca sigas sonidos distantes solo sin verificación de voz.
+  </Card>
+  <Card title="Alucinaciones de identidad">
+    - **Compañeros de equipo que parecen monstruos**
+    - Siluetas falsas de exploradores en la niebla
+    - Entidades clonadas que imitan a los jugadores
+    - *Acción*: Usa comprobaciones breves de llamada y respuesta antes de disparar armas de fuego.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Importante">
+Si un explorador sufre una fractura mental completa, debe ceder de inmediato las decisiones de navegación al equipo, dejar de disparar armas y seguir los movimientos físicos de un compañero de equipo confirmado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de verificación de expedición para equipos de Discord">
+
+Antes de iniciar tu próximo contrato de alto nivel, repasa esta lista de preparación rápida con tu sala para minimizar el riesgo de una eliminación total del grupo.
+
+<Checklist
+  id="expedition-prep"
+  title="Requisitos previos a la partida:"
+  items={[
+    "Confirmar que todos los jugadores se han unido al mismo canal de voz de Discord",
+    "Asignar al menos dos armas silenciosas (arcos) para controlar el ruido de la selva",
+    "Verificar que la lámpara de aceite y el medallón de tesoro estén en manos de diferentes jugadores",
+    "Establecer una contraseña verbal acordada para verificar las identidades de los jugadores en la niebla densa",
+    "Establecer una condición estricta de retirada basada en las reservas de munición o los cambios climáticos"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia">
+La lluvia y la alta humedad harán que las armas de pólvora como los mosquetes de chispa y de mecha sean muy poco fiables. Mantén siempre un arco o un cuchillo como opción de respaldo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes de la comunidad">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar el enlace oficial de Discord de The Mound: Omen of Cthulhu?",
+    answer: "El enlace de invitación oficial se actualiza y publica periódicamente en la cuenta oficial de X (Twitter) de ACE Team, en el punto de encuentro de la comunidad de Steam del juego y en el sitio web oficial de Nacon."
+  },
+  {
+    question: "¿El juego admite el juego cruzado (crossplay) entre PC y consolas?",
+    answer: "Sí. La tienda de Epic Games incluye multijugador multiplataforma completo, mientras que el ecosistema de Xbox admite el cooperativo multiplataforma en Xbox Series X|S, Windows PC y Xbox Cloud Gaming a través de Xbox Play Anywhere."
+  },
+  {
+    question: "¿Cómo lidio con compañeros de equipo que parecen monstruos debido a la baja cordura?",
+    answer: "No dispares de inmediato. Usa el chat de voz espacial o tu canal de Discord para verificar su posición. Pídeles que salten o realicen una acción específica para confirmar su identidad."
+  },
+  {
+    question: "¿Cuáles son los beneficios de jugar en un escuadrón completo de cuatro jugadores?",
+    answer: "Un escuadrón de cuatro jugadores te permite especializar los roles por completo, lo que garantiza tener jugadores dedicados a la navegación, la defensa del carro, el combate sigiloso y silencioso, y la eliminación de objetivos pesados."
+  }
+]} />
+
+</Section>

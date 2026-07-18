@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Spielanleitung: Tipps & Walkthrough",
+  description: "Meistern Sie die Extraktionsmechaniken, verwalten Sie den Wahnsinn und entkommen Sie mit wertvollen Belohnungen in unserem Guide zur Spielweise von The Mound: Omen of Cthulhu.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Play+Guide",
+  date: "2026-07-19",
+  author: "The Mound: Omen of Cthulhu Wiki-Team",
+  keywords: "The Mound Omen of Cthulhu, Spielanleitung, Tipps, Walkthrough, Extraktion, Cthulhu Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernziel**: Lernen Sie den Spielablauf von The Mound: Omen of Cthulhu kennen, indem Sie Verträge sichern und extrahierte Beute in Belohnungen umwandeln.
+- **Wahnsinns-Management**: Bleiben Sie in der Nähe von Teammitgliedern und dem Ochsenkarren, um Client-seitige Halluzinationen zu reduzieren.
+- **Geräuschtaktiken**: Vermeiden Sie das Rennen in schwerer Rüstung, das Aufscheuchen von Vögeln oder das Abfeuern ungedämpfter Waffen, um keine Feinde anzulocken.
+- **Rations-Upgrades**: Begeben Sie sich zwei Ebenen unter Ihr Schiff, um Ihre Heilrationen für eine bessere Überlebensfähigkeit zu verbessern.
+</Callout>
+
+<Section icon={Map} title="Den Kern-Extraktions-Loop verstehen">
+
+The Mound: Omen of Cthulhu verleiht dem traditionellen Extraktions-Genre eine einzigartige Note. Anstatt die physischen Waffen, Rüstungen und Schmuckstücke zu behalten, die Sie während eines Raids finden, wird die gesamte extrahierte Beute am Ende des Durchgangs automatisch in wertbasierte Belohnungen umgewandelt. Dieses System verlagert den Fokus vom Horten spezifischer Ausrüstungsteile auf die Maximierung des finanziellen und materiellen Gesamtwerts Ihres Inventars vor der Flucht.
+
+Ihre Startausrüstung wird vollständig durch den Vertrag bestimmt, den Sie vor dem Einsatz wählen. Schwierigere Verträge gewähren überlegene Ausrüstung, versetzen Sie aber auch in deutlich gefährlichere Umgebungen, in denen das Risiko hoch ist, alles zu verlieren. Da es keinen traditionellen Skill-Baum gibt, hängt der Fortschritt von Ihrer taktischen Ausführung, Ihrer Kartenkenntnis und der Teamkoordination ab.
+
+**Video-Highlights:**
+- Lernen Sie die Grundlagen des Beute-zu-Belohnung-Konvertierungssystems.
+- Verstehen Sie, wie die Vertragswahl Ihre Startausrüstung bestimmt.
+- Entdecken Sie, wie Sie Team-Wahnsinn und individuelle Halluzinationen verwalten.
+- Erfahren Sie, wie Sie Hilfsmittel wie das Kruzifix und die Fackel einsetzen.
+
+<YouTubeEmbed videoId="_E738yW6yiE" title="The Mound: Omen of Cthulhu Anfänger-Tipps, die Sie kennen müssen" />
+
+| Vertragsstufe | Qualität der Startausrüstung | Beute-Umwandlungsrate | Risikoprofil |
+| :--- | :--- | :--- | :--- |
+| Einfach | Basis / Standard | Standardwert | Niedrig |
+| Mittel | Fortgeschritten | Höherer Wert | Moderat |
+| Schwer | Elite / Spezialisiert | Maximaler Wert | Hoch |
+
+<Callout type="success" title="Extraktionsstrategie">
+Sie müssen nicht die gesamte Karte säubern, um einen erfolgreichen Durchgang zu haben. Wenn Sie eine wertvolle Menge an Gegenständen gesammelt haben, ist es oft sicherer, frühzeitig zu extrahieren, anstatt Ihr Glück herauszufordern und Ihr gesamtes Inventar zu riskieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Umgang mit Wahnsinn und Halluzinationen">
+
+Wahnsinn ist eine ständige Bedrohung in den dunklen Dschungeln. Wenn Ihr Wahnsinnslevel steigt, werden Sie schwere visuelle und auditive Verzerrungen erleben. Eine entscheidende Mechanik ist, dass diese Halluzinationen vollständig Client-seitig sind. Was Sie sehen, wird nicht mit Ihren Teammitgliedern geteilt. Zum Beispiel könnten Sie doppelte Feinde sehen oder beobachten, wie sich ein Teammitglied in eine riesige Bestie verwandelt, während Ihr Partner eine völlig normale Umgebung sieht.
+
+Um tragische Vorfälle durch Eigenbeschuss zu vermeiden, ist ständige Kommunikation lebenswichtig. Sie müssen Ziele mündlich verifizieren, bevor Sie den Abzug drücken. Glücklicherweise kann der Wahnsinn kontrolliert und gesenkt werden, indem man in unmittelbarer Nähe seiner Verbündeten bleibt. In der Nähe des Ochsenkarrens zu stehen, bietet einen noch stärkeren Effekt zur Wiederherstellung der geistigen Gesundheit, was ihn zum zentralen Ankerpunkt für Ihr Team während der Erkundung macht.
+
+<CardGrid cols={3}>
+  <Card title="Client-seitige Halluzinationen">
+    - **Individuelle visuelle Verzerrungen**
+    - Verursacht falsche Feind-Spawns
+    - Erfordert mündliche Verifizierung
+  </Card>
+  <Card title="Nähe zum Ochsenkarren">
+    - **Passive Regeneration der geistigen Gesundheit**
+    - Dient als mobile Schutzzone
+    - Führt Spieler in die Sicherheit zurück
+  </Card>
+  <Card title="Team-Zusammenhalt">
+    - **Reduziert die Anhäufung von Wahnsinn**
+    - Verhindert plötzliche Isolationspanik
+    - Verbessert die Kampfeffizienz
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung vor Eigenbeschuss">
+Hohe Wahnsinnslevel können Ihre Teammitglieder wie feindliche Kreaturen aussehen lassen. Schießen Sie niemals auf ein unerwartetes Ziel, ohne es vorher Ihrem Team anzukündigen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essenzielle Ausrüstung und Hilfsmittel">
+
+Bevor Sie von Ihrem Schiff aufbrechen, können Sie Hilfsmittel erwerben, die Ihre Überlebenschancen erheblich erhöhen. Diese Werkzeuge bieten Verteidigungsoptionen, Navigationshilfe und Nutzen, der Ihr Team in chaotischen Begegnungen retten kann. Zu verstehen, wann und wie man diese Werkzeuge einsetzt, ist ein grundlegender Teil der Meisterschaft im Spiel.
+
+Das Kruzifix ist ein mächtiges Verteidigungswerkzeug, das herannahende Feinde verlangsamt und Ihrem Team wertvolle Zeit verschafft, um sich neu zu positionieren oder zu heilen. Die Karte ist unerlässlich, um durch die dichten, verwirrenden Dschungelpfade zu navigieren. Für die Beleuchtung haben Sie Zugriff auf Fackeln und Lampen. Die Fackel wird hauptsächlich verwendet, um greifende Ranken wegzubrennen, die versuchen, Sie einzufangen, während die Lampe als vielseitige Lichtquelle dient, die auch geworfen werden kann, um Bereiche zu entzünden oder Feinden Schaden zuzufügen.
+
+| Gegenstandsname | Hauptfunktion | Taktische Anwendung |
+| :--- | :--- | :--- |
+| Kruzifix | Verlangsamt Feindbewegung | Schafft Fluchtfenster während des Kampfes |
+| Karte | Navigation und Planung | Planung sicherer Wege zur Extraktion |
+| Fackel | Licht und Rankenabwehr | Wegbrennen von Umweltgefahren |
+| Lampe | Licht und Wurfwaffe | Beleuchten dunkler Bereiche oder Werfen für Schaden |
+
+<Callout type="tip" title="Tipp für Hilfsmittel">
+Behalten Sie eine Lampe in Ihrem Inventar, auch wenn Sie eine Fackel haben. Die Fähigkeit, eine Lampe zu werfen, um einen entfernten Bereich zu beleuchten oder eine explosive Gefahr auszulösen, ist äußerst wertvoll.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Geräuschkontrolle und Stealth-Mechaniken">
+
+Geräusche sind einer der Hauptwege, auf denen Feinde Ihr Team lokalisieren. Fast jede Aktion, die Sie ausführen, erzeugt Lärm, und lautere Aktionen ziehen Feinde aus einem größeren Umkreis an. Das Rennen in schwerer Rüstung, das Aufscheuchen von Vogelschwärmen, das Zerbrechen trockener Äste und das Abfeuern ungedämpfter Waffen sind garantierte Wege, um unerwünschte Aufmerksamkeit zu erregen.
+
+Um zu überleben, müssen Sie Geschwindigkeit und Heimlichkeit ausbalancieren. Wenn Sie sich langsam bewegen und Auslöser für Umweltgeräusche vermeiden, können Sie an gefährlichen Begegnungen vorbeischlüpfen. Wenn Sie kämpfen müssen, versuchen Sie dies schnell zu tun und verlassen Sie das Gebiet sofort, da das Kampfgeräusch wahrscheinlich Monster in der Nähe zu Ihrer letzten bekannten Position locken wird.
+
+| Aktionstyp | Geräuschpegel | Anziehungsreichweite von Feinden |
+| :--- | :--- | :--- |
+| Hocken | Vernachlässigbar | Extrem kurz |
+| Gehen | Niedrig | Kurz |
+| Rennen (Schwere Rüstung) | Hoch | Mittel bis Lang |
+| Schüsse / Astknacken | Extrem | Sehr Lang |
+
+<Callout type="info" title="Stealth-Rat">
+Achten Sie auf den Boden. Vermeiden Sie es, auf trockene Äste zu treten, und halten Sie Ausschau nach rastenden Vögeln, die wegfliegen und kreischen, wenn Sie ihnen zu nahe kommen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Schritt-für-Schritt Match-Walkthrough">
+
+Die Ausführung eines strukturierten Plans während jedes Einsatzes wird Ihre Extraktions-Erfolgsrate drastisch erhöhen. Folgen Sie diesem Schritt-für-Schritt-Leitfaden, um Ihre Durchgänge effizient zu gestalten.
+
+<Steps>
+  <Step num="1" title="Auswählen und Vorbereiten">
+    Wählen Sie Ihren Vertrag auf dem Schiff basierend auf Ihrem bevorzugten Risikoniveau. Kaufen Sie vor dem Start essenzielle Hilfsmittel wie eine Karte, ein Kruzifix und ausreichende Lichtquellen.
+  </Step>
+  <Step num="2" title="Navigation anhand der Spur">
+    Sobald Sie gelandet sind, suchen Sie die weiße Linie auf dem Boden. Diese Linie stellt die Spur dar, die der Ochsenkarren hinterlassen hat, und dient als Ihr primärer Navigationsleitfaden zurück zum Extraktionsboot.
+  </Step>
+  <Step num="3" title="Ziele sichern und Beute sammeln">
+    Folgen Sie der Karrenspur, um Ziele wie Logbücher oder Zielpersonen zu finden. Sammeln Sie unterwegs Wertsachen ein und halten Sie Ausschau nach Hirschen, die als einfache Quelle für Bonuspunkte dienen.
+  </Step>
+  <Step num="4" title="Team-Sanity verwalten">
+    Überwachen Sie während der Erkundung Ihren Wahnsinnslevel. Sammeln Sie sich in der Nähe des Ochsenkarrens und bleiben Sie nah bei Ihren Teammitgliedern, um visuelle Halluzinationen zu beseitigen und eine klare Kommunikation aufrechtzuerhalten.
+  </Step>
+  <Step num="5" title="Extraktion einleiten">
+    Kehren Sie zum Boot zurück. Sie müssen nicht warten, bis der Ochsenkarren physisch am Dock ankommt; solange alle überlebenden Spieler neben dem Boot stehen, wird der Extraktionsprozess ausgelöst.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Wiederbelebungsmechanik">
+Wenn ein Teammitglied fällt, suchen Sie nach einer Option für einen Geldangriff, die durch Ihren Vertrag bereitgestellt wird. Falls nicht verfügbar, können Sie ihren Charakter terminieren und ihren physischen Körper zum Ochsenkarren tragen, um sie wiederzubeleben.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschritt und Schiffs-Upgrades">
+
+Obwohl dem Spiel ein traditioneller Charakter-Skill-Baum fehlt, können Sie Ihre Überlebensfähigkeiten auf Ihrem Schiff dauerhaft verbessern. Diese Upgrades wirken sich direkt auf Ihr Heilungspotenzial und Ihr Ressourcenmanagement während der Durchgänge aus, was sie zu einer Priorität für den langfristigen Fortschritt macht.
+
+Um Ihre Heilrationen zu verbessern, begeben Sie sich zwei Ebenen unter das Hauptdeck Ihres Schiffes. Das Aufrüsten Ihrer Rationen erhöht die Menge an Gesundheit, die pro Anwendung wiederhergestellt wird, was lebenswichtig ist, um die Angriffe mit hohem Schaden in schwierigeren Verträgen zu überleben. Zusätzlich bietet die Jagd auf Hirsche während Ihrer Durchgänge Bonuspunkte, die Ihren Zugang zu diesen Upgrades beschleunigen.
+
+<Checklist
+  id="prerun-checklist"
+  title="Checkliste vor dem Einsatz:"
+  items={[
+    "Schiffskeller prüfen, um Heilrationen aufzurüsten",
+    "Einen Vertrag wählen, der Ihrem aktuellen Skill-Level entspricht",
+    "Eine Karte und mindestens ein Kruzifix kaufen",
+    "Sprachkommunikationskanäle mit Ihrem Team koordinieren",
+    "Die durch Ihren Vertrag bereitgestellte Startausrüstung anlegen"
+  ]}
+/>
+
+<Callout type="success" title="Rations-Upgrades">
+Machen Sie es sich zur Gewohnheit, nach jedem erfolgreichen Durchgang die unteren Decks Ihres Schiffes zu überprüfen. Das frühe Aufrüsten Ihrer Rationen macht mittlere und schwere Verträge viel handhabbarer.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wie lerne ich am besten den Spielablauf von The Mound: Omen of Cthulhu?",
+    answer: "Beginnen Sie mit der Auswahl von Verträgen mit geringem Risiko auf dem Schiff. Diese Verträge bieten eine Basisausrüstung, mit der Sie die Kartenlayouts, Extraktionsrouten und Geräuschmanagementsysteme lernen können, ohne wertvolle Ausrüstung zu riskieren."
+  },
+  {
+    question: "Behalte ich die Waffen und Gegenstände, die ich während eines Durchgangs finde?",
+    answer: "Nein. Im Gegensatz zu Standard-Extraktions-Shootern werden alle Gegenstände und Beutestücke, die Sie erfolgreich extrahieren, automatisch in Belohnungspunkte und Währung basierend auf ihrem Gesamtwert umgewandelt."
+  },
+  {
+    question: "Was ist der beste Weg, um mit visuellen Halluzinationen umzugehen?",
+    answer: "Bleiben Sie nah bei Ihren Teammitgliedern und stehen Sie in der Nähe des Ochsenkarrens, um Ihren Wahnsinn zu senken. Da Halluzinationen Client-seitig sind, verifizieren Sie Zielorte immer mündlich mit Ihrem Team, um Eigenbeschuss zu vermeiden."
+  },
+  {
+    question: "Kann ich extrahieren, wenn der Ochsenkarren das Boot noch nicht erreicht hat?",
+    answer: "Ja. Sie müssen nicht auf den Karren warten. Solange alle aktiven Spieler Ihres Teams direkt neben dem Extraktionsboot stehen, beginnt die Fluchtsequenz."
+  }
+]} />
+
+</Section>

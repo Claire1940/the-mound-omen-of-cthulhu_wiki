@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Historia de The Mound Omen of Cthulhu: Horrores Subterráneos y Guía de Ambientación",
+  description: "Explora el profundo trasfondo de The Mound: Omen of Cthulhu, desde sus raíces lovecraftianas en la selva chilena hasta los aterradores misterios subterráneos del Montículo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=The+Mound+Lore+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, trasfondo, terror psicológico, extracción cooperativa, montículo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El trasfondo de The Mound: Omen of Cthulhu** está fuertemente inspirado en la novela corta de H.P. Lovecraft, centrándose en un **portal subterráneo** oculto en la selva chilena.
+- El **terror psicológico** es una mecánica central, donde el entorno distorsiona la realidad a través de **alucinaciones y paranoia** a medida que desciendes a mayor profundidad.
+- La jugabilidad de **extracción cooperativa** requiere que los equipos gestionen recursos limitados mientras descubren los **secretos cósmicos** de una antigua civilización.
+- La **narrativa ambiental** trata a la propia selva como un personaje, con un clima cambiante y **distorsiones audiovisuales** que pondrán a prueba la confianza de los jugadores.
+</Callout>
+
+<Section icon={Map} title="Los Orígenes Narrativos del Trasfondo de The Mound: Omen of Cthulhu">
+
+La base narrativa de esta experiencia tiene sus raíces en el oscuro pavor cósmico del terror clásico de H.P. Lovecraft. Específicamente, el juego toma su nombre y peso temático de la novela corta *El montículo* (The Mound), que explora el descubrimiento de un antiguo mundo subterráneo habitado por una civilización olvidada. En esta adaptación, los jugadores asumen el papel de exploradores en un entorno inspirado en el siglo XVI, adentrándose en las selvas inexploradas de Chile. El trasfondo sugiere que el "Montículo" que da título al juego no es simplemente un accidente geográfico, sino un portal a un reino de arquitectura impresionante y monstruos abominables que desafían la comprensión humana.
+
+**Puntos Clave del Video:**
+- Resumen de las mecánicas de extracción PvE cooperativas inspiradas en Lovecraft.
+- Explicación de los elementos de terror psicológico e ilusiones sensoriales.
+- Detalles sobre el mundo central "Tempest Dot" y el papel del Capitán.
+- Detalles sobre los arquetipos de personajes y el sistema de progresión compartido.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 cosas que debes saber antes de comprar" />
+
+La historia se centra en la búsqueda de riqueza y prosperidad, impulsada por un misterioso Capitán y Supervisor que exige la recuperación de artefactos de las profundidades. Sin embargo, el verdadero **trasfondo de The Mound: Omen of Cthulhu** reside en el descenso a la locura. Cuanto más se adentra un escuadrón en el bosque, más comienza a deformarse el tejido de la realidad. Los jugadores deben enfrentarse a la idea de que las "riquezas" que buscan están custodiadas por entidades que se alimentan de la cordura humana.
+
+| Elemento del Trasfondo | Adaptación al Juego | Tema Original de Lovecraft |
+| :--- | :--- | :--- |
+| **La Ubicación** | Selva Chilena Inexplorada | Oklahoma Subterránea |
+| **El Objetivo** | Recolección de Artefactos | Exploración Científica |
+| **El Terror** | Alucinaciones/Paranoia | Civilizaciones Extraterrestres |
+| **La Amenaza** | Acechadores Primigenios | Guardianes Espectrales |
+
+<Callout type="warning" title="Pavor Cósmico">
+El entorno está diseñado para ser un antagonista activo. No confíes en tus ojos; las alucinaciones pueden manifestarse como botín falso o fosas invisibles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Personajes y Trasfondo de sus Historias">
+
+Aunque las mecánicas de juego de los arquetipos son actualmente cosméticas, sus historias de fondo proporcionan un contexto esencial para el mundo. Estos individuos no son héroes; son almas desesperadas arrastradas al fin del mundo por la guerra, el crimen o el nihilismo existencial. Su presencia en el galeón *Tempest Dot* representa una última apuesta por la libertad o la verdad en un mundo cada vez más ensombrecido por la influencia primigenia.
+
+<CardGrid cols={3}>
+  <Card title="Alonso de la Torre">
+    Un **antiguo soldado nihilista** que permanece impasible ante los horrores de la guerra. Ve la búsqueda de riqueza simplemente como un medio para lograr la libertad absoluta.
+  </Card>
+  <Card title="Leonor">
+    Una **fugitiva de España** que huyó a través del océano tras cometer un asesinato sin remordimientos. Sus instintos de supervivencia son su mayor activo en la selva.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    Un **noble hastiado** que, al igual que Alonso, ha quedado vacío por el conflicto. Busca el honor y la verdad última en las profundidades del Montículo.
+  </Card>
+</CardGrid>
+
+El sistema de progresión compartido garantiza que, a medida que estos personajes descubren los secretos de la selva, la narrativa avance para todo el equipo. Esto refuerza el tema de la supervivencia colectiva frente a un enemigo incognoscible. Aunque sus habilidades sean idénticas, sus variados trasfondos añaden capas a la tensión atmosférica de la expedición.
+
+| Personaje | Trasfondo | Motivación |
+| :--- | :--- | :--- |
+| **Alonso** | Exsoldado | Libertad de la sociedad |
+| **Leonor** | Fugitiva | Escapar de la justicia |
+| **Don Rodrigo** | Noble | Buscar la verdad |
+| **El Capitán** | Supervisor | Adquisición de recursos |
+
+<Callout type="tip" title="Sinergia de Equipo">
+Dado que los arquetipos son cosméticos, concéntrate en planificar la estrategia de tus equipamientos (quién lleva el rifle frente al cuchillo) en lugar de la selección de personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Descenso: Las Mecánicas como Narrativa">
+
+En **el trasfondo de The Mound: Omen of Cthulhu**, las mecánicas de juego sirven como una extensión directa de la narrativa. El sistema de "Locura" no es solo un medidor; es una experiencia sensorial. A medida que se apodera la paranoia, los jugadores pueden escuchar pasos fantasmales en la maleza o ver colores cambiantes en el dosel arbóreo. Esto obliga a depender de una comunicación que es tanto mecánica como temática.
+
+<Steps>
+  <Step num="1" title="El Contrato">
+    Comienza en el *Tempest Dot* firmando un contrato con el Capitán. Esto establece tu objetivo narrativo y te proporciona tu equipo inicial.
+  </Step>
+  <Step num="2" title="Infiltración en la Selva">
+    Navega por la densa ciénaga chilena. Usa el "efímero de metal" para rastrear botines de gran valor mientras evitas el "despertar" del bosque.
+  </Step>
+  <Step num="3" title="Distorsión de la Realidad">
+    Gestiona tu cordura a medida que comienzan las alucinaciones. Es posible que tus compañeros de equipo vean cosas que tú no ves, lo que convierte al chat de voz por proximidad en tu único vínculo con la realidad.
+  </Step>
+  <Step num="4" title="La Extracción">
+    Llega al punto de extracción con tus artefactos. Si está lloviendo, tus armas de fuego de llave de chispa podrían fallar, lo que te obligará a una desesperada lucha cuerpo a cuerpo para sobrevivir.
+  </Step>
+</Steps>
+
+El sistema climático es particularmente cruel. La lluvia no es solo un efecto visual; altera activamente el funcionamiento de las armas de fuego del siglo XVI, como los mosquetes de mecha y de chispa. Esto obliga a los jugadores a adaptarse a la naturaleza primitiva y poco confiable de su tecnología cuando se enfrentan a horrores cósmicos e intemporales.
+
+| Mecánica | Impacto Narrativo | Estrategia de Supervivencia |
+| :--- | :--- | :--- |
+| **Lluvia** | Fallo tecnológico | Confiar en el cuerpo a cuerpo/fuerza bruta |
+| **Ruido** | Despertar del bosque | Sigilo y movimiento silencioso |
+| **Alucinación** | Realidad fracturada | Confirmaciones constantes por voz |
+| **Espacios limitados** | Desesperación | Planificar el uso del carro de bueyes compartido |
+
+<Callout type="warning" title="Gestión del Ruido">
+Disparar un arma puede eliminar una amenaza, pero los ecos pueden "despertar al bosque", convocando a una horda de enemigos a tu ubicación.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El Inframundo Subterráneo y los Enemigos">
+
+El objetivo principal de cada expedición es el propio Montículo. Según el trasfondo, este sitio es el epicentro tanto de una inmensa riqueza como del horror absoluto. La arquitectura dentro del reino subterráneo se describe como "impresionante" y "alienígena", lo que sugiere que fue construida por manos que no eran del todo humanas. Los enemigos que se encuentran aquí (zombis con tentáculos, acechadores primigenios y rezagados indígenas) son todos víctimas de la influencia corruptora del Montículo.
+
+<Checklist
+  id="lore-milestones"
+  title="Objetivos de Descubrimiento del Trasfondo:"
+  items={[
+    "Localizar los fuertes abandonados de expediciones anteriores fallidas",
+    "Identificar el tintineo del efímero de metal cerca de botines de gran valor",
+    "Rescatar a supervivientes abandonados para escuchar sus relatos de las profundidades",
+    "Llegar a la puerta de entrada del inframundo subterráneo",
+    "Observar las cambiantes distorsiones de la realidad en lo profundo de la selva"
+  ]}
+/>
+
+Las "Fauces" de la selva actúan como un sistema digestivo para los incautos. La podredumbre de la madera donde brotan hongos y los cantos de aves específicos de la región chilena crean una atmósfera inmersiva pero hostil. Cada sonido es una amenaza potencial, y cada sombra podría ser un "superviviente abandonado" o un "horror con tentáculos" esperando para atacar.
+
+<Callout type="success" title="Recompensa de Exploración">
+Encontrar fuertes abandonados a menudo otorga información valiosa que explica el destino de quienes llegaron antes que tú, profundizando en la construcción del mundo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Tempest Dot: Trasfondo de tu Base de Operaciones">
+
+Entre los desgarradores descensos, los jugadores regresan al *Tempest Dot*, un galeón que sirve como nexo flotante. Este barco está plagado de una "atmósfera nociva", pero es el único lugar de relativa seguridad. Los PNJ a bordo aportan el matiz necesario al lúgubre entorno del mundo.
+
+- **El Capitán**: Una figura exigente que proporciona los contratos que impulsan la historia.
+- **El Cocinero**: Aconseja sobre los mejores alimentos que se pueden recolectar de la tierra para mantener la resistencia.
+- **El Laudista**: Ofrece un breve respiro del silencio de la selva con melodías de la época.
+- **El Perro del Barco**: Un pequeño consuelo en un mundo de locura cósmica.
+
+La cubierta del barco es donde se define la estrategia. Dado que el inventario está limitado a seis espacios, los jugadores deben usar el carro de bueyes (que sigue a la expedición) para almacenar el exceso de botín. Esta gestión logística refleja la naturaleza "expedicionaria" del trasfondo, donde cada objeto traído de vuelta es una victoria contra la oscuridad invasora.
+
+| Característica del Nexo | Función | Importancia en el Trasfondo |
+| :--- | :--- | :--- |
+| **Mesa de Contratos** | Inicio de misión | La codicia del Capitán impulsa la trama |
+| **Cofre del Carro de Bueyes** | Almacenamiento | Representa la carga compartida del equipo |
+| **Cocina del Cocinero** | Consejos de comida | La supervivencia depende de los recursos locales |
+| **Laúd Residente** | Inmersión | Los últimos vestigios de la cultura humana |
+
+<Callout type="tip" title="Interacción en el Nexo">
+Habla siempre con el Cocinero antes de una partida; saber qué alimentos son los más valiosos puede ahorrarte espacio en el inventario durante la recolección.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Detalles del Lanzamiento y Datos Técnicos">
+
+The Mound: Omen of Cthulhu tiene programado su lanzamiento para el **15 de julio de 2026**. Su objetivo es tender un puente entre los juegos de disparos de extracción de alto riesgo y el terror psicológico. El juego estará disponible en plataformas modernas, lo que garantiza que la densidad atmosférica de la selva chilena se aproveche al máximo mediante hardware de última generación.
+
+| Categoría | Requisito / Detalle |
+| :--- | :--- |
+| **Fecha de Lanzamiento** | 15 de julio de 2026 |
+| **Plataformas** | PC (Steam), PS5, Xbox Series X/S |
+| **Precio Estándar** | $29.99 |
+| **Precio Deluxe** | $39.99 (Incluye el Abyssal Gear) |
+| **GPU Mínima** | GTX 1660 Super / RX 5600XT |
+| **GPU Recomendada** | RTX 3070 / RX 6750XT |
+
+La Edición Deluxe incluye el "Abyssal Gear Pack" y el "Fortune Hunter's Character Pack", lo que añade dos personajes más a la lista y una "nueva zona peligrosa" para explorar. Esta expansión sugiere que el **trasfondo de The Mound: Omen of Cthulhu** seguirá creciendo tras el lanzamiento, invitando a los jugadores a adentrarse aún más en el abismo subterráneo.
+
+<Callout type="info" title="Nota Final">
+Actualmente hay una demo gratuita disponible en Steam para aquellos que deseen poner a prueba su cordura antes del lanzamiento completo en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre el Trasfondo y la Jugabilidad">
+
+<FAQ items={[
+  {
+    question: "¿El trasfondo de The Mound: Omen of Cthulhu está basado en una historia real?",
+    answer: "No, está basado en la novela corta de ficción 'El montículo' (The Mound) de H.P. Lovecraft y Zealia Bishop, que forma parte de los Mitos de Cthulhu."
+  },
+  {
+    question: "¿Tienen habilidades únicas los diferentes personajes?",
+    answer: "Actualmente, los arquetipos de personajes como Alonso y Leonor son solo cosméticos. La progresión y las habilidades se comparten en todo el equipo."
+  },
+  {
+    question: "¿Qué pasa si llueve durante una expedición?",
+    answer: "La lluvia hace que las armas de fuego del siglo XVI (llaves de chispa/mecha) fallen. Tendrás que confiar en armas de cuerpo a cuerpo o esperar a que el clima se despeje."
+  },
+  {
+    question: "¿Puedo jugar en solitario?",
+    answer: "Sí, puedes jugar con aliados de IA, pero el juego está equilibrado para el modo cooperativo. El juego en solitario se vuelve significativamente más difícil a medida que avanzas en las zonas con mayor peso narrativo."
+  }
+]} />
+
+</Section>

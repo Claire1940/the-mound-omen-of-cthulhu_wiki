@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Classes de The Mound Omen of Cthulhu: Funções e Arquétipos de Personagem",
+  description: "Explore os arquétipos de personagens e funções baseadas em equipamentos em The Mound: Omen of Cthulhu. Aprenda a otimizar seu esquadrão para missões de extração Lovecraftianas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Character+Archetypes+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, classes, arquétipos, guia de personagens, funções, survival horror"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **As classes de The Mound Omen of Cthulhu** são arquétipos cosméticos, em vez de classes de RPG tradicionais com árvores de habilidades únicas.
+- **A definição da função** é determinada inteiramente pelas armas, equipamentos e recursos que você escolhe levar para a selva.
+- **A sinergia do esquadrão** depende do equilíbrio dos slots limitados de inventário (6 por jogador) entre a equipe de expedição de quatro pessoas.
+- **As mecânicas de sanidade** introduzem alucinações que podem enganá-lo, fazendo-o ver itens falsos ou companheiros de equipe hostis.
+- **Fatores ambientais** como a chuva podem tornar as armas de fogo inúteis, forçando a dependência de "classes" ou funções de combate corpo a corpo.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Classes de The Mound Omen of Cthulhu">
+
+No mundo assombroso de *The Mound: Omen of Cthulhu*, o conceito de uma "classe" difere significativamente dos hero shooters padrão ou MMOs. Embora os jogadores frequentemente busquem pelas **classes de The Mound Omen of Cthulhu**, os desenvolvedores da ACE Team optaram por um sistema mais fluido e baseado em equipamentos. Sua "classe" não é uma escolha permanente feita em uma tela de seleção de personagem, mas uma função tática que você adota com base no equipamento que retira do arsenal do galeão *Tempest Dot*.
+
+**Destaques do Vídeo:**
+- Visão geral dos 4 principais arquétipos de personagens e suas histórias de origem.
+- Explicação de como o ciclo de extração influencia a seleção de equipamentos.
+- Insights críticos sobre os sistemas de terror psicológico e sanidade.
+- Dicas sobre como gerenciar o estoque compartilhado no carro de boi durante expedições na selva profunda.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Coisas Que Você Precisa Saber Antes de Comprar" />
+
+Esta filosofia de design incentiva a flexibilidade. Em uma missão, você pode atuar como o batedor principal com um arco e itens de fonte de luz; na próxima, você pode ser a vanguarda pesada empunhando um facão e uma pistola de pederneira. No entanto, como o espaço do inventário é estritamente limitado a seis slots, nenhum jogador pode ser um "pau para toda obra". Você deve se especializar através da cooperação.
+
+<Callout type="tip" title="Especialização de Funções">
+Como não há habilidades codificadas, designe funções dentro da sua equipe antes do início da missão. Ter um jogador focado em "Utilidade" (lâmpadas, comida) e outro em "Defesa" (combate corpo a corpo pesado, armadura) é mais eficaz do que todos carregarem um pouco de tudo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquétipos de Personagem e Histórias de Origem">
+
+Embora as diferenças mecânicas sejam mínimas, o jogo oferece quatro arquétipos de personagens distintos. Esses personagens oferecem sabor, falas únicas e motivações pessoais que se ligam à narrativa Lovecraftiana mais ampla. Escolher seu personagem é o primeiro passo para mergulhar no cenário colonial espanhol do século XVI do jogo.
+
+<CardGrid cols={2}>
+  <Card title="Alonso de la Torre">
+    - **História**: Um ex-soldado niilista cansado de anos de guerra.
+    - **Motivação**: Vê o ouro apenas como um meio de comprar sua liberdade final.
+    - **Personalidade**: Estoico e indiferente aos horrores sobrenaturais da selva.
+  </Card>
+  <Card title="Leonor">
+    - **História**: Uma fugitiva que escapou da Espanha após cometer um assassinato sem remorso.
+    - **Motivação**: Busca uma nova vida em alto mar para escapar de seu passado.
+    - **Personalidade**: Feroz, independente e orientada para a sobrevivência.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    - **História**: Um nobre que, como Alonso, está desgastado pelas realidades do combate.
+    - **Motivação**: Em busca de honra e da verdade suprema por trás do Monte (The Mound).
+    - **Personalidade**: Disciplinado e focado no propósito maior da missão.
+  </Card>
+  <Card title="O Sobrevivente Náufrago">
+    - **História**: Um explorador isolado encontrado nas profundezas da selva durante as expedições.
+    - **Motivação**: Sobrevivência e fuga da influência cósmica de Cthulhu.
+    - **Desbloqueio**: Deve ser resgatado durante uma missão específica para se tornar jogável.
+  </Card>
+</CardGrid>
+
+| Arquétipo | Origem | Traço Principal | Condição de Desbloqueio |
+| :--- | :--- | :--- | :--- |
+| **Alonso** | Ex-soldado | Niilista | Padrão |
+| **Leonor** | Fugitiva | Sem remorso | Padrão |
+| **Rodrigo** | Nobre | Buscador da verdade | Padrão |
+| **Náufrago** | Sobrevivente | Instável | Missão de Resgate |
+
+<Callout type="info" title="Natureza Cosmética">
+Lembre-se de que esses arquétipos não concedem bônus de atributos. Sua eficácia no combate depende 100% dos itens que você coleta e das armas que equipa a partir das recompensas de contrato do Capitão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Funções Baseadas em Armas">
+
+Como as **classes de The Mound Omen of Cthulhu** são definidas pelos equipamentos, entender o meta das armas é crucial. O jogo apresenta uma variedade de armamentos do século XVI, desde arcos silenciosos até armas de fogo barulhentas e poderosas. Cada escolha traz uma troca pesada, particularmente em relação à mecânica de "Ruído", que pode alertar a selva sobre sua presença.
+
+| Função | Arma Principal | Item Secundário | Prós | Contras |
+| :--- | :--- | :--- | :--- | :--- |
+| **Batedor** | Arco / Besta | Lâmpada a Óleo | Silencioso, munição reutilizável | Baixo dano de explosão |
+| **Vanguarda** | Facão / Machado | Escudo | Alta durabilidade, sem munição | Combate próximo arriscado |
+| **Atirador** | Pistola de Pederneira | Pólvora | Alto dano, alcance | Barulhento, falha na chuva |
+| **Suporte** | Faca de Marinheiro | Comida / Remédios | Alta utilidade | Fraco em lutas diretas |
+
+O ambiente desempenha um papel fundamental no desempenho dessas "classes". Por exemplo, se o clima mudar para chuva forte, as armas de fogo de mecha e pederneira apresentarão defeitos. Nesses cenários, a função de "Atirador" torna-se efetivamente inútil, forçando o jogador a mudar para combate corpo a corpo ou armas de arremesso, como machados.
+
+<Callout type="warning" title="Gerenciamento de Ruído">
+As armas de fogo são poderosas, mas perigosas. Um único tiro pode "acordar a floresta", fazendo com que uma horda de inimigos Eldritch converja para sua localização. Use armas de fogo apenas como último recurso ou quando estiver preparado para um confronto de grande escala.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparação para a Expedição: O Ritual Pré-Partida">
+
+O sucesso em *The Mound: Omen of Cthulhu* começa no *Tempest Dot*. Antes de pisar na selva, você deve se coordenar com seu esquadrão e o Capitão do navio para finalizar seu equipamento. Como os recursos são escassos, você não pode se dar ao luxo de desperdiçar slots de inventário com itens redundantes.
+
+<Steps>
+  <Step num="1" title="Assine o Contrato">
+    Fale com o Capitão para aceitar um contrato pré-expedição. Esses objetivos definem suas metas, como encontrar artefatos específicos ou resgatar sobreviventes, e fornecem o equipamento inicial para a jornada.
+  </Step>
+  <Step num="2" title="Distribua o Arsenal">
+    O Capitão fornece um conjunto coletivo de armas e pólvora. Vocês devem decidir em equipe quem fica com o rifle e quem fica com a faca. Nem todos podem ter o melhor equipamento.
+  </Step>
+  <Step num="3" title="Consulte o Cozinheiro">
+    Fale com o cozinheiro do navio para determinar quais alimentos são melhores para recuperar. A comida é essencial para manter o vigor e a saúde durante a caminhada extenuante em direção ao Monte.
+  </Step>
+  <Step num="4" title="Finalize o Carro de Boi">
+    Certifique-se de que seu carro de boi esteja pronto. Este vagão automatizado acompanha seu progresso e serve como seu estoque principal para saques de alto valor que não cabem no seu inventário pessoal de 6 slots.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progressão Compartilhada">
+Não se preocupe em "roubar" XP. A progressão e os desbloqueios da história são compartilhados por toda a equipe. Foque nos objetivos da missão em vez de acumular saques individuais para avançar a narrativa para todos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O Impacto da Loucura e da Sanidade">
+
+Um aspecto único das **classes de The Mound Omen of Cthulhu** é como elas interagem com os elementos de terror psicológico do jogo. À medida que você se aprofunda na selva, sua sanidade começará a se desgastar. Isso não é apenas uma barra de status; ela muda ativamente sua percepção da realidade, tornando as funções de "Suporte" e "Comunicação" vitais.
+
+**Os Efeitos de Sanidade Incluem:**
+- **Alucinações Auditivas**: Ouvir passos ou gritos que não existem.
+- **Distorções Visuais**: Ver saques "fantasmas" sobre fossos de espinhos ou cores mudando no ambiente.
+- **Paranoia**: Ver seus companheiros de equipe como monstros hostis ou ver aliados "falsos" que são, na verdade, inimigos disfarçados.
+- **Ilusões Sensoriais**: Lâmpadas piscando ou estruturas desaparecendo que confundem a navegação.
+
+<Checklist
+  id="sanity-check"
+  title="Checklist de Sobrevivência de Sanidade:"
+  items={[
+    "Use o Chat de Voz por Proximidade para verificar a localização dos aliados",
+    "Compare informações sobre 'saques' antes de se aproximar deles",
+    "Recue para o Carro de Boi se as alucinações se tornarem esmagadoras",
+    "Evite fazer barulho excessivo para manter o 'Alerta da Selva' baixo",
+    "Mantenha uma fonte de luz ativa durante os ciclos noturnos para afastar o pavor"
+  ]}
+/>
+
+| Perigo | Efeito | Estratégia de Mitigação |
+| :--- | :--- | :--- |
+| **Chuva** | Desativa Armas de Fogo | Mudar para Corpo a Corpo/Arco |
+| **Escuridão** | Aumenta Perda de Sanidade | Manter Lâmpadas a Óleo |
+| **Ruído** | Alerta a Selva | Furtividade / Armas com Silenciador |
+| **Alucinação** | Realidade Enganosa | Verificação Verbal em Equipe |
+
+<Callout type="warning" title="Confie em Seus Ouvidos">
+O jogo usa um chat de voz direcional especializado. Se você vir um "aliado", mas a voz dele estiver vindo de uma direção diferente, ou se ele não estiver falando nada, é provável que você esteja alucinando. Confie no som, não nos seus olhos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Existem habilidades únicas para cada uma das classes de The Mound Omen of Cthulhu?",
+    answer: "Não. Os quatro arquétipos de personagens (Alonso, Leonor, Rodrigo e o Náufrago) são puramente cosméticos. Suas habilidades e capacidades são definidas pelas armas e equipamentos que você escolhe carregar."
+  },
+  {
+    question: "Posso mudar minha função durante uma expedição?",
+    answer: "Sim, desde que você encontre novos equipamentos na selva ou troque itens com seus companheiros de equipe. No entanto, você está limitado pela sua capacidade de inventário de 6 slots."
+  },
+  {
+    question: "Jogar sozinho muda o sistema de classes?",
+    answer: "Ao jogar sozinho, você é acompanhado por aliados controlados pelo computador. Embora ainda possa escolher seu equipamento, o jogo é equilibrado para o modo cooperativo, tornando o jogo solo significativamente mais difícil a longo prazo."
+  },
+  {
+    question: "Como desbloqueio mais personagens em The Mound?",
+    answer: "Alguns personagens, como o Sobrevivente Náufrago, devem ser encontrados e resgatados durante expedições específicas. Uma vez resgatados e extraídos com segurança, eles ficam disponíveis para seleção no Tempest Dot."
+  }
+]} />
+
+</Section>

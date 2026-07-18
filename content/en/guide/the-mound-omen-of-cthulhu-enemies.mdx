@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "the mound omen of cthulhu enemies: Combat & Survival Guide",
+  description: "Master survival against the mound omen of cthulhu enemies. Learn how to counter grab attacks, manage isolation mechanics, and defeat elite monsters.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Enemy+Survival+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Survival focus**: Facing the mound omen of cthulhu enemies requires tight squad cohesion to counter aggressive grab mechanics.
+- **Key mechanic**: The isolation penalty triggers immediate, high-damage underground attacks when players wander too far from their team.
+- **Best strategy**: Listen for heavy breathing audio cues to predict and counter incoming physical lunges from fast-moving undead.
+- **Critical tip**: Use silent weapons like the crossbow to avoid awakening the jungle and summoning hordes of hostile creatures.
+- **Top choice**: Always prioritize saving reviving salts and keeping the squad together over chasing distant treasure chests.
+</Callout>
+
+<Section icon={Map} title="Understanding the mound omen of cthulhu enemies">
+
+Venture deep into the cursed 16th-century South American jungle, where horror and madness await around every corner. Surviving the hostile environment requires a deep understanding of **the mound omen of cthulhu enemies**, as these Lovecraftian horrors are designed to exploit squad vulnerabilities, punish isolated players, and drive explorers to the brink of insanity. Every sound you make, from cracking a dry branch to firing a loud musket, alerts the jungle and draws terrifying creatures directly to your position.
+
+To prepare your squad for the dangers ahead, study the official gameplay overview, which outlines the core loop of exploring, gathering treasure, and escaping back to your galleon before the jungle claims your soul.
+
+**Video Highlights:**
+- **Expedition Loop**: Sign contracts at the safe galleon, pick your survival gear, and row to the mainland cursed jungle.
+- **Madness System**: Sanity decay triggers severe visual illusions, blood rain, and disguised mirage traps.
+- **Specialized Audio**: Proximity voice chat is highly localized, meaning losing touch with your team leaves you vulnerable.
+- **Jungle Corruption**: Teammates who wander off and die can return controlled by the hostile jungle to hunt down survivors.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Official Gameplay Overview Trailer" />
+
+The enemy ecosystem in this cursed territory consists of various physical and psychological threats. Unlike traditional survival games where you can easily outrun or kite threats, these creatures are faster than the players and possess highly aggressive crowd-control abilities. 
+
+| Enemy Type | Primary Attack | Threat Level | Audio Cue |
+| --- | --- | --- | --- |
+| Undead | Rapid melee swipes, lunging grabs | Medium | Heavy breathing, growling |
+| Tentacle Blob | Long-range tendril grab, health drain | High | Slithering, wet splashing |
+| Centipede | Acid spit, toxic bite | High | Hissing, skittering legs |
+| Tree Guy | Teleportation grab, environmental displacement | Critical | Creaking wood, rustling leaves |
+
+<Callout type="warning" title="Sound Warning">
+Firing weapons or running recklessly will instantly wake the surrounding jungle, triggering rapid enemy spawns. Use stealth whenever possible to avoid being overwhelmed by hordes of undead.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Key Enemy Mechanics and Grab Attacks">
+
+The most frustrating aspect of combat that players encounter is the relentless grab attacks. Hostile creatures are designed to actively prevent players from endlessly kiting them. Undead monsters run faster than human explorers, making escape on foot virtually impossible once you have been spotted. If you hear heavy breathing while running, it means a creature is directly behind you and about to initiate a grab.
+
+These grab attacks are not just basic physical strikes; they can force you to drop your active weapon, leaving you completely defenseless in the middle of a chaotic skirmish. 
+
+| Grab Variant | Enemy Source | Immediate Effect | Best Countermeasure |
+| --- | --- | --- | --- |
+| Lunging Grab | Fast-running Undead | Temporarily pins player, inflicts physical damage | Turn and strike with melee, do not run |
+| Tendril Disarm | Tentacle Blob | Forces player to drop active weapon | Use backstab attacks while teammate distracts |
+| Subterranean Grab | Underground Undead | Drags player down, inflicts heavy physical damage | Stay close to bots or human teammates |
+| Teleportation Grab | Tree Guy | Teleports player into nearby rivers or hazards | Avoid fighting near log bridges or cliffs |
+
+The game features an aggressive isolation mechanic. If you scout ahead by yourself, separate from your human allies, or let your companion bot wander off, the game severely punishes you. Both the underground grab attacks and the devastating health-draining tentacle attacks are triggered primarily when a player is isolated. 
+
+<Callout type="tip" title="Stay Together">
+Never wander off alone to search for treasure. Staying within physical proximity of your team or bot companion disables the automatic underground grab triggers, keeping your squad safe.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Detailed Breakdown of Elite and Special Monsters">
+
+As you venture deeper into the jungle and unlock abandoned forts to progress further, you will encounter elite monsters that require specific combat strategies. These creatures cannot be defeated by simple button-mashing, especially since the current combat system lacks a dedicated block, parry, or dodge mechanic. Players must rely on positioning, team coordination, and exploiting enemy recovery frames.
+
+To help you identify and counter these elite threats, study the specific behaviors of the three most dangerous monsters in the jungle.
+
+<CardGrid cols={3}>
+  <Card title="The Centipede">
+    - **Vomit Mechanic**: Inflicts high poison damage that forces your character to take a knee and vomit.
+    - **Speed**: Moves rapidly through dense foliage, making it hard to target with slow muskets.
+    - **Counter**: Use silent crossbow shots from a distance before it can close the gap.
+  </Card>
+  <Card title="The Tree Guy">
+    - **Displacement**: Grabs players and teleports them across the map, often into deep water.
+    - **Environmental Hazard**: Can cause instant death if you are teleported off high log bridges.
+    - **Counter**: Fight in wide open areas and keep a close eye on creaking tree trunks.
+  </Card>
+  <Card title="The Tentacle Blob">
+    - **The Executioner**: Shoots long-distance tendrils that drain your health down to exactly 1 HP.
+    - **Isolation Trigger**: Highly active against solo explorers or players who lose proximity chat.
+    - **Counter**: Must be mobbed by multiple squad members to interrupt the channel attack.
+  </Card>
+</CardGrid>
+
+Combat against these elite threats is significantly easier in cooperative play. While one player is grabbed or targeted by a tentacle blob, teammates can quickly flank the creature to perform high-damage backstabs or use the holy cross to stun the monster. In solo play, however, these mechanics become incredibly punishing, as a single grab sequence can lead to a quick defeat with no way to break free.
+
+<Callout type="success" title="Backstab Advantage">
+When an enemy is knocked down or recovering from an attack animation, quickly maneuver behind them. Backstabbing deals massive bonus damage and can quickly turn the tide of a difficult fight.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Survival and Combat Tactics">
+
+To successfully navigate the cursed South American jungle and return to your galleon with valuable treasure, your squad must execute disciplined tactical maneuvers. Follow these steps to prepare your team, manage your noise levels, and survive encounters with elite monsters.
+
+<Steps>
+  <Step num="1" title="Outfitting at the Galleon">
+    Before boarding the rowboat, coordinate with your squad to split your starting gear. Ensure at least one player carries a musket for raw power, one carries a crossbow for silent stealth kills, and everyone is equipped with a sword. Do not forget to bring oil lamps for dark areas and reviving salts to rescue fallen comrades.
+  </Step>
+  <Step num="2" title="Managing Noise and Stealth">
+    As you explore the jungle, walk carefully to avoid cracking dry branches. Use your crossbow to silently eliminate isolated undead scouts. If you must fire a musket, ensure your team is ready to immediately fallback to a defensive position, as the loud gunshot will wake the surrounding jungle.
+  </Step>
+  <Step num="3" title="Countering Grab Attacks">
+    Never turn your back on an undead enemy to run away, as they will easily outrun and grab you. Instead, stand your ground, listen for the heavy breathing audio cue, and time your melee swings to stagger them. If a teammate is grabbed, immediately attack the offending monster to force a release.
+  </Step>
+  <Step num="4" title="Combating Sanity Loss">
+    As your sanity decays, watch out for visual illusions, blood rain, and mirage traps disguised as normal terrain. Keep your squad close together to maintain sanity levels. If a teammate wanders off, dies, and becomes controlled by the jungle, treat them as a hostile threat and neutralize them immediately.
+  </Step>
+</Steps>
+
+Managing your sanity is just as important as maintaining your physical health. The complex madness system will actively try to deceive your squad, making it difficult to distinguish between real monsters and terrifying hallucinations. If you begin to see the world drenched in blood or encounter strange mirages, group up with your allies immediately to stabilize your mind.
+
+<Callout type="info" title="Proximity Chat Warning">
+Losing voice communication with your team is a major gameplay hazard. If a teammate's voice fades away, search for them immediately before the isolation mechanic triggers a deadly subterranean attack.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Checklist and Gear Optimization">
+
+Before you set out on your next deep-jungle run, review this essential preparation checklist. Ensuring that your squad is fully prepared and properly equipped is the difference between a successful treasure haul and a tragic demise in the cursed ruins.
+
+<Checklist
+  id="expedition-prep"
+  title="Pre-Expedition Goals:"
+  items={[
+    "Recover old logbooks in abandoned forts to unlock closer starting points for future runs",
+    "Assign specific roles to each squad member, balancing loud firearms with silent stealth weapons",
+    "Verify that every explorer has at least one dose of reviving salts in their inventory",
+    "Establish a clear visual signal or meeting point in case proximity voice chat is lost"
+  ]}
+/>
+
+Optimizing your gear loadout based on the specific threats you expect to face will drastically improve your survival rate. Refer to this recommended gear table to plan your squad's inventory before leaving the safety of the galleon.
+
+| Gear Item | Best Used Against | Primary Advantage | Drawback |
+| --- | --- | --- | --- |
+| Musket | Elite monsters, large hordes | Extremely high single-target damage | Very loud, long reload time |
+| Crossbow | Isolated scouts, centipedes | Silent projectile fire, safe distance | Lower damage output than firearms |
+| Sword | Standard undead, close-quarters | Quick melee strikes, enables backstabbing | Requires getting into dangerous grab range |
+| Oil Lamp | Dark caves, night navigation | Illuminates hidden traps and enemies | Occupies a hand, alerts nearby monsters |
+| Reviving Salts | Controlled or fallen allies | Resurrects teammates, restores sanity | Limited carrying capacity per run |
+
+For more detailed discussions on weapon durability, combat mechanics, and community feedback, check out the active player discussions on the [Steam Community Hub](https://steamcommunity.com/app/2569760/discussions/). Engaging with other players is an excellent way to discover new tactical strategies and stay updated on upcoming balance patches.
+
+<Callout type="tip" title="Fort Progression">
+Always prioritize recovering logbooks during your expeditions. Unlocking abandoned forts as starting points allows you to bypass dangerous outer jungle areas, saving valuable resources for the deeper, high-yield zones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why do the mound omen of cthulhu enemies keep grabbing me when I run away?",
+    answer: "Undead enemies run faster than players. Running away triggers their chase behavior and results in a lunging grab. To prevent this, stand your ground, listen for heavy breathing, and use melee attacks to stagger them."
+  },
+  {
+    question: "How does the isolation mechanic affect enemy spawns?",
+    answer: "When you wander too far from your team or companion bot, the game punishes you by triggering aggressive underground undead grabs and spawning the tentacle blob, which can instantly drain your health to 1 HP."
+  },
+  {
+    question: "Can I block or dodge enemy grab attacks?",
+    answer: "Currently, the game does not feature a dedicated block, parry, or side-step dodge mechanic. To avoid grabs, you must rely on spacing, team coordination, and staggering enemies before they can initiate the grab animation."
+  },
+  {
+    question: "What should I do if a teammate is controlled by the jungle?",
+    answer: "If a teammate wanders off, dies, and returns controlled by the jungle, they will actively hunt you down and attempt to auto-grab you. You must treat them as a hostile threat and neutralize them immediately."
+  }
+]} />
+
+<Callout type="warning" title="Final Survival Note">
+The jungle is a living, hostile entity that adapts to your actions. Keep your noise low, stay close to your squad, and never let your sanity drop to zero. Good luck on your expedition, explorer.
+</Callout>
+
+</Section>

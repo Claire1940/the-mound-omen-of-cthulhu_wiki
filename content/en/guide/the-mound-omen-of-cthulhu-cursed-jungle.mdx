@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Cursed Jungle: Survival Guide",
+  description: "Master the sanity mechanics, starter gear, and fort progression in The Mound: Omen of Cthulhu cursed jungle with our expert survival guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cursed+Jungle+Survival+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Key Takeaways">
+- **Cursed jungle survival** requires managing sanity, sound, and co-op communication in the mound omen of cthulhu cursed jungle.
+- **Sanity depletion** triggers mirages, blood-drenched vision, and lethal team possession.
+- **Fort logbooks** unlock permanent starting points to skip early zones.
+- **Starter gear** must be balanced carefully aboard the galleon before rowing ashore.
+</Callout>
+
+<Section icon={Map} title="The Mound Omen of Cthulhu Cursed Jungle Exploration">
+
+Surviving the hostile wilderness of the 16th-century South American coast requires careful preparation, strict noise control, and absolute coordination with your crew. When you drop anchor off the shores, your primary goal is to venture deep inland, complete the captain's contracts, and locate the entrance to the legendary Mound. However, the local environment is saturated with Lovecraftian curses that actively work to tear your team apart.
+
+**Video Highlights:**
+- **Co-op Horror**: Team up with up to four players in a cross-play environment.
+- **Galleon Hub**: Prepare gear, sign contracts, and coordinate roles before departure.
+- **Sound Hazards**: Avoid breaking branches or firing loud weapons to prevent attracting horrors.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Official Gameplay Overview Trailer" />
+
+Before setting foot on the mainland, your team must gather in the galleon's cabin to choose an active contract and allocate starting equipment. The galleon acts as your only safe zone. Once you board the rowboat and land on the shore, you are entirely on your own. Managing your inventory is critical, as you must balance defensive weapons with utility items like light sources and medical supplies.
+
+| Gear | Range | Noise Level | Primary Purpose |
+| Sword | Close | **Silent** | Melee defense and clearing foliage |
+| Crossbow | Medium | **Low** | Silent ranged attacks and stealth |
+| Musket | Long | **Extremely High** | Heavy damage against large monsters |
+| Oil Lamp | N/A | **Silent** | Illuminating dark paths and hazards |
+| Reviving Salts | N/A | **Silent** | Restoring fallen teammates |
+
+<Callout type="warning" title="Noise Warning">
+Every sound you make, including firing muskets or stepping on dry branches, alerts the entities lurking in the foliage. Use silent weapons like swords and crossbows whenever possible to avoid horde events.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fort Progression and Navigation">
+
+The cursed jungle is divided into vast, open sectors connected by ancient Spanish forts abandoned by previous expeditions. Navigating these zones requires players to map out routes and secure forward checkpoints. By exploring these ruins, you can find historical logbooks that grant permanent access to deeper sections of the map in future runs.
+
+<Steps>
+  <Step num="1" title="Accept Galleon Contract">
+    Select your objective from the captain's table, gather your team, and split the starting gear.
+  </Step>
+  <Step num="2" title="Row to the Mainland">
+    Navigate the rowboat to the shore and establish a temporary foothold in the outer jungle.
+  </Step>
+  <Step num="3" title="Locate Abandoned Forts">
+    Search the connecting ruins for historical logbooks to unlock permanent starting points for future runs.
+  </Step>
+  <Step num="4" title="Reach the Mound Entrance">
+    Follow clues and map markers to locate the entrance to the Mound and escape back to the galleon.
+  </Step>
+</Steps>
+
+Unlocking these starting points is essential for long-term progression. Without them, your team will waste valuable resources and sanity traversing the outer shores repeatedly. Each fort also offers a small shelter where players can regroup, though they are never completely safe from wandering monsters.
+
+| Zone | Danger Level | Key Resources | Primary Objective |
+| Outer Shores | Low | Food, Basic Loot | Establish landing zone |
+| Abandoned Forts | Medium | Logbooks, Ammo | Secure checkpoints |
+| Deep Jungle | High | Rare Treasures | Navigate to the Mound |
+| Cursed Ruins | **Extreme** | Eldritch Artifacts | Survive madness events |
+
+<Callout type="tip" title="Progression Tip">
+Prioritize recovering logbooks over collecting treasure during your first few runs. Unlocking the forts early makes high-tier treasure hunts much more manageable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sanity Mechanics and Madness Effects">
+
+The environment does not just attack your physical health; it wages war on your mind. The deep jungle is governed by a dynamic sanity system that triggers illusions and hallucinations as your mental state deteriorates. If your sanity drops too low, the line between reality and hallucination blurs completely.
+
+<CardGrid cols={3}>
+  <Card title="Visual Hallucinations">
+    The environment shifts dynamically. The world may appear drenched in blood, and fake paths or walls may manifest to separate you from your squad.
+  </Card>
+  <Card title="Mirage Traps">
+    Hazardous traps and monsters hide behind illusions, appearing as safe paths or valuable treasures to lure unsuspecting players.
+  </Card>
+  <Card title="Jungle Possession">
+    Losing communication is fatal. A teammate who wanders too far into the dark can be possessed by the jungle, returning to hunt down the remaining survivors.
+  </Card>
+</CardGrid>
+
+Proximity voice chat plays a vital role in managing your sanity. If a player wanders too far from the group, they will lose radio contact. During this isolation, the jungle can manipulate their senses or even possess them. When a lost teammate returns, you must verify their identity to ensure they are not a hostile doppelganger controlled by the curse.
+
+| Sanity Level | Visual Effects | Audio Effects | Hazard Risk |
+| 75% - 100% | Clear vision | Normal ambient sounds | None |
+| 50% - 74% | Minor color shifts | Faint whispers | Low |
+| 25% - 49% | Blood-drenched screen | Loud hallucinations | Medium |
+| 0% - 24% | Mirage traps active | Total silence | **High (Possession)** |
+
+<Callout type="info" title="Proximity Chat Tip">
+If a teammate stops responding to proximity voice chat, do not approach them alone. Regroup with your remaining allies and approach with weapons drawn to counter potential possession.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Objectives and Rewards">
+
+To fund your journey deeper into the heart of the curse, you must successfully complete contracts for the galleon's captain. These tasks range from gathering basic survival supplies to retrieving lost relics from previous expeditions. Balancing these objectives against your team's current health and sanity is the key to a successful campaign.
+
+<Checklist
+  id="expedition-milestones"
+  title="Expedition Success Criteria:"
+  items={[
+    "Secure at least one chest of rare treasure",
+    "Collect sufficient food rations for the galleon crew",
+    "Locate and guide lost explorers back to the rowboat",
+    "Maintain group sanity above the critical threshold",
+    "Return safely to the galleon before nightfall"
+  ]}
+/>
+
+Every successful extraction allows you to upgrade your equipment options at the galleon. Upgraded muskets, stronger oil lamps, and additional reviving salts can be purchased using the gold earned from completed contracts. However, greed can be your downfall; staying too long to find one extra chest often leads to total party wipes.
+
+| Mission Type | Difficulty | Gold Reward | Special Unlocks |
+| Food Gathering | Easy | 100 | Basic Rations |
+| Explorer Rescue | Medium | 250 | Reviving Salts |
+| Treasure Hunt | High | 500 | Advanced Muskets |
+| Mound Exploration | **Extreme** | 1000 | Eldritch Relics |
+
+<Callout type="success" title="Extraction Strategy">
+Always establish a hard extraction time before leaving the rowboat. Once your sanity resources are depleted, immediately head back to the shore, regardless of uncompleted side objectives.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Understanding the core mechanics of the jungle is vital for survival. Below are answers to the most common questions encountered by new explorers.
+
+<FAQ items={[
+  {
+    question: "How does the madness system affect co-op play in the mound omen of cthulhu cursed jungle?",
+    answer: "The madness system triggers individual hallucinations, meaning you might see blood or traps that your teammates cannot. If your sanity drops to zero, the jungle can possess you, turning you against your team."
+  },
+  {
+    question: "Can I play the game solo, or is co-op required?",
+    answer: "While the game supports up to four players with cross-play, you can attempt runs solo. However, the lack of proximity coordination and sanity support makes solo play extremely difficult."
+  },
+  {
+    question: "What is the function of the abandoned forts?",
+    answer: "Abandoned forts act as progression checkpoints. By exploring them and recovering logbooks, you unlock them as alternative starting points for future runs, allowing you to skip early areas."
+  },
+  {
+    question: "What happens if a teammate dies during an expedition?",
+    answer: "You can revive fallen teammates using Reviving Salts, which must be brought from the galleon or found in limited quantities within the jungle."
+  }
+]} />
+
+<Callout type="tip" title="Revival Strategy">
+Always designate at least one player to carry Reviving Salts. Without them, a single death can quickly cascade into a team wipe.
+</Callout>
+
+</Section>

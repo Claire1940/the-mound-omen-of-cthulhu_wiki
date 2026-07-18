@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Brain, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Unreal Engine 5: Guía de Juego y Cooperativo",
+  description: "Domina The Mound: Omen of Cthulhu en Unreal Engine 5. Aprende estrategias cooperativas, gestión de cordura y exploración de la jungla en esta guía de supervivencia de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Mound+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de the mound omen of cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, Unreal Engine 5, guía, cooperativo, supervivencia, horror, Lovecraft"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **The Mound Omen of Cthulhu Unreal Engine 5** es una experiencia de horror cooperativa para 4 jugadores ambientada en la jungla sudamericana del siglo XVI.
+- **La Gestión de la Cordura** es la mecánica central; los jugadores deben diferenciar entre la realidad y las alucinaciones de estilo Lovecraftiano.
+- **El Hub del Galeón** sirve como zona segura para la preparación del equipo, la firma de contratos y la organización del grupo.
+- **El Soporte Multiplataforma (Cross-play)** está totalmente activo para jugadores de PC, PlayStation 5 y Xbox Series desde julio de 2026.
+- **El Sigilo y la Coordinación** son prioritarios sobre el combate, ya que el ruido atrae horrores indescriptibles.
+</Callout>
+
+<Section icon={Sparkles} title="Experiencia de Horror en Unreal Engine 5">
+
+The Mound: Omen of Cthulhu aprovecha el poder de **Unreal Engine 5** para ofrecer una experiencia de horror visualmente asfixiante y atmosféricamente densa. Ambientado en las junglas malditas del siglo XVI en América del Sur, los jugadores asumen el papel de exploradores que buscan tesoros dentro del legendario Montículo. La iluminación avanzada del motor y el audio espacial especializado crean un entorno donde cada rama rota o susurro distante podría señalar tu perdición inminente.
+
+**Puntos Destacados del Video:**
+- **Dinámica Cooperativa**: Descripción general del trabajo en equipo de cuatro jugadores necesario para la supervivencia.
+- **El Sistema de Cordura**: Un vistazo a cómo la locura altera el mundo del juego en tiempo real.
+- **Ciclo de Exploración**: Desde la seguridad del Galeón hasta las profundidades de la jungla.
+- **Combate y Sigilo**: Demostración del mosquete, la ballesta y los peligros de hacer ruido.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Descripción del Juego" />
+
+| Característica | Descripción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Iluminación Lumen** | Iluminación global dinámica | Sombras realistas y parpadeo de lámparas |
+| **Audio Espacial** | Posicionamiento de sonido especializado | Esencial para el chat de voz por proximidad |
+| **Sistema de Locura** | Distorsión del mundo en tiempo real | Alucinaciones y engaño visual |
+| **Multiplataforma** | Conectividad entre plataformas | Cooperativo fluido entre PC, PS5 y Xbox |
+
+<Callout type="success" title="Fidelidad Visual">
+El uso de **Unreal Engine 5** permite niveles de detalle "Nanite" en el follaje de la jungla, haciendo que el entorno mismo se sienta vivo y opresivo.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="El Galeón: Preparación y Equipo">
+
+Antes de aventurarse en el continente, tu grupo debe organizarse en el Galeón. Este hub actúa como el único lugar seguro en **The Mound Omen of Cthulhu Unreal Engine 5**. Aquí, firmarás contratos con el Capitán, quien proporciona el equipo necesario para tu expedición. La distribución adecuada del equipo es la diferencia entre una búsqueda de tesoros exitosa y un descenso a la locura.
+
+<CardGrid cols={3}>
+  <Card title="Armas Principales">
+    - **Mosquete**: Gran daño pero ruidoso.
+    - **Ballesta**: Silenciosa pero de recarga lenta.
+    - **Espada**: Esencial para encuentros cercanos.
+  </Card>
+  <Card title="Herramientas de Utilidad">
+    - **Lámpara de Aceite**: Fuente de luz principal.
+    - **Sales de Reanimación**: Para traer de vuelta a los aliados caídos.
+    - **Cuadernos de Bitácora**: Desbloquean futuros puntos de partida.
+  </Card>
+  <Card title="Objetivos de la Expedición">
+    - **Recolectar Comida**: Para la supervivencia de la tripulación.
+    - **Rescatar Exploradores**: Encontrar miembros perdidos de la expedición.
+    - **Encontrar Tesoros**: El objetivo final.
+  </Card>
+</CardGrid>
+
+| Equipo | Uso Principal | Nivel de Ruido |
+| :--- | :--- | :--- |
+| **Mosquete** | Defensa a larga distancia | **Extremo** (Atrae monstruos) |
+| **Ballesta** | Eliminaciones sigilosas | **Bajo** (Seguro para exploración) |
+| **Lámpara de Aceite** | Iluminación | **Medio** (Visible para los enemigos) |
+| **Espada** | Melé de último recurso | **Bajo** (Silencioso pero arriesgado) |
+
+<Callout type="tip" title="Gestión de Recursos">
+Asegúrate siempre de que al menos un jugador lleve Sales de Reanimación. Sin ellas, un solo error puede terminar permanentemente la partida de un compañero en la jungla profunda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navegando por la Jungla Maldita">
+
+La jungla no es un camino lineal; es una serie de grandes áreas abiertas conectadas por fuertes abandonados. Estos fuertes son críticos para la progresión a largo plazo. Al recuperar los cuadernos de bitácora dejados por expediciones anteriores, puedes desbloquear estas ubicaciones como puntos de partida para futuras incursiones, permitiendo que tu equipo se aventure más profundamente en lo desconocido sin tener que desandar cada paso.
+
+<Steps>
+  <Step num="1" title="Desembarco en el Continente">
+    Toma el bote de remos desde el Galeón hasta la orilla. Asegúrate de que todos los jugadores tengan su equipo asignado listo antes de bajar del bote.
+  </Step>
+  <Step num="2" title="Exploración Coordinada">
+    Usa el **Chat de Voz por Proximidad** para mantenerte en contacto. Si te alejas demasiado, pierdes la comunicación, que es el mayor peligro en la jungla.
+  </Step>
+  <Step num="3" title="Asegurar el Fuerte">
+    Localiza fuertes abandonados y busca cuadernos de bitácora. Asegurar estos registros garantiza que tu progreso se guarde para la próxima expedición.
+  </Step>
+  <Step num="4" title="El Viaje de Regreso">
+    Una vez cumplidas las expectativas del Capitán (tesoro o comida), navega de regreso a la orilla. La jungla se vuelve más hostil al caer la noche.
+  </Step>
+</Steps>
+
+| Fase de Exploración | Objetivo | Nivel de Riesgo |
+| :--- | :--- | :--- |
+| **Costa** | Saqueo inicial y reconocimiento | **Bajo** |
+| **Jungla Profunda** | Encontrar tesoros y bitácoras | **Alto** |
+| **El Montículo** | Entrar en las ruinas malditas de Cthulhu | **Crítico** |
+| **Extracción** | Regresar al bote de remos | **Variable** |
+
+<Callout type="warning" title="Trampas de Sonido">
+La jungla engendra horrores que reaccionan al sonido. Evita romper ramas o disparar mosquetes a menos que sea absolutamente necesario. El sigilo es tu mejor arma.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="La Locura y el Sistema de Cordura">
+
+En **The Mound Omen of Cthulhu Unreal Engine 5**, tu mayor enemigo no siempre es un monstruo físico, sino tu propia mente. El sistema de locura es una mecánica compleja que se activa según tu proximidad a artefactos Lovecraftianos y la duración de tu estancia en la jungla. A medida que tu cordura disminuye, el mundo comienza a engañarte.
+
+| Nivel de Cordura | Efectos Visuales/Auditivos | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Estable** | Visión clara, audio normal | Juego estándar |
+| **Perturbado** | Susurros menores, bordes borrosos | Ligera desorientación |
+| **Delirante** | Mundo empapado en sangre, espejismos | Las trampas pueden parecer tesoros |
+| **Demente** | Alucinaciones severas, pérdida de control | Los amigos pueden parecer monstruos |
+
+<CardGrid cols={2}>
+  <Card title="Engaño Visual">
+    El entorno puede cambiar dinámicamente. Un camino despejado puede aparecer de repente como un foso de sangre, o una trampa mortal puede estar disfrazada como un cofre del tesoro.
+  </Card>
+  <Card title="Falla en la Comunicación">
+    La locura puede alterar cómo escuchas a tus compañeros. El chat de proximidad puede distorsionarse, provocando confusión e aislamiento.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="La Influencia de la Jungla">
+Un compañero que se aleja y pierde su cordura puede regresar controlado por la maldición de la jungla, cazando activamente al resto del grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos de la Expedición">
+
+Para sobrevivir a los horrores de la jungla sudamericana del siglo XVI, los jugadores deben mantener un enfoque disciplinado en cada incursión. El éxito no se mide solo por el tesoro encontrado, sino por el número de exploradores que regresan al Galeón con sus mentes intactas.
+
+<Checklist
+  id="expedition-goals"
+  title="Objetivos Críticos de la Misión:"
+  items={[
+    "Firmar el contrato del Capitán y distribuir el equipo",
+    "Localizar y asegurar al menos un Cuaderno de Bitácora por incursión",
+    "Mantener los niveles de cordura por encima del umbral 'Delirante'",
+    "Regresar al bote de remos antes de que la jungla despierte",
+    "Mantener comunicación constante por chat de voz de proximidad"
+  ]}
+/>
+
+| Tipo de Objetivo | Recompensa | Prioridad |
+| :--- | :--- | :--- |
+| **Misión Principal** | Progresar hacia el Montículo | **Alta** |
+| **Recolección de Comida** | Supervivencia de la tripulación y mejoras | **Media** |
+| **Caza de Tesoros** | Moneda para mejor equipo | **Alta** |
+| **Rescate de NPCs** | Desbloquea nuevos objetos en la tienda | **Baja** |
+
+<Callout type="success" title="Actualización de Julio 2026">
+Consulta la [Página de la Tienda de Steam](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) para ver el último descuento de lanzamiento del 20% y los parches de equilibrio impulsados por la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Es The Mound Omen of Cthulhu Unreal Engine 5 jugable en solitario?",
+    answer: "Aunque el juego está diseñado desde cero para el cooperativo de 4 jugadores, puedes intentar incursiones en solitario. Sin embargo, el sistema de locura y los monstruos están equilibrados para el juego en grupo, lo que hace que las expediciones en solitario sean extremadamente difíciles."
+  },
+  {
+    question: "¿Qué plataformas soportan el juego cruzado?",
+    answer: "A partir del lanzamiento del 15 de julio de 2026, se admite el juego cruzado completo entre PC (Steam), PlayStation 5 y Xbox Series X/S."
+  },
+  {
+    question: "¿Cómo recupero la cordura durante una misión?",
+    answer: "La cordura se puede restaurar parcialmente regresando a áreas bien iluminadas como fuertes asegurados o usando objetos específicos como Sales de Reanimación, aunque la mejor manera de mantenerse cuerdo es evitar la exposición prolongada a la jungla profunda."
+  },
+  {
+    question: "¿Qué sucede si todos los jugadores de un grupo mueren?",
+    answer: "Una eliminación total del grupo resulta en la pérdida de todo el tesoro y equipo recolectado durante esa incursión. Sin embargo, cualquier cuaderno de bitácora devuelto con éxito a un fuerte permanecerá desbloqueado para futuros intentos."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Confía siempre más en tus compañeros que en tus ojos. Si un compañero te dice que un camino está despejado pero tú ves sangre, confía en su visión: es posible que tu cordura ya esté fallando.
+</Callout>
+
+</Section>

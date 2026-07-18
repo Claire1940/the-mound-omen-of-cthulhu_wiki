@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Brain, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Unreal Engine 5: Guia de Jogabilidade e Cooperativo",
+  description: "Domine The Mound: Omen of Cthulhu no Unreal Engine 5. Aprenda estratégias cooperativas, gerenciamento de sanidade e exploração da selva neste guia de sobrevivência de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Mound+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound Omen of Cthulhu",
+  keywords: "The Mound Omen of Cthulhu, Unreal Engine 5, guia, cooperativo, horror, Lovecraft, sanidade, sobrevivência"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **The Mound Omen of Cthulhu Unreal Engine 5** é uma experiência de horror cooperativo para 4 jogadores ambientada em uma selva sul-americana do século XVI.
+- **Gerenciamento de Sanidade** é a mecânica central; os jogadores devem diferenciar a realidade de alucinações Lovecraftianas.
+- **O Hub do Galeão** serve como sua zona segura para preparação de equipamentos, assinatura de contratos e organização do grupo.
+- **Suporte Cross-play** está totalmente ativo para jogadores de PC, PlayStation 5 e Xbox Series desde julho de 2026.
+- **Furtividade e Coordenação** são priorizadas em relação ao combate, pois o ruído atrai horrores indescritíveis.
+</Callout>
+
+<Section icon={Sparkles} title="Experiência de Terror no Unreal Engine 5">
+
+The Mound: Omen of Cthulhu aproveita o poder do **Unreal Engine 5** para entregar uma experiência de horror visualmente sufocante e atmosfericamente densa. Ambientado nas selvas amaldiçoadas da América do Sul do século XVI, os jogadores assumem o papel de exploradores em busca de tesouros dentro do lendário Montículo (The Mound). A iluminação avançada do motor e o áudio espacial especializado criam um ambiente onde cada galho quebrado ou sussurro distante pode sinalizar sua perdição iminente.
+
+**Destaques do Vídeo:**
+- **Dinâmicas de Co-op**: Visão geral do trabalho em equipe de quatro jogadores necessário para a sobrevivência.
+- **O Sistema de Sanidade**: Uma olhada em como a loucura altera o mundo do jogo em tempo real.
+- **Loop de Exploração**: Da segurança do Galeão às profundezas da selva.
+- **Combate e Furtividade**: Demonstrando o mosquete, a besta e os perigos de fazer barulho.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Visão Geral da Jogabilidade" />
+
+| Recurso | Descrição | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Iluminação Lumen** | Iluminação global dinâmica | Sombras realistas e oscilação da luz da lâmpada |
+| **Áudio Espacial** | Posicionamento de som especializado | Essencial para o chat de voz por proximidade |
+| **Sistema de Loucura** | Distorção do mundo em tempo real | Alucinações e engano visual |
+| **Cross-Play** | Conectividade multiplataforma | Co-op contínuo entre PC, PS5 e Xbox |
+
+<Callout type="success" title="Fidelidade Visual">
+O uso do **Unreal Engine 5** permite níveis de detalhe "Nanite" na folhagem da selva, fazendo com que o próprio ambiente pareça vivo e opressor.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="O Galeão: Preparação e Equipamento">
+
+Antes de se aventurar no continente, seu grupo deve se organizar no Galeão. Este hub atua como o único lugar seguro em **The Mound Omen of Cthulhu Unreal Engine 5**. Aqui, você assinará contratos com o Capitão, que fornece o equipamento necessário para sua expedição. A distribuição adequada de equipamentos é a diferença entre uma caça ao tesouro bem-sucedida e uma descida à loucura.
+
+<CardGrid cols={3}>
+  <Card title="Armas Primárias">
+    - **Mosquete**: Dano alto, mas barulhento.
+    - **Besta**: Silenciosa, mas com recarga mais lenta.
+    - **Espada**: Essencial para encontros próximos.
+  </Card>
+  <Card title="Ferramentas Utilitárias">
+    - **Lâmpada a Óleo**: Fonte de luz primária.
+    - **Sais de Revivificação**: Para trazer de volta aliados caídos.
+    - **Diários de Bordo**: Desbloqueiam pontos de partida futuros.
+  </Card>
+  <Card title="Objetivos da Expedição">
+    - **Coletar Comida**: Para a sobrevivência da tripulação.
+    - **Resgatar Exploradores**: Encontrar membros perdidos da expedição.
+    - **Encontrar Tesouro**: O objetivo final.
+  </Card>
+</CardGrid>
+
+| Equipamento | Uso Principal | Nível de Ruído |
+| :--- | :--- | :--- |
+| **Mosquete** | Defesa de longo alcance | **Extremo** (Atrai monstros) |
+| **Besta** | Abates furtivos | **Baixo** (Seguro para exploração) |
+| **Lâmpada a Óleo** | Iluminação | **Médio** (Visível para inimigos) |
+| **Espada** | Combate corpo a corpo de último recurso | **Baixo** (Silencioso, mas arriscado) |
+
+<Callout type="tip" title="Gerenciamento de Recursos">
+Certifique-se sempre de que pelo menos um jogador carregue Sais de Revivificação. Sem eles, um único erro pode encerrar permanentemente a jornada de um companheiro de equipe na selva profunda.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navegando pela Selva Amaldiçoada">
+
+A selva não é um caminho linear; é uma série de grandes áreas abertas conectadas por fortes abandonados. Esses fortes são críticos para a progressão a longo prazo. Ao recuperar diários de bordo deixados por expedições anteriores, você pode desbloquear esses locais como pontos de partida para futuras incursões, permitindo que sua equipe se aventure mais fundo no desconhecido sem refazer cada passo.
+
+<Steps>
+  <Step num="1" title="Desembarcando no Continente">
+    Pegue o bote do Galeão até a costa. Certifique-se de que todos os jogadores estejam com seus equipamentos designados prontos antes de sair do barco.
+  </Step>
+  <Step num="2" title="Exploração Coordenada">
+    Use o **Chat de Voz por Proximidade** para manter contato. Se você se afastar demais, perderá a comunicação, que é o maior perigo na selva.
+  </Step>
+  <Step num="3" title="Protegendo Fortes">
+    Localize fortes abandonados e procure por diários de bordo. Garantir esses registros assegura que seu progresso seja salvo para a próxima expedição.
+  </Step>
+  <Step num="4" title="A Viagem de Retorno">
+    Assim que as expectativas do Capitão forem atendidas (tesouro ou comida), navegue de volta para a costa. A selva torna-se mais hostil conforme a noite cai.
+  </Step>
+</Steps>
+
+| Fase de Exploração | Objetivo | Nível de Risco |
+| :--- | :--- | :--- |
+| **Litoral** | Saque inicial e reconhecimento | **Baixo** |
+| **Selva Profunda** | Encontrar tesouros e diários de bordo | **Alto** |
+| **O Montículo** | Entrar nas ruínas amaldiçoadas por Cthulhu | **Crítico** |
+| **Extração** | Retornar ao bote | **Variável** |
+
+<Callout type="warning" title="Armadilhas Sonoras">
+A selva cria horrores que reagem ao som. Evite quebrar galhos ou disparar mosquetes, a menos que seja absolutamente necessário. A furtividade é sua melhor arma.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="Loucura e o Sistema de Sanidade">
+
+Em **The Mound Omen of Cthulhu Unreal Engine 5**, seu maior inimigo nem sempre é um monstro físico — é sua própria mente. O sistema de loucura é uma mecânica complexa que é ativada com base na sua proximidade com artefatos Lovecraftianos e na duração da sua estadia na selva. À medida que sua sanidade cai, o mundo começa a enganá-lo.
+
+| Nível de Sanidade | Efeitos Visuais/Sonoros | Impacto na Jogabilidade |
+| :--- | :--- | :--- |
+| **Estável** | Visão clara, áudio normal | Jogabilidade padrão |
+| **Abalado** | Sussurros sutis, desfoque nas bordas | Leve desorientação |
+| **Delirante** | Mundo encharcado de sangue, miragens | Armadilhas podem parecer tesouros |
+| **Insano** | Alucinações graves, perda de controle | Amigos podem parecer monstros |
+
+<CardGrid cols={2}>
+  <Card title="Engano Visual">
+    O ambiente pode mudar dinamicamente. Um caminho claro pode aparecer de repente como um poço de sangue, ou uma armadilha mortal pode estar disfarçada como um baú de tesouro.
+  </Card>
+  <Card title="Falha na Comunicação">
+    A loucura pode alterar como você ouve seus companheiros de equipe. O chat de proximidade pode se tornar distorcido, levando à confusão e ao isolamento.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="A Influência da Selva">
+Um companheiro de equipe que se afasta e perde a sanidade pode retornar controlado pela maldição da selva, caçando ativamente o resto do grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist e Objetivos da Expedição">
+
+Para sobreviver aos horrores da selva sul-americana do século XVI, os jogadores devem manter uma abordagem disciplinada em cada partida. O sucesso é medido não apenas pelo tesouro encontrado, mas pelo número de exploradores que retornam ao Galeão com suas mentes intactas.
+
+<Checklist
+  id="expedition-goals"
+  title="Objetivos Críticos da Missão:"
+  items={[
+    "Assinar o contrato do Capitão e distribuir o equipamento",
+    "Localizar e garantir pelo menos um Diário de Bordo por partida",
+    "Manter os níveis de sanidade acima do limite 'Delirante'",
+    "Retornar ao bote antes que a selva desperte",
+    "Manter comunicação constante via chat de voz por proximidade"
+  ]}
+/>
+
+| Tipo de Objetivo | Recompensa | Prioridade |
+| :--- | :--- | :--- |
+| **Missão Principal** | Progresso até o Montículo | **Alta** |
+| **Coleta de Comida** | Sobrevivência da tripulação e bônus | **Média** |
+| **Caça ao Tesouro** | Moeda para melhores equipamentos | **Alta** |
+| **Resgate de NPCs** | Desbloqueia novos itens na loja | **Baixa** |
+
+<Callout type="success" title="Atualização de Julho de 2026">
+Verifique a [Página da Loja Steam](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) para o desconto de lançamento de 20% e patches de equilíbrio baseados na comunidade.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "The Mound Omen of Cthulhu Unreal Engine 5 pode ser jogado sozinho?",
+    answer: "Embora o jogo tenha sido construído do zero para co-op de 4 jogadores, você pode tentar expedições solo. No entanto, o sistema de loucura e os monstros são equilibrados para o jogo em grupo, tornando as expedições solo extremamente difíceis."
+  },
+  {
+    question: "Quais plataformas suportam cross-play?",
+    answer: "A partir do lançamento em 15 de julho de 2026, o cross-play completo é suportado entre PC (Steam), PlayStation 5 e Xbox Series X/S."
+  },
+  {
+    question: "Como recupero a sanidade durante uma missão?",
+    answer: "A sanidade pode ser parcialmente restaurada retornando a áreas bem iluminadas, como fortes protegidos, ou usando itens específicos como Sais de Revivificação, embora a melhor maneira de manter a sanidade seja evitar a exposição prolongada à selva profunda."
+  },
+  {
+    question: "O que acontece se todos os jogadores de um grupo morrerem?",
+    answer: "A derrota total do grupo resulta na perda de todos os tesouros e equipamentos coletados durante aquela partida. No entanto, quaisquer diários de bordo devolvidos com sucesso a um forte permanecerão desbloqueados para tentativas futuras."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre confie em seus companheiros de equipe mais do que em seus olhos. Se um colega diz que um caminho está livre, mas você vê sangue, confie na visão dele — sua sanidade pode já estar falhando.
+</Callout>
+
+</Section>

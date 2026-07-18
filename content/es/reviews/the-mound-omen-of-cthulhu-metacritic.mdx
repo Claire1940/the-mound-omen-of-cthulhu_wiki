@@ -1,0 +1,127 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de The Mound: Omen of Cthulhu: Estrategias y Consejos para 2026",
+  description: "Domina el horror cósmico de The Mound: Omen of Cthulhu con nuestra guía experta que cubre mecánicas de cordura, estrategias cooperativas y elementos esenciales de supervivencia.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=The+Mound+Omen+of+Cthulhu+Guide",
+  date: "2026-07-19",
+  author: "Equipo de Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, guía, supervivencia, horror cósmico, cordura, cooperativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **The Mound: Omen of Cthulhu** exige una coordinación estrecha y una gestión de la cordura para sobrevivir a las profundidades de la jungla maldita.
+- **El chat de voz por proximidad** es esencial para mantener la cohesión del equipo y gestionar las intensas mecánicas del juego que inducen paranoia.
+- **La gestión del inventario** es una habilidad crítica; priorizar el equipo esencial sobre el botín es vital para la supervivencia a largo plazo.
+- **La metaprogresión** es limitada, así que trata cada expedición como una oportunidad de aprendizaje para dominar el ciclo único de horror cósmico del juego.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales del Juego">
+
+The Mound: Omen of Cthulhu ofrece una mezcla única de supervivencia al estilo "extraction" y horror Lovecraftiano. El éxito no depende solo de la destreza en el combate, sino de comprender el costo psicológico que el entorno tiene sobre tus exploradores.
+
+| Mecánica | Impacto en el Juego | Dificultad |
+| :--- | :--- | :--- |
+| Sistema de Cordura | Desencadena alucinaciones y efectos de paranoia | Alta |
+| Chat de Proximidad | Permite una comunicación de equipo realista | Media |
+| Inventario | Espacios limitados, requiere priorización estratégica | Alta |
+| Combate | Encuentros torpes pero de alto riesgo | Alta |
+
+<Callout type="tip" title="Estrategia de Supervivencia">
+Prioriza siempre mantener a tu grupo unido. Las mecánicas de cordura están diseñadas para castigar a los lobos solitarios, haciendo que el juego sea significativamente más difícil para los jugadores individuales en comparación con los equipos cooperativos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando la Expedición">
+
+Prepararse para tu viaje a la jungla maldita requiere una selección cuidadosa de armas y equipo. Dado que la metaprogresión es limitada, tu arma principal es tu conocimiento del mapa y de los peligros que contiene.
+
+<Steps>
+  <Step num="1" title="Selección de Equipo">
+    Elige tu equipamiento cuidadosamente antes de subir al galeón. Equilibra las herramientas ofensivas con objetos de utilidad para la gestión de la cordura.
+  </Step>
+  <Step num="2" title="Navegación en la Jungla">
+    Muévete lentamente y comunícate constantemente a través del chat de voz por proximidad para evitar separarte de tu equipo.
+  </Step>
+  <Step num="3" title="Gestión de Recursos">
+    Decide pronto qué conservar. Sobrecargar tu inventario con botín ralentizará tu escape cuando se acerque el peligro.
+  </Step>
+  <Step num="4" title="Entrada a The Mound">
+    Llega a las legendarias puertas del mundo subterráneo. Espera un aumento de la dificultad a medida que avances más profundamente en el abismo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso sobre la Progresión">
+La progresión puede resultar frustrantemente difícil. Si te encuentras con dificultades, concéntrate en recopilar información sobre los patrones de los enemigos en lugar de simplemente acumular tesoros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación de Equipo de Supervivencia">
+
+Equipar el equipo adecuado marca la diferencia entre una extracción exitosa y una estancia permanente en la jungla. Utiliza esta comparación para optimizar la configuración de tu equipo.
+
+| Tipo de Equipo | Función Principal | Mejor Para |
+| :--- | :--- | :--- |
+| Armas de Fuego Estándar | Daño fiable a media distancia | Defensa general |
+| Estabilizadores de Cordura | Reduce la frecuencia de las alucinaciones | Exploración |
+| Suministros Pesados | Esenciales para incursiones de larga duración | Inmersiones profundas en la jungla |
+| Herramientas de Navegación | Ayuda a mapear el terreno maldito | Líderes de equipo |
+
+</Section>
+
+<Section icon={Sparkles} title="Atmósfera y Efectos de Cordura">
+
+El mayor activo del juego es su diseño atmosférico. La forma en que el entorno reacciona a tu presencia, combinada con el sistema de locura, asegura que no haya dos partidas idénticas.
+
+<CardGrid cols={3}>
+  <Card title="Diseño Visual">
+    - Estética de jungla inmersiva
+    - Estilo artístico inspirado en Cthulhu
+    - Iluminación atmosférica
+  </Card>
+  <Card title="Pistas de Audio">
+    - Integración de voz por proximidad
+    - Paisajes sonoros inquietantes
+    - Cruciales para detectar amenazas
+  </Card>
+  <Card title="Sistema de Locura">
+    - Activadores dinámicos de alucinaciones
+    - Narrativa única
+    - Alto factor de rejugabilidad
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Atmósfera">
+Para obtener la experiencia más auténtica, juega con un grupo dedicado de amigos. El chat de proximidad añade una capa de inmersión que es difícil de replicar con extraños.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es jugable The Mound: Omen of Cthulhu en solitario?",
+    answer: "Aunque técnicamente es posible, no se recomienda. Las mecánicas del juego, particularmente la cordura y el combate, están equilibradas para el juego cooperativo, lo que hace que las partidas en solitario sean extremadamente castigadoras."
+  },
+  {
+    question: "¿Cuánto tiempo dura una partida típica?",
+    answer: "Dependiendo de la eficiencia y la suerte de tu equipo, una partida puede durar entre cinco y cuarenta horas para llegar a The Mound."
+  },
+  {
+    question: "¿Cuál es la mecánica más importante para dominar?",
+    answer: "La gestión de la cordura y la comunicación en equipo son los pilares de la supervivencia. Sin estos, es probable que tu equipo sucumba al entorno mucho antes de alcanzar el objetivo."
+  }
+]} />
+
+</Section>

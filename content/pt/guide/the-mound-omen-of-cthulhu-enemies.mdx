@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Inimigos de The Mound: Omen of Cthulhu: Guia de Combate e Sobrevivência",
+  description: "Domine a sobrevivência contra os inimigos de The Mound: Omen of Cthulhu. Aprenda a contra-atacar ataques de agarrão, gerenciar mecânicas de isolamento e derrotar monstros de elite.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Enemy+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "inimigos, combate, sobrevivência, guia, The Mound Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco na sobrevivência**: Enfrentar os inimigos de The Mound: Omen of Cthulhu exige uma coesão de esquadrão apertada para contra-atacar mecânicas agressivas de agarrão.
+- **Mecânica principal**: A penalidade de isolamento aciona ataques subterrâneos imediatos e de alto dano quando os jogadores se afastam demais de sua equipe.
+- **Melhor estratégia**: Ouça as pistas de áudio de respiração pesada para prever e contra-atacar investidas físicas de mortos-vivos velozes.
+- **Dica crítica**: Use armas silenciosas como a besta para evitar acordar a selva e invocar hordas de criaturas hostis.
+- **Melhor escolha**: Sempre priorize guardar sais de revivificação e manter o esquadrão unido em vez de perseguir baús de tesouro distantes.
+</Callout>
+
+<Section icon={Map} title="Entendendo os inimigos de The Mound: Omen of Cthulhu">
+
+Aventure-se nas profundezas da amaldiçoada selva sul-americana do século XVI, onde o horror e a loucura aguardam em cada esquina. Sobreviver ao ambiente hostil requer uma compreensão profunda dos **inimigos de The Mound: Omen of Cthulhu**, pois esses horrores Lovecraftianos são projetados para explorar as vulnerabilidades do esquadrão, punir jogadores isolados e levar os exploradores à beira da insanidade. Cada som que você faz, desde quebrar um galho seco até disparar um mosquete barulhento, alerta a selva e atrai criaturas aterrorizantes diretamente para sua posição.
+
+Para preparar seu esquadrão para os perigos à frente, estude a visão geral oficial da jogabilidade, que descreve o ciclo principal de explorar, coletar tesouros e escapar de volta para o seu galeão antes que a selva reivindique sua alma.
+
+**Destaques do Vídeo:**
+- **Ciclo de Expedição**: Assine contratos no galeão seguro, escolha seu equipamento de sobrevivência e reme até a selva amaldiçoada no continente.
+- **Sistema de Loucura**: A deterioração da sanidade desencadeia ilusões visuais severas, chuva de sangue e armadilhas de miragem disfarçadas.
+- **Áudio Especializado**: O chat de voz por proximidade é altamente localizado, o que significa que perder o contato com sua equipe o deixa vulnerável.
+- **Corrupção da Selva**: Companheiros de equipe que se afastam e morrem podem retornar controlados pela selva hostil para caçar os sobreviventes.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Visão Geral da Jogabilidade" />
+
+O ecossistema de inimigos neste território amaldiçoado consiste em várias ameaças físicas e psicológicas. Ao contrário dos jogos de sobrevivência tradicionais, onde você pode facilmente fugir ou atrair ameaças, essas criaturas são mais rápidas que os jogadores e possuem habilidades de controle de grupo altamente agressivas.
+
+| Tipo de Inimigo | Ataque Principal | Nível de Ameaça | Pista de Áudio |
+| --- | --- | --- | --- |
+| Morto-vivo | Golpes corpo a corpo rápidos, agarrões de investida | Médio | Respiração pesada, rosnados |
+| Gosma de Tentáculos | Agarrão de tentáculo de longo alcance, dreno de vida | Alto | Deslizamento, respingos úmidos |
+| Centopeia | Cuspe ácido, picada tóxica | Alto | Sibilância, patas correndo |
+| Homem-Árvore | Agarrão de teletransporte, deslocamento ambiental | Crítico | Madeira rangendo, folhas farfalhando |
+
+<Callout type="warning" title="Aviso de Som">
+Disparar armas ou correr de forma imprudente acordará instantaneamente a selva circundante, desencadeando o surgimento rápido de inimigos. Use furtividade sempre que possível para evitar ser sobrecarregado por hordas de mortos-vivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Principais Mecânicas de Inimigos e Ataques de Agarrão">
+
+O aspecto mais frustrante do combate que os jogadores encontram são os ataques implacáveis de agarrão. Criaturas hostis são projetadas para impedir ativamente que os jogadores fujam delas infinitamente. Monstros mortos-vivos correm mais rápido que os exploradores humanos, tornando a fuga a pé virtualmente impossível uma vez que você tenha sido avistado. Se você ouvir uma respiração pesada enquanto corre, significa que uma criatura está logo atrás de você e prestes a iniciar um agarrão.
+
+Esses ataques de agarrão não são apenas golpes físicos básicos; eles podem forçar você a soltar sua arma ativa, deixando-o completamente indefeso no meio de uma escaramuça caótica.
+
+| Variante de Agarrão | Fonte do Inimigo | Efeito Imediato | Melhor Contramedida |
+| --- | --- | --- | --- |
+| Agarrão de Investida | Morto-vivo veloz | Prende temporariamente o jogador, causa dano físico | Vire-se e ataque com arma branca, não corra |
+| Desarmamento por Tentáculo | Gosma de Tentáculos | Força o jogador a soltar a arma ativa | Use ataques de punhalada pelas costas enquanto um aliado distrai |
+| Agarrão Subterrâneo | Morto-vivo subterrâneo | Arrasta o jogador para baixo, causa dano físico pesado | Fique perto de bots ou companheiros humanos |
+| Agarrão de Teletransporte | Homem-Árvore | Teletransporta o jogador para rios ou perigos próximos | Evite lutar perto de pontes de troncos ou penhascos |
+
+O jogo apresenta uma mecânica de isolamento agressiva. Se você explorar sozinho, se separar de seus aliados humanos ou deixar seu bot companheiro vagar para longe, o jogo o punirá severamente. Tanto os ataques de agarrão subterrâneos quanto os devastadores ataques de tentáculos que drenam a vida são acionados principalmente quando um jogador está isolado.
+
+<Callout type="tip" title="Fiquem Juntos">
+Nunca saia sozinho para procurar tesouros. Permanecer fisicamente próximo de sua equipe ou companheiro bot desativa os gatilhos automáticos de agarrão subterrâneo, mantendo seu esquadrão seguro.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Detalhamento de Monstros de Elite e Especiais">
+
+À medida que você se aventura mais fundo na selva e desbloqueia fortes abandonados para progredir, encontrará monstros de elite que exigem estratégias de combate específicas. Essas criaturas não podem ser derrotadas apenas apertando botões, especialmente porque o sistema de combate atual carece de uma mecânica dedicada de bloqueio, aparagem ou esquiva. Os jogadores devem confiar no posicionamento, na coordenação da equipe e na exploração dos quadros de recuperação dos inimigos.
+
+Para ajudá-lo a identificar e contra-atacar essas ameaças de elite, estude os comportamentos específicos dos três monstros mais perigosos da selva.
+
+<CardGrid cols={3}>
+  <Card title="A Centopeia">
+    - **Mecânica de Vômito**: Causa alto dano de veneno que força seu personagem a ajoelhar e vomitar.
+    - **Velocidade**: Move-se rapidamente através da folhagem densa, tornando-a difícil de atingir com mosquetes lentos.
+    - **Contra-ataque**: Use tiros silenciosos de besta à distância antes que ela possa fechar a lacuna.
+  </Card>
+  <Card title="O Homem-Árvore">
+    - **Deslocamento**: Agarra os jogadores e os teletransporta pelo mapa, muitas vezes para águas profundas.
+    - **Perigo Ambiental**: Pode causar morte instantânea se você for teletransportado para fora de pontes de troncos altas.
+    - **Contra-ataque**: Lute em áreas amplas e abertas e fique de olho em troncos de árvores rangendo.
+  </Card>
+  <Card title="A Gosma de Tentáculos">
+    - **O Executor**: Dispara tentáculos de longa distância que drenam sua saúde para exatamente 1 HP.
+    - **Gatilho de Isolamento**: Altamente ativo contra exploradores solo ou jogadores que perdem o chat de voz por proximidade.
+    - **Contra-ataque**: Deve ser atacado por vários membros do esquadrão para interromper o ataque canalizado.
+  </Card>
+</CardGrid>
+
+O combate contra essas ameaças de elite é significativamente mais fácil no jogo cooperativo. Enquanto um jogador é agarrado ou visado por uma gosma de tentáculos, os companheiros de equipe podem flanquear rapidamente a criatura para realizar punhaladas pelas costas de alto dano ou usar a cruz sagrada para atordoar o monstro. No jogo solo, no entanto, essas mecânicas tornam-se incrivelmente punitivas, pois uma única sequência de agarrão pode levar a uma derrota rápida sem meios de se libertar.
+
+<Callout type="success" title="Vantagem da Punhalada pelas Costas">
+Quando um inimigo for derrubado ou estiver se recuperando de uma animação de ataque, manobre rapidamente para trás dele. Punhaladas pelas costas causam dano bônus massivo e podem mudar rapidamente o rumo de uma luta difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Táticas de Combate e Sobrevivência Passo a Passo">
+
+Para navegar com sucesso na selva amaldiçoada da América do Sul e retornar ao seu galeão com tesouros valiosos, seu esquadrão deve executar manobras táticas disciplinadas. Siga estes passos para preparar sua equipe, gerenciar seus níveis de ruído e sobreviver a encontros com monstros de elite.
+
+<Steps>
+  <Step num="1" title="Equipando-se no Galeão">
+    Antes de embarcar no barco a remo, coordene com seu esquadrão para dividir o equipamento inicial. Certifique-se de que pelo menos um jogador carregue um mosquete para poder bruto, um carregue uma besta para eliminações furtivas silenciosas e todos estejam equipados com uma espada. Não se esqueça de trazer lâmpadas de óleo para áreas escuras e sais de revivificação para resgatar camaradas caídos.
+  </Step>
+  <Step num="2" title="Gerenciando Ruído e Furtividade">
+    Ao explorar a selva, caminhe com cuidado para evitar quebrar galhos secos. Use sua besta para eliminar silenciosamente batedores mortos-vivos isolados. Se você precisar disparar um mosquete, certifique-se de que sua equipe esteja pronta para recuar imediatamente para uma posição defensiva, pois o tiro alto acordará a selva ao redor.
+  </Step>
+  <Step num="3" title="Contra-atacando Ataques de Agarrão">
+    Nunca dê as costas a um inimigo morto-vivo para fugir, pois eles facilmente o alcançarão e o agarrarão. Em vez disso, mantenha-se firme, ouça a pista de áudio de respiração pesada e cronometre seus golpes corpo a corpo para atordoá-los. Se um companheiro for agarrado, ataque imediatamente o monstro agressor para forçar a liberação.
+  </Step>
+  <Step num="4" title="Combatendo a Perda de Sanidade">
+    À medida que sua sanidade diminui, fique atento a ilusões visuais, chuva de sangue e armadilhas de miragem disfarçadas de terreno normal. Mantenha seu esquadrão unido para manter os níveis de sanidade. Se um companheiro de equipe se afastar, morrer e se tornar controlado pela selva, trate-o como uma ameaça hostil e neutralize-o imediatamente.
+  </Step>
+</Steps>
+
+Gerenciar sua sanidade é tão importante quanto manter sua saúde física. O complexo sistema de loucura tentará enganar ativamente seu esquadrão, tornando difícil distinguir entre monstros reais e alucinações aterrorizantes. Se você começar a ver o mundo encharcado de sangue ou encontrar miragens estranhas, agrupe-se com seus aliados imediatamente para estabilizar sua mente.
+
+<Callout type="info" title="Aviso de Chat de Voz por Proximidade">
+Perder a comunicação por voz com sua equipe é um grande perigo na jogabilidade. Se a voz de um companheiro desaparecer, procure por ele imediatamente antes que a mecânica de isolamento acione um ataque subterrâneo mortal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Expedição e Otimização de Equipamentos">
+
+Antes de partir para sua próxima incursão na selva profunda, revise este checklist essencial de preparação. Garantir que seu esquadrão esteja totalmente preparado e devidamente equipado é a diferença entre uma coleta de tesouro bem-sucedida e um fim trágico nas ruínas amaldiçoadas.
+
+<Checklist
+  id="expedition-prep"
+  title="Objetivos Pré-Expedição:"
+  items={[
+    "Recuperar diários de bordo antigos em fortes abandonados para desbloquear pontos de partida mais próximos para futuras incursões",
+    "Atribuir papéis específicos a cada membro do esquadrão, equilibrando armas de fogo barulhentas com armas furtivas silenciosas",
+    "Verificar se cada explorador tem pelo menos uma dose de sais de revivificação em seu inventário",
+    "Estabelecer um sinal visual claro ou ponto de encontro caso o chat de voz por proximidade seja perdido"
+  ]}
+/>
+
+Otimizar seu conjunto de equipamentos com base nas ameaças específicas que você espera enfrentar melhorará drasticamente sua taxa de sobrevivência. Consulte esta tabela de equipamentos recomendados para planejar o inventário do seu esquadrão antes de deixar a segurança do galeão.
+
+| Item de Equipamento | Melhor Usado Contra | Vantagem Principal | Desvantagem |
+| --- | --- | --- | --- |
+| Mosquete | Monstros de elite, grandes hordas | Dano de alvo único extremamente alto | Muito barulhento, longo tempo de recarga |
+| Besta | Batedores isolados, centopeias | Disparo de projétil silencioso, distância segura | Menor produção de dano que armas de fogo |
+| Espada | Mortos-vivos padrão, curto alcance | Golpes rápidos, permite punhalada pelas costas | Requer entrar no perigoso alcance de agarrão |
+| Lâmpada de Óleo | Cavernas escuras, navegação noturna | Ilumina armadilhas e inimigos ocultos | Ocupa uma mão, alerta monstros próximos |
+| Sais de Revivificação | Aliados controlados ou caídos | Ressuscita companheiros, restaura sanidade | Capacidade de carga limitada por incursão |
+
+Para discussões mais detalhadas sobre durabilidade de armas, mecânicas de combate e feedback da comunidade, confira as discussões ativas dos jogadores no [Steam Community Hub](https://steamcommunity.com/app/2569760/discussions/). Interagir com outros jogadores é uma excelente maneira de descobrir novas estratégias táticas e manter-se atualizado sobre os próximos patches de equilíbrio.
+
+<Callout type="tip" title="Progressão nos Fortes">
+Sempre priorize a recuperação de diários de bordo durante suas expedições. Desbloquear fortes abandonados como pontos de partida permite que você ignore áreas perigosas da selva externa, economizando recursos valiosos para as zonas mais profundas e de alto rendimento.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que os inimigos de The Mound: Omen of Cthulhu continuam me agarrando quando eu fujo?",
+    answer: "Os inimigos mortos-vivos correm mais rápido que os jogadores. Fugir aciona o comportamento de perseguição e resulta em um agarrão de investida. Para evitar isso, mantenha-se firme, ouça a respiração pesada e use ataques corpo a corpo para atordoá-los."
+  },
+  {
+    question: "Como a mecânica de isolamento afeta o surgimento de inimigos?",
+    answer: "Quando você se afasta demais de sua equipe ou bot companheiro, o jogo o pune acionando agarrões agressivos de mortos-vivos subterrâneos e gerando a gosma de tentáculos, que pode drenar instantaneamente sua saúde para 1 HP."
+  },
+  {
+    question: "Posso bloquear ou esquivar dos ataques de agarrão dos inimigos?",
+    answer: "Atualmente, o jogo não possui uma mecânica dedicada de bloqueio, aparagem ou esquiva lateral. Para evitar agarrões, você deve confiar no distanciamento, na coordenação da equipe e em atordoar os inimigos antes que eles possam iniciar a animação de agarrão."
+  },
+  {
+    question: "O que devo fazer se um companheiro de equipe for controlado pela selva?",
+    answer: "Se um companheiro se afastar, morrer e retornar controlado pela selva, ele irá caçá-lo ativamente e tentará agarrá-lo automaticamente. Você deve tratá-lo como uma ameaça hostil e neutralizá-lo imediatamente."
+  }
+]} />
+
+<Callout type="warning" title="Nota Final de Sobrevivência">
+A selva é uma entidade viva e hostil que se adapta às suas ações. Mantenha seu ruído baixo, fique perto do seu esquadrão e nunca deixe sua sanidade chegar a zero. Boa sorte em sua expedição, explorador.
+</Callout>
+
+</Section>

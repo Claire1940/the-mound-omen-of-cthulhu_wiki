@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Twitch en The Mound: Omen of Cthulhu - Guía para Streamers y Drops",
+  description: "Domina la estrategia de Twitch en The Mound: Omen of Cthulhu. Aprende sobre configuración, tácticas cooperativas, mecánicas de cordura e integración de drops para transmisiones de terror exitosas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Twitch+Streamer+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Integración con Twitch**: Transmite las intensas campañas cooperativas de terror para 4 jugadores de **The Mound: Omen of Cthulhu en Twitch** para interactuar con tu comunidad.
+- **Mecánicas de cordura**: La falta de una interfaz de usuario (HUD) de cordura convencional hace que la interacción con los espectadores sea crucial para verificar amenazas reales.
+- **Estrategia cooperativa**: Divide las responsabilidades del equipo en el galeón para evitar la eliminación temprana del escuadrón durante las transmisiones en vivo.
+- **Elección de equipamiento**: Equilibra el uso de arcos silenciosos y armas de fuego ruidosas según el clima actual y los límites de ruido.
+- **Comunicación del escuadrón**: Usa el chat de voz espacial para mantener la cohesión e identificar a falsos compañeros de equipo engañosos.
+</Callout>
+
+<Section icon={Map} title="Transmitir campañas de Twitch en The Mound: Omen of Cthulhu">
+
+Transmitir sesiones de **The Mound: Omen of Cthulhu en Twitch** ofrece a los streamers una oportunidad increíble para mostrar una supervivencia cooperativa de alto riesgo. Desarrollado por ACE Team y publicado por Nacon, este juego de terror lovecraftiano para 4 jugadores se nutre de la tensión, la atmósfera y la pérdida de confianza entre los jugadores. Dado que la locura altera el mundo de manera individual para cada explorador, tu chat de Twitch se convierte esencialmente en un miembro más de la tripulación, ayudándote a distinguir la realidad de las terroríficas alucinaciones.
+
+Para ofrecer una transmisión de alta calidad, debes comprender cómo se traducen los sistemas principales del juego al formato de transmisión en vivo. La siguiente tabla detalla los aspectos esenciales del lanzamiento del juego, las plataformas y las características de las ediciones para ayudarte a configurar tu stream.
+
+| Característica | Edición Estándar | Edición Deluxe | Implicaciones para el Streamer |
+|---|---|---|---|
+| **Precio base** | $29.99 (promoción de lanzamiento de $23.99) | $39.99 (promoción de lanzamiento de $31.99) | La versión estándar cubre todas las mecánicas principales del juego. |
+| **Plataformas** | PC, PS5, Xbox Series X\|S | PC, PS5, Xbox Series X\|S | El juego cruzado es totalmente compatible entre plataformas. |
+| **Cosméticos** | Paquete de espadas de exploradores perdidos | Paquete de equipo abisal, Cazadores de fortunas | Los cosméticos Deluxe ofrecen estilos únicos para mostrar en la transmisión. |
+| **Misión exclusiva** | No incluida en consolas | Misión del Templo de Yig | Solo el anfitrión necesita la edición Deluxe para que juegue todo el grupo. |
+
+<Callout type="tip" title="Consejo para streamers">
+Al transmitir la versión de PC, asegúrate de tener un sistema operativo de 64 bits y al menos 16 GB de RAM. Reducir la calidad de las sombras y la niebla volumétrica puede estabilizar significativamente la tasa de fotogramas mientras transmites en una configuración de una sola PC.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración del escuadrón cooperativo y equipamiento para streamers">
+
+Un escuadrón organizado es la clave para sobrevivir a la jungla maldita bajo la atenta mirada de tu audiencia de Twitch. En las partidas cooperativas de **The Mound: Omen of Cthulhu en Twitch**, los jugadores no pueden permitirse llevar equipamientos idénticos. El equipo es compartido y limitado, lo que significa que los contratos del capitán requieren una distribución estratégica de armas, iluminación y herramientas de utilidad antes de abandonar el galeón Tempestad.
+
+Para maximizar la eficiencia de tu escuadrón y mantener el interés en tu transmisión, divide a tu equipo en roles funcionales claros. Usa la siguiente cuadrícula de tarjetas para planificar la configuración de tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="El explorador (Arco y cuchillo)">
+    - **Combate a distancia silencioso**
+    - Elimina centinelas en silencio
+    - Inmune a fallos por lluvia
+  </Card>
+  <Card title="El navegador (Lámpara y mapa)">
+    - **Controla la visibilidad del grupo**
+    - Rastrea bitácoras de fuertes abandonados
+    - Guía al equipo a través de la niebla
+  </Card>
+  <Card title="El defensor (Mosquete y carro)">
+    - **Potencia de fuego pesada de emergencia**
+    - Protege el carro de bueyes con el tesoro
+    - Controla el aumento de la presencia de enemigos
+  </Card>
+</CardGrid>
+
+La elección del armamento afecta directamente al nivel de ruido de tu partida. Los disparos ruidosos despiertan a la jungla, lo que hace que la actividad hostil aumente rápidamente. Usa esta tabla de comparación de armas para guiar tus elecciones de equipamiento durante el juego en vivo:
+
+| Arma / Herramienta | Categoría | Fortaleza clave | Riesgo principal |
+|---|---|---|---|
+| **Arco** | Distancia silencioso | Recarga rápida, silencioso, funciona bajo la lluvia | Requiere puntería precisa bajo presión |
+| **Mosquete de chispa** | Arma de fuego de emergencia | Alto poder de parada contra monstruos | Extremadamente ruidoso, falla durante la lluvia intensa |
+| **Cuchillo** | Cuerpo a cuerpo silencioso | No requiere munición, alternativa confiable | Obliga a enfrentarse a corta distancia |
+| **Lámpara de aceite** | Utilidad | Atraviesa la densa niebla volumétrica | Convierte al portador en un objetivo principal |
+| **Medallón de tesoro** | Utilidad | Localiza el valioso metal Tulu | Emite un fuerte sonido metálico al recibir impactos |
+
+<Callout type="warning" title="Alerta climática">
+Consulta siempre el clima antes de entablar combate. Si empieza a llover, los mosquetes de chispa y de mecha fallarán al disparar. Asegúrate de que tu equipo tenga arcos y cuchillos listos como alternativas que no requieren pólvora seca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de la cordura y alucinaciones en vivo">
+
+La característica que define a las transmisiones de **The Mound: Omen of Cthulhu en Twitch** es el sistema de cordura único del juego. No hay una barra de cordura visible ni un indicador en la interfaz (HUD). En su lugar, la locura se manifiesta como alucinaciones visuales y auditivas privadas que solo el jugador afectado puede percibir. Esto crea momentos de transmisión increíbles donde tus espectadores pueden ver cosas que tus compañeros de cooperativo no.
+
+Los streamers deben establecer un protocolo de comunicación estricto para evitar el fuego aliado y la eliminación del escuadrón. Sigue estos pasos para manejar el aumento de la locura en la transmisión:
+
+<Steps>
+  <Step num="1" title="Inicia el control de realidad">
+    Cuando veas cambios en el entorno como una jungla sangrante, lluvia roja o terreno cambiante, pregunta a tus compañeros si ellos también lo ven antes de reaccionar.
+  </Step>
+  <Step num="2" title="Verifica la identidad de tus compañeros">
+    La locura puede proyectar siluetas falsas de tus compañeros de equipo. Usa el chat de voz espacial para confirmar si la figura que se acerca en la niebla es realmente tu aliado.
+  </Step>
+  <Step num="3" title="Ignora los cuernos lejanos">
+    La jungla imitará el sonido del cuerno del carro de bueyes para atraerte. Nunca sigas el sonido de un cuerno en solitario; siempre verifica primero la posición del carro con tu equipo.
+  </Step>
+  <Step num="4" title="Cede la toma de decisiones">
+    Si tu personaje está gravemente perturbado, deja de liderar el grupo. Sigue los movimientos físicos de un compañero de equipo cuya cordura esté confirmada para ponerte a salvo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Interacción con el chat">
+Convierte tu chat de Twitch en una herramienta de "control de cordura". Haz que tus espectadores confirmen si ven un monstruo o si tu mente te está jugando una mala pasada, impulsando una alta participación de la comunidad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de expedición y lista de verificación para la transmisión">
+
+Cada expedición exitosa requiere equilibrar la codicia con la supervivencia. Aunque las zonas más profundas de la jungla contienen valiosas reliquias y tesoros malditos, avanzar demasiado puede hacer que pierdas todo tu botín. Los streamers deben establecer objetivos claros para cada transmisión para mantener el progreso en marcha.
+
+Usa esta lista de verificación para realizar un seguimiento de los hitos de tu transmisión y desbloquear nuevos puntos de partida:
+
+<Checklist
+  id="twitch-stream-goals"
+  title="Hitos de expedición para streamers:"
+  items={[
+    "Completa un contrato del capitán con un escuadrón completo de 4 jugadores",
+    "Localiza y asegura un tesoro de metal Tulu de gran valor usando el medallón",
+    "Recupera la bitácora de un fuerte para desbloquear una nueva ubicación de inicio",
+    "Sobrevive a una expedición completa durante un evento localizado de lluvia de sangre",
+    "Extrae con éxito un carro de bueyes completamente cargado bajo una alta tensión en la jungla"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de progresión">
+Prioriza la recuperación de bitácoras de fuertes abandonados. Desbloquear nuevos puntos de partida te permite evitar las zonas iniciales, manteniendo el contenido de tu transmisión fresco y dinámico.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes para streamers de Twitch">
+
+<FAQ items={[
+  {
+    question: "¿Existe una integración oficial con Twitch o un sistema de Twitch Drops?",
+    answer: "Aunque el juego cuenta con profundas mecánicas cooperativas perfectas para la transmisión, consulta los canales sociales oficiales de Nacon y ACE Team para obtener las últimas actualizaciones sobre Twitch Drops activos y eventos de campaña para streamers."
+  },
+  {
+    question: "¿Puedo jugar y transmitir este juego completamente en solitario?",
+    answer: "Sí, hay disponible un modo completo para un solo jugador. Sin embargo, jugar en solitario requiere un equipamiento muy equilibrado, ya que no tendrás compañeros de equipo para proteger el carro o verificar tus alucinaciones."
+  },
+  {
+    question: "¿Cómo afecta el chat de voz espacial a la experiencia de transmisión?",
+    answer: "El chat de voz espacial posiciona las voces de los jugadores según su ubicación en el juego. Si te alejas demasiado en la niebla, las voces de tus compañeros se desvanecerán, aumentando significativamente la atmósfera de terror para tus espectadores."
+  },
+  {
+    question: "¿Qué pasa si un compañero de equipo muere durante una transmisión en vivo?",
+    answer: "Si un explorador caído no es revivido a tiempo, puede regresar como un enemigo no muerto corrompido que cazará al escuadrón sobreviviente. Prioriza los rescates seguros para mantener a tu equipo intacto."
+  }
+]} />
+
+</Section>

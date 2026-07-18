@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Open World: Co-op Survival Guide",
+  description: "Master the dark open world of The Mound: Omen of Cthulhu with our guide covering co-op survival, combat, sanity mechanics, and fort progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Co-op+Survival+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Survival focus**: Navigating **the mound omen of cthulhu open world** requires tight cooperation, sanity management, and careful resource planning.
+- **Safe hub**: Always utilize the **galleon hub** to prepare gear, accept contracts, and coordinate loadouts before launching expeditions.
+- **Checkpoint progression**: Unlock **abandoned forts** by retrieving logbooks to establish permanent starting points for deeper jungle runs.
+- **Sanity mechanics**: Monitor the **madness system** closely to prevent visual illusions, auditory distortions, and friendly fire incidents.
+</Callout>
+
+<Section icon={Map} title="Jungle Expedition Basics">
+
+Entering the cursed jungles of 16th-century South America requires thorough preparation and coordination. As a group of desperate explorers, your primary objective is to venture inland, secure valuable treasures, and return safely to your galleon before the environment claims your sanity. The jungle is unforgiving, and every step carries the risk of alerting ancient horrors.
+
+**Video Highlights:**
+- **Preparation Hub**: The galleon serves as your safe zone to sign contracts and grab equipment.
+- **Cooperative Focus**: A four-player squad must split essential gear to ensure balanced utility.
+- **Environmental Hazards**: Sound triggers monster spawns, requiring a silent approach.
+- **Platform Availability**: Full cross-play is supported across PC, PlayStation 5, and Xbox Series.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Official Gameplay Overview Trailer" />
+
+Before boarding the rowboat, your crew must select their starting gear from the galleon. Because inventory space and resources are limited, players must divide tools strategically. Standard loadouts include muskets, crossbows, swords, oil lamps, and reviving salts. A balanced team distribution ensures that you can handle both combat encounters and environmental navigation.
+
+| Gear Type | Combat Utility | Utility Value | Noise Level |
+| :--- | :--- | :--- | :--- |
+| **Musket** | High damage, slow reload | Low utility | Extremely loud |
+| **Crossbow** | Moderate damage, silent | Medium utility | Silent |
+| **Sword** | Low damage, melee | High utility | Silent |
+| **Oil Lamp** | None | High visibility | Silent |
+| **Reviving Salts** | None | High healing | Silent |
+
+<Callout type="info" title="Galleon Preparation">
+Always coordinate with your team to split the starting gear evenly. Do not leave the galleon without at least one oil lamp and one set of reviving salts per pair.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Cursed Open World Map">
+
+The layout of **the mound omen of cthulhu open world** consists of massive, interconnected zones. These open areas are linked together by ancient forts abandoned by previous, failed expeditions. Exploring these zones is necessary to gather food for the ship crew, rescue lost explorers, and locate the entrance to the Mound itself.
+
+To make progress permanent, players must locate and recover logbooks hidden within these abandoned forts. Securing a logbook unlocks the corresponding fort as a starting point for future runs. This allows your team to bypass outer areas and begin expeditions deeper within the jungle, saving time and preserving sanity.
+
+| Zone Name | Difficulty Level | Primary Threat | Key Reward |
+| :--- | :--- | :--- | :--- |
+| **Shoreline Fort** | Low (1/5) | Wild beasts | Basic logbook |
+| **Outer Ruins** | Medium (3/5) | Cursed entities | Advanced gear |
+| **Inner Temple** | High (5/5) | Lovecraftian horrors | Mound entrance key |
+
+<CardGrid cols={3}>
+  <Card title="Treasure Hunting">
+    - **Locate gold chests**
+    - Transport loot to the rowboat
+    - Avoid heavy bags during combat
+  </Card>
+  <Card title="Food Gathering">
+    - **Hunt local wildlife**
+    - Collect edible plants
+    - Maintain crew stamina
+  </Card>
+  <Card title="Rescue Missions">
+    - **Track missing explorers**
+    - Use reviving salts on survivors
+    - Escort targets back to safety
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Fort Progression">
+Abandoned forts do not automatically unlock. If your squad wipes before retrieving and securing the logbook, you will lose all progress in that zone and must restart from the shoreline.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactics and Stealth">
+
+Direct combat in the jungle is highly dangerous and should be treated as a last resort. The environment reacts to the noise you make. Firing a musket or even stepping on dry branches can awaken the surrounding territory, drawing aggressive Lovecraftian creatures to your location. Stealth and coordination are your best tools for survival.
+
+When combat is unavoidable, use silent weapons like the crossbow or sword to dispatch isolated threats. If a player must fire a musket, the rest of the team should immediately prepare for a counter-attack or plan a quick retreat route.
+
+| Noise Source | Detection Range | Threat Level | Recommended Reaction |
+| :--- | :--- | :--- | :--- |
+| **Cracking Branch** | Short range | Low | Freeze and crouch |
+| **Crossbow Fire** | Medium range | Low | Reposition immediately |
+| **Musket Shot** | Screen-wide | Extreme | Retreat to high ground |
+| **Sprinting** | Medium range | Medium | Walk to break line of sight |
+
+<Steps>
+  <Step num="1" title="Accept Contract">
+    Select your mission on the galleon, organize your inventory, and board the rowboat to the mainland.
+  </Step>
+  <Step num="2" title="Navigate Silently">
+    Move through the jungle using crouch-walking, avoiding dry branches and keeping noise to a minimum.
+  </Step>
+  <Step num="3" title="Secure the Fort">
+    Locate the abandoned fort in your current zone, retrieve the logbook, and unlock the new starting point.
+  </Step>
+  <Step num="4" title="Extract Loot">
+    Carry your gathered treasures back to the rowboat and return to the galleon to complete the run.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stealth Bonus">
+Using melee weapons or the crossbow allows you to clear minor threats without alerting the wider jungle. Reserve the musket for boss encounters or emergency defense.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Madness System and Proximity Chat">
+
+The deeper you venture into the cursed territory, the heavier the toll on your sanity. The game features a dynamic madness system that triggers visual and auditory hallucinations. As your sanity drops, the environment distorts, traps masquerade as safe pathways, and the world may appear drenched in blood.
+
+Communication is also affected by your sanity levels. The game utilizes specialized proximity voice chat, which becomes distorted or completely disabled as madness takes hold. If a teammate wanders too far and loses communication, they run the risk of being controlled by the jungle, turning them into a hostile threat to the rest of the group.
+
+| Sanity Level | Visual Effects | Auditory Effects | Gameplay Impact |
+| :--- | :--- | :--- | :--- |
+| **High (80-100%)** | Normal vision | Clear audio | No penalties |
+| **Medium (40-79%)** | Minor color shifts | Distant whispers | Traps look like items |
+| **Low (1-39%)** | Blood-red screen | Severe static | Proximity chat disabled |
+| **Zero (0%)** | Total hallucination | Constant screaming | Jungle takes control |
+
+<Checklist
+  id="sanity-maintenance"
+  title="Sanity Maintenance Checklist:"
+  items={[
+    "Maintain direct line of sight with your teammates",
+    "Use reviving salts immediately when paranoia symptoms appear",
+    "Avoid staying in dark areas without an active oil lamp",
+    "Confirm teammate identities via proximity chat regularly"
+  ]}
+/>
+
+<Callout type="tip" title="Communication is Key">
+If a teammate stops responding to proximity chat or behaves erratically, keep your distance. They may have lost their sanity and could be hunting you.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How does co-op work in the mound omen of cthulhu open world?",
+    answer: "The game supports up to four players in co-op mode with full cross-play across PC, PlayStation 5, and Xbox Series. Players must work together to manage resources, maintain sanity, and secure loot."
+  },
+  {
+    question: "What happens when a player's sanity reaches zero?",
+    answer: "When sanity hits zero, the player experiences severe hallucinations, loses communication, and can be temporarily controlled by the jungle to hunt down their remaining teammates."
+  },
+  {
+    question: "How do you save progression in the open world?",
+    answer: "Progression is saved by finding and securing logbooks in abandoned forts. Unlocking these forts allows you to use them as starting checkpoints for future expeditions."
+  },
+  {
+    question: "Where can I purchase the game?",
+    answer: "The game is available on Steam, PlayStation 5, and Xbox Series. You can check the Steam Store Page for active discounts and updates."
+  }
+]} />
+
+<Callout type="info" title="Launch Details">
+The Mound: Omen of Cthulhu launched on July 15th, 2026. Be sure to check the [Steam Store Page](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) for active discounts and community updates.
+</Callout>
+
+</Section>

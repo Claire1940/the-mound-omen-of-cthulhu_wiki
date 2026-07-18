@@ -28,8 +28,64 @@
         "file": "the-mound-omen-of-cthulhu-armor"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-character-creation",
+        "file": "the-mound-omen-of-cthulhu-character-creation"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-characters",
+        "file": "the-mound-omen-of-cthulhu-characters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-classes",
+        "file": "the-mound-omen-of-cthulhu-classes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crucifix",
+        "file": "the-mound-omen-of-cthulhu-crucifix"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
+        "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-discord",
+        "file": "the-mound-omen-of-cthulhu-discord"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ending",
+        "file": "the-mound-omen-of-cthulhu-ending"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-enemies",
+        "file": "the-mound-omen-of-cthulhu-enemies"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-engine",
+        "file": "the-mound-omen-of-cthulhu-engine"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-fortune-hunters",
+        "file": "the-mound-omen-of-cthulhu-fortune-hunters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-haunter-of-the-dark",
+        "file": "the-mound-omen-of-cthulhu-haunter-of-the-dark"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-long-to-beat",
+        "file": "the-mound-omen-of-cthulhu-how-long-to-beat"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-to-play",
+        "file": "the-mound-omen-of-cthulhu-how-to-play"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-items",
         "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lore",
+        "file": "the-mound-omen-of-cthulhu-lore"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-map",
@@ -40,12 +96,32 @@
         "file": "the-mound-omen-of-cthulhu-monsters"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-open-world",
+        "file": "the-mound-omen-of-cthulhu-open-world"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-reddit",
+        "file": "the-mound-omen-of-cthulhu-reddit"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-story-mode",
         "file": "the-mound-omen-of-cthulhu-story-mode"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-tips-and-tricks",
+        "file": "the-mound-omen-of-cthulhu-tips-and-tricks"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-tools",
         "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-twitch",
+        "file": "the-mound-omen-of-cthulhu-twitch"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-unreal-engine-5",
+        "file": "the-mound-omen-of-cthulhu-unreal-engine-5"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-weapons",
@@ -150,8 +226,16 @@
         "file": "the-mound-omen-of-cthulhu-hunt-showdown"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-ign",
+        "file": "the-mound-omen-of-cthulhu-ign"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
         "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-metacritic",
+        "file": "the-mound-omen-of-cthulhu-metacritic"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-performance",
@@ -192,8 +276,64 @@
         "file": "the-mound-omen-of-cthulhu-armor"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-character-creation",
+        "file": "the-mound-omen-of-cthulhu-character-creation"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-characters",
+        "file": "the-mound-omen-of-cthulhu-characters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-classes",
+        "file": "the-mound-omen-of-cthulhu-classes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crucifix",
+        "file": "the-mound-omen-of-cthulhu-crucifix"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
+        "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-discord",
+        "file": "the-mound-omen-of-cthulhu-discord"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ending",
+        "file": "the-mound-omen-of-cthulhu-ending"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-enemies",
+        "file": "the-mound-omen-of-cthulhu-enemies"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-engine",
+        "file": "the-mound-omen-of-cthulhu-engine"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-fortune-hunters",
+        "file": "the-mound-omen-of-cthulhu-fortune-hunters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-haunter-of-the-dark",
+        "file": "the-mound-omen-of-cthulhu-haunter-of-the-dark"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-long-to-beat",
+        "file": "the-mound-omen-of-cthulhu-how-long-to-beat"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-to-play",
+        "file": "the-mound-omen-of-cthulhu-how-to-play"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-items",
         "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lore",
+        "file": "the-mound-omen-of-cthulhu-lore"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-map",
@@ -204,12 +344,32 @@
         "file": "the-mound-omen-of-cthulhu-monsters"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-open-world",
+        "file": "the-mound-omen-of-cthulhu-open-world"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-reddit",
+        "file": "the-mound-omen-of-cthulhu-reddit"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-story-mode",
         "file": "the-mound-omen-of-cthulhu-story-mode"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-tips-and-tricks",
+        "file": "the-mound-omen-of-cthulhu-tips-and-tricks"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-tools",
         "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-twitch",
+        "file": "the-mound-omen-of-cthulhu-twitch"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-unreal-engine-5",
+        "file": "the-mound-omen-of-cthulhu-unreal-engine-5"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-weapons",
@@ -314,8 +474,16 @@
         "file": "the-mound-omen-of-cthulhu-hunt-showdown"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-ign",
+        "file": "the-mound-omen-of-cthulhu-ign"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
         "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-metacritic",
+        "file": "the-mound-omen-of-cthulhu-metacritic"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-performance",
@@ -356,8 +524,64 @@
         "file": "the-mound-omen-of-cthulhu-armor"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-character-creation",
+        "file": "the-mound-omen-of-cthulhu-character-creation"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-characters",
+        "file": "the-mound-omen-of-cthulhu-characters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-classes",
+        "file": "the-mound-omen-of-cthulhu-classes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crucifix",
+        "file": "the-mound-omen-of-cthulhu-crucifix"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
+        "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-discord",
+        "file": "the-mound-omen-of-cthulhu-discord"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ending",
+        "file": "the-mound-omen-of-cthulhu-ending"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-enemies",
+        "file": "the-mound-omen-of-cthulhu-enemies"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-engine",
+        "file": "the-mound-omen-of-cthulhu-engine"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-fortune-hunters",
+        "file": "the-mound-omen-of-cthulhu-fortune-hunters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-haunter-of-the-dark",
+        "file": "the-mound-omen-of-cthulhu-haunter-of-the-dark"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-long-to-beat",
+        "file": "the-mound-omen-of-cthulhu-how-long-to-beat"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-to-play",
+        "file": "the-mound-omen-of-cthulhu-how-to-play"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-items",
         "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lore",
+        "file": "the-mound-omen-of-cthulhu-lore"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-map",
@@ -368,12 +592,32 @@
         "file": "the-mound-omen-of-cthulhu-monsters"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-open-world",
+        "file": "the-mound-omen-of-cthulhu-open-world"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-reddit",
+        "file": "the-mound-omen-of-cthulhu-reddit"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-story-mode",
         "file": "the-mound-omen-of-cthulhu-story-mode"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-tips-and-tricks",
+        "file": "the-mound-omen-of-cthulhu-tips-and-tricks"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-tools",
         "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-twitch",
+        "file": "the-mound-omen-of-cthulhu-twitch"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-unreal-engine-5",
+        "file": "the-mound-omen-of-cthulhu-unreal-engine-5"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-weapons",
@@ -478,8 +722,16 @@
         "file": "the-mound-omen-of-cthulhu-hunt-showdown"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-ign",
+        "file": "the-mound-omen-of-cthulhu-ign"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
         "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-metacritic",
+        "file": "the-mound-omen-of-cthulhu-metacritic"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-performance",
@@ -520,8 +772,64 @@
         "file": "the-mound-omen-of-cthulhu-armor"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-character-creation",
+        "file": "the-mound-omen-of-cthulhu-character-creation"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-characters",
+        "file": "the-mound-omen-of-cthulhu-characters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-classes",
+        "file": "the-mound-omen-of-cthulhu-classes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-crucifix",
+        "file": "the-mound-omen-of-cthulhu-crucifix"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
+        "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-discord",
+        "file": "the-mound-omen-of-cthulhu-discord"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-ending",
+        "file": "the-mound-omen-of-cthulhu-ending"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-enemies",
+        "file": "the-mound-omen-of-cthulhu-enemies"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-engine",
+        "file": "the-mound-omen-of-cthulhu-engine"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-fortune-hunters",
+        "file": "the-mound-omen-of-cthulhu-fortune-hunters"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-haunter-of-the-dark",
+        "file": "the-mound-omen-of-cthulhu-haunter-of-the-dark"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-long-to-beat",
+        "file": "the-mound-omen-of-cthulhu-how-long-to-beat"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-how-to-play",
+        "file": "the-mound-omen-of-cthulhu-how-to-play"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-items",
         "file": "the-mound-omen-of-cthulhu-items"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-lore",
+        "file": "the-mound-omen-of-cthulhu-lore"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-map",
@@ -532,12 +840,32 @@
         "file": "the-mound-omen-of-cthulhu-monsters"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-open-world",
+        "file": "the-mound-omen-of-cthulhu-open-world"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-reddit",
+        "file": "the-mound-omen-of-cthulhu-reddit"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-story-mode",
         "file": "the-mound-omen-of-cthulhu-story-mode"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-tips-and-tricks",
+        "file": "the-mound-omen-of-cthulhu-tips-and-tricks"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-tools",
         "file": "the-mound-omen-of-cthulhu-tools"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-twitch",
+        "file": "the-mound-omen-of-cthulhu-twitch"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-unreal-engine-5",
+        "file": "the-mound-omen-of-cthulhu-unreal-engine-5"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-weapons",
@@ -642,8 +970,16 @@
         "file": "the-mound-omen-of-cthulhu-hunt-showdown"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-ign",
+        "file": "the-mound-omen-of-cthulhu-ign"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-left-4-dead-vibes",
         "file": "the-mound-omen-of-cthulhu-left-4-dead-vibes"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-metacritic",
+        "file": "the-mound-omen-of-cthulhu-metacritic"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-performance",

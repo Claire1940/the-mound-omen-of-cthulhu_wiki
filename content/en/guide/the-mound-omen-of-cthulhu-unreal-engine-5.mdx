@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Brain, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Unreal Engine 5: Gameplay & Co-op Guide",
+  description: "Master The Mound: Omen of Cthulhu on Unreal Engine 5. Learn co-op strategies, sanity management, and jungle exploration in this 2026 survival guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=The+Mound+Survival+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound Omen of Cthulhu Unreal Engine 5** is a 4-player co-op horror experience set in a 16th-century South American jungle.
+- **Sanity Management** is the core mechanic; players must differentiate between reality and Lovecraftian hallucinations.
+- **The Galleon Hub** serves as your safe zone for gear preparation, contract signing, and group organization.
+- **Cross-play Support** is fully active for PC, PlayStation 5, and Xbox Series players as of July 2026.
+- **Stealth and Coordination** are prioritized over combat, as noise attracts unspeakable horrors.
+</Callout>
+
+<Section icon={Sparkles} title="Unreal Engine 5 Horror Experience">
+
+The Mound: Omen of Cthulhu leverages the power of **Unreal Engine 5** to deliver a visually stifling and atmospherically dense horror experience. Set in the 16th-century cursed jungles of South America, players take on the role of explorers seeking treasures within the legendary Mound. The engine's advanced lighting and specialized spatial audio create an environment where every cracked branch or distant whisper could signal your impending doom.
+
+**Video Highlights:**
+- **Co-op Dynamics**: Overview of the four-player teamwork required for survival.
+- **The Sanity System**: A look at how madness alters the game world in real-time.
+- **Exploration Loop**: From the safety of the Galleon to the depths of the jungle.
+- **Combat & Stealth**: Demonstrating the musket, crossbow, and the dangers of making noise.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Official Gameplay Overview Trailer" />
+
+| Feature | Description | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Lumen Lighting** | Dynamic global illumination | Realistic shadows and lamp-light flicker |
+| **Spatial Audio** | Specialized sound positioning | Essential for proximity voice chat |
+| **Madness System** | Real-time world distortion | Hallucinations and visual deception |
+| **Cross-Play** | Multi-platform connectivity | Seamless PC, PS5, and Xbox co-op |
+
+<Callout type="success" title="Visual Fidelity">
+The use of **Unreal Engine 5** allows for "Nanite" levels of detail in the jungle foliage, making the environment itself feel alive and oppressive.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="The Galleon: Preparation and Gear">
+
+Before venturing into the mainland, your group must organize at the Galleon. This hub acts as the only safe place in **The Mound Omen of Cthulhu Unreal Engine 5**. Here, you will sign contracts with the Captain, who provides the necessary equipment for your expedition. Proper gear distribution is the difference between a successful treasure hunt and a descent into madness.
+
+<CardGrid cols={3}>
+  <Card title="Primary Weapons">
+    - **Musket**: High damage but loud.
+    - **Crossbow**: Silent but slower reload.
+    - **Sword**: Essential for close encounters.
+  </Card>
+  <Card title="Utility Tools">
+    - **Oil Lamp**: Primary light source.
+    - **Reviving Salts**: To bring back fallen allies.
+    - **Logbooks**: Unlock future starting points.
+  </Card>
+  <Card title="Expedition Goals">
+    - **Gather Food**: For the crew's survival.
+    - **Rescue Explorers**: Find lost expedition members.
+    - **Find Treasure**: The ultimate objective.
+  </Card>
+</CardGrid>
+
+| Gear Item | Primary Use | Noise Level |
+| :--- | :--- | :--- |
+| **Musket** | Long-range defense | **Extreme** (Attracts monsters) |
+| **Crossbow** | Stealth takedowns | **Low** (Safe for exploration) |
+| **Oil Lamp** | Illumination | **Medium** (Visible to enemies) |
+| **Sword** | Last resort melee | **Low** (Quiet but risky) |
+
+<Callout type="tip" title="Resource Management">
+Always ensure at least one player carries Reviving Salts. Without them, a single mistake can permanently end a teammate's run in the deep jungle.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating the Cursed Jungle">
+
+The jungle is not a linear path; it is a series of large open areas connected by abandoned forts. These forts are critical for long-term progression. By recovering logbooks left by previous expeditions, you can unlock these locations as starting points for future runs, allowing your team to venture deeper into the unknown without retracing every step.
+
+<Steps>
+  <Step num="1" title="Landing on the Mainland">
+    Take the rowboat from the Galleon to the shore. Ensure all players have their assigned gear ready before stepping off the boat.
+  </Step>
+  <Step num="2" title="Coordinated Exploration">
+    Use **Proximity Voice Chat** to stay in touch. If you wander too far, you lose communication, which is the greatest danger in the jungle.
+  </Step>
+  <Step num="3" title="Fort Securing">
+    Locate abandoned forts and search for logbooks. Securing these records ensures that your progress is saved for the next expedition.
+  </Step>
+  <Step num="4" title="The Return Trip">
+    Once the Captain's expectations are met (treasure or food), navigate back to the shore. The jungle becomes more hostile as night falls.
+  </Step>
+</Steps>
+
+| Exploration Phase | Objective | Risk Level |
+| :--- | :--- | :--- |
+| **Shoreline** | Initial looting and scouting | **Low** |
+| **Deep Jungle** | Finding treasure and logbooks | **High** |
+| **The Mound** | Entering the Cthulhu-cursed ruins | **Critical** |
+| **Extraction** | Getting back to the rowboat | **Variable** |
+
+<Callout type="warning" title="Sound Traps">
+The jungle breeds horrors that react to sound. Avoid cracking branches or firing muskets unless absolutely necessary. Stealth is your best weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Brain} title="Madness and the Sanity System">
+
+In **The Mound Omen of Cthulhu Unreal Engine 5**, your greatest enemy isn't always a physical monster—it's your own mind. The madness system is a complex mechanic that triggers based on your proximity to Lovecraftian artifacts and the duration of your stay in the jungle. As your sanity drops, the world begins to deceive you.
+
+| Sanity Level | Visual/Audio Effects | Gameplay Impact |
+| :--- | :--- | :--- |
+| **Stable** | Clear vision, normal audio | Standard gameplay |
+| **Shaken** | Minor whispers, edge blurring | Slight disorientation |
+| **Delusional** | Blood-drenched world, mirages | Traps may look like treasure |
+| **Insane** | Severe hallucinations, loss of control | Friends may appear as monsters |
+
+<CardGrid cols={2}>
+  <Card title="Visual Deception">
+    The environment may change dynamically. A clear path might suddenly appear as a pit of blood, or a deadly trap might be disguised as a treasure chest.
+  </Card>
+  <Card title="Communication Breakdown">
+    Madness can alter how you hear your teammates. Proximity chat may become distorted, leading to confusion and isolation.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="The Jungle's Influence">
+A teammate who wanders off and loses their sanity may return controlled by the jungle's curse, actively hunting the rest of the group.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expedition Checklist & Goals">
+
+To survive the horrors of the 16th-century South American jungle, players must maintain a disciplined approach to every run. Success is measured not just by the treasure found, but by the number of explorers who return to the Galleon with their minds intact.
+
+<Checklist
+  id="expedition-goals"
+  title="Mission Critical Objectives:"
+  items={[
+    "Sign the Captain's contract and distribute gear",
+    "Locate and secure at least one Logbook per run",
+    "Keep sanity levels above the 'Delusional' threshold",
+    "Return to the rowboat before the jungle wakes up",
+    "Maintain constant proximity voice chat communication"
+  ]}
+/>
+
+| Objective Type | Reward | Priority |
+| :--- | :--- | :--- |
+| **Main Quest** | Progress to the Mound | **High** |
+| **Food Gathering** | Crew survival and buffs | **Medium** |
+| **Treasure Hunting** | Currency for better gear | **High** |
+| **Rescuing NPCs** | Unlocks new shop items | **Low** |
+
+<Callout type="success" title="July 2026 Update">
+Check the [Steam Store Page](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) for the latest 20% launch discount and community-driven balance patches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is The Mound Omen of Cthulhu Unreal Engine 5 playable solo?",
+    answer: "While the game is built from the ground up for 4-player co-op, you can attempt solo runs. However, the madness system and monsters are balanced for group play, making solo expeditions extremely difficult."
+  },
+  {
+    question: "What platforms support cross-play?",
+    answer: "As of the July 15, 2026 release, full cross-play is supported between PC (Steam), PlayStation 5, and Xbox Series X/S."
+  },
+  {
+    question: "How do I recover sanity during a mission?",
+    answer: "Sanity can be partially restored by returning to well-lit areas like secured forts or by using specific items like Reviving Salts, though the best way to stay sane is to avoid prolonged exposure to the deep jungle."
+  },
+  {
+    question: "What happens if all players in a group die?",
+    answer: "A total party wipe results in the loss of all treasure and gear collected during that run. However, any logbooks successfully returned to a fort will remain unlocked for future attempts."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always trust your teammates more than your eyes. If a teammate tells you a path is clear but you see blood, trust their vision—your sanity may already be slipping.
+</Callout>
+
+</Section>

@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Twitch: Guia para Streamers e Drops",
+  description: "Domine a estratégia de Twitch em The Mound: Omen of Cthulhu. Aprenda configuração, táticas cooperativas, mecânicas de sanidade e integração de drops para transmissões de terror de sucesso.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Twitch+Streamer+Guide",
+  date: "2026-07-15",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Integração com a Twitch**: Transmita o intenso horror cooperativo para 4 jogadores das campanhas de **the mound omen of cthulhu twitch** para engajar sua comunidade.
+- **Mecânicas de Sanidade**: A falta de um HUD de sanidade convencional torna a interação com os espectadores crucial para verificar ameaças reais.
+- **Estratégia Cooperativa**: Divida as responsabilidades da equipe no galeão para evitar a eliminação precoce do esquadrão durante as transmissões ao vivo.
+- **Escolha de Equipamento**: Equilibre arcos silenciosos e armas de fogo barulhentas com base no clima atual e nos limites de ruído.
+- **Comunicação do Esquadrão**: Use o chat de voz espacial para manter a coesão e identificar falsos companheiros de equipe enganosos.
+</Callout>
+
+<Section icon={Map} title="Transmitindo Campanhas de The Mound Omen of Cthulhu na Twitch">
+
+Transmitir sessões de **the mound omen of cthulhu twitch** oferece aos streamers uma oportunidade incrível de mostrar sobrevivência cooperativa de alto risco. Desenvolvido pela ACE Team e publicado pela Nacon, este jogo de horror Lovecraftiano para 4 jogadores prospera na tensão, na atmosfera e na quebra de confiança entre os jogadores. Como a loucura altera o mundo individualmente para cada explorador, o seu chat da Twitch essencialmente se torna um membro extra da tripulação, ajudando você a discernir a realidade de alucinações aterrorizantes.
+
+Para entregar uma transmissão de alta qualidade, você deve entender como os sistemas principais do jogo se traduzem para um formato de live. A tabela abaixo descreve os detalhes essenciais do lançamento do jogo, plataformas e recursos de edição para ajudar você a configurar sua stream.
+
+| Recurso | Edição Padrão | Edição Deluxe | Implicações para o Streamer |
+|---|---|---|---|
+| **Preço Base** | $29.99 ($23.99 promo de lançamento) | $39.99 ($31.99 promo de lançamento) | A versão padrão cobre todas as mecânicas principais de jogabilidade. |
+| **Plataformas** | PC, PS5, Xbox Series X\|S | PC, PS5, Xbox Series X\|S | O crossplay é totalmente suportado entre todas as plataformas. |
+| **Cosméticos** | Pacote de Espadas Lost Explorers | Pacote Abyssal Gear, Fortune Hunters | Cosméticos Deluxe oferecem estilos únicos para a transmissão. |
+| **Missão Exclusiva** | Não incluída nos consoles | Missão Temple of Yig | Apenas o anfitrião precisa da Deluxe para o grupo jogar. |
+
+<Callout type="tip" title="Dica para o Streamer">
+Ao transmitir a versão para PC, certifique-se de ter um sistema operacional de 64 bits e pelo menos 16 GB de RAM. Reduzir a qualidade das sombras e a névoa volumétrica pode estabilizar significativamente sua taxa de quadros ao transmitir em uma configuração de PC único.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração de Esquadrão Co-op e Loadouts para Streamers">
+
+Um esquadrão organizado é a chave para sobreviver à selva amaldiçoada sob os olhos atentos do seu público na Twitch. Nas partidas cooperativas de **the mound omen of cthulhu twitch**, os jogadores não podem se dar ao luxo de usar loadouts idênticos. O equipamento é compartilhado e limitado, o que significa que os contratos do capitão exigem uma distribuição estratégica de armas, iluminação e ferramentas utilitárias antes de deixar o galeão Tempestad.
+
+Para maximizar a eficiência do seu esquadrão e manter sua stream envolvente, divida sua equipe em funções funcionais claras. Use a grade de cartões abaixo para planejar a configuração do seu time.
+
+<CardGrid cols={3}>
+  <Card title="O Batedor (Arco e Faca)">
+    - **Combate à distância silencioso**
+    - Elimina sentinelas furtivamente
+    - Imune a falhas causadas pela chuva
+  </Card>
+  <Card title="O Navegador (Lampião e Mapa)">
+    - **Controla a visibilidade do grupo**
+    - Rastreia diários de bordo de fortes abandonados
+    - Lidera a equipe através da névoa
+  </Card>
+  <Card title="O Defensor (Mosquete e Carroça)">
+    - **Poder de fogo pesado de emergência**
+    - Guarda a carroça de boi com tesouros
+    - Controla a escalada de multidões
+  </Card>
+</CardGrid>
+
+A escolha do armamento impacta diretamente o nível de ruído da sua partida. Tiros barulhentos acordam a selva, fazendo com que a atividade hostil escale rapidamente. Use esta tabela de comparação de armas para guiar suas escolhas de loadout durante a jogabilidade ao vivo:
+
+| Arma / Ferramenta | Categoria | Principal Força | Risco Principal |
+|---|---|---|---|
+| **Arco** | Distância Silencioso | Recarga rápida, silencioso, funciona na chuva | Exige mira precisa sob pressão |
+| **Mosquete de Pederneira** | Arma de Fogo de Emergência | Alto poder de parada contra monstros | Extremamente barulhento, falha em chuva forte |
+| **Faca** | Combate Próximo Silencioso | Não requer munição, reserva confiável | Força perigo de curto alcance |
+| **Lampião a Óleo** | Utilitário | Atravessa névoa volumétrica densa | Torna o portador um alvo primário |
+| **Medalhão de Tesouro** | Utilitário | Localiza metal Tulu valioso | Emite um som metálico alto quando atingido |
+
+<Callout type="warning" title="Alerta de Clima">
+Sempre verifique o clima antes de entrar em combate. Se começar a chover, os mosquetes de pederneira e de mecha falharão ao disparar. Certifique-se de que sua equipe tenha arcos e facas prontos como alternativas de pólvora seca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gerenciando Sanidade e Alucinações ao Vivo">
+
+O recurso definidor das transmissões de **the mound omen of cthulhu twitch** é o sistema de sanidade único do jogo. Não há barra de sanidade visível ou indicador no HUD. Em vez disso, a loucura se manifesta como alucinações visuais e auditivas privadas que apenas o jogador afetado pode perceber. Isso cria momentos incríveis na stream onde seus espectadores podem ver coisas que seus parceiros de cooperativo não conseguem.
+
+Os streamers devem estabelecer um protocolo de comunicação rigoroso para evitar fogo amigo e a eliminação do esquadrão. Siga estes passos para lidar com a loucura crescente na stream:
+
+<Steps>
+  <Step num="1" title="Inicie o Teste de Realidade">
+    Quando você vir mudanças ambientais como uma selva sangrando, chuva vermelha ou terreno mudando, pergunte aos seus colegas se eles também veem antes de reagir.
+  </Step>
+  <Step num="2" title="Verifique a Identidade dos Colegas">
+    A loucura pode projetar silhuetas falsas de companheiros de equipe. Use o chat de voz espacial para confirmar se a figura que se aproxima de você na névoa é realmente seu aliado.
+  </Step>
+  <Step num="3" title="Ignore Trombetas Distantes">
+    A selva imitará o som da trombeta da carroça de boi para atrair você para longe. Nunca siga o som de uma trombeta sozinho; sempre verifique a posição da carroça com sua equipe primeiro.
+  </Step>
+  <Step num="4" title="Delegue a Tomada de Decisões">
+    Se o seu personagem estiver fortemente perturbado, pare de liderar o grupo. Siga os movimentos físicos de um colega de equipe confirmado como são para sua segurança.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Interação com o Chat">
+Transforme seu chat da Twitch em uma ferramenta de "teste de sanidade". Peça aos seus espectadores que confirmem se veem um monstro ou se sua mente está pregando peças, gerando alto engajamento da comunidade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos da Expedição e Checklist da Stream">
+
+Cada expedição bem-sucedida requer o equilíbrio entre a ganância e a sobrevivência. Enquanto as áreas mais profundas da selva contêm relíquias valiosas e tesouros amaldiçoados, avançar demais pode levar à perda de toda a sua carga. Os streamers devem definir objetivos claros para cada transmissão para manter a progressão em movimento.
+
+Use este checklist para acompanhar seus marcos na stream e desbloquear novos pontos de partida:
+
+<Checklist
+  id="twitch-stream-goals"
+  title="Marcos de Expedição para Streamers:"
+  items={[
+    "Completar um Contrato de Capitão com um esquadrão completo de 4 jogadores",
+    "Localizar e garantir um tesouro de metal Tulu de alto valor usando o Medalhão",
+    "Recuperar um Diário de Bordo de Forte para desbloquear um novo local de partida",
+    "Sobreviver a uma expedição completa durante um evento localizado de chuva de sangue",
+    "Extrair com sucesso com uma carroça de boi totalmente carregada sob alta tensão na selva"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Progressão">
+Priorize a recuperação de diários de bordo de fortes abandonados. Desbloquear novos locais de partida permite que você ignore áreas iniciais, mantendo o conteúdo da sua stream atualizado e dinâmico.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ para Streamers da Twitch">
+
+<FAQ items={[
+  {
+    question: "Existe uma integração oficial com a Twitch ou sistema de Twitch Drops?",
+    answer: "Embora o jogo apresente mecânicas cooperativas profundas perfeitas para streaming, verifique os canais sociais oficiais da Nacon e da ACE Team para as atualizações mais recentes sobre Twitch Drops ativos e eventos de campanha para streamers."
+  },
+  {
+    question: "Posso jogar e transmitir este jogo inteiramente solo?",
+    answer: "Sim, um modo single-player completo está disponível. No entanto, jogar solo requer um loadout altamente equilibrado, já que você não tem companheiros para proteger a carroça ou verificar suas alucinações."
+  },
+  {
+    question: "Como o chat de voz espacial afeta a experiência da stream?",
+    answer: "O chat de voz espacial posiciona as vozes dos jogadores com base em sua localização no jogo. Se você se afastar demais na névoa, as vozes dos seus companheiros desaparecerão, aumentando significativamente a atmosfera de horror para seus espectadores."
+  },
+  {
+    question: "O que acontece se um companheiro de equipe morrer durante uma live?",
+    answer: "Se um explorador caído não for revivido prontamente, ele pode retornar como um hostil morto-vivo corrompido que caça o esquadrão sobrevivente. Priorize revives seguros para manter sua equipe intacta."
+  }
+]} />
+
+</Section>

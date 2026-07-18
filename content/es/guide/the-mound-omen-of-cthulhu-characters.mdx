@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personajes de The Mound: Omen of Cthulhu: Clasificación de Clases 2026",
+  description: "Descubre los arquetipos de personajes en The Mound: Omen of Cthulhu. Aprende sobre los roles cosméticos, equipamientos de escuadrón y estrategias de supervivencia para el juego cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Archetypes+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "personajes, clases, guía, The Mound, Omen of Cthulhu, cooperativo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Arquetipos Cosméticos**: Los **personajes de The Mound: Omen of Cthulhu** principales son solo cosméticos, lo que significa que no poseen habilidades mecánicas únicas ni capacidades pasivas.
+- **Cooperación de Escuadrón**: Debido a que los personajes carecen de clases distintas, la especialización de roles se determina completamente por las armas y el equipo que elijas llevar.
+- **Progresión Compartida**: El progreso de la historia y la experiencia ganada se comparten en todo el grupo, lo que hace que el trabajo en equipo sea muy gratificante.
+- **Límites de Inventario**: Cada explorador comienza con solo seis espacios de inventario, lo que requiere una distribución cuidadosa de los objetos dentro del equipo.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo a los personajes de The Mound: Omen of Cthulhu">
+
+Entrar en las selvas malditas de América del Sur requiere una comprensión profunda de tu equipo de expedición. En este shooter de extracción táctico, tu elección de superviviente da forma a tu identidad temática en lugar de a tus capacidades mecánicas. El juego enfatiza la habilidad del jugador, la coordinación y la gestión de recursos por sobre el escalado de poder específico de cada personaje.
+
+**Puntos destacados del video:**
+- Descripción detallada del ciclo de juego principal y la ambientación Lovecraftiana.
+- Explicación de las mecánicas de locura y los peligros ambientales.
+- Información sobre la gestión de inventario y el sistema de la carreta de bueyes compartida.
+- Análisis de cómo se comportan las armas bajo diferentes condiciones climáticas.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 cosas que debes saber antes de comprar" />
+
+El elenco base presenta figuras históricas distintas, cada una huyendo de un pasado problemático o buscando un propósito singular en las profundidades de la selva. Aunque no tienen estadísticas de juego únicas, sus diseños visuales y trasfondos añaden un rico matiz a la experiencia de horror psicológico.
+
+| Nombre del Personaje | Trasfondo de Lore | Motivación | Tema Estético |
+| :--- | :--- | :--- | :--- |
+| Alonso de la Torre | Exsoldado nihilista | La riqueza como libertad personal | Veterano curtido, equipo práctico |
+| Leonor | Fugitiva en busca y captura | Escapar de una acusación de asesinato | Atuendo sigiloso y ligero |
+| Don Rodrigo de Medina | Noble cansado de la guerra | Buscando honor y verdad | Armadura ornamentada pero dañada |
+| Cazadores de Fortunas | Exploradores de DLC Premium | Desbloquear secretos antiguos | Equipo de mercenario especializado |
+
+<Callout type="warning" title="Aviso de Juego">
+No elijas a tu personaje basándote en ventajas de combate esperadas. Todos los supervivientes principales comparten los mismos puntos de salud, velocidad de movimiento y límites de resistencia. Tu supervivencia depende enteramente del equipo que selecciones en el centro de mando Tempest Dot.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalización de Equipamiento y Roles de Equipo">
+
+Dado que los **personajes de The Mound: Omen of Cthulhu** no cuentan con clases predefinidas, tu rol en el escuadrón se define totalmente por tu equipamiento. Con solo seis ranuras de inventario disponibles por jugador, una distribución equilibrada de armas, municiones y objetos de utilidad es esencial para sobrevivir al descenso al inframundo subterráneo.
+
+<CardGrid cols={3}>
+  <Card title="La Vanguardia">
+    - **Arma Principal**: Machete o Sable
+    - **Utilidad**: Linterna de aceite y Vendajes
+    - **Enfoque**: Liderar el camino, despejar el follaje y manejar amenazas a corta distancia de forma silenciosa.
+  </Card>
+  <Card title="El Tirador">
+    - **Arma Principal**: Rifle de pedernal
+    - **Utilidad**: Pólvora y munición de repuesto
+    - **Enfoque**: Eliminar objetivos de alto valor desde la distancia antes de que alerten al bosque.
+  </Card>
+  <Card title="El Intendente">
+    - **Arma Principal**: Pistola de pedernal
+    - **Utilidad**: Raciones de comida y llaves de la carreta
+    - **Enfoque**: Gestionar los recursos del equipo, escoltar la carreta de bueyes y mantener las líneas de suministro.
+  </Card>
+</CardGrid>
+
+Al prepararte para una expedición, debes negociar con tus compañeros de escuadrón para determinar quién lleva la mayor potencia de fuego y quién gestiona el equipo de utilidad.
+
+| Tipo de Arma | Coste de Espacios | Rango Ideal | Fiabilidad Climática | Nivel de Ruido |
+| :--- | :--- | :--- | :--- | :--- |
+| Rifle de pedernal | 2 Espacios | Largo Alcance | Pobre (Falla con lluvia) | Extremadamente Alto |
+| Pistola de pedernal | 1 Espacio | Medio Alcance | Pobre (Falla con lluvia) | Alto |
+| Machete pesado | 1 Espacio | Cuerpo a cuerpo | Excelente (No le afecta) | Silencioso |
+| Cuchillo de marinero | 1 Espacio | Cuerpo a cuerpo | Excelente (No le afecta) | Silencioso |
+
+<Callout type="tip" title="Mecánicas de Lluvia">
+Los aguaceros en la selva ocurren con frecuencia. Cuando llueve, las armas de fuego de mecha y pedernal tienen una alta probabilidad de fallar. Asegúrate siempre de que al menos dos miembros del escuadrón estén equipados con armas cuerpo a cuerpo fiables para evitar quedar indefensos durante las tormentas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preparándose para la Expedición">
+
+Antes de llevar a tus **personajes de The Mound: Omen of Cthulhu** seleccionados a la selva, debes completar las fases de preparación a bordo de tu galeón base, el Tempest Dot. Esta área central sirve como tu base de operaciones donde interactúas con los miembros de la tripulación, gestionas contratos y personalizas tu equipamiento inicial.
+
+<Steps>
+  <Step num="1" title="Aceptar el Contrato del Capitán">
+    Visita al Capitán en la cubierta principal para firmar un contrato antes de la partida. Estos objetivos dictan tus metas principales, como recuperar artefactos específicos o asegurar un valor mínimo de botín.
+  </Step>
+  <Step num="2" title="Consultar al Cocinero del Barco">
+    Habla con el cocinero para saber cuáles son los mejores alimentos para recolectar en tierra. Reunir estos ingredientes específicos proporciona bonificaciones sostenidas para las siguientes incursiones.
+  </Step>
+  <Step num="3" title="Equipar a tu Explorador">
+    Asigna armas y herramientas desde la armería compartida del barco. Recuerda que el Capitán no proporciona armas de alto nivel duplicadas; tu equipo debe decidir quién se queda con el mejor equipo.
+  </Step>
+  <Step num="4" title="Desplegar en la Costa">
+    Una vez que el escuadrón esté totalmente equipado y el contrato firmado, aborda los botes de desembarco para comenzar tu descenso hacia el oscuro dosel forestal.
+  </Step>
+</Steps>
+
+| PNJ del Hub | Ubicación en el Tempest Dot | Función Principal | Recompensa Clave |
+| :--- | :--- | :--- | :--- |
+| El Capitán | Alcázar | Emite contratos y equipo | Moneda y XP de historia |
+| El Cocinero | Galera | Asesora sobre recolección de comida | Mejoras consumibles |
+| Laudista | Camarote de la tripulación | Toca salomas inmersivas | Aumento temporal de moral |
+| Perro Dormilón | Cubierta principal | Interacción de caricias | Disfrute estético |
+
+<Callout type="success" title="Progreso Compartido">
+Completar los contratos del Capitán otorga moneda y puntos de experiencia que se comparten automáticamente entre todos los jugadores humanos de tu grupo. Este diseño garantiza que ningún jugador se quede atrás en la progresión del personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Sobreviviendo a la Selva y la Locura">
+
+La selva no es simplemente un telón de fondo; es un antagonista activo que responde a tus acciones. A medida que guías a tus **personajes de The Mound: Omen of Cthulhu** más profundamente hacia la puerta subterránea, el entorno mismo intentará deformar tus sentidos y separar a tu equipo.
+
+<Checklist
+  id="survival-checklist"
+  title="Objetivos Esenciales de Supervivencia:"
+  items={[
+    "Mantén contacto visual con tus compañeros para contrarrestar las ilusiones sensoriales.",
+    "Usa el chat de voz de proximidad con precaución; el sonido viaja y alerta a las amenazas cercanas.",
+    "Guarda el exceso de botín en la carreta de bueyes para mantener libre tu inventario personal.",
+    "Monitorea el clima continuamente y cambia a armas cuerpo a cuerpo cuando empiece a llover.",
+    "Evita correr con armadura pesada cerca de los cruces de ríos para minimizar el ruido."
+  ]}
+/>
+
+La locura es una amenaza acumulativa. Cuanto más te alejes de la seguridad de la costa, más susceptible se volverá tu personaje a las alucinaciones, pasos fantasmas y cambios en los colores del entorno. Debido a que cada jugador percibe la realidad de manera diferente bajo niveles altos de locura, la comunicación clara es tu defensa definitiva.
+
+| Acción Realizada | Nivel de Ruido | Radio de Alerta | Riesgo Ambiental |
+| :--- | :--- | :--- | :--- |
+| Disparar un Rifle de Pedernal | Máximo | Extremo | Despierta a los guardianes del bosque inactivos |
+| Correr con Armadura Pesada | Alto | Medio | Atrae a rezagados errantes |
+| Cruzar un Río (Salpicar) | Medio | Medio | Alerta a variantes de horrores acuáticos |
+| Cuerno de una Carreta Perdida | Alto | Grande | Indica la ubicación del escuadrón a los enemigos |
+
+<Callout type="info" title="Audio de Proximidad">
+El juego utiliza un chat de voz de proximidad realista. El volumen y la dirección de las voces de tus compañeros se desvanecen con la distancia. Si escuchas a un compañero llamar desde la niebla pero su voz suena anormalmente cercana o distorsionada, podría ser una alucinación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos del Sistema y Ediciones del Juego">
+
+Para garantizar una experiencia fluida mientras navegas por los aterradores entornos con tus **personajes de The Mound: Omen of Cthulhu** elegidos, revisa los requisitos de hardware y las ediciones disponibles antes del lanzamiento el 15 de julio de 2026.
+
+| Componente de Hardware | Requisitos Mínimos | Especificaciones Recomendadas |
+| :--- | :--- | :--- |
+| Sistema Operativo | Windows 10/11 (64-bit) | Windows 10/11 (64-bit) |
+| Procesador (CPU) | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| Memoria (RAM) | 16 GB RAM | 16 GB RAM |
+| Tarjeta Gráfica (GPU) | GTX 1660 Super (6GB) / RX 5600 XT (6GB) | RTX 3070 (8GB) / RX 6750 XT (12GB) |
+| Versión de DirectX | Versión 12 | Versión 12 |
+
+<Callout type="info" title="Descuento por Reserva">
+Un descuento del 10% por reserva está disponible para los jugadores de consolas PlayStation 5 y Xbox Series X/S antes de la fecha de lanzamiento. Los jugadores de PC pueden acceder a una demo jugable gratuita directamente en la página de la tienda de Steam para probar el rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Tienen los personajes de The Mound: Omen of Cthulhu habilidades únicas?",
+    answer: "No. Todos los arquetipos de personajes jugables son estrictamente cosméticos. Presentan diseños visuales, atuendos y trasfondos únicos, pero su rendimiento en el juego, salud y velocidad son idénticos."
+  },
+  {
+    question: "¿Puedo jugar el juego en solitario?",
+    answer: "Sí, puedes jugar solo acompañado por aliados controlados por la IA. Sin embargo, el juego está fuertemente optimizado para el juego cooperativo, y las partidas en solitario escalan en dificultad, lo que hace que la progresión a largo plazo sea muy desafiante."
+  },
+  {
+    question: "¿Cuál es el propósito de la carreta de bueyes?",
+    answer: "La carreta actúa como una unidad de almacenamiento móvil que sigue el progreso de tu escuadrón. Dado que los jugadores solo tienen seis ranuras de inventario personal, debes usar el maletero de la carreta para guardar botín pesado, munición extra y artefactos valiosos."
+  },
+  {
+    question: "¿Cómo afecta la mecánica de la lluvia al combate?",
+    answer: "La lluvia intensa hace que las armas de fuego de pedernal y mecha funcionen mal o fallen. Cuando comienza una tormenta, los jugadores deben confiar en armas cuerpo a cuerpo como machetes y cuchillos, lo que hace que las habilidades de combate a corta distancia sean esenciales."
+  }
+]} />
+
+</Section>

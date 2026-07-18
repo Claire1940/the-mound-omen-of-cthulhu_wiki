@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Klassen in The Mound Omen of Cthulhu: Charakterrollen & Archetypen",
+  description: "Erkunde Charakter-Archetypen und ausrüstungsbasierte Rollen in The Mound: Omen of Cthulhu. Erfahre, wie du dein Team für Lovecraft-Extraktionsmissionen optimierst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Character+Archetypes+Guide",
+  date: "2026-07-19",
+  author: "Wiki-Team von The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Die Klassen in The Mound Omen of Cthulhu** sind kosmetische Archetypen und keine traditionellen RPG-Klassen mit einzigartigen Fertigkeitenbäumen.
+- **Die Rollendefinition** wird vollständig durch die Waffen, Ausrüstung und Ressourcen bestimmt, die du in den Dschungel mitnimmst.
+- **Die Synergie des Teams** beruht auf dem Ausbalancieren der begrenzten Inventarplätze (6 pro Spieler) im vierköpfigen Expeditionsteam.
+- **Die Geisteszustand-Mechaniken** führen Halluzinationen ein, die dich täuschen können, sodass du falsche Gegenstände oder feindselige Teammitglieder siehst.
+- **Umweltfaktoren** wie Regen können Schusswaffen unbrauchbar machen, was eine Abhängigkeit von Nahkampf-\"Klassen\" oder -Rollen erzwingt.
+</Callout>
+
+<Section icon={Map} title="Die Klassen in The Mound Omen of Cthulhu verstehen">
+
+In der schaurigen Welt von *The Mound: Omen of Cthulhu* unterscheidet sich das Konzept einer „Klasse“ erheblich von Standard-Hero-Shootern oder MMOs. Während Spieler oft nach **Klassen in The Mound Omen of Cthulhu** suchen, haben sich die Entwickler von ACE Team für ein flexibleres, ausrüstungsbasiertes System entschieden. Deine „Klasse“ ist keine dauerhafte Entscheidung, die du bei der Charakterauswahl triffst, sondern eine taktische Rolle, die du basierend auf der Ausrüstung einnimmst, die du aus der Waffenkammer der Galeone *Tempest Dot* holst.
+
+**Video-Highlights:**
+- Übersicht über die 4 primären Charakter-Archetypen und ihre Hintergrundgeschichten.
+- Erklärung, wie die Extraktionsschleife die Ausrüstungsauswahl beeinflusst.
+- Kritische Einblicke in den psychologischen Horror und die Systeme des Geisteszustands.
+- Tipps zur Verwaltung des gemeinsamen Ochsenkarren-Lagers bei Expeditionen tief im Dschungel.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Things You Need To Know Before You Buy" />
+
+Diese Designphilosophie fördert die Flexibilität. In einer Mission agierst du vielleicht als primärer Späher mit Bogen und Lichtquellen, und in der nächsten bist du die schwere Vorhut mit einer Machete und einer Steinschlosspistole. Da der Inventarplatz jedoch streng auf sechs Plätze begrenzt ist, kann kein einzelner Spieler ein „Tausendsassa“ sein. Ihr müsst euch durch Zusammenarbeit spezialisieren.
+
+<Callout type="tip" title="Rollenspezialisierung">
+Da es keine fest vorgegebenen Fertigkeiten gibt, solltet ihr vor Missionsbeginn Rollen in eurem Team festlegen. Es ist effektiver, wenn sich ein Spieler auf „Nützlichkeit“ (Lampen, Nahrung) und ein anderer auf „Verteidigung“ (schwerer Nahkampf, Rüstung) konzentriert, als wenn jeder von allem ein bisschen dabeihat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Charakter-Archetypen und Hintergrundgeschichten">
+
+Obwohl die mechanischen Unterschiede minimal sind, bietet das Spiel vier verschiedene Charakter-Archetypen. Diese Charaktere sorgen für Atmosphäre, bieten einzigartige Sprachausgaben und persönliche Motivationen, die in die umfassendere Lovecraft-Erzählung einfließen. Die Wahl deines Charakters ist der erste Schritt, um in das spanische Kolonialsetting des 16. Jahrhunderts einzutauchen.
+
+<CardGrid cols={2}>
+  <Card title="Alonso de la Torre">
+    - **Hintergrundgeschichte**: Ein nihilistischer ehemaliger Soldat, der von jahrelangem Krieg gezeichnet ist.
+    - **Motivation**: Sieht Gold ausschließlich als Mittel, um sich seine endgültige Freiheit zu erkaufen.
+    - **Persönlichkeit**: Stoisch und ungerührt von den übernatürlichen Schrecken des Dschungels.
+  </Card>
+  <Card title="Leonor">
+    - **Hintergrundgeschichte**: Eine Geflohene, die nach einem skrupellosen Mord aus Spanien entkam.
+    - **Motivation**: Sucht ein neues Leben auf hoher See, um ihrer Vergangenheit zu entkommen.
+    - **Persönlichkeit**: Wild, unabhängig und überlebensorientiert.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    - **Hintergrundgeschichte**: Ein Adliger, der wie Alonso von den Realitäten des Kampfes ernüchtert wurde.
+    - **Motivation**: Auf der Suche nach Ehre und der ultimativen Wahrheit hinter dem Hügel (The Mound).
+    - **Persönlichkeit**: Diszipliniert und auf den höheren Zweck der Mission fokussiert.
+  </Card>
+  <Card title="Der gestrandete Überlebende">
+    - **Hintergrundgeschichte**: Ein gestrandeter Entdecker, der bei Expeditionen tief im Dschungel gefunden wird.
+    - **Motivation**: Überleben und Flucht vor dem kosmischen Einfluss von Cthulhu.
+    - **Freischaltung**: Muss während einer bestimmten Mission gerettet werden, um spielbar zu werden.
+  </Card>
+</CardGrid>
+
+| Archetyp | Hintergrund | Primäre Eigenschaft | Freischaltbedingung |
+| :--- | :--- | :--- | :--- |
+| **Alonso** | Ex-Soldat | Nihilistisch | Standard |
+| **Leonor** | Geflohene | Skrupellos | Standard |
+| **Rodrigo** | Adliger | Wahrheitsfinder | Standard |
+| **Maroon** | Überlebender | Instabil | Rettungsmission |
+
+<Callout type="info" title="Kosmetische Natur">
+Denke daran, dass diese Archetypen keine Statusboni gewähren. Deine Effektivität im Kampf hängt zu 100 % von den Gegenständen ab, die du sammelst, und den Waffen, die du aus den Vertragsbelohnungen des Kapitäns ausrüstest.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Leitfaden für waffenbasierte Rollen">
+
+Da die **Klassen in The Mound Omen of Cthulhu** durch die Ausrüstung definiert werden, ist das Verständnis der Waffen-Meta entscheidend. Das Spiel bietet eine Vielzahl von Waffen aus dem 16. Jahrhundert, von leisen Bögen bis hin zu lauten, mächtigen Schusswaffen. Jede Wahl bringt erhebliche Kompromisse mit sich, insbesondere im Hinblick auf die „Lärm“-Mechanik, die den Dschungel auf deine Anwesenheit aufmerksam machen kann.
+
+| Rolle | Hauptwaffe | Zweitgegenstand | Vorteile | Nachteile |
+| :--- | :--- | :--- | :--- | :--- |
+| **Späher** | Bogen / Armbrust | Öllampe | Leise, wiederverwendbare Munition | Geringer Berstschaden |
+| **Vorhut** | Machete / Axt | Schild | Hohe Haltbarkeit, keine Munition | Riskanter Nahkampf |
+| **Schütze** | Steinschlosspistole | Schießpulver | Hoher Schaden, Reichweite | Laut, versagt bei Regen |
+| **Unterstützer** | Matrosenmesser | Nahrung / Medizin | Hohe Nützlichkeit | Schwach in direkten Kämpfen |
+
+Die Umgebung spielt eine enorme Rolle dabei, wie diese „Klassen“ abschneiden. Wenn das Wetter beispielsweise auf starken Regen umschlägt, versagen Luntenschloss- und Steinschloss-Schusswaffen. In solchen Szenarien wird die Rolle des „Schützen“ praktisch nutzlos, was den Spieler zwingt, auf Nahkampf- oder Wurfwaffen wie Äxte auszuweichen.
+
+<Callout type="warning" title="Lärmmanagement">
+Schusswaffen sind mächtig, aber gefährlich. Ein einziger Schuss kann „den Wald wecken“ und dazu führen, dass eine Schar von Eldritch-Feinden auf deine Position zustürmt. Nutze Schusswaffen nur als letzten Ausweg oder wenn du auf eine größere Konfrontation vorbereitet bist.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Expeditionsvorbereitung: Das Ritual vor dem Aufbruch">
+
+Der Erfolg in *The Mound: Omen of Cthulhu* beginnt auf der *Tempest Dot*. Bevor du einen Fuß in den Dschungel setzt, musst du dich mit deiner Truppe und dem Kapitän des Schiffes abstimmen, um eure Ausrüstung festzulegen. Da die Ressourcen knapp sind, kannst du es dir nicht leisten, Inventarplätze für überflüssige Gegenstände zu verschwenden.
+
+<Steps>
+  <Step num="1" title="Unterzeichne den Vertrag">
+    Sprich mit dem Kapitän, um einen Vertrag vor dem Aufbruch anzunehmen. Diese Ziele definieren deine Aufgaben, wie das Finden bestimmter Artefakte oder das Retten von Überlebenden, und stellen die Startausrüstung für den Lauf bereit.
+  </Step>
+  <Step num="2" title="Verteile die Waffenkammer">
+    Der Kapitän stellt einen gemeinsamen Pool an Waffen und Schießpulver zur Verfügung. Ihr müsst im Team entscheiden, wer das Gewehr und wer das Messer nimmt. Ihr könnt nicht alle die beste Ausrüstung haben.
+  </Step>
+  <Step num="3" title="Konsultiere den Koch">
+    Sprich mit dem Schiffskoch, um herauszufinden, welche Lebensmittel am besten zu beschaffen sind. Nahrung ist unerlässlich, um die Ausdauer und Gesundheit während des zermürbenden Marsches zum Hügel aufrechtzuerhalten.
+  </Step>
+  <Step num="4" title="Bereite den Ochsenkarren vor">
+    Stelle sicher, dass dein Ochsenkarren bereit ist. Dieser automatisierte Wagen folgt eurem Fortschritt und dient als Hauptlager für wertvolle Beute, die nicht in dein persönliches 6-Slot-Inventar passt.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gemeinsamer Fortschritt">
+Mach dir keine Sorgen über das „Stehlen“ von EP. Der Fortschritt und die Story-Freischaltungen werden im gesamten Team geteilt. Konzentriert euch auf die Missionsziele statt auf das Horten individueller Beute, um die Geschichte für alle voranzutreiben.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Die Auswirkungen von Wahnsinn und Geisteszustand">
+
+Ein einzigartiger Aspekt der **Klassen in The Mound Omen of Cthulhu** ist ihre Interaktion mit den psychologischen Horrorelementen des Spiels. Je tiefer du in den Dschungel vordringst, desto mehr wird dein Geisteszustand bröckeln. Dies ist nicht nur eine Statusleiste; es verändert aktiv deine Wahrnehmung der Realität, was die Rollen „Unterstützung“ und „Kommunikation“ überlebenswichtig macht.
+
+**Zu den Effekten des Geisteszustands gehören:**
+- **Akustische Halluzinationen**: Das Hören von Schritten oder Schreien, die nicht existieren.
+- **Visuelle Verzerrungen**: Das Sehen von „Phantom-Beute“ über Stachelgruben oder sich verändernde Farben in der Umgebung.
+- **Paranoia**: Deine Teammitglieder als feindselige Monster wahrnehmen oder „falsche“ Verbündete sehen, die eigentlich getarnte Feinde sind.
+- **Sensorische Illusionen**: Flackernde Lampen oder verschwindende Strukturen, die die Navigation erschweren.
+
+<Checklist
+  id="sanity-check"
+  title="Überlebens-Checkliste für den Geisteszustand:"
+  items={[
+    "Nutze den Richtungs-Sprachchat (Proximity Voice Chat), um die Positionen von Verbündeten zu überprüfen",
+    "Gleicht Informationen über 'Beute' ab, bevor ihr euch ihr nähert",
+    "Zieht euch zum Ochsenkarren zurück, wenn die Halluzinationen überwältigend werden",
+    "Vermeidet unnötigen Lärm, um die Alarmbereitschaft des Dschungels niedrig zu halten",
+    "Haltet während der Nachtzyklen eine Lichtquelle aktiv, um den Schrecken abzuwehren"
+  ]}
+/>
+
+| Gefahr | Effekt | Schadensbegrenzungsstrategie |
+| :--- | :--- | :--- |
+| **Regen** | Deaktiviert Schusswaffen | Wechsel zu Nahkampf/Bogen |
+| **Dunkelheit** | Erhöht den Verlust des Geisteszustands | Öllampen in Betrieb halten |
+| **Lärm** | Alarmiert den Dschungel | Schleichen / Gedämpfte Waffen |
+| **Halluzination** | Täuschende Realität | Verbale Überprüfung im Team |
+
+<Callout type="warning" title="Vertraue deinen Ohren">
+Das Spiel nutzt einen speziellen Richtungs-Sprachchat. Wenn du einen „Verbündeten“ siehst, seine Stimme aber aus einer anderen Richtung kommt oder er überhaupt nicht spricht, halluzinierst du wahrscheinlich. Vertraue dem Ton, nicht deinen Augen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Gibt es einzigartige Fertigkeiten für jede der Klassen in The Mound Omen of Cthulhu?",
+    answer: "Nein. Die vier Charakter-Archetypen (Alonso, Leonor, Rodrigo und der Maroon) sind rein kosmetischer Natur. Deine Fertigkeiten und Fähigkeiten werden durch die Waffen und Ausrüstung definiert, die du bei dir trägst."
+  },
+  {
+    question: "Kann ich meine Rolle während einer Expedition ändern?",
+    answer: "Ja, vorausgesetzt, du findest neue Ausrüstung im Dschungel oder tauschst Gegenstände mit deinen Teammitgliedern. Du bist jedoch durch dein Inventar mit 6 Plätzen begrenzt."
+  },
+  {
+    question: "Ändert das Solospiel das Klassensystem?",
+    answer: "Wenn du solo spielst, schließen sich dir computergesteuerte Verbündete an. Obwohl du deine Ausrüstung immer noch selbst wählen kannst, ist das Spiel auf Koop ausgelegt, was das Solospiel auf lange Sicht erheblich schwieriger macht."
+  },
+  {
+    question: "Wie schalte ich mehr Charaktere in The Mound frei?",
+    answer: "Einige Charaktere, wie der gestrandete Überlebende (Maroon Survivor), müssen während bestimmter Expeditionen gefunden und gerettet werden. Sobald sie gerettet und sicher extrahiert wurden, stehen sie auf der Tempest Dot zur Auswahl bereit."
+  }
+]} />
+
+</Section>

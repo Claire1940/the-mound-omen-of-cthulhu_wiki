@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Twitch: Streamer-Leitfaden & Drops",
+  description: "Meistern Sie die Strategie für The Mound Omen of Cthulhu auf Twitch. Erfahren Sie alles über Setup, Koop-Taktiken, Wahnsinnsmechaniken und Drop-Integration für erfolgreiche Horror-Übertragungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Twitch+Streamer+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "The Mound Omen of Cthulhu, Twitch, Streamer-Guide, Drops, Koop-Horror, Survival"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Twitch-Integration**: Übertragen Sie den intensiven 4-Spieler-Koop-Horror von **The Mound Omen of Cthulhu Twitch**-Kampagnen, um Ihre Community einzubinden.
+- **Wahnsinnsmechaniken**: Das Fehlen eines herkömmlichen Sanity-HUDs macht die Interaktion mit den Zuschauern entscheidend für die Überprüfung echter Bedrohungen.
+- **Koop-Strategie**: Teilen Sie die Teamverantwortlichkeiten auf der Galeone auf, um ein frühzeitiges Auslöschen des Trupps während der Livestreams zu verhindern.
+- **Ausrüstungswahl**: Finden Sie das Gleichgewicht zwischen leisen Bögen und lauten Schusswaffen basierend auf dem aktuellen Wetter und den Lärmgrenzen.
+- **Trupp-Kommunikation**: Nutzen Sie den räumlichen Sprachchat, um den Zusammenhalt zu wahren und trügerische falsche Teammitglieder zu identifizieren.
+</Callout>
+
+<Section icon={Map} title="Streaming von The Mound Omen of Cthulhu Twitch-Kampagnen">
+
+Das Streamen von **The Mound Omen of Cthulhu Twitch**-Sessions bietet Streamern eine unglaubliche Gelegenheit, hochriskantes kooperatives Überleben zu präsentieren. Entwickelt vom ACE Team und veröffentlicht von Nacon, lebt dieses 4-Spieler-Lovecraft-Horrorspiel von Spannung, Atmosphäre und dem Zusammenbruch des Vertrauens zwischen den Spielern. Da der Wahnsinn die Welt für jeden Entdecker individuell verändert, wird Ihr Twitch-Chat praktisch zu einem zusätzlichen Mitglied der Crew, das Ihnen hilft, die Realität von schrecklichen Halluzinationen zu unterscheiden.
+
+Um eine qualitativ hochwertige Übertragung zu liefern, müssen Sie verstehen, wie die Kernsysteme des Spiels in ein Live-Streaming-Format übersetzt werden. Die folgende Tabelle skizziert die wesentlichen Details zum Start des Spiels, zu den Plattformen und den Editionsmerkmalen, um Ihnen bei der Einrichtung Ihres Streams zu helfen.
+
+| Funktion | Standard Edition | Deluxe Edition | Auswirkungen für Streamer |
+|---|---|---|---|
+| **Basispreis** | $29.99 ($23.99 Launch-Aktion) | $39.99 ($31.99 Launch-Aktion) | Standard deckt alle Kernmechaniken des Gameplays ab. |
+| **Plattformen** | PC, PS5, Xbox Series X\|S | PC, PS5, Xbox Series X\|S | Crossplay wird über alle Plattformen hinweg vollständig unterstützt. |
+| **Kosmetika** | Lost Explorers' Swords Pack | Abyssal Gear Pack, Fortune Hunters | Deluxe-Kosmetika bieten einzigartige Stile für den Stream. |
+| **Exklusive Mission** | Nicht auf Konsolen enthalten | Temple of Yig Mission | Nur der Host benötigt die Deluxe-Edition, damit die Gruppe spielen kann. |
+
+<Callout type="tip" title="Streamer-Tipp">
+Wenn Sie die PC-Version streamen, stellen Sie sicher, dass Sie ein 64-Bit-Betriebssystem und mindestens 16 GB RAM haben. Das Verringern der Schattenqualität und des volumetrischen Nebels kann Ihre Bildrate beim Streamen auf einem Single-PC-Setup erheblich stabilisieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Koop-Trupp-Setup und Streamer-Loadouts">
+
+Ein organisierter Trupp ist der Schlüssel zum Überleben im verfluchten Dschungel unter den wachsamen Augen Ihres Twitch-Publikums. In **The Mound Omen of Cthulhu Twitch** Koop-Runs können es sich die Spieler nicht leisten, identische Loadouts zu verwenden. Die Ausrüstung ist geteilt und begrenzt, was bedeutet, dass die Verträge des Kapitäns eine strategische Verteilung von Waffen, Beleuchtung und Werkzeugen erfordern, bevor man die Galeone Tempestad verlässt.
+
+Um die Effizienz Ihres Trupps zu maximieren und Ihren Stream ansprechend zu gestalten, unterteilen Sie Ihr Team in klare funktionale Rollen. Nutzen Sie das untenstehende Kartenraster, um die Konfiguration Ihres Teams zu planen.
+
+<CardGrid cols={3}>
+  <Card title="Der Späher (Bogen & Messer)">
+    - **Leiser Fernkampf**
+    - Schaltet Wachen lautlos aus
+    - Immun gegen Fehlfunktionen bei Regen
+  </Card>
+  <Card title="Der Navigator (Lampe & Karte)">
+    - **Kontrolliert die Sichtbarkeit der Gruppe**
+    - Verfolgt Logbücher in verlassenen Forts
+    - Führt das Team durch den Nebel
+  </Card>
+  <Card title="Der Verteidiger (Muskete & Karren)">
+    - **Schwere Notfall-Feuerkraft**
+    - Bewacht den Ochsenkarren mit dem Schatz
+    - Kontrolliert die Eskalation von Gegnerhorden
+  </Card>
+</CardGrid>
+
+Die Wahl der Bewaffnung hat direkten Einfluss auf den Lärmpegel Ihres Runs. Laute Schüsse wecken den Dschungel auf, was dazu führt, dass die feindlichen Aktivitäten rapide eskalieren. Nutzen Sie diese Waffenvergleichstabelle als Leitfaden für Ihre Loadout-Entscheidungen während des Live-Gameplays:
+
+| Waffe / Werkzeug | Kategorie | Hauptstärke | Größtes Risiko |
+|---|---|---|---|
+| **Bogen** | Leiser Fernkampf | Schnelles Nachladen, lautlos, funktioniert bei Regen | Erfordert präzises Zielen unter Druck |
+| **Steinschlossmuskete** | Notfall-Schusswaffe | Hohe Mannstoppwirkung gegen Monster | Extrem laut, versagt bei starkem Regen |
+| **Messer** | Lautloser Nahkampf | Benötigt keine Munition, zuverlässige Reserve | Zwingt in gefährliche Nahdistanz |
+| **Öllampe** | Hilfsmittel | Durchschneidet dichten volumetrischen Nebel | Macht den Träger zum primären Ziel |
+| **Schatzmedaillon** | Hilfsmittel | Lokalisiert wertvolles Tulu-Metall | Gibt bei Treffern ein lautes metallisches Klirren ab |
+
+<Callout type="warning" title="Wetterwarnung">
+Prüfen Sie immer das Wetter, bevor Sie in einen Kampf ziehen. Wenn es zu regnen beginnt, werden Steinschloss- und Luntenschlossmusketen nicht feuern. Stellen Sie sicher, dass Ihr Team Bögen und Messer als Alternativen für trockenes Pulver bereit hat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Umgang mit Wahnsinn und Halluzinationen im Stream">
+
+Das prägende Merkmal von **The Mound Omen of Cthulhu Twitch**-Übertragungen ist das einzigartige Wahnsinnssystem des Spiels. Es gibt keinen sichtbaren Wahnsinnsbalken oder HUD-Anzeige. Stattdessen manifestiert sich der Wahnsinn als private visuelle und auditive Halluzinationen, die nur der betroffene Spieler wahrnehmen kann. Dies schafft unglaubliche Stream-Momente, in denen Ihre Zuschauer Dinge sehen können, die Ihre Koop-Partner nicht sehen.
+
+Streamer müssen ein strenges Kommunikationsprotokoll etablieren, um Eigenbeschuss und das Auslöschen des Trupps zu verhindern. Befolgen Sie diese Schritte, um mit zunehmendem Wahnsinn im Stream umzugehen:
+
+<Steps>
+  <Step num="1" title="Realitätscheck einleiten">
+    Wenn Sie Umweltveränderungen wie einen blutenden Dschungel, roten Regen oder sich verschiebendes Gelände sehen, fragen Sie Ihre Teammitglieder, ob sie es auch sehen, bevor Sie reagieren.
+  </Step>
+  <Step num="2" title="Identität der Teammitglieder verifizieren">
+    Wahnsinn kann falsche Silhouetten von Teammitgliedern projizieren. Nutzen Sie den räumlichen Sprachchat, um zu bestätigen, ob die Gestalt, die im Nebel auf Sie zukommt, tatsächlich Ihr Verbündeter ist.
+  </Step>
+  <Step num="3" title="Entfernte Hörner ignorieren">
+    Der Dschungel wird das Horn des Ochsenkarrens imitieren, um Sie wegzulocken. Folgen Sie niemals allein einem Horngeräusch; verifizieren Sie immer zuerst die Position des Karrens mit Ihrem Team.
+  </Step>
+  <Step num="4" title="Entscheidungsfindung abgeben">
+    Wenn Ihr Charakter stark gezeichnet ist, hören Sie auf, die Gruppe anzuführen. Folgen Sie den physischen Bewegungen eines bestätigten gesunden Teammitglieds in Sicherheit.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Chat-Interaktion">
+Machen Sie Ihren Twitch-Chat zu einem Werkzeug für den "Sanity Check". Lassen Sie Ihre Zuschauer bestätigen, ob sie ein Monster sehen oder ob Ihr Verstand Ihnen einen Streich spielt, was die Community-Beteiligung enorm steigert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditionsziele und Stream-Checkliste">
+
+Jede erfolgreiche Expedition erfordert ein Gleichgewicht zwischen Gier und Überleben. Während tiefere Dschungelgebiete wertvolle Relikte und verfluchte Schätze enthalten, kann zu weites Vorstoßen zum Verlust Ihrer gesamten Beute führen. Streamer sollten für jede Übertragung klare Ziele setzen, um den Fortschritt voranzutreiben.
+
+Nutzen Sie diese Checkliste, um Ihre Stream-Meilensteine zu verfolgen und neue Startpunkte freizuschalten:
+
+<Checklist
+  id="twitch-stream-goals"
+  title="Expeditions-Meilensteine für Streamer:"
+  items={[
+    "Schließen Sie einen Kapitänsvertrag mit einem vollen 4-Spieler-Trupp ab",
+    "Finden und sichern Sie einen hochwertigen Tulu-Metallschatz mithilfe des Medaillons",
+    "Bergen Sie ein Festungslogbuch, um einen neuen Startpunkt freizuschalten",
+    "Überleben Sie eine vollständige Expedition während eines lokalen Blutregen-Ereignisses",
+    "Extrahieren Sie erfolgreich mit einem voll beladenen Ochsenkarren unter hoher Dschungelspannung"
+  ]}
+/>
+
+<Callout type="info" title="Fortschritts-Tipp">
+Priorisieren Sie das Bergen von Logbüchern aus verlassenen Forts. Das Freischalten neuer Startorte ermöglicht es Ihnen, frühe Gebiete zu umgehen und Ihre Stream-Inhalte frisch und temporeich zu halten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Twitch-Streamer-FAQ">
+
+<FAQ items={[
+  {
+    question: "Gibt es eine offizielle Twitch-Integration oder ein Twitch-Drops-System?",
+    answer: "Obwohl das Spiel über tiefgreifende kooperative Mechaniken verfügt, die perfekt für das Streaming geeignet sind, sollten Sie die offiziellen Social-Media-Kanäle von Nacon und ACE Team auf die neuesten Updates zu aktiven Twitch-Drops und Streamer-Kampagnen-Events prüfen."
+  },
+  {
+    question: "Kann ich dieses Spiel auch komplett solo spielen und streamen?",
+    answer: "Ja, ein vollständiger Einzelspielermodus ist verfügbar. Das Solospiel erfordert jedoch ein sehr ausgewogenes Loadout, da Sie keine Teammitglieder haben, die den Karren schützen oder Ihre Halluzinationen verifizieren können."
+  },
+  {
+    question: "Wie beeinflusst der räumliche Sprachchat das Stream-Erlebnis?",
+    answer: "Der räumliche Sprachchat positioniert die Stimmen der Spieler basierend auf ihrem Standort im Spiel. Wenn Sie zu weit in den Nebel wandern, verblassen die Stimmen Ihrer Teammitglieder, was die Horror-Atmosphäre für Ihre Zuschauer erheblich verstärkt."
+  },
+  {
+    question: "Was passiert, wenn ein Teammitglied während eines Livestreams stirbt?",
+    answer: "Wenn ein gefallener Entdecker nicht rechtzeitig wiederbelebt wird, kann er als korrumpierter, untoter Feind zurückkehren, der den überlebenden Trupp jagt. Priorisieren Sie sichere Wiederbelebungen, um Ihr Team intakt zu halten."
+  }
+]} />
+
+</Section>

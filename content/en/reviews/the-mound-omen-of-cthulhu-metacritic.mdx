@@ -1,0 +1,126 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Guide: Strategies & 2026 Tips",
+  description: "Master the cosmic horror of The Mound: Omen of Cthulhu with our expert guide covering sanity mechanics, co-op strategies, and survival essentials.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=The+Mound+Omen+of+Cthulhu+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound: Omen of Cthulhu** demands tight coordination and sanity management to survive the cursed jungle depths.
+- **Proximity voice chat** is essential for maintaining team cohesion and managing the game's intense paranoia-inducing mechanics.
+- **Inventory management** is a critical skill; prioritizing essential gear over loot is vital for long-term survival.
+- **Meta-progression** is limited, so treat every expedition as a learning opportunity to master the game's unique cosmic horror loop.
+</Callout>
+
+<Section icon={Map} title="Core Gameplay Mechanics">
+
+The Mound: Omen of Cthulhu offers a unique blend of extraction-style survival and Lovecraftian horror. Success relies not just on combat prowess, but on understanding the psychological toll the environment takes on your explorers.
+
+| Mechanic | Impact on Gameplay | Difficulty |
+| :--- | :--- | :--- |
+| Sanity System | Triggers hallucinations and paranoia effects | High |
+| Proximity Chat | Enables realistic team communication | Medium |
+| Inventory | Limited slots, requires strategic prioritization | High |
+| Combat | Clumsy but high-stakes encounters | High |
+
+<Callout type="tip" title="Survival Strategy">
+Always prioritize keeping your group together. The sanity mechanics are designed to punish lone wolves, making the game significantly more difficult for solo players compared to cooperative teams.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering the Expedition">
+
+Preparing for your journey into the cursed jungle requires careful selection of weapons and equipment. Since meta-progression is limited, your primary weapon is your knowledge of the map and the hazards within.
+
+<Steps>
+  <Step num="1" title="Gear Selection">
+    Choose your loadout carefully before boarding the galleon. Balance offensive tools with utility items for sanity management.
+  </Step>
+  <Step num="2" title="Jungle Navigation">
+    Move slowly and communicate constantly via proximity voice chat to avoid being separated from your team.
+  </Step>
+  <Step num="3" title="Resource Management">
+    Decide early what to keep. Overloading your inventory with loot will slow your escape when danger approaches.
+  </Step>
+  <Step num="4" title="The Mound Entry">
+    Reach the legendary underground world gates. Expect increased difficulty as you progress deeper into the abyss.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Progression Warning">
+Progression can feel frustratingly difficult. If you find yourself struggling, focus on gathering information about enemy patterns rather than just hoarding treasures.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Equipment Comparison">
+
+Equipping the right gear is the difference between a successful extraction and a permanent stay in the jungle. Use this comparison to optimize your team's setup.
+
+| Gear Type | Primary Function | Best For |
+| :--- | :--- | :--- |
+| Standard Firearms | Reliable mid-range damage | General defense |
+| Sanity Stabilizers | Reduces hallucination frequency | Exploration |
+| Heavy Supplies | Essential for long-duration runs | Deep jungle dives |
+| Navigation Tools | Helps map the cursed terrain | Team leaders |
+
+</Section>
+
+<Section icon={Sparkles} title="Atmosphere and Sanity Effects">
+
+The game's strongest asset is its atmospheric design. The way the environment reacts to your presence, combined with the madness system, ensures that no two playthroughs are identical.
+
+<CardGrid cols={3}>
+  <Card title="Visual Design">
+    - Immersive jungle aesthetics
+    - Cthulhu-inspired art style
+    - Atmospheric lighting
+  </Card>
+  <Card title="Audio Cues">
+    - Proximity voice integration
+    - Unsettling soundscapes
+    - Crucial for detecting threats
+  </Card>
+  <Card title="Madness System">
+    - Dynamic hallucination triggers
+    - Unique narrative storytelling
+    - High replayability factor
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Atmosphere Tip">
+For the most authentic experience, play with a dedicated group of friends. The proximity chat adds a layer of immersion that is difficult to replicate with strangers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is The Mound: Omen of Cthulhu playable solo?",
+    answer: "While technically possible, it is not recommended. The game's mechanics, particularly sanity and combat, are balanced for cooperative play, making solo runs extremely punishing."
+  },
+  {
+    question: "How long does a typical run take?",
+    answer: "Depending on your team's efficiency and luck, a run can take anywhere from five to forty hours to reach The Mound."
+  },
+  {
+    question: "What is the most important mechanic to master?",
+    answer: "Sanity management and team communication are the pillars of survival. Without these, your team will likely succumb to the environment long before reaching the goal."
+  }
+]} />
+
+</Section>

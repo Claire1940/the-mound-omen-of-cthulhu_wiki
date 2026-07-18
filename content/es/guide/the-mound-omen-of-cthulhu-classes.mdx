@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Clases en The Mound Omen of Cthulhu: Roles de Personajes y Arquetipos",
+  description: "Explora los arquetipos de personajes y los roles basados en equipamiento en The Mound: Omen of Cthulhu. Aprende a optimizar tu escuadrón para misiones de extracción lovecraftianas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/ffffff?text=Character+Archetypes+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las clases de The Mound Omen of Cthulhu** son arquetipos cosméticos en lugar de clases tradicionales de RPG con árboles de habilidades únicos.
+- **La definición de roles** se determina por completo por las armas, el equipamiento y los recursos que decidas llevar a la jungla.
+- **La sinergia del escuadrón** depende de equilibrar los espacios limitados del inventario (6 por jugador) entre los cuatro miembros del equipo de expedición.
+- **Las mecánicas de cordura** introducen alucinaciones que pueden engañarte para que veas objetos falsos o compañeros de equipo hostiles.
+- **Los factores ambientales** como la lluvia pueden inutilizar las armas de fuego, obligando a depender de "clases" o roles de combate cuerpo a cuerpo.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo las Clases en The Mound Omen of Cthulhu">
+
+En el inquietante mundo de *The Mound: Omen of Cthulhu*, el concepto de "clase" difiere significativamente de los hero shooters o MMO estándar. Aunque los jugadores suelen buscar **las clases de the mound omen of cthulhu**, los desarrolladores de ACE Team han optado por un sistema más fluido basado en el equipamiento. Tu "clase" no es una elección permanente que se realiza en la pantalla de selección de personaje, sino un rol táctico que adoptas según el equipo que extraigas del arsenal del galeón *Tempest Dot*.
+
+**Puntos Destacados del Video:**
+- Descripción general de los 4 arquetipos de personajes principales y sus historias de fondo.
+- Explicación de cómo el bucle de extracción influye en la selección de equipamiento.
+- Información crucial sobre los sistemas de horror psicológico y cordura.
+- Consejos para gestionar el alijo compartido del carro de bueyes durante las expediciones en la selva profunda.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 cosas que debes saber antes de comprar" />
+
+Esta filosofía de diseño fomenta la flexibilidad. En una misión puedes actuar como el explorador principal con un arco y objetos de fuente de luz, y en la siguiente, podrías ser la vanguardia pesada empuñando un machete y una pistola de chispa. Sin embargo, debido a que el espacio del inventario está estrictamente limitado a seis ranuras, ningún jugador puede ser un "todólogo". Debes especializarte a través de la cooperación.
+
+<Callout type="tip" title="Especialización de Roles">
+Dado que no hay habilidades predefinidas, designa los roles dentro de tu equipo antes de que comience la misión. Que un jugador se concentre en "Utilidad" (lámparas, comida) y otro en "Defensa" (combate cuerpo a cuerpo pesado, armadura) es más efectivo que si todos llevan un poco de todo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Personajes e Historias de Fondo">
+
+Aunque las diferencias mecánicas son mínimas, el juego ofrece cuatro arquetipos de personajes distintos. Estos personajes aportan estilo, líneas de voz únicas y motivaciones personales que se entrelazan con la narrativa lovecraftiana general. Elegir a tu personaje es el primer paso para sumergirte en el entorno colonial español del siglo XVI del juego.
+
+<CardGrid cols={2}>
+  <Card title="Alonso de la Torre">
+    - **Historia de fondo**: Un antiguo soldado nihilista hastiado por años de guerra.
+    - **Motivación**: Ve el oro únicamente como un medio para comprar su libertad definitiva.
+    - **Personalidad**: Estoico e impasible ante los horrores sobrenaturales de la selva.
+  </Card>
+  <Card title="Leonor">
+    - **Historia de fondo**: Una fugitiva que huyó de España tras cometer un asesinato sin remordimientos.
+    - **Motivación**: Busca una nueva vida en alta mar para escapar de su pasado.
+    - **Personalidad**: Feroz, independiente y orientada a la supervivencia.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    - **Historia de fondo**: Un noble que, al igual que Alonso, está hastiado por las realidades del combate.
+    - **Motivación**: Busca el honor y la verdad última detrás del Montículo.
+    - **Personalidad**: Disciplinado y enfocado en el propósito superior de la misión.
+  </Card>
+  <Card title="El Superviviente Cimarrón">
+    - **Historia de fondo**: Un explorador varado que se encuentra en lo profundo de la selva durante las expediciones.
+    - **Motivación**: Sobrevivir y escapar de la influencia cósmica de Cthulhu.
+    - **Desbloqueo**: Debe ser rescatado durante una misión específica para poder jugar con él.
+  </Card>
+</CardGrid>
+
+| Arquetipo | Trasfondo | Rasgo Principal | Condición de Desbloqueo |
+| :--- | :--- | :--- | :--- |
+| **Alonso** | Exsoldado | Nihilista | Por defecto |
+| **Leonor** | Fugitiva | Sin remordimientos | Por defecto |
+| **Rodrigo** | Noble | Buscador de la verdad | Por defecto |
+| **Cimarrón** | Superviviente | Inestable | Misión de rescate |
+
+<Callout type="info" title="Naturaleza Cosmética">
+Recuerda que estos arquetipos no otorgan bonificaciones de estadísticas. Tu efectividad en el combate depende al 100% de los objetos que recolectes y de las armas que equipes a partir de las recompensas de los contratos del Capitán.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Roles Basados en Armas">
+
+Debido a que **las clases de the mound omen of cthulhu** se definen por el equipamiento, comprender el meta de las armas es crucial. El juego presenta una variedad de armamentos del siglo XVI, que van desde arcos silenciosos hasta armas de fuego ruidosas y potentes. Cada elección conlleva una gran compensación, particularmente en relación con la mecánica de "Ruido", que puede alertar a la selva de tu presencia.
+
+| Rol | Arma Principal | Objeto Secundario | Pros | Contras |
+| :--- | :--- | :--- | :--- | :--- |
+| **Explorador** | Arco / Ballesta | Lámpara de aceite | Silencioso, munición reutilizable | Bajo daño de ráfaga |
+| **Vanguardia** | Machete / Hacha | Escudo | Alta durabilidad, sin munición | Combate cuerpo a cuerpo arriesgado |
+| **Tirador** | Pistola de chispa | Pólvora | Alto daño, alcance | Ruidoso, falla bajo la lluvia |
+| **Soporte** | Cuchillo de marinero | Comida / Medicinas | Alta utilidad | Débil en combates directos |
+
+El entorno juega un papel fundamental en el desempeño de estas "clases". Por ejemplo, si el clima cambia a lluvia intensa, las armas de mecha y de chispa fallarán. En estos escenarios, el rol de "Tirador" se vuelve prácticamente inútil, lo que obliga al jugador a cambiar a armas cuerpo a cuerpo o arrojadizas como hachas.
+
+<Callout type="warning" title="Gestión del Ruido">
+Las armas de fuego son poderosas pero peligrosas. Un solo disparo puede "despertar al bosque", haciendo que una horda de enemigos primigenios converja en tu ubicación. Usa las armas de fuego solo como último recurso o cuando estés preparado para un enfrentamiento importante.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preparación de la Expedición: El Ritual Previo">
+
+El éxito en *The Mound: Omen of Cthulhu* comienza en el *Tempest Dot*. Antes de poner un pie en la selva, debes coordinarte con tu escuadrón y el Capitán del barco para definir tu equipamiento. Dado que los recursos son escasos, no puedes permitirte desperdiciar ranuras de inventario en objetos redundantes.
+
+<Steps>
+  <Step num="1" title="Firma el Contrato">
+    Habla con el Capitán para aceptar un contrato previo a la expedición. Estos objetivos definen tus metas, como encontrar artefactos específicos o rescatar supervivientes, y proporcionan el equipo inicial para la incursión.
+  </Step>
+  <Step num="2" title="Distribuye el Arsenal">
+    El Capitán proporciona un arsenal colectivo de armas y pólvora. Deben decidir en equipo quién se lleva el rifle y quién el cuchillo. No todos pueden tener el mejor equipo.
+  </Step>
+  <Step num="3" title="Consulta al Cocinero">
+    Habla con el cocinero del barco para determinar qué alimentos es mejor recolectar. La comida es esencial para mantener la resistencia y la salud durante el agotador viaje hacia el Montículo.
+  </Step>
+  <Step num="4" title="Prepara el Carro de Bueyes">
+    Asegúrate de que tu carro de bueyes esté listo. Este carro automatizado sigue tu progreso y sirve como tu alijo principal para el botín de gran valor que no quepa en tu inventario personal de 6 ranuras.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progresión Compartida">
+No te preocupes por "robar" experiencia. La progresión y los desbloqueos de la historia se comparten entre todo el equipo. Concéntrate en los objetivos de la misión en lugar de acumular botín individual para hacer avanzar la narrativa para todos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Impacto de la Locura y la Cordura">
+
+Un aspecto único de **las clases de the mound omen of cthulhu** es cómo interactúan con los elementos de horror psicológico del juego. A medida que te adentres más en la selva, tu cordura comenzará a deteriorarse. Esto no es solo una barra de estado; cambia activamente tu percepción de la realidad, haciendo que los roles de "Soporte" y "Comunicación" sean vitales.
+
+**Los Efectos de la Cordura Incluyen:**
+- **Alucinaciones Auditivas**: Escuchar pasos o gritos que no existen.
+- **Distorsiones Visuales**: Ver botín "fantasma" sobre fosas de pinchos o cambios de color en el entorno.
+- **Paranoia**: Ver a tus compañeros de equipo como monstruos hostiles o ver aliados "falsos" que en realidad son enemigos disfrazados.
+- **Ilusiones Sensoriales**: Lámparas parpadeantes o estructuras que desaparecen y confunden la navegación.
+
+<Checklist
+  id="sanity-check"
+  title="Lista de Verificación para Sobrevivir a la Cordura:"
+  items={[
+    "Usa el chat de voz de proximidad para verificar la ubicación de tus aliados",
+    "Compara opiniones sobre el 'botín' antes de acercarte a él",
+    "Retrocede al carro de bueyes si las alucinaciones se vuelven abrumadoras",
+    "Evita hacer ruido excesivo para mantener baja la 'Alerta de la Selva'",
+    "Mantén una fuente de luz activa durante los ciclos nocturnos para ahuyentar el pavor"
+  ]}
+/>
+
+| Peligro | Efecto | Estrategia de Mitigación |
+| :--- | :--- | :--- |
+| **Lluvia** | Inutiliza armas de fuego | Cambiar a cuerpo a cuerpo/arco |
+| **Oscuridad** | Aumenta la pérdida de cordura | Mantener lámparas de aceite |
+| **Ruido** | Alerta a la selva | Sigilo / Armas con silenciador |
+| **Alucinación** | Realidad engañosa | Verificación verbal en equipo |
+
+<Callout type="warning" title="Confía en tus Oídos">
+El juego utiliza un chat de voz direccional especializado. Si ves a un "aliado" pero su voz proviene de una dirección diferente, o no habla en absoluto, es probable que estés alucinando. Confía en el sonido, no en tus ojos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay habilidades únicas para cada una de las clases de The Mound Omen of Cthulhu?",
+    answer: "No. Los cuatro arquetipos de personajes (Alonso, Leonor, Rodrigo y el Cimarrón) son puramente cosméticos. Tus habilidades y destrezas están definidas por las armas y el equipo que elijas llevar."
+  },
+  {
+    question: "¿Puedo cambiar mi rol durante una expedición?",
+    answer: "Sí, siempre que encuentres equipo nuevo en la selva o intercambies objetos con tus compañeros de equipo. Sin embargo, estás limitado por la capacidad de tu inventario de 6 ranuras."
+  },
+  {
+    question: "¿Cambia el sistema de clases al jugar en solitario?",
+    answer: "Al jugar en solitario, te acompañan aliados controlados por la computadora. Aunque puedes seguir eligiendo tu equipo, el juego está equilibrado para el modo cooperativo, lo que hace que jugar solo sea significativamente más difícil a largo plazo."
+  },
+  {
+    question: "¿Cómo desbloqueo más personajes en The Mound?",
+    answer: "Algunos personajes, como el Superviviente Cimarrón, deben ser encontrados y rescatados durante expediciones específicas. Una vez rescatados y extraídos de forma segura, estarán disponibles para su selección en el Tempest Dot."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,161 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu: Guía para Principiantes y Consejos de Supervivencia",
+  description: "Domina la jungla maldita en The Mound: Omen of Cthulhu con nuestra guía de supervivencia experta, que cubre combate, mecánicas de cordura y estrategias cooperativas para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Survival+Guide",
+  date: "2026-07-15",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound Omen of Cthulhu, guía de supervivencia, terror cooperativo, consejos para principiantes, guía de combate, mecánicas de cordura"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **The Mound: Omen of Cthulhu** se centra en el horror cooperativo, lo que requiere una gestión cuidadosa de los recursos y la coordinación del equipo.
+- El **Control de Ruido** es esencial; evita disparos innecesarios o cortar la vegetación para mantener la jungla en calma.
+- Las **Mecánicas de Cordura** carecen de HUD; comunícate con tus compañeros para verificar las amenazas reales frente a las alucinaciones.
+- La **Protección de la Carreta de Bueyes** es tu misión principal; asegura el valor del tesoro solicitado antes de explorar riesgos mayores.
+- La **Conciencia Climática** dicta tu eficacia en combate; mantén las armas cuerpo a cuerpo listas cuando la lluvia inutilice los mosquetes.
+</Callout>
+
+<Section icon={Map} title="Primeros Pasos: Tu Primera Expedición">
+
+Tu viaje comienza a bordo del galeón *Tempestad*. El éxito en **The Mound: Omen of Cthulhu** depende de la preparación, la comunicación y saber cuándo retirarse.
+
+**Puntos Destacados del Vídeo:**
+- Comprensión del proceso de selección de contratos.
+- Distribución táctica del equipo entre los miembros del escuadrón.
+- Identificación de las amenazas de la jungla y conceptos básicos de navegación.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="Resumen del Gameplay de The Mound: Omen of Cthulhu" />
+
+Antes de abandonar el barco, asegúrate de que cada explorador tenga un rol definido. Un escuadrón equilibrado es más efectivo que un grupo de cuatro especialistas en gran potencia de fuego. Consulta la tabla siguiente para conocer los roles esenciales de la expedición.
+
+| Rol | Responsabilidad Principal | Equipo Sugerido |
+| :--- | :--- | :--- |
+| Navegante | Búsqueda de rutas y descubrimiento de fuertes | Brújula, Mapa, Fuente de luz |
+| Defensor de la Carreta | Proteger la carreta de bueyes y el botín | Arma cuerpo a cuerpo, Escudo |
+| Especialista a Distancia | Eliminación silenciosa de amenazas | Arco, Cuchillo |
+| Soporte | Recolección de recursos y curación | Medallón de tesoro, Suministros |
+
+<Callout type="tip" title="Consejo Profesional">
+Acordad siempre un "Umbral de Retirada" antes de entrar en la jungla. Si vuestro equipo alcanza el valor de tesoro requerido, priorizad el regreso seguro antes que seguir cazando botín extra.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Armas y Estrategia de Equipamiento">
+
+El combate en la jungla es lento y de alto riesgo. Confiar únicamente en las armas de fuego a menudo atraerá a más enemigos de los que puedes manejar.
+
+| Arma | Tipo | Mejor Uso | Fiabilidad |
+| :--- | :--- | :--- | :--- |
+| Arco | Distancia Silencioso | Sigilo y Clima Húmedo | Alta |
+| Cuchillo | Cuerpo a cuerpo | Respaldo de Emergencia | Excelente |
+| Pistola de Chispa | Arma de fuego | Ataque inicial de alto impacto | Moderada |
+| Arcabuz de Mecha | Arma de fuego | Enfrentamientos planeados | Baja |
+
+<CardGrid cols={3}>
+  <Card title="Estrategia de Sigilo">
+    - Prioriza los arcos para bajas silenciosas.
+    - Evita eliminar a todos los enemigos.
+    - Usa las sombras para evitar las patrullas.
+  </Card>
+  <Card title="Disciplina de Armas de Fuego">
+    - Reserva munición para amenazas de nivel jefe.
+    - Recarga durante los momentos de seguridad.
+    - Ten siempre un respaldo cuerpo a cuerpo.
+  </Card>
+  <Card title="Equipamiento de Equipo">
+    - Distribuye las fuentes de luz.
+    - Comparte la munición equitativamente.
+    - Asigna roles de combate específicos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia Climática">
+La lluvia es tu mayor enemigo cuando usas armas de pólvora. Revisa siempre el cielo antes de comprometerte con un asalto basado en armas de fuego; si el clima cambia, cambia a tu arco inmediatamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Protocolos de Cordura y Alucinaciones">
+
+El sistema de cordura en **The Mound: Omen of Cthulhu** es psicológico. Debido a que no hay ningún elemento de la interfaz para rastrear tu corrupción, debes confiar en tu equipo para verificar la realidad.
+
+<Steps>
+  <Step num="1" title="Verificar Observaciones">
+    Si ves a un monstruo o a un compañero actuando de forma extraña, pregunta al grupo: "¿Veis esto?" antes de disparar.
+  </Step>
+  <Step num="2" title="Confirmar Audio">
+    La locura puede imitar el sonido del cuerno de la carreta de bueyes. Nunca persigas un sonido distante solo sin confirmación verbal.
+  </Step>
+  <Step num="3" title="Mantener la Formación">
+    Las alucinaciones prosperan en el aislamiento. Mantén a tu escuadrón dentro del rango visual y de voz en todo momento.
+  </Step>
+</Steps>
+
+| Tipo de Alucinación | Efecto Potencial | Contramedida |
+| :--- | :--- | :--- |
+| Falsos Compañeros | Los modelos aliados parecen hostiles | Usar verificación de voz espacial |
+| Lluvia de Sangre | El terreno parece distorsionado | Confiar en la ruta del navegante |
+| Cuernos Fantasmales | Atrae al escuadrón a una emboscada | Confirmar la ubicación de la carreta |
+
+<Callout type="success" title="La Comunicación es Clave">
+Usa frases cortas y claras como "Objetivo confirmado", "Moviéndome al botín" o "Necesito luz" para minimizar la confusión durante los encuentros de alta tensión.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de la Expedición">
+
+La progresión se logra completando contratos y desbloqueando nuevas ubicaciones iniciales a través de los cuadernos de bitácora de los fuertes.
+
+<Checklist
+  id="expedition-goals"
+  title="Lista de Verificación de la Expedición:"
+  items={[
+    "Asegurar el requisito mínimo de tesoro del capitán",
+    "Localizar y leer al menos un cuaderno de bitácora del fuerte",
+    "Identificar un punto de extracción seguro",
+    "Regresar con éxito con la carreta de bueyes"
+  ]}
+/>
+
+| Objetivo | Prioridad | Recompensa |
+| :--- | :--- | :--- |
+| Completar Contrato | Alta | Moneda y Reputación |
+| Cuadernos de Bitácora | Media | Nuevos Puntos de Aparición |
+| Reliquias Raras | Baja | Botín de Alto Valor |
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es The Mound: Omen of Cthulhu jugable en solitario?",
+    answer: "Sí, puedes jugar solo, pero es significativamente más desafiante. Debes gestionar la navegación, la protección de la carreta y el combate de forma simultánea."
+  },
+  {
+    question: "¿El juego soporta crossplay?",
+    answer: "Sí, el juego cuenta con funcionalidad cooperativa multiplataforma en PC, PlayStation 5 y Xbox Series X|S."
+  },
+  {
+    question: "¿Qué pasa si muero en la jungla?",
+    answer: "Si mueres, tus compañeros pueden reanimarte. Si te dejan desatendido, tu personaje puede corromperse y regresar como un enemigo hostil."
+  },
+  {
+    question: "¿Hay códigos de trucos para el juego?",
+    answer: "No, actualmente no hay ningún código de canje oficial o sistema de trucos en The Mound: Omen of Cthulhu."
+  }
+]} />
+
+</Section>

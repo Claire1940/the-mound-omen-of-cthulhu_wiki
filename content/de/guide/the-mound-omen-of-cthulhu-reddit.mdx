@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu: Einsteiger-Guide & Überlebens-Tipps",
+  description: "Meistern Sie den verfluchten Dschungel in The Mound: Omen of Cthulhu mit unserem Experten-Überlebensleitfaden, der Kampf, Wahnsinnsmechaniken und Koop-Strategien für 2026 abdeckt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2e2a/fff?text=Survival+Guide",
+  date: "2026-07-15",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **The Mound: Omen of Cthulhu** konzentriert sich auf kooperativen Horror und erfordert sorgfältiges Ressourcenmanagement sowie Teamkoordination.
+- **Lärmkontrolle** ist entscheidend; vermeiden Sie unnötiges Gewehrfeuer oder das Schneiden von Vegetation, um den Dschungel ruhig zu halten.
+- **Wahnsinnsmechaniken** haben kein HUD; kommunizieren Sie mit Teamkollegen, um echte Bedrohungen von Halluzinationen zu unterscheiden.
+- **Der Schutz des Ochsenkarrens** ist Ihre Hauptmission; sichern Sie den geforderten Schatzwert, bevor Sie tiefergehende Risiken eingehen.
+- **Wetterbewusstsein** bestimmt Ihre Kampfeffektivität; halten Sie Nahkampfwaffen bereit, wenn Regen Musketen nutzlos macht.
+</Callout>
+
+<Section icon={Map} title="Erste Schritte: Ihre erste Expedition">
+
+Ihre Reise beginnt an Bord der Galeone *Tempestad*. Erfolg in **The Mound: Omen of Cthulhu** hängt von Vorbereitung, Kommunikation und dem Wissen ab, wann man sich zurückziehen muss.
+
+**Video-Highlights:**
+- Den Prozess der Vertragsauswahl verstehen.
+- Taktische Ausrüstungsverteilung unter den Truppmitgliedern.
+- Identifizierung von Dschungelbedrohungen und Grundlagen der Navigation.
+
+<YouTubeEmbed videoId="gcybpx7zpsg" title="The Mound: Omen of Cthulhu Gameplay-Übersicht" />
+
+Bevor Sie das Schiff verlassen, stellen Sie sicher, dass jeder Entdecker eine definierte Rolle hat. Ein ausgewogener Trupp ist effektiver als eine Gruppe von vier Spezialisten für schwere Feuerkraft. In der folgenden Tabelle finden Sie die wesentlichen Expeditionsrollen.
+
+| Rolle | Hauptverantwortung | Empfohlene Ausrüstung |
+| :--- | :--- | :--- |
+| Navigator | Pfadfindung & Festungsentdeckung | Kompass, Karte, Lichtquelle |
+| Karren-Verteidiger | Schutz des Ochsenkarrens & der Beute | Nahkampfwaffe, Schild |
+| Fernkampf-Spezialist | Leise Eliminierung von Bedrohungen | Bogen, Messer |
+| Support | Ressourcensammlung & Heilung | Schatzmedaillon, Vorräte |
+
+<Callout type="tip" title="Profi-Tipp">
+Vereinbaren Sie immer eine "Rückzugsschwelle", bevor Sie den Dschungel betreten. Wenn Ihr Team den erforderlichen Schatzwert erreicht hat, priorisieren Sie die sichere Rückkehr gegenüber der Jagd nach zusätzlicher Beute.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Waffen und Loadout-Strategie">
+
+Der Kampf im Dschungel ist langsam und risikoreich. Sich allein auf Schusswaffen zu verlassen, lockt oft mehr Gegner an, als Sie bewältigen können.
+
+| Waffe | Typ | Beste Verwendung | Zuverlässigkeit |
+| :--- | :--- | :--- | :--- |
+| Bogen | Leise Fernwaffe | Stealth & nasses Wetter | Hoch |
+| Messer | Nahkampf | Notfall-Backup | Exzellent |
+| Steinschloss | Schusswaffe | Wirkungsstarker Erstschlag | Moderat |
+| Luntenschloss | Schusswaffe | Geplante Gefechte | Niedrig |
+
+<CardGrid cols={3}>
+  <Card title="Stealth-Strategie">
+    - Priorisieren Sie Bögen für lautlose Kills.
+    - Vermeiden Sie es, jeden Gegner auszuschalten.
+    - Nutzen Sie Schatten, um Patrouillen zu umgehen.
+  </Card>
+  <Card title="Schusswaffendisziplin">
+    - Reservieren Sie Munition für Bedrohungen auf Boss-Niveau.
+    - Laden Sie in sicheren Momenten nach.
+    - Haben Sie immer eine Nahkampfwaffe als Backup.
+  </Card>
+  <Card title="Team-Loadout">
+    - Verteilen Sie Lichtquellen.
+    - Teilen Sie Munition gleichmäßig auf.
+    - Weisen Sie spezifische Kampfrollen zu.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Wetterwarnung">
+Regen ist Ihr größter Feind, wenn Sie Schwarzpulverwaffen verwenden. Prüfen Sie immer den Himmel, bevor Sie sich auf einen Angriff mit Schusswaffen einlassen; wenn das Wetter umschlägt, wechseln Sie sofort zu Ihrem Bogen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wahnsinns- und Halluzinationsprotokolle">
+
+Das Wahnsinnssystem in **The Mound: Omen of Cthulhu** ist psychologisch. Da es kein UI-Element gibt, um Ihre Verderbnis zu verfolgen, müssen Sie sich auf Ihr Team verlassen, um die Realität zu überprüfen.
+
+<Steps>
+  <Step num="1" title="Beobachtungen verifizieren">
+    Wenn Sie ein Monster sehen oder ein Teammitglied sich seltsam verhält, fragen Sie die Gruppe: "Seht ihr das auch?", bevor Sie schießen.
+  </Step>
+  <Step num="2" title="Audio bestätigen">
+    Wahnsinn kann das Geräusch des Horns vom Ochsenkarren imitieren. Jagen Sie niemals allein einem fernen Geräusch nach, ohne eine verbale Bestätigung einzuholen.
+  </Step>
+  <Step num="3" title="Formation beibehalten">
+    Halluzinationen gedeihen in der Isolation. Halten Sie Ihren Trupp jederzeit in Sicht- und Hörweite.
+  </Step>
+</Steps>
+
+| Halluzinationstyp | Möglicher Effekt | Gegenmaßnahme |
+| :--- | :--- | :--- |
+| Falsche Teamkollegen | Freundliche Modelle erscheinen feindselig | Räumlichen Sprachcheck nutzen |
+| Blutregen | Gelände wirkt verzerrt | Auf den Pfad des Navigators verlassen |
+| Geisterhafte Hörner | Lockt den Trupp in einen Hinterhalt | Standort des Karrens bestätigen |
+
+<Callout type="success" title="Kommunikation ist alles">
+Verwenden Sie kurze, klare Sätze wie "Ziel bestätigt", "Bewege mich zur Beute" oder "Brauche Licht", um Verwirrung in stressigen Situationen zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Expeditions-Meilensteine">
+
+Fortschritt wird durch den Abschluss von Verträgen und das Freischalten neuer Startorte über Festungslogbücher erzielt.
+
+<Checklist
+  id="expedition-goals"
+  title="Expeditions-Checkliste:"
+  items={[
+    "Sichern der Mindestschatzanforderung des Kapitäns",
+    "Finden und Lesen von mindestens einem Festungslogbuch",
+    "Identifizieren eines sicheren Extraktionspunktes",
+    "Erfolgreiche Rückkehr mit dem Ochsenkarren"
+  ]}
+/>
+
+| Ziel | Priorität | Belohnung |
+| :--- | :--- | :--- |
+| Vertragsabschluss | Hoch | Währung & Ruf |
+| Festungslogbücher | Mittel | Neue Spawnpunkte |
+| Seltene Relikte | Niedrig | Wertvolle Beute |
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ist The Mound: Omen of Cthulhu solo spielbar?",
+    answer: "Ja, man kann solo spielen, aber es ist deutlich herausfordernder. Man muss Navigation, Karrenschutz und Kampf gleichzeitig bewältigen."
+  },
+  {
+    question: "Unterstützt das Spiel Crossplay?",
+    answer: "Ja, das Spiel bietet plattformübergreifende Koop-Funktionalität für PC, PlayStation 5 und Xbox Series X|S."
+  },
+  {
+    question: "Was passiert, wenn ich im Dschungel sterbe?",
+    answer: "Wenn Sie sterben, können Sie von Teammitgliedern wiederbelebt werden. Wenn Sie unbeaufsichtigt bleiben, kann Ihr Charakter korrumpiert werden und als feindseliger Gegner zurückkehren."
+  },
+  {
+    question: "Gibt es Cheat-Codes für das Spiel?",
+    answer: "Nein, es gibt derzeit kein offizielles Einlösecode- oder Cheat-System in The Mound: Omen of Cthulhu."
+  }
+]} />
+
+</Section>

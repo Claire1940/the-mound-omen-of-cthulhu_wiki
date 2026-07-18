@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Consejos y Trucos de The Mound Omen of Cthulhu: Guía de Supervivencia",
+  description: "Domina la selva lovecraftiana con nuestra guía esencial sobre la gestión de la locura, elección de armas y estrategias cooperativas en The Mound: Omen of Cthulhu.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, guía de supervivencia, consejos, trucos, gestión de locura, armas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque principal de la guía**: Utiliza estos consejos y trucos esenciales de The Mound: Omen of Cthulhu para sobrevivir a la implacable selva lovecraftiana.
+- **Permaneced juntos**: El aislamiento acelera rápidamente la locura, provocando alucinaciones graves y distorsiones auditivas.
+- **Gestionad el ruido**: Los disparos, correr con armadura pesada y tocar los cuernos despertarán al bosque hostil.
+- **Utilidad de la antorcha**: Lleva siempre una antorcha para evitar que las enredaderas reanimen a los enemigos caídos.
+- **Dominio del hacha**: El hacha arrojadiza es altamente eficiente debido a su mecánica de recuperación infinita.
+</Callout>
+
+<Section icon={Map} title="El despertar de la selva y mecánicas de ruido">
+
+Sobrevivir en las profundas y opresivas selvas de Chile requiere una comprensión sólida de cómo reacciona el entorno a tu presencia. En esta guía, cubrimos los **consejos y trucos esenciales de The Mound: Omen of Cthulhu** para ayudar a tu escuadrón a navegar por los horrores que les esperan. La selva misma actúa como una amenaza dinámica, despertando y enviando oleadas de enemigos si tu equipo hace demasiado ruido.
+
+Cada acción que realizas contribuye al nivel de alerta del bosque. Correr con armadura pesada, chapotear en los ríos, usar armas de fuego o tocar el cuerno para llamar a tu carro de bueyes genera ruido. Cuando el bosque está completamente despierto, una horda de criaturas hostiles convergerá en tu posición, haciendo que la supervivencia sea increíblemente difícil.
+
+**Puntos destacados del video:**
+- Aprende cómo el entorno se comporta como un personaje hostil.
+- Comprende las mecánicas del sonido y el chat de voz por proximidad.
+- Descubre cómo las condiciones climáticas afectan a las armas de fuego de pedernal y mecha.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 cosas que necesitas saber antes de comprar" />
+
+| Acción | Nivel de Ruido | Riesgo de Agresión Enemiga | Recomendación Táctica |
+| :--- | :--- | :--- | :--- |
+| Caminar en sigilo | Bajo | Mínimo | Usar como estado de movimiento predeterminado |
+| Correr con armadura | Medio | Moderado | Evitar cuando estés cerca de nidos dormidos |
+| Tocar el cuerno | Alto | Grave | Usar solo si te pierdes para encontrar el carro |
+| Disparar armas de mecha | Extremo | Máximo | Guardar para huidas desesperadas de extracción |
+
+<Callout type="warning" title="Aviso Meteorológico">
+Nunca dependas únicamente de las armas de fuego durante las expediciones. La lluvia hace que las armas de mecha y pedernal funcionen mal, dejándote completamente indefenso si no has asegurado un arma de melé fiable como respaldo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de la locura y la cordura">
+
+A medida que te adentres en la selva, la cordura de tu personaje comenzará a decaer. La locura no es solo un efecto visual; altera activamente tu percepción de la realidad, creando ilusiones que pueden llevarte a la muerte. Experimentarás distorsiones sensoriales, audio amortiguado y alucinaciones aterradoras.
+
+Las alucinaciones pueden manifestarse como trampas de botín falsas, enemigos espectrales disfrazados de aliados, o incluso tus propios compañeros apareciendo como monstruos. Para mitigar estos efectos, debes emplear estrategias específicas de gestión de la cordura. Mantenerse cerca de tu equipo y del carro de bueyes son las formas más efectivas de mantener a raya la locura.
+
+| Fuente | Efecto en la Cordura | Señales Visuales | Estrategia de Mitigación |
+| :--- | :--- | :--- | :--- |
+| Cerca del carro | Recuperación gradual | Pantalla clara, audio normal | Permanecer en las proximidades del carro |
+| Comer setas | Recuperación instantánea | Visión iluminada | Recolectar setas brillantes con cuidado |
+| Aislamiento | Decadencia rápida | Pantalla gris, oído amortiguado | Reagruparse con compañeros inmediatamente |
+| Cuervos negros | Decadencia grave | Nube de humo, paranoia | Disparar a los cuervos al verlos antes de que alerten |
+
+<Callout type="tip" title="Consejo Pro">
+Haz siempre que tus compañeros verifiquen lo que ves. Un rifle nuevo y brillante en el suelo podría ser solo un palo sin valor bajo la influencia de la locura, y una cara amistosa a lo lejos podría ser una copia sin rostro esperando para atacar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores armas y tácticas de combate">
+
+El combate en este juego requiere precisión y conservación de recursos. Dado que la munición es escasa y las armas de fuego no son fiables en climas húmedos, dominar el combate cuerpo a cuerpo es crucial. Diferentes armas ofrecen ventajas únicas, y comprender su utilidad puede marcar la diferencia entre la vida y la muerte.
+
+El hacha arrojadiza destaca como una de las mejores armas del juego debido a su potencial de reutilización infinita. Simplemente lánzala a un enemigo y recupérala de su cadáver. Para un juego defensivo, el crucifijo puede ralentizar la agresión enemiga y atraer la atención, permitiendo que tus compañeros se deslicen detrás de los monstruos para realizar puñaladas traseras fáciles.
+
+<CardGrid cols={3}>
+  <Card title="Hacha Arrojadiza">
+    - **Durabilidad infinita**
+    - Excelente ataque de melé a distancia
+    - Fácil recuperación de los objetivos
+  </Card>
+  <Card title="Antorcha y Linterna">
+    - **Evita reanimaciones zombis**
+    - La linterna actúa como una granada de fuego
+    - Esencial para despejar el dosel forestal
+  </Card>
+  <Card title="Crucifijo y Lanza">
+    - **Ralentiza la agresión enemiga**
+    - Perfecto para preparar ataques por la espalda
+    - Mantiene a los objetivos a una distancia segura
+  </Card>
+</CardGrid>
+
+| Tipo de Arma | Uso Principal | Coste de Durabilidad | Calificación de Combate |
+| :--- | :--- | :--- | :--- |
+| Hacha Arrojadiza | Ataque a distancia y recuperación | Ninguno (reutilizable) | Excelente (5/5) |
+| Lanza | Melé de largo alcance | Medio | Muy buena (4/5) |
+| Martillo de asta | Romper armaduras pesadas | Alto | Buena (3/5) |
+| Antorcha | Evitar reanimaciones de enredaderas | Bajo | Esencial (5/5) |
+
+<Callout type="success" title="Sinergia de Combate">
+Cuando te enfrentes a un zombi derribado, golpéalo inmediatamente con una antorcha. Esto obliga a las enredaderas parásitas a retirarse, evitando que el zombi se reanime y ahorrando la durabilidad de tu arma.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ciclo de extracción paso a paso">
+
+Para sobrevivir de forma constante a tus expediciones y regresar con botín valioso, tu escuadrón debe seguir un ciclo de juego estructurado. Cada incursión consiste en preparación, exploración cuidadosa y una huida coordinada.
+
+<Steps>
+  <Step num="1" title="Preparación previa">
+    Comienza a bordo del Tempest Dot. Habla con el cocinero del barco para entregar carne de ciervo y obtener mejores raciones, acaricia al perro para tener buena suerte y acepta el contrato del capitán. Planifica con tu equipo quién lleva las armas de fuego y quién las herramientas de utilidad.
+  </Step>
+  <Step num="2" title="Búsqueda en la selva">
+    Despliégate en tierra firme y comienza a buscar riquezas, comida y efemerón metálico. Mantén tu carro de bueyes cerca para almacenar el botín excedente y gestionar tu cordura. Evita el combate innecesario y mantén los niveles de ruido al mínimo absoluto.
+  </Step>
+  <Step num="3" title="Extracción coordinada">
+    Una vez que tu inventario esté lleno o tu cordura sea peligrosamente baja, dirígete al bote de remos. No necesitas esperar al carro para escapar, pero todos los miembros vivos del equipo deben estar presentes en el bote para activar la extracción.
+  </Step>
+</Steps>
+
+| Fase | Objetivo Principal | Amenaza Clave | Condición de Éxito |
+| :--- | :--- | :--- | :--- |
+| Preparación | Firmar contrato, elegir equipo | Mala distribución de armas | Inventario de escuadrón equilibrado |
+| Exploración | Encontrar el Túmulo, botín | Acumulación de locura | Permanecer agrupados cerca del carro |
+| Extracción | Llegar al bote de remos | Copias sin rostro y Acechadores | Todos los jugadores vivos presentes |
+
+<Callout type="info" title="Seguridad en la Extracción">
+Si un Acechador atrapa a un compañero cerca de la zona de extracción, a menudo es más seguro esperar en el bote de remos. Intentar un rescate en lo profundo de la selva durante la extracción suele resultar en la eliminación total del grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y mejoras del barco">
+
+No cumplir con la cuota del contrato del capitán no significa el fin del juego. Aunque perderás la experiencia de bonificación y los tokens, conservarás los diarios, artefactos especiales o supervivientes rescatados con los que hayas logrado extraer. Priorizar estos objetos de progresión a largo plazo suele ser mejor que arriesgar la vida por un contrato básico.
+
+Rescatar supervivientes durante tus incursiones desbloquea beneficios permanentes en el Tempest Dot. Por ejemplo, salvar al Carpintero te permite aplicar santos a tu carro de bueyes, otorgando mejoras activas y pasivas que facilitan significativamente las futuras expediciones.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos esenciales de progresión:"
+  items={[
+    "Cazar ciervos para mejorar permanentemente las raciones del barco",
+    "Rescatar al Carpintero para desbloquear mejoras de santos en el carro",
+    "Adquirir el Anillo de Resistencia al Aislamiento para jugar en solitario",
+    "Recolectar diarios para avanzar en la progresión de la historia compartida"
+  ]}
+/>
+
+<Callout type="success" title="Mejoras de Raciones">
+No ignores a los ciervos durante tus incursiones. Llevar carne de ciervo al cocinero del barco mejora permanentemente la calidad de tus raciones iniciales, proporcionando una ventaja masiva que se mantiene entre misiones.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor arma inicial en The Mound: Omen of Cthulhu?",
+    answer: "El hacha arrojadiza es ampliamente considerada la mejor arma porque puedes lanzarla a los enemigos y recuperarla sin perder durabilidad ni consumir munición preciosa."
+  },
+  {
+    question: "¿Cómo evito que los zombis derrotados se reanimen?",
+    answer: "Equipa una antorcha y ataca al zombi caído. Esto obliga a las enredaderas parásitas que intentan reanimar el cadáver a retirarse, manteniendo al enemigo derrotado de forma permanente."
+  },
+  {
+    question: "¿Cuáles son los consejos y trucos más importantes para gestionar la locura?",
+    answer: "Para mantener tu cordura alta, mantente siempre cerca de tus compañeros, permanece en las proximidades de tu carro de bueyes, dispara a los cuervos negros al verlos y consume setas brillantes."
+  },
+  {
+    question: "¿Funcionan las armas de fuego cuando llueve?",
+    answer: "No. La lluvia y la humedad intensa hacen que las armas de pedernal y mecha funcionen mal. Debes confiar en armas de melé como la lanza o el hacha durante las misiones lluviosas."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Comunícate siempre con tu equipo a través del chat de proximidad para verificar las alucinaciones. Trabajar juntos es la única forma de conquistar la locura del Túmulo.
+</Callout>
+
+</Section>

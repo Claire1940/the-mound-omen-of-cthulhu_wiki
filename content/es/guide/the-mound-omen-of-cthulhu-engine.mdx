@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "the mound omen of cthulhu engine: Guía de Mecánicas de Juego y Locura",
+  description: "Domina los complejos sistemas de juego y el motor de locura en The Mound: Omen of Cthulhu con nuestra guía experta de supervivencia para este cooperativo de terror de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=The+Mound+Engine+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de the mound omen of cthulhu",
+  keywords: "the mound omen of cthulhu engine, mecánicas de juego, guía de locura, horror cooperativo, supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Entender el **the mound omen of cthulhu engine** es vital para sobrevivir a la jungla del siglo XVI.
+- **Sistema de Locura**: El juego presenta un motor de locura dinámico que activa alucinaciones y distorsiones auditivas.
+- **Enfoque Cooperativo**: El éxito requiere la coordinación de 4 jugadores a través de un chat de voz de proximidad especializado.
+- **Progresión**: Asegura fuertes abandonados para desbloquear puntos de inicio permanentes para expediciones más profundas.
+- **Gestión de Recursos**: Equilibrar la munición de mosquete y el combustible de las lámparas de aceite es la diferencia entre la vida y la muerte.
+</Callout>
+
+<Section icon={Map} title="the mound omen of cthulhu engine: Resumen de la Jugabilidad Principal">
+
+El lanzamiento de **the mound omen of cthulhu engine** ha introducido una mezcla única de exploración histórica y horror cósmico Lovecraftiano. Ambientado en las densas y malditas junglas de la Sudamérica del siglo XVI, los jugadores asumen el papel de exploradores desesperados que operan desde un galeón central. El ciclo principal de juego gira en torno a firmar contratos con el capitán, aventurarse en tierra firme mediante un bote de remos e intentar recuperar tesoros antes de que la locura de la jungla consuma al grupo.
+
+**Puntos Destacados del Video:**
+- **Ambientación**: Introducción al entorno sudamericano del siglo XVI y al centro de operaciones en el Galeón.
+- **Mecánicas de Combate**: Resumen de los sistemas de mosquete, ballesta y combate cuerpo a cuerpo.
+- **El Sistema de Locura**: Demostración visual de cómo las alucinaciones y la visión empapada de sangre afectan el juego.
+- **Funciones Cooperativas**: Cómo funcionan el chat de voz de proximidad y la coordinación del equipo en la oscuridad.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Tráiler Oficial de Resumen de Jugabilidad" />
+
+La supervivencia en este entorno no se trata solo de destreza física, sino también de fortaleza mental. La jungla reacciona a tu presencia; cada disparo o rama rota puede alertar a los horrores que acechan en las sombras. La coordinación se facilita a través de un sistema de sonido especializado que convierte la comunicación en un recurso táctico en lugar de algo garantizado.
+
+| Característica | Descripción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Escala Cooperativa** | Cross-play de 4 jugadores | Requiere una distribución diversa de equipo |
+| **Entorno** | Jungla Procedural | No hay dos expediciones idénticas |
+| **Mundo Central** | El Galeón | Zona segura para equipo y contratos |
+| **Sistema de Audio** | Voz de Proximidad | Perder el rango significa perder el contacto |
+
+<Callout type="tip" title="Consejo de Exploración">
+Asegúrate siempre de que al menos un jugador se concentre en mapear la ruta de regreso al bote de remos. El diseño de la jungla puede volverse confuso una vez que el sistema de locura comienza a alterar tu visión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El Motor de Locura: Navegando por las Alucinaciones">
+
+El pilar central de la experiencia es el sistema de locura del **the mound omen of cthulhu engine**. A diferencia de los juegos de terror tradicionales donde la cordura es una simple barra, aquí es un motor complejo que sabotea activamente la percepción de la realidad del jugador. A medida que te aventuras más profundamente en la jungla, el desgaste mental aumenta, lo que lleva a "Trampas de Espejismo" y estados ambientales alterados.
+
+| Nivel de Locura | Efectos Visuales | Efectos Auditivos | Riesgo de Peligro |
+| :--- | :--- | :--- | :--- |
+| **Estable** | Visión clara, colores estándar | Pistas ambientales normales | Bajo |
+| **Perturbado** | Sombras menores, luz parpadeante | Susurros distantes, crujidos | Medio |
+| **Fracturado** | Mundo empapado de sangre, espejismos | Distorsión de sonido especializada | Alto |
+| **Locura** | Decepción visual completa | Pérdida de claridad en el chat de voz | Extremo |
+
+Las "Trampas de Espejismo" son particularmente letales. El motor puede disfrazar un foso mortal o una trampa como un parche de suelo seguro o incluso un cofre del tesoro. Cuando tu cordura es baja, debes confiar en tus compañeros de equipo para verificar lo que estás viendo. Si un amigo se aleja demasiado y sucumbe a la jungla, puede regresar como un recipiente para los horrores, cazando a sus antiguos aliados.
+
+<Callout type="warning" title="Advertencia de Cordura">
+Si tu pantalla comienza a empaparse de sangre, usa inmediatamente Sales de Reanimación. Continuar en este estado te convierte en una carga para el grupo y en un objetivo para el engaño de la jungla.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Espejismos Visuales">
+    - **Tesoros Falsos**: Cofres que se convierten en trampas.
+    - **Visión de Sangre**: El mundo se vuelve rojo, oscureciendo a los enemigos.
+    - **Fantasmas**: Ver monstruos que no están allí.
+  </Card>
+  <Card title="Decepción Auditiva">
+    - **Voces Fantasma**: Escuchar a compañeros que no están cerca.
+    - **Sonido Especializado**: Ruidos que provienen de la dirección equivocada.
+    - **Silencio**: Pérdida total del sonido ambiental antes de un ataque.
+  </Card>
+  <Card title="Cambios Ambientales">
+    - **Caminos en Bucle**: Senderos que parecen no llevar a ninguna parte.
+    - **Fuertes que Desaparecen**: Zonas seguras que se desvanecen al acercarse.
+    - **Terreno Alterado**: Suelo sólido que se convierte en barro traicionero.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Flujo de Trabajo y Progresión de la Expedición">
+
+Navegar por el **the mound omen of cthulhu engine** requiere un enfoque disciplinado para las misiones. La progresión no se trata solo de oro; se trata de reclamar la jungla de la influencia de Cthulhu. Al descubrir y asegurar viejos fuertes abandonados por expediciones anteriores, desbloqueas nuevos puntos de partida que permiten una penetración más profunda en el corazón del Montículo.
+
+<Steps>
+  <Step num="1" title="Contrato y Preparación">
+    Visita al Capitán en el Galeón para firmar un contrato. Esto determina tus objetivos principales, como recolectar comida, rescatar exploradores perdidos o recuperar artefactos específicos.
+  </Step>
+  <Step num="2" title="Distribución de Equipo">
+    Divide el equipo disponible entre los cuatro jugadores. Asegura un equilibrio entre mosquetes de largo alcance, ballestas silenciosas y artículos de utilidad esenciales como lámparas de aceite y sales de reanimación.
+  </Step>
+  <Step num="3" title="Infiltración y Descubrimiento de Fuertes">
+    Usa el bote de remos para llegar a tierra firme. Tu prioridad debe ser localizar fuertes abandonados. Recuperar sus cuadernos de bitácora desbloquea permanentemente estos lugares como futuros puntos de inserción.
+  </Step>
+  <Step num="4" title="Cumplimiento de Objetivos">
+    Navega a través de las áreas abiertas y los fuertes conectados para cumplir el contrato. Recolecta pistas sobre el Montículo en el camino para reconstruir la narrativa del mundo de pesadilla.
+  </Step>
+  <Step num="5" title="Extracción">
+    Regresa al bote de remos antes de que los horrores de la jungla o el motor de locura abrumen al grupo. La extracción exitosa es la única forma de asegurar tus recompensas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito de Progresión">
+Desbloquear un fuerte es una mejora permanente de la cuenta. Incluso si todo tu grupo perece en una partida posterior, ese fuerte seguirá disponible como punto de partida, reduciendo significativamente el tiempo de viaje.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arsenal y Equipo de Supervivencia">
+
+El combate en **the mound omen of cthulhu engine** es deliberado y castigador. La munición es escasa, y cada disparo efectuado es una baliza para las criaturas de la jungla. Los jugadores deben elegir sus enfrentamientos con cuidado, optando a menudo por el sigilo o el combate cuerpo a cuerpo para conservar recursos para los encuentros con jefes.
+
+| Arma / Herramienta | Uso Principal | Pros | Contras |
+| :--- | :--- | :--- | :--- |
+| **Mosquete** | Combate de alto daño | Detiene grandes horrores | Ruidoso, recarga lenta |
+| **Ballesta** | Eliminaciones sigilosas | Silenciosa, virotes recuperables | Menor daño |
+| **Espada** | Defensa a corta distancia | No requiere munición | Alto riesgo de lesiones |
+| **Lámpara de Aceite**| Navegación / Luz | Aleja sombras menores | Requiere gestión de combustible |
+| **Sales de Reanimación**| Restauración de cordura | Previene la locura total | Cantidad muy limitada |
+
+Los equipos efectivos designarán roles basados en este equipo. Tener un "Portador de Luz" que se concentre en la lámpara de aceite y un "Tirador" con el mosquete asegura que el grupo esté preparado tanto para los peligros ambientales como para el combate directo.
+
+| Artículo de Utilidad | Efecto | Duración | Tamaño de Pila |
+| :--- | :--- | :--- | :--- |
+| **Aceite de Lámpara** | Rellena la lámpara de aceite | Medio | 3 |
+| **Vendajes** | Cura heridas físicas | Instantáneo | 5 |
+| **Cuaderno de Bitácora**| Desbloquea fuertes | Permanente | 1 |
+| **Ídolo Antiguo** | Oro de bonificación | N/A | 1 |
+
+<Callout type="info" title="Gestión de Recursos">
+Siempre revisa el almacenamiento del Galeón antes de partir. A menudo es mejor llevar sales de reanimación adicionales que un arma extra si planeas aventurarte profundamente en zonas de alta locura.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Supervivencia para la Jungla">
+
+Sobrevivir al **the mound omen of cthulhu engine** requiere más que buena puntería. El entorno mismo es un antagonista. Usa estas estrategias para aumentar tus posibilidades de llegar al Montículo y regresar con la cordura intacta.
+
+- **Mantener la Línea de Visión**: En la densa jungla, es fácil perder el rastro de los compañeros. Si el chat de proximidad se corta, usa tu lámpara de aceite para señalar tu posición.
+- **Disciplina de Gatillo**: No dispares a cada sombra. Usa la ballesta para los exploradores y reserva el mosquete para las indescriptibles criaturas Lovecraftianas que requieren gran potencia de parada.
+- **Prioridad al Cuaderno de Bitácora**: En tus primeras incursiones, ignora el tesoro. Concéntrate totalmente en encontrar fuertes y recuperar cuadernos de bitácora para construir una red de zonas seguras.
+- **Conciencia Sonora**: Escucha el sonido de ramas rompiéndose. El motor utiliza sonido especializado para darte una advertencia de una fracción de segundo antes de una emboscada.
+
+<Checklist
+  id="expedition-prep"
+  title="Lista de Verificación Previa a la Expedición:"
+  items={[
+    "Contrato firmado con el Capitán del Galeón",
+    "Lámparas de aceite llenas y aceite de repuesto distribuido",
+    "Munición de mosquete y ballesta dividida equitativamente",
+    "Sales de reanimación asignadas al jugador más estable",
+    "Ruta de extracción discutida con todo el equipo"
+  ]}
+/>
+
+<Callout type="warning" title="Advertencia Crítica">
+Un compañero de equipo que deja de responder al chat de voz puede estar bajo la influencia del motor de locura. Acércate con precaución y prepárate para usar sales de reanimación o defenderte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la función principal del sistema de locura de the mound omen of cthulhu engine?",
+    answer: "El sistema de locura es un motor de juego dinámico que altera la percepción del jugador. Crea alucinaciones visuales como la visión empapada de sangre y decepciones auditivas, como voces falsas de compañeros, para sabotear la coordinación del grupo."
+  },
+  {
+    question: "¿Puedo jugar The Mound: Omen of Cthulhu en solitario?",
+    answer: "Aunque el juego está diseñado para cooperativo de 4 jugadores, puedes intentar expediciones en solitario. Sin embargo, la dificultad no disminuye significativamente y carecerás del apoyo mental necesario para verificar las alucinaciones."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevas ubicaciones de inicio en la jungla?",
+    answer: "Debes encontrar fuertes abandonados durante tus expediciones y recuperar los cuadernos de bitácora que se encuentran en su interior. Una vez que un cuaderno se devuelve al Galeón, ese fuerte se convierte en un punto de inicio permanente para futuras partidas."
+  },
+  {
+    question: "¿Hay soporte de cross-play para todas las plataformas?",
+    answer: "Sí, The Mound: Omen of Cthulhu cuenta con soporte completo de cross-play entre PC, PlayStation 5 y Xbox Series, permitiendo que los amigos jueguen juntos independientemente de su hardware."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+El Montículo es solo el primer paso. Lo que se encuentra tras sus puertas es un mundo alucinante que desafiará todo lo que has aprendido. Manténganse juntos, mantengan la cordura y mantengan sus lámparas encendidas.
+</Callout>
+
+</Section>

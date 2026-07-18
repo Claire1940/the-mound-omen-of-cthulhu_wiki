@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu – Haunter of the Dark: Komplettlösung & Lore-Guide",
+  description: "Meistere The Mound: Omen of Cthulhu – Haunter of the Dark mit unserem Guide für 2026. Inklusive Kampfmechaniken, Geistige-Gesundheit-Management und vollständigen Quests.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Haunter+of+the+Dark+Guide",
+  date: "2026-07-19",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Kernfokus**: Um **The Mound: Omen of Cthulhu – Haunter of the Dark** zu meistern, musst du das physische Überleben mit psychischer Stabilität in Einklang bringen.
+- **Geistige Gesundheit (Sanity)**: Zu viel Kontakt mit dem Horror zehrt an deiner geistigen Gesundheit, was bei Vernachlässigung zu Halluzinationen und dauerhaften Debuffs führt.
+- **Kampfstrategie**: Nutze Schleichen und Umgebungfallen anstelle von direkten Konfrontationen mit unbeschreiblichen Schrecken.
+- **Schlüsselort**: Der Hügel (The Mound) dient als zentraler Knotenpunkt für die Questreihe „Haunter of the Dark“ und birgt uralte Geheimnisse sowie tödliche Fallen.
+- **Ressourcenmanagement**: Priorisiere Lampenöl und Heilkräuter, da Licht deine wichtigste Verteidigung gegen die Dunkelheit ist.
+</Callout>
+
+<Section icon={Map} title="The Mound: Omen of Cthulhu – Haunter of the Dark: Spielübersicht">
+
+Willkommen beim ultimativen Guide für **The Mound: Omen of Cthulhu – Haunter of the Dark**. Dieser Titel bietet ein tiefes Eintauchen in den psychologischen Horror und die Survival-RPG-Elemente, die von den Werken von H.P. Lovecraft inspiriert wurden. Die Spieler werden in eine Welt geworfen, in der die Grenzen zwischen der Realität und der Leere verschwimmen, wobei der Schwerpunkt auf der Schnittstelle zwischen der Lore von „The Mound“ und der furchterregenden Präsenz des „Haunter of the Dark“ liegt. In dieser Ausgabe für 2026 untersuchen wir die aktualisierten Mechaniken, die dieses Spiel zu einem der anspruchsvollsten Horrortitel auf Steam gemacht haben.
+
+<CardGrid cols={3}>
+  <Card title="Atmosphärischer Horror">
+    - **Dynamische Beleuchtung**: Lichtquellen wirken sich direkt auf die gegnerische KI und die geistige Gesundheit des Spielers aus.
+    - **Unheimliche Lore**: Tiefe Integration der Lovecraft-Mythologie und origineller Erzählungen.
+  </Card>
+  <Card title="Überlebenssysteme">
+    - **Ressourcenknappheit**: Munition und Heilgegenstände sind im Hügel extrem selten.
+    - **Inventarverwaltung**: Ein gitterbasiertes Inventar erfordert strategische Planung für Expeditionen.
+  </Card>
+  <Card title="Kampf & Schleichen">
+    - **Taktischer Rückzug**: Weglaufen ist oft sinnvoller als Kämpfen.
+    - **Schwachstellen anvisieren**: Nutze bestimmte Werkzeuge, um die Schwachstellen des kosmischen Schreckens auszunutzen.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inhaltshinweis">
+Dieses Spiel enthält intensive Gewalt, Blut und Gore. Wie in der offiziellen Steam-Dokumentation vermerkt, betonen die Entwickler, dass der Inhalt für ein erwachsenes Publikum bestimmt ist und möglicherweise nicht für alle Altersgruppen oder für die Ansicht am Arbeitsplatz geeignet ist.
+</Callout>
+
+| Feature | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Geistige Gesundheit (Sanity)** | Überwacht den mentalen Zustand | Niedrige Werte verursachen visuelle Verzerrungen/Tod |
+| **Dunkelheitsgrad** | Dichte der Umgebungsschatten | Erhöht die Aggressivität und Spawn-Rate der Gegner |
+| **Uralte Relikte** | Sammelbare Mythos-Gegenstände | Gewähren mächtige Buffs, zehren aber an der geistigen Gesundheit |
+| **Der Hügel-Hub (The Mound)** | Zentraler sicherer Bereich (meistens) | Ort für Upgrades und Quest-Verfolgung |
+
+</Section>
+
+<Section icon={Swords} title="Kampfmechaniken und Gegneranalyse">
+
+Der Kampf in **The Mound: Omen of Cthulhu – Haunter of the Dark** ist ein verzweifelter Überlebenskampf. Im Gegensatz zu traditionellen Action-RPGs birgt jede Begegnung hier ein erhebliches Risiko für dauerhafte Verletzungen oder Wahnsinn. Das Verständnis deiner Werkzeuge und der spezifischen Bedrohungen durch die Diener des Haunters ist überlebenswichtig.
+
+<Callout type="tip" title="Vorteil der Umgebung">
+Suche ein Gebiet vor dem Kampf immer nach explosiven Fässern oder einstürzenden Strukturen ab. Das Locken einer Shoggothen-Brut in eine Falle spart wertvolle Munition.
+</Callout>
+
+| Gegnertyp | Hauptbedrohung | Empfohlene Strategie |
+| :--- | :--- | :--- |
+| **Kultisten-Initiand** | Überzahl | Nutze Nahkampf, um Munition zu sparen; pariere Angriffe |
+| **Geflügelter Lauerer** | Hohe Mobilität, Luftangriffe | Schrotflinte für hohen Schaden, bleibe in Deckung |
+| **Der Haunter (Avatar)** | Sofortiger Entzug der geistigen Gesundheit | Vermeide direkten Augenkontakt, nutze die Signalpistole |
+| **Tiefe-Wesen-Hybrid** | Hohe physische Resistenz | Feuerbasierte Waffen oder panzerbrechende Munition |
+
+Das Kampfsystem nutzt eine „Haltungs“-Mechanik. Das Aufrechterhalten einer stabilen Haltung verringert den Entzug der geistigen Gesundheit, wenn du schrecklichen Wesen gegenüberstehst. Wenn deine Haltung bricht, gerät dein Charakter ins Stolpern, was ihn anfällig für „Gore-Finisher“ von größeren Gegnern macht.
+
+</Section>
+
+<Section icon={Shield} title="Überleben und Management der geistigen Gesundheit">
+
+Beim Überleben geht es nicht nur darum, deine LP über Null zu halten; es geht darum, deinen Verstand zu bewahren. Die Questreihe „Haunter of the Dark“ führt spezifischen psychologischen Druck ein, der einen Run schneller beenden kann als jede physische Wunde.
+
+**Methoden zur Wiederherstellung der geistigen Gesundheit:**
+- **Rasten an Lagerfeuern**: Begrenzte Sicherheitszonen innerhalb des Hügels.
+- **Lesen weltlicher Texte**: Das Finden von Büchern, die nichts mit dem Mythos zu tun haben, hilft, den Charakter zu erden.
+- **Verwendung von Laudanum**: Sofortige Erholung, verursacht jedoch physische Sucht-Debuffs.
+
+<Callout type="success" title="Optimierte Ausrüstung">
+Priorisiere für die Abschnitte von „Haunter of the Dark“ die **Silberne Laterne**. Ihr Lichtspektrum ist speziell darauf abgestimmt, schattenbasierte Wesen effektiver abzuwehren als die Standard-Öllampe.
+</Callout>
+
+| Gegenstandsklasse | Hauptnutzen | Verfügbarkeit |
+| :--- | :--- | :--- |
+| **Medizinischer Bedarf** | Physische Traumata heilen | Häufig in städtischen Gebieten, selten im Hügel |
+| **Mentale Stabilisatoren** | Geistigen Zusammenbruch verhindern | Hergestellt aus seltenen Kräutern, die in Höhlen zu finden sind |
+| **Lichtquellen** | Sichtbarkeit und Verteidigung | Erfordert ständige Brennstoffverwaltung |
+| **Amulette** | Passiver Schutz | Gefunden durch das Lösen geheimer Rätsel |
+
+</Section>
+
+<Section icon={Target} title="Komplettlösung: Die „Haunter of the Dark“-Questreihe">
+
+„Haunter of the Dark“ ist die entscheidende Questreihe im Mid-Game, die dich tief in das Herz des Hügels führt. Das sorgfältige Befolgen dieser Schritte ist erforderlich, um das Ende „Ewige Dunkelheit“ zu vermeiden.
+
+<Steps>
+  <Step num="1" title="Die Kirche der Sternenweisheit">
+    Finde die Ruinen der Kirche im nördlichen Sektor der Karte. Du musst das im Kirchturm versteckte **Leuchtende Trapezoeder** finden. Warnung: Das Berühren des Artefakts ohne Handschuhe verursacht sofortigen Schaden an der geistigen Gesundheit.
+  </Step>
+  <Step num="2" title="Entzifferung der Hügel-Schriften">
+    Bringe das Artefakt zum Alten Gelehrten im Hügel-Hub. Du musst ihn vor einer Welle von Kultisten beschützen, während er die alten Texte übersetzt, die zum Öffnen des Schwarzen Tors benötigt werden.
+  </Step>
+  <Step num="3" title="Betreten des Abgrunds">
+    Nutze die übersetzte Beschwörungsformel am Schwarzen Tor während eines Neumonds (überprüfe den Kalender im Spiel). Dies führt in das „Reich des Haunters“, einen prozedural generierten Dungeon, in dem Lichtquellen 50 % schneller versiegen.
+  </Step>
+  <Step num="4" title="Die finale Konfrontation">
+    Stelle dich dem Haunter of the Dark. Du kannst ihn nicht mit herkömmlichen Waffen töten. Du musst die drei **Ur-Spiegel** ausrichten, um das Sonnenlicht in die Grube zu bündeln und die Entität zurück in die Leere zu verbannen.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Expertenstrategie">
+Versuche in Schritt 3 nicht, jede Ecke zu erkunden. Das Reich des Haunters ist so konzipiert, dass es Spieler in Endlosschleifen gefangen hält. Folge der Spur aus „Blauem Moos“, um den Ausgang schnell zu finden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortschritt und Upgrade-Pfade">
+
+Während deines Fortschritts in **The Mound: Omen of Cthulhu – Haunter of the Dark** erhältst du „Erkenntnis“-Punkte (Insight). Diese werden am Altar des Wissens ausgegeben, um die Widerstandsfähigkeit und Fähigkeiten deines Charakters zu verbessern.
+
+<CardGrid cols={2}>
+  <Card title="Pfad des Ermittlers">
+    - **Erhöhte Wahrnehmung**: Erkenne versteckte Gegenstände und Fallen aus größerer Entfernung.
+    - **Linguistische Meisterschaft**: Übersetze Ältere Zeichen für dauerhafte Buffs.
+    - **Am besten für**: Spieler, die Rätsel und die Erkundung der Lore bevorzugen.
+  </Card>
+  <Card title="Pfad des Überlebenden">
+    - **Physische Stärke**: Mehr LP und höherer Widerstand gegen Blutungen.
+    - **Kampfreflexe**: Schnelleres Nachladen und reduzierte Ausdauerkosten im Nahkampf.
+    - **Am besten für**: Spieler, die sich häufiger auf Kämpfe einlassen wollen.
+  </Card>
+</CardGrid>
+
+| Upgrade-Stufe | Kosten (Erkenntnis) | Hauptvorteil |
+| :--- | :--- | :--- |
+| **Tier 1** | 5 Punkte | +10 % maximale geistige Gesundheit |
+| **Tier 2** | 15 Punkte | Schaltet die Fähigkeit „Zweiter Wind“ frei |
+| **Tier 3** | 30 Punkte | Immunität gegen „Schattenschrecken“ |
+| **Tier 4** | 50 Punkte | Fähigkeit, mit Mythos versetzte Munition herzustellen |
+
+<Callout type="warning" title="Unumkehrbare Entscheidungen">
+Sobald du dich auf Stufe 3 für einen Pfad entscheidest, kannst du diesen nicht mehr wechseln. Wähle weise, basierend auf deinem bevorzugten Spielstil für die Endgame-Inhalte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für Komplettierer">
+
+Für diejenigen, die die Schrecken im Hügel vollständig meistern wollen, hilft diese Checkliste, den Fortschritt in Richtung 100 % Komplettierung im Jahr 2026 zu verfolgen.
+
+<Checklist
+  id="completion-goals"
+  title="Endgame-Meilensteine:"
+  items={[
+    "Sammle alle 12 Fragmente des Necronomicons",
+    "Besiege den Haunter of the Dark, ohne Laudanum zu benutzen",
+    "Schalte alle 4 verschiedenen Enden frei (Ritual, Flucht, Wahnsinn, Aufstieg)",
+    "Finde den geheimen Eingang zu den 'Traumländern' im Keller des Hügels",
+    "Werte die Silberne Laterne zu ihrer 'Strahlenden' Form auf",
+    "Schließe das Spiel auf dem Schwierigkeitsgrad 'Wahnsinn' ab"
+  ]}
+/>
+
+<Callout type="success" title="Tipp für Steam-Erfolge">
+Der Erfolg „Gelehrter der Leere“ erfordert das Lesen aller Lore-Notizen in einem einzigen Spieldurchgang. Suche unbedingt hinter zerstörbaren Wänden in der Kirche der Sternenweisheit!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie speichere ich meinen Fortschritt im Hügel?",
+    answer: "Der Fortschritt wird automatisch gespeichert, wenn du den Hügel-Hub betrittst, oder manuell an bestimmten Lagerfeuern. Beachte, dass auf dem Schwierigkeitsgrad 'Wahnsinn' Speicherungen nur im Hub verfügbar sind."
+  },
+  {
+    question: "Was ist die beste Waffe für den Bosskampf gegen den Haunter of the Dark?",
+    answer: "Die Signalpistole ist das effektivste Werkzeug für vorübergehende Betäubungen, aber die 'Ur-Spiegel' sind der einzige Weg, um den Kampf tatsächlich erfolgreich zu beenden."
+  },
+  {
+    question: "Kann ich The Mound: Omen of Cthulhu – Haunter of the Dark im Koop-Modus spielen?",
+    answer: "Das Spiel ist als Solo-Erfahrung konzipiert, um die psychologische Horroratmosphäre zu maximieren. Im Roadmap für 2026 gibt es derzeit keine offiziellen Pläne für einen Mehrspielermodus."
+  },
+  {
+    question: "Was passiert, wenn meine geistige Gesundheit auf Null sinkt?",
+    answer: "Dein Charakter erleidet einen 'mentalen Zusammenbruch'. Dies führt zu einem Game Over, es sei denn, du hast ein 'Auferstehungsidol' im Inventar, das 25 % der geistigen Gesundheit wiederherstellt, aber dabei verbraucht wird."
+  }
+]} />
+
+</Section>

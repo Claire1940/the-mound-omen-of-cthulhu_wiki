@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Discord: Community- & Koop-Leitfaden",
+  description: "Tritt dem offiziellen Discord für The Mound: Omen of Cthulhu bei. Finde Koop-Teammitglieder, koordiniere Überlebensstrategien und bemeistere das Sanity-System.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Discord+and+Co-op+Guide",
+  date: "2026-07-15",
+  author: "The Mound: Omen of Cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primäre Community**: Tritt dem offiziellen ACE Team Discord bei, um Mitspieler zu finden und Echtzeit-Updates zur Entwicklung zu erhalten.
+- **Koop-Koordination**: Nutze dedizierte Sprachkanäle, um die Einschränkungen des räumlichen Voice-Chats im Spiel während stressiger Runs zu umgehen.
+- **Trupp-Anforderungen**: Bilde ausgewogene Teams von bis zu vier Spielern, um die Aufgaben für Navigation, Verteidigung und Ressourcenmanagement aufzuteilen.
+- **Realitätsprüfung**: Nutze aktive Kommunikationsprotokolle, um zu verifizieren, ob Silhouetten in der Nähe echte Teammitglieder oder wahnsinnsbedingte Illusionen sind.
+</Callout>
+
+<Section icon={Map} title="Warum du dem Discord von The Mound: Omen of Cthulhu beitreten solltest">
+
+Das Überleben im verfluchten Dschungel von *The Mound: Omen of Cthulhu* erfordert enge Koordination, präzise Rollenverteilung und absolutes Vertrauen. Da das Spiel über ein dynamisches Sanity-System verfügt, das deine Sinne verzerrt, kann das Vertrauen auf öffentliches Matchmaking schnell zum Auslöschen des gesamten Trupps führen. Dem offiziellen **The Mound: Omen of Cthulhu Discord** des Entwicklers ACE Team beizutreten, ist der effektivste Weg, eine zuverlässige Expeditionscrew aufzubauen.
+
+Der Community-Hub dient als zentraler Treffpunkt für Entdecker, die Kapitänsverträge abschließen, Kartenfunde teilen und Waffen-Loadouts diskutieren möchten. Egal, ob du ein Solospieler bist, der einen erfahrenen Guide sucht, oder eine Dreiergruppe, die einen dedizierten Support-Spezialisten benötigt – der Discord-Server bietet sofortigen Zugang zu aktiven Spielern.
+
+| Discord-Kanal | Hauptzweck | Zielgruppe |
+|---|---|---|
+| #announcements | Offizielle Patchnotizen, Release-Updates und Server-Events | Alle Spieler |
+| #lfg-coop | Suche nach aktiven Spielern für Expeditionen mit 2 bis 4 Personen | Solo-Spieler & unvollständige Trupps |
+| #guides-and-tips | Von der Community kuratierte Strategien, Waffen-Tier-Listen und Kartenrouten | Anfänger & Veteranen |
+| #bug-reports | Meldung von Performance-Problemen direkt an das ACE Team | Aktive Spieler |
+
+<Callout type="tip" title="Profi-Tipp">
+Überprüfe immer die angepinnten Nachrichten in den Matchmaking-Kanälen. Erfahrene Kapitäne posten oft ihre aktuelle Vertragsschwierigkeit und die erforderlichen Loadouts, bevor sie Spieler in ihre Sprach-Lobbys einladen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Protokolle für Koop- und Solo-Matchmaking">
+
+Das Spiel unterstützt Solo-Spiel sowie Online-Koop für bis zu vier Spieler. Alleine zu spielen erhöht den Schwierigkeitsgrad jedoch erheblich, da keine Teammitglieder da sind, die den schatztragenden Ochsenkarren schützen oder dir helfen, durch den Wahnsinn verursachte Halluzinationen zu verifizieren. Wenn du einen Trupp über die Discord-Community bildest, ist es wichtig, klare Rollen festzulegen, bevor ihr von der Galeone *Tempestad* aufbrecht.
+
+| Trupp-Rolle | Hauptausrüstung | Kernaufgabe |
+|---|---|---|
+| **Navigator** | Öllampe, Bogen | Verfolgt Routen, sichert Logbücher und führt das Team durch den Nebel. |
+| **Karren-Verteidiger** | Steinschlossmuskete, Messer | Bleibt in der Nähe des Ochsenkarrens, sichert die Rückseite und kümmert sich um Nahbedrohungen. |
+| **Späher / Sammler** | Bogen, Schatzmedaillon | Lokalisiert verstecktes Tulu-Metall, sammelt Fleisch/Wasser und aktiviert Gegenstände. |
+| **Schwerer Support** | Luntenschlossmuskete, Messer | Eliminiert Ziele mit hoher Priorität und sichert Verteidigungsperimeter. |
+
+<Callout type="warning" title="Warnung">
+Konzentriere nicht alle kritischen Hilfsgegenstände auf einen einzigen Spieler. Wenn dein einziger Lampenträger oder Navigator kampfunfähig wird oder getrennt wird, wird der restliche Trupp schnell der Dunkelheit und Panik erliegen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt Koop-Expeditionsleitfaden">
+
+Um einen erfolgreichen Run mit deinen neuen Discord-Rekruten zu gewährleisten, folge diesem strukturierten Expeditionsablauf. Dieser Prozess minimiert Lärm, maximiert die Ressourcensammlung und garantiert eine sichere Extraktion.
+
+<Steps>
+  <Step num="1" title="Wähle einen kompatiblen Vertrag">
+    Sprich mit dem Kapitän an Bord der Galeone, um einen Expeditionsvertrag auszuwählen. Einigt euch auf einen Ziel-Schatzwert und legt die Rückzugsschwelle eures Trupps fest, bevor ihr aufbrecht.
+  </Step>
+  <Step num="2" title="Verteile das gemeinsame Arsenal">
+    Teile Waffen und Werkzeuge basierend auf den zugewiesenen Rollen auf. Stelle sicher, dass mindestens zwei Spieler leise Waffen wie Bögen oder Messer tragen, um den Geräuschpegel im Dschungel zu kontrollieren.
+  </Step>
+  <Step num="3" title="Eskortiere den Ochsenkarren sicher">
+    Bewegt euch gemeinsam und haltet den Weg für den Ochsenkarren frei. Deponiere wertvolle Relikte und Ressourcen sofort im Karren, anstatt sie einzeln zu tragen.
+  </Step>
+  <Step num="4" title="Führe ein Realitätsprüfungs-Protokoll durch">
+    Wenn der Nebel dichter wird oder sich das Gelände verändert, nutze den räumlichen Voice-Chat oder Discord-Sprachkanäle, um deine Umgebung zu verifizieren. Bestätige verdächtige Sichtungen mit Teammitgliedern, bevor du feuerst.
+  </Step>
+  <Step num="5" title="Extrahiere, bevor die Gier siegt">
+    Sobald der primäre Vertragswert gesichert ist, bewertet die Munition, Sichtweite und den Sanity-Status eures Teams. Leite die Extraktion sofort ein, wenn sich die Bedingungen verschlechtern.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erfolgs-Tipp">
+Das Freischalten verlassener Forts und das Bergen von Logbüchern während deines Runs bietet permanenten Fortschritt, indem neue Startpunkte für zukünftige Expeditionen gesichert werden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Umgang mit Sanity und Kommunikation im Koop">
+
+Die einzigartigste Herausforderung in *The Mound: Omen of Cthulhu* ist das völlige Fehlen eines traditionellen Sanity-HUDs. Du wirst keine Anzeige sehen, die deinen geistigen Verfall anzeigt. Stattdessen manifestiert sich der Wahnsinn als private visuelle und akustische Halluzinationen, die für jeden Spieler im Trupp unterschiedlich sind.
+
+Um diesen psychologischen Fallen entgegenzuwirken, musst du eine strukturierte Kommunikation nutzen. Discord-Sprachkanäle bieten eine stabile Alternative, wenn das räumliche Audio im Spiel durch die sich ausbreitende Verderbnis verzerrt wird.
+
+<CardGrid cols={3}>
+  <Card title="Visuelle Verzerrungen">
+    - **Lokalisierter Blutregen**
+    - Blutende Dschungelflora
+    - Sich verändernde Pfadstrukturen
+    - *Aktion*: Bestätige Umweltveränderungen mit einem gesunden Teammitglied.
+  </Card>
+  <Card title="Akustische Täuschungen">
+    - **Gefälschte Extraktionshörner**
+    - Phantomschreie von Teammitgliedern
+    - Nachgeahmtes Dschungelflüstern
+    - *Aktion*: Folge niemals fernen Geräuschen alleine ohne Sprachverifizierung.
+  </Card>
+  <Card title="Identitätshalluzinationen">
+    - **Teammitglieder erscheinen als Monster**
+    - Falsche Entdecker-Silhouetten im Nebel
+    - Klon-Entitäten, die Spieler nachahmen
+    - *Aktion*: Nutze kurze Call-and-Response-Checks, bevor du Schusswaffen abfeuerst.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Wichtig">
+Wenn ein Entdecker einen vollständigen geistigen Zusammenbruch erleidet, sollte er Navigationsentscheidungen sofort dem Team überlassen, das Abfeuern von Waffen einstellen und den physischen Bewegungen eines bestätigten Teammitglieds folgen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Expeditions-Checkliste für Discord-Teams">
+
+Bevor du deinen nächsten hochkarätigen Vertrag startest, gehe diese kurze Vorbereitungs-Checkliste mit deiner Lobby durch, um das Risiko eines Totalverlusts des Trupps zu minimieren.
+
+<Checklist
+  id="expedition-prep"
+  title="Anforderungen vor dem Aufbruch:"
+  items={[
+    "Bestätige, dass alle Spieler demselben Discord-Sprachkanal beigetreten sind",
+    "Weise mindestens zwei leise Waffen (Bögen) zu, um den Dschungellärm zu kontrollieren",
+    "Überprüfe, ob die Öllampe und das Schatzmedaillon von verschiedenen Spielern gehalten werden",
+    "Lege ein vereinbartes verbales Passwort fest, um Spieleridentitäten in dichtem Nebel zu verifizieren",
+    "Lege eine strikte Rückzugsbedingung basierend auf Munitionsreserven oder Wetterumschwüngen fest"
+  ]}
+/>
+
+<Callout type="warning" title="Warnung">
+Regen und hohe Feuchtigkeit machen Schwarzpulverwaffen wie Steinschloss- und Luntenschlossmusketen höchst unzuverlässig. Behalte immer einen Bogen oder ein Messer als Backup-Option bereit.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community FAQ">
+
+<FAQ items={[
+  {
+    question: "Wo finde ich den offiziellen Link zum Discord von The Mound: Omen of Cthulhu?",
+    answer: "Der offizielle Einladungslink wird regelmäßig aktualisiert und auf dem offiziellen X-Account (Twitter) von ACE Team, im Steam-Community-Hub des Spiels und auf der offiziellen Website von Nacon veröffentlicht."
+  },
+  {
+    question: "Unterstützt das Spiel Crossplay zwischen PC und Konsolen?",
+    answer: "Ja. Der Epic Games Store listet vollen plattformübergreifenden Multiplayer auf, während das Xbox-Ökosystem plattformübergreifenden Koop über Xbox Series X|S, Windows PC und Xbox Cloud Gaming via Xbox Play Anywhere unterstützt."
+  },
+  {
+    question: "Wie gehe ich mit Teammitgliedern um, die aufgrund niedriger Sanity wie Monster aussehen?",
+    answer: "Feuere nicht sofort. Nutze den räumlichen Voice-Chat oder deinen Discord-Kanal, um ihre Position zu verifizieren. Bitte sie zu springen oder eine bestimmte Aktion auszuführen, um ihre Identität zu bestätigen."
+  },
+  {
+    question: "Was sind die Vorteile eines vollständigen Vier-Spieler-Trupps?",
+    answer: "Ein Vier-Spieler-Trupp ermöglicht es dir, Rollen vollständig zu spezialisieren, sodass du dedizierte Spieler für Navigation, Karrenverteidigung, lautlosen Stealth-Kampf und die Eliminierung schwerer Ziele hast."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mundo abierto de The Mound Omen of Cthulhu: Guía de supervivencia cooperativa",
+  description: "Domina el oscuro mundo abierto de The Mound: Omen of Cthulhu con nuestra guía que cubre la supervivencia cooperativa, el combate, las mecánicas de cordura y el progreso de los fuertes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Co-op+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque de supervivencia**: Navegar por el **mundo abierto de The Mound: Omen of Cthulhu** requiere una estrecha cooperación, gestión de la cordura y una planificación cuidadosa de los recursos.
+- **Base segura**: Utiliza siempre la **base del galeón** para preparar el equipo, aceptar contratos y coordinar los equipamientos antes de lanzar las expediciones.
+- **Progreso por puntos de control**: Desbloquea **fuertes abandonados** recuperando cuadernos de bitácora para establecer puntos de partida de forma permanente para incursiones más profundas en la jungla.
+- **Mecánicas de cordura**: Vigila de cerca el **sistema de locura** para evitar ilusiones visuales, distorsiones auditivas e incidentes de fuego aliado.
+</Callout>
+
+<Section icon={Map} title="Conceptos básicos de la expedición a la jungla">
+
+Adentrarse en las selvas malditas de la Sudamérica del siglo XVI requiere una preparación y coordinación minuciosas. Como grupo de exploradores desesperados, vuestro objetivo principal es adentraros en el territorio, asegurar tesoros valiosos y regresar a salvo a vuestro galeón antes de que el entorno acabe con vuestra cordura. La jungla es implacable, y cada paso conlleva el riesgo de alertar a horrores ancestrales.
+
+**Puntos destacados del vídeo:**
+- **Base de preparación**: El galeón sirve como zona segura para firmar contratos y recoger equipamiento.
+- **Enfoque cooperativo**: Un escuadrón de cuatro jugadores debe repartirse el equipo esencial para garantizar una utilidad equilibrada.
+- **Peligros ambientales**: El sonido provoca la aparición de monstruos, lo que requiere un enfoque silencioso.
+- **Disponibilidad de plataformas**: Se admite el juego cruzado completo en PC, PlayStation 5 y Xbox Series.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Tráiler oficial de descripción del juego" />
+
+Antes de subir al bote de remos, vuestra tripulación debe seleccionar su equipo inicial en el galeón. Dado que el espacio del inventario y los recursos son limitados, los jugadores deben dividir las herramientas de manera estratégica. Los equipamientos estándar incluyen mosquetes, ballestas, espadas, lámparas de aceite y sales de reanimación. Una distribución equilibrada del equipo garantiza que podáis hacer frente tanto a los encuentros de combate como a la navegación por el entorno.
+
+| Tipo de equipo | Utilidad en combate | Valor de utilidad | Nivel de ruido |
+| :--- | :--- | :--- | :--- |
+| **Mosquete** | Daño alto, recarga lenta | Utilidad baja | Extremadamente ruidoso |
+| **Ballesta** | Daño moderado, silencioso | Utilidad media | Silencioso |
+| **Espada** | Daño bajo, cuerpo a cuerpo | Utilidad alta | Silencioso |
+| **Lámpara de aceite** | Ninguna | Visibilidad alta | Silencioso |
+| **Sales de reanimación** | Ninguna | Curación alta | Silencioso |
+
+<Callout type="info" title="Preparación en el galeón">
+Coordínate siempre con tu equipo para repartir el equipo inicial de manera equitativa. No salgáis del galeón sin al menos una lámpara de aceite y un juego de sales de reanimación por pareja.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El mapa del mundo abierto maldito">
+
+La distribución del **mundo abierto de The Mound: Omen of Cthulhu** consta de zonas enormes e interconectadas. Estas áreas abiertas están unidas por antiguos fuertes abandonados por expediciones anteriores que fracasaron. Explorar estas zonas es necesario para recolectar comida para la tripulación del barco, rescatar exploradores perdidos y localizar la entrada al propio Montículo (Mound).
+
+Para que el progreso sea permanente, los jugadores deben localizar y recuperar los cuadernos de bitácora ocultos en estos fuertes abandonados. Asegurar un cuaderno de bitácora desbloquea el fuerte correspondiente como punto de partida para futuras incursiones. Esto permite a tu equipo saltarse las zonas exteriores y comenzar las expediciones a mayor profundidad en la jungla, ahorrando tiempo y preservando la cordura.
+
+| Nombre de la zona | Nivel de dificultad | Amenaza principal | Recompensa clave |
+| :--- | :--- | :--- | :--- |
+| **Fuerte de la costa** | Bajo (1/5) | Bestias salvajes | Cuaderno de bitácora básico |
+| **Ruinas exteriores** | Medio (3/5) | Entidades malditas | Equipo avanzado |
+| **Templo interior** | Alto (5/5) | Horrores lovecraftianos | Llave de entrada al Montículo |
+
+<CardGrid cols={3}>
+  <Card title="Caza de tesoros">
+    - **Localizar cofres de oro**
+    - Transportar el botín al bote de remos
+    - Evitar llevar bolsas pesadas durante el combate
+  </Card>
+  <Card title="Recolección de comida">
+    - **Cazar la fauna local**
+    - Recolectar plantas comestibles
+    - Mantener la resistencia de la tripulación
+  </Card>
+  <Card title="Misiones de rescate">
+    - **Rastrear exploradores desaparecidos**
+    - Usar sales de reanimación en los supervivientes
+    - Escortar a los objetivos de vuelta a un lugar seguro
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Progreso del fuerte">
+Los fuertes abandonados no se desbloquean automáticamente. Si vuestro escuadrón es eliminado antes de recuperar y asegurar el cuaderno de bitácora, perderéis todo el progreso en esa zona y deberéis reiniciar desde la costa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas de combate y sigilo">
+
+El combate directo en la jungla es extremadamente peligroso y debe considerarse como último recurso. El entorno reacciona al ruido que hacéis. Disparar un mosquete o incluso pisar ramas secas puede despertar al territorio circundante, atrayendo a agresivas criaturas lovecraftianas a vuestra ubicación. El sigilo y la coordinación son vuestras mejores herramientas para sobrevivir.
+
+Cuando el combate sea inevitable, utilizad armas silenciosas como la ballesta o la espada para acabar con las amenazas aisladas. Si un jugador debe disparar un mosquete, el resto del equipo debe prepararse inmediatamente para un contraataque o planificar una ruta de retirada rápida.
+
+| Fuente de ruido | Rango de detección | Nivel de amenaza | Reacción recomendada |
+| :--- | :--- | :--- | :--- |
+| **Rama rompiéndose** | Rango corto | Bajo | Congelarse y agacharse |
+| **Disparo de ballesta** | Rango medio | Bajo | Reposicionarse inmediatamente |
+| **Disparo de mosquete** | Toda la pantalla | Extremo | Retirarse a terreno elevado |
+| **Esprintar** | Rango medio | Medio | Caminar para romper la línea de visión |
+
+<Steps>
+  <Step num="1" title="Aceptar contrato">
+    Selecciona tu misión en el galeón, organiza tu inventario y sube al bote de remos hacia tierra firme.
+  </Step>
+  <Step num="2" title="Navegar en silencio">
+    Muévete por la jungla caminando agachado, evitando las ramas secas y manteniendo el ruido al mínimo.
+  </Step>
+  <Step num="3" title="Asegurar el fuerte">
+    Localiza el fuerte abandonado en tu zona actual, recupera el cuaderno de bitácora y desbloquea el nuevo punto de partida.
+  </Step>
+  <Step num="4" title="Extraer botín">
+    Lleva los tesoros recolectados de vuelta al bote de remos y regresa al galeón para completar la incursión.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bonificación de sigilo">
+El uso de armas cuerpo a cuerpo o la ballesta os permite eliminar amenazas menores sin alertar a la jungla en general. Reserva el mosquete para encuentros con jefes o defensa de emergencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El sistema de locura y el chat de proximidad">
+
+Cuanto más os adentréis en el territorio maldito, mayor será el impacto en vuestra cordura. El juego cuenta con un sistema de locura dinámico que desencadena alucinaciones visuales y auditivas. A medida que vuestra cordura disminuye, el entorno se distorsiona, las trampas se disfrazan de caminos seguros y el mundo puede parecer empapado de sangre.
+
+La comunicación también se ve afectada por vuestros niveles de cordura. El juego utiliza un chat de voz de proximidad especializado, que se distorsiona o se desactiva por completo a medida que la locura se apodera del jugador. Si un compañero de equipo se aleja demasiado y pierde la comunicación, corre el riesgo de ser controlado por la jungla, convirtiéndose en una amenaza hostil para el resto del grupo.
+
+| Nivel de cordura | Efectos visuales | Efectos auditivos | Impacto en el juego |
+| :--- | :--- | :--- | :--- |
+| **Alto (80-100%)** | Visión normal | Audio claro | Sin penalizaciones |
+| **Medio (40-79%)** | Cambios leves de color | Susurros lejanos | Las trampas parecen objetos |
+| **Bajo (1-39%)** | Pantalla roja sangre | Estática grave | Chat de proximidad desactivado |
+| **Cero (0%)** | Alucinación total | Gritos constantes | La jungla toma el control |
+
+<Checklist
+  id="sanity-maintenance"
+  title="Lista de control para el mantenimiento de la cordura:"
+  items={[
+    "Mantener línea de visión directa con tus compañeros de equipo",
+    "Usar sales de reanimación inmediatamente cuando aparezcan síntomas de paranoia",
+    "Evitar permanecer en áreas oscuras sin una lámpara de aceite encendida",
+    "Confirmar la identidad de los compañeros a través del chat de proximidad regularmente"
+  ]}
+/>
+
+<Callout type="tip" title="La comunicación es clave">
+Si un compañero de equipo deja de responder al chat de proximidad o se comporta de manera errática, mantén las distancias. Es posible que haya perdido la cordura y os esté cazando.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el modo cooperativo en el mundo abierto de The Mound: Omen of Cthulhu?",
+    answer: "El juego admite hasta cuatro jugadores en modo cooperativo con juego cruzado completo en PC, PlayStation 5 y Xbox Series. Los jugadores deben trabajar juntos para gestionar los recursos, mantener la cordura y asegurar el botín."
+  },
+  {
+    question: "¿Qué pasa cuando la cordura de un jugador llega a cero?",
+    answer: "Cuando la cordura llega a cero, el jugador experimenta alucinaciones graves, pierde la comunicación y puede ser controlado temporalmente por la jungla para cazar a sus compañeros de equipo restantes."
+  },
+  {
+    question: "¿Cómo se guarda el progreso en el mundo abierto?",
+    answer: "El progreso se guarda al encontrar y asegurar cuadernos de bitácora en fuertes abandonados. Desbloquear estos fuertes te permite usarlos como puntos de control iniciales para futuras expediciones."
+  },
+  {
+    question: "¿Dónde puedo comprar el juego?",
+    answer: "El juego está disponible en Steam, PlayStation 5 y Xbox Series. Puedes consultar la página de la tienda de Steam para ver descuentos activos y actualizaciones."
+  }
+]} />
+
+<Callout type="info" title="Detalles de lanzamiento">
+The Mound: Omen of Cthulhu se lanzó el 15 de julio de 2026. Asegúrate de consultar la [página de la tienda de Steam](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/) para ver descuentos activos y actualizaciones de la comunidad.
+</Callout>
+
+</Section>

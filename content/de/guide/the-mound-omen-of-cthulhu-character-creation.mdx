@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Charaktererstellung: Anpassungs-Leitfaden",
+  description: "Erkunden Sie die Charakterliste und die Anpassungssysteme in The Mound: Omen of Cthulhu. Erfahren Sie mehr über Archetypen, Ausrüstungsvisuals und Rettungsmechaniken.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "Charaktererstellung, Anpassung, Archetypen, The Mound Omen of Cthulhu, Überlebende"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Charaktererstellung in The Mound Omen of Cthulhu** nutzt eine feste Liste einzigartiger Individuen anstelle eines traditionellen Charakter-Editors.
+- Die **visuelle Anpassung** ist an die ausgerüstete Ausrüstung und Waffen gebunden, die in Echtzeit auf Ihrem Charaktermodell angezeigt werden.
+- **Archetypen** sind derzeit rein kosmetisch, was bedeutet, dass Ihre Charakterwahl Ihre Fähigkeiten oder Startwerte nicht einschränkt.
+- **Historische Genauigkeit** hat Priorität, wobei das Entwicklerteam ACE Team fotogescannte spanische Konquistadorenkleidung aus dem 16. Jahrhundert verwendet.
+- **Neue Charaktere** können Ihrer Liste hinzugefügt werden, indem Sie Überlebende retten, die tief in den Dschungelexpeditionen gefunden werden.
+</Callout>
+
+<Section icon={Map} title="Charaktersystem und Archetypen-Übersicht">
+
+The Mound: Omen of Cthulhu weicht von traditionellen RPG-Mechaniken ab, indem es eine feste Liste etablierter Charaktere anbietet. Anstatt eines unbeschriebenen Avatars schlüpfen die Spieler in die Rollen spanischer Entdecker, von denen jeder seine eigene Geschichte und Motivation hat. Diese Designentscheidung ermöglicht es den Entwicklern von ACE Team, eine atmosphärischere Erzählung zu schaffen, in der sich der psychologische Horror und das Lovecraft'sche Grauen für die Überlebenden persönlich anfühlen.
+
+**Video-Highlights:**
+- Detaillierter Blick auf die atmosphärische Dschungelumgebung und deren Auswirkungen auf die geistige Gesundheit der Charaktere.
+- Übersicht über den Extraktions-Loop, bei dem Artefakte und Metall-Ephemeron gesammelt werden.
+- Erklärung, wie Regen Schwarzpulverwaffen und die Sichtweite der Charaktere beeinflusst.
+- Einblicke in die "Wahnsinn"-Mechanik, die bei jedem Spieler einzigartige Halluzinationen auslöst.
+- Vorschau auf das Tempest Dot Hub-Schiff, auf dem Spieler mit der Crew interagieren.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Dinge, die Sie vor dem Kauf wissen sollten" />
+
+Obwohl Sie die Gesichtszüge oder Körpertypen der Startbesetzung nicht ändern können, legt das Spiel Wert auf "funktionale Ästhetik". Jedes Ausrüstungsstück, das Sie auf dem Festland finden – von Steinschlosspistolen bis hin zu spezialisierter Schutzausrüstung – wird an Ihrem Charakter dargestellt. Dies stellt sicher, dass sich das Aussehen Ihres Charakters basierend auf Ihrem Überlebensfortschritt und Ihrer Beute entwickelt, während Sie eine vordefinierte Rolle spielen.
+
+| Merkmal | Systemdetails | Anpassungsgrad |
+| :--- | :--- | :--- |
+| **Charaktererstellung** | Feste Liste einzigartiger Individuen | Keine (Voreinstellung) |
+| **Visuelle Ausrüstung** | Echtzeitanzeige von Rüstung/Waffen | Hoch (Funktional) |
+| **Archetypen-Fertigkeiten** | Gemeinsamer Fortschritt aller Charaktere | Universell |
+| **Historisches Detail** | Fotogescannte Repliken aus dem 16. Jh. | Authentisch |
+| **Listenerweiterung** | Rettung von Überlebenden im Dschungel | Freischaltbar |
+
+<Callout type="tip" title="Strategie-Tipp">
+Da Archetypen kosmetisch sind, wählen Sie den Charakter, dessen Hintergrundgeschichte oder Sprachausgabe Ihnen am besten gefällt. Ihre Kampfeffektivität wird durch die Ausrüstung bestimmt, die Sie auf der Tempest Dot vor Beginn des Laufs auswählen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die Start-Archetypen und Hintergrundgeschichten">
+
+Zum Start des Spiels im Jahr 2026 haben Spieler Zugriff auf vier primäre Archetypen. Diese Charaktere repräsentieren verschiedene soziale Schichten der spanischen Expedition und bieten eine vielfältige Perspektive auf die kosmischen Schrecken, die sich im Dschungel entfalten. Die Entwickler haben betont, dass diese Charaktere "einzigartige Individuen" und keine generischen Klassen sind.
+
+<CardGrid cols={3}>
+  <Card title="Alonso de la Torre">
+    - **Hintergrund**: Ein nihilistischer ehemaliger Soldat.
+    - **Motivation**: Unbeeindruckt von Krieg oder traditionellem Reichtum; sieht Wohlstand als Weg zur wahren Freiheit.
+    - **Persönlichkeit**: Stoisch und widerstandsfähig gegen die psychische Belastung des Dschungels.
+  </Card>
+  <Card title="Leonor">
+    - **Hintergrund**: Eine Flüchtige vor der spanischen Krone.
+    - **Motivation**: Floh nach einem erbarmungslosen Mord aus Spanien; sucht ein neues Leben in den unkartierten Landen.
+    - **Persönlichkeit**: Einfallsreich und getrieben von Überlebensinstinkten.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    - **Hintergrund**: Ein Edelmann, ermüdet von endlosen Kriegen.
+    - **Motivation**: Sucht im Gegensatz zu seinen Standesgenossen Ehre und die verborgene Wahrheit hinter dem Mound.
+    - **Persönlichkeit**: Hochdiszipliniert mit Fokus auf Führung und Entdeckung.
+  </Card>
+</CardGrid>
+
+Das Charakter-Interaktionssystem ist ein Kernbestandteil der Erfahrung. Obwohl die Archetypen die gleichen Fertigkeiten teilen, unterscheiden sich ihre Reaktionen auf die "Wahnsinn"-Mechanik. Wenn Ihre geistige Gesundheit sinkt, können verschiedene Charaktere einzigartige auditive oder visuelle Halluzinationen erleben, was die Kommunikation über den spezialisierten Proximity-Voice-Chat für das Überleben des Teams unerlässlich macht.
+
+| Archetypen-Name | Soziale Herkunft | Kernphilosophie |
+| :--- | :--- | :--- |
+| **Alonso de la Torre** | Militär | Nihilismus und Freiheit |
+| **Leonor** | Gesetzlose | Überleben und Flucht |
+| **Don Rodrigo** | Adel | Wahrheit und Ehre |
+| **Überlebenden-Archetypen** | Expeditions-Nachzügler | Variiert / Zu entdecken |
+
+<Callout type="warning" title="Wahnsinns-Warnung">
+Die "Wahnsinn"-Mechanik kann dazu führen, dass Sie eingebildete Schmuckstücke oder Fallen sehen. Überprüfen Sie Ihre Sichtungen immer mit Ihren Teammitglieder, da diese basierend auf dem aktuellen mentalen Zustand ihres Charakters eine völlig andere Realität wahrnehmen können.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visuelle Anpassung und historische Authentizität">
+
+The Mound: Omen of Cthulhu verfolgt einen einzigartigen Ansatz bei der Charakterdarstellung. Anstatt eines Regler-basierten Erstellungssystems arbeiteten die Entwickler mit echten Kostümdesignern zusammen, um physische Repliken spanischer Kleidung aus dem 16. Jahrhundert zu erstellen. Diese Kleidungsstücke wurden dann fotogescant, um hochdetaillierte 3D-Modelle zu erstellen. Dies stellt sicher, dass jeder Spieler wie ein authentischer Konquistador aussieht und die düstere, geerdete Ästhetik des Spiels gewahrt bleibt.
+
+**Elemente der visuellen Anpassung:**
+- **Rüstungssets**: Verschiedene Arten von Leder- und Metallbrustpanzern, die in verlassenen Forts gefunden werden können.
+- **Kopfbedeckungen**: Helme und Hüte, die sowohl Schutz als auch eine markante Silhouette bieten.
+- **Waffenanzeige**: Macheten, Steinschlosspistolen und Gewehre sind am Charaktermodell sichtbar gehalftert.
+- **Umwelteinflüsse**: Schlamm, Blut und Feuchtigkeit sammeln sich während der Expedition auf der Kleidung an.
+
+| Anpassungskategorie | Änderungsmethode | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Kleidung/Uniform** | Auf dem Festland gefunden / Gerettete Charaktere | Rein visuell / Historisch |
+| **Primärwaffe** | Beim Kapitänskontrakt ausgewählt | Kampfreichweite und Stärke |
+| **Ausrüstung** | Inventarplätze (Öllampen, Schwarzpulver) | Sichtbarkeit und Nutzen |
+| **Wahnsinnseffekte** | Kontakt mit Eldritch-Einfluss | Visuelle Verzerrung / Halluzinationen |
+
+<Callout type="success" title="Entwickler-Notiz">
+ACE Team hat bestätigt, dass sie weitere Möglichkeiten zur Anpassung von Frisuren und spezifischen Kleidungsstücken in zukünftigen Updates für 2026 prüfen, um mehr individuellen Ausdruck innerhalb der festen Liste zu ermöglichen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie man neue Charaktere freischaltet">
+
+Obwohl Sie mit einer begrenzten Auswahl beginnen, ist die Welt von *The Mound* voller verlorener Seelen früherer gescheiterter Expeditionen. Die Rettung dieser Überlebenden ist ein primärer Weg, um Ihre Liste zu erweitern und Zugang zu neuen Charakterperspektiven zu erhalten. Diese "Rettungs"-Mechanik fügt dem Charaktersystem eine Ebene des Fortschritts hinzu, die traditionelle Erstellungsbildschirme nicht bieten.
+
+<Steps>
+  <Step num="1" title="Rettungskontrakt annehmen">
+    Besuchen Sie den Kapitän auf der Tempest Dot und suchen Sie nach Verträgen, die "Gestrandete Überlebende" oder "Verlorene Expeditionsmitglieder" betreffen.
+  </Step>
+  <Step num="2" title="Überlebenden lokalisieren">
+    Navigieren Sie zu verlassenen Forts oder indigenen Lagern auf dem Festland. Achten Sie auf akustische Signale, da Überlebende um Hilfe rufen könnten.
+  </Step>
+  <Step num="3" title="Bereich sichern">
+    Überlebende werden oft von indigenen Nachzüglern oder Eldritch-Pirschern bewacht. Sie müssen diese Bedrohungen ausschalten, bevor die Rettung fortgesetzt werden kann.
+  </Step>
+  <Step num="4" title="Eskorte zur Extraktion">
+    Führen Sie den Überlebenden zurück zu Ihrem Extraktionspunkt. Sie könnten schwach oder verletzt sein, sodass Ihr Team Deckung geben muss.
+  </Step>
+  <Step num="5" title="Freischaltung abschließen">
+    Nach erfolgreicher Extraktion wird der neue Charakter in Ihrer Liste für zukünftige Läufe verfügbar und bringt seine eigene Lore und Optik mit.
+  </Step>
+</Steps>
+
+| Rettungstyp | Schwierigkeit | Belohnung |
+| :--- | :--- | :--- |
+| **Expeditions-Nachzügler** | Niedrig | Neuer Basis-Archetyp |
+| **Gestrandeter Offizier** | Mittel | Seltene Ausrüstung + Neuer Charakter |
+| **Gescheiterter Entdecker** | Hoch | Spezialisierte Lore + Einzigartige Visuals |
+
+<Callout type="info" title="Listenerweiterung">
+Gerettete Charaktere sind nicht nur "Skins". Sie sind in den Story-Fortschritt integriert, und ihre Anwesenheit auf der Tempest Dot kann neue Dialogoptionen mit dem Schiffskoch oder dem Kapitän freischalten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PC-Anforderungen für das Charakter-Rendering">
+
+Um die hochauflösenden fotogescannten Charaktermodelle und atmosphärischen Effekte zu erleben, muss Ihr PC bestimmte Hardware-Standards erfüllen. Das dichte Dschungellaub und die dynamische Beleuchtung erfordern erhebliche GPU-Ressourcen, besonders wenn die "Wahnsinn"-Verzerrungen die Umgebung zu verformen beginnen.
+
+| Komponente | Mindestanforderungen | Empfohlene Anforderungen |
+| :--- | :--- | :--- |
+| **CPU** | Intel i7 8700K / Ryzen 5 1600X | Intel i7 11700K / Ryzen 5 5500 |
+| **GPU** | GTX 1660 Super / RX 5600XT | RTX 3070 / RX 6750XT |
+| **VRAM** | 6 GB | 8 GB - 12 GB |
+| **RAM** | 16 GB | 16 GB |
+| **Speicher** | SSD empfohlen | SSD erforderlich |
+
+<Callout type="warning" title="Performance-Tipp">
+Wenn Sie in szenenreichen Momenten mit vielen Charakteren oder im dichten Dschungel Ruckler bemerken, versuchen Sie, die Einstellungen für "Texturdetails" oder "Schattenqualität" zu verringern, da diese beim Rendern der fotogescannten Assets den VRAM am stärksten belasten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fortschrittsziele und Checkliste">
+
+Da die **Charaktererstellung in The Mound Omen of Cthulhu** an Ihren gesamten Kontofortschritt gebunden ist, sollten sich Ihre Ziele darauf konzentrieren, Ihre Optionen durch das Gameplay statt über ein Menü zu erweitern. Nutzen Sie die folgende Checkliste, um sicherzustellen, dass Sie Ihr Potenzial bei der Charakterliste maximieren.
+
+<Checklist
+  id="character-progression"
+  title="Expeditions-Meilensteine:"
+  items={[
+    "Schließen Sie die ersten drei Kapitänskontrakte ab, um die vollständige Startliste freizuschalten",
+    "Retten Sie erfolgreich mindestens einen Überlebenden aus der nördlichen Dschungelregion",
+    "Rüsten Sie ein komplettes Set fotogescannter Konquistadoren-Ausrüstung vom Festland aus",
+    "Erreichen Sie Stufe 10, um fortgeschrittenen Story-Fortschritt freizuschalten, der für alle Charaktere gilt",
+    "Besuchen Sie den Schiffskoch auf der Tempest Dot, um mehr über charakterspezifische Essens-Buffs zu erfahren"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Gibt es einen traditionellen Charakter-Editor in The Mound: Omen of Cthulhu?",
+    answer: "Nein, das Spiel bietet eine feste Liste einzigartiger Individuen mit vordefinierten Hintergrundgeschichten und Visuals. Die Charaktererstellung wird durch eine Auswahl von Archetypen ersetzt."
+  },
+  {
+    question: "Haben Charaktere einzigartige Werte oder Fähigkeiten?",
+    answer: "Zum Start sind Archetypen rein kosmetisch und teilen sich denselben Fortschritt, dieselbe Erfahrung und dasselbe Fertigkeitspotenzial. Ihr Build wird durch die Ausrüstung und Waffen bestimmt, die Sie ausrüsten."
+  },
+  {
+    question: "Kann ich die Kleidung meines Charakters anpassen?",
+    answer: "Ja, aber es handelt sich um eine funktionale Anpassung. Das Aussehen Ihres Charakters ändert sich basierend auf der Rüstung, den Helmen und den Waffen, die Sie während der Expeditionen finden und ausrüsten."
+  },
+  {
+    question: "Wie bekomme ich mehr spielbare Charaktere?",
+    answer: "Sie können während Ihrer Expeditionen auf dem Festland Überlebende finden und retten. Sobald sie gerettet und extrahiert wurden, werden sie Ihrer spielbaren Liste hinzugefügt."
+  }
+]} />
+
+</Section>

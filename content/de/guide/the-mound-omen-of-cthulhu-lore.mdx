@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Die Lore von The Mound Omen of Cthulhu: Unterirdische Schrecken & Setting-Guide",
+  description: "Erkunde die tiefgründige Lore von The Mound: Omen of Cthulhu, von ihren Lovecraft'schen Wurzeln im chilenischen Dschungel bis zu den schrecklichen unterirdischen Geheimnissen des Hügels.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=The+Mound+Lore+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Die Lore von The Mound Omen of Cthulhu** ist stark von H.P. Lovecrafts Novelle inspiriert und konzentriert sich auf ein **unterirdisches Tor**, das im chilenischen Dschungel verborgen ist.
+- **Psychologischer Horror** ist eine Kernmechanik, bei der die Umgebung die Realität durch **Halluzinationen und Paranoia** verzerrt, je tiefer man vordringt.
+- Das **Koop-Extraction-Gameplay** erfordert von den Teams, begrenzte Ressourcen zu verwalten, während sie die **kosmischen Geheimnisse** einer alten Zivilisation aufdecken.
+- **Environmental Storytelling** behandelt den Dschungel selbst als Charakter, wobei wechselndes Wetter und **audiovisuelle Verzerrungen** das Vertrauen der Spieler auf die Probe stellen.
+</Callout>
+
+<Section icon={Map} title="Die erzählerischen Ursprünge der Lore von The Mound Omen of Cthulhu">
+
+Das erzählerische Fundament dieser Erfahrung ist im düsteren, kosmischen Grauen von H.P. Lovecrafts klassischem Horror verwurzelt. Konkret bezieht das Spiel seinen Namen und sein thematisches Gewicht aus der Novelle *The Mound* (Der Hügel), die die Entdeckung einer alten, unterirdischen Welt erforscht, die von einer vergessenen Zivilisation bewohnt wird. In dieser Adaption schlüpfen die Spieler in die Rolle von Entdeckern in einem vom 16. Jahrhundert inspirierten Setting und wagen sich in die unerforschten Dschungel Chiles. Die Lore deutet darauf hin, dass der titelgebende „Mound“ (Hügel) nicht bloß eine geografische Besonderheit ist, sondern ein Tor zu einem Reich mit beeindruckender Architektur und abscheulichen Monstern, die sich dem menschlichen Verstand entziehen.
+
+**Video-Highlights:**
+- Übersicht über die Lovecraft-inspirierten Koop-PvE-Extraction-Mechaniken.
+- Erklärung der psychologischen Horrorelemente und sensorischen Illusionen.
+- Einblicke in die Hub-Welt der „Tempest Dot“ und die Rolle des Kapitäns.
+- Details zu den Charakter-Archetypen und dem gemeinsamen Fortschrittssystem.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Dinge, die du vor dem Kauf wissen musst" />
+
+Die Geschichte dreht sich um das Streben nach Reichtum und Wohlstand, angetrieben von einem mysteriösen Kapitän und Aufseher, der die Bergung von Artefakten aus den Tiefen fordert. Die wahre **Lore von The Mound: Omen of Cthulhu** liegt jedoch im Abstieg in den Wahnsinn. Je weiter eine Truppe in den Wald vordringt, desto mehr beginnt sich das Gefüge der Realität zu verzerren. Die Spieler müssen sich mit der Erkenntnis auseinandersetzen, dass die „Reichtümer“, die sie suchen, von Wesen bewacht werden, die sich vom menschlichen Verstand ernähren.
+
+| Lore-Element | Spielanpassung | Originales Lovecraft-Thema |
+| :--- | :--- | :--- |
+| **Der Ort** | Unerforschter chilenischer Dschungel | Unterirdisches Oklahoma |
+| **Das Ziel** | Plündern von Artefakten | Wissenschaftliche Erkundung |
+| **Der Horror** | Halluzinationen/Paranoia | Fremdartige Zivilisationen |
+| **Die Bedrohung** | Eldritch-Stalker | Spektrale Wächter |
+
+<Callout type="warning" title="Kosmisches Grauen">
+Die Umgebung ist als aktiver Gegenspieler konzipiert. Traue deinen Augen nicht; Halluzinationen können sich als falsche Beute oder unsichtbare Gruben manifestieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Charakter-Archetypen und Hintergrund-Lore">
+
+Obwohl die Gameplay-Mechaniken der Archetypen derzeit rein kosmetisch sind, liefern ihre Hintergrundgeschichten wesentlichen Kontext für die Welt. Diese Individuen sind keine Helden; sie sind verzweifelte Seelen, die durch Krieg, Verbrechen oder existenziellen Nihilismus an den Rand der Welt getrieben wurden. Ihre Präsenz auf der Galeone *Tempest Dot* bedeutet ein letztes Wagnis für Freiheit oder Wahrheit in einer Welt, die zunehmend vom Einfluss des Unheimlichen (Eldritch) überschattet wird.
+
+<CardGrid cols={3}>
+  <Card title="Alonso de la Torre">
+    Ein **nihilistischer ehemaliger Soldat**, der von den Schrecken des Krieges unberührt bleibt. Er sieht das Streben nach Reichtum lediglich als Mittel, um die ultimative Freiheit zu erlangen.
+  </Card>
+  <Card title="Leonor">
+    Eine **Flüchtige aus Spanien**, die nach einem gnadenlosen Mord über den Ozean floh. Ihre Überlebensinstinkte sind ihr größtes Kapital im Dschungel.
+  </Card>
+  <Card title="Don Rodrigo de Medina">
+    Ein **abgestumpfter Adliger**, der, wie Alonso, vom Konflikt ausgehöhlt wurde. Er sucht Ehre und die ultimative Wahrheit in den Tiefen des Hügels.
+  </Card>
+</CardGrid>
+
+Das gemeinsame Fortschrittssystem stellt sicher, dass sich die Erzählung für das gesamte Team weiterentwickelt, während diese Charaktere die Geheimnisse des Dschungels lüften. Dies verstärkt das Thema des kollektiven Überlebens gegen einen unerkennbaren Feind. Auch wenn ihre Fähigkeiten identisch sind, verleihen ihre unterschiedlichen Hintergründe der atmosphärischen Anspannung der Expedition zusätzliche Tiefe.
+
+| Charakter | Hintergrund | Motivation |
+| :--- | :--- | :--- |
+| **Alonso** | Ex-Soldat | Freiheit von der Gesellschaft |
+| **Leonor** | Flüchtige | Flucht vor der Justiz |
+| **Don Rodrigo** | Adliger | Suche nach der Wahrheit |
+| **Der Kapitän** | Aufseher | Ressourcenbeschaffung |
+
+<Callout type="tip" title="Team-Synergie">
+Da Archetypen kosmetisch sind, konzentriere dich eher auf die strategische Planung deiner Ausrüstung (wer das Gewehr im Vergleich zum Messer trägt) als auf die Charakterauswahl.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Der Abstieg: Mechaniken als Storytelling">
+
+In der **Lore von The Mound Omen of Cthulhu** dienen die Gameplay-Mechaniken als direkte Erweiterung der Erzählung. Das „Wahnsinns“-System ist nicht nur eine Anzeige; es ist eine sensorische Erfahrung. Wenn Paranoia einsetzt, hören die Spieler möglicherweise Phantom-Schritte im Unterholz oder sehen wechselnde Farben im Blätterdach. Dies erzwingt ein Vertrauen auf die Kommunikation, das sowohl mechanisch als auch thematisch ist.
+
+<Steps>
+  <Step num="1" title="Der Vertrag">
+    Beginne auf der *Tempest Dot*, indem du einen Vertrag mit dem Kapitän unterzeichnest. Dies legt dein erzählerisches Ziel fest und stellt deine Startausrüstung bereit.
+  </Step>
+  <Step num="2" title="Dschungel-Infiltration">
+    Navigiere durch den dichten chilenischen Sumpf. Nutze das „metallene Ephemeron“, um wertvolle Beute aufzuspüren, während du das „Erwachen“ des Waldes vermeidest.
+  </Step>
+  <Step num="3" title="Realitätsverzerrung">
+    Verwalte deine geistige Gesundheit, wenn die Halluzinationen beginnen. Deine Teamkollegen sehen möglicherweise Dinge, die du nicht siehst, was den Proximity-Sprachchat zu deiner einzigen Verbindung zur Realität macht.
+  </Step>
+  <Step num="4" title="Die Evakuierung">
+    Erreiche den Evakuierungspunkt mit deinen Artefakten. Wenn es regnet, können deine Steinschlossfeuerwaffen versagen, was dich zu einem verzweifelten Nahkampf zwingt, um zu überleben.
+  </Step>
+</Steps>
+
+Das Wettersystem ist besonders grausam. Regen ist nicht nur ein visueller Effekt; er führt aktiv zu Fehlfunktionen bei Feuerwaffen des 16. Jahrhunderts wie Luntenschlössern und Steinschlössern. Dies zwingt die Spieler, sich an die primitive und unzuverlässige Natur ihrer Technologie anzupassen, wenn sie mit zeitlosen, kosmischen Schrecken konfrontiert werden.
+
+| Mechanik | Erzählerische Auswirkung | Überlebensstrategie |
+| :--- | :--- | :--- |
+| **Regen** | Technologieversagen | Verlasse dich auf Nahkampf/Stumpfe Gewalt |
+| **Lärm** | Erwachen des Waldes | Schleichen und leise Bewegung |
+| **Halluzination** | Zerbrochene Realität | Ständige Sprach-Check-ins |
+| **Begrenzte Slots** | Verzweiflung | Strategische Nutzung des gemeinsamen Ochsenkarrens |
+
+<Callout type="warning" title="Lärmmanagement">
+Das Abfeuern einer Waffe kann zwar eine Bedrohung beseitigen, aber das Echo kann „den Wald wecken“ und einen Spießrutenlauf von Feinden an deinen Standort rufen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Die unterirdische Unterwelt und Feinde">
+
+Das ultimative Ziel jeder Expedition ist der Hügel selbst. Der Lore zufolge ist dieser Ort das Epizentrum von unermesslichem Reichtum und absolutem Schrecken. Die Architektur im unterirdischen Reich wird als „beeindruckend“ und „fremdartig“ beschrieben, was darauf hindeutet, dass sie von Händen erbaut wurde, die nicht gänzlich menschlich waren. Die Feinde, denen man hier begegnet – Tentakel-Zombies, Eldritch-Stalker und indigene Nachzügler –, sind alle Opfer des verderblichen Einflusses des Hügels.
+
+<Checklist
+  id="lore-milestones"
+  title="Ziele der Lore-Entdeckung:"
+  items={[
+    "Finde die verlassenen Forts gescheiterter früherer Expeditionen",
+    "Identifiziere das metallene Ephemeron, das in der Nähe von wertvoller Beute klirrt",
+    "Rette gestrandete Überlebende, um ihre Berichte aus den Tiefen zu hören",
+    "Erreiche das Tor der unterirdischen Unterwelt",
+    "Beobachte die sich verschiebenden Realitätsverzerrungen im tiefen Dschungel"
+  ]}
+/>
+
+Der „Schlund“ des Dschungels fungiert als Verdauungssystem für die Unachtsamen. Die Fäulnis von pilzbewachsenem Holz und die spezifischen Vogelrufe der chilenischen Region schaffen eine immersive, aber feindselige Atmosphäre. Jedes Geräusch ist eine potenzielle Bedrohung, und jeder Schatten könnte ein „gestrandeter Überlebender“ oder ein „Tentakel-Schrecken“ sein, der darauf wartet, zuzuschlagen.
+
+<Callout type="success" title="Erkundungsbelohnung">
+Das Finden verlassener Forts liefert oft wertvolle Informationen, die das Schicksal derer erklären, die vor dir kamen, was den Aufbau der Welt vertieft.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Die Tempest Dot: Lore deiner Operationsbasis">
+
+Zwischen den quälenden Abstiegen kehren die Spieler auf die *Tempest Dot* zurück, eine Galeone, die als schwimmender Hub dient. Dieses Schiff ist von einer „giftigen Atmosphäre“ erfüllt, und doch ist es der einzige Ort relativer Sicherheit. Die NPCs an Bord verleihen der düsteren Kulisse der Welt die nötige Würze.
+
+- **Der Kapitän**: Eine anspruchsvolle Persönlichkeit, die die Verträge bereitstellt, die die Geschichte vorantreiben.
+- **Der Koch**: Berät über die besten Nahrungsmittel, die man aus dem Land holen kann, um die Ausdauer zu erhalten.
+- **Der Lautenspieler**: Bietet mit zeitgenössischen Melodien eine kurze Atempause von der Stille des Dschungels.
+- **Der Schiffshund**: Ein kleiner Trost in einer Welt des kosmischen Wahnsinns.
+
+Auf dem Schiffsdeck findet die Strategie statt. Da das Inventar auf sechs Plätze begrenzt ist, müssen die Spieler den Ochsenkarren nutzen – der der Expedition folgt –, um überschüssige Beute zu lagern. Dieses Logistikmanagement spiegelt den „Expeditions“-Charakter der Lore wider, bei dem jeder zurückgebrachte Gegenstand ein Sieg gegen die vordringende Dunkelheit ist.
+
+| Hub-Feature | Funktion | Lore-Bedeutung |
+| :--- | :--- | :--- |
+| **Vertragstisch** | Missionsstart | Die Gier des Kapitäns treibt die Handlung voran |
+| **Ochsenkarren-Truhe** | Lagerung | Repräsentiert die gemeinsame Last des Teams |
+| **Kombüse des Kochs** | Ernährungsberatung | Das Überleben hängt von lokalen Ressourcen ab |
+| **Schiffseigene Laute** | Immersion | Die letzten Überreste der menschlichen Kultur |
+
+<Callout type="tip" title="Hub-Interaktion">
+Sprach vor einem Run immer mit dem Koch; zu wissen, welche Nahrungsmittel am wertvollsten sind, kann dir während einer Plünderung Inventarplatz sparen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Veröffentlichungsdetails und technische Lore">
+
+The Mound: Omen of Cthulhu soll am **15. Juli 2026** erscheinen. Es zielt darauf ab, die Lücke zwischen Extraction-Shootern mit hohem Risiko und psychologischem Horror zu schließen. Das Spiel ist auf modernen Plattformen verfügbar, was sicherstellt, dass die atmosphärische Dichte des chilenischen Dschungels durch High-End-Hardware voll zur Geltung kommt.
+
+| Kategorie | Anforderung / Detail |
+| :--- | :--- |
+| **Veröffentlichungsdatum** | 15. Juli 2026 |
+| **Plattformen** | PC (Steam), PS5, Xbox Series X/S |
+| **Standardpreis** | 29,99 $ |
+| **Deluxepreis** | 39,99 $ (Enthält Abyssal-Ausrüstung) |
+| **Mindest-GPU** | GTX 1660 Super / RX 5600XT |
+| **Empfohlene GPU** | RTX 3070 / RX 6750XT |
+
+Die Deluxe Edition enthält das „Abyssal-Ausrüstungspaket“ (Abyssal Gear Pack) und das „Glücksritter-Charakterpaket“ (Fortune Hunter's Character Pack), wodurch die Riege um zwei weitere Charaktere erweitert wird und ein „gefährliches neues Gebiet“ zum Erkunden hinzukommt. Diese Erweiterung deutet darauf hin, dass die **Lore von The Mound: Omen of Cthulhu** auch nach dem Start weiterwachsen wird und die Spieler einlädt, noch tiefer in den unterirdischen Abgrund vorzudringen.
+
+<Callout type="info" title="Schlussbemerkung">
+Eine kostenlose Demo ist derzeit auf Steam für diejenigen verfügbar, die ihren Verstand vor der Vollversion im Jahr 2026 auf die Probe stellen möchten.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lore und Gameplay FAQ">
+
+<FAQ items={[
+  {
+    question: "Basiert die Lore von The Mound Omen of Cthulhu auf einer wahren Begebenheit?",
+    answer: "Nein, sie basiert auf der fiktiven Novelle 'The Mound' (Der Hügel) von H.P. Lovecraft und Zealia Bishop, die Teil des Cthulhu-Mythos ist."
+  },
+  {
+    question: "Haben die verschiedenen Charaktere einzigartige Fähigkeiten?",
+    answer: "Derzeit sind die Charakter-Archetypen wie Alonso und Leonor rein kosmetisch. Fortschritt und Fähigkeiten werden im gesamten Team geteilt."
+  },
+  {
+    question: "Was passiert, wenn es während einer Expedition regnet?",
+    answer: "Regen führt bei Feuerwaffen des 16. Jahrhunderts (Steinschlösser/Luntenschlösser) zu Fehlfunktionen. Du musst dich auf Nahkampfwaffen verlassen oder warten, bis das Wetter aufklart."
+  },
+  {
+    question: "Kann ich das Spiel alleine spielen?",
+    answer: "Ja, du kannst mit KI-Verbündeten spielen, aber das Spiel ist für den Koop-Modus ausbalanciert. Das Solospiel wird erheblich schwieriger, je tiefer du in die lore-reichen Gebiete vordringst."
+  }
+]} />
+
+</Section>
