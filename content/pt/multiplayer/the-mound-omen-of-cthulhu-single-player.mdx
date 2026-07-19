@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Single Player: Guia de Sobrevivência Solo",
+  description: "Domine os desafios de jogar The Mound: Omen of Cthulhu sozinho. Aprenda sobre progressão offline, gerenciamento de sanidade e estratégias de equipamentos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Solo+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Confirmação Solo**: A desenvolvedora ACE Team confirmou suporte completo para um jogador offline.
+- **Prioridade de Furtividade**: O barulho desperta a selva, tornando as armas silenciosas essenciais para a sobrevivência solo.
+- **Gerenciamento de Sanidade**: Sem companheiros de equipe para verificar a realidade, os jogadores solo devem checar duas vezes todas as pistas visuais.
+- **Checkpoints de Fortes**: Desbloquear fortes abandonados por meio de diários de bordo é crucial para evitar repetir longas jornadas.
+- **Economia de Recursos**: Jogadores solo mantêm toda a comida e equipamentos coletados, mas sofrem com a capacidade de carga limitada.
+</Callout>
+
+<Section icon={Shield} title="Confirmação do Modo Solo e Visão Geral das Mecânicas">
+
+Aventurar-se nas selvas escuras e Lovecraftianas da América do Sul do século XVI em **the mound omen of cthulhu single player** oferece uma experiência exclusivamente aterrorizante e atmosférica. Embora projetado desde o início para suportar co-op de até quatro jogadores, a desenvolvedora ACE Team confirmou oficialmente que o jogo apresenta um modo para um jogador totalmente funcional e offline. Isso garante que os exploradores solo possam vivenciar toda a campanha sem depender de matchmaking ou de conexões ativas com a internet.
+
+Jogar solo muda fundamentalmente a dinâmica da jogabilidade. No modo co-op, os jogadores dependem do chat de voz por proximidade para coordenar movimentos, compartilhar recursos e verificar se os horrores que veem são reais ou meras alucinações. No modo de um jogador, você está totalmente por sua conta. Não há reforço para ressuscitá-lo se você cair, nem um segundo par de olhos para detectar armadilhas escondidas na vegetação densa. Cada decisão, desde a escolha do seu equipamento inicial no galeão até a navegação pelos caminhos mutáveis da selva amaldiçoada, carrega um peso imenso.
+
+**Destaques do Vídeo:**
+- **Preparação para a Expedição**: Como coletar equipamentos no galeão antes de remar para o continente.
+- **Perigos da Selva**: Os perigos do barulho e como o som atrai monstros indescritíveis.
+- **Sistema de Loucura**: Ilusões visuais, ambientes encharcados de sangue e armadilhas de miragem.
+- **Progressão de Fortes**: Usando fortes abandonados como checkpoints permanentes para uma exploração mais profunda.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Official Gameplay Overview Trailer" />
+
+Para ajudar você a entender como a experiência solo difere do modo cooperativo padrão, revise as principais diferenças de jogabilidade descritas abaixo.
+
+| Recurso | Jogo Solo | Jogo Co-op |
+| :--- | :--- | :--- |
+| **Verificação de Sanidade** | Deve confiar inteiramente no julgamento pessoal | Pode cruzar informações de ilusões com aliados |
+| **Mecânica de Ressurreição** | Limitada a itens de auto-ressurreição | Ressurreição de equipe via interação por proximidade |
+| **Economia de Recursos** | Todos os itens e comida são mantidos para si mesmo | Os recursos devem ser divididos entre os jogadores |
+| **Furtividade e Som** | Mais fácil de manter silêncio completo | Alto risco de ativação acidental de barulho |
+| **Foco de Combate** | O aggro é totalmente focado em você | Os inimigos dividem a atenção entre o grupo |
+
+<Callout type="info" title="Visão do Desenvolvedor">
+Os desenvolvedores da ACE Team projetaram o modo offline para garantir que os jogadores que preferem um terror atmosférico e de ritmo lento possam aproveitar a narrativa e o cenário sem a pressão da coordenação multijogador.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipamentos Essenciais Solo e Configuração de Loadout">
+
+Antes de deixar a segurança do seu galeão, você deve assinar um contrato com o capitão para receber seu equipamento inicial. Como o espaço no inventário é limitado e você não tem companheiros de equipe para carregar itens especializados, seu loadout deve equilibrar capacidades ofensivas, furtividade e utilidade.
+
+As armas primárias disponíveis incluem o mosquete, a besta e a espada. Para um explorador solo, confiar em armas de fogo barulhentas como o mosquete é altamente arriscado. Disparar um mosquete faz uma quantidade imensa de barulho, alertando instantaneamente os monstros próximos e potencialmente desencadeando uma caçada na selva. A besta, embora mais lenta para recarregar, oferece ataques silenciosos à distância que permitem eliminar alvos com segurança. A espada continua sendo sua arma corpo a corpo confiável e de uso infinito para autodefesa em combates próximos.
+
+<CardGrid cols={3}>
+  <Card title="O Batedor Furtivo">
+    - **Primária**: Besta para eliminações silenciosas
+    - **Utilitário**: Lampião de Óleo para navegação
+    - **Estratégia**: Evite combate direto, utilize posições elevadas e evite hordas.
+  </Card>
+  <Card title="O Duelista Pesado">
+    - **Primária**: Combo de Espada e Mosquete
+    - **Utilitário**: Sais de Ressurreição
+    - **Estratégia**: Use o mosquete apenas para ameaças de elite, depois reposicione-se rapidamente para perder o aggro.
+  </Card>
+  <Card title="O Coletor de Recursos">
+    - **Primária**: Apenas Espada (economiza peso)
+    - **Utilitário**: Provisões duplas de comida
+    - **Estratégia**: Foque em velocidade, coleta de tesouros e desbloqueio rápido de fortes.
+  </Card>
+</CardGrid>
+
+Seus itens utilitários são tão críticos quanto seu armamento. Você deve gerenciar cuidadosamente suas fontes de luz e ferramentas de sobrevivência para navegar pela folhagem escura e densa.
+
+| Arma | Alcance | Velocidade de Recarga | Nível de Ruído | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mosquete** | Longo | Muito Lento | Extremamente Alto | Iniciar combate contra alvos grandes e isolados |
+| **Besta** | Médio | Lento | Silencioso | Eliminar sentinelas sem alertar o bando |
+| **Espada** | Corpo a corpo | Nenhum | Silencioso | Golpes defensivos rápidos quando encurralado |
+
+| Item Utilitário | Função Primária | Prioridade Solo | Principal Desvantagem |
+| :--- | :--- | :--- | :--- |
+| **Lampião de Óleo** | Ilumina caminhos escuros da selva | Alta | Pode revelar sua posição para inimigos próximos |
+| **Sais de Ressurreição** | Fornece uma rede de segurança de auto-ressurreição | Crítica | Ocupa um espaço valioso no inventário |
+| **Provisões de Comida** | Restaura vida e estamina | Média | Deve ser constantemente reabastecida no campo |
+
+<Callout type="tip" title="Conselho Tático">
+Sempre carregue a besta durante as jornadas solo. O som é especializado na selva, e qualquer barulho alto pode rapidamente sobrecarregá-lo com inimigos antes que você possa recarregar sua arma primária.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progressão Solo e Checkpoints de Fortes">
+
+A selva amaldiçoada não é um caminho único e linear. Ela é dividida em grandes áreas abertas conectadas por antigos fortes abandonados por expedições anteriores. Para um jogador solo, atravessar essas zonas a partir da praia inicial todas as vezes é altamente ineficiente e perigoso. 
+
+Para progredir mais fundo no desconhecido, seu objetivo principal deve ser localizar e desbloquear esses fortes abandonados. Desbloquear um forte requer encontrar o diário de bordo perdido da expedição anterior dentro daquela zona. Uma vez recuperado, o forte se torna um ponto de partida permanente para futuras jornadas, permitindo que você ignore áreas concluídas e preserve sua vida e recursos para uma exploração mais profunda.
+
+<Steps>
+  <Step num="1" title="Garanta Suprimentos do Galeão">
+    Selecione seu equipamento silencioso, pegue o combustível necessário para o lampião de óleo e reme até a costa do continente.
+  </Step>
+  <Step num="2" title="Localize o Diário de Bordo">
+    Vasculhe as ruínas e acampamentos abandonados dentro da zona para encontrar o diário de bordo da expedição anterior.
+  </Step>
+  <Step num="3" title="Limpe o Perímetro do Forte">
+    Elimine quaisquer criaturas inspiradas em Cthulhu que estejam à espreita perto dos portões do forte para garantir uma entrada segura.
+  </Step>
+  <Step num="4" title="Ative o Checkpoint">
+    Use the logbook no altar central do forte para desbloqueá-lo permanentemente como um local de partida.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco de Progressão">
+Desbloquear um forte salva seu progresso permanentemente. Mesmo que você sucumba à loucura ou aos monstros em sua próxima tentativa, poderá reiniciar diretamente do forte desbloqueado, em vez do galeão.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gerenciando a Loucura e a Sanidade Sozinho">
+
+A ameaça mais insidiosa no jogo não são os monstros físicos, mas o complexo sistema de loucura. À medida que você se aventura mais fundo na selva, seu nível de sanidade diminuirá constantemente. Enquanto os jogadores de co-op podem conversar entre si para confirmar se uma ameaça visual é real, os jogadores solo devem navegar por esse tormento psicológico completamente isolados.
+
+A baixa sanidade desencadeia alucinações visuais e auditivas graves. O ambiente pode de repente parecer encharcado de sangue, e armadilhas mortais podem se disfarçar como miragens inofensivas. Se você reagir a uma alucinação, desperdiçará munição preciosa ou exporá sua posição. Se ignorar uma armadilha real pensando que é uma ilusão, corre o risco de morte instantânea.
+
+| Tipo de Ilusão | Indicador Visual | Impacto na Jogabilidade | Contramedida Solo |
+| :--- | :--- | :--- | :--- |
+| **Encharcado de Sangue** | A tela fica em tom carmesim profundo | Escurece severamente a visão e a navegação | Mova-se lentamente e confie em sua bússola |
+| **Armadilhas de Miragem** | Espinhos ou buracos cintilantes | Causa dano severo se pisado | Jogue uma pequena pedra ou inspecione de perto antes de se mover |
+| **Sussurros Fantasmas** | Sussurros direcionais e farfalhar | Distrai dos passos reais dos inimigos | Confie em seus indicadores visuais em vez do áudio localizado |
+| **Perseguidores de Sombra** | Figuras trêmulas na escuridão | Induz ao pânico e desperdiça munição | Não atire a menos que o alvo avance ativamente contra você |
+
+<Callout type="warning" title="Perigo de Sanidade">
+Perder completamente a sanidade fará com que você perca o controle de seu personagem, resultando em uma falha imediata na jornada. Fique de olho nos padrões de respiração e na estabilidade visual do seu personagem para avaliar seu nível de loucura atual.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Sobrevivência Solo e Perguntas Frequentes">
+
+Para garantir sua sobrevivência nas selvas amaldiçoadas, sempre se prepare minuciosamente antes de deixar o galeão. Use este checklist para verificar sua prontidão antes de cada expedição solo.
+
+<Checklist
+  id="solo-survival-checklist"
+  title="Checklist Pré-Expedição:"
+  items={[
+    "Verifique se a Besta está totalmente carregada e se você tem virotes silenciosos",
+    "Equipe pelo menos uma unidade de Sais de Ressurreição em seu slot rápido",
+    "Verifique se seu Lampião de Óleo tem combustível suficiente para ruínas escuras",
+    "Localize o forte desbloqueado mais próximo no seu mapa antes de partir",
+    "Certifique-se de ter assinado o contrato do capitão para garantir recompensas bônus"
+  ]}
+/>
+
+<Callout type="tip" title="Dica Final">
+A paciência é sua maior arma. No jogo solo, correr é quase sempre melhor do que lutar. Economize seus recursos de combate para quando estiver encurralado ou ao garantir um diário de bordo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O modo de um jogador de The Mound: Omen of Cthulhu é totalmente jogável offline?",
+    answer: "Sim, a desenvolvedora ACE Team confirmou que você pode jogar o jogo totalmente offline no modo para um jogador. Você não precisa de uma conexão ativa com a internet para progredir na campanha."
+  },
+  {
+    question: "Como o sistema de loucura muda ao jogar solo?",
+    answer: "No jogo solo, o sistema de loucura é muito mais desafiador porque você não tem companheiros de equipe para verificar se um perigo ou inimigo é uma alucinação. Você deve inspecionar cuidadosamente objetos cintilantes e gerenciar seus níveis de sanidade usando itens."
+  },
+  {
+    question: "Posso usar o mosquete de forma eficaz como um jogador solo?",
+    answer: "Embora o mosquete cause muito dano, seu barulho alto alerta toda a selva, tornando-o altamente arriscado para jogadores solo. Recomenda-se usar a besta silenciosa para furtividade e manter a espada para defesa em combates próximos."
+  },
+  {
+    question: "Os fortes desbloqueados são mantidos entre as partidas solo?",
+    answer: "Sim, assim que você localiza um diário de bordo e desbloqueia um forte abandonado, ele serve como um checkpoint de partida permanente para todas as expedições futuras, permitindo que você pule as zonas anteriores."
+  }
+]} />
+
+</Section>

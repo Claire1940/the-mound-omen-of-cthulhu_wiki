@@ -1,0 +1,113 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Demo Fatal Error: Fixes and Troubleshooting",
+  description: "Resolve the The Mound: Omen of Cthulhu demo fatal error with our expert troubleshooting guide. Learn how to fix crashes and optimize your setup.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Technical+Troubleshooting",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mound: Omen of Cthulhu demo fatal error** is often linked to display resolution or GPU conflicts.
+- **Hardware adjustments**, specifically regarding secondary monitors, resolve most startup crashes.
+- **Update your graphics drivers** to ensure compatibility with the Unreal Engine 5 environment.
+- **Clear temporary data** if the game fails to launch after initial configuration changes.
+- **Submit crash dumps** to the developers if the issue persists after these standard fixes.
+</Callout>
+
+<Section icon={Settings} title="Understanding the Crash">
+
+The Mound: Omen of Cthulhu utilizes a sophisticated Unreal Engine architecture that can occasionally trigger a "LowLevelFatalError" during startup. This error often points to a mismatch between the game's rendering pipeline and your system's display configuration, particularly when using multiple monitors or high-resolution setups.
+
+**Video Highlights:**
+- Overview of the extraction shooter mechanics.
+- Importance of teamwork and communication in the jungle.
+- Strategies for managing inventory and scarce resources.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Things You Need To Know Before You Buy" />
+
+For players encountering this error, it is rarely a sign of corrupted game files, but rather a conflict in how the game initializes its viewport on your primary display.
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Resolution">
+
+If you are stuck at the launch screen, follow these logical steps to restore functionality. Most users report success by addressing display settings first.
+
+<Steps>
+  <Step num="1" title="Check Monitor Configuration">
+    If you are using a laptop with an external monitor, ensure the laptop screen is active when launching the game. Some users find that closing the laptop lid before the game fully initializes causes a fatal error.
+  </Step>
+  <Step num="2" title="Verify Primary Display Settings">
+    Go to your Windows display settings and ensure that the monitor you intend to play on is set as your "Main Display."
+  </Step>
+  <Step num="3" title="Update Graphics Drivers">
+    Ensure your NVIDIA or AMD drivers are updated to the latest version. Older drivers may not correctly handle the DirectX 12 calls required by the game.
+  </Step>
+  <Step num="4" title="Clear Local Cache">
+    Navigate to `%localappdata%\TheMound\Saved\` and delete the contents of the 'Crashes' or 'Config' folders to reset user-defined graphic settings.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+If the error persists, try setting your GPU display mode to "Auto" in your laptop's control software (e.g., ASUS Armoury Crate) instead of forcing "Discrete" or "Integrated" modes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technical Comparison of Solutions">
+
+Different hardware configurations require specific approaches. Use this table to identify which fix matches your setup.
+
+| Issue Type | Recommended Action | Success Rate |
+| :--- | :--- | :--- |
+| Dual Monitor Conflict | Set main monitor as primary | High |
+| Laptop Display Bug | Keep lid open during launch | High |
+| Outdated GPU Drivers | Perform clean driver install | Medium |
+| Corrupt Config Files | Delete AppData local folder | Medium |
+
+</Section>
+
+<Section icon={Swords} title="System Requirements Overview">
+
+Before diving into the jungle, ensure your hardware meets the minimum requirements to avoid performance-related crashes.
+
+| Component | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| CPU | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| GPU | GTX 1660 Super / RX 5600XT | RTX 3070 / RX 6750XT |
+| RAM | 16 GB | 16 GB |
+
+<Callout type="warning" title="Note">
+These specifications are subject to change as the developers continue to optimize the game for the official launch.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does the game crash on startup with a LowLevelFatalError?",
+    answer: "This is typically caused by a conflict between your display resolution, monitor settings, or GPU driver initialization. It is a known issue often triggered by multi-monitor setups."
+  },
+  {
+    question: "Will my progress carry over from the demo?",
+    answer: "The developers have designed the progression system to be shared across the team, but always check the official Steam page for specific details regarding demo-to-full-game save transfers."
+  },
+  {
+    question: "Where should I send my crash logs?",
+    answer: "If the provided solutions do not work, collect your crash dumps from %localappdata%\TheMound\Saved\Crashes and email them to the developers at contact@aceteam.cl."
+  }
+]} />
+
+</Section>

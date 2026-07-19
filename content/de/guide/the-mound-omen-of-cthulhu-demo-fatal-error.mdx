@@ -1,0 +1,114 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu Demo Fatal Error: Lösungen und Fehlerbehebung",
+  description: "Beheben Sie den Fatal Error in der Demo von The Mound: Omen of Cthulhu mit unserer Experten-Anleitung. Erfahren Sie, wie Sie Abstürze fixen und Ihr Setup optimieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Technical+Troubleshooting",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki-Team",
+  keywords: "The Mound, Omen of Cthulhu, Fatal Error, Absturz, Fehlerbehebung, Guide, Unreal Engine 5"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Der **Fatal Error in der Demo von The Mound: Omen of Cthulhu** hängt oft mit der Bildschirmauflösung oder GPU-Konflikten zusammen.
+- **Hardware-Anpassungen**, insbesondere in Bezug auf Zweitmonitore, beheben die meisten Abstürze beim Start.
+- **Aktualisieren Sie Ihre Grafikkartentreiber**, um die Kompatibilität mit der Unreal Engine 5-Umgebung zu gewährleisten.
+- **Löschen Sie temporäre Daten**, falls das Spiel nach ersten Konfigurationsänderungen nicht startet.
+- **Senden Sie Crash-Dumps** an die Entwickler, falls das Problem nach diesen Standard-Fixes weiterhin besteht.
+</Callout>
+
+<Section icon={Settings} title="Den Absturz verstehen">
+
+The Mound: Omen of Cthulhu nutzt eine anspruchsvolle Unreal Engine-Architektur, die gelegentlich einen „LowLevelFatalError“ beim Start auslösen kann. Dieser Fehler deutet oft auf eine Unstimmigkeit zwischen der Rendering-Pipeline des Spiels und Ihrer Bildschirmkonfiguration hin, insbesondere bei der Verwendung mehrerer Monitore oder High-Resolution-Setups.
+
+**Video-Highlights:**
+- Überblick über die Extraction-Shooter-Mechaniken.
+- Bedeutung von Teamarbeit und Kommunikation im Dschungel.
+- Strategien für die Verwaltung von Inventar und knappen Ressourcen.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Dinge, die Sie vor dem Kauf wissen sollten" />
+
+Für Spieler, die auf diesen Fehler stoßen: Es handelt sich selten um beschädigte Spieldateien, sondern vielmehr um einen Konflikt bei der Initialisierung des Viewports auf Ihrem Hauptbildschirm.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Lösung">
+
+Wenn Sie am Ladebildschirm hängen bleiben, folgen Sie diesen logischen Schritten, um die Funktionalität wiederherzustellen. Die meisten Benutzer berichten von Erfolg, indem sie zuerst die Bildschirmeinstellungen anpassen.
+
+<Steps>
+  <Step num="1" title="Monitorkonfiguration prüfen">
+    Wenn Sie einen Laptop mit einem externen Monitor verwenden, stellen Sie sicher, dass der Laptop-Bildschirm beim Starten des Spiels aktiv ist. Einige Benutzer haben festgestellt, dass das Schließen des Laptop-Deckels vor der vollständigen Initialisierung des Spiels einen Fatal Error verursacht.
+  </Step>
+  <Step num="2" title="Primäre Bildschirmeinstellungen überprüfen">
+    Gehen Sie zu Ihren Windows-Anzeigeeinstellungen und stellen Sie sicher, dass der Monitor, auf dem Sie spielen möchten, als „Hauptbildschirm“ festgelegt ist.
+  </Step>
+  <Step num="3" title="Grafikkartentreiber aktualisieren">
+    Stellen Sie sicher, dass Ihre NVIDIA- oder AMD-Treiber auf die neueste Version aktualisiert sind. Ältere Treiber können die vom Spiel benötigten DirectX 12-Aufrufe möglicherweise nicht korrekt verarbeiten.
+  </Step>
+  <Step num="4" title="Lokalen Cache löschen">
+    Navigieren Sie zu `%localappdata%\TheMound\Saved\` und löschen Sie den Inhalt der Ordner „Crashes“ oder „Config“, um die benutzerdefinierten Grafikeinstellungen zurückzusetzen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn der Fehler weiterhin besteht, versuchen Sie, den GPU-Anzeigemodus in der Steuerungssoftware Ihres Laptops (z. B. ASUS Armoury Crate) auf „Auto“ zu stellen, anstatt die Modi „Diskret“ oder „Integriert“ zu erzwingen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technischer Vergleich der Lösungen">
+
+Unterschiedliche Hardware-Konfigurationen erfordern spezifische Ansätze. Verwenden Sie diese Tabelle, um herauszufinden, welcher Fix zu Ihrem Setup passt.
+
+| Problemtyp | Empfohlene Maßnahme | Erfolgsrate |
+| :--- | :--- | :--- |
+| Zweitmonitor-Konflikt | Hauptmonitor als primär festlegen | Hoch |
+| Laptop-Display-Bug | Deckel während des Starts offen lassen | Hoch |
+| Veraltete GPU-Treiber | Saubere Treiber-Neuinstallation durchführen | Mittel |
+| Beschädigte Konfigurationsdateien | Lokalen AppData-Ordner löschen | Mittel |
+
+</Section>
+
+<Section icon={Swords} title="Systemanforderungen im Überblick">
+
+Bevor Sie in den Dschungel eintauchen, stellen Sie sicher, dass Ihre Hardware die Mindestanforderungen erfüllt, um leistungsbedingte Abstürze zu vermeiden.
+
+| Komponente | Mindestanforderungen | Empfohlene Anforderungen |
+| :--- | :--- | :--- |
+| CPU | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| GPU | GTX 1660 Super / RX 5600XT | RTX 3070 / RX 6750XT |
+| RAM | 16 GB | 16 GB |
+
+<Callout type="warning" title="Hinweis">
+Diese Spezifikationen können sich noch ändern, da die Entwickler das Spiel für den offiziellen Start weiter optimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Warum stürzt das Spiel beim Start mit einem LowLevelFatalError ab?",
+    answer: "Dies wird in der Regel durch einen Konflikt zwischen Ihrer Bildschirmauflösung, den Monitoreinstellungen oder der Initialisierung des GPU-Treibers verursacht. Es ist ein bekanntes Problem, das häufig durch Multi-Monitor-Setups ausgelöst wird."
+  },
+  {
+    question: "Wird mein Fortschritt aus der Demo übernommen?",
+    answer: "Die Entwickler haben das Fortschrittssystem so konzipiert, dass es innerhalb des Teams geteilt wird. Prüfen Sie jedoch immer die offizielle Steam-Seite auf spezifische Details zur Übertragung von Speicherständen von der Demo zur Vollversion."
+  },
+  {
+    question: "Wohin soll ich meine Crash-Logs schicken?",
+    answer: "Wenn die angebotenen Lösungen nicht funktionieren, sammeln Sie Ihre Crash-Dumps unter %localappdata%\\TheMound\\Saved\\Crashes und senden Sie diese per E-Mail an die Entwickler unter contact@aceteam.cl."
+  }
+]} />
+
+</Section>

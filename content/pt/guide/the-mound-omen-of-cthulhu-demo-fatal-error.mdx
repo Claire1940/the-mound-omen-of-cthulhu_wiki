@@ -1,0 +1,113 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Erro Fatal na Demo de The Mound: Omen of Cthulhu: Correções e Solução de Problemas",
+  description: "Resolva o erro fatal na demo de The Mound: Omen of Cthulhu com nosso guia especializado de solução de problemas. Saiba como corrigir travamentos e otimizar sua configuração.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Technical+Troubleshooting",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O erro fatal na demo de The Mound: Omen of Cthulhu** geralmente está relacionado à resolução de tela ou a conflitos de GPU.
+- **Ajustes de hardware**, especificamente em relação a monitores secundários, resolvem a maioria dos travamentos na inicialização.
+- **Atualize seus drivers de vídeo** para garantir a compatibilidade com o ambiente Unreal Engine 5.
+- **Limpe os dados temporários** se o jogo não iniciar após as alterações de configuração iniciais.
+- **Envie os relatórios de travamento (crash dumps)** para os desenvolvedores se o problema persistir após essas correções padrão.
+</Callout>
+
+<Section icon={Settings} title="Entendendo o Travamento">
+
+The Mound: Omen of Cthulhu utiliza uma arquitetura Unreal Engine sofisticada que ocasionalmente pode acionar um "LowLevelFatalError" durante a inicialização. Esse erro geralmente aponta para uma incompatibilidade entre o pipeline de renderização do jogo e a configuração de tela do seu sistema, especialmente ao usar vários monitores ou configurações de alta resolução.
+
+**Destaques do Vídeo:**
+- Visão geral das mecânicas do jogo de tiro de extração (extraction shooter).
+- Importância do trabalho em equipe e da comunicação na selva.
+- Estratégias para gerenciar o inventário e recursos escassos.
+
+<YouTubeEmbed videoId="36mEYNaL-c8" title="The Mound: Omen of Cthulhu - 15 Coisas Que Você Precisa Saber Antes de Comprar" />
+
+Para os jogadores que encontram esse erro, raramente é um sinal de arquivos de jogo corrompidos, mas sim um conflito na forma como o jogo inicializa sua tela (viewport) no monitor principal.
+
+</Section>
+
+<Section icon={Target} title="Resolução Passo a Passo">
+
+Se você estiver travado na tela de inicialização, siga estes passos lógicos para restaurar a funcionalidade. A maioria dos usuários relata sucesso ao ajustar as configurações de tela primeiro.
+
+<Steps>
+  <Step num="1" title="Verificar a Configuração do Monitor">
+    Se estiver usando um notebook com um monitor externo, certifique-se de que a tela do notebook esteja ativa ao iniciar o jogo. Alguns usuários relatam que fechar a tampa do notebook antes do jogo inicializar completamente causa um erro fatal.
+  </Step>
+  <Step num="2" title="Verificar as Configurações da Tela Principal">
+    Acesse as configurações de exibição do Windows e certifique-se de que o monitor no qual você deseja jogar esteja definido como seu "Vídeo Principal".
+  </Step>
+  <Step num="3" title="Atualizar os Drivers de Vídeo">
+    Certifique-se de que seus drivers NVIDIA ou AMD estejam atualizados para a versão mais recente. Drivers mais antigos podem não processar corretamente as chamadas do DirectX 12 exigidas pelo jogo.
+  </Step>
+  <Step num="4" title="Limpar o Cache Local">
+    Navegue até `%localappdata%\TheMound\Saved\` e exclua o conteúdo das pastas 'Crashes' ou 'Config' para redefinir as configurações gráficas definidas pelo usuário.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica Profissional">
+Se o erro persistir, tente definir o modo de exibição da GPU para "Auto" no software de controle do seu notebook (por exemplo, ASUS Armoury Crate) em vez de forçar os modos "Discreto" ou "Integrado".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparação Técnica das Soluções">
+
+Diferentes configurações de hardware exigem abordagens específicas. Use esta tabela para identificar qual correção corresponde à sua configuração.
+
+| Tipo de Problema | Ação Recomendada | Taxa de Sucesso |
+| :--- | :--- | :--- |
+| Conflito de Monitor Duplo | Definir monitor principal como primário | Alta |
+| Bug na Tela do Notebook | Manter a tampa aberta durante a inicialização | Alta |
+| Drivers de GPU Desatualizados | Realizar instalação limpa do driver | Média |
+| Arquivos de Configuração Corrompidos | Excluir pasta local AppData | Média |
+
+</Section>
+
+<Section icon={Swords} title="Visão Geral dos Requisitos de Sistema">
+
+Antes de mergulhar na selva, certifique-se de que seu hardware atenda aos requisitos mínimos para evitar travamentos relacionados ao desempenho.
+
+| Componente | Requisito Mínimo | Requisito Recomendado |
+| :--- | :--- | :--- |
+| CPU | Intel i7-8700K / Ryzen 5 1600X | Intel i7-11700K / Ryzen 5 5500 |
+| GPU | GTX 1660 Super / RX 5600XT | RTX 3070 / RX 6750XT |
+| RAM | 16 GB | 16 GB |
+
+<Callout type="warning" title="Nota">
+Estas especificações estão sujeitas a alterações à medida que os desenvolvedores continuam a otimizar o jogo para o lançamento oficial.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Por que o jogo trava na inicialização com um LowLevelFatalError?",
+    answer: "Isso geralmente é causado por um conflito entre a resolução da tela, as configurações do monitor ou a inicialização do driver da GPU. É um problema conhecido frequentemente desencadeado por configurações de múltiplos monitores."
+  },
+  {
+    question: "Meu progresso será transferido da demo?",
+    answer: "Os desenvolvedores projetaram o sistema de progressão para ser compartilhado por toda a equipe, mas sempre verifique a página oficial do Steam para obter detalhes específicos sobre a transferência de salvamentos da demo para o jogo completo."
+  },
+  {
+    question: "Para onde devo enviar meus relatórios de travamento?",
+    answer: "Se as soluções fornecidas não funcionarem, colete seus relatórios de travamento em %localappdata%\\TheMound\\Saved\\Crashes e envie-os por e-mail para os desenvolvedores em contact@aceteam.cl."
+  }
+]} />
+
+</Section>

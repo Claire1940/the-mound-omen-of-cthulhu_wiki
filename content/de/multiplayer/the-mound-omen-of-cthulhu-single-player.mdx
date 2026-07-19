@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu Einzelspieler: Solo-Überlebenshandbuch",
+  description: "Meistern Sie die Herausforderungen von The Mound: Omen of Cthulhu im Solo-Modus. Erfahren Sie mehr über Offline-Fortschritt, Wahnsinns-Management und Ausrüstungsstrategien.",
+  category: "Handbuch",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Solo+Survival+Guide",
+  date: "2026-07-19",
+  author: "The Mound Omen of Cthulhu Wiki-Team",
+  keywords: "The Mound, Omen of Cthulhu, Einzelspieler, Solo-Guide, Survival, Horror"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Solo-Bestätigung**: Der Entwickler ACE Team hat die volle Offline-Einzelspieler-Unterstützung bestätigt.
+- **Stealth-Priorität**: Lärm weckt den Dschungel auf, weshalb lautlose Waffen für das Solo-Überleben unerlässlich sind.
+- **Wahnsinns-Management**: Ohne Teamkollegen zur Überprüfung der Realität müssen Solospieler alle visuellen Hinweise doppelt prüfen.
+- **Festungs-Kontrollpunkte**: Das Freischalten verlassener Festungen über Logbücher ist entscheidend, um lange Wege nicht wiederholen zu müssen.
+- **Ressourcenwirtschaft**: Solospieler behalten alle gesammelten Lebensmittel und Ausrüstungsgegenstände, leiden aber unter begrenzter Tragekapazität.
+</Callout>
+
+<Section icon={Shield} title="Bestätigung des Solo-Modus und Mechanik-Übersicht">
+
+Das Vordringen in den dunklen, Lovecraft-esken Dschungel Südamerikas des 16. Jahrhunderts in **The Mound Omen of Cthulhu Einzelspieler** bietet eine einzigartig schreckliche und atmosphärische Erfahrung. Obwohl das Spiel von Grund auf für einen Vier-Spieler-Koop konzipiert wurde, hat der Entwickler ACE Team offiziell bestätigt, dass das Spiel über einen voll funktionsfähigen Offline-Einzelspielermodus verfügt. Dies stellt sicher, dass Solo-Entdecker die gesamte Kampagne erleben können, ohne auf Matchmaking oder eine aktive Internetverbindung angewiesen zu sein.
+
+Das Solospiel verändert die Gameplay-Dynamik grundlegend. Im Koop verlassen sich die Spieler auf den Proximity-Voice-Chat, um Bewegungen zu koordinieren, Ressourcen zu teilen und zu verifizieren, ob die Schrecken, die sie sehen, real oder bloße Halluzinationen sind. Im Einzelspieler sind Sie völlig auf sich allein gestellt. Es gibt keine Rückendeckung, die Sie wiederbelebt, wenn Sie fallen, und kein zweites Augenpaar, das Fallen im dichten Unterholz entdeckt. Jede Entscheidung, von der Wahl Ihrer Startausrüstung auf der Galeone bis hin zum Navigieren auf den sich ständig ändernden Pfaden des verfluchten Dschungels, hat immenses Gewicht.
+
+**Video-Highlights:**
+- **Expeditionsvorbereitung**: Wie man Ausrüstung auf der Galeone sammelt, bevor man zum Festland rudert.
+- **Dschungelgefahren**: Die Gefahren von Lärm und wie Geräusche unsagbare Monster anlocken.
+- **Wahnsinnssystem**: Visuelle Illusionen, blutgetränkte Umgebungen und Trugbild-Fallen.
+- **Festungsfortschritt**: Nutzung verlassener Festungen als permanente Kontrollpunkte für tiefergehende Erkundungen.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Offizieller Gameplay-Übersichtstrailer" />
+
+Um Ihnen zu helfen, die Unterschiede zwischen der Solo-Erfahrung und dem Standard-Koop-Modus zu verstehen, finden Sie unten die wichtigsten Unterschiede im Gameplay.
+
+| Feature | Solospiel | Koop-Spiel |
+| :--- | :--- | :--- |
+| **Wahnsinns-Verifizierung** | Muss sich ganz auf das eigene Urteilsvermögen verlassen | Kann Illusionen mit Verbündeten abgleichen |
+| **Wiederbelebungsmechanik** | Begrenzt auf Selbstwiederbelebungs-Items | Team-Wiederbelebung über Proximity-Interaktion |
+| **Ressourcenwirtschaft** | Alle Gegenstände und Lebensmittel für sich selbst | Ressourcen müssen unter den Spielern aufgeteilt werden |
+| **Stealth & Sound** | Einfacher, völlige Stille zu bewahren | Hohes Risiko versehentlicher Lärmauslöser |
+| **Kampffokus** | Aggro ist vollständig auf Sie gerichtet | Gegner teilen Aufmerksamkeit in der Gruppe auf |
+
+<Callout type="info" title="Einblick der Entwickler">
+Die Entwickler von ACE Team haben den Offline-Modus entworfen, um sicherzustellen, dass Spieler, die atmosphärischen, langsamlebigen Horror bevorzugen, die Erzählung und das Setting ohne den Druck der Multiplayer-Koordination genießen können.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essenzielle Solo-Ausrüstung und Loadout-Setup">
+
+Bevor Sie die Sicherheit Ihrer Galeone verlassen, müssen Sie einen Vertrag mit dem Kapitän unterzeichnen, um Ihre Startausrüstung zu erhalten. Da der Inventarplatz begrenzt ist und Sie keine Teamkollegen haben, die spezialisierte Gegenstände tragen, muss Ihr Loadout offensive Fähigkeiten, Stealth und Nutzen ausbalancieren.
+
+Die primär verfügbaren Waffen umfassen die Muskete, die Armbrust und das Schwert. Für einen Solo-Entdecker ist das Vertrauen auf laute Schusswaffen wie die Muskete hochriskant. Das Abfeuern einer Muskete verursacht enormen Lärm, der sofort Monster in der Nähe alarmiert und potenziell eine Dschungeljagd auslöst. Die Armbrust bietet, obwohl sie langsamer nachzuladen ist, lautlose Fernangriffe, die es Ihnen ermöglichen, Ziele aus sicherer Entfernung auszuschalten. Das Schwert bleibt Ihre zuverlässige Nahkampfwaffe mit unbegrenzter Nutzung zur Selbstverteidigung auf engem Raum.
+
+<CardGrid cols={3}>
+  <Card title="Der Stealth-Späher">
+    - **Primär**: Armbrust für lautlose Kills
+    - **Nutzen**: Öllampe zur Navigation
+    - **Strategie**: Direkten Kampf vermeiden, erhöhte Positionen nutzen und Mobs umgehen.
+  </Card>
+  <Card title="Der schwere Duellant">
+    - **Primär**: Schwert- und Musketen-Kombination
+    - **Nutzen**: Wiederbelebungssalze
+    - **Strategie**: Muskete nur für Elite-Bedrohungen verwenden, dann schnell die Position wechseln, um Aggro zu verlieren.
+  </Card>
+  <Card title="Der Ressourcensammler">
+    - **Primär**: Nur Schwert (spart Gewicht)
+    - **Nutzen**: Doppelte Lebensmittelvorräte
+    - **Strategie**: Fokus auf Geschwindigkeit, Sammeln von Schätzen und schnelles Freischalten von Festungen.
+  </Card>
+</CardGrid>
+
+Ihre Gebrauchsgegenstände sind genauso wichtig wie Ihre Bewaffnung. Sie müssen Ihre Lichtquellen und Überlebenswerkzeuge sorgfältig verwalten, um durch das dunkle, dichte Blattwerk zu navigieren.
+
+| Waffe | Reichweite | Nachladetempo | Lärmpegel | Bester Einsatzbereich |
+| :--- | :--- | :--- | :--- | :--- |
+| **Muskete** | Lang | Sehr langsam | Extrem hoch | Kampfbeginn gegen große, isolierte Ziele |
+| **Armbrust** | Mittel | Langsam | Lautlos | Ausschalten von Wachen, ohne das Rudel zu alarmieren |
+| **Schwert** | Nahkampf | Keine | Lautlos | Schnelle Verteidigungsschläge in die Enge getrieben |
+
+| Gebrauchsgegenstand | Primäre Funktion | Solo-Priorität | Hauptnachteil |
+| :--- | :--- | :--- | :--- |
+| **Öllampe** | Beleuchtet dunkle Dschungelpfade | Hoch | Kann Ihre Position für Feinde verraten |
+| **Wiederbelebungssalze** | Bietet ein Sicherheitsnetz zur Selbstwiederbelebung | Kritisch | Belegt einen wertvollen Inventarplatz |
+| **Lebensmittelvorräte** | Stellt Gesundheit und Ausdauer wieder her | Mittel | Müssen im Feld ständig aufgefüllt werden |
+
+<Callout type="tip" title="Taktischer Rat">
+Tragen Sie bei Solo-Runs immer die Armbrust. Der Sound im Dschungel ist spezialisiert, und jeder laute Lärm kann Sie schnell mit Feinden überwältigen, bevor Sie Ihre Primärwaffe nachladen können.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Solo-Fortschritt und Festungs-Kontrollpunkte">
+
+Der verfluchte Dschungel ist kein einzelner, linearer Pfad. Er ist in große, offene Gebiete unterteilt, die durch alte Festungen verbunden sind, die von früheren Expeditionen verlassen wurden. Für einen Solospieler ist es höchst ineffizient und gefährlich, diese Zonen jedes Mal vom Startufer aus zu durchqueren.
+
+Um tiefer in das Unbekannte vorzudringen, sollte Ihr primäres Ziel darin bestehen, diese verlassenen Festungen zu finden und freizuschalten. Das Freischalten einer Festung erfordert das Finden des verlorenen Logbuchs der vorherigen Expedition in dieser Zone. Sobald es geborgen wurde, wird die Festung zu einem permanenten Startpunkt für zukünftige Runs, was es Ihnen ermöglicht, abgeschlossene Gebiete zu umgehen und Ihre Gesundheit und Ressourcen für tiefergehende Erkundungen zu bewahren.
+
+<Steps>
+  <Step num="1" title="Galleonen-Vorräte sichern">
+    Wählen Sie Ihr lautloses Loadout, schnappen Sie sich den nötigen Öllampen-Brennstoff und rudern Sie zum Ufer des Festlands.
+  </Step>
+  <Step num="2" title="Logbuch finden">
+    Durchsuchen Sie die Ruinen und verlassenen Lagerplätze in der Zone, um das Logbuch der vorherigen Expedition zu finden.
+  </Step>
+  <Step num="3" title="Festungsumfang säubern">
+    Eliminieren Sie alle lauernden, von Cthulhu inspirierten Kreaturen in der Nähe der Festungstore, um einen sicheren Eintritt zu gewährleisten.
+  </Step>
+  <Step num="4" title="Kontrollpunkt aktivieren">
+    Verwenden Sie das Logbuch am zentralen Altar der Festung, um sie dauerhaft als Startort freizuschalten.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fortschritts-Meilenstein">
+Das Freischalten einer Festung speichert Ihren Fortschritt dauerhaft. Selbst wenn Sie bei Ihrem nächsten Run dem Wahnsinn oder Monstern erliegen, können Sie direkt von der freigeschalteten Festung anstatt von der Galeone aus neu starten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Wahnsinn und geistige Gesundheit alleine verwalten">
+
+Die heimtückischste Bedrohung im Spiel sind nicht die physischen Monster, sondern das komplexe Wahnsinnssystem. Je tiefer Sie in den Dschungel vordringen, desto stetiger sinkt Ihr geistiger Gesundheitszustand. Während Koop-Spieler miteinander sprechen können, um zu bestätigen, ob eine visuelle Bedrohung real ist, müssen Solospieler diese psychologische Qual völlig isoliert navigieren.
+
+Niedrige geistige Gesundheit löst schwere visuelle und auditive Halluzinationen aus. Die Umgebung kann plötzlich blutüberströmt erscheinen, und tödliche Fallen können als harmlose Trugbilder getarnt sein. Wenn Sie auf eine Halluzination reagieren, verschwenden Sie wertvolle Munition oder geben Ihre Position preis. Wenn Sie eine echte Falle ignorieren, weil Sie sie für eine Illusion halten, riskieren Sie den sofortigen Tod.
+
+| Illusionstyp | Visueller Hinweis | Gameplay-Auswirkung | Solo-Gegenmaßnahme |
+| :--- | :--- | :--- | :--- |
+| **Blutbad** | Bildschirm färbt sich tiefrot | Behindert die Sicht und Wegfindung stark | Bewegen Sie sich langsam und verlassen Sie sich auf Ihren Kompass |
+| **Trugbild-Fallen** | Schimmernde Stacheln oder Gruben | Verursacht schweren Schaden beim Betreten | Werfen Sie einen kleinen Stein oder prüfen Sie genau, bevor Sie weitergehen |
+| **Phantom-Flüstern** | Direktionales Flüstern und Rascheln | Lenkt von tatsächlichen gegnerischen Schritten ab | Vertrauen Sie Ihren visuellen Anzeigen mehr als lokalisierten Audioeffekten |
+| **Schattenlauerer** | Flackernde Gestalten in der Dunkelheit | Löst Panik aus und verschwendet Munition | Feuern Sie nicht, es sei denn, das Ziel stürmt aktiv auf Sie zu |
+
+<Callout type="warning" title="Wahnsinnsgefahr">
+Wenn Sie Ihren Verstand vollständig verlieren, verlieren Sie die Kontrolle über Ihren Charakter, was zu einem sofortigen Fehlschlag des Runs führt. Behalten Sie das Atemmuster und die visuelle Stabilität Ihres Charakters im Auge, um Ihren aktuellen Wahnsinnsgrad einzuschätzen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solo-Überlebens-Checkliste und FAQ">
+
+Um Ihr Überleben im verfluchten Dschungel zu sichern, bereiten Sie sich immer gründlich vor, bevor Sie die Galeone verlassen. Nutzen Sie diese Checkliste, um Ihre Bereitschaft vor jeder Solo-Expedition zu überprüfen.
+
+<Checklist
+  id="solo-survival-checklist"
+  title="Checkliste vor der Expedition:"
+  items={[
+    "Stellen Sie sicher, dass die Armbrust voll geladen ist und Sie lautlose Bolzen haben",
+    "Rüsten Sie mindestens eine Einheit Wiederbelebungssalze in Ihrem Schnellplatz aus",
+    "Prüfen Sie, ob Ihre Öllampe genügend Brennstoff für dunkle Ruinen hat",
+    "Lokalisieren Sie die nächste freigeschaltete Festung auf Ihrer Karte, bevor Sie aufbrechen",
+    "Stellen Sie sicher, dass Sie den Vertrag des Kapitäns unterzeichnet haben, um Bonusbelohnungen zu sichern"
+  ]}
+/>
+
+<Callout type="tip" title="Letzter Tipp">
+Geduld ist Ihre größte Waffe. Im Solospiel ist Weglaufen fast immer besser als Kämpfen. Sparen Sie Ihre Kampfressourcen für Momente auf, in denen Sie in die Enge getrieben werden oder ein Logbuch sichern.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ist The Mound Omen of Cthulhu Einzelspieler komplett offline spielbar?",
+    answer: "Ja, der Entwickler ACE Team hat bestätigt, dass Sie das Spiel im Einzelspielermodus komplett offline spielen können. Sie benötigen keine aktive Internetverbindung, um in der Kampagne voranzukommen."
+  },
+  {
+    question: "Wie verändert sich das Wahnsinnssystem beim Solospiel?",
+    answer: "Im Solospiel ist das Wahnsinnssystem viel herausfordernder, da Sie keine Teamkollegen haben, um zu verifizieren, ob eine Gefahr oder ein Feind eine Halluzination ist. Sie müssen schimmernde Objekte sorgfältig untersuchen und Ihren geistigen Gesundheitszustand mit Gegenständen verwalten."
+  },
+  {
+    question: "Kann ich die Muskete als Solospieler effektiv einsetzen?",
+    answer: "Obwohl die Muskete hohen Schaden verursacht, alarmiert ihr lautes Geräusch den gesamten Dschungel, was sie für Solospieler hochriskant macht. Es wird empfohlen, die lautlose Armbrust für Stealth zu verwenden und das Schwert für die Nahkampfverteidigung zu behalten."
+  },
+  {
+    question: "Werden freigeschaltete Festungen zwischen Solo-Runs übernommen?",
+    answer: "Ja, sobald Sie ein Logbuch finden und eine verlassene Festung freischalten, dient diese als permanenter Start-Kontrollpunkt für alle zukünftigen Expeditionen, sodass Sie frühere Zonen überspringen können."
+  }
+]} />
+
+</Section>

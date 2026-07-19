@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Skull, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beta de The Mound: Omen of Cthulhu: Guía de configuración y consejos de supervivencia",
+  description: "Domina la aterradora jungla en la beta de The Mound: Omen of Cthulhu. Conoce los requisitos del sistema, estrategias cooperativas, mecánicas de cordura y equipamiento inicial.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Beta+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Transición a la beta**: Prepárate para la beta y las versiones de lanzamiento final de The Mound: Omen of Cthulhu dominando los ciclos cooperativos fundamentales.
+- **Mecánicas de cordura**: Monitorea tus niveles de cordura constantemente para evitar ilusiones visuales letales y la posesión de tus compañeros.
+- **Progresión de fuertes**: Localiza fuertes abandonados y recupera cuadernos de bitácora para desbloquear puntos de control permanentes más adentro de la jungla.
+- **Estrategia de sonido**: Confía en el chat de voz por proximidad pero mantente en silencio, ya que los ruidos fuertes como los disparos despiertan a monstruos hostiles.
+- **Sinergia de tripulación**: Coordina los equipamientos iniciales en el galeón antes de iniciar las expediciones a través del bote de remos.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas de supervivencia en la beta de The Mound: Omen of Cthulhu">
+
+A medida que los jugadores dejan las cubiertas seguras de su galeón para adentrarse en las malditas junglas sudamericanas del siglo XVI, la beta de **The Mound: Omen of Cthulhu** y su posterior lanzamiento completo desafían incluso a los escuadrones más coordinados. Desarrollada por ACE Team y publicada por Nacon, esta experiencia de terror cooperativo para cuatro jugadores exige una preparación minuciosa, sigilo absoluto y una comunicación precisa. El objetivo principal es adentrarse en lo desconocido, recolectar tesoros, asegurar comida para la tripulación y encontrar la entrada al legendario Montículo antes de que la jungla reclame tu cordura.
+
+Antes de iniciar tu expedición, debes comprender cómo reacciona el entorno a tu presencia. La jungla es una entidad viva y hostil que escucha cada uno de tus movimientos. El diseño de sonido juega un papel fundamental en la supervivencia, utilizando un audio de proximidad especializado que puede aislar fácilmente a los jugadores que se alejen demasiado de su equipo.
+
+**Puntos destacados del video:**
+- **Preparación de la expedición**: Reúne recursos, firma contratos con el capitán y reparte el equipamiento inicial en tu galeón.
+- **Sistema de locura**: Experimenta ilusiones alucinantes, trampas falsas y la posesión de compañeros a medida que disminuye la cordura.
+- **Progresión de fuertes**: Recupera cuadernos de bitácora perdidos para establecer puntos de partida permanentes para futuras incursiones.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer oficial de resumen de jugabilidad" />
+
+<Callout type="info" title="Detalles de juego cruzado">
+El juego cuenta con soporte completo de juego cruzado en PC, PlayStation 5 y Xbox Series, lo que te permite formar escuadrones sin importar tu plataforma.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Requisitos del sistema y ediciones del juego">
+
+Para garantizar una transición fluida a la jungla maldita, los jugadores deben optimizar la configuración de su hardware. Las altas tasas de fotogramas y la baja latencia son cruciales al navegar por entornos oscuros llenos de ilusiones repentinas que agotan la cordura. A continuación se detallan los requisitos oficiales del sistema junto con una comparación detallada de las ediciones comerciales del juego.
+
+| Requisito | Especificación mínima | Especificación recomendada |
+|---|---|---|
+| Sistema operativo | Windows 10/11 64-bit | Windows 10/11 64-bit |
+| Procesador | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| Memoria | 16 GB RAM | 16 GB RAM |
+| Gráficos | NVIDIA GTX 1660 SUPER 6GB / AMD RX 5600 XT 6GB | NVIDIA RTX 3070 8GB / AMD RX 6750 XT 12GB |
+| DirectX | Versión 12 | Versión 12 |
+
+| Edición | Precio | Contenido incluido |
+|---|---|---|
+| Edición Estándar | $29.99 | Juego base, paquete de personajes Fortune Hunters, banda sonora digital |
+| Edición Deluxe | $39.99 | Juego base, paquete de personajes Fortune Hunters, banda sonora digital, activos digitales premium |
+
+<Callout type="warning" title="Optimización de hardware">
+Los datos de configuración del sistema están sujetos a actualizaciones de optimización. Asegúrate de que tus controladores de gráficos estén completamente actualizados para evitar fallos de renderizado visual durante las caídas de cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento inicial y preparación del galeón">
+
+El galeón sirve como tu base segura entre incursiones de alto riesgo. Aquí, tu escuadrón debe organizarse, seleccionar contratos del capitán y distribuir cuidadosamente tu limitado equipamiento inicial. Dividir los roles de manera efectiva determina si tu expedición regresa rica o perece en la oscuridad.
+
+<CardGrid cols={3}>
+  <Card title="La Vanguardia">
+    - **Arma principal**: Mosquete
+    - **Objeto de utilidad**: Lámpara de aceite
+    - **Rol**: Defensa pesada e iluminación para encontrar caminos.
+  </Card>
+  <Card title="El Explorador">
+    - **Arma principal**: Ballesta
+    - **Objeto de utilidad**: Mapa / Rastreador de cuaderno de bitácora
+    - **Rol**: Eliminaciones silenciosas y navegación por caminos de fuertes.
+  </Card>
+  <Card title="El Apoyo">
+    - **Arma principal**: Espada
+    - **Objeto de utilidad**: Sales de reanimación
+    - **Rol**: Restaurar aliados caídos y gestionar la cordura del equipo.
+  </Card>
+</CardGrid>
+
+| Objeto de equipamiento | Función principal | Uso táctico |
+|---|---|---|
+| Mosquete | Arma a distancia de alto daño | Eliminar monstruos de élite desde lejos |
+| Ballesta | Arma a distancia silenciosa | Eliminaciones sigilosas sin alertar a la jungla |
+| Espada | Combate cuerpo a cuerpo a corta distancia | Cortes defensivos cuando se agota la munición |
+| Lámpara de aceite | Fuente de luz | Navegar por senderos oscuros de la jungla y fuertes |
+| Sales de reanimación | Recuperación de compañeros | Resucitar aliados caídos durante la locura |
+
+<Callout type="tip" title="Sinergia de armas">
+Evita disparar mosquetes simultáneamente. El ruido fuerte alerta a los horrores cercanos y acelera la pérdida de cordura para todo el escuadrón. Usa la ballesta para avanzar con sigilo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploración de la jungla y progresión de fuertes">
+
+Navegar por la jungla maldita requiere una progresión estructurada. El mapa está dividido en grandes áreas abiertas conectadas por fuertes antiguos y abandonados. Asegurar estos fuertes es esencial para la progresión a largo plazo, ya que desbloquean puntos de partida avanzados para expediciones posteriores.
+
+<Steps>
+  <Step num="1" title="Asegura el contrato del galeón">
+    Sube al galeón, firma el contrato del capitán para recibir tu equipamiento inicial y sube al bote de remos para llegar a tierra firme.
+  </Step>
+  <Step num="2" title="Navega por la jungla maldita">
+    Muévete en silencio a través del denso follaje. Usa el chat de voz por proximidad para coordinar los movimientos, manteniendo el ruido al mínimo absoluto.
+  </Step>
+  <Step num="3" title="Localiza fuertes abandonados">
+    Busca estructuras antiguas dejadas por expediciones anteriores. Evita las trampas y elimina a las criaturas lovecraftianas que acechan en el camino.
+  </Step>
+  <Step num="4" title="Recupera el cuaderno de bitácora">
+    Localiza y asegura el cuaderno de bitácora escondido dentro del fuerte para desbloquear permanentemente la ubicación como punto de partida para futuras incursiones.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Beneficio de progresión de fuertes">
+Desbloquear fuertes reduce drásticamente el tiempo de viaje necesario para llegar a las zonas más profundas y ricas en tesoros del Montículo en futuras expediciones.
+</Callout>
+
+</Section>
+
+<Section icon={Skull} title="Mecánicas de cordura y supervivencia a la locura">
+
+Cuanto más te adentras en el territorio de Cthulhu, mayor es el costo para tu mente. El juego cuenta con un complejo sistema de locura que distorsiona activamente tu percepción de la realidad, obligándote a cuestionar tu entorno e incluso a tus propios compañeros de equipo.
+
+| Estado de locura | Efecto visual/auditivo | Contramedida táctica |
+|---|---|---|
+| Alucinaciones leves | Entorno empapado de sangre | Agruparse y verificar los caminos con los compañeros |
+| Trampas de espejismo | Peligros y fosas disfrazados | Usar la lámpara de aceite para detectar ilusiones brillantes |
+| Aislamiento de audio | Chat de voz por proximidad desactivado | Mantenerse cerca; no alejarse solo |
+| Posesión hostil | Compañero convertido en cazador | Someter o evadir al jugador poseído de inmediato |
+
+<Checklist
+  id="sanity-management"
+  title="Lista de verificación para el mantenimiento de la cordura:"
+  items={[
+    "Mantener línea de visión directa con al menos un compañero de equipo",
+    "Usar la lámpara de aceite para identificar y evitar trampas de espejismos brillantes",
+    "Mantener bajos los niveles de ruido para evitar desencadenar eventos que agoten la cordura",
+    "Utilizar sales de reanimación de inmediato si un aliado colapsa por la locura",
+    "Establecer comprobaciones verbales para verificar si un jugador que regresa está poseído"
+  ]}
+/>
+
+<Callout type="warning" title="La amenaza de la posesión">
+Cuando un compañero de equipo se aleja y pierde la comunicación de voz, puede ser controlado por la jungla. Trata a los jugadores que regresan con precaución hasta que se verifique su identidad.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué plataformas son compatibles con la beta y el lanzamiento completo de The Mound: Omen of Cthulhu?",
+    answer: "El juego está disponible en PC (Steam y Epic Games Store), PlayStation 5 y Xbox Series con soporte completo de juego cruzado habilitado desde el primer día."
+  },
+  {
+    question: "¿Puedo jugar solo o es obligatorio el modo cooperativo?",
+    answer: "Aunque el juego está diseñado desde cero para el modo cooperativo de cuatro jugadores, hay un modo individual completamente disponible para los jugadores que prefieren desafiar la jungla solos."
+  },
+  {
+    question: "¿Cómo se desbloquean nuevos puntos de partida en la jungla?",
+    answer: "Debes explorar la jungla, localizar fuertes abandonados de expediciones anteriores y recuperar sus cuadernos de bitácora para desbloquear permanentemente esas ubicaciones para futuras incursiones."
+  },
+  {
+    question: "¿Qué sucede cuando tu cordura llega a cero?",
+    answer: "Tu visión se distorsiona, las trampas aparecen disfrazadas de caminos seguros y puedes perder la comunicación con tu equipo. Eventualmente, puedes ser poseído por la jungla para cazar a tus aliados."
+  }
+]} />
+
+<Callout type="tip" title="Guía de la comunidad">
+¡Sigue coordinando con tu tripulación, comparte recursos en el galeón y asegura esos cuadernos de bitácora de los fuertes para conquistar las profundidades del Montículo!
+</Callout>
+
+</Section>

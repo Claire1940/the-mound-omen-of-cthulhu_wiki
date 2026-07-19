@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Criadores de The Mound Omen of Cthulhu: Guia de Desenvolvimento e Jogabilidade",
+  description: "Descubra a visão dos criadores de The Mound: Omen of Cthulhu na ACE Team. Saiba mais sobre as mecânicas únicas de sanidade, estratégias de horror cooperativo e detalhes do lançamento em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mound+Creators+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "The Mound, Omen of Cthulhu, ACE Team, horror cooperativo, Lovecraft, guia de jogo, mecânicas de sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Criadores de The Mound: Omen of Cthulhu**: Desenvolvido pela **ACE Team**, conhecida por sua visão artística única e construção de mundos surreais.
+- **Jogabilidade Principal**: Uma experiência de horror cooperativo de 2026 focada na exploração da selva, gerenciamento de recursos e preservação da sanidade.
+- **Mecânica Chave**: O **Sistema de Sanidade** altera a percepção do jogador, dificultando a cooperação à medida que a selva "acorda".
+- **Estratégia de Sobrevivência**: Priorize a furtividade e o tesouro em vez do combate, pois as armas de fogo produzem ruído que alerta todo o ecossistema.
+- **Data de Lançamento**: Oficialmente agendado para lançamento em **15 de julho de 2026**, para as plataformas PC, PS5 e Xbox Series.
+</Callout>
+
+<Section icon={User} title="A Visão Criativa da ACE Team">
+
+Os **criadores de The Mound: Omen of Cthulhu**, a ACE Team, estabeleceram uma reputação por criar alguns dos títulos visualmente mais distintos e mecanicamente experimentais na indústria de jogos. Liderada pelo Diretor de Arte **Edmundo Bordeaux**, a equipe transferiu sua experiência em surrealismo para o reino do horror Lovecraftiano. Ao contrário dos jogos de horror tradicionais que dependem de sustos (jump scares), os criadores focaram no "pavor atmosférico" e na sensação de estar em um lugar que fundamentalmente não quer que o jogador exista.
+
+**Destaques do Vídeo:**
+- **Direção Artística**: Edmundo Bordeaux discute o design da selva como uma entidade antiga e indiferente.
+- **Ciclo de Jogabilidade**: Da segurança do galeão às profundezas da selva amaldiçoada.
+- **Mecânicas de Sanidade**: Como o ambiente engana a percepção do jogador para criar dúvida.
+- **Riscos de Combate**: O equilíbrio entre usar armas de fogo poderosas e manter a furtividade.
+
+<YouTubeEmbed videoId="g5xhFgI69FU" title="The Mound: Omen of Cthulhu - Trailer Oficial de Demonstração de Jogabilidade | Nacon Connect 2026" />
+
+A filosofia de desenvolvimento por trás do jogo enfatiza que a selva existia muito antes da chegada dos jogadores. Isso cria uma sensação de "indiferença cósmica", onde o ambiente não é projetado para a conveniência do jogador. Os criadores querem que os esquadrões se sintam como intrusos em um mundo com suas próprias regras ancestrais.
+
+| Aspecto de Desenvolvimento | Detalhe |
+| :--- | :--- |
+| **Desenvolvedor Principal** | **ACE Team** |
+| **Diretor de Arte** | Edmundo Bordeaux |
+| **Editora** | Nacon |
+| **Motor Gráfico** | Sistemas Visuais Proprietários/Avançados |
+| **Tema Central** | Sobrevivência Cooperativa Lovecraftiana |
+
+<Callout type="tip" title="Insight do Desenvolvedor">
+Os criadores enfatizam que "The Mound" não é apenas sobre lutar contra monstros; é sobre "entender as regras antes que as regras entendam você". A observação é frequentemente mais valiosa do que a munição.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mecânicas de Exploração e Ambientais">
+
+Em **The Mound: Omen of Cthulhu**, o ambiente atua como o principal antagonista. O jogo é estruturado em torno de expedições que começam na segurança de um galeão ancorado na costa. Os jogadores devem se aventurar na selva para recuperar tesouros e trazê-los de volta ao navio. No entanto, quanto mais fundo o esquadrão se aventura, mais a selva reage à sua presença.
+
+Os **criadores de The Mound: Omen of Cthulhu** projetaram um sistema de "Selva Viva" onde o mapa evolui com base nas ações dos jogadores. Separar-se pode ajudar a cobrir mais terreno rapidamente, mas deixa os membros individuais vulneráveis às criaturas estranhas que habitam a vegetação.
+
+<CardGrid cols={3}>
+  <Card title="A Costa">
+    - **Zona Segura**
+    - Proximidade com o galeão
+    - Oportunidades de saque de baixo risco
+  </Card>
+  <Card title="A Selva Amaldiçoada">
+    - **Ambiente Dinâmico**
+    - Atmosfera que drena a sanidade
+    - Surgimento imprevisível de criaturas
+  </Card>
+  <Card title="Ruínas Antigas">
+    - **Alta Recompensa**
+    - Quebra-cabeças e armadilhas complexas
+    - Lar das entidades mais mortais
+  </Card>
+</CardGrid>
+
+| Fase de Exploração | Nível de Risco | Objetivo Principal | Prioridade de Sobrevivência |
+| :--- | :--- | :--- | :--- |
+| **Desembarque Inicial** | Baixo | Distribuição de Equipamento | Coleta de Recursos |
+| **Selva Profunda** | Médio | Caça ao Tesouro | Gerenciamento de Sanidade |
+| **Extração** | Alto | Alcançar o Barco a Remo | Coesão do Grupo |
+
+<Callout type="warning" title="Perigo Ambiental">
+A selva é "indulgente" apenas quando está dormindo. Ruído excessivo ou violência irão "acordar a selva", aumentando significativamente a agressividade e a frequência de encontros com monstros.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate e Gerenciamento de Recursos">
+
+O combate neste título é um último recurso desesperado, em vez de um pilar principal de jogabilidade. Os **criadores de The Mound: Omen of Cthulhu** implementaram uma economia de recursos rígida centrada em pólvora e ruído. Embora as armas de fogo sejam eficazes para neutralizar ameaças, elas são barulhentas e limitadas.
+
+Cada tiro disparado é um sinal para a selva. O "Sistema de Ruído" rastreia a pegada auditiva do esquadrão; uma vez atingido um certo limite, a selva "acorda" e a sobrevivência torna-se exponencialmente mais difícil. Os jogadores devem decidir quando lutar e quando correr por suas vidas de volta ao barco a remo.
+
+<Steps>
+  <Step num="1" title="Distribuição Inicial de Equipamento">
+    O Capitão do galeão fornece o equipamento básico. Este equipamento deve ser dividido estrategicamente entre os membros do esquadrão antes de deixar o navio.
+  </Step>
+  <Step num="2" title="Coleta Furtiva">
+    Mova-se pela selva silenciosamente. Use combate corpo a corpo ou armadilhas ambientais para lidar com ameaças menores sem alertar todo o mapa.
+  </Step>
+  <Step num="3" title="Gerenciamento de Ruído">
+    Se for forçado a um tiroteio, use armas de fogo com moderação. Certifique-se de que o esquadrão esteja pronto para se mover imediatamente após um encontro barulhento.
+  </Step>
+  <Step num="4" title="Extração de Tesouro">
+    Assim que o saque estiver seguro, priorize a jornada de retorno. Perder um amigo é frequentemente "inevitável" durante a fase de extração de alta tensão.
+  </Step>
+</Steps>
+
+| Tipo de Arma | Eficácia | Perfil de Ruído | Disponibilidade de Munição |
+| :--- | :--- | :--- | :--- |
+| **Armas de Fogo** | **Muito Alta** | **Extremo** | Muito Limitada |
+| **Ferramentas de Combate** | Moderada | Silencioso | N/A (Baseado em Durabilidade) |
+| **Armadilhas/Distrações** | Estratégica | Baixo | Fabricável |
+
+<Callout type="success" title="Dica de Estratégia">
+Sempre deixe pelo menos um membro do esquadrão com um cartucho cheio de pólvora para a fase de extração. A corrida de volta ao barco a remo é quando você provavelmente mais precisará de poder de fogo esmagador.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O Sistema de Sanidade e Percepção">
+
+Uma das características mais inovadoras introduzidas pelos **criadores de The Mound: Omen of Cthulhu** é o Sistema de Sanidade. À medida que os jogadores se aprofundam na selva, sua sanidade começa a diminuir. Isso não é apenas uma barra de estatísticas; afeta ativamente a percepção do jogador sobre o mundo do jogo.
+
+Quando a sanidade está baixa, a selva começa a te "enganar". Você pode ver companheiros de equipe onde eles não estão, ouvir vozes que não existem ou experimentar mudanças atmosféricas que ocultam ameaças iminentes. Isso cria momentos de dúvida genuína entre os jogadores, tornando a cooperação mais difícil e mais essencial.
+
+<Checklist
+  id="sanity-maintenance"
+  title="Checklist de Preservação da Sanidade:"
+  items={[
+    "Mantenha-se no campo de visão dos companheiros de equipe",
+    "Evite a exposição prolongada a artefatos amaldiçoados",
+    "Descanse em 'Zonas de Silêncio' designadas quando possível",
+    "Monitore o comportamento dos colegas em busca de sinais de 'alucinação'",
+    "Distribua itens de restauração de sanidade uniformemente"
+  ]}
+/>
+
+| Nível de Sanidade | Efeitos Visuais | Efeitos de Áudio | Impacto no Esquadrão |
+| :--- | :--- | :--- | :--- |
+| **Estável** | Visão clara | Sons padrão da selva | Cooperação total |
+| **Oscilante** | Movimentos de sombras | Sussurros baixos | Pequena confusão |
+| **Quebrada** | **Entidades falsas** | **Gritos/Sinais enganosos** | Alto risco de fogo amigo |
+
+<Callout type="info" title="Mecânicas de Percepção">
+Os criadores projetaram o sistema para criar "momentos reais de dúvida". Se você vir um colega de equipe parado à distância, ele pode não estar realmente lá. A comunicação via chat de voz é a única maneira de verificar a realidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Detalhes de Lançamento e Requisitos de Plataforma">
+
+Os **criadores de The Mound: Omen of Cthulhu** confirmaram que o jogo estará disponível em **15 de julho de 2026**. O título está sendo desenvolvido para hardware de geração atual para garantir que os ambientes densos da selva e os complexos efeitos de sanidade sejam renderizados com alta fidelidade.
+
+Os jogadores podem esperar uma experiência desafiadora que recompensa a paciência e o pensamento tático em vez de mecânicas de "correr e atirar". A página do Steam já indica que o jogo apresenta "violência intensa, sangue e vísceras", mantendo-se fiel às suas raízes maduras de Lovecraft.
+
+<CardGrid cols={2}>
+  <Card title="Plataformas Suportadas">
+    - **PC (Steam/Epic)**
+    - **PlayStation 5**
+    - **Xbox Series X/S**
+  </Card>
+  <Card title="Benefícios da Pré-venda">
+    - **20% de Desconto de Lançamento**
+    - Skins exclusivas de "Galeão"
+    - Acesso antecipado à demonstração
+  </Card>
+</CardGrid>
+
+| Plataforma | Alvo de Resolução | Alvo de Taxa de Quadros | Recursos Especiais |
+| :--- | :--- | :--- | :--- |
+| **PC** | Até 4K | Ilimitado | Sombras com Ray-tracing |
+| **PS5** | 4K (Dinâmico) | 60 FPS | Haptics do DualSense |
+| **Xbox Series X** | 4K | 60 FPS | Suporte para Quick Resume |
+
+<Callout type="warning" title="Requisitos do Sistema">
+Devido à simulação da "Selva Viva", os criadores recomendam instalar o jogo em um SSD para minimizar os tempos de carregamento durante as mudanças ambientais dinâmicas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ de The Mound: Omen of Cthulhu">
+
+<FAQ items={[
+  {
+    question: "Quem são os criadores de The Mound: Omen of Cthulhu?",
+    answer: "O jogo é desenvolvido pela ACE Team, um estúdio baseado no Chile conhecido por títulos como Zeno Clash e Eternal Cylinder. O projeto é liderado pelo Diretor de Arte Edmundo Bordeaux."
+  },
+  {
+    question: "O jogo pode ser jogado sozinho?",
+    answer: "Embora o jogo seja projetado como uma experiência de horror cooperativo para esquadrões, os criadores incluíram mecânicas de escalonamento para jogadores solo, embora isso aumente significativamente a dificuldade e a pressão no gerenciamento da sanidade."
+  },
+  {
+    question: "O que acontece quando você morre na selva?",
+    answer: "Perder um companheiro de equipe é uma parte central da experiência. Embora você possa tentar recuperar o saque deles, sua prioridade final deve ser sua própria sobrevivência e retornar ao barco a remo com qualquer tesouro que possua."
+  },
+  {
+    question: "Quando é a data oficial de lançamento?",
+    answer: "The Mound: Omen of Cthulhu está programado para ser lançado em 15 de julho de 2026, para PC, PlayStation 5 e Xbox Series X/S."
+  }
+]} />
+
+</Section>

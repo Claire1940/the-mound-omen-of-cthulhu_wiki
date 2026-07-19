@@ -2,6 +2,10 @@
   "de": {
     "demo": [
       {
+        "slug": "the-mound-omen-of-cthulhu-beta",
+        "file": "the-mound-omen-of-cthulhu-beta"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
         "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
       },
@@ -40,12 +44,20 @@
         "file": "the-mound-omen-of-cthulhu-classes"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-creators",
+        "file": "the-mound-omen-of-cthulhu-creators"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-crucifix",
         "file": "the-mound-omen-of-cthulhu-crucifix"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
         "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-fatal-error",
+        "file": "the-mound-omen-of-cthulhu-demo-fatal-error"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-discord",
@@ -142,6 +154,10 @@
         "file": "the-mound-omen-of-cthulhu-how-many-players"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-single-player",
+        "file": "the-mound-omen-of-cthulhu-single-player"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-solo",
         "file": "the-mound-omen-of-cthulhu-solo"
       },
@@ -156,8 +172,20 @@
     ],
     "platforms": [
       {
+        "slug": "the-mound-omen-of-cthulhu-console",
+        "file": "the-mound-omen-of-cthulhu-console"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-game-pass",
         "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-ps5",
+        "file": "the-mound-omen-of-cthulhu-on-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-xbox",
+        "file": "the-mound-omen-of-cthulhu-on-xbox"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-pc",
@@ -186,6 +214,10 @@
     ],
     "price": [
       {
+        "slug": "the-mound-omen-of-cthulhu-cost",
+        "file": "the-mound-omen-of-cthulhu-cost"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
         "file": "the-mound-omen-of-cthulhu-deluxe-edition"
       },
@@ -210,6 +242,10 @@
       {
         "slug": "the-mound-omen-of-cthulhu-is-it-out",
         "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-out-yet",
+        "file": "the-mound-omen-of-cthulhu-out-yet"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-preorders",
@@ -250,6 +286,10 @@
   "en": {
     "demo": [
       {
+        "slug": "the-mound-omen-of-cthulhu-beta",
+        "file": "the-mound-omen-of-cthulhu-beta"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
         "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
       },
@@ -288,12 +328,20 @@
         "file": "the-mound-omen-of-cthulhu-classes"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-creators",
+        "file": "the-mound-omen-of-cthulhu-creators"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-crucifix",
         "file": "the-mound-omen-of-cthulhu-crucifix"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
         "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-fatal-error",
+        "file": "the-mound-omen-of-cthulhu-demo-fatal-error"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-discord",
@@ -390,6 +438,10 @@
         "file": "the-mound-omen-of-cthulhu-how-many-players"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-single-player",
+        "file": "the-mound-omen-of-cthulhu-single-player"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-solo",
         "file": "the-mound-omen-of-cthulhu-solo"
       },
@@ -404,8 +456,20 @@
     ],
     "platforms": [
       {
+        "slug": "the-mound-omen-of-cthulhu-console",
+        "file": "the-mound-omen-of-cthulhu-console"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-game-pass",
         "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-ps5",
+        "file": "the-mound-omen-of-cthulhu-on-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-xbox",
+        "file": "the-mound-omen-of-cthulhu-on-xbox"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-pc",
@@ -434,6 +498,10 @@
     ],
     "price": [
       {
+        "slug": "the-mound-omen-of-cthulhu-cost",
+        "file": "the-mound-omen-of-cthulhu-cost"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
         "file": "the-mound-omen-of-cthulhu-deluxe-edition"
       },
@@ -458,6 +526,10 @@
       {
         "slug": "the-mound-omen-of-cthulhu-is-it-out",
         "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-out-yet",
+        "file": "the-mound-omen-of-cthulhu-out-yet"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-preorders",
@@ -498,6 +570,10 @@
   "es": {
     "demo": [
       {
+        "slug": "the-mound-omen-of-cthulhu-beta",
+        "file": "the-mound-omen-of-cthulhu-beta"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
         "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
       },
@@ -536,12 +612,20 @@
         "file": "the-mound-omen-of-cthulhu-classes"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-creators",
+        "file": "the-mound-omen-of-cthulhu-creators"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-crucifix",
         "file": "the-mound-omen-of-cthulhu-crucifix"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
         "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-fatal-error",
+        "file": "the-mound-omen-of-cthulhu-demo-fatal-error"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-discord",
@@ -638,6 +722,10 @@
         "file": "the-mound-omen-of-cthulhu-how-many-players"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-single-player",
+        "file": "the-mound-omen-of-cthulhu-single-player"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-solo",
         "file": "the-mound-omen-of-cthulhu-solo"
       },
@@ -652,8 +740,20 @@
     ],
     "platforms": [
       {
+        "slug": "the-mound-omen-of-cthulhu-console",
+        "file": "the-mound-omen-of-cthulhu-console"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-game-pass",
         "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-ps5",
+        "file": "the-mound-omen-of-cthulhu-on-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-xbox",
+        "file": "the-mound-omen-of-cthulhu-on-xbox"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-pc",
@@ -682,6 +782,10 @@
     ],
     "price": [
       {
+        "slug": "the-mound-omen-of-cthulhu-cost",
+        "file": "the-mound-omen-of-cthulhu-cost"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
         "file": "the-mound-omen-of-cthulhu-deluxe-edition"
       },
@@ -706,6 +810,10 @@
       {
         "slug": "the-mound-omen-of-cthulhu-is-it-out",
         "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-out-yet",
+        "file": "the-mound-omen-of-cthulhu-out-yet"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-preorders",
@@ -746,6 +854,10 @@
   "pt": {
     "demo": [
       {
+        "slug": "the-mound-omen-of-cthulhu-beta",
+        "file": "the-mound-omen-of-cthulhu-beta"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-demo-multiplayer",
         "file": "the-mound-omen-of-cthulhu-demo-multiplayer"
       },
@@ -784,12 +896,20 @@
         "file": "the-mound-omen-of-cthulhu-classes"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-creators",
+        "file": "the-mound-omen-of-cthulhu-creators"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-crucifix",
         "file": "the-mound-omen-of-cthulhu-crucifix"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-cursed-jungle",
         "file": "the-mound-omen-of-cthulhu-cursed-jungle"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-demo-fatal-error",
+        "file": "the-mound-omen-of-cthulhu-demo-fatal-error"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-discord",
@@ -886,6 +1006,10 @@
         "file": "the-mound-omen-of-cthulhu-how-many-players"
       },
       {
+        "slug": "the-mound-omen-of-cthulhu-single-player",
+        "file": "the-mound-omen-of-cthulhu-single-player"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-solo",
         "file": "the-mound-omen-of-cthulhu-solo"
       },
@@ -900,8 +1024,20 @@
     ],
     "platforms": [
       {
+        "slug": "the-mound-omen-of-cthulhu-console",
+        "file": "the-mound-omen-of-cthulhu-console"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-game-pass",
         "file": "the-mound-omen-of-cthulhu-game-pass"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-ps5",
+        "file": "the-mound-omen-of-cthulhu-on-ps5"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-on-xbox",
+        "file": "the-mound-omen-of-cthulhu-on-xbox"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-pc",
@@ -930,6 +1066,10 @@
     ],
     "price": [
       {
+        "slug": "the-mound-omen-of-cthulhu-cost",
+        "file": "the-mound-omen-of-cthulhu-cost"
+      },
+      {
         "slug": "the-mound-omen-of-cthulhu-deluxe-edition",
         "file": "the-mound-omen-of-cthulhu-deluxe-edition"
       },
@@ -954,6 +1094,10 @@
       {
         "slug": "the-mound-omen-of-cthulhu-is-it-out",
         "file": "the-mound-omen-of-cthulhu-is-it-out"
+      },
+      {
+        "slug": "the-mound-omen-of-cthulhu-out-yet",
+        "file": "the-mound-omen-of-cthulhu-out-yet"
       },
       {
         "slug": "the-mound-omen-of-cthulhu-preorders",

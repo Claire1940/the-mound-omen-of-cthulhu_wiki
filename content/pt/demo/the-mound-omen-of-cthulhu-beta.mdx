@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Skull, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beta de The Mound: Omen of Cthulhu: Guia de Configuração e Dicas de Sobrevivência",
+  description: "Domine a selva aterrorizante no beta de The Mound: Omen of Cthulhu. Aprenda requisitos do sistema, estratégias cooperativas, mecânicas de sanidade e equipamentos iniciais.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=Beta+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, beta, guia de sobrevivência, coop, terror, sanidade"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Transição para o Beta**: Prepare-se para o beta de The Mound: Omen of Cthulhu e para as versões de lançamento final dominando os ciclos fundamentais de cooperação.
+- **Mecânicas de Sanidade**: Monitore seus níveis de sanidade constantemente para evitar ilusões visuais letais e a possessão de companheiros de equipe.
+- **Progressão de Fortes**: Localize fortes abandonados e recupere diários de bordo para desbloquear checkpoints permanentes mais profundos na selva.
+- **Estratégia de Som**: Confie no chat de voz por proximidade, mas mantenha-se em silêncio, pois ruídos altos como tiros despertam monstros hostis.
+- **Sinergia da Tripulação**: Coordene os equipamentos iniciais no galeão antes de lançar expedições via bote.
+</Callout>
+
+<Section icon={Sparkles} title="Mecânicas de Sobrevivência no Beta de The Mound: Omen of Cthulhu">
+
+À medida que os jogadores deixam os conveses seguros de seus galeões e entram nas amaldiçoadas selvas sul-americanas do século XVI, **o beta de The Mound: Omen of Cthulhu** e seu subsequente lançamento completo desafiam até os esquadrões mais coordenados. Desenvolvido pela ACE Team e publicado pela Nacon, esta experiência de terror cooperativo para quatro jogadores exige preparação cuidadosa, furtividade absoluta e comunicação precisa. O objetivo principal é aventurar-se nas profundezas do desconhecido, coletar tesouros, garantir comida para sua tripulação e encontrar a entrada para o lendário Montículo (The Mound) antes que a selva reivindique sua sanidade.
+
+Antes de lançar sua expedição, você deve entender como o ambiente reage à sua presença. A selva é uma entidade viva e hostil que escuta cada movimento seu. O design de som desempenha um papel crítico na sobrevivência, utilizando áudio de proximidade especializado que pode facilmente isolar jogadores que se afastam demais de sua equipe.
+
+**Destaques do Vídeo:**
+- **Preparação da Expedição**: Reúna recursos, assine contratos com o capitão e divida os equipamentos iniciais em seu galeão.
+- **Sistema de Loucura**: Experimente ilusões de tirar o fôlego, armadilhas falsas e possessão de aliados conforme a sanidade cai.
+- **Progressão de Fortes**: Recupere diários de bordo perdidos para estabelecer pontos de partida permanentes para futuras incursões.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Visão Geral da Jogabilidade" />
+
+<Callout type="info" title="Detalhes do Cross-Play">
+O jogo apresenta suporte total a cross-play entre PC, PlayStation 5 e Xbox Series, permitindo que você forme esquadrões independentemente da sua plataforma.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Requisitos do Sistema e Edições do Jogo">
+
+Para garantir uma transição suave para a selva amaldiçoada, os jogadores devem otimizar suas configurações de hardware. Altas taxas de quadros e baixa latência são cruciais ao navegar em ambientes escuros repletos de ilusões repentinas que drenam a sanidade. Abaixo estão os requisitos oficiais do sistema, juntamente com uma comparação detalhada das edições de varejo do jogo.
+
+| Requisito | Especificação Mínima | Especificação Recomendada |
+|---|---|---|
+| Sistema Operacional | Windows 10/11 64-bit | Windows 10/11 64-bit |
+| Processador | Intel Core i7-8700K / AMD Ryzen 5 1600X | Intel Core i7-11700K / AMD Ryzen 5 5500 |
+| Memória | 16 GB RAM | 16 GB RAM |
+| Placa de Vídeo | NVIDIA GTX 1660 SUPER 6GB / AMD RX 5600 XT 6GB | NVIDIA RTX 3070 8GB / AMD RX 6750 XT 12GB |
+| DirectX | Versão 12 | Versão 12 |
+
+| Edição | Preço | Conteúdo Incluído |
+|---|---|---|
+| Edição Padrão | $29.99 | Jogo base, Pacote de Personagens Caçadores de Fortuna, Trilha Sonora Digital |
+| Edição Deluxe | $39.99 | Jogo base, Pacote de Personagens Caçadores de Fortuna, Trilha Sonora Digital, Ativos Digitais Premium |
+
+<Callout type="warning" title="Otimização de Hardware">
+Os dados de configuração do sistema estão sujeitos a atualizações de otimização. Certifique-se de que seus drivers de vídeo estejam totalmente atualizados para evitar falhas de renderização visual durante quedas de sanidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamento Inicial e Preparação no Galeão">
+
+O galeão serve como seu centro seguro entre as incursões de alto risco. Aqui, seu esquadrão deve se organizar, selecionar contratos do capitão e distribuir cuidadosamente seu equipamento inicial limitado. Dividir os papéis de forma eficaz determina se sua expedição retornará rica ou perecerá na escuridão.
+
+<CardGrid cols={3}>
+  <Card title="O Vanguarda">
+    - **Arma Principal**: Mosquete
+    - **Item Utilitário**: Lampião a Óleo
+    - **Papel**: Defesa pesada e iluminação para exploração.
+  </Card>
+  <Card title="O Batedor">
+    - **Arma Principal**: Besta
+    - **Item Utilitário**: Mapa / Rastreador de Diário
+    - **Papel**: Abates silenciosos e navegação pelos caminhos dos fortes.
+  </Card>
+  <Card title="O Suporte">
+    - **Arma Principal**: Espada
+    - **Item Utilitário**: Sais de Ressurreição
+    - **Papel**: Restaurar aliados caídos e gerenciar a sanidade da equipe.
+  </Card>
+</CardGrid>
+
+| Item de Equipamento | Função Principal | Uso Tático |
+|---|---|---|
+| Mosquete | Arma à distância de alto dano | Eliminar monstros de elite de longe |
+| Besta | Arma à distância silenciosa | Abates furtivos sem alertar a selva |
+| Espada | Combate corpo a corpo | Golpes defensivos quando a munição acaba |
+| Lampião a Óleo | Fonte de luz | Navegar por caminhos escuros da selva e fortes |
+| Sais de Ressurreição | Recuperação de aliados | Ressuscitar aliados caídos durante a loucura |
+
+<Callout type="tip" title="Sinergia de Armas">
+Evite disparar mosquetes simultaneamente. O ruído alto alerta horrores próximos e acelera o declínio da sanidade de todo o esquadrão. Use a besta para progressão furtiva.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploração da Selva e Progressão de Fortes">
+
+Navegar pela selva amaldiçoada requer uma progressão estruturada. O mapa é dividido em grandes áreas abertas conectadas por fortes antigos e abandonados. Proteger esses fortes é essencial para a progressão a longo prazo, pois eles desbloqueiam pontos de partida avançados para expedições subsequentes.
+
+<Steps>
+  <Step num="1" title="Garanta o Contrato no Galeão">
+    Embarque no galeão, assine o contrato do capitão para receber seu equipamento inicial e suba no bote para chegar ao continente.
+  </Step>
+  <Step num="2" title="Navegue pela Selva Amaldiçoada">
+    Mova-se silenciosamente pela folhagem densa. Use o chat de voz por proximidade para coordenar movimentos, mantendo o ruído no mínimo absoluto.
+  </Step>
+  <Step num="3" title="Localize Fortes Abandonados">
+    Procure por estruturas antigas deixadas por expedições anteriores. Evite armadilhas e elimine criaturas Lovecraftianas à espreita pelo caminho.
+  </Step>
+  <Step num="4" title="Recupere o Diário de Bordo">
+    Localize e proteja o diário de bordo escondido dentro do forte para desbloquear permanentemente o local como ponto de partida para futuras incursões.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Benefício da Progressão de Fortes">
+Desbloquear fortes reduz drasticamente o tempo de viagem necessário para alcançar as zonas mais profundas e ricas em tesouros do Montículo em expedições futuras.
+</Callout>
+
+</Section>
+
+<Section icon={Skull} title="Mecânicas de Sanidade e Sobrevivência à Loucura">
+
+Quanto mais fundo você se aventura no território de Cthulhu, maior é o preço para sua mente. O jogo apresenta um sistema de loucura complexo que distorce ativamente sua percepção da realidade, forçando-o a questionar o ambiente ao seu redor e até mesmo seus próprios companheiros de equipe.
+
+| Estado de Loucura | Efeito Visual/Auditivo | Contramedida Tática |
+|---|---|---|
+| Alucinações Leves | Ambiente encharcado de sangue | Agrupe-se e verifique os caminhos com os aliados |
+| Armadilhas de Miragem | Perigos e fossos disfarçados | Use o lampião para identificar ilusões cintilantes |
+| Isolamento de Áudio | Chat de voz por proximidade desativado | Fique perto; não se afaste sozinho |
+| Possessão Hostil | Aliado transformado em caçador | Subjugue ou evite o jogador possuído imediatamente |
+
+<Checklist
+  id="sanity-management"
+  title="Checklist de Manutenção de Sanidade:"
+  items={[
+    "Mantenha linha de visão direta com pelo menos um companheiro de equipe",
+    "Use o lampião a óleo para identificar e evitar armadilhas de miragem cintilantes",
+    "Mantenha os níveis de ruído baixos para evitar gatilhos de eventos que drenam a sanidade",
+    "Utilize sais de ressurreição imediatamente se um aliado colapsar devido à loucura",
+    "Estabeleça verificações verbais para confirmar se um jogador que retornou está possuído"
+  ]}
+/>
+
+<Callout type="warning" title="A Ameaça de Possessão">
+Quando um companheiro de equipe se afasta e perde a comunicação por voz, ele pode ser controlado pela selva. Trate os jogadores que retornam com cautela até que sua identidade seja verificada.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais plataformas suportam o beta e o lançamento completo de The Mound: Omen of Cthulhu?",
+    answer: "O jogo está disponível para PC (Steam e Epic Games Store), PlayStation 5 e Xbox Series, com suporte total a cross-play habilitado desde o primeiro dia."
+  },
+  {
+    question: "Posso jogar sozinho ou o cooperativo é obrigatório?",
+    answer: "Embora o jogo tenha sido construído do zero para o cooperativo de quatro jogadores, um modo single-player está totalmente disponível para jogadores que preferem enfrentar a selva sozinhos."
+  },
+  {
+    question: "Como desbloquear novos pontos de partida na selva?",
+    answer: "Você deve explorar a selva, localizar fortes abandonados de expedições anteriores e recuperar seus diários de bordo para desbloquear permanentemente esses locais para incursões futuras."
+  },
+  {
+    question: "O que acontece quando sua sanidade chega a zero?",
+    answer: "Sua visão distorce, armadilhas aparecem disfarçadas de caminhos seguros e você pode perder a comunicação com sua equipe. Eventualmente, você pode ser possuído pela selva para caçar seus aliados."
+  }
+]} />
+
+<Callout type="tip" title="Guia da Comunidade">
+Continue coordenando com sua tripulação, compartilhe recursos no galeão e garanta os diários de bordo dos fortes para conquistar as profundezas do Montículo!
+</Callout>
+
+</Section>

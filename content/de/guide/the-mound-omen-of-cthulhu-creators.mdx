@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Die Schöpfer von The Mound Omen of Cthulhu: Entwicklungs- & Gameplay-Leitfaden",
+  description: "Entdecken Sie die Vision der Schöpfer von The Mound: Omen of Cthulhu beim ACE Team. Erfahren Sie mehr über die einzigartige Wahnsinnsmechanik, Koop-Horror-Strategien und Details zum Release 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mound+Creators+Guide",
+  date: "2026-07-19",
+  author: "the mound omen of cthulhu Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Die Schöpfer von The Mound: Omen of Cthulhu**: Entwickelt vom **ACE Team**, bekannt für ihre einzigartige künstlerische Vision und surreale Weltenbildung.
+- **Kern-Gameplay**: Ein Koop-Horror-Erlebnis für 2026, das sich auf Dschungelerkundung, Ressourcenmanagement und den Erhalt der geistigen Gesundheit konzentriert.
+- **Schlüsselmechanik**: Das **Wahnsinnssystem** verändert die Wahrnehmung der Spieler und erschwert die Zusammenarbeit, während der Dschungel „erwacht“.
+- **Überlebensstrategie**: Priorisieren Sie Schleichen und Schätze gegenüber Kämpfen, da Schusswaffen Lärm erzeugen, der das gesamte Ökosystem alarmiert.
+- **Veröffentlichungsdatum**: Offiziell für den **15. Juli 2026** auf PC, PS5 und Xbox Series Plattformen geplant.
+</Callout>
+
+<Section icon={User} title="Die kreative Vision des ACE Teams">
+
+Die **Schöpfer von The Mound: Omen of Cthulhu**, das ACE Team, haben sich einen Ruf für die Gestaltung einiger der visuell markantesten und mechanisch experimentellsten Titel der Spielebranche erarbeitet. Unter der Leitung von Art Director **Edmundo Bordeaux** hat das Team seine Expertise im Surrealismus in den Bereich des Lovecraft-Horrors übertragen. Im Gegensatz zu herkömmlichen Horrorspielen, die auf Jump-Scares setzen, haben sich die Schöpfer auf „atmosphärisches Grauen“ und das Gefühl konzentriert, an einem Ort zu sein, der die Existenz des Spielers grundlegend ablehnt.
+
+**Video-Highlights:**
+- **Künstlerische Ausrichtung**: Edmundo Bordeaux diskutiert das Design des Dschungels als eine uralte, gleichgültige Entität.
+- **Gameplay-Schleife**: Von der Sicherheit der Galeone bis in die Tiefen des verfluchten Dschungels.
+- **Wahnsinnsmechanik**: Wie die Umgebung die Wahrnehmung der Spieler täuscht, um Zweifel zu säen.
+- **Kampfrisiken**: Der Kompromiss zwischen der Nutzung mächtiger Schusswaffen und der Aufrechterhaltung der Tarnung.
+
+<YouTubeEmbed videoId="g5xhFgI69FU" title="The Mound: Omen of Cthulhu - Official Gameplay Showcase Trailer | Nacon Connect 2026" />
+
+Die Entwicklungsphilosophie hinter dem Spiel betont, dass der Dschungel schon lange vor der Ankunft der Spieler existierte. Dies erzeugt ein Gefühl von „kosmischer Gleichgültigkeit“, bei der die Umgebung nicht für die Bequemlichkeit des Spielers entworfen wurde. Die Schöpfer möchten, dass sich die Trupps wie Eindringlinge in einer Welt mit ihren eigenen alten Regeln fühlen.
+
+| Entwicklungsaspekt | Detail |
+| :--- | :--- |
+| **Hauptentwickler** | **ACE Team** |
+| **Art Director** | Edmundo Bordeaux |
+| **Publisher** | Nacon |
+| **Engine** | Proprietäre/Fortschrittliche visuelle Systeme |
+| **Kernthema** | Lovecraft-Koop-Survival |
+
+<Callout type="tip" title="Einblick der Entwickler">
+Die Schöpfer betonen, dass es in „The Mound“ nicht nur um das Bekämpfen von Monstern geht; es geht darum, „die Regeln zu verstehen, bevor die Regeln dich verstehen“. Beobachtung ist oft wertvoller als Munition.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Erkundung und Umweltmechaniken">
+
+In **The Mound: Omen of Cthulhu** fungiert die Umgebung als primärer Antagonist. Das Spiel ist um Expeditionen strukturiert, die in der Sicherheit einer vor der Küste verankerten Galeone beginnen. Die Spieler müssen sich in den Dschungel wagen, um Schätze zu bergen und sie zum Schiff zurückzubringen. Je tiefer der Trupp jedoch vordringt, desto stärker reagiert der Dschungel auf ihre Anwesenheit.
+
+Die **Schöpfer von The Mound: Omen of Cthulhu** haben ein „Lebender Dschungel“-System entwickelt, bei dem sich die Karte basierend auf den Aktionen der Spieler entwickelt. Das Aufteilen kann helfen, schneller mehr Boden zu bedecken, macht aber einzelne Mitglieder anfällig für die seltsamen Kreaturen, die im Gebüsch leben.
+
+<CardGrid cols={3}>
+  <Card title="Die Küstenlinie">
+    - **Sicherheitszone**
+    - Nähe zur Galeone
+    - Beutechancen mit geringem Risiko
+  </Card>
+  <Card title="Der verfluchte Dschungel">
+    - **Dynamische Umgebung**
+    - Wahnsinn-zehrende Atmosphäre
+    - Unvorhersehbare Kreaturen-Spawns
+  </Card>
+  <Card title="Uralte Ruinen">
+    - **Hohe Belohnung**
+    - Komplexe Rätsel und Fallen
+    - Heimat der tödlichsten Entitäten
+  </Card>
+</CardGrid>
+
+| Erkundungsphase | Risikostufe | Primäres Ziel | Überlebenspriorität |
+| :--- | :--- | :--- | :--- |
+| **Erste Landung** | Niedrig | Ausrüstungsverteilung | Plündern |
+| **Tiefer Dschungel** | Mittel | Schatzsuche | Wahnsinnsmanagement |
+| **Extraktion** | Hoch | Erreichen des Ruderboots | Gruppenzusammenhalt |
+
+<Callout type="warning" title="Umweltgefahr">
+Der Dschungel ist nur dann „nachsichtig“, wenn er schläft. Übermäßiger Lärm oder Gewalt werden den „Dschungel wecken“, was die Aggressivität und Häufigkeit von Monsterbegegnungen erheblich erhöht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Ressourcenmanagement">
+
+Der Kampf in diesem Titel ist eher ein verzweifelter letzter Ausweg als eine primäre Gameplay-Säule. Die **Schöpfer von The Mound: Omen of Cthulhu** haben eine strenge Ressourcenökonomie implementiert, die sich um Schießpulver und Lärm dreht. Schusswaffen sind zwar effektiv bei der Neutralisierung von Bedrohungen, aber sie sind laut und begrenzt.
+
+Jeder abgegebene Schuss ist ein Signal an den Dschungel. Das „Lärmsystem“ verfolgt den akustischen Fußabdruck des Trupps; sobald ein bestimmter Schwellenwert erreicht ist, „erwacht“ der Dschungel, und das Überleben wird exponentiell schwieriger. Die Spieler müssen entscheiden, wann sie standhalten und kämpfen und wann sie um ihr Leben zurück zum Ruderboot rennen.
+
+<Steps>
+  <Step num="1" title="Erste Ausrüstungsverteilung">
+    Der Kapitän der Galeone stellt die Basisausrüstung zur Verfügung. Diese Ausrüstung muss strategisch auf die Truppmitglieder aufgeteilt werden, bevor das Schiff verlassen wird.
+  </Step>
+  <Step num="2" title="Heimliches Plündern">
+    Bewegen Sie sich leise durch den Dschungel. Nutzen Sie Nahkampf oder Umgebungsfallen, um kleinere Bedrohungen zu bewältigen, ohne die gesamte Karte zu alarmieren.
+  </Step>
+  <Step num="3" title="Lärmmanagement">
+    Wenn Sie in ein Feuergefecht gezwungen werden, setzen Sie Schusswaffen sparsam ein. Stellen Sie sicher, dass der Trupp bereit ist, sich sofort nach einer lauten Begegnung weiterzubewegen.
+  </Step>
+  <Step num="4" title="Schatzextraktion">
+    Sobald die Beute gesichert ist, priorisieren Sie den Rückweg. Der Verlust eines Freundes ist während der spannungsgeladenen Extraktionsphase oft „unvermeidlich“.
+  </Step>
+</Steps>
+
+| Waffentyp | Effektivität | Lärmprofil | Munitionsverfügbarkeit |
+| :--- | :--- | :--- | :--- |
+| **Schusswaffen** | **Sehr hoch** | **Extrem** | Sehr begrenzt |
+| **Nahkampfwerkzeuge** | Moderat | Geräuschlos | N/V (Haltbarkeitsbasiert) |
+| **Fallen/Ablenkungen** | Strategisch | Niedrig | Herstellbar |
+
+<Callout type="success" title="Strategie-Tipp">
+Lassen Sie immer mindestens ein Mitglied des Trupps mit einem vollen Magazin Schießpulver für die Extraktionsphase zurück. Auf dem Weg zurück zum Ruderboot benötigen Sie am ehesten überwältigende Feuerkraft.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Das Wahnsinns- und Wahrnehmungssystem">
+
+Eines der innovativsten Features, das von den **Schöpfern von The Mound: Omen of Cthulhu** eingeführt wurde, ist das Wahnsinnssystem. Wenn die Spieler tiefer in den Dschungel vordringen, beginnt ihre geistige Gesundheit zu schwinden. Dies ist nicht nur ein Statusbalken; es beeinflusst aktiv die Wahrnehmung der Spielwelt durch den Spieler.
+
+Wenn die geistige Gesundheit niedrig ist, beginnt der Dschungel, Sie zu „täuschen“. Sie sehen möglicherweise Teamkollegen, wo sie nicht sind, hören Stimmen, die nicht existieren, oder erleben atmosphärische Verschiebungen, die herannahende Bedrohungen verbergen. Dies schafft Momente echten Zweifels zwischen den Spielern, was die Zusammenarbeit sowohl schwieriger als auch essenzieller macht.
+
+<Checklist
+  id="sanity-maintenance"
+  title="Checkliste zur Bewahrung der geistigen Gesundheit:"
+  items={[
+    "Bleiben Sie in Sichtweite Ihrer Teamkollegen",
+    "Vermeiden Sie längeren Kontakt mit verfluchten Artefakten",
+    "Ruhen Sie sich wenn möglich in ausgewiesenen „Ruhezonen“ aus",
+    "Beobachten Sie das Verhalten Ihrer Teamkollegen auf Anzeichen von „Halluzinationen“",
+    "Verteilen Sie Gegenstände zur Wiederherstellung der geistigen Gesundheit gleichmäßig"
+  ]}
+/>
+
+| Wahnsinnsstufe | Visuelle Effekte | Audioeffekte | Auswirkungen auf den Trupp |
+| :--- | :--- | :--- | :--- |
+| **Stabil** | Klare Sicht | Standardmäßige Dschungelgeräusche | Volle Zusammenarbeit |
+| **Flackernd** | Schattenbewegungen | Leises Flüstern | Leichte Verwirrung |
+| **Zerbrochen** | **Falsche Entitäten** | **Schreie/Irreführende Hinweise** | Hohes Risiko für Eigenbeschuss |
+
+<Callout type="info" title="Wahrnehmungsmechaniken">
+Die Schöpfer haben das System entworfen, um „echte Momente des Zweifels“ zu schaffen. Wenn Sie einen Teamkollegen in der Ferne stillstehen sehen, ist er vielleicht gar nicht wirklich da. Die Kommunikation über Voice-Chat ist der einzige Weg, die Realität zu überprüfen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Launch-Details und Plattformanforderungen">
+
+Die **Schöpfer von The Mound: Omen of Cthulhu** haben bestätigt, dass das Spiel am **15. Juli 2026** verfügbar sein wird. Der Titel wird für Hardware der aktuellen Generation entwickelt, um sicherzustellen, dass die dichten Dschungelumgebungen und komplexen Wahnsinnseffekte mit hoher Wiedergabetreue gerendert werden.
+
+Die Spieler erwartet eine herausfordernde Erfahrung, die Geduld und taktisches Denken über „Run-and-Gun“-Mechaniken belohnt. Die Steam-Seite weist bereits darauf hin, dass das Spiel „intensive Gewalt, Blut und Grauen“ enthält und damit seinen reifen Lovecraft-Wurzeln treu bleibt.
+
+<CardGrid cols={2}>
+  <Card title="Unterstützte Plattformen">
+    - **PC (Steam/Epic)**
+    - **PlayStation 5**
+    - **Xbox Series X/S**
+  </Card>
+  <Card title="Vorbesteller-Vorteile">
+    - **20 % Launch-Rabatt**
+    - Exklusive „Galeonen“-Skins
+    - Frühzeitiger Zugriff auf die Demo
+  </Card>
+</CardGrid>
+
+| Plattform | Zielauflösung | Ziel-Bildrate | Besondere Merkmale |
+| :--- | :--- | :--- | :--- |
+| **PC** | Bis zu 4K | Unbegrenzt | Raytracing-Schatten |
+| **PS5** | 4K (Dynamisch) | 60 FPS | DualSense-Haptik |
+| **Xbox Series X** | 4K | 60 FPS | Quick Resume-Unterstützung |
+
+<Callout type="warning" title="Systemanforderungen">
+Aufgrund der „Lebender Dschungel“-Simulation empfehlen die Schöpfer, das Spiel auf einer SSD zu installieren, um die Ladezeiten während der dynamischen Umgebungsverschiebungen zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Mound: Omen of Cthulhu FAQ">
+
+<FAQ items={[
+  {
+    question: "Wer sind die Schöpfer von The Mound: Omen of Cthulhu?",
+    answer: "Das Spiel wird vom ACE Team entwickelt, einem Studio mit Sitz in Chile, das für Titel wie Zeno Clash und Eternal Cylinder bekannt ist. Das Projekt wird von Art Director Edmundo Bordeaux geleitet."
+  },
+  {
+    question: "Ist das Spiel solo spielbar?",
+    answer: "Obwohl das Spiel als Koop-Horror-Erlebnis für Trupps konzipiert ist, haben die Schöpfer Skalierungsmechaniken für Solospieler eingebaut, auch wenn dies den Schwierigkeitsgrad und den Druck auf das Wahnsinnsmanagement erheblich erhöht."
+  },
+  {
+    question: "Was passiert, wenn man im Dschungel stirbt?",
+    answer: "Der Verlust eines Teamkollegen ist ein zentraler Bestandteil des Erlebnisses. Während Sie versuchen können, deren Beute zu bergen, sollte Ihre oberste Priorität Ihr eigenes Überleben sein und die Rückkehr zum Ruderboot mit den Schätzen, die Sie haben."
+  },
+  {
+    question: "Wann ist das offizielle Veröffentlichungsdatum?",
+    answer: "The Mound: Omen of Cthulhu soll am 15. Juli 2026 für PC, PlayStation 5 und Xbox Series X/S erscheinen."
+  }
+]} />
+
+</Section>

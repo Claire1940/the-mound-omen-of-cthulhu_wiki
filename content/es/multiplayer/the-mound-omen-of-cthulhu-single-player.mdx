@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound Omen of Cthulhu para un jugador: Guía de supervivencia en solitario",
+  description: "Domina los desafíos de jugar The Mound: Omen of Cthulhu en solitario. Aprende sobre el progreso offline, la gestión de la cordura y estrategias de equipamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Solo+Survival+Guide",
+  date: "2026-07-19",
+  author: "Equipo de la Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu single player, supervivencia en solitario, guía, modo offline"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Confirmación de modo solitario**: El desarrollador ACE Team ha confirmado el soporte completo para un jugador en modo offline.
+- **Prioridad de sigilo**: El ruido despierta a la selva, por lo que las armas silenciosas son esenciales para sobrevivir en solitario.
+- **Gestión de la cordura**: Sin compañeros para verificar la realidad, los jugadores en solitario deben comprobar dos veces todas las señales visuales.
+- **Puntos de control en fuertes**: Desbloquear fuertes abandonados mediante los diarios de bitácora es crítico para evitar repetir largos trayectos.
+- **Economía de recursos**: Los jugadores en solitario conservan toda la comida y el equipo recolectado, pero sufren por la capacidad de carga limitada.
+</Callout>
+
+<Section icon={Shield} title="Confirmación del modo solitario y descripción de las mecánicas">
+
+Aventurarse en las oscuras selvas lovecraftianas de la Sudamérica del siglo XVI en **The Mound: Omen of Cthulhu para un jugador** ofrece una experiencia única, aterradora y atmosférica. Aunque diseñado desde cero para soportar el modo cooperativo de cuatro jugadores, el desarrollador ACE Team ha confirmado oficialmente que el juego cuenta con un modo para un jugador offline totalmente funcional. Esto garantiza que los exploradores solitarios puedan experimentar toda la campaña sin depender del emparejamiento o de una conexión activa a Internet.
+
+Jugar en solitario cambia fundamentalmente la dinámica del juego. En el modo cooperativo, los jugadores confían en el chat de voz de proximidad para coordinar movimientos, compartir recursos y verificar si los horrores que ven son reales o meras alucinaciones. En el modo para un jugador, estás completamente solo. No hay refuerzos para reanimarte si caes, ni un segundo par de ojos para detectar trampas ocultas en la densa maleza. Cada decisión, desde elegir tu equipo inicial en el galeón hasta navegar por los senderos cambiantes de la selva maldita, tiene un peso inmenso.
+
+**Puntos destacados del vídeo:**
+- **Preparación de la expedición**: Cómo reunir equipo en el galeón antes de remar hacia tierra firme.
+- **Peligros de la selva**: Los peligros del ruido y cómo el sonido atrae a monstruos indescriptibles.
+- **Sistema de locura**: Ilusiones visuales, entornos empapados en sangre y trampas de espejismo.
+- **Progresión de fuertes**: Uso de fuertes abandonados como puntos de control permanentes para una exploración más profunda.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Tráiler oficial de descripción del juego" />
+
+Para ayudarte a entender en qué se diferencia la experiencia en solitario del modo cooperativo estándar, revisa las principales diferencias de juego que se detallan a continuación.
+
+| Característica | Juego en solitario | Juego cooperativo |
+| :--- | :--- | :--- |
+| **Verificación de cordura** | Debe confiar totalmente en el juicio personal | Puede contrastar las ilusiones con los aliados |
+| **Mecánica de reanimación** | Limitada a objetos de autorreanimación | Reanimación en equipo mediante interacción de proximidad |
+| **Economía de recursos** | Todos los objetos y comida se guardan para uno mismo | Los recursos deben dividirse entre los jugadores |
+| **Sigilo y sonido** | Más fácil de mantener un silencio absoluto | Alto riesgo de activar ruidos accidentales |
+| **Foco del combate** | La agresividad se centra totalmente en ti | Los enemigos dividen su atención entre el grupo |
+
+<Callout type="info" title="Perspectiva del desarrollador">
+Los desarrolladores de ACE Team diseñaron el modo offline para asegurar que los jugadores que prefieren el horror atmosférico y de ritmo pausado puedan disfrutar de la narrativa y el entorno sin la presión de la coordinación multijugador.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipo esencial y configuración de carga para solitario">
+
+Antes de abandonar la seguridad de tu galeón, debes firmar un contrato con el capitán para recibir tu equipo inicial. Debido a que el espacio del inventario es limitado y no tienes compañeros para llevar objetos especializados, tu equipamiento debe equilibrar las capacidades ofensivas, el sigilo y la utilidad.
+
+Las armas principales disponibles incluyen el mosquete, la ballesta y la espada. Para un explorador solitario, confiar en armas de fuego ruidosas como el mosquete es muy arriesgado. Disparar un mosquete produce un ruido inmenso, alertando instantáneamente a los monstruos cercanos y potencialmente desencadenando una cacería en la selva. La ballesta, aunque más lenta de recargar, ofrece ataques a distancia silenciosos que te permiten eliminar objetivos desde la seguridad. La espada sigue siendo tu arma cuerpo a cuerpo fiable de uso infinito para la autodefensa en distancias cortas.
+
+<CardGrid cols={3}>
+  <Card title="El explorador sigiloso">
+    - **Principal**: Ballesta para muertes silenciosas
+    - **Utilidad**: Lámpara de aceite para la navegación
+    - **Estrategia**: Evitar el combate directo, utilizar posiciones elevadas y esquivar grupos de enemigos.
+  </Card>
+  <Card title="El duelista pesado">
+    - **Principal**: Combo de espada y mosquete
+    - **Utilidad**: Sales de reanimación
+    - **Estrategia**: Usar el mosquete solo para amenazas de élite, luego reposicionarse rápidamente para perder el rastro.
+  </Card>
+  <Card title="El recolector de recursos">
+    - **Principal**: Solo espada (ahorra peso)
+    - **Utilidad**: Doble ración de comida
+    - **Estrategia**: Enfocarse en la velocidad, recolectar tesoros y desbloquear fuertes rápidamente.
+  </Card>
+</CardGrid>
+
+Tus objetos de utilidad son tan críticos como tu armamento. Debes gestionar cuidadosamente tus fuentes de luz y herramientas de supervivencia para navegar por el follaje oscuro y denso.
+
+| Arma | Alcance | Velocidad de recarga | Nivel de ruido | Mejor caso de uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mosquete** | Largo | Muy lenta | Extremadamente alto | Iniciar el combate contra objetivos grandes y aislados |
+| **Ballesta** | Medio | Lenta | Silencioso | Eliminar centinelas sin alertar a la manada |
+| **Espada** | Cuerpo a cuerpo | Ninguna | Silencioso | Ataques defensivos rápidos cuando te acorralan |
+
+| Objeto de utilidad | Función principal | Prioridad en solitario | Inconveniente clave |
+| :--- | :--- | :--- | :--- |
+| **Lámpara de aceite** | Ilumina los oscuros senderos de la selva | Alta | Puede revelar tu posición a los enemigos cercanos |
+| **Sales de reanimación** | Proporciona una red de seguridad de autorresurrección | Crítica | Ocupa un valioso espacio en el inventario |
+| **Provisiones de comida** | Restaura la salud y la resistencia | Media | Deben reponerse constantemente en el campo |
+
+<Callout type="tip" title="Consejo táctico">
+Lleva siempre la ballesta durante las incursiones en solitario. El sonido está especializado en la selva, y cualquier ruido fuerte puede abrumarte rápidamente con enemigos antes de que puedas recargar tu arma de fuego principal.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión en solitario y puntos de control en fuertes">
+
+La selva maldita no es un camino único y lineal. Está dividida en grandes áreas abiertas conectadas a través de viejos fuertes abandonados por expediciones anteriores. Para un jugador en solitario, atravesar estas zonas desde la orilla inicial cada vez es muy ineficiente y peligroso.
+
+Para progresar más profundamente en lo desconocido, tu objetivo principal debe ser localizar y desbloquear estos fuertes abandonados. Desbloquear un fuerte requiere encontrar el diario de bitácora perdido de la expedición anterior dentro de esa zona. Una vez recuperado, el fuerte se convierte en un punto de partida permanente para futuras incursiones, lo que te permite saltarte las áreas completadas y preservar tu salud y recursos para una exploración más profunda.
+
+<Steps>
+  <Step num="1" title="Asegurar suministros del galeón">
+    Selecciona tu equipamiento silencioso, toma el combustible necesario para la lámpara de aceite y rema hacia la orilla de tierra firme.
+  </Step>
+  <Step num="2" title="Localizar el diario de bitácora">
+    Busca en las ruinas y campamentos abandonados dentro de la zona para encontrar el diario de bitácora de la expedición anterior.
+  </Step>
+  <Step num="3" title="Despejar el perímetro del fuerte">
+    Elimina cualquier criatura inspirada en Cthulhu que aceche cerca de las puertas del fuerte para asegurar una entrada segura.
+  </Step>
+  <Step num="4" title="Activar el punto de control">
+    Usa el diario de bitácora en el altar central del fuerte para desbloquearlo permanentemente como lugar de inicio.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito de progresión">
+Desbloquear un fuerte guarda tu progreso de forma permanente. Incluso si sucumbes a la locura o a los monstruos en tu próxima incursión, puedes reiniciar directamente desde el fuerte desbloqueado en lugar del galeón.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de la locura y la cordura en solitario">
+
+La amenaza más insidiosa del juego no son los monstruos físicos, sino el complejo sistema de locura. A medida que te adentras en la selva, tu nivel de cordura disminuirá constantemente. Mientras que los jugadores en cooperativo pueden hablar entre ellos para confirmar si una amenaza visual es real, los jugadores en solitario deben navegar por este tormento psicológico completamente aislados.
+
+La baja cordura desencadena graves alucinaciones visuales y auditivas. El entorno puede aparecer repentinamente empapado en sangre, y trampas mortales pueden estar disfrazadas de espejismos inofensivos. Si reaccionas a una alucinación, desperdicias munición preciosa o expones tu posición. Si ignoras una trampa real pensando que es una ilusión, te arriesgas a una muerte instantánea.
+
+| Tipo de ilusión | Indicador visual | Impacto en el juego | Contramedida en solitario |
+| :--- | :--- | :--- | :--- |
+| **Empapado en sangre** | La pantalla se vuelve carmesí intenso | Oscurece enormemente la visión y la navegación | Muévete despacio y confía en tu brújula |
+| **Trampas de espejismo** | Pinchos o fosos resplandecientes | Causa daños graves si se pisa | Lanza una piedra pequeña o inspecciona de cerca antes de moverte |
+| **Susurros fantasmales** | Susurros y crujidos direccionales | Distrae de los pasos reales del enemigo | Confía en tus indicadores visuales por encima del audio localizado |
+| **Acechadores sombríos** | Figuras parpadeantes en la oscuridad | Induce pánico y desperdicia munición | No dispares a menos que el objetivo cargue activamente contra ti |
+
+<Callout type="warning" title="Peligro de cordura">
+Perder la cordura por completo hará que pierdas el control de tu personaje, lo que resultará en el fracaso inmediato de la incursión. Vigila los patrones de respiración de tu personaje y la estabilidad visual para calibrar tu nivel actual de locura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de supervivencia en solitario y preguntas frecuentes">
+
+Para asegurar tu supervivencia en las selvas malditas, prepárate siempre a fondo antes de abandonar el galeón. Usa esta lista de verificación para verificar tu preparación antes de cada expedición en solitario.
+
+<Checklist
+  id="solo-survival-checklist"
+  title="Lista de verificación previa a la expedición:"
+  items={[
+    "Verifica que la ballesta esté totalmente cargada y tengas virotes silenciosos",
+    "Equipa al menos una unidad de sales de reanimación en tu acceso rápido",
+    "Comprueba que tu lámpara de aceite tenga suficiente combustible para las ruinas oscuras",
+    "Localiza el fuerte desbloqueado más cercano en tu mapa antes de partir",
+    "Asegúrate de haber firmado el contrato del capitán para asegurar recompensas adicionales"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo final">
+La paciencia es tu mejor arma. En el juego en solitario, correr es casi siempre mejor que luchar. Reserva tus recursos de combate para cuando estés acorralado o para cuando asegures un diario de bitácora.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Es The Mound: Omen of Cthulhu para un jugador totalmente jugable offline?",
+    answer: "Sí, el desarrollador ACE Team ha confirmado que puedes jugar el juego completamente offline en el modo para un jugador. No necesitas una conexión activa a Internet para progresar en la campaña."
+  },
+  {
+    question: "¿Cómo cambia el sistema de locura al jugar en solitario?",
+    answer: "En el juego en solitario, el sistema de locura es mucho más desafiante porque no tienes compañeros para verificar si un peligro o enemigo es una alucinación. Debes inspeccionar cuidadosamente los objetos resplandecientes y gestionar tus niveles de cordura usando objetos."
+  },
+  {
+    question: "¿Puedo usar el mosquete de forma efectiva como jugador en solitario?",
+    answer: "Aunque el mosquete inflige un gran daño, su fuerte ruido alerta a toda la selva, lo que lo hace muy arriesgado para los jugadores en solitario. Se recomienda usar la ballesta silenciosa para el sigilo y guardar la espada para la defensa en distancias cortas."
+  },
+  {
+    question: "¿Los fuertes desbloqueados se mantienen entre las incursiones en solitario?",
+    answer: "Sí, una vez que localizas un diario de bitácora y desbloqueas un fuerte abandonado, este sirve como punto de control de inicio permanente para todas las expediciones futuras, permitiéndote saltarte las zonas anteriores."
+  }
+]} />
+
+</Section>

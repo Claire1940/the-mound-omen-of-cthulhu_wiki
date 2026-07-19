@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mound: Omen of Cthulhu já saiu? Guia de Lançamento e Configuração",
+  description: "Verifique se The Mound: Omen of Cthulhu já foi lançado, descubra as mecânicas de jogo, o sistema de loucura e o guia de configuração para este título de terror cooperativo.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Release+and+Setup+Guide",
+  date: "2026-07-19",
+  author: "Equipe da Wiki de The Mound: Omen of Cthulhu",
+  keywords: "the mound omen of cthulhu, lançamento, guia, terror cooperativo, mecânicas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Status de Lançamento**: Jogadores perguntando se **The Mound: Omen of Cthulhu já saiu** podem confirmar que o jogo foi lançado em 15 de julho de 2026.
+- **Plataformas Suportadas**: Disponível para PC (Steam), PlayStation 5 e Xbox Series X/S com cross-play total.
+- **Jogabilidade Principal**: Uma experiência de terror cooperativo para 4 jogadores ambientada em uma selva amaldiçoada da América do Sul no século XVI.
+- **Mecânica Chave**: Um sistema de loucura que distorce a sanidade, criando alucinações visuais e alterando o chat de voz especializado.
+- **Desconto de Lançamento**: Usuários do Steam podem garantir um desconto de lançamento de 20% durante a janela inicial de lançamento.
+</Callout>
+
+<Section icon={Map} title="Status de Lançamento: The Mound: Omen of Cthulhu já saiu?">
+
+Para os entusiastas de terror que querem saber se **The Mound: Omen of Cthulhu já saiu**, o jogo de sobrevivência cooperativa foi lançado oficialmente em **15 de julho de 2026**. Desenvolvido para plataformas modernas, este jogo de expedição Lovecraftiano suporta cross-play total, permitindo que esquadrões no PC, PlayStation 5 e Xbox Series X/S se unam perfeitamente. A fase inicial de lançamento apresenta um desconto introdutório especial no Steam, tornando este o momento ideal para grupos começarem sua jornada nas profundezas amaldiçoadas da selva sul-americana.
+
+**Destaques em Vídeo:**
+- **Foco em Co-op**: Projetado do zero para expedições cooperativas de 4 jogadores.
+- **Hub do Galeão**: Uma zona segura para planejar expedições, assinar contratos e gerenciar equipamentos.
+- **Sistema de Loucura**: Alucinações dinâmicas e distorção de som que desafiam a sanidade do jogador.
+- **Progressão**: Recuperação de diários de bordo de fortes abandonados para desbloquear locais de início mais profundos.
+
+<YouTubeEmbed videoId="oxItuu90xVI" title="The Mound: Omen of Cthulhu - Trailer Oficial de Visão Geral da Jogabilidade" />
+
+<Callout type="success" title="Promoção de Lançamento">
+O jogo está disponível atualmente com 20% de desconto de lançamento na [Loja Steam](https://store.steampowered.com/app/2569760/The_Mound_Omen_of_Cthulhu/). Garanta sua cópia cedo para aproveitar este preço promocional.
+</Callout>
+
+### Disponibilidade de Plataforma e Compra
+
+O jogo é distribuído nas principais lojas digitais. Abaixo está a matriz de disponibilidade atual para a fase de lançamento:
+
+| Plataforma | Loja | Suporte Cross-Play | Data de Lançamento |
+|:---|:---|:---|:---|
+| **PC** | Steam | Ativado | 15 de julho de 2026 |
+| **PlayStation 5** | PlayStation Store | Ativado | 15 de julho de 2026 |
+| **Xbox Series X/S** | Microsoft Store | Ativado | 15 de julho de 2026 |
+
+</Section>
+
+<Section icon={Swords} title="Jogabilidade Principal e Loop de Expedição">
+
+O loop de jogabilidade gira em torno de uma estrutura de expedição de alto risco. Sua equipe começa cada partida em um galeão do século XVI ancorado na costa. Aqui, a tripulação interage com o capitão, assina contratos e seleciona o equipamento inicial. Uma vez preparados, a equipe embarca em um barco a remo para chegar ao continente, onde a hostil selva sul-americana aguarda. O objetivo principal é localizar a entrada do "Mound" (O Monte), coletar tesouros valiosos e retornar ao galeão antes que o ambiente ou as criaturas à espreita dominem você.
+
+<Callout type="info" title="Preparação no Hub">
+Sempre coordene seu inventário no galeão antes de embarcar no barco a remo. Uma seleção desequilibrada de armas e itens utilitários pode levar ao fracasso precoce assim que você chegar ao continente.
+</Callout>
+
+### Opções de Equipamento Inicial
+
+Escolher o equipamento certo é crítico para a sobrevivência. Cada ferramenta serve a um propósito específico, equilibrando defesa, utilidade e capacidades de sobrevivência.
+
+<CardGrid cols={4}>
+  <Card title="Mosquete">
+    - **Alto dano à distância**
+    - Tempo de recarga longo
+    - Barulho alto alerta inimigos
+  </Card>
+  <Card title="Besta">
+    - **Ataques à distância silenciosos**
+    - Dano moderado
+    - Ideal para infiltração furtiva
+  </Card>
+  <Card title="Espada">
+    - **Defesa em combate corpo a corpo**
+    - Não requer munição
+    - Alto risco de receber dano
+  </Card>
+  <Card title="Lâmpada de Óleo">
+    - **Ilumina áreas escuras**
+    - Revela perigos ocultos
+    - Requer gerenciamento de óleo
+  </Card>
+</CardGrid>
+
+### Matriz de Utilidade de Equipamento
+
+Entender o papel de cada item ajuda a otimizar as funções da equipe. Use o guia a seguir para atribuir equipamentos aos membros do seu time:
+
+| Item | Função Principal | Munição/Recurso | Nível de Ruído |
+|:---|:---|:---|:---|
+| **Mosquete** | Defesa de alto dano | Pólvora/Balas | Alto |
+| **Besta** | Eliminações furtivas | ViROtes | Baixo |
+| **Espada** | Defesa corpo a corpo | Nenhum | Baixo |
+| **Lâmpada de Óleo** | Visibilidade do ambiente | Suprimento de óleo | Nenhum |
+| **Sais de Reanimação** | Reanimar aliados caídos | Cargas de uso único | Nenhum |
+
+</Section>
+
+<Section icon={Shield} title="Gerenciando o Sistema de Loucura">
+
+O ambiente neste cenário Lovecraftiano não é apenas fisicamente perigoso; ele ataca ativamente sua estabilidade mental. À medida que sua equipe se aventura mais fundo na selva, os níveis de sanidade caem, ativando um complexo sistema de loucura. A maldição se manifesta como alucinações visuais e auditivas, tornando difícil distinguir ameaças reais de ilusões. A selva tentará enganá-lo a cada passo, alterando a aparência do terreno e disfarçando armadilhas mortais como miragens inofensivas.
+
+<Callout type="warning" title="Perigo do Chat de Voz por Proximidade">
+Perder a proximidade física com seus companheiros de equipe corta a comunicação. Um jogador que vaga sozinho por muito tempo corre o risco de ser controlado pela selva, tornando-se uma ameaça hostil para os sobreviventes restantes.
+</Callout>
+
+Para combater os efeitos de drenagem de sanidade da selva, os jogadores devem seguir protocolos de sobrevivência estruturados. Use estes passos para gerenciar o estado mental da sua equipe durante uma expedição:
+
+<Steps>
+  <Step num="1" title="Manter Contato Visual">
+    Fique dentro do campo de visão de seus companheiros. A coesão do grupo ajuda a retardar a perda de sanidade e garante que alucinações visuais possam ser verificadas por outros.
+  </Step>
+  <Step num="2" title="Monitorar Dicas de Áudio">
+    Fique atento a mudanças sonoras especializadas. Se o chat de voz por proximidade começar a distorcer ou desaparecer inesperadamente, reagrupe-se imediatamente para evitar o isolamento.
+  </Step>
+  <Step num="3" title="Identificar Miragens">
+    Verifique caminhos ou baús suspeitos antes de interagir. Use a Lâmpada de Óleo para iluminar áreas e revelar se um caminho é real ou uma armadilha induzida pela loucura.
+  </Step>
+  <Step num="4" title="Utilizar Sais de Reanimação">
+    Mantenha Sais de Reanimação equipados em pelo menos dois jogadores. Se um companheiro sucumbir à loucura ou cair em combate, esses sais são essenciais para a recuperação.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de Expedição e Progressão">
+
+A progressão é alcançada ao completar contratos para o capitão do galeão e recuperar diários de bordo históricos. A selva é dividida em grandes áreas abertas conectadas por fortes antigos e abandonados de expedições anteriores. Garantir esses fortes os desbloqueia como pontos de partida para futuras incursões, permitindo que sua equipe ignore áreas iniciais e mergulhe direto em zonas mais profundas e recompensadoras.
+
+<Callout type="tip" title="Desbloqueio de Fortes">
+Foque em recuperar diários de bordo durante as primeiras incursões. Desbloquear fortes como checkpoints permanentes é mais valioso para a progressão a longo prazo do que carregar pequenas quantidades de tesouro.
+</Callout>
+
+### Checklist Pré-Expedição
+
+Antes de lançar sua próxima expedição do galeão, certifique-se de que sua equipe atende aos seguintes requisitos:
+
+<Checklist
+  id="expedition-prep"
+  title="Checklist de Prontidão para Expedição:"
+  items={[
+    "Assinar o contrato do capitão no galeão",
+    "Distribuir armas uniformemente (pelo menos um Mosquete e uma Besta)",
+    "Designar um jogador como o Portador da Lâmpada dedicado",
+    "Confirmar que todos os jogadores têm o chat de voz por proximidade ativado",
+    "Localizar o forte desbloqueado mais próximo no mapa de expedição"
+  ]}
+/>
+
+### Detalhes de Progressão de Área
+
+Conforme você se move da costa para as ruínas internas, a dificuldade e os perigos ambientais aumentam proporcionalmente:
+
+| Zona | Nível de Perigo | Principais Riscos | Recompensas Chave |
+|:---|:---|:---|:---|
+| **Costa da Selva** | Baixo | Poças de lama, vida selvagem básica | Suprimentos básicos, relíquias menores |
+| **Fortes Abandonados** | Médio | Armadilhas, colapsos estruturais | Diários de bordo, checkpoints iniciais |
+| **Selva Interior** | Alto | Drenagem pesada de sanidade, monstros | Artefatos raros, baús de alto valor |
+| **Entrada do Monte** | Extremo | Colapso de sanidade, encontros com chefes | Tesouros antigos, itens de contrato final |
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<Callout type="info" title="Visão Geral do FAQ">
+Encontre respostas rápidas sobre detalhes de lançamento, mecânicas de jogo e recursos de plataforma abaixo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "O jogo The Mound: Omen of Cthulhu já saiu para compra?",
+    answer: "Sim, o jogo foi lançado oficialmente em 15 de julho de 2026. Está disponível para compra no PC via Steam, PlayStation 5 e Xbox Series X/S."
+  },
+  {
+    question: "O jogo suporta cross-play entre PC e consoles?",
+    answer: "Sim, o jogo apresenta suporte total a cross-play entre PC, PlayStation 5 e Xbox Series X/S desde o dia do lançamento."
+  },
+  {
+    question: "O que acontece quando a sanidade de um jogador chega a zero?",
+    answer: "A sanidade baixa desencadeia alucinações visuais e auditivas graves, como ambientes encharcados de sangue e armadilhas falsas. Se um jogador se afastar demais e perder o contato, ele pode ser controlado pela selva para caçar seus companheiros."
+  },
+  {
+    question: "Como desbloquear novos pontos de partida para expedições?",
+    answer: "Os jogadores devem localizar e proteger fortes abandonados dentro da selva. Recuperar os diários de bordo encontrados dentro desses fortes os desbloqueia permanentemente como pontos de partida para futuras expedições."
+  }
+]} />
+
+</Section>
